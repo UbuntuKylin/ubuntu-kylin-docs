@@ -1,0 +1,64 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      style="task"
+      id="display-dimscreen">
+
+  <info>
+    <link type="guide" xref="prefs-display"/>
+    <link type="guide" xref="power#problems"/>
+    <link type="guide" xref="hardware-problems-graphics"/>
+    <link type="seealso" xref="power-whydim"/>
+    <link type="seealso" xref="display-lock"/>
+    <revision pkgversion="3.7.1" version="0.3" date="2012-11-16" status="outdated"/>
+    <revision version="13.10" date="2013-09-07" status="review"/>
+    <desc>Dim the screen to save power or increase the brightness to make it
+    more readable in bright light.</desc>
+    <credit type="author">
+      <name>GNOME Documentation Project</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Natalia Ruz Leiva</name>
+      <email>nruz@alumnos.inf.utfsm.cl </email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+  <title>Set screen brightness</title>
+
+  <p>You can change the brightness of your screen to save power or to make the
+  screen more readable in bright light. You can also have the screen dim
+  automatically when on battery power and have it turn off automatically when
+  not in use.</p>
+
+  <steps>
+    <title>Set the brightness</title>
+  <item><p>Click the icon at the very right of the <gui>menu bar</gui> and select <gui>System Settings</gui>.</p></item>
+    <item><p>Select <gui>Brightness &amp; Lock</gui>.</p></item>
+    <item><p>Adjust the <gui>Brightness</gui> slider to a comfortable value.</p></item>
+  </steps>
+
+  <note style="tip">
+    <p>Many laptop keyboards have special keys to adjust the brightness. These
+    have a picture that looks like the sun and are located on the function
+    keys at the top. Hold down the <key>Fn</key> key to use these keys.</p>
+  </note>
+
+  <p>Select <gui>Dim screen to save power</gui> to have the brightness
+  automatically lowered when you're on battery power. The backlight of your
+  screen can take a lot of power and significantly reduce how long your battery
+  will last before it needs to be recharged.</p>
+
+  <p>The screen will automatically turn off after you haven't used it for a
+  while. This only affects the display, and doesn't turn off your computer.
+  You can adjust how long you have to be inactive with the <gui>Turn screen off
+  when inactive for</gui> option.</p>
+</page>

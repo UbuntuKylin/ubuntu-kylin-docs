@@ -1,0 +1,38 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="unity-launcher-menu">
+  <info>
+    <link type="guide" xref="unity-launcher-intro#launcher-using"/>
+
+    <revision version="13.10" date="2014-02-16" status="outdated"/>
+
+    <credit type="author">
+      <name>Stephen M. Webb</name>
+      <email>stephen@ubuntu.com</email>
+    </credit>
+
+    <desc>Right clicking a Launcher Icon reveals a menu of actions.</desc>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+  <title>The Launcher Icon Menus</title>
+
+  <p>Right clicking on a Launcher icon will reveal a menu of actions.  The
+     actions available depend on whether the icon is locked to the launcher or
+     not, if the icons is for an application whether it's running or not, and on
+     the specific icon itself.  Available actions can include the following.</p>
+  <list>
+    <item><p>launching the application or opening the document, folder, or
+              device</p></item>
+    <item><p>unlocking the icon from the Launcher if it was previously
+             locked (see <link xref="shell-apps-favorites"/>)</p></item>
+    <item><p>locking the icon to the Launcher if it was previously not locked 
+             (see <link xref="shell-apps-favorites"/>)</p></item>
+    <item><p>quitting the application if it's running</p></item>
+    <item><p>switching between application instances or windows if there is more
+             than one instance or window</p></item>
+    <item><p>application-specific shortcuts such as open a new document or
+             window</p></item>
+  </list>
+
+</page>

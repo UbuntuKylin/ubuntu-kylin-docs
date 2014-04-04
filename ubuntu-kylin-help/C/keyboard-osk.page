@@ -1,0 +1,42 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="keyboard-osk">
+  <info>
+    <link type="guide" xref="keyboard" group="a11y"/>
+    <link type="guide" xref="a11y#mobility" group="keyboard"/>
+
+    <revision pkgversion="3.7.1" version="0.3" date="2012-11-16" status="outdated"/>
+    <revision version="13.10" date="2013-10-23" status="review"/>
+    <credit type="author">
+      <name>Jeremy Bicha</name>
+      <email>jbicha@ubuntu.com</email>
+    </credit>
+    <credit type="author">
+       <name>Julita Inca</name>
+       <email>yrazes@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    <desc>
+     Use an on-screen keyboard to enter text by clicking buttons with the mouse.
+    </desc>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+  <title>Use a screen keyboard</title>
+
+  <p>If you don't have a keyboard attached to your computer or prefer not to use
+  it, you can turn on the <em>screen keyboard</em> to enter text.</p>
+
+  <steps>
+   <item><p>Click the icon at the very right of the menu bar and select <gui>System Settings</gui>.
+   </p></item>
+   <item><p>Open <gui>Universal Access</gui> and select the <gui>Typing</gui> tab.
+   </p></item>
+   <item><p>Switch on <gui>Typing Assistant</gui> to show the screen keyboard.</p>
+   </item>
+  </steps>
+
+</page>

@@ -1,0 +1,92 @@
+﻿<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="addremove-install">
+
+  <info>
+    <credit type="author">
+      <name>Ubuntu Documentation Team</name>
+    </credit>
+    <desc>
+      Use the Ubuntu Software Center to add programs and make Ubuntu more 
+      useful.
+    </desc>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+    <link type="guide" xref="addremove" group="#first"/>
+    <link type="seealso" xref="addremove-remove"/>
+    <link type="seealso" xref="addremove-install-synaptic"/>
+    <link type="seealso" xref="prefs-language-install"/>
+    <revision version="13.10" date="2013-10-25" status="review"/>
+  </info>
+
+  <title>
+    Install additional software
+  </title>
+
+  <p>
+    The Ubuntu development team has chosen a default set of applications that we 
+    think makes Ubuntu very useful for most day-to-day tasks. However, you will 
+    certainly want to install more software to make Ubuntu more useful to you.
+  </p>
+
+  <p>
+    To install additional software, complete the following steps:
+  </p>
+
+  <steps>
+    <item>
+      <p>
+        Connect to the Internet using a <link 
+        xref="net-wireless-connect">wireless</link> or <link 
+        xref="net-wired-connect">wired connection</link>.
+      </p>
+    </item>
+    <item>
+      <p>
+        Click the <app>Ubuntu Software Center</app> icon in the 
+        <gui>Launcher</gui>, or search for <input>Software Center</input> in the 
+        <gui>Dash</gui>.
+      </p>
+    </item>
+    <item>
+      <p>
+        When the Software Center launches, search for an application, or select 
+        a category and find an application from the list.
+      </p>
+    </item>
+    <item>
+      <p>
+        Select the application that you are interested in and click 
+        <gui>Install</gui>.
+      </p>
+    </item>
+    <item>
+      <p>
+        You will be asked to enter your password. Once you have done that the 
+        installation will begin.
+      </p>
+    </item>
+    <item>
+      <p>
+        The installation usually finishes quickly, but could take a while if you 
+        have a slow Internet connection.
+      </p>
+    </item>
+    <item>
+      <p>
+        A shortcut to your new app will be added to the Launcher. To disable 
+        this feature, uncheck <guiseq><gui>View</gui><gui>New Applications in 
+        Launcher</gui></guiseq>.
+      </p>
+    </item>
+  </steps>
+  
+  <!-- The Software Center help hasn't even been updated for Unity yet, so no 
+  need to link there
+  <p>
+    For more information about using the <app>Ubuntu Software Center</app>, 
+    consult the <link href="help:software-center">Ubuntu Software Center 
+    Manual</link>.
+  </p>
+  -->
+
+</page>

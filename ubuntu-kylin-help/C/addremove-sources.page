@@ -1,0 +1,110 @@
+﻿<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="addremove-sources">
+
+  <info>
+    <credit type="author">
+      <name>Ubuntu Documentation Team</name>
+    </credit>
+    <desc>
+      Add other repositories to extend the software sources Ubuntu uses for 
+      installation and upgrades.
+    </desc>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+    <link type="guide" xref="addremove"/>
+    <revision version="13.10" date="2013-10-25" status="review"/>
+  </info>
+
+  <title>
+    Add additional software repositories
+  </title>
+
+  <p>
+    Software is available from third-party sources, as well as from the default 
+    Ubuntu software repositories. If you want to install software from a 
+    third-party software repository, you must add it to Ubuntu's list of 
+    available repositories.
+  </p>
+
+  <note style="warning">
+    <p>
+      Only add software repositories from sources that you trust!
+    </p>
+    <p>
+      Third-party software repositories are not checked for security or 
+      reliability by Ubuntu members, and may contain software which is harmful 
+      to your computer.
+    </p>
+  </note>
+
+  <steps>
+    <title>
+      Install other repositories
+    </title>
+    <item>
+      <p>
+        Click on the <app>Ubuntu Software Center</app> icon in the Launcher, or 
+        search for Ubuntu Software Center in the search bar of the 
+        <app>Dash</app>.
+      </p>
+    </item>
+    <item>
+      <p>
+        When the Software Center launches, click <guiseq><gui>Edit</gui>
+        <gui>Software Sources</gui></guiseq>
+      </p>
+    </item>
+    <item>
+      <p>
+        You will be asked to enter your password. Once you have done that, 
+        switch to the <gui>Other Software</gui> tab.
+      </p>
+    </item>
+    <item>
+      <p>
+        Click <gui>Add</gui> and enter the APT line for the repository. This 
+        should be available from the website of the repository, and should look 
+        similar to:
+      </p>
+      <p>
+        <code>deb http://archive.ubuntu.com/ubuntu/ saucy main</code>
+      </p>
+    </item>
+    <item>
+      <p>
+        Click <gui>Add Source</gui> then close the Software Sources window. 
+        Ubuntu Software Center will then check your software sources for new 
+        updates.
+      </p>
+    </item>
+  </steps>
+
+  <section id="canonical-partner">
+    <title>
+      Activate the Canonical Partner repository
+    </title>
+    <p>
+      The Canonical Partner repository offers some proprietary applications 
+      that don't cost any money to use but are closed source. They include 
+      software like <app>Skype</app>, <app>Adobe Reader</app> and <app>Adobe 
+      Flash Plugin</app>. Software in this repository will appear in Ubuntu 
+      Software Center search results but won't be installable until this 
+      repository is enabled.
+    </p>
+    <p>
+      To enable the repository, follow the steps above to open the <gui>Other 
+      Software</gui> tab in <app>Software Sources</app>. If you see the 
+      <gui>Canonical Partners</gui> repository in the list, make sure it is 
+      checked then close the Software Sources window. If you don't see it, click 
+      <gui>Add</gui> and enter:
+    </p>
+    <p>
+      <code>deb http://archive.canonical.com/ubuntu saucy partner</code>
+    </p>
+    <p>
+      Click <gui>Add Source</gui> then close the Software Sources window. Wait a 
+      moment for Ubuntu Software Center to download the repository information.
+    </p>
+  </section>
+
+</page>

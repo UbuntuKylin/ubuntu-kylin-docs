@@ -1,0 +1,132 @@
+<page xmlns="http://projectmallard.org/1.0/"
+	xmlns:ui="http://projectmallard.org/ui/1.0/"
+  type="topic" style="task" version="1.0 ui/1.0"
+  id="unity-menubar-intro">
+
+  <info>
+    <link type="guide" xref="index" group="unity-menubar-intro"/>
+    <link type="guide" xref="shell-overview#desktop"/>
+
+    <desc>The menu bar is the dark strip on the top of your screen.</desc>
+
+    <revision version="14.04" date="2014-03-05" status="review"/>
+
+    <credit type="author">
+      <name>Ubuntu Documentation Team</name>
+    </credit>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+  <title>Manage apps &amp; settings with the menu bar</title>
+
+  <comment>
+    <p><link href="http://askubuntu.com/questions/30334/list-of-application-indicators">additional indicators</link></p>
+  </comment>
+
+  <p>The <gui>menu bar</gui> is the dark strip on the top of your screen.
+    It contains the window management buttons, the app menus, and the status menus.</p>
+
+<section id="window-management">
+  <title>Window management buttons</title>
+  <p>The <gui>window management buttons</gui> are on the top left corner of windows. When
+    maximized, the buttons are in the top left of the screen. Click the buttons to
+    close, minimize, maximize or restore windows.</p>
+</section>
+
+<section id="app-menus">
+  <title>App menus</title>
+  <p>The <gui>app menus</gui> are by default located to the right of the window management buttons.
+    Unity hides the app menus and the window management buttons unless you move your
+    mouse pointer to the top left of the screen or press <keyseq><key>Alt</key><key>F10</key></keyseq>.
+    This feature enables you to see more of your content at once, which is
+    especially valuable on small screens like netbooks.
+  </p>
+
+  <p>If you want, you can change the default behavior, and have your menus attached
+    to the window title bar of respective application instead of the menu bar.</p>
+
+  <steps>
+    <item>
+      <p>Click the icon at the very right of the menu bar and select
+        <gui>System Settings</gui>.</p>
+    </item>
+    <item>
+      <p>In the Personal section, click <gui>Appearance</gui> and choose the
+        <gui>Behavior</gui> tab.</p>
+    </item>
+    <item>
+      <p>Under <gui>Show the menus for a window</gui>, select <gui>In the window's title bar</gui>.</p>
+    </item>
+  </steps>
+
+</section>
+
+
+<section id="status-menus">
+  <title>Status menus</title>
+  <p>Ubuntu has several different <gui>status menus</gui> (sometimes referred to as
+    <gui>indicators</gui>) on the right side of the menu bar.
+    The status menus are a convenient place where you can check and modify the
+    state of your computer and applications.</p>
+
+
+  <list ui:expanded="false">
+  <title>List of status menus and what they do</title>
+
+    <item>
+      <p><em>Bluetooth menu</em> <media type="image" mime="image/svg" src="/usr/share/icons/ubuntu-mono-light/status/24/bluetooth-active.svg">Bluetooth icon</media></p>
+      <p>Send or receive files by <link xref="bluetooth">Bluetooth</link>. This menu
+        is hidden if a supported Bluetooth device isn't detected.</p>
+    </item>
+
+    <item>
+      <p><em>Network menu</em> <media type="image" mime="image/svg" src="/usr/share/icons/ubuntu-mono-light/status/24/network-offline.svg">Offline network icon</media></p>
+      <p>Connect to <link xref="net-wired-connect">wired</link>, <link xref="net-wireless-connect">wireless</link>,
+        <link xref="net-mobile">mobile</link>, and <link xref="net-vpn-connect">VPN</link> networks.</p>
+    </item>
+
+    <item>
+      <p><em>Input source menu</em> <media type="image" mime="image/svg" src="/usr/share/icons/ubuntu-mono-light/status/22/indicator-keyboard-En.svg">Input source icon</media></p>
+      <p>Select keyboard layout/input source, <link xref="keyboard-layouts">configure input sources</link>.</p>
+    </item>
+
+    <item>
+      <p><em>Messaging menu</em> <media type="image" mime="image/svg" src="/usr/share/icons/ubuntu-mono-light/status/24/indicator-messages.svg">Message icon</media></p>
+      <p>Easily launch and receive incoming notifications from messaging applications
+         including email, social networking, and Internet chat.</p>
+    </item>
+
+    <item>
+      <p><em>Battery menu</em> <media type="image" mime="image/svg" src="/usr/share/icons/ubuntu-mono-light/status/24/battery-100.svg">Battery icon</media></p>
+      <p>Check your laptop battery's charging status. This menu is
+       hidden if a battery isn't detected.</p>
+    </item>
+
+    <item>
+      <p><em>Sound menu</em> <media type="image" mime="image/svg" src="/usr/share/icons/ubuntu-mono-light/status/24/audio-volume-high-panel.svg">Volume icon</media></p>
+      <p>Set the <link xref="sound-volume">volume</link>, configure sound <link xref="media">settings</link>,
+        and control media players like <app>Rhythmbox</app>.</p>
+    </item>
+
+    <item>
+      <p><em>Clock</em></p>
+      <p>Access the current time and date. Appointments from your
+        <link xref="clock-calendar">Evolution calendar</link> can also display here.</p>
+    </item>
+
+    <item>
+      <p><em>System menu</em> <media type="image" mime="image/svg" src="/usr/share/icons/ubuntu-mono-light/status/22/system-devices-panel.svg">Power cog icon</media></p>
+      <p>Access details about your computer, this help guide, and <link xref="prefs">system settings</link>.
+        Switch users, lock screen, log out, suspend, restart or shutdown your computer.</p>
+      <note><p>Some of the icons used by the indicator menus change according to the status of the application.</p></note>
+      <p>Other programs such as <app>Tomboy</app> or <app>Transmission</app> can also add indicator menus to the panel.</p>
+    </item>
+
+  </list>
+
+  <comment>
+    <cite date="2011-02-22" href="https://ubuntuaccessibility.wordpress.com/2011/02/22/indicators-and-accessibility/">Penelope Stowe</cite>
+    <p>Indicators and Accessibility</p>
+  </comment>
+
+</section>
+</page>

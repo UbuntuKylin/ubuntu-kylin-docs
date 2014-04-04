@@ -1,0 +1,95 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="whats-new">
+
+  <info>
+    <link type="guide" xref="index" group="whats-new"/>
+    <link type="guide" xref="shell-overview" group="#first"/>
+
+    <desc>Improvements in the latest version of Ubuntu.</desc>
+
+    <revision version="14.04" date="2014-03-20" status="review"/>
+    <credit type="author">
+      <name>Jeremy Bicha</name>
+      <email>jbicha@ubuntu.com</email>
+    </credit>
+    <credit type="editor">
+       <name>Ubuntu Kylin 文档团队</name>
+       <email>luolei@ubuntukylin.com</email>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+  <title>Ubuntu Kylin 14.04 有哪些新特性？</title>
+
+<p>Ubuntu Kylin 是基于 Ubuntu 的中文开源操作系统，底层基于 Linux 和 X/Mir，上层共享 Ubuntu 众多特性，并针对中文用户需求，在 SDK、UI 以及生态应用软件等各方面进行增强。以下是 Ubuntu Kylin 14.04 LTS 的一些新特性：
+</p>
+
+<section id="new-features">
+  <title>New and improved features</title>
+
+<list>
+
+  <item><p>
+    基于天河二号云平台建立 Ubuntu Kylin 软件仓库；并针对 14.04 发布了 Ubuntu Kylin 软件中心尝鲜版，界面简洁，同时支持 Ubuntu 和 Ubuntu Kylin 软件仓库，便于快速安装 Ubuntu Kylin 团队为您定制的中文特色软件。
+  </p></item>
+
+  <item><p>
+    针对中文用户的系统需求，在中文化、裁剪优化和系统美化等方面做到贴心的系统定制，满足细腻的用户体验。
+  </p></item>
+
+  <item><p>
+    开发<app>优客助手</app>、<app>小企鹅输入法面板</app>等特色软件，满足更多中文桌面用户的系统管理和使用需求；与商业公司联合开发<app>金山快盘</app>、<app>WPS</app>、<app>搜狗输入法</app>等 Linux 版本商业软件，打造更加完善的 Linux 生态链。
+  </p></item>
+
+  <item><p>
+    更开创了 <link href="http://www.ubuntukylin.com/Community/">Ubuntu Kylin 社区</link>，通过“最美中国”壁纸征集、Ubuntu SDK 全球系统公开课中国区活动、发布派对、在线知识库平台、积分商场等线上线下社区互动，以活动促进开源文化推广、促进开源技术交流。Ubuntu Kylin 社区随时欢迎您的参与，时刻准备着为您提供帮助。
+  </p></item>
+
+  <item><p>The menus of the currently focused application are by default available
+    in Ubuntu's integrated <link xref="unity-menubar-intro#app-menus">menu bar</link>.
+    However, if you want you can switch to the conventional style and show the app
+    menus in the window title bar of respective application instead (this latter
+    option is new since Ubuntu 13.10).</p></item>
+
+  <item><p>Support added for scaling Unity on a per-monitor basis, which allows for a
+    better experience on high-DPI displays. Similar scaling support is also available
+    in LibreOffice and Chromium.</p></item>
+
+  <item><p>Improved look and style including rounded window decorations, a new
+    interface for screen unlock, and other tweaks to the theme.</p></item>
+
+  <item><p>The <link xref="keyboard-layouts">integrated <gui>Text Entry</gui> interface</link>
+    and the related input source <link xref="unity-menubar-intro#status-menus">
+    status menu</link> are designed to set both keyboard layout and IBus input methods.</p></item>
+
+  <item><p>A number of improvements have been made to the <gui>Dash</gui>:</p>
+    <list>
+      <item><p>The <gui>Dash</gui> may now search dozens of different online sources simultaneously.
+        The Internet-based searches <link xref="unity-shopping">may be disabled</link>.</p></item>
+
+      <item><p>The <gui>Dash</gui> search results may be filtered by category and source..</p></item>
+
+      <item><p>Right-clicking on a search result in the <gui>Dash</gui> will display a full-screen preview with more information.</p></item>
+
+      <item><p>Use the <link xref="unity-dash-photos">photos lens</link> to view
+        photos from your computer or from your social networks.</p></item>
+
+      <item><p>Add or remove scopes from the <gui>Dash</gui> to customize your
+           experience.</p></item>
+
+      <item><p>Browse messages from your social networks with the new
+        <link xref="unity-dash-friends">Friends scope</link>.</p></item>
+    </list>
+  </item>
+
+  <item><p>Enter your credentials in <link xref="accounts">Online Accounts</link>
+    to easily set up online integration for the Dash, Empathy, and more.</p></item>
+
+  <item><p>Keep track of contact information for your friends and colleagues with
+    <link xref="contacts">Contacts</link>, your personal address book.</p></item>
+
+</list>
+</section>
+</page>

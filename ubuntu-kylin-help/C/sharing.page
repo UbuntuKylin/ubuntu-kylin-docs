@@ -1,0 +1,30 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="guide" style="task"
+      id="sharing">
+  <info>
+
+    <link type="guide" xref="net" group="#sharing"/>
+
+    <desc>
+      <link xref="sharing-desktop">Desktop sharing</link>,
+      <link xref="files-share">Share files</link>,
+      <link xref="sharing-remote-login">remote login</link>…
+    </desc>
+
+    <revision version="14.04" date="2014-03-06" status="review"/>
+
+    <credit type="author">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ubuntu Documentation Team</name>
+      <email>ubuntu-doc@lists.ubuntu.com</email>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+<title>Sharing</title>
+
+</page>

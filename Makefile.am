@@ -1,0 +1,1 @@
+SUBDIRS = ubuntu-kylin-help

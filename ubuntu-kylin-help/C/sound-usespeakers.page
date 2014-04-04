@@ -1,0 +1,53 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="sound-usespeakers">
+  <info>
+    <link type="guide" xref="media#sound"/>
+    <link type="seealso" xref="sound-usemic"/>
+
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="outdated"/>
+    <revision version="13.10" date="2013-10-23" status="review"/>
+    <desc>Connect speakers or headphones and select a default audio output device.</desc>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+  <title>Use different speakers or headphones</title>
+
+  <p>You can use external speakers or headphones with your computer. Speakers
+  usually either connect using a circular TRS (<em>tip, ring, sleeve</em>) plug
+  or with USB.</p>
+
+  <p>If your speakers or headphones have a TRS plug, plug it into the appropriate
+  socket on your computer. Most computers have two sockets: one for microphones
+  and one for speakers. Look for a picture of headphones next to the socket.
+  Speakers or headphones plugged into a TRS socket will usually be used by default.
+  If not, see the instructions below for selecting the default device.</p>
+
+  <p>Some computers support multi-channel output for surround sound. This usually
+  uses multiple TRS jacks, which are often color-coded. If you are unsure which
+  plugs go in which sockets, you can test the sound output in the sound settings.
+  Click the <gui>sound menu</gui> on the <gui>menu bar</gui> then click
+  <gui>Sound Settings</gui>. Select your speakers in the list
+  of devices, then click <gui>Test Sound</gui>. In the pop-up window, click the
+  button for each speaker. Each button will speak its position only to the channel
+  corresponding to that speaker.</p>
+
+  <p>If you have USB speakers or headphones, or analog headphones plugged
+  into a USB sound card, plug them into any USB port. USB speakers act as
+  separate audio devices, and you may have to specify which speakers to
+  use by default.</p>
+
+  <steps>
+    <title>Select a default audio input device</title>
+    <item><p>Click the <gui>sound menu</gui> on the <gui>menu bar</gui> and select <gui>Sound Settings</gui>.</p></item>
+    <item><p>On the <gui>Output</gui> tab, select the device in the list of devices.</p></item>
+  </steps>
+
+  <p>If you don't see your device on the <gui>Output</gui> tab, check the
+  <gui>Hardware</gui> tab. Select your device and try different profiles.</p>
+</page>

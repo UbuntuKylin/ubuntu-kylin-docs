@@ -1,0 +1,44 @@
+﻿<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="uk-fcitx-qimpanel-wordlist">
+
+  <info>
+    <credit type="author">
+      <name>Ubuntu Kylin 文档团队</name>
+      <email>jingshi@ubuntukylin.com</email>
+    </credit>
+
+    <link type="guide" xref="uk-fcitx#qimpanel" group="#first"/>
+
+
+    <desc>
+      定制候选词显示风格。
+    </desc>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <revision version="14.04" date="2014-03-26" status="review"/>
+  </info>
+
+  <title>
+    候选词列表
+  </title>
+
+    <p><app>小企鹅输入法面板</app> 支持横向或纵向显示候选词列表。</p>
+
+  <steps>
+
+     <item>
+      <p>点击桌面右上角的输入法系统图标，弹出下拉菜单。 </p>
+    </item>
+
+     <item>
+      <p>选择 <gui>配置面板和皮肤</gui>，弹出 <gui>配置面板设置</gui> 窗口。 </p>
+    </item>
+
+     <item>
+      <p>在 <gui>外观</gui> 标签页选择候选词列表显示方向。 </p>
+    </item>
+
+  </steps>
+
+</page>

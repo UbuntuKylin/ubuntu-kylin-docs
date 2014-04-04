@@ -1,0 +1,68 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="addremove-remove">
+
+  <info>
+    <credit type="author">
+      <name>Ubuntu Documentation Team</name>
+    </credit>
+    <desc>
+      Remove software that you no longer use.
+    </desc>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+    <link type="guide" xref="addremove" group="#first"/>
+    <revision version="13.10" date="2013-10-25" status="review"/>
+  </info>
+
+  <title>
+    Remove an application
+  </title>
+
+  <p>
+    The <app>Ubuntu Software Center</app> helps you to remove software that you 
+    no longer use.
+  </p>
+    
+  <steps>
+    <item>
+      <p>
+        Click the <app>Ubuntu Software Center</app> icon in the 
+        <gui>Launcher</gui> or search for <input>Software Center</input> in the 
+        <gui>Dash</gui>.
+      </p>
+    </item>
+    <item>
+      <p>
+        When the Software Center opens, click the <gui>Installed</gui> button at 
+        the top.
+      </p>
+    </item>
+    <item>
+      <p>
+        Find the application that you want to remove by using the search box or 
+        by looking through the list of installed applications.
+      </p>
+    </item>
+    <item>
+      <p>
+        Select the application and click <gui>Remove</gui>.
+      </p>
+    </item>
+    <item>
+      <p>
+        You may be asked to enter your password. After you have done that, the 
+        application will be removed.
+      </p>
+    </item>
+  </steps>
+
+  <note>
+    <p>
+      Some applications depend on other applications to work properly. If you 
+      try to remove an application that is needed by another application, both 
+      will be removed. You will be asked to confirm whether you want this to 
+      happen before the applications are removed.
+    </p>
+  </note>
+
+</page>

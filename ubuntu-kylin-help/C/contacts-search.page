@@ -1,0 +1,65 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      xmlns:if="http://projectmallard.org/if/1.0/"
+      type="topic" style="task" version="1.0 if/1.0"
+      id="contacts-search">
+
+  <info>
+    <link type="guide" xref="contacts"/>
+
+    <revision pkgversion="3.5.5" date="2012-08-13" status="review"/>
+    <revision version="13.10" date="2013-09-07" status="review"/>
+
+    <credit type="author">
+      <name>Tiffany Antopolski</name>
+      <email its:translate="no">tiffany.antopolski@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="author editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <desc>Search for a contact.</desc>
+  </info>
+
+<title>Search for a contact</title>
+
+<if:choose>
+<if:when test="platform:unity"></if:when>
+  <p>You can search for an online contact in one of two ways:</p>
+
+  <steps>
+    <item>
+      <p>In the <gui>Activities</gui> overview, start typing the name of the
+      contact.</p>
+    </item>
+    <item>
+      <p>Matching contacts will appear in the overview instead of the usual list
+      of applications.</p>
+    </item>
+    <item>
+      <p>Press <key>Enter</key> to select the contact at the top of the list or
+      click the contact that you want to select if they are not at the
+      top.</p>
+    </item>
+  </steps>
+</if:choose>
+
+  <p>To search from inside <app>Contacts</app>:</p>
+
+  <steps>
+    <item>
+      <p>Click inside the search field.</p>
+    </item>
+    <item>
+      <p>Start typing the name of the contact.</p>
+    </item>
+  </steps>
+
+</page>

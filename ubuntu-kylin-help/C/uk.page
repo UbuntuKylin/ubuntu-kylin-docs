@@ -1,0 +1,37 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="guide" style="task"
+      id="uk">
+
+  <info>
+
+    <link type="guide" xref="index" group="uk" />
+
+    <title role="trail" type="link">Ubuntu Kylin 特色软件</title>
+
+    <desc>	
+      <link xref="uk-youker-assistant">优客助手</link>，
+      <link xref="uk-software-center">软件中心</link>，
+      <link xref="uk-fcitx">小企鹅输入法</link>，
+      <link xref="uk-dash">Dash 中文搜索</link>，
+      <link xref="uk-calendar">中国农历</link>，
+      <link xref="uk-weather">天气预报</link>，
+      <link xref="uk-kuaipan">金山快盘</link>，
+      <link xref="uk-wps">WPS</link>…
+    </desc>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="review"/>
+    <revision version="14.04" date="2014-03-24" status="review"/>
+    <credit type="author">
+      <name>Ubuntu Kylin 文档团队</name>
+      <email>luolei@ubuntukylin.com</email>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+<title>Ubuntu Kylin 特色软件</title>
+
+<links type="topic" style="toronto" groups="
+       assistant sc fcitx dash calendar weather wps kuaipan"/>
+
+</page>

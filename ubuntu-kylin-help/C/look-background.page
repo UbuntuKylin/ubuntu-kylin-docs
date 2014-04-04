@@ -1,0 +1,76 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      style="task"
+      id="look-background">
+
+  <info>
+    <link type="guide" xref="prefs-display"/>
+
+    <revision pkgversion="3.7.1" version="0.2" date="2012-11-16" status="outdated"/>
+    <revision version="13.10" date="2013-10-23" status="review"/>    
+    <desc>Set an image, color, or gradient as your desktop background.</desc>
+
+    <credit type="author">
+      <name>GNOME Documentation Project</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>April Gonzales</name>
+      <email>loonycookie@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Natalia Ruz Leiva</name>
+      <email>nruz@alumnos.inf.utfsm.cl </email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Andre Klapper</name>
+      <email>ak-47@gmx.net</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+<title>Change the desktop background</title>
+
+<p>You can change the image used for your desktop background, or set
+it to a simple color or gradient.</p>
+
+<steps>
+  <item><p>Right click on the desktop and select <gui>Change Desktop Background</gui>.</p></item>
+  <item><p>Select an image or color. The settings are applied immediately.
+  <link xref="shell-workspaces-switch">Switch to an empty workspace</link>
+  to view your entire desktop.</p></item>
+</steps>
+
+<p>There are three choices in the drop-down list on the top right.</p>
+<list>
+  <item><p>Select <gui>Wallpapers</gui> to use one of the many professional
+  background images that ship with Ubuntu. With the exception of the Ubuntu wallpaper,
+  all of the default wallpaper choices were created by winners of a Community 
+  Wallpaper Contest.</p>
+  <p>Some wallpapers are partially
+  transparent and allow a background color to show through. For these
+  wallpapers, there will be a color selector button in the bottom-right
+  corner.</p></item>
+  <item><p>Select <gui>Pictures Folder</gui> to use one of your own photos
+  from your Pictures folder. Most photo management applications
+  store photos there.</p></item>
+  <item><p>Select <gui>Colors &amp; Gradients</gui> to just
+  use a flat color or a linear gradient. Color selector buttons will appear
+  in the bottom right corner.</p></item>
+</list>
+
+<p>You can also browse for any picture on your computer by clicking
+the <gui>+</gui> button. Any picture you add this way will show up
+under <gui>Pictures Folder</gui>. You can remove it from the list
+by selecting it and clicking the <gui>-</gui> button. Removing a
+picture from the list will not delete the original file.</p>
+
+</page>

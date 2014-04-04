@@ -1,0 +1,96 @@
+<page xmlns="http://projectmallard.org/1.0/"
+	xmlns:ui="http://projectmallard.org/ui/1.0/"
+      type="guide" style="task"
+      id="uk-software-center">
+
+  <info>
+
+    <link type="guide" xref="uk" group="sc"/>
+    <title role="trail" type="link">Ubuntu Kylin 软件中心</title>
+
+    <desc>
+      <!--这里规定引用本文件的位置显示在主标题之下的小标题-->	
+      为提高本土化体验开发的软件管理工具，数据来自 Ubuntu 和 Ubuntu Kylin 软件源。
+    </desc>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="review"/>
+    <revision version="14.04" date="2014-4-1" status="review"/>
+    <credit type="author">
+      <name>Ubuntu Kylin 文档团队</name>
+      <email>luolei@ubuntukylin.com</email>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+<title>Ubuntu Kylin 软件中心</title>
+
+  <p>
+    <app>Ubuntu Kylin 软件中心</app>客户端是由 Ubuntu Kylin 团队开发的一款软件管理工具。其目的是为了提高软件本土化的体验，软件中心的安装包和相关的数据来自 Ubuntu 和 Ubuntu Kylin 软件源。
+  </p>
+
+<!--<section id="panel" style="1column">-->
+ <!--<list ui:expanded="false">-->
+ <list>
+ <title>软件中心界面</title>
+  <item>
+   <p><em>广告栏</em>：展示当前热门的软件。大部分软件可通过软件源直接安装，还有少数软件由于法律或其他原因没有放置在软件源中。对于源中的软件，点击广告将进入<em>软件详细</em>界面；对于源中没有的软件，点击广告将会跳转到软件的下载安装网页，请您根据网页提示手动安装。</p>
+  </item>
+
+  <item>
+   <p><em>推荐软件</em>：向新装系统用户推荐的“装机必备”软件。每款推荐软件都有当前安装状态显示，已经安装的软件会显示<gui>已安装</gui>，还未安装的软件会显示<em>安装</em>，系统识别到的已安装软件则会显示<em>启动</em>。</p>
+  </item>
+
+  <item>
+   <p><em>排行榜</em>：根据<gui>下载排行</gui>、<gui>评分排行</gui>等排序方式显示排名靠前的软件。<gui>下载排行</gui>按照软件用户下载量从高到低排序，<gui>评分排行</gui>按照用户评分从高到低排序。点击排行榜中的软件名将会跳转到<em>软件详情</em>界面。</p>
+  </item>
+
+  <item>
+   <p><em>软件分类</em>：分类列出所有软件。点击分类跳转到对应分类的<em>软件列表</em>。</p>
+  </item>
+
+  <item>
+   <p><em>软件详情</em>：软件详细信息。包括当前版本、可用最新版本、软件大小、软件评分、软件详细介绍、软件截图、用户评论等。在软件评分下方有<gui>安装</gui>、<gui>升级</gui>、<gui>卸载</gui>三个按钮，按钮为灰色时表示功能不可用。</p>
+  </item>
+
+  <item>
+   <p><em>软件列表</em>：当前软件类别下所有软件的列表。显示软件名及简介，软件的当前安装状态、安装版本及可用的最新版本，点击某个软件之后进入<em>软件详情</em>界面。</p>
+  </item>
+
+  <item>
+   <p><em>进度列表</em>：软件安装、升级的进度。软件安装进度分为<gui>下载进行中</gui>、<gui>安装进行中</gui>等状态，右侧还有一个停止按钮，点击将会<em>停止安装操作</em>，进入<gui>安装进行中</gui>状态之后无法停止。</p>
+  </item>
+
+ </list>
+<!--</section>-->
+
+ <!--<list ui:expanded="false">-->
+ <list>
+ <title>使用操作</title>
+  <item>
+   <p><em>搜索</em>：在软件中心右上角的搜索栏中输入搜索关键字，按 <key>Enter</key> 键显示包含对应关键字的<em>软件列表</em>。</p>
+  </item>
+
+  <item>
+   <p><em>安装</em>：在<em>软件详情</em>或<em>软件列表</em>页面点击<em>安装</em>按钮，会弹出授权窗口，输入管理员密码后开始安装，软件安装进度可在<em>进度列表</em>下查看。</p>
+  </item>
+
+  <item>
+   <p><em>升级</em>：在<em>软件详情</em>或<em>软件列表</em>页面点击<em>升级</em>按钮，会弹出授权窗口，输入管理员密码后开始升级，软件升级进度可在<em>进度列表</em>下查看。</p>
+  </item>
+
+  <item>
+   <p><em>卸载</em>：在<em>软件详情</em>或<em>软件列表</em>页面点击<em>卸载</em>按钮，会弹出授权窗口，输入管理员密码后开始卸载，软件卸载进度可在<em>进度列表</em>下查看。</p>
+  </item>
+
+  <item>
+   <p><em>停止安装</em>：点击安装按钮后，如果想停止安装，可进入<em>进度列表</em>界面，点击进度条后的小红叉停止对应软件的安装。注意：只有在软件还在<gui>下载进行中</gui>的状态时才能停止，进入到<gui>安装进行中</gui>状态后无法停止安装。</p>
+  </item>
+
+  <item>
+   <p><em>前进 &amp; 后退</em>：在软件中心面板上方有 <gui>&lt;</gui> 和 <gui>&gt;</gui> 按钮，分别是前进和后退功能：点击 <gui>&lt;</gui> 按钮返回上一个界面，点击 <gui>&gt;</gui> 按钮跳转到下一个界面。</p>
+  </item>
+
+ </list>
+
+</page>

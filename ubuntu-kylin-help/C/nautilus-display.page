@@ -1,0 +1,57 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="ui"
+      id="nautilus-display">
+
+  <info>
+    <link type="guide" xref="nautilus-prefs" group="nautilus-display"/>
+
+    <desc>Control icon captions used in the file manager.</desc>
+
+    <revision pkgversion="3.5.92" version="0.2" date="2012-09-19" status="review"/>
+    <revision version="14.04" date="2014-03-18" status="review"/>
+
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ubuntu Documentation Team</name>
+      <email>ubuntu-doc@lists.ubuntu.com</email>
+    </credit>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+    <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0"
+               xmlns:xlink="http://www.w3.org/1999/xlink"
+               xlink:type="simple" xlink:href="gnome-help.its"/>
+  </info>
+
+<title>File manager display preferences</title>
+
+<p>You can control how the file manager displays captions under icons.  Click
+<gui>Edit</gui> in the menu bar, pick <gui>Preferences</gui> and select the
+<gui>Display</gui> tab.</p>
+
+<section id="icon-captions">
+  <title>Icon captions</title>
+  <media type="image" src="figures/nautilus-icons.png"
+         width="250" height="110" style="floatend floatright">
+    <p>File manager icons with captions</p>
+  </media>
+  <p>When you use icon view, you can choose to have extra information about
+  files and folders displayed in a caption under each icon. This is useful,
+  for example, if you often need to see who owns a file or when it was last
+  modified.</p>
+  <p>You can zoom in a folder by clicking the <guiseq><gui>View</gui>
+  <gui>Zoom In</gui></guiseq> or press <keyseq><key>Ctrl</key><key>+</key></keyseq>.
+  As you zoom in, the file manager will display more and more information in captions.
+  You can choose up to three things to show in captions. The first will be displayed
+  at most zoom levels. The last will only be shown at very large sizes.</p>
+  <note><p>If you have a file manager window open, you may have to reload for icon
+  caption changes to take effect. Click <guiseq><gui>View</gui><gui>Reload</gui></guiseq>
+  or press <keyseq><key>Ctrl</key><key>R</key></keyseq>.</p></note>
+</section>
+
+</page>

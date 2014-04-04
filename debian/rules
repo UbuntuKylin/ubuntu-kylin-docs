@@ -1,0 +1,13 @@
+#!/usr/bin/make -f
+
+include /usr/share/cdbs/1/rules/debhelper.mk
+include /usr/share/cdbs/1/class/gnome.mk
+include /usr/share/cdbs/1/rules/utils.mk
+
+DEB_DH_BUILDDEB_ARGS := -- -Zxz
+
+makebuilddir/ubuntu-kylin-docs::
+	@gnome-autogen.sh --prefix=/usr
+	@echo "---"
+	@make -C ubuntu-kylin-help -f Makefile pot
+	@echo "---"

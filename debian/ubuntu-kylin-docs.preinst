@@ -1,0 +1,11 @@
+#! /bin/sh
+set -e
+
+if [ "$1" = upgrade ] && dpkg --compare-versions "$2" lt "11.10.1" ; then
+        update-alternatives --quiet --remove-all firefox-homepage || true
+fi
+
+#DEBHELPER#
+
+exit 0
+

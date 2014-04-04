@@ -1,0 +1,54 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:if="http://projectmallard.org/if/1.0/"
+      type="topic" style="task" version="1.0 if/1.0"
+      id="color-calibrate-scanner">
+
+  <info>
+    <link type="guide" xref="color#calibration"/>
+    <link type="seealso" xref="color-calibrationtargets" />
+    <link type="seealso" xref="color-calibrate-printer" />
+    <link type="seealso" xref="color-calibrate-screen" />
+    <link type="seealso" xref="color-calibrate-camera" />
+    <desc>Calibrating your scanner is important to capture accurate colors.</desc>
+
+    <revision version="13.10" date="2013-09-07" status="review"/>
+    <revision pkgversion="3.7.1" version="0.2" date="2012-11-16" status="outdated"/>
+
+    <credit type="author">
+      <name>Richard Hughes</name>
+      <email>richard@hughsie.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+  <title>How do I calibrate my scanner?</title>
+
+<if:choose>
+<if:when test="platform:unity">
+  <p>
+    You scan in your target file and save it as an uncompressed TIFF file.
+    You can then click <gui>Calibrate…</gui> from
+    <guiseq><gui>System Settings</gui><gui>Color</gui></guiseq> to
+    create a profile for the device.
+  </p>
+</if:when>
+  <p>
+    You scan in your target file and save it as an uncompressed TIFF file.
+    You can then click <gui>Calibrate…</gui> from
+    <guiseq><gui>System Settings</gui><gui>Color</gui></guiseq> to
+    create a profile for the device.
+  </p>
+</if:choose>
+
+  <note style="tip">
+    <p>
+      Scanner devices are incredibly stable over time and temperature
+      and do not usually need to be recalibrated.
+    </p>
+  </note>
+
+</page>

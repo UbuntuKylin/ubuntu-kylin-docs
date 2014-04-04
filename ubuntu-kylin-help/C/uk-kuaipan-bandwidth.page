@@ -1,0 +1,39 @@
+﻿<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="uk-kuaipan-bandwidth">
+
+  <info>
+    <credit type="author">
+      <name>Ubuntu Kylin 文档团队</name>
+      <email>luolei@ubuntukylin.com</email>
+    </credit>
+    <desc>
+      限制同步所能使用的最大上传/下载带宽。
+    </desc>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+    <link type="guide" xref="uk-kuaipan#preference"/>
+    <revision version="14.04" date="2014-03-28" status="review"/>
+  </info>
+
+  <title>
+    占用带宽设置
+  </title>
+
+  <p>您可以限制<gui>金山快盘</gui>在同步过程中能够达到的最大上传/下载速度，为其他网络程序的正常运行保留足够的带宽。</p>
+
+  <steps>
+
+     <item>
+      <p>单击桌面右上角的快盘图标，选择<guiseq><gui>首选项</gui><gui>网络</gui></guiseq>，单击<gui>带宽限制</gui>旁的<gui>更改设置</gui>按钮。</p>
+    </item>
+
+    <item>
+      <p>在弹出的<gui>带宽设置</gui>页面选择<gui>不限制</gui>，或选择<gui>限制为</gui>并输入限额。<gui>上传速度</gui>和<gui>下载速度</gui>可分别进行设置。</p>
+    </item>
+
+    <item>
+      <p>单击<gui>设置</gui>使更改生效。</p>
+    </item>
+  </steps>
+
+</page>

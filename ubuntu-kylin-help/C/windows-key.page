@@ -1,0 +1,70 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="question"
+      id="windows-key">
+
+  <info>
+    <link type="guide" xref="keyboard"/>
+    <desc>The Super key provides access to the Dash and the Launcher.</desc>
+    <revision version="14.04" date="2014-03-07" status="review"/>
+    <credit type="author">
+      <name>GNOME Documentation Project</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="editor">
+       <name>Ubuntu Documentation Team</name>
+       <email>ubuntu-doc@lists.ubuntu.com</email>
+    </credit>
+ 
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+<title>What is the "Super" key?</title>
+
+  <p>This key can usually be found on the bottom-left of your keyboard,
+ next to the <key>Alt</key> key, and usually has a window/squares icon on it. It
+ is sometimes called the Windows key, logo key, or system key.</p>
+
+<note>
+  <p>If you have an Apple keyboard, there will not be a Windows key on your
+ keyboard. The <key>⌘</key> (Command) key can be used instead.</p>
+</note>
+
+  <p>The Super key serves a special function in <em>Unity</em>. If you press the Super key,
+  the Dash is displayed. If you press <em>and hold</em> the Super key, an overlay showing
+  many of Unity's keyboard shortcuts appears until you release the Super key.</p>
+
+<p>The Super key can help you do even more than that, though. To learn about more uses for the <em>Super</em> key, see the <link xref="shell-keyboard-shortcuts">keyboard shortcuts</link> page.</p>
+
+<comment>
+  <p>Need to add info on changing the keybinding using the new preferences
+ windows.</p>
+</comment>
+
+<!--
+<p>To change which key is used to display the activities overview:</p>
+
+  <steps>
+    <item>
+      <p>Click your name on the menu bar and select <gui>System Settings</gui>.</p>
+    </item>
+    <item>
+      <p>Click <gui>Keyboard</gui>.</p>
+    </item>
+    <item>
+      <p>Click the <gui>Shortcuts</gui> tab.</p>
+    </item>
+    <item>
+      <p>Select <gui>System</gui> on the left side of the window, and
+      <gui>Show the activities overview</gui> on the right.</p>
+    </item>
+    <item>
+      <p>Click the current shortcut definition on the far right.</p>
+    </item>
+    <item>
+      <p>Hold down the desired key combination.</p>
+    </item>
+  </steps>
+-->
+
+
+</page>

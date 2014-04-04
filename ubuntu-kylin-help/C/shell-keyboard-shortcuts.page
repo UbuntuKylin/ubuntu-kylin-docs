@@ -1,0 +1,134 @@
+<page xmlns="http://projectmallard.org/1.0/" 
+	xmlns:ui="http://projectmallard.org/ui/1.0/"
+	type="topic" style="tip" version="1.0 ui/1.0"
+  id="shell-keyboard-shortcuts">
+
+  <info>
+    <link type="guide" xref="tips"/>
+    <link type="guide" xref="keyboard"/>
+    <link type="guide" xref="shell-overview"/>
+    <link type="seealso" xref="windows-key"/>
+    <desc>Get around the desktop using the keyboard.</desc>
+    <revision pkgversion="3.4.0" date="2012-03-14" status="candidate"/>
+    <revision version="13.10" date="2013-10-23" status="outdated"/>
+    <credit type="author copyright">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+      <years>2012</years>
+    </credit>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+<title>Useful keyboard shortcuts</title>
+
+<p>This page provides an overview of keyboard shortcuts that can help you
+use your desktop and applications more efficiently. If you cannot use a
+mouse or pointing device at all, see <link xref="keyboard-nav"/> for more
+information on navigating user interfaces with only the keyboard.</p>
+
+<table rules="rows" frame="top bottom" ui:expanded="true">
+<title>Getting around the desktop</title>
+  <tr>
+    <td><p><keyseq><key>Alt</key><key>F4</key></keyseq></p></td>
+    <td><p>Close the current window.</p></td>
+  </tr>
+  <tr xml:id="alt-f2">
+    <td><p><keyseq><key>Alt</key><key>F2</key></keyseq></p></td> <td><p>Pop up
+     command window (for quickly running commands)</p></td>
+  </tr>
+  <tr xml:id="alt-tab">
+    <td><p><keyseq><key>Alt</key><key>Tab</key></keyseq></p></td>
+    <td><p><link xref="shell-windows-switching">Quickly switch between
+     windows.</link>
+    Hold down <key>Shift</key> for reverse order.</p></td>
+  </tr>
+  <tr xml:id="alt-tick">
+    <td><p><keyseq><key>Alt</key><key>`</key></keyseq></p></td>
+    <td><p>Switch between windows from the same application, or from the selected
+    application after <keyseq><key>Alt</key><key>Tab</key></keyseq>.</p>
+    <p>This shortcut uses <key>`</key> on US keyboards, where the <key>`</key>
+    key is above <key>Tab</key>. On all other keyboards, the shortcut is
+    <key>Alt</key> plus whatever key is above <key>Tab</key>.</p></td>
+  </tr>
+  <tr>
+    <td><p><keyseq><key xref="windows-key">Super</key><key>S</key></keyseq></p></td>
+    <td><p>Activate the workspace switcher. Zoom out on all <link xref="shell-workspaces">workspaces</link>.</p></td>
+  </tr>
+  <tr>
+    <td><p><keyseq><key xref="windows-key">Super</key><key>W</key></keyseq></p></td>
+    <td><p>Activate "Expo" mode. Show all windows from current workspace.</p></td>
+  </tr>
+  <tr xml:id="ctrl-alt-updown">
+    <td><p><keyseq><key>Ctrl</key><key>Alt</key><key>Arrow keys</key></keyseq></p></td>
+    <td><p><link xref="shell-workspaces-switch">Switch between
+     workspaces.</link></p></td>
+  </tr>
+  <tr xml:id="ctrl-alt-shift-updown">
+    <td><p><keyseq><key>Ctrl</key><key>Alt</key><key>Shift</key><key>Arrow keys</key></keyseq></p></td>
+    <td><p><link xref="shell-workspaces-movewindow">Move the current window to a
+     different workspace.</link></p></td>
+  </tr>
+  <tr xml:id="ctrl-alt-Del">
+    <td><p><keyseq><key>Ctrl</key><key>Alt</key><key>Delete</key></keyseq></p></td>
+    <td><p><link xref="shell-exit">Log out.</link></p></td>
+  </tr>
+  <tr>
+    <td><p><keyseq><key>Ctrl</key><key xref="windows-key">Super</key><key>D</key></keyseq></p></td>
+    <td><p>Hide all windows and show the desktop. Press the keys again to restore your windows.</p></td>
+  </tr>
+  <tr xml:id="ctrl-alt-l">
+    <td><p><keyseq><key>Ctrl</key><key>Alt</key><key>L</key></keyseq></p></td>
+    <td><p><link xref="shell-exit#lock-screen">Lock the screen.</link></p></td>
+  </tr>
+</table>
+
+<table rules="rows" frame="top bottom" ui:expanded="false">
+<title>Common editing shortcuts</title>
+  <tr>
+    <td><p><keyseq><key>Ctrl</key><key>A</key></keyseq></p></td>
+    <td><p>Select all text or items in a list.</p></td>
+  </tr>
+  <tr>
+    <td><p><keyseq><key>Ctrl</key><key>X</key></keyseq></p></td>
+    <td><p>Cut (remove) selected text or items and place it on the clipboard.</p></td>
+  </tr>
+  <tr>
+    <td><p><keyseq><key>Ctrl</key><key>C</key></keyseq></p></td>
+    <td><p>Copy selected text or items to the clipboard.</p></td>
+  </tr>
+  <tr>
+    <td><p><keyseq><key>Ctrl</key><key>V</key></keyseq></p></td>
+    <td><p>Paste the contents of the clipboard.</p></td>
+  </tr>
+  <tr>
+    <td><p><keyseq><key>Ctrl</key><key>Z</key></keyseq></p></td>
+    <td><p>Undo the last action.</p></td>
+  </tr>
+</table>
+
+<table rules="rows" frame="top bottom" ui:expanded="false">
+<title>Capturing from the screen</title>
+  <tr>
+    <td><p><key>Print Screen</key></p></td>
+    <td><p><link xref="screen-shot-record#screenshot">Take a screenshot.</link></p></td>
+  </tr>
+  <tr>
+    <td><p><keyseq><key>Alt</key><key>Print Screen</key></keyseq></p></td>
+    <td><p><link xref="screen-shot-record#screenshot">Take a screenshot of a
+     window.</link></p></td>
+  </tr>
+  <tr>
+    <td><p><keyseq><key>Shift</key><key>Print Screen</key></keyseq></p></td>
+    <td><p><link xref="screen-shot-record#screenshot">Take a screenshot of an
+    area of the screen.</link> The pointer changes to a crosshair. Click and
+    drag to select an area.</p></td>
+  </tr>
+</table>
+
+  <comment>
+    <cite date="2011-04-24">jbicha</cite>
+    <p>Compiz has even more <link href="http://wiki.compiz.org/CommonKeyboardShortcuts">
+keyboard shortcuts</link>.</p>
+  </comment>
+
+</page>

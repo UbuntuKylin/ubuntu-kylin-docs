@@ -1,0 +1,63 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="topic" style="task"
+      id="shell-guest-session">
+
+  <info>
+    <link type="guide" xref="shell-overview#desktop" group="#last"/>
+    <link type="guide" xref="user-accounts#manage"/>
+
+    <desc>Let a friend or colleague borrow your computer in a secure manner.</desc>
+    <revision version="14.04" date="2014-02-17" status="review"/>
+    <credit type="author">
+      <name>Gunnar Hjalmarsson</name>
+      <email>gunnarhj@ubuntu.com</email>
+    </credit>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+<title>Launch a restricted guest session</title>
+
+<section id="restricted">
+<title>Temporary session with restricted privileges</title>
+
+<p>Once in a while a friend, family member, or colleague may want to borrow your computer.
+The Ubuntu <app>Guest Session</app> feature provides a convenient way,
+with a high level of security, to lend your computer to someone else. A guest session can
+be launched either from the login screen or from within a regular session. If you are currently
+logged in, click the icon at the far right of the <gui>menu bar</gui> and select <gui>Guest Session</gui>.
+This will lock the screen for your own session and start the guest session.</p>
+
+<p>A guest cannot view the home folders of other users, and by default
+any saved data or changed settings will be removed/reset at logout. It means that each
+session starts with a fresh environment, unaffected by what previous guests did.</p>
+
+</section>
+
+<section id="customize">
+<title>Customization</title>
+
+<p>The <link href="https://help.ubuntu.com/community/CustomizeGuestSession">
+Customize Guest Session</link> online tutorial explains how to customize
+the appearance and behavior.</p>
+
+</section>
+
+<section id="disable">
+<title>Disabling the feature</title>
+
+<p>If you prefer to not allow guest access to your computer, you can disable the <app>Guest
+Session</app> feature. To do so, press <keyseq><key>Ctrl</key><key>Alt</key><key>T</key></keyseq>
+to open a terminal window, and then run this command (it's one long command, even if it may be
+shown wrapped on the screen - copy and paste to get it right):</p>
+
+<p><cmd its:translate="no">sudo sh -c 'printf "[SeatDefaults]\nallow-guest=false\n" >/usr/share/lightdm/lightdm.conf.d/50-no-guest.conf'</cmd></p>
+
+<p>The command creates a small configuration file. To re-enable <app>Guest Session</app>, simply
+remove that file:</p>
+
+<p><cmd its:translate="no">sudo rm /usr/share/lightdm/lightdm.conf.d/50-no-guest.conf</cmd></p>
+
+</section>
+
+</page>

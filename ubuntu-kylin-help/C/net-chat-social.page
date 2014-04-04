@@ -1,0 +1,59 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="net-chat-social">
+  <info>
+    <link type="guide" xref="net-chat"/>
+
+    <revision version="13.10" date="2013-09-18" status="review"/>
+
+    <credit type="author">
+      <name>Ubuntu Documentation Team</name>
+    </credit>
+
+    <desc>Post to <em>Twitter</em>, <em>Facebook</em> and other social networking
+      sites directly from your desktop</desc>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+<title>Social networking from the desktop</title>
+
+  <p>
+    With Ubuntu you can post to your favorite social networking sites from your
+    desktop. Ubuntu uses the <app>Friends</app> scope to allow you to
+    organize your social networking sites in one place, and to post updates
+    from the <gui>Me Menu</gui> without opening any website.
+  </p>
+
+  <p> 
+    To set up your social networking accounts:
+  </p>
+  <steps>
+
+    <item><p>
+      Open the <link xref="unity-menubar-intro">System menu</link> on the right hand side of the menu bar and select "System Settings...".
+    </p></item>
+
+    <item><p>
+      Choose <gui>Online accounts</gui>
+    </p></item>
+
+    <item><p>
+      Choose the social networking site you want to set up and click <gui>Add Account...</gui>
+    </p></item>
+
+    <item><p>
+      Click <gui>Authorize</gui> and insert your account settings for that site,
+      and follow the instructions
+    </p></item>
+
+  </steps>
+
+  <p>
+    You can now view your social networking messages from the <link xref="unity-menubar-intro">
+    Messaging menu</link> 
+    on the right hand side of the menu bar, in the <gui>Broadcast</gui> section.
+    Click on any of the items in that section to open <gui>Friends</gui> scope
+    and to read or post messages to your social network.
+  </p>
+
+</page>

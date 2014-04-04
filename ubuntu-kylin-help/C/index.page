@@ -1,0 +1,37 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:e="http://projectmallard.org/experimental/"
+      type="guide" id="index" style="task">
+
+<info>
+    <title type='link'>Ubuntu Kylin 桌面指南</title>
+    <title type='text'>Ubuntu Kylin 桌面指南</title>
+    <title role="trail" type="link"><media type="image" mime="image/png" width="16"
+      height="16" src="figures/ubuntu-logo.png">Help</media> Ubuntu Kylin 桌面指南</title>
+    <revision version="13.10" date="2013-10-23" status="outdated"/>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+</info>
+
+<!-- Note: There can be little correlation with this file and what ends up being displayed via yelp or the compiled html.
+     To know what will end up in index.html use grep and search for "type=\"guide\" xref=\"index\"" or "xref=\"index\"".
+     And also know that inclusions can be cascaded, i.e. "whats-new" is included as a sub reference from
+     "unity-introduction", and so doesn't appear in the groups list.
+-->
+
+<title><media type="image" src="figures/ubuntu-logo.png">Ubuntu Kylin 图标</media> Ubuntu Kylin 桌面指南</title>
+<links type="topic" style="mouseovers"
+       groups="unity-introduction whats-new unity-launcher-intro unity-dash-intro unity-menubar-intro shell-exit">
+  <e:mouseover src="figures/unity.png"/>
+  <e:mouseover match="unity-introduction" src="figures/ubuntu-mascot-creature.jpg"/>
+  <e:mouseover match="unity-launcher-intro" src="figures/unity-launcher-intro.png"/>
+  <e:mouseover match="unity-dash-intro" src="figures/unity-dash-intro.png"/>
+  <e:mouseover match="unity-menubar-intro" src="figures/unity-appmenu-intro.png"/>
+  <e:mouseover match="shell-exit" src="figures/unity-exit.png"/>
+</links>
+
+<links type="topic" style="toronto" groups="
+       uk shell-overview
+       net media files addremove
+       prefs hardware
+       a11y tips more-help"/>
+</page>

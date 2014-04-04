@@ -1,0 +1,88 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:ui="http://projectmallard.org/experimental/ui/"
+      type="topic" style="task"
+      id="keyboard-shortcuts-set">
+  <info>
+    <link type="guide" xref="keyboard"/>
+    <link type="seealso" xref="shell-keyboard-shortcuts"/>
+
+    <revision pkgversion="3.7.1" version="0.2" date="2012-11-16" status="outdated"/>
+    <revision version="13.10" date="2013-10-23" status="review"/>
+    <credit type="author">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    <credit type="author">
+       <name>Julita Inca</name>
+       <email>yrazes@gmail.com</email>
+    </credit>
+    <desc>Define or change keyboard shortcuts in <gui>Keyboard</gui> settings.</desc>
+  </info>
+
+  <title>Set keyboard shortcuts</title>
+
+  <comment>
+    <cite date="2012-02-19" href="mailto:shaunm@gnome.org">Shaun McCance</cite>
+    <p>Define shortcuts, using Shortcuts tab in Keyboard settings. Provide
+    reference for what everything is (can group for conciseness). Explain
+    custom shortcuts.</p>
+    <p>Important: the window says "To edit a shortcut, click the row and hold
+    down the new keys or press Backspace to clear." This is actually wrong.
+    You have to click the row, then click again on the shortcut within the
+    row. File bug against control-center about the faulty message (or better,
+    about the confusing interaction), but make sure to explain correctly in
+    the help regardless.</p>
+  </comment>
+
+<p>To change the key or keys to be pressed for a keyboard shortcut:</p>
+
+  <steps>
+    <item>
+    <p>Click the icon at the very right of the menu bar and select <gui>System Settings</gui>.</p></item>
+    <item><p>Open <gui>Keyboard</gui> and select the <gui>Shortcuts</gui> tab.</p>
+    </item>
+    <item>
+      <p>Select a category in the left pane, and the row for the desired action
+      on the right. The current shortcut definition will change to
+      <gui>New accelerator…</gui></p>
+    </item>
+    <item>
+      <p>Hold down the desired key combination, or press <key>Backspace</key> to
+      clear.</p>
+    </item>
+  </steps>
+
+<section id="custom">
+<title>Custom shortcuts</title>
+
+<p>To create your own keyboard shortcut:</p>
+
+  <steps>
+    <item>
+      <p>Select <gui>Custom Shortcuts</gui> in the left pane, and click the
+      <key>+</key> button (or click the <key>+</key> button in any category).
+      The <gui>Custom Shortcut</gui> window will appear.</p>
+    </item>
+    <item>
+      <p>Type a <gui>Name</gui> to identify the shortcut, and a
+      <gui>Command</gui> to run an application, then click <gui>Apply</gui>.
+      For example, if you wanted the shortcut to open Rhythmbox, you could name
+      it <input>Music</input> and use the <input>rhythmbox</input> command.</p>
+    </item>
+    <item>
+      <p>Click <gui>Disabled</gui> in the row that was just added. When it
+      changes to <gui>New accelerator…</gui>, hold down the desired shortcut
+      key combination.</p>
+    </item>
+  </steps>
+ <p>The command name that you type should be a valid system command. You
+ can check that the command works by opening a Terminal and typing it in
+ there. The command that opens an application may not have exactly the
+ same name as the application itself.</p>
+
+ <p>If you want to change the command that is associated with a custom keyboard
+ shortcut, double-click the <em>name</em> of the shortcut. The
+ <gui>Custom Shortcut</gui> window will appear, and you can edit the command.</p>
+</section>
+
+</page>

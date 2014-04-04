@@ -1,0 +1,93 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      style="task"
+      id="session-loginsound">
+
+  <info>
+    <link type="guide" xref="media#sound" group="#last"/>
+    <desc>Disable the sound that plays when you log in.</desc>
+
+    <revision version="12.10" date="2012-09-20" status="outdated"/>
+    
+    <credit type="author">
+      <name>GNOME Documentation Project</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+
+    <credit type="author">
+      <name>Ubuntu Documentation Project</name>
+      <email>ubuntu-doc@lists.ubuntu.com</email>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+  <title>Disable the login sound</title>
+  <p>
+   When you log in to your computer, a short login sound is played. The exotic-sounding theme was inspired by the African origins of the word <em>Ubuntu</em>. You can easily disable it for yourself or for all users of your computer.
+  </p>  
+
+  <steps>
+    <title>Disable the login sound for yourself</title>
+    <item><p>Click the icon at the very right of the menu bar and select <gui>System Settings</gui>.</p></item>
+    <item><p>In the Personal section, select <gui>Startup Applications</gui>.</p></item>
+    <item><p>Uncheck the <gui>GNOME Login Sound</gui> option.</p></item>
+  </steps>
+
+  <steps>
+    <title>Disable the login sound for all users</title>
+    <item><p>Click the icon at the very right of the menu bar and select <gui>System Settings</gui>.</p></item>
+    <item><p>In the System section, select <gui>Login Screen</gui>.</p></item>
+    <item><p>Click <gui>Unlock</gui> and enter your password into the popup authentication window.</p></item>
+    <item><p>Uncheck the <gui>Play login sound</gui> option.</p></item>
+  </steps>
+
+<!--Do we really want users changing this file? -jbicha 2011-04-26
+ <p>
+ To change the login sound, make sure the above <gui>GNOME Login Sound</gui> is checked. Then follow these steps:
+ </p>
+ <steps>
+     <item>
+  <p>
+  <link xref="search">Search for file</link> desktop-login.ogg in the folder <gui>File System</gui>.
+  </p>
+  </item>
+  <item>
+  <p>
+   The file location will show in the <gui>Search results</gui>.  The file should be located in <cmd>usr/share/sound/&lt;your distro&gt;/stereo</cmd> where &lt;your distro&gt; is a file named Ubuntu, Freedesktop or other.
+  </p>
+  </item>
+     <item>
+  <p>
+  Right-click on the file name, and click on <gui>Open Folder</gui>.
+  </p>
+  </item>
+  <item>
+  <p>
+  Find and <link xref="files-rename">rename</link> the original file <file>desktop-login.ogg</file> to <file>desktop-login-original.ogg</file> for backup.
+  </p>
+  </item>
+  <item>
+  <p>
+  <link xref="files-copy">Copy</link> the sound file you prefer in ogg format to the above folder and name the file as <file>desktop-login.ogg</file>.
+  </p>
+  </item>
+ <item>
+<p>
+ Log out and log back in and the new login sound will be in effect.
+</p>
+ </item>
+ </steps>
+ <note>
+ <p>
+  You can change the default logout sound in the same way as described above.  You would need to rename the original file <file>desktop-logout.ogg</file> to <file>desktop-logout-original.ogg</file> for backup. Then copy the sound file you prefer (in ogg format) to the above mentioned folder, and name the file as <file>desktop-logout.ogg</file>. 
+ </p>
+ </note>
+-->
+
+ <comment>
+   <cite date="2010-10-31" href="mailto:gnome-doc-list@gnome.org">GNOME Documentation Project</cite>
+   <p>Instructions on turning off the sound that is made when the user logs in. Mention how to change it too, and how to make it quieter.</p>
+  </comment>
+
+</page>

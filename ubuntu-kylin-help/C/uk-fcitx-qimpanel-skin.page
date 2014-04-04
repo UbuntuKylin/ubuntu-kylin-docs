@@ -1,0 +1,57 @@
+﻿<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="uk-fcitx-qimpanel-skin">
+
+  <info>
+    <credit type="author">
+      <name>Ubuntu Kylin 文档团队</name>
+      <email>jingshi@ubuntukylin.com</email>
+    </credit>
+
+    <link type="guide" xref="uk-fcitx#qimpanel" group="#last"/>
+
+
+    <desc>
+      定制皮肤字体风格。
+    </desc>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <revision version="14.04" date="2014-03-26" status="review"/>
+  </info>
+
+  <title>
+    皮肤字体风格
+  </title>
+
+    <p><app>小企鹅输入法面板</app> 附带皮肤字体定制工具，可根据个人需要修改皮肤字体大小。 </p>
+
+
+  <steps>
+
+     <item>
+      <p>点击桌面右上角的输入法系统图标，弹出下拉菜单。 </p>
+    </item>
+
+     <item>
+      <p>选择 <gui>配置面板和皮肤</gui>，弹出 <gui>配置面板设置</gui> 窗口。 </p>
+    </item>
+
+     <item>
+      <p>选择 <gui>皮肤设计</gui> 标签页。 </p>
+    </item>
+
+     <item>
+      <p>在 <gui>所有皮肤</gui> 列表里，双击当前正在使用的皮肤，比如 <gui>ubuntukylin-dark1</gui>，弹出对应的皮肤修改界面。 </p>
+    </item>
+
+     <item>
+      <p>选择 <gui>皮肤字体</gui> 标签页。 </p>
+    </item>
+
+     <item>
+      <p>修改 <gui>候选词字体大小</gui>。 </p>
+    </item>
+
+  </steps>
+
+</page>

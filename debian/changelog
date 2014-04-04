@@ -1,0 +1,1919 @@
+ubuntu-kylin-docs (14.04.1) trusty; urgency=low
+
+  * Fork from ubuntu-docs.
+  * Add uk*.page to introduce the feature packages of Ubuntu Kylin.
+  * Replace "ubuntu-help" by "ubuntu-kylin-help".
+  * Replace "ubuntu-docs" by "ubuntu-kylin-docs".
+  * unity-introduction.page
+    - Add an introduction of Ubuntu Kylin.
+    - Change "Ubuntu" to "Ubuntu Kylin" or "Ubuntu/Ubuntu Kylin".
+  * whats-new.page
+    - Add some feature of Ubuntu Kylin.
+  * Makefile.am
+    - Add uk*.page
+    - Delete all language except zh_CN.
+
+ -- Lei Luo <luolei@ubuntukylin.com>  Thu, 3 Apr 2014 20:26:00 +0800
+    
+ubuntu-docs (14.04.2) trusty; urgency=low
+
+  * media.page:
+    - Confusing link removed.
+  * shell-guest-session.page:
+    - Prevent shell commands from showing up in translation template.
+  * unity-launcher-change-autohide.page:
+    - Description changed (LP: #1246022).
+  * files-browse.page, backup-restore.page, backup-thinkabout.page:
+    - Minor fixes (LP: #1225840, LP: #1221461, LP: #1221463).
+  * update-translations.sh:
+    - Script for renaming exported PO files. Thanks Kevin Godby!
+    - A couple of adjustments to get the desired behavior.
+  * unity-menubar-intro.page:
+    - Description of new app menu option (LP: #1284221).
+    - Input source added to list of status menus.
+  * keyboard-layouts.page:
+    - Notes about IM engine install and preferences button
+      (LP: #1282364). Thanks to John Kim for valuable input!
+  * whats-new.page:
+    - News highlights between 12.04 and 14.04 (LP: #1271492).
+  * Updated ubuntu-help.pot.
+  * The latest translations exported from Launchpad.
+
+  [ John Kim ]
+  * Grammar fixes in power-lowpower.page (LP: #1189282).
+
+  [ Doug Smythies ]
+  * Typo fixes in three accounts-*.page pages.
+  * ubuntu-help/C/check_validation.sh:
+    - Script corrected and significantly improved.
+  * ubuntu-mascot-creature.jpg:
+    - Give mascot file a generic name (LP: #1287978).
+    - Update content and back to JPG from PNG (LP: #1287978).
+  * Fix nonexistent link destinations (LP: #1270318, LP: #1231612).
+  * Fix "no way to navigate" yelp-check errors (LP: #1270314).
+  * Fix or reassign or delete invalid internal links in the compiled
+    html (LP: #931325).
+  * html/fix-urls.sed:
+    - Change gnome help redirects for html to revision neutral stable.
+  * Screenshots updated (LP: #1249806).
+  * Outdated UI terms updated with correct ones on a bunch of pages.
+  * Incorrect sentence removed from nautilus-display.page.
+
+  [ Nigel Hall ]
+  * Spelling fix in unity-launcher-menu.page.
+
+  [ goneaway ]
+  * Grammar fix in unity-introduction.page.
+
+  [ Kevin Godby ]
+  * Spell-checked the *.page files and corrected detected errors.
+  * Tweaked the language on whats-new.page.
+
+ -- Gunnar Hjalmarsson <gunnarhj@ubuntu.com>  Thu, 20 Mar 2014 20:37:00 +0100
+
+ubuntu-docs (14.04.1) trusty; urgency=low
+
+  [ Kevin Godby ]
+  * configure.in, html/Makefile, html/ubuntu.xsl, whats-new.page:
+    - Bumped version number to 14.04.
+  * Typo on printing-cancel-job.page fixed (LP: #1231655).
+
+  [ Little Girl ]
+  * ubuntu-help/C/check_status.sh:
+    - Added the EXTINCT listing for status to display references to
+      previous releases.
+    - Added a section on how to use status tags.
+    - Fixed the script so that it will find revision elements with stub
+      attributes.
+  * accounts-create.page:
+    - Improved wording (LP: #1220971).
+  * Improved structure and minor tweaking of many pages.
+
+  [ Doug Smythies ]
+  * ubuntu-help/Makefile.am:
+    - Added missing .png files (LP: #1245031).
+  * disk-capacity.page:
+    - Clarify disk usage analyzer (LP: #1059535).
+  * Link corrections so that yelp-check ids will pass.
+  * display-dual-monitors.page:
+    - Fixed 2 unmatched block elements: section html compile errors.
+  * Some occurrences of GNOME only code and .png file requests removed
+    (LP: #1232708).
+  * PO files updated:
+    - Exported the latest translations from Launchpad.
+    - Four new languages: et, eu, tg, th.
+
+  [ Benjamin Kerensa ]
+  * Update of the MAINTAINERS file.
+  * Minor tweaks.
+
+  [ Gunnar Hjalmarsson ]
+  * The group "Add & remove software" highlighted on index.page by
+    creation of the guide page addremove.page. Related links tweaking.
+  * shell-guest-session.page:
+    - Added description of how you can disable the guest session
+      feature (LP: #1076740).
+  * Creation of prefs-language-install.page.
+  * keyboard-layouts.page:
+    - Rewritten to reflect the "System Settings -> Text Entry" design
+      (LP: #1242626).
+  * tips-specialchars.page:
+    - Sections "Compose key" and "Input methods" removed.
+  * debian/control:
+    - Bump Standards-Version to 3.9.5.
+  * Updated ubuntu-help.pot.
+
+  [ Greg Beam ]
+  * The "Online accounts" pages improved, including:
+    - Grammar fixes on accounts-whyadd.page (LP: #1220983).
+    - Removal of accounts-create.page (LP: #1220971).
+    - System settings steps worded as on other pages (LP: #1268775).
+  * addremove-install-synaptic.page:
+    - Grammar fix (LP: #1222288).
+  * Fixed validation errors (LP: #1268834).
+  * Note style corrected (changed from "info" to "tip", LP: #1269100).
+
+  [ Jeffery To ]
+  * power-hibernate.page:
+    - Instructions for re-enabling hibernation updated (LP: #1232814).
+
+  [ Shaun McCance ]
+  * html/ubuntu.xsl:
+    - Link trail no longer needs override (LP: #1275818).
+  * Changes to pass strict validation (LP: #1275866).
+
+ -- Gunnar Hjalmarsson <gunnarhj@ubuntu.com>  Fri, 14 Feb 2014 18:07:00 +0100
+
+ubuntu-docs (13.10.2) saucy; urgency=low
+
+  [ Doug Smythies ]
+  * Update translations for Saucy. 
+
+  [Benjamin Kerensa]
+  * debian/changelog: Correct Version String 
+
+ -- Benjamin Kerensa <bkerensa@ubuntu.com>  Fri, 04 Oct 2013 23:42:51 -0700
+
+ubuntu-docs (13.10.1) saucy; urgency=low
+  
+  [Kevin Godby]
+  * Improved wording of 'report a bug' footer text.
+  * Added missing word (LP: #1170491)
+  * Updated 'Google Docs' to 'Google Drive (LP: #1059554)
+  * Various String Fixes and Validation Error Fixes
+  * collect-screenshots.sh:
+    - Fix Various Bugs
+  * configure.in:
+    - Bump version to 13.10
+  * Update Add Accounts Instructions (LP: #1220968)
+  * Merge updates from GNOME Upstream    
+
+  [John Kim]
+  * String Fix (LP: #1189280)
+
+  [Doug Smythies]
+  * Add Colors (LP: #1173426)
+  * fix-urls.sed:
+  - Update Gnome Link
+  * Update Screenshots
+  * Update Time Instructions (LP: #1225251)
+  * Replace Gwibber Page with Friends Page
+  * Change references to Saucy (LP: #1225247)
+
+  [Stephen Webb]
+  * Update What's New for 13.10
+  
+  [Little Girl]
+  * Improve Page Verbiage (LP: #1225829, LP: 1221452, LP: 1221456, LP: 1225842, LP: 1225842)
+  * Added check_releases.sh to check for release versions in .page files
+ 
+  [Benjamin Kerensa]
+  * debian/control: Update Vcs-Bzr Field
+  * debian/copyright: Update Copyright Year 
+ 
+ -- Benjamin Kerensa <bkerensa@ubuntu.com>  Tue, 17 Sep 2013 01:04:05 -0700
+
+ubuntu-docs (13.04.3) raring; urgency=low
+
+  * Updated translations for raring
+
+ -- Sebastien Bacher <seb128@ubuntu.com>  Mon, 22 Apr 2013 15:02:53 +0200
+
+ubuntu-docs (13.04.2) raring; urgency=low
+
+  * Update translation template
+
+ -- Sebastien Bacher <seb128@ubuntu.com>  Wed, 17 Apr 2013 13:45:52 +0200
+
+ubuntu-docs (13.04.1) raring; urgency=low
+
+  [ Jeremy Bicha ]
+  * Correct links to renamed menu bar page (LP: #1064559)
+  * Fix "valuable" typo (LP: #1061512)
+  * Add missing breadcrumbs to lens pages (LP: #1066482)
+
+  [ Benjamin Kerensa ]
+  * Merged updated gnome-docs
+  *Bumped version numbers on the "What's new in Ubuntu 13.04?" page
+
+  [Kevin Godby]
+  * Capitalized Dash and Launcher consistently
+
+ -- Benjamin Kerensa <bkerensa@ubuntu.com>  Mon, 15 Apr 2013 19:33:07 -0700
+
+ubuntu-docs (12.10.3) quantal; urgency=low
+
+  [ James Plate ]
+  * Use "Super" key instead of "Windows" key on shell-window-switching.page
+    (LP: #993770)
+
+  [ Jeremy Bicha ]
+  * Re-merge with gnome-user-docs
+  * Add "What's new in Ubuntu 12.10?"
+  * Rewrite the Unity docs, including adding pages for each of the
+    default lenses
+  * "Tap" instead of "type" Alt to close HUD (LP: #992683)
+  * Fix instructions for changing Compose key setting (LP: #884639)
+  * Provide keyboard-only instructions for turning on Mouse Keys
+    (LP: #1030767)
+  * Fix typos in lens pages (LP: #1058565)
+  * Fix spelling of 'hierarchies' (LP: #1058658)
+  * Change "Super+P" shortcut to "Super+C" (LP: #1049090)
+
+  [ Gunnar Hjalmarsson ]
+  * shell-guest-session.page:
+    - Mentioning of the possibility to launch a guest session from the 
+      login screen
+    - Link to the tutorial "Customize Guest Session" reinserted (It was
+      silently removed in revision 104 of lp:ubuntu/precise/ubuntu-docs.)
+      (LP: #987788)
+
+ -- Jeremy Bicha <jbicha@ubuntu.com>  Tue, 09 Oct 2012 00:17:51 -0400
+
+ubuntu-docs (12.10.2) quantal; urgency=low
+
+  * Update translations from Precise (LP: #1019441)
+
+ -- Jeremy Bicha <jbicha@ubuntu.com>  Mon, 30 Jul 2012 13:12:47 -0400
+
+ubuntu-docs (12.10.1) quantal; urgency=low
+
+  * No-change upload from precise, bump version number only
+
+ -- Matthew East <mdke@ubuntu.com>  Mon, 07 May 2012 20:57:02 +0100
+
+ubuntu-docs (12.04.5) precise; urgency=low
+
+  [ Gunnar Hjalmarsson ]
+  * session-language.page and session-formats.page:
+    - Reinsert links to "Language Support Help" (LP: #987788)
+
+  [ James Plate ]
+  * Fix broken links to non-existant shell terminology page (LP: #981745)
+  * Remove the extra > from the addremove pages (LP: #977260)
+  * shell-windows-maximizing.page:
+    - Use the correct Ctrl+Super+Up/Down keyboard shortcut (LP: #975890)
+  * shell-windows-switching.page:
+    - Alt+Tab by default shows app icons, not window previews (LP: #975899)
+
+  [ Jeremy Bicha ]
+  * Removed note about dragging screenshots to other apps since this doesn't
+    work as described (LP: #978793)
+  * Use "Ubuntu 12.04 LTS" name instead of "Ubuntu 12.04" (LP: #987385)
+  * shell-windows-tiled.page:
+    - Update keyboard shortcut and comment out invalid tips about how to
+      restore the window's original size (LP: #975825, LP: #975813)
+  * unity-appmenu-intro.page: Mention Rhythmbox not Banshee (LP: #968153)
+  * debian/control: Update Vcs-Bzr link to point to precise branch
+
+  [ Matthew East ]
+  * Update translations from Launchpad 7.5.12
+
+ -- Matthew East <mdke@ubuntu.com>  Mon, 07 May 2012 18:48:47 +0100
+
+ubuntu-docs (12.04.4) precise; urgency=low
+
+  * Finalize screenshots for Ubuntu 12.04
+  * Fix missing keyboard shortcuts page
+  * Refer to the Windows key as the Super key instead of the meta key
+  * Update for new Unity Ctrl+Super keyboard shortcuts (LP: #969235)
+
+ -- Jeremy Bicha <jbicha@ubuntu.com>  Wed, 04 Apr 2012 09:13:40 -0400
+
+ubuntu-docs (12.04.3) precise; urgency=low
+
+  [ Jeremy Bicha ]
+  * Fixes to translation files to fix FTBFS
+  * Use "menu bar" consistently rather than top bar or top panel
+  * Substantial merges from Gnome 
+  * Various updates for precise
+  * Document new dual monitor settings
+  * Hibernate is disabled by default
+  * Intro to HUD
+  * Add overlay scrollbars page
+  * Update addremove pages
+  * Update screenshots
+  * Use "dash" rather than "activities overview" (LP: #967356)
+
+  [ Jan Simon ]
+  * Typo fixes (LP: #814061)
+  * Use "system menu" rather than "session menu"
+  * Use right click rather than left click to recover files
+
+  [ David Planella ]
+  * Build all languages when building HTML
+
+ -- Matthew East <mdke@ubuntu.com>  Mon, 02 Apr 2012 12:30:55 +0000
+
+ubuntu-docs (12.04.2) precise; urgency=low
+
+  [ Robert Roth ]
+  * Broadcast accounts are in messaging menu, not me menu (LP: #891190)
+  * Fix typos and inconsistencies in color-whatisspace (LP: #892647)
+  * Fixed basic file properties to use keyseq and key instead of guiseq 
+    and gui for keyboard shortcut. (LP: #923736)
+  * Fix the power cog and the user icon urls for the HTML 
+    version (LP: #886503)
+  * Updated the location of the System settings menu item in the 
+    contrast page to match the new location (LP: #908663)
+
+  [ Jeremy Bicha]
+  * Update version number to 12.04
+  * Update keyboard shortcuts
+  * More merging with gnome-user-docs
+
+  [ Ben Donald-Wilson ]
+  * Typo fix in proprietary hardware drivers page (LP: #921227)
+
+ -- Matthew East <mdke@ubuntu.com>  Sun, 05 Feb 2012 15:44:00 +0000
+
+ubuntu-docs (12.04.1) precise; urgency=low
+
+  [ Robert Roth ]
+  * Punctuation and typo fixes, LP: #874754, LP: #876257, LP: #872204,
+    LP: #872205
+  * Fixe System Settings sections for Time&Date and Language Support LP: #868153
+  * Update instructions to starting CCSM (as it's not possible from 
+    System Settings anymore, the new instructions point to using the dash
+    to start CCSM) LP: #869547
+
+ -- Matthew East <mdke@ubuntu.com>  Thu, 20 Oct 2011 07:41:14 +0100
+
+ubuntu-docs (11.10.4) oneiric; urgency=low
+
+  [ Jeremy Bicha ]
+  * Updated screenshots to current Oneiric
+  * Don't install unused screenshots
+  * Added missing desktop-sharing pages
+  * Fixed lintian error in debian/copyright
+  [ Matthew East ] 
+  * Add translations for langpacks
+
+ -- Matthew East <mdke@ubuntu.com>  Wed, 05 Oct 2011 21:12:59 +0100
+
+ubuntu-docs (11.10.3) oneiric; urgency=low
+
+  [ Jeremy Bicha ]
+  * substantial merges from Gnome docs
+  * adjusted indicator order for this week's Unity (LP: #823061)
+  * Updated Seahorse's new name
+  * updated the Fallback page to reference Unity 2D instead of Fallback
+  * some updates for Oneiric's dash
+  * dropped files-preview-music since that was removed in GNOME 3.2
+    (replaced by the sushi previewer which hasn't been packaged for
+    Debian/Ubuntu yet)
+  * Added a proprietary driver page from the old ubuntu-docs
+
+  [ Jim Campbell ]
+  * added instructions on manually locking the screen.
+
+ -- Matthew East <mdke@ubuntu.com>  Sun, 18 Sep 2011 12:14:49 +0100
+
+ubuntu-docs (11.10.2) oneiric; urgency=low
+
+  [ Christian Pommranz ]
+  * Fixed two typos in shell-windows-switching.page (LP: #795959)
+
+  [ Joel Pickett ]
+  * Fixed a typo in wireless troubleshooting guide (LP: #804855)
+
+  [ Jeremy Bicha ]
+  * Partially rebased with Gnome help now that we're using Gnome 3
+  * Build with yelp-tools instead of gnome-doc-utils
+    - files now install to /usr/share/help/ instead of /usr/share/gnome/help/
+  * debian/compat: Switch to debhelper 8
+  * debian/control
+    - Dropped obsolete conflicts & unneeded dependencies
+    - Updated description
+  * debian/copyright: Updated, use DEP5 format
+  * debian/rules:
+    - No need to specify install source directory
+    - Use xz compression
+  * debian/source/format: Use 3.0 (native)
+  * Update user pages for new user menu
+  * Update indicator page with current indicators
+  * Added missing bluetooth & disk category pages
+  * Updated user-* pages
+  * Update moonlight page since it is no longer in Ubuntu archive
+
+  [ Matthew East ]
+  * Fix document validity issues
+  * Update pot file
+
+ -- Matthew East <mdke@ubuntu.com>  Sun, 4 Sep 2011 19:09:00 +0100
+
+ubuntu-docs (11.10.1) oneiric; urgency=low
+
+  * Use Gnome and gnome-doc-utils for packaging - update debian/control 
+    for new build-deps accordingly
+  * Add Unity+Unity documentation here rather than gnome-user-docs; give it
+    its own document id and install in ubuntu-help directory
+  * Remove browser homepage update-alternative system
+  * Update translations from gnome-user-docs natty package
+
+ -- Matthew East <mdke@ubuntu.com>  Fri, 29 Apr 2011 14:49:35 +0100
+
+ubuntu-docs (11.04.2) natty; urgency=low
+
+  * Updates for natty from Giuseppe Terrasi
+    - Use Libreoffice instead of Openoffice.org
+    - Use Banshee instead of Rhythmbox
+
+ -- Matthew East <mdke@ubuntu.com>  Fri, 22 Apr 2011 07:08:34 +0000
+
+ubuntu-docs (11.04.1) natty; urgency=low
+
+  * Convert ubuntu-docs package for use as help for "Ubuntu Classic" desktop
+    (Unity documentation provided by the gnome-user-guide package)
+
+ -- Matthew East <mdke@ubuntu.com>  Tue, 12 Apr 2011 20:58:59 +0000
+
+ubuntu-docs (10.10.4) maverick-proposed; urgency=low
+
+  * ldif at openldap installation is broken (LP: #677998)
+    + serverguide/C/network-auth.xml 
+
+ -- Mahyuddin Susanto <udienz@gmail.com>  Mon, 06 Dec 2010 22:59:57 +0700
+
+ubuntu-docs (10.10.3) maverick; urgency=low
+
+  * Amend font-family for browser startpage (LP: #195590)
+  * Add translations from Launchpad
+
+ -- Matthew East <mdke@ubuntu.com>  Sun, 19 Sep 2010 11:35:42 +0100
+
+ubuntu-docs (10.10.2) maverick; urgency=low
+
+  * Documentation String Freeze release
+  * General
+    - No longer generate ubuntu-serverguide binary
+    - Stop shipping serverguide, advanced-topics, 
+      basic-commands and windows in ubuntu-docs
+    - Changes discussed on ubuntu-doc@ and ubuntu-server@
+  * Update version number for offline browser startpage
+    LP: #632377
+  * Newtoubuntu:
+    - Replace f-spot with shotwell
+    - Fix some broken icons
+
+ -- Matthew East <mdke@ubuntu.com>  Sun, 29 Aug 2010 14:47:58 +0100
+
+ubuntu-docs (10.10.1) maverick; urgency=low
+
+  * First release for maverick
+  * General:
+    - Update copyright year, LP: #580396
+    - Update version numbers for maverick, LP: #587119
+    - Update pot files
+  * Administrative:
+    - Users and Groups app UI changed - adjusted directions, 
+      LP: #570429 (Connor Imes)
+  * Basic-commands:
+    - Removed incorrect comment about using ~ with sudo, 
+      LP: #570423 (Connor Imes)
+  * Internet:
+    - Add section on Ubuntu One, authored by Matt Griffin with
+      some changes/review
+    - Typos: Cicso -> Cisco. Alex Wardle, LP: #561084
+  * Musicvideophotos:
+    - Add material on using Ubuntu One Music Store and 
+      other Music Stores
+      within Rhythmbox, content submitted by Matt Griffin
+    - Update microphone troubleshooting, LP: #591164
+  * Serverguide:
+    - Removed erroneous text from vmbuilder command,
+      LP: #559190
+    - Typo in network-config section. Alex Wardle, LP: #550892
+    - Fix typo in Kerberos section. David C. Curtis, LP: #561788
+    - Replaced dkim-filter with opendkim, feedback from 
+      Scott Kitterman. LP: #561825
+    - Changed ldapsearch command in ACL section for new authentication
+      mechanism. LP: #333733
+    - Adjusted certificate wording to be more concise about which 
+      lines to copy. LP: #575859
+    - Changed samba restart command to use new upstart scripts. 
+      LP: #575540
+    - New information about granting groups Admin rights for Samba.
+      LP: #579851
+    - Various typos and English fixes from Travis Nichol, Connor Imes,
+      Vikram Dhillon, Dean Sas, Andrew Rowell. LP: #594913,
+      LP: #572959, LP: #603947
+    - New Amavisd-new and Spamassassin section which adds note about possible
+      large amount of error messages sent to email. LP: #165184 (Adam Sommer)
+    - Removed OpenNebula section (Adam Sommer)
+    - Removed eBox section (Adam Sommer)
+    - Reviewed and updated User Management and Console Security sections
+      (Adam Sommer)
+    - Fixed spelling typo of dyngroup.schema, fixed ldapscripts <ask> example 
+      explanation, and ldapscripts example template path. LP: #595001 
+      (Adam Sommer)
+    - Updates to UEC sections (Adam Sommer)
+    - New "First Boot" section covering clout-init functionality (Adam Sommer)
+    - Fix broken links to installation-guide, add distro-rev-short
+      entity, LP: #575961
+  * Windows:
+    - Change wording of windows/C/preparing.xml, LP: #483153
+
+ -- Matthew East <mdke@ubuntu.com>  Sat, 14 Aug 2010 22:35:52 +0100
+
+ubuntu-docs (10.04.3) lucid; urgency=low
+
+  * Import translations from Rosetta
+  * Replace old Ubuntu logo with new one from wiki:Brand (LP: #551058)
+
+ -- Matthew East <mdke@ubuntu.com>  Sun, 18 Apr 2010 21:06:41 +0100
+
+ubuntu-docs (10.04.2) lucid; urgency=low
+
+  * General:
+    - Fixes to scripts/fix-url.sh (including LP: #482862)
+    - Fix character encoding in contributors.xml (LP: #448618)
+    - Updated version in browser-startpage html files, LP: #526320
+    - Refresh pot files
+  * Add-applications:
+    - Updates for UI changes, Phil Bull
+  * Config-desktop:
+    - Added topic on changing window buttons from the left, Phil Bull
+  * Hardware:
+    - Added mention of gsynaptics, Connor Imes, LP: #450567
+  * Internet:
+    - Refresh list of plugins supplied by ubuntu-restricted-extras, branch 
+      from Nathan Murray, LP: #504981
+    - Updates to reflect that Ekiga no longer installed by default, Connor Imes,
+      LP: #508572
+    - Grammar fix from Alex Wardle, LP: #517776
+    - Order adjustment for shares-admin usage, Alex Wardle, LP: #518119
+    - Button name change for shares-admin app, Alex Wardle, LP: #518170
+    - Use unlock icon in networking section, Alex Wardle, LP: #518117
+    - Updated directions on changing text size and page zooming in firefox,
+      Alison Rowland, LP: #512556
+    - Fixed guilabel usage in modem section. Alex Wardle, LP: #521243
+    - Updated button and tab names in Static Connections section,
+      Alex Wardle, LP: #521508
+    - Typo fix in adsl section. Alex Wardle, LP: #525349
+    - Removed unused and empty basics.xml, LP: #525431
+    - Minor wording update to directions for sharing folders via nautilus,
+      Connor Imes, LP: #518175
+    - Use 'NetworkManager' not 'Network Manager' for consistency, Connor Imes
+      LP: #518107
+    - Update to troubleshooting mobile devices, Connor Imes, LP: #453459
+    - Adjusted description of NetworkManager applet icons, Connor Imes
+      LP: #440826
+    - Additions to VPN section of connecting guide, Alex Wardle, LP: #452647
+    - Expanded on using config files for vpn connections, Connor Imes
+    - Command line substitution for Services utility which is not in Karmic or
+      Lucid, Connor Imes, LP: #518460
+    - Structural and language changes + updates for UI changes, Phil Bull
+  * Musicvideophotos:
+    - Added section for recording and editing video, Book 'em Dano, LP: #367569
+  * Newtoubuntu:
+    - Complete rewrite, Matthew East
+  * Printing:
+    - Simple Scan replaced xsane for scanning documents, Alex Wardle, LP: #546193
+  * Serverguide:
+    - Rename link to serverguide in advanced-topics.xml, Gilbert 
+      Mendoza, LP: #505708
+    - Use distro-short-codename variable for vmbuilder documentation in 
+      serverguide rather than static version example, Connor Imes,. LP: #509653
+    - Small fixes to security chapter, Connor Imes, LP: #510703
+    - Small fixes from Nathan Handler, LP: #507624
+    - Configuration change for OpenLDAP, Connor Imes, LP: #511090
+    - Refresh of network-config section, Gilbert Mendoza, LP: #506800
+    - Update manpage links to use distro-short-codename, Connor Imes
+    - Changed OpenLDAP replication to use single Provider/Consumer configuration,
+      Adam Sommer
+    - Removed grub-password-security section - it does not apply to Grub2,
+      Gilbert Mendoza, LP: #384148
+    - Reference Grub2 community doc page for advanced configuration directions,
+      Connor Imes, LP: #437446
+    - Added necessary configuration options for apt Periodic in automatic-updates
+      section, Connor Imes, LP: #532661
+    - Added subsections for consumer and provider configuration steps, Adam Sommer
+    - Changed TLS Replication section to use Single-Master scheme, Adam Sommer
+    - Clarified Postfix TLS/SSL using a CA configuration steps, Adam Sommer,
+      LP: #518289
+    - Changed Apache2 Subversion configuration to use VirtualHost file instead
+      of apache2.conf, Adam Sommer, LP: #515298.
+    - Adding Ubuntu Wiki links to each section's Resources subsection, Adam Sommer
+    - Added note in mail section about some packages being in multiverse,
+      Connor Imes, LP: #509355
+    - Use default serverguide index.html file location for accessing serverguide
+      in terminal, Connor Imes, LP: #537167#
+    - Updated to use Grub2 directions, Connor Imes, LP: #533582
+    - Updated MySQL information for mysql-server-5.1, Adam Sommer
+    - Replaced screen-profiles with byobu project, Adam Sommer
+    - Changed egrep command with kvm-ok script, Adam Sommer
+    - Removed references to likewise-open5, Adam Sommer
+    - Add reporting-bugs.xml - Steve Beattie
+    - Replaced Eucalyptus section with information on UEC, Adam Sommer
+    - Updated command and configuration mistakes in vpn.xml, Adam Sommer
+      LP: #489819
+    - Replaced update-motd section with newer pam_motd, Adam Sommer, LP: #496184
+    - Updated LocalSettings.php command for new file path, and recommending upping
+      the memory limit based on feedback from Cornelius Brümmer, Adam Sommer
+    - Updated Installation section for Lucid, and added row seperator for UEC
+      requirement tables, Adam Sommer
+    - Changed OpenLDAP TLS/SSL options to use gnutls to create certificate instead 
+      of OpenSSL, Adam Sommer
+  * Switching/Windows:
+    - Updated dualboot section to use startupmanager for changing 
+      boot options (valid for Grub and Grub2), Connor Imes
+    - Fixed 'Ubuntu Ubuntu' typo, Alex Wardle, LP: #526083
+    - Removed old string from Windows section and copied correct string to
+      Switching guide, Connor Imes, LP: #527905
+    - Split off directions for exporting favorites in IE8. Broke different
+      IE versions down into subsections, Connor Imes, LP: #528808
+
+ -- Matthew East <mdke@ubuntu.com>  Mon, 29 Mar 2010 07:56:15 +0100
+
+ubuntu-docs (10.04.1) lucid; urgency=low
+
+  * First upload for lucid
+  * General:
+    - Refresh pot files
+    - Changed 'Text Editor' to 'gedit Text Editor' LP: #442417 (Connor Imes)
+  * Advanced-topics:
+    - Added link in advanced-topics to a description about Users and Groups in
+      Debian systems. LP: #145055 (Connor Imes)
+  * Hardware:
+    - Added mention of ext4 to hardware.xml and changed the mentioning of the
+      default filesystem in Ubuntu from ext3 to ext4 LP #449667 (Connor Imes)
+    - Removed subsection in hardware about quirk-checker script - link was 
+      broken, script is outdated LP: #461158 (Connor Imes)
+  * Keeping-safe:
+    - Updating instructions for automatic login for new GDM LP: #442676
+     (Dean Sas)
+    - String adjustment (period inside of a quote tag), Scott Shields, 
+      LP: #496885
+  * Internet:
+    - Changes remaining mention of flashplugin-nonfree to flashplugin-installer
+      in web-apps.xml LP: #444546 (Connor Imes)
+    - Change some <guimenu> tags to <guimenuitem> tags in web-apps.xml to show
+      arrows in HTML documentation instead of + signs LP: #453512 (Connor Imes)
+    - Removed reference to network-manager radio buttons, as radio buttons
+      aren't used in this version of NM for wired networks (Jim Campbell)
+    - Aligned similar strings in 'internet' section to benefit translators;
+      some small adjustments. LP: #460360 (Connor Imes)
+  * Musicvideophotos:
+    - Fixed apturl for mtp-tools package in music.xml LP #452262 (Connor Imes)
+    - Improve ipod section, patch by Michael Fitzhugh. LP: #370085
+  * Printing:
+    - Updated printer setup directions in printing section LP: #435510
+      (Connor Imes)
+    - Fix scanning typo. Patch by Shane Fagan LP: #447250
+  * Programming:
+    - Removed entire programming section LP: #414035 (Connor Imes)
+  * Serverguide:
+    - Adjusted wording in serverguide package-management file to more
+      clearly describe apticron.  LP: #473280 (Connor Imes)
+    - Updated LDAP section for changes to the Jaunty package.
+      Fixes LP: #475492, LP: #459403, LP: #463684 (Adam Sommer)
+    - In OpenSSH section, .ssh/authorized_keys permissions should be
+      600, not 644 LP: #491159 (Connor Imes)
+    - Replaced description of ebox Log Observer in serverguide with a real 
+      description of the event's purpose LP: #405926 (Connor Imes)
+    - Fixed IP example in serverguide's postfix configuration section
+      LP: #495202 (Connor Imes)
+    - Include 'auto eth1' in interfaces file for static IP configuration
+      LP: #441802 (Connor Imes)
+    - Fix for disabling Control-Alt-Delete in serverguide. Scott Shields,
+      LP: #496465
+    - Typo fix, Scott Shields, LP: #497867
+    - PostgreSQL setup fix for config file pg_hba.conf, Scott Shields,
+      LP: #492286
+    - Misc fixes in windows-networking section. Vikram Dhillon, LP: #462607
+    - Changes to RAID installation section LP: #428036, LP: #462719
+      (Connor Imes)
+    - Fixes and adjustments to web-servers LP: #462621 (Connor Imes)
+  * Switching:
+    - Replaced Pidgin with Empathy in applications-equivalents
+      LP: #490980 (Connor Imes)
+    - Fixed misspelling of Rhythmbox (Connor Imes)
+    - Added note about FAT32 file size limit to Windows. Also removed comment
+      of NTFS needing extra work since Ubuntu now supports it out of the box
+      LP: #442111 (Connor Imes)
+    - Replaced explicit em-dashes with normal en-dashes LP: #493331
+      (Connor Imes)
+  * Windows:
+    - Menu entry correction, LP: #483149 (Jonathan Jesse)
+    - Two very small fixes in Windows migratingdata section
+      LP: #493358, LP: #493843 (Connor Imes)
+    - Various updates to the Windows section on migrating data. LP: #492949,
+      LP: #492951, LP: #492955, LP: #493166, LP: #493169 (Connor Imes)
+    - Further updates to the Windows section on preparing to switch and
+      migrating data - specifically for transferring email 
+      LP: #493169 (Connor Imes)
+    - Add support for for exporting bookmarks in IE7 and IE8 LP: #442097
+      (Shane Fagan)
+    - Added necessary step to exporting Outlook data in windows section
+      LP: #493866 (Connor Imes)
+    - Ubuntu does have some fax support - adding link in glossary sections
+      LP: #493346 (Connor Imes)
+
+ -- Matthew East <mdke@ubuntu.com>  Sat, 09 Jan 2010 10:26:29 +0000
+
+ubuntu-docs (9.10.11) karmic; urgency=low
+
+  * Update translations from Rosetta
+
+ -- Matthew East <mdke@ubuntu.com>  Sat, 17 Oct 2009 17:23:03 +0100
+
+ubuntu-docs (9.10.10) karmic; urgency=low
+
+  * Remove draft watermark from html pages
+  * Drop fdupes script as it clashes with current pkgbinarymangler (LP: #441401)
+    - also need to set CDBS_NO_GNOME_HELP_SYMLINKING=1 to stop fdupes script
+  * Update version number in offline browser startpage to 9.10
+
+ -- Matthew East <mdke@ubuntu.com>  Mon, 12 Oct 2009 22:09:57 +0100
+
+ubuntu-docs (9.10.9) karmic; urgency=low
+
+  * General:
+    - Refresh pot files
+    - Fix broken links to ghelp:hardware#jockey, Connor Imes, LP: #441460
+    - Update references to gnome-app-install to software-center, Connor
+      Imes, LP: #441810
+  * add-applications.xml:
+    - Replace references to 'Third party software' with 'Other software',
+      Shane Fagan, LP: #441323, LP: #441315
+  * internet.xml:
+    - Update packagenames for flashplugin-installer and ttf-mscorefonts-installer,
+      Connor Imes, LP: #441799
+  * musicvideophotos.xml:
+    - Correct firefox flash error message, LP: #441815
+  * programming.xml:
+    - Replace gambas with gambas2, Connor Imes, LP: #414287
+  * usb-creator.xml:
+    - Correct typo, Connor Imes, LP: #442231
+    - Correct unclear sentence, LP: #442461
+
+ -- Matthew East <mdke@ubuntu.com>  Sun, 04 Oct 2009 21:05:06 +0100
+
+ubuntu-docs (9.10.8) karmic; urgency=low
+
+  * General:
+    - Refresh pot files
+  * hardware.xml:
+    - Update jockey instructions to reflect UI changes from some time ago (LP: #281143)
+    - Remove link to deprecated section in accessibility guide (LP: #293842)
+  * internet.xml:
+    - Network manager network list no longer has radio buttons, Dean Sas
+  * keeping-safe.xml:
+    - Update firewall section, Connor Imes / bodhi.zazen (LP: #377039)
+  * usb-creator.xml:
+    - Add manual for usb-creator, new document by Augustina Blair
+  * serverguide.xml:
+    - Add additional information for configuring TLS with OpenLDAP and gnutls, PeterNSteinmetz (LP: #437483)
+
+ -- Matthew East <mdke@ubuntu.com>  Sun, 27 Sep 2009 17:26:16 +0100
+
+ubuntu-docs (9.10.7) karmic; urgency=low
+
+  * General:
+    - Refresh pot files
+  * Add-applications:
+    - Amend add-applications in light of move from gnome-app-install to software-center
+  * Serverguide (by Adam Sommer unless otherwise stated):
+    - Updating etckeeper section for new version and fixing typo, Thierry Carrez (LP: #432377)
+    - Updating the Postgresql section for version 8.4, ~BG (LP: #426971)
+    - Fix typos in Chat section, Connor Imes (LP: #410654)
+    - Removing note about command line utility differences, Connor Imes (LP: #394728)
+    - Update for phpinfo() test script, Christian Wenz (LP: #418045)
+    - Added note about manually compiling drbd module in virtual kernels, removed bad config
+      line based on feed back from Ante Karamatić (LP: #397241)
+    - Apache2 configuration update for more security, and clarification of using SSL
+      and Apache2 with Subversion (LP: #383605)
+    - Added a link to the Windows Networking section to find more info regarding Samba (LP: #415622)
+    - Added priority to MX record example (LP: #425207)
+    - Added more configuration options to Amavisd-new section to flag more messages as spam (LP: #363442)
+    - Updated mailman Apache2 configuration for latest version of moinmoin (LP: #381802)
+
+ -- Matthew East <mdke@ubuntu.com>  Sat, 26 Sep 2009 14:07:07 +0100
+
+ubuntu-docs (9.10.6) karmic; urgency=low
+
+  * General:
+    - Refresh pot files
+    - debian/rules: remove deprecated scrollkeeper calls
+    - debian/rules: small fix to build process for translated xml 
+  * Internet:
+    - Remove outstanding mention of Pidgin (LP: #425834), Dougie Richardson
+    - Update bittorrent docs for introduction of Transmission, Dean Sas
+    - Fix instruction for Java plugin on amd64 (LP: #293781), Dougie Richardson
+
+ -- Matthew East <mdke@ubuntu.com>  Tue, 22 Sep 2009 21:32:29 +0100
+
+ubuntu-docs (9.10.5) karmic; urgency=low
+
+  * General:
+    - Also ship translations which are under 75% translated now, as these are included in language packs
+    - Refresh pot files
+  * Internet:
+    - New mobile broadband troubleshooting section, Dougie Richardson
+  * Serverguide:
+    - Adjust the command to create an LDIF for schema addition, Adam Sommer (LP: #416520)
+  * Switching:
+    - Fix several typos, Jonathan Jesse (LP: #416422)
+
+ -- Matthew East <mdke@ubuntu.com>  Mon, 31 Aug 2009 22:39:58 +0100
+
+ubuntu-docs (9.10.4) karmic; urgency=low
+
+  * General:
+    - Updating version numbers for 9.10/Karmic
+    - Refresh pot files
+  * About-ubuntu:
+    - reword first sentence to clarify system version number, LP: #395905
+  * Internet:
+    - Replace Pidgin with Empathy, now default IM app in Karmic
+    - typo, LP: #414153
+  * Serverguide:
+    - Update correct command for restarting cups, Dougie Richardson, LP: #380836
+    - New Jabberd2 section, Adam Sommer
+    - New OpenVPN chapter, Adam Sommer
+    - Typo, LP: #414605
+
+ -- Matthew East <mdke@ubuntu.com>  Mon, 17 Aug 2009 08:30:56 +0100
+
+ubuntu-docs (9.10.3) karmic; urgency=low
+
+  * debian/rules - install "C" locale documents (these were not being
+    installed following changes in 9.10.1)
+  * Basic-commands:
+    - Spelling fix, Dougie Richardson, LP #388651
+  * Keeping-safe:
+    - Update for new firefox security dialogue, LP: #386556
+  * Internet:
+    - Added FAQ section, Dougie Richardson
+  * Printing:
+    - Grammar fix, LP: #386376
+  * Serverguide:
+    - Remove all instances of 'the the', LP: #377436
+    - New Monitoring chapter, including Nagios and Munin, Adam Sommer
+    - Adding bind9-utils package to the DNS Server task package list, from Shane Fagan, LP: #381739
+    - Typo in Landscape section, Jonathan Jesse, LP: #394026 
+    - Replaced Postfix and SMTPAUTH instructions, Adam Sommer
+    - Corrected /etc/ufw/sysctl.conf syntax, Adam Sommer, LP: #397357
+
+ -- Matthew East <mdke@ubuntu.com>  Sat, 25 Jul 2009 14:08:12 +0100
+
+ubuntu-docs (9.10.2) karmic; urgency=low
+
+  * General:
+    - fix menu entry for gparted; patch from Artur Szymanski, LP: #371851
+    - a few corrections to use US not UK spelling, patch from Nathan Handler
+    - remove unnecessary use of alt+f2 to start apps available from the menu, Dean Sas
+  * Hardware:
+    - fix instructions to lock screen with new FUSA applet, patch from Artur Szymanski, LP: #371930
+  * Add-applications:
+    - new section on PPA, patch from Nathan Handler
+  * Musicvideophotos:
+    - generalise photo import instructions, from Stephanie Mardell
+    - update section on listening to online audio streams is outdated, patch from Shane Fagan
+    - Rhythmbox has a tag editor, patch from Shane Fagan
+  * Keeping-safe:
+    - fix link to removing programs, patch from Artur Szymanski
+  * Internet:
+    - document easiest way to change preferred email client, Dougie Richardson, LP: #356894
+    - java is no longer installed by ubuntu-restricted-extras, Dean Sas, LP: #366039
+  * Serverguide:
+    - Clarify read only explanation in samba section, patch from Connor Imes, LP: #281702
+    - Patch by Joel Goguen adding note about restarting after joining a domain, LP: #352934.
+    - Patch by Nathan Handler to remove information about dhcdbd that is no longer needed, LP: #373867.
+    - Merge from Connor Imes: 2009-05-06 Fix bad flag in useradd command, LP: #371730
+  * Games:
+    - remove confusing lines from supertux instructions, patch from Shane Fagan, LP: #346892
+  * Printing:
+    - Fix typo and update notification text, patch from Nathan Handler
+
+ -- Matthew East <mdke@ubuntu.com>  Sun, 17 May 2009 09:45:19 +0100
+
+ubuntu-docs (9.10.1) karmic; urgency=low
+
+  * [Matthew East]
+    - First release for Karmic
+    - Drastically shorten package build time by only building translated xml 
+      for translations that we are actually going to ship
+    - hardware.xml - computer-janitor updates
+    - Correction to PhotoEditor instructions - patch from Connor Ines - LP: #355008
+    - photos.xml - import window opens automatically on f-spot first use, LP: #209530
+    - Add introductory paragraph to seek to explain GNOME desktop - LP: #219972
+    - Errors in musicvideophotos, patches from Artur Szymanski and Connor Imes - LP: #359288
+    - Typos in desktop-effects.xml, patch from Connor Imes. LP: #357344
+    - add missing apt: prefix to xchat-gnome installation link, LP: #356933
+    - Update debian/control and debian/copyright - patch from Nathan Handler, LP: #363552
+    - Grammar error in virtualization.xml, patch from Connor Imes. LP: #352313
+    - Make language in jockey section consistent with language used in UI, LP: #274845
+    - Add link to debian section on Ubuntu website, patch from Connor Imes, LP: #257337
+  * [Bhuvaneswaran A]
+    - serverguide/lamp-applications.xml - improvements to mediawiki instructions
+    - serverguide/chat.xml - new section about chat server applications
+    - improvements to exim section in serverguide/mail
+  * [Dean Sas] - typo fix in serverguide/jeos
+
+ -- Matthew East <mdke@ubuntu.com>  Wed, 29 Apr 2009 00:23:20 +0100
+
+ubuntu-docs (9.04.9) jaunty; urgency=low
+
+  * Final import of translations from Rosetta for NonLangPackFreeze
+  * Removing erroneous section about totem not supporting DVD menus (LP: #354777)
+  * libdvdread3 -> libdvdread4 (LP: #354764)
+
+ -- Matthew East <mdke@ubuntu.com>  Thu, 09 Apr 2009 21:15:26 +0100
+
+ubuntu-docs (9.04.8) jaunty; urgency=low
+
+  * [Jordan Mantha]
+    - Add Conflicts on edubuntu-docs (<< 9.04.1ubuntu1) LP: #353288
+
+  * [Matthew East]
+    - Remove es_ES and es_PR locales (LP: #348855)
+    - Removing strings about totem not being able to support DVD menus (LP: #354777)
+
+ -- Matthew East <mdke@ubuntu.com>  Fri, 03 Apr 2009 21:19:27 +0100
+
+ubuntu-docs (9.04.7) jaunty; urgency=low
+
+  * debian/ubuntu-docs.postinst - Fix syntax error with previous release (LP: #353117)
+  * refreshing translations from Rosetta
+
+ -- Matthew East <mdke@ubuntu.com>  Wed, 01 Apr 2009 14:21:14 +0100
+
+ubuntu-docs (9.04.6) jaunty; urgency=low
+
+  * Remove deprecated directory at /usr/share/gnome/help/libs (LP: #303578)
+    - Thanks to Steve Langasek for the fix
+
+ -- Matthew East <mdke@ubuntu.com>  Mon, 30 Mar 2009 18:09:05 +0100
+
+ubuntu-docs (9.04.5) jaunty; urgency=low
+
+  * String freeze release
+
+  * [Matthew East]
+    - Updating logout and shutdown instructions for Jaunty (User Switcher, not System menu)
+    - musicvideophotos.xml - use consistent language for extracting audio cds (LP: #346245)
+    - musicvideophotos.xml - use direct link to brasero manual
+    - Make titles of documents in yelp indexes match the title of the documents themselves (LP: #345852)
+    - Refresh pot templates
+
+  * [Dougie Richardson]
+    - basic-commands.xml - paste instructions correction (LP: #341534)
+    - internet/troubleshooting.xml - changing bad wording
+    - video.xml - dvd support requires gstreamer-ugly (LP: #338321)
+    - connecting.xml - modem instructions (LP: #310331)
+
+  * [Adam Sommer] - Server Guide
+    - Updated OpenLDAP section for new /etc/default/slapd configuration.
+    - Added instructions for setting correct ACL for the Kerberos keys.
+    - virtualization.xml - new Eucalyptus and OpenNebula sections
+    - installation.xml:
+      * rewrite of Extending Volume Groups section (LP: #347201, LP: #346862, and LP: #346859)
+      * Updates for Jaunty.
+    - security.xml:
+      * Updated Firewall section for Jaunty.
+      * Corrected "sudo ufw app info Samba" command (LP: #346327).
+    - dns.xml - fixing grammar and spelling mistakes (LP: #348032, LP: #348023, LP: #348094).
+    - windows-networking - Updated Likewise Open section for Jaunty (feedback from Thierry Carrez).
+
+  * [Phil Bull]
+    - about-ubuntu.xml - minor edits and updates, simplify a few sentences
+    - add-applications.xml:
+      * Add new entity for Software Sources, with sensible name
+      * Simplify structure
+      * Reduce verbosity, concentrate on the instructions
+      * Separate-out conceptual information into dedicated sections
+
+  * [Nathan Handler]
+    - virtualization.xml - typo (LP: #343633)
+
+  * [Dean Sas]
+    - music.xml - volume control preferences fix (LP: #346957)
+
+  * [Tim Bosse]
+    - connecting.xml - add basic VPN instructions
+
+ -- Matthew East <mdke@ubuntu.com>  Wed, 25 Mar 2009 22:03:21 +0000
+
+ubuntu-docs (9.04.4) jaunty; urgency=low
+
+  * [Matthew East]
+    - Rewrite of internet/connecting/mobile-broadband
+    - Review of internet/connecting/wireless
+    - fix typo - LP: #339227
+    - Update guilabel for disabling visual effects (LP: #339103)
+    - Correction to 'Hardware Drivers' entity
+    - Add documentation for visual effects keyboard shortcuts (LP: #147294) - patch from seisen1
+    - Refresh pot files
+    - programming.xml - package name should be in small case (LP: #336629)
+    - Switching from Windows - typo fix and update to firefox bookmark export (LP: #330912, LP: #330908)
+
+  * [Dougie Richardson]
+    - Document MTP player support for rhythmbox (LP: #338437)
+    - Use xref links rather than ulink in musicvideophotos (LP: #222990)
+
+  * [Adam Sommer]
+    - Improvements to OpenLDAP credentials section (LP: #333733, LP: #333437)
+    - Fix to Samba security instructions (LP: #332478)
+    - Fix to Subversion authentication details (LP: #337215)
+    - Add -c flag to vert-viewer command example (LP: #335541)
+    - Update link to MoinMoin website (LP: #334652)
+    - Updated Postfix section with instructions for new dovecot-postfix package
+    - Bind configuration improvements (LP: #339910)
+
+ -- Matthew East <mdke@ubuntu.com>  Sun, 08 Mar 2009 13:54:15 +0000
+
+ubuntu-docs (9.04.3) jaunty; urgency=low
+
+  * Cruft Remover renamed to Computer Janitor, adjusting hardware.xml accordingly (LP: #336288)
+  * Expansion and revision of Programming document (Dean Sas)
+  * No way to change hostname using GUI tool now (LP: #322268) - Dougie Richardson
+  * Update logout details (LP: #335279) - Dougie Richardson
+  * Update version number in offline firefox startpage
+  * Typo in serverguide (LP: #334697) - Dougie Richardson
+  * Update to Windows partition manager in Switching from Windows doc (LP: #333600) - Dougie Richardson
+  * Refresh pot files
+
+ -- Matthew East <mdke@ubuntu.com>  Sun, 01 Mar 2009 15:46:22 +0000
+
+ubuntu-docs (9.04.2) jaunty; urgency=low
+
+  * Various serverguide fixes:
+    - Grammar error (LP: #203829) - Dean Sas
+    - Fix mailman dependencies (LP: #291772) - Morten Siebuhr
+    - CVS installation error (LP: #298605) - Thomas M
+    - Postfox installation error (LP: #306289) - Adam Sommer
+    - SSH update (LP: #311900) - Dean Sas
+    - unzoo replaced by zoo (LP: #312506)
+    - Samba instructions update (LP: #313232) - Adam Sommer
+    - Clearer SSL instructions (LP: #314951) - Adam Sommer
+    - LDAP error (LP: #319179) - Adam Sommer
+    - MoinMoin installation fix (LP: #320840) - Adam Sommer
+    - Postfix ssl improvements (LP: #323203) - Adam Sommer
+    - Ebox instructions error (LP: #324399) - Dean Sas
+    - Typo in openssh section (LP: #325828) - Dean Sas
+    - Typo in samba section (LP: #285484) - Nick Ellery
+    - SSHD fix (LP: #295279) - Adam Sommer
+    - Jeos fix (LP: #307582) - Adam Sommer
+    - Remove reference to ebox-all package (LP: #322367) - Adam Sommer
+
+  * Typo in "switching from windows" (LP: #309735)
+  * Broken link in "programming" (LP: #310081) - Jonathan Jesse
+  * lsb_release issue in "basic commands" (LP: #310713) - Thomas M
+  * Updating logout instructions (LP: #327060) - Dean Sas
+  * Updating all documents to use apt-url for installation instructions
+  * Refreshing pot files for Rosetta
+  * Recompress *.png files with 'advpng -z -4 file.png' to save space -  Sahak Petrosyan
+  * Improve instructions on pasting commands (LP: #185892) - Martin Mai
+  * Rewrite of networking instructions (LP: #298513, LP: #321308, LP: #314680, LP: #321179) - Dougie Richardson
+  * Amend punctuation of about-ubuntu (LP: #275592) - Dougie Richardson
+  * Documentation for automatic login (LP: #290467) - Dougie Richardson
+
+ -- Matthew East <mdke@ubuntu.com>  Sun, 15 Feb 2009 11:50:28 +0000
+
+ubuntu-docs (9.04.1) jaunty; urgency=low
+
+  * Images should not be executable (LP: #206371) - Sahak Petrosyan
+  * Couple of typos (LP: #282358, LP: #266997) - Sahak Petrosyan
+  * ubuntu-restricted-extras has java6 (LP: #288623) - Dean Sas
+  * Permit building html for other languages in Makefile - Mitsuya Shibata
+  * Use the same background image as Ubuntu website (LP: #305760)
+  * Make search available for users without javascript - Dustin Kirkland
+  * Various content improvements - Phil Bull
+  * Use "Enter", not "Return" - Joel Goguen (LP: #213104)
+
+ -- Matthew East <mdke@ubuntu.com>  Thu, 11 Dec 2008 12:47:51 +0000
+
+ubuntu-docs (8.10.2) intrepid; urgency=low
+
+  * Updating translations from Launchpad as at 19 Oct 08 (LP: #286829)
+  * Small update to Hebrew translation of browser startpage (LP: #285696)
+  * To save CD space, only ship translations which are over 75% translated
+
+ -- Matthew East <mdke@ubuntu.com>  Sun, 19 Oct 2008 20:21:13 +0100
+
+ubuntu-docs (8.10.1) intrepid; urgency=low
+
+  * Add ukranian translation of firefox homepage (LP: #216982)
+  * Correct wrong codename in basic-commands document (LP: #281664)
+
+ -- Matthew East <mdke@ubuntu.com>  Tue, 14 Oct 2008 22:27:20 +0100
+
+ubuntu-docs (8.09.2) intrepid; urgency=low
+
+  * ubuntu-serverguide should suggest www-browser and not firefox (LP: #272772)
+
+ -- Matthew East <mdke@ubuntu.com>  Sun, 21 Sep 2008 21:21:03 +0100
+
+ubuntu-docs (8.09.1) intrepid; urgency=low
+
+  * about-ubuntu validity fix (LP: #255088)
+  * various text updates (LP: #238661, LP: #14425, LP: #248283, LP: #215025)
+  * hebrew startpage improvement (LP: #220780)
+
+ -- Matthew East <mdke@ubuntu.com>  Thu, 04 Sep 2008 22:50:16 +0100
+
+ubuntu-docs (8.08.2) intrepid; urgency=low
+
+  * Updating browser startpage version numbers
+
+ -- Matthew East <mdke@ubuntu.com>  Mon, 04 Aug 2008 21:55:44 +0100
+
+ubuntu-docs (8.08.1) intrepid; urgency=low
+
+  * First release for intrepid
+  * Severe restructuring and simplification of tree
+  * Removing lots of unused files
+  * Only build translated xml at build time, rather than in advance
+  * Various text fixes
+
+ -- Matthew East <mdke@ubuntu.com>  Sat, 05 Apr 2008 15:03:15 +0100
+
+ubuntu-docs (8.03.4) hardy; urgency=low
+
+  * Install omf file for serverguide (LP: #208134)
+
+ -- Matthew East <mdke@ubuntu.com>  Fri, 28 Mar 2008 08:12:48 +0000
+
+ubuntu-docs (8.03.3) hardy; urgency=low
+
+  * New bzr checkout (LP: #181236, LP: #203198, LP: #204163, LP: #204666)
+  * String freeze now in effect
+  * Refresh pot files
+
+ -- Matthew East <mdke@ubuntu.com>  Fri, 21 Mar 2008 14:34:49 +0000
+
+ubuntu-docs (8.03.2) hardy; urgency=low
+
+  * New bzr checkout (LP: #176678, LP: #118963, LP: #108083, LP: #202312)
+  * Replacing "server" document with "serverguide"
+  * Refresh pot files
+  * Fixing debian/rules to filter translations less than 40%
+
+ -- Matthew East <mdke@ubuntu.com>  Sun, 16 Mar 2008 22:16:42 +0000
+
+ubuntu-docs (8.03.1) hardy; urgency=low
+
+  * New bzr checkout (LP: #49435, LP: #197557, LP: #172650, LP: #192202,
+    LP: #144788, LP: #162446, LP: #183339, LP: #195882)
+  * Include html version of contributors in ubuntu-serverguide (LP: #88814)
+  * Refresh pot templates
+
+ -- Matthew East <mdke@ubuntu.com>  Sun, 09 Mar 2008 18:37:08 +0000
+
+ubuntu-docs (8.02.2) hardy; urgency=low
+
+  * Adding translations for all documents
+  * Amending path for pot templates, as requested by carlos
+
+ -- Matthew East <mdke@ubuntu.com>  Wed, 20 Feb 2008 07:56:10 +0000
+
+ubuntu-docs (8.02.1) hardy; urgency=low
+
+  * New bzr checkout - loads of text fixes and improvements (LP: #183148,
+    LP: #183025, LP: #178064, LP: #160435, LP: #158016, LP: #146794, 
+    LP: #144795, LP: #185867, LP: #163188, LP: #150167, LP: #148372, 
+    LP: #144928, LP: #141491, LP: #141444, LP: #138891, LP: #172565, 
+    LP: #144285, LP: #150641, LP: #176678)
+  * First release for hardy
+
+ -- Matthew East <mdke@ubuntu.com>  Sat, 16 Feb 2008 18:31:20 +0000
+
+ubuntu-docs (7.10.4) gutsy; urgency=low
+
+  * Fix broken link in "windows" document (LP: #144796)
+
+ -- Matthew East <mdke@ubuntu.com>  Fri, 12 Oct 2007 08:36:57 +0100
+
+ubuntu-docs (7.10.3) gutsy; urgency=low
+
+  * Advanced Topics - changing link to more useful doc for programming reference
+
+ -- Matthew East <mdke@ubuntu.com>  Sun, 07 Oct 2007 12:34:41 +0100
+
+ubuntu-docs (7.10.2) gutsy; urgency=low
+
+  * New translation export from rosetta
+  * Restoring translations over 40% complete
+  * Including all languages in ubuntu-serverguide package (LP: #110863)
+  * Last package upload before gutsy (LP: #149993)
+
+ -- Matthew East <mdke@ubuntu.com>  Sat, 06 Oct 2007 15:25:19 +0100
+
+ubuntu-docs (7.10.1) gutsy; urgency=low
+
+  * Adding translations to source package
+  * Don't install libs/pdf directory 
+  * Restore symlink-dupes script to eliminate duplicate files (LP: 149040)
+  * Fix debian/rules to take account of new location for pot files (thanks to Martin Pitt)
+  * Only install translations which are >90% complete (temporary measure to keep package size small)
+
+ -- Matthew East <mdke@ubuntu.com>  Thu, 04 Oct 2007 08:17:06 +0100
+
+ubuntu-docs (7.09.3) gutsy; urgency=low
+
+  * Strip out unwanted directories from the source package in 
+		debian/rules rather than manually.
+
+ -- Matthew East <mdke@ubuntu.com>  Mon, 17 Sep 2007 08:46:53 +0100
+
+ubuntu-docs (7.09.2) gutsy; urgency=low
+
+  * New SVN checkout
+  * String Freeze in effect, refreshing pot templates
+
+ -- Matthew East <mdke@ubuntu.com>  Fri, 14 Sep 2007 08:23:05 +0100
+
+ubuntu-docs (7.09.1) gutsy; urgency=low
+
+  * New SVN checkout
+  * Changing 7.04 to 7.10 in browser homepage
+
+ -- Matthew East <mdke@ubuntu.com>  Tue, 28 Aug 2007 08:14:03 +0100
+
+ubuntu-docs (7.07.2) gutsy; urgency=low
+
+  * New SVN checkout.
+
+ -- Jordan Mantha <mantha@ubuntu.com>  Wed, 15 Aug 2007 13:35:31 -0700
+
+ubuntu-docs (7.07.1) gutsy; urgency=low
+
+  * New SVN checkout.
+  * debian/rules: remove symlink-dupes bits.
+
+ -- Daniel Holbach <daniel.holbach@ubuntu.com>  Wed, 04 Jul 2007 09:30:59 +0200
+
+ubuntu-docs (7.04.4) feisty; urgency=low
+
+  * debian/control: Add missing Pre-depends: on dpkg for bzip2 compression
+    support.
+  * debian/rules: Use the same 'poorly translated' barrier for the server
+    parts of ubuntu-doc, and raise the bar to 30%.
+  * debian/rules: Add -o /dev/null to msgfmt calls to avoid writing
+    messages.mo into the root directory.
+
+ -- Martin Pitt <martin.pitt@ubuntu.com>  Wed, 11 Apr 2007 10:00:01 +0200
+
+ubuntu-docs (7.04.3) feisty; urgency=low
+
+  * Update translations from Rosetta
+  * Install translations for ubuntu-serverguide
+  * Unbreak about-ubuntu panel menu entry
+  * [Martin Pitt]:
+    - debian/rules: Do not ship documents which are less than 25% translated.
+      They are useless for non-English speakers anyway and bloat the package.
+    - debian/control: Add bc build dependency (needed for the percentage 
+      calculation).
+
+ -- Matthew East <mdke@ubuntu.com>  Sun,  8 Apr 2007 10:26:54 +0100
+
+ubuntu-docs (7.04.2) feisty; urgency=low
+
+  * Package diet to stop being so ridiculously space inefficient:
+    - debian/rules: Use bzip2 compression.
+    - Add symlink-dupes and run it in debian/rules, to symlink duplicate
+      files. Add fdupes build dependency for that.
+
+ -- Martin Pitt <martin.pitt@ubuntu.com>  Thu,  5 Apr 2007 12:32:17 +0200
+
+ubuntu-docs (7.04.1) feisty; urgency=low
+
+  * Adding translations for all documents
+  * [Daniel Holbach]
+    - debian/control: change gnome2-user-guide to gnome-user-guide.
+
+ -- Matthew East <mdke@ubuntu.com>  Wed,  4 Apr 2007 08:00:57 +0100
+
+ubuntu-docs (7.03.3) feisty; urgency=low
+
+  * A few new strings approved as per DocumentationStringFreeze
+  * Refreshing pot templates
+  * Removing pot template for switching guide
+
+ -- Matthew East <mdke@ubuntu.com>  Thu, 15 Mar 2007 08:25:46 +0000
+
+ubuntu-docs (7.03.2) feisty; urgency=low
+
+  * New material, mainly from Phil Bull
+  * Refreshing pot templates
+  * String freeze now in effect
+
+ -- Matthew East <mdke@ubuntu.com>  Thu,  8 Mar 2007 08:20:38 +0000
+
+ubuntu-docs (7.03.1) feisty; urgency=low
+
+  * Two new documents - basic-commands and desktop-effects
+  * Refreshing pot templates
+
+ -- Matthew East <mdke@ubuntu.com>  Sat,  3 Mar 2007 11:03:55 +0000
+
+ubuntu-docs (7.02.3) feisty; urgency=low
+
+  * split out serverguide as a standalone .deb
+    - moved install, links, postinst, and prerm to ubuntu-docs.*
+    - added ubuntu-serverguide binary section to debian/control
+    - cleaned up long descriptions to reflect what is actually
+      shipped.
+    - added ubuntu-serverguide build and install rules
+  * split out packagingguide as standalone .deb
+  * updated debian/copyright to reflect above
+
+ -- Jordan Mantha <mantha@ubuntu.com>  Wed, 21 Feb 2007 02:10:28 -0800
+
+ubuntu-docs (7.02.2) feisty; urgency=low
+
+  * Adding a "Files, Folders and Documents" topic.
+  * Various text updates
+
+ -- Matthew East <mdke@ubuntu.com>  Fri,  9 Feb 2007 08:21:45 +0000
+
+ubuntu-docs (7.02.1) feisty; urgency=low
+
+  * Installing documents within the gnome/help scheme
+    - for easier linking
+
+ -- Matthew East <mdke@ubuntu.com>  Fri,  2 Feb 2007 00:28:53 +0000
+
+ubuntu-docs (7.01.3) feisty; urgency=low
+
+  * Rearranging directory structure and adding translation templates
+
+ -- Matthew East <mdke@ubuntu.com>  Sat, 27 Jan 2007 07:53:31 -0500
+
+ubuntu-docs (7.01.2) feisty; urgency=low
+
+  * adding new advanced-topics category with links to man pages
+
+ -- Matthew East <mdke@ubuntu.com>  Wed, 24 Jan 2007 00:14:21 +0000
+
+ubuntu-docs (7.01.1) feisty; urgency=low
+
+  * Adding gnome2-user-guide and yelp to Depends
+  * Two new top level topics
+
+ -- Matthew East <mdke@ubuntu.com>  Tue,  9 Jan 2007 00:08:10 +0000
+
+ubuntu-docs (6.12.2) feisty; urgency=low
+
+  * Tweaking of which documents show up on the front page
+  * Various text updates
+
+ -- Matthew East <mdke@ubuntu.com>  Sat, 23 Dec 2006 01:11:53 +0000
+
+ubuntu-docs (6.12.1) feisty; urgency=low
+
+  * Serious revamping of structure of documentation, accordingly
+	 changes made to packaging. Please do some serious testing.
+
+ -- Matthew East <mdke@ubuntu.com>  Sat, 16 Dec 2006 17:00:00 +0000
+
+ubuntu-docs (6.11.2) feisty; urgency=low
+
+  * Changing the packaging process to point mainly at debian/rules rather
+	 than debian/install so we don't have to keep adding files manually to the
+	 latter.
+
+ -- Matthew East <mdke@ubuntu.com>  Sun, 19 Nov 2006 10:39:00 +0000
+
+ubuntu-docs (6.11.1) edgy-updates; urgency=low
+
+  * Some missing entities causing validity havoc in our docbook
+  * Fixing invalidity of contribute.xml
+
+ -- Matthew East <mdke@ubuntu.com>  Sat, 18 Nov 2006 20:53:00 +0000
+
+ubuntu-docs (6.10.4) edgy; urgency=low
+
+  * Updating omf files for getting-help
+  * Removing es_ES locale for aboutubuntu (duplicate of es) - bug 66819
+
+ -- Matthew East <mdke@ubuntu.com>  Fri, 20 Oct 2006 20:30:00 +0100
+
+ubuntu-docs (6.10.3) edgy; urgency=low
+
+  * Matthew East:
+    - Fixing translations by installing *omf files for each document and 
+      fixing paths in the omf files
+  * Daniel Holbach:
+    - fix installation, run dh_scrollkeeper.
+
+ -- Matthew East <mdke@ubuntu.com>  Wed, 18 Oct 2006 22:00:00 +0100
+
+ubuntu-docs (6.10.2) edgy; urgency=low
+
+  * Adding translations for all documents
+
+ -- Matthew East <mdke@ubuntu.com>  Sun, 15 Oct 2006 10:30:00 +0100
+
+ubuntu-docs (6.10.1) edgy; urgency=low
+
+  * Including po files for translations in source package, as requested by Carlos.
+  * Adding pot template and correcting typo in omf file for Getting Help document.
+
+ -- Matthew East <mdke@ubuntu.com>  Sun, 30 Sep 2006 12:00:00 +0100
+
+ubuntu-docs (6.09.3) edgy; urgency=low
+
+  * New SVN checkout.
+  * ubuntu/browser-startpage/*:
+    - changed occurrences of Dapper, Drake, 6.06, LTS, ... to their 'edgy'
+      equivalents - there are more strings to change outside of this.
+
+ -- Daniel Holbach <daniel.holbach@ubuntu.com>  Tue, 26 Sep 2006 12:42:25 +0200
+
+ubuntu-docs (6.09.2) edgy; urgency=low
+
+  * New SVN checkout. 
+
+ -- Daniel Holbach <daniel.holbach@ubuntu.com>  Thu, 21 Sep 2006 22:52:02 +0200
+
+ubuntu-docs (6.09.1) edgy; urgency=low
+
+  * New release.
+  * debian/control:
+    - removed Depends on gnome2-user-guide, after discussion with Corey
+      Burger.
+
+ -- Daniel Holbach <daniel.holbach@ubuntu.com>  Fri, 15 Sep 2006 17:55:30 +0200
+
+ubuntu-docs (6.08.2) edgy; urgency=low
+
+  * New "Contribute to Ubuntu" doc, written by Andreas Lloyd and imported from the wiki
+  * Desktop guide significantly restructured, now includes the Gnome user-guide
+  * Including pot templates for automatic import into Rosetta
+
+ -- Matthew East <mdke@ubuntu.com>  Mon, 28 August 2006 22:00:00 +0100
+
+ubuntu-docs (6.08.1) edgy; urgency=low
+
+  * first package for Edgy
+  * removing translations of documentation
+  * changing installation directory for documentation from /usr/share/ubuntu-doc
+     to /usr/share/gnome/help to integrate with gnome help system
+  * splitting documents up to make a nicer structure for help system, hopefully
+  .
+  * [Daniel Holbach]
+    - debian/README: updated repository URL. 
+    - debian/control:
+      - bumped Standards-Version,
+      - made cdbs and debhelper Build-Depends, not Build-Depends-Indep.
+    - debian/install:
+      - changed ubuntuheader.png location.
+
+ -- Matthew East <mdke@ubuntu.com>  Fri, 2 August 2006 14:00:00 +0100
+
+ubuntu-docs (6.06.2) dapper-updates; urgency=low
+
+  * New snapshot of translations from Rosetta
+
+ -- Matthew East <mdke@ubuntu.com>  Fri, 16 June 2006 13:25:00 +0100
+
+ubuntu-docs (6.06.1) dapper; urgency=low
+
+  * removing useless link (Ubuntu: #47016)
+
+ -- Matthew East <mdke@ubuntu.com>  Sun, 28 May 2006 01:44:00 +0100
+
+ubuntu-docs (6.05.6) dapper; urgency=low
+
+  * Replace `Ubuntu 6.06, Dapper Drake' with `Ubuntu 6.06 LTS'.
+  * Replace 6.04 with 60.6 in generic/libs/generic.ent.
+  * New sk translation of desktopguide (patch via mdke).
+  * Remove `ka_GE' from DapperFirefoxStartPageTranslation locale list.
+    It's too near to the Dapper release to complete the remaining stages
+    of the adding-a-locale process, and we must not stop halfway.
+
+ -- Ian Jackson <iwj@ubuntu.com>  Tue, 23 May 2006 15:39:25 +0100
+
+ubuntu-docs (6.05.5) dapper; urgency=low
+
+  * Updated translations for everything (last update before the release)
+  * [Daniel Holbach]
+    - debian/README: updated.
+
+ -- Matthew East <mdke@ubuntu.com>  Sun, 21 May 2006 17:31:00 +0100
+
+ubuntu-docs (6.05.4) UNRELEASED; urgency=low
+
+  * Adding preface.xml for zh_TW (was causing scrollkeeper errors)
+  * DapperFirefoxStartPageTranslation - new translateable locale `ka_GE'
+
+ -- Matthew East <mdke@ubuntu.com>  Wed, 17 May 2006 20:53:00 +0100
+
+ubuntu-docs (6.05.3) dapper; urgency=low
+
+  * DapperFirefoxStartPageTranslation for epiphany:
+    produce an index-C.html for epiphany's index-%l.html.
+  * New translateable locale `ku'.
+
+ -- Ian Jackson <iwj@ubuntu.com>  Tue, 16 May 2006 17:18:19 +0100
+
+ubuntu-docs (6.05.2) dapper; urgency=low
+
+  * New snapshot of translations for all documents
+
+ -- Matthew East <mdke@ubuntu.com>  Sun, 14 May 2006 12:42:00 +0100
+
+ubuntu-docs (6.05.1) dapper; urgency=low
+
+  * Taking html out of shipped documentation.
+  * Adding preface.xml for those translations which have them
+  * New snapshot of translations for all documents
+
+ -- Matthew East <mdke@ubuntu.com>  Tue, 02 May 2006 19:23:16 +0200
+
+ubuntu-docs (6.04.8) dapper; urgency=low
+
+  * [Matthew East and the Docteam]
+    - Adding some symbolic links so that the css and images in localised 
+      firefox homepages work
+    - Adding translations of the documents (BIG INCREASE IN PACKAGE SIZE)
+    - Moved to debhelper 5 so that we can use comments in debian/install to 
+      keep track of what has now become a long and confusing file.
+    - Relocated sample folders up a directory so that they don't need to be 
+      included for each translation
+  * [Daniel Holbach]
+    - debian/README:
+      - updated instructions to obtain 'source' for ubuntu-docs.
+
+ -- Daniel Holbach <daniel.holbach@ubuntu.com>  Sun, 23 Apr 2006 08:39:40 +0200
+
+ubuntu-docs (6.04.7) dapper; urgency=low
+
+  * Revised DapperFirefoxStartPageTranslation:
+    - new slave alternatives directory for translated homepages
+    - automatic script for generation of link farm
+
+ -- Ian Jackson <iwj@ubuntu.com>  Fri, 21 Apr 2006 18:05:36 +0100
+
+ubuntu-docs (6.04.6) dapper; urgency=low
+
+  * SVN checkout to make mdke happy. 
+
+ -- Daniel Holbach <daniel.holbach@ubuntu.com>  Sat, 15 Apr 2006 13:58:57 +0200
+
+ubuntu-docs (6.04.5) dapper; urgency=low
+
+  * Massive reduction in source package (to make dholbach happy)
+  * Adding more firefox homepage translations
+
+ -- Matthew East <mdke@ubuntu.com>  Tue, 11 Apr 2006 22:26:00 +0100
+
+ubuntu-docs (6.04.4) dapper; urgency=low
+
+  * The "gee the docteam rocks nowadays" release
+  * Documentation string freeze
+  * Pot templates for about ubuntu, desktop guide, server guide, packagingguide, preface
+  * Fixing broken entity in about ubuntu
+  * Adding more firefox homepage translations
+
+ -- Matthew East <mdke@ubuntu.com>  Fri, 07 Apr 2006 15:11:07 +0100
+
+ubuntu-docs (6.04.3) dapper; urgency=low
+
+  * Adding links for dummy firefox homepage translations
+  * Adding lt translation of firefox homepage
+
+ -- Matthew East <mdke@ubuntu.com>  Tue, 05 Apr 2006 15:11:07 +0100
+
+ubuntu-docs (6.04.2) dapper; urgency=low
+
+  * Adding a link for common files in /usr/share/gnome (fixes malone 37979)
+
+ -- Matthew East <mdke@ubuntu.com>  Tue, 04 Apr 2006 11:11:07 +0100
+
+ubuntu-docs (6.04.1) dapper; urgency=low
+
+  * New SVN snapshot:
+    - Rewrite of About Ubuntu document.
+    - Updated pot file for About-Ubuntu
+
+ -- Daniel Holbach <daniel.holbach@ubuntu.com>  Mon, 03 Apr 2006 20:55:07 +0200
+
+ubuntu-docs (6.03.5) dapper; urgency=low
+
+  * New SVN snapshot.
+  * debian/control:
+    - added docbook-xml to Build-Depends.
+
+ -- Daniel Holbach <daniel.holbach@ubuntu.com>  Sun, 26 Mar 2006 16:06:40 +0200
+
+ubuntu-docs (6.03.4) dapper; urgency=low
+
+  * New SVN snapshot, should make scrollkeeper happy again. 
+
+ -- Daniel Holbach <daniel.holbach@ubuntu.com>  Sat, 25 Mar 2006 13:11:39 +0100
+
+ubuntu-docs (6.03.3) dapper; urgency=low
+
+  * New SVN snapshot. 
+
+ -- Daniel Holbach <daniel.holbach@ubuntu.com>  Wed, 22 Mar 2006 14:46:49 +0100
+
+ubuntu-docs (6.03.2) dapper; urgency=low
+
+  * New SVN snapshot. 
+
+ -- Daniel Holbach <daniel.holbach@ubuntu.com>  Tue, 14 Mar 2006 13:10:44 +0100
+
+ubuntu-docs (6.03.1) dapper; urgency=low
+
+  * lots of new material from the whole team
+  * new style for browser homepage, including some images
+  * corrected position of the sample directories for desktop/server guide html versions
+
+ -- Matthew East <mdke@ubuntu.com>  Wed, 8 Mar 2006 16:11:00 +0000
+
+ubuntu-docs (6.02.3) dapper; urgency=low
+
+  * New SVN snapshot.
+    - enhanced copyright file (Malone: #27923)
+
+ -- Daniel Holbach <daniel.holbach@ubuntu.com>  Tue, 28 Feb 2006 08:16:47 +0100
+
+ubuntu-docs (6.02.2) dapper; urgency=low
+
+  * New SVN snapshot.
+
+ -- Daniel Holbach <daniel.holbach@ubuntu.com>  Tue, 21 Feb 2006 14:02:23 +0100
+
+ubuntu-docs (6.02.1) dapper; urgency=low
+
+  * New SVN snapshot.
+
+ -- Daniel Holbach <daniel.holbach@ubuntu.com>  Mon, 13 Feb 2006 17:31:48 +0100
+
+ubuntu-docs (6.01.6) dapper; urgency=low
+
+  * removing links to html versions of the guides from Yelp Table of Contents
+  * new material for desktopguide (Naaman Campbell, Milo Casagrande, mdke); lots of bugs fixed; fairly drastic re-organisation: please test and give feedback!!
+  * new material for serverguide (bhuvan)
+  * reworking of the packagingguide (LaserJock)
+  * included pot templates for all the guides, which will go into Rosetta (hopefully)
+
+ -- Matthew East <mdke@ubuntu.com>  Fri, 3 Feb 2006 12:29:00 +0000
+
+ubuntu-docs (6.01.5) dapper; urgency=low
+
+  * [Daniel Holbach]
+    - New SVN checkout.
+  * [Matthew East]
+    - using a static html browser startpage rather than a page generated from
+    docbook xml.
+
+ -- Daniel Holbach <daniel.holbach@ubuntu.com>  Mon, 23 Jan 2006 15:55:39 +0100
+
+ubuntu-docs (6.01.4) dapper; urgency=low
+
+  * New SVN checkout. 
+
+ -- Daniel Holbach <daniel.holbach@ubuntu.com>  Tue, 17 Jan 2006 20:20:09 +0100
+
+ubuntu-docs (6.01.3) dapper; urgency=low
+
+  * Matthew East <mkde@ubuntu.com>:
+    - new shorter firefox start page.
+  * Daniel Holbach <dholbach@ubuntu.com>:
+    - new SVN checkout.
+
+ -- Daniel Holbach <daniel.holbach@ubuntu.com>  Thu, 12 Jan 2006 10:27:36 +0100
+
+ubuntu-docs (6.01.2) dapper; urgency=low
+
+  * New SVN checkout.
+
+ -- Daniel Holbach <daniel.holbach@ubuntu.com>  Mon,  9 Jan 2006 13:08:28 +0100
+
+ubuntu-docs (6.01.1) dapper; urgency=low
+
+  * New SVN checkout.
+
+ -- Daniel Holbach <daniel.holbach@ubuntu.com>  Mon,  2 Jan 2006 15:19:27 +0100
+
+ubuntu-docs (5.12.4) dapper; urgency=low
+
+  * New SVN checkout.
+  * debian/README:
+    - fixed little typo. 
+  * ubuntu/Makefile:
+    - dropped dg-IT from dg build target to fix build.
+
+ -- Daniel Holbach <daniel.holbach@ubuntu.com>  Thu, 22 Dec 2005 12:18:55 +0100
+
+ubuntu-docs (5.12.3) dapper; urgency=low
+
+  * Use update-alternatives for Firefox index page
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 20 Dec 2005 19:27:41 +0000
+
+ubuntu-docs (5.12.2) dapper; urgency=low
+
+  * New SVN checkout.
+  * debian/README.Debian
+    - added by Matthew East. 
+    - The directories mentioned in there are stripped from the tarball.
+
+ -- Daniel Holbach <daniel.holbach@ubuntu.com>  Wed, 14 Dec 2005 22:43:52 +0100
+
+ubuntu-docs (5.12.1) dapper; urgency=low
+
+  * New SVN checkout.
+
+ -- Daniel Holbach <daniel.holbach@ubuntu.com>  Tue,  6 Dec 2005 08:32:51 +0100
+
+ubuntu-docs (5.11-4) dapper; urgency=low
+
+  * new text, image and css in /usr/share/ubuntu-artwork/home/index.html (Ubuntu #15013, #16932, #17605 and #20692)
+  * Including the sample/ directory with desktopguide and serverguide
+
+ -- Matthew East <mdke@ubuntu.com>  Mon, 2 Dec 2005 17:37:00 +0000
+
+ubuntu-docs (5.11-3) dapper; urgency=low
+
+  * adding packaging guide to the package
+  * moving xml guides to a new location (/usr/share/ubuntu-docs/ubuntu rather than /usr/share/ubuntu-docs) so that the entities work.
+
+ -- Matthew East <mdke@ubuntu.com>  Mon, 28 Nov 2005 18:37:49 +0000
+
+ubuntu-docs (5.11-2) dapper; urgency=low
+
+  * added html versions of desktopguide and serverguide with relevant omf targets
+  * fixing misplaced css and navigation buttons
+
+ -- Matthew East <mdke@ubuntu.com>  Mon, 28 Nov 2005 18:37:49 +0000
+
+ubuntu-docs (5.11-1) dapper; urgency=low
+
+  * New SVN checkout.
+  * debian/control:
+    - Bumped Standards-Version.
+  * debian/ubuntu-docs.doc-base.quicktour:
+    - dropped.
+
+ -- Daniel Holbach <daniel.holbach@ubuntu.com>  Fri, 25 Nov 2005 20:56:49 +0100
+
+ubuntu-docs (5.10-7) dapper; urgency=low
+
+  * New document names for dapper (faqguide -> desktopguide)
+
+  * Improved About Ubuntu css
+
+  * Removed translations (translation won't start until string freeze)
+
+  * Added new Server Guide
+
+ -- Matthew East <mdke@ubuntu.com>  Fri, 25 Nov 2005 15:52:14 +0000
+
+ubuntu-docs (5.10-6) breezy; urgency=low
+
+  * Resolve remaining errors from pofile export from Rosetta.
+    (Ubuntu #17145)
+    Thanks to Matthew East for this!
+
+  * Make ghelp URIs work again (Ubuntu  #16982)
+
+  * Prune out unused images.
+
+  * Firefox start page now has image and CSS.
+
+  * The faqguide is now known as the "Ubuntu 5.10 Starter Guide"
+
+ -- Jeff Bailey <jbailey@ubuntu.com>  Fri,  7 Oct 2005 16:32:14 -0400
+
+ubuntu-docs (5.10-5) breezy; urgency=low
+
+  * Resolve entity errors (Ubuntu: #15866, 16680)
+
+  * Provide firefox start page (Ubuntu: #16663)
+
+  Note: This page needs work as the image doesn't display and the CSS
+  file crashes firefox, but this kills the annoying error.
+
+ -- Jeff Bailey <jbailey@ubuntu.com>  Mon,  3 Oct 2005 02:20:04 -0400
+
+ubuntu-docs (5.10-4) breezy; urgency=low
+
+  * Final update for NonLanguagePackTranslationDeadlinreg
+
+ -- Jeff Bailey <jbailey@ubuntu.com>  Thu, 29 Sep 2005 23:28:43 -0400
+
+ubuntu-docs (5.10-3) breezy; urgency=low
+
+  * Lighten the package somewhat (Thanks to Jerome Gotangco)
+
+  * Conflict/Replace ubuntu-faqguide (Ubuntu: #16465)
+    Thanks to Matt Zimmerman for catching this!
+
+ -- Jeff Bailey <jbailey@ubuntu.com>  Wed, 28 Sep 2005 00:26:10 -0400
+
+ubuntu-docs (5.10-2) breezy; urgency=low
+
+  * Switch to docbook
+
+  * Remove old ubuntu-quickguide (Ubuntu #14816, #14709)
+
+  * Various updates from the docteam and translators.
+
+ -- Jeff Bailey <jbailey@ubuntu.com>  Tue, 27 Sep 2005 00:34:05 -0400
+
+ubuntu-docs (5.10-1) breezy; urgency=low
+
+  * Redo packaging based heavily off of Matt's packaging, make
+    sure that images are all included and that pages don't say
+    "draft".
+
+    Currently includes: about-ubuntu, faqamd64, faqi386, faqppc,
+    quicktour, and release-notes.
+
+ -- Jeff Bailey <jbailey@ubuntu.com>  Fri,  2 Sep 2005 01:55:34 -0400
+
+ubuntu-docs (5.10-0.0) breezy; urgency=low
+
+  * First release using new revision number scheme
+  * Currently only include releasenotes, aboutubuntu, and the faqguide
+
+ -- Matt T Galvin <matt.t.galvin@gmail.com>  Wed, 10 Aug 2005 20:37:21 -0400
+
+ubuntu-docs (1.0-1) hoary; urgency=low
+
+  * New release
+    (xh OMF files are now translated)
+  * Bump to 1.0 because this one wants to be the last upload for Hoary
+
+ -- Enrico Zini <enrico@debian.org>  Wed,  6 Apr 2005 15:03:50 +0200
+
+ubuntu-docs (0.7-1) hoary; urgency=low
+
+  * New release
+  * Added translated OMF files
+
+ -- Enrico Zini <enrico@debian.org>  Wed,  6 Apr 2005 14:20:26 +0200
+
+ubuntu-docs (0.6-1) hoary; urgency=low
+
+  * New release
+  * Translations updated
+  * quickguide file name changed
+  * Quickguide starts having translations as well
+
+ -- Enrico Zini <enrico@debian.org>  Tue,  5 Apr 2005 16:56:31 +0200
+
+ubuntu-docs (0.5-1) hoary; urgency=low
+
+  * New release
+  * Includes translations
+
+ -- Enrico Zini <enrico@debian.org>  Mon,  4 Apr 2005 15:52:27 +0200
+
+ubuntu-docs (0.4-1) hoary; urgency=low
+
+  * New release
+  * Reworked Debian packaging to install things according to Gnome standards
+
+ -- Enrico Zini <enrico@debian.org>  Thu, 24 Mar 2005 13:29:23 +0100
+
+ubuntu-docs (0.3-1) hoary; urgency=low
+
+  * New release
+  * Fixed the debian/ scripts to handle changes in the location of the release
+    notes
+  * ubuntu-docs conflicts with ubuntu-quickguide << 0.3 because an image has
+    been moved from the quickguide package to the ubuntu-docs package
+
+ -- Enrico Zini <enrico@debian.org>  Mon, 21 Mar 2005 11:16:12 +0100
+
+ubuntu-docs (0.2-1) hoary; urgency=low
+
+  * New release
+  * Added more OMF files; registration with scroolkeeper now works, but the
+    documents show up in the "Other" cathegory, which is suboptimal
+
+ -- Enrico Zini <enrico@enricozini.org>  Fri,  4 Mar 2005 15:42:16 +0100
+
+ubuntu-docs (0.1-1) hoary; urgency=low
+
+  * Initial release.
+
+ -- Enrico Zini <enrico@enricozini.org>  Tue, 30 Nov 2004 17:55:37 +0200

@@ -1,0 +1,53 @@
+﻿<page xmlns="http://projectmallard.org/1.0/"
+      type="guide" style="task"
+      id="unity-launcher-intro">
+  <info>
+    <link type="guide" xref="index" group="unity-launcher-intro"/>
+    <link type="guide" xref="shell-overview#desktop" group="#first" />
+
+    <desc>The Launcher is at the left of your screen.</desc>
+
+    <revision version="13.10" date="2013-10-23" status="outdated"/>
+
+    <credit type="author">
+      <name>Ubuntu Documentation Team</name>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+  <title>Use the Launcher to start applications</title>
+
+<media type="image" src="figures/unity-launcher-apps.png"
+       style="floatstart floatleft">
+  <p>Launcher icons</p>
+</media>
+
+  <p>The <gui>Launcher</gui> is one of the key components of the Unity desktop. When you log in
+   to your desktop, it will appear along the left-hand side of the screen. The Launcher provides you
+   with quick access to applications, workspaces, removable devices and the trash.</p>
+
+   <p>If an application that you want to start using is present in the Launcher, you can click on that
+   application's icon, and it will start up, ready for you to use.</p>
+
+  <p>To learn more about the Launcher, explore any of the Launcher help topics below.</p>
+
+<section id="launcher-using">
+  <title>Use the Launcher</title>
+</section>
+
+<!--
+  <section id="launcher-basics">
+    <title>Launcher Basics</title>
+    <comment><p>
+      Launcher appearance
+      Launcher accordion effect
+    </p></comment>
+  </section>
+-->
+
+  <section id="launcher-customizing" style="2column">
+    <title>Customize the Launcher</title>
+  </section>
+
+</page>

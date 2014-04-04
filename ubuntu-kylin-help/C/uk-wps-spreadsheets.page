@@ -1,0 +1,74 @@
+﻿<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="uk-wps-spreadsheets">
+  <info>
+    <link type="guide" xref="uk-wps" group="spreadsheets"/>
+
+    <desc>数据处理、统计分析和辅助决策。
+    </desc>
+
+    <revision version="14.04" date="2014-04-02" status="reviewed"/>
+
+    <credit type="author">
+      <name>Ubuntu Kylin 文档团队</name>
+      <email>jingshi@ubuntukylin.com</email>
+    </credit>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+  <title>WPS 表格</title>
+  <p><app>WPS 表格</app> 可以进行各种数据的处理、统计分析和辅助决策操作。</p>
+  <p><app>WPS 表格</app> 分为 8 大模块，分别为：<gui>开始</gui>、<gui>插入</gui>、<gui>页面布局</gui>、<gui>公式</gui>、<gui>数据</gui>、<gui>表格样式</gui>、<gui>审阅</gui>、<gui>视图</gui>。  </p>
+
+<section id="func" style="1column">
+    <title>功能</title>
+  <list>
+    <item><p>
+    <gui>开始</gui> 菜单中提供了对表格进行编辑、格式设置、排序、筛选、自动求和等最常用的功能。      
+    </p></item>
+
+    <item><p>
+    <gui>插入</gui> 菜单中提供了在表格中插入图片、数据透视表、页眉和页脚、超链接等美化表格的相关设置。
+    </p></item>
+    
+    <item><p>
+    <gui>页面布局</gui> 菜单中提供了对表格的纸张方向、打印区域设置等功能。
+    </p></item>
+    
+    <item><p>
+    <gui>公式</gui> 菜单中提供了常用函数、财务、逻辑、文本、数学函数等公式，使得数据运算更加方便。
+    </p></item>
+    
+    <item><p>
+    <gui>数据</gui> 菜单中提供了对数据进行分类、模拟、组织、筛选等功能。  
+    </p></item>
+    
+    <item><p>
+    <gui>表格样式</gui> 菜单中提供了多种样式，轻松的做到一键美化。
+    </p></item>
+    
+    <item><p>
+    <gui>审阅</gui>  菜单中提供了对表格数据进行检查、修订、保护等功能。  
+    </p></item>
+   
+    <item><p>
+    <gui>视图</gui> 菜单中提供了对表格数据显示样式的设置。
+    </p></item>
+
+  </list>
+
+</section>
+
+<section>
+   <title>有关<app> WPS 表格</app>使用的其他资源和信息 </title>
+   <list>
+   <item><p>
+       请参考<link href="http://office.wps.cn/"> OFFICE 学院 </link>。
+   </p></item>
+   </list>
+</section>
+
+
+
+
+</page>

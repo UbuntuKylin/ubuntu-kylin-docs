@@ -1,0 +1,43 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="question"
+      id="power-lowpower">
+
+  <info>
+    <link type="guide" xref="power#battery"/>
+    <revision pkgversion="3.4.0" date="2012-02-20" status="review"/>
+    <revision version="13.10" date="2013-09-19" status="review"/>
+
+    <desc>Allowing the battery to completely discharge is bad for it.</desc>
+    <credit type="author">
+      <name>GNOME Documentation Project</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+<title>Why did my computer turn off/suspend when the battery got to 10%?</title>
+
+<p>When the charge level of the battery gets too low, your computer will
+automatically <link xref="power-suspend">suspend</link>. It does this to
+make sure that the battery doesn't completely discharge, since this is bad for
+the battery. If the battery just ran out, the computer wouldn't have time to
+shut down properly either.</p>
+
+<p>You can change what happens when the battery level gets too low. First, click the 
+<gui>battery menu</gui> in the <gui>menu bar</gui> and select <gui>Power Settings</gui>. At the <gui>'When
+power is critically low'</gui> setting, you can choose for the computer to
+suspend, <link xref="power-hibernate">hibernate</link>, or shut down. If you choose shut down, your applications and
+documents <em>will not</em> be saved when the computer turns off.</p>
+
+<p>Some computers have problems suspending, and may not be able to recover the
+applications and documents you had open when you turn on the computer again. In
+this case, it is possible that you could lose some of your work if you didn't
+save it before the computer suspended. You may be able to <link
+xref="power-suspendfail">fix problems with suspend</link> though.</p>
+
+</page>

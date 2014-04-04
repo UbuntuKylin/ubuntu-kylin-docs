@@ -1,0 +1,48 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:if="http://projectmallard.org/if/1.0/"
+      type="topic" style="task" version="1.0 if/1.0"
+      id="color-howtoimport">
+
+  <info>
+    <link type="guide" xref="color#profiles"/>
+    <link type="seealso" xref="color-whatisprofile"/>
+    <desc>Color profiles can be imported by opening them.</desc> 
+    <link type="seealso" xref="color-assignprofiles"/>
+
+    <revision version="13.10" date="2013-10-23" status="review"/>
+    <revision pkgversion="3.7.1" version="0.2" date="2012-11-16" 
+    status="outdated"/>
+
+    <credit type="author">
+      <name>Richard Hughes</name>
+      <email>richard@hughsie.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+  <title>How do I import color profiles?</title>
+
+  <p>
+    The profile can be imported by double clicking on the
+    <input>.ICC</input> or <input>.ICM</input> file in the file browser.
+  </p>
+<if:choose>
+<if:when test="platform:unity">
+  <p>
+    Alternatively you can select <gui>Import profile…</gui> from
+    <guiseq><gui>System Settings</gui><gui>Color</gui></guiseq> when
+    selecting a profile for a device.
+  </p>
+</if:when>
+  <p>
+    Alternatively you can select <gui>Import profile…</gui> from
+    <guiseq><gui>System Settings</gui><gui>Color</gui></guiseq> when
+    selecting a profile for a device.
+  </p>
+</if:choose>
+
+</page>

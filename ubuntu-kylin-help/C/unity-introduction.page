@@ -1,0 +1,91 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="unity-introduction">
+
+  <info>
+    <link type="guide" xref="index" group="unity-introduction" />
+    <link type="guide" xref="shell-overview" group="#first"/>
+    
+    <desc>A visual introduction to the Unity desktop.</desc>
+    
+    <revision version="13.10" date="2013-10-23" status="outdated"/>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email>jwcampbell@gmail.com</email>
+    </credit> 
+
+    <credit type="author">
+      <name>Ubuntu Kylin 文档团队</name>
+      <email>luolei@ubuntukylin.com</email>
+    </credit> 
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+  
+  <title>欢迎使用 Ubuntu Kylin</title>
+
+ <p>Ubuntu Kylin 是由中国 CCN 联合实验室支持和主导的开源项目，其宗旨是采用平台国际化与应用本地化融合的设计理念，通过定制本地化的桌面用户环境以及开发满足广大中文用户特定需求的应用软件来提供细腻的中文用户体验，做更有中国特色的操作系统。</p>
+ <p>Ubuntu Kylin 以 Ubuntu 为参考，得到来自 Debian、Ubuntu、LUPA 及各地 Linux 用户组等国内外众多社区爱好者的广泛参与和热情支持，其开发贡献者可参见 <link href="http://launchpad.net/~ubuntukylin-members/+members#active">Ubuntu Kylin 开发者团队列表</link>。</p>
+
+<p>Ubuntu/Ubuntu Kylin 使用 <em>Unity</em>，一种使用电脑的全新方式。Unity 的设计原则是消除多余的界面元素，最大化操作区域，帮助您高效完成工作。</p>
+
+<p>This guide is designed to answer your questions about using Unity and your Ubuntu desktop. 
+First we will take a moment to look at some of Unity's key features, and how you can use them.</p>
+
+<section id="unity-overview">
+  <title>Getting started with Unity</title>
+
+<media type="image" src="figures/unity-overview.png">
+  <p>The Unity desktop</p>
+</media>
+
+<section id="launcher-home-button">
+<title>The Launcher</title>
+
+<media type="image" src="figures/unity-launcher.png"
+       style="floatstart floatleft">
+  <p>The Launcher</p>
+</media>
+
+<p>The <gui>Launcher</gui> appears automatically when you log in to your desktop, and
+gives you quick access to the applications you use most often. 
+
+
+</p>
+
+<list style="compact">
+  <item><p><link xref="unity-launcher-intro">Learn more about the Launcher.</link></p></item>
+</list>
+
+</section>
+
+<section id="the-dash">
+  <title>The Dash</title>
+
+<p>The <gui>Ubuntu Button</gui> sits near the top left corner of the screen and is
+always the top item in the Launcher.
+If you click the <gui>Ubuntu Button</gui>, Unity will present you with 
+an additional feature of the desktop, the <gui>Dash</gui>.</p>
+
+<media type="image" src="figures/unity-dash.png">
+  <p>The Unity Dash</p>
+</media>
+
+<p>The <em>Dash</em> is designed to make it easier to find, open, and use apps, 
+files, music, and more. For example, if you type the word "document" into the <em>Search Bar</em>, 
+the Dash will show you applications that help you write and edit documents. It will also show you 
+relevant folders and documents that you have been working on recently.</p>
+
+
+<list style="compact">
+  <item><p><link xref="unity-dash-intro">Learn more about the Dash.</link></p></item>
+</list>
+</section>
+
+</section>
+</page>

@@ -1,0 +1,28 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="unity-dash-intro">
+  <info>
+    <revision version="11.04" date="2011-04-20" status="stub"/>
+
+    <credit type="author">
+      <name>Ubuntu Documentation Team</name>
+    </credit>
+
+    <desc></desc>
+  </info>
+
+  <title>Find and use applications and files with the Dash</title>
+
+  <comment>
+    <p>This will be the guide-page for the Dash. We'll provide an overview of the dash, with some fundamental Dash-related topics toward the bottom of the page.</p>
+  </comment>
+
+  <p>Short introductory text...</p>
+
+  <steps>
+    <item><p>First step...</p></item>
+    <item><p>Second step...</p></item>
+    <item><p>Third step...</p></item>
+  </steps>
+
+</page>

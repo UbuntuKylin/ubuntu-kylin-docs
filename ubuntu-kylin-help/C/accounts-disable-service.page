@@ -1,0 +1,79 @@
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task"
+			id="accounts-disable-service">
+
+	<info>
+		<credit type="author">
+			<name>Phil Bull</name>
+			<email>philbull@gmail.com</email>
+		</credit>
+
+		<credit type="editor">
+    	<name>Greg Beam</name>
+    	<email>ki7mt@yahoo.com</email>
+    </credit>
+
+		<link type="guide" xref="accounts" />
+		<link type="seealso" xref="accounts-remove"/>
+    <revision pkgversion="3.10.2" version="0.1" date="2014-01-08" status="review"/>
+		<revision version="14.04" date="2014-01-08" status="review"/>
+		<include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <desc>
+      Some online accounts allow you to use multiple services (like calendar
+			and email). You can control which of these services can be used by
+			local applications.
+    </desc>
+	</info>
+
+  <title>
+    Disable account services
+  </title>
+
+  <p>
+    Some types of online accounts allow access to several services from a single
+		user account. For example, Google accounts provide access to email,
+		calendar, code, contacts, among others. You can choose Google for email and
+		Yahoo! for chat, or any combination the service provider allows. 
+	</p>
+
+	<p>
+  	To disable services:
+	</p>
+
+  <steps>
+		<item>
+			<p>Click the icon at the very right of the <gui>menu bar</gui> and select
+			<gui>System Settings</gui>.
+			</p>
+		</item>
+		<item>
+			<p>Select <gui>Online Accounts</gui>.
+			</p>
+		</item>
+
+		<item>
+      <p>
+        Select the account you want to change from left windowpane.
+      </p>
+    </item>
+    <item>
+      <p>
+        Services available for this account are listed in the right windowpane.
+      </p>
+    </item>
+    <item>
+      <p>
+        Switch off the services you do not want used.
+      </p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>
+		Once a service has been disabled, local applications no longer have
+		access to it. To regain access, go back into <gui>Online Accounts</gui> 
+		and switch it on.
+    </p>
+  </note>
+
+</page>

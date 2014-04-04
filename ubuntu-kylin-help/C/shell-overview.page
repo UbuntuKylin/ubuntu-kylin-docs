@@ -1,0 +1,39 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="guide" style="ui"
+      id="shell-overview">
+
+  <info>
+
+    <link type="guide" xref="index" group="shell-overview" />
+
+    <title role="trail" type="link">Desktop</title>
+
+    <desc>
+      <link xref="unity-introduction">Introduction</link>,
+      <link xref="shell-keyboard-shortcuts">keyboard shortcuts</link>,
+      <link xref="shell-windows">windows</link>…
+    </desc>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="review"/>
+    <revision version="13.10" date="2013-10-23" status="outdated"/>
+    <credit type="author">
+      <name>GNOME Documentation Project</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+<title>Desktop, apps &amp; windows</title>
+
+<links type="topic" style="2column"/>
+
+<section id="desktop" style="2column">
+ <title>The Desktop</title>
+</section>
+
+<section id="apps" style="2column">
+ <title>Applications and windows</title>
+</section>
+
+</page>

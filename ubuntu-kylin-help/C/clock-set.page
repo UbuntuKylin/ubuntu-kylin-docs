@@ -1,0 +1,84 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:if="http://projectmallard.org/if/1.0/"
+      type="topic" style="task" version="1.0 if/1.0"
+      id="clock-set">
+
+  <info>
+    <link type="guide" xref="clock" group="#first"/>
+    <link type="seealso" xref="clock-timezone"/>
+    <desc>Update the time/date displayed at the top of the screen.</desc>
+    <revision pkgversion="3.8.0" date="2013-03-09" status="candidate"/>
+    <revision version="13.10" date="2013-09-07" status="review"/>
+
+    <credit type="author">
+      <name>GNOME Documentation Project</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Ubuntu Documentation Project</name>
+      <email>ubuntu-doc@lists.ubuntu.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+<title>Change the date and time</title>
+
+<if:choose>
+  <if:when test="platform:unity">
+  <p>If the date and time displayed on the menu bar are incorrect or in the wrong
+ format, you can change them:</p>
+  </if:when>
+  <p>If the date and time displayed on the top bar are incorrect or in the wrong
+ format, you can change them:</p>
+</if:choose>
+
+<if:choose>
+<if:when test="platform:unity">
+<steps>
+ <item>
+  <p>To adjust the time and date, click on the clock located in the <gui>menu bar</gui>
+and select <gui>Date &amp; Time Settings</gui>.</p>
+ </item>
+ <item>
+  <p>Change the system time zone by clicking on the map or entering your city into the <gui>Location</gui> box.</p>
+ </item>
+ <item>
+  <p>By default, Ubuntu periodically synchronizes the clock with a very accurate clock
+on the Internet so you don't have to set your clock manually.</p>
+ </item>
+</steps>
+</if:when>
+<steps>
+ <item>
+  <p>Click on the clock at the right side of the top bar and select
+  <gui>Date and Time Settings</gui>.</p>
+ </item>
+ <item>
+  <p>You may need to click <gui>Unlock</gui> and type the
+  <link xref="user-admin-explain">admin password</link>.</p>
+ </item>
+ <item>
+  <p>Adjust the date and time by clicking on the arrows to choose the  hour and
+  minute. You can choose the year, month and day from the drop-down lists.</p>
+ </item>
+ <item>
+  <p>If you like, you can have the clock update itself automatically by
+  switching <gui>Network Time</gui> on.</p>
+  <p>When <em>Network Time</em> is switched on, the computer will periodically
+  synchronize its clock with a very accurate clock on the internet, so you don't
+  have to do it manually. This will only work if you are connected to the
+  internet.</p>
+ </item>
+ <item>
+  <p>You can also change how the hour is displayed by selecting <gui>24-hour</gui>
+  or <gui>AM/PM</gui> format.</p>
+ </item>
+</steps>
+</if:choose>
+
+</page>

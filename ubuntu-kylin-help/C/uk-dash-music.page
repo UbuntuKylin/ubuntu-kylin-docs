@@ -1,0 +1,67 @@
+﻿<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="uk-dash-music">
+  <info>
+    <link type="guide" xref="uk-dash"/>
+    <link type="seealso" xref="unity-dash-intro#dash-lenses"/>
+
+    <desc>从本地或网站上查找并播放音乐。</desc>
+
+    <revision version="14.04" date="2014-4-2" status="reviewed"/>
+
+    <credit type="author">
+      <name>Ubuntu Kylin 文档团队</name>
+      <email>jingshi@ubuntukylin.com</email>
+    </credit>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+  <title>Dash 中文音乐搜索</title>
+
+  <p><app>Dash 中文音乐搜索</app>位于 <gui>Dash</gui> 面板的第五个栏目，用一个音符来表示。通过 <app>Dash 中文音乐搜索</app>，您可以使用中文轻松找到喜欢的本地或在线音乐。</p>
+<p>还可使用 <keyseq><key>Super</key><key>M</key></keyseq> 组合键直接打开音乐搜索。</p>
+
+
+<section id="dash-apps-search">
+  <title>搜索</title>
+  <steps>
+     <item>
+      <p>打开 <gui>Dash</gui>， 在搜索框内输入关键字，搜索结果将会显示在 <gui> Dash </gui> 面板上。 </p>
+    </item>
+
+     <item>
+      <p>搜索结果分为两类：一类为<gui>曲目</gui>；一类为<gui>专辑</gui>。 </p>
+    </item>
+
+    <item>
+      <p><gui>曲目</gui>中显示搜索到的歌曲，每首歌曲以 “歌曲名+歌手” 的方式显示。可以快速的搜索到您要查找的歌曲。 </p>
+    </item>
+
+     <item>
+     <p>点击 <gui>曲目</gui> 右侧的 <gui>显示较少结果/显示另外*个结果</gui> 可以打开或收起搜索结果条目。 </p>
+    </item>
+
+    <item>
+    <p><gui>专辑</gui> 中显示歌曲所在的专辑或歌手发布的专辑。 </p>
+    </item>
+
+
+  </steps>
+</section>
+
+
+
+<section id="dash-apps-previews">
+  <title>预览</title>
+<steps>
+<item>
+  <p>在 <gui>Dash</gui> 面板上右键点击歌曲，可以预览歌曲的详细信息。</p></item>
+
+  <item><p>在预览页面点击鼠标，返回到搜索页面。</p></item>
+<item><p>点击 <gui>&lt;</gui> 或 <gui>&gt;</gui> 箭头可预览上一首或下一首歌曲。</p></item>
+<item><p>点击 <gui>试听</gui> 按钮，将链接到网站试听歌曲。</p></item>
+</steps>
+</section>
+
+
+</page>

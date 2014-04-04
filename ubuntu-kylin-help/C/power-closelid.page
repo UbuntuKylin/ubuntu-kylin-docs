@@ -1,0 +1,58 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="topic" style="question"
+      id="power-closelid">
+
+  <info>
+    <link type="guide" xref="power"/>
+    <link type="seealso" xref="power-suspendfail"/>
+    <revision pkgversion="3.4.0" date="2012-02-20" status="review"/>
+    <revision pkgversion="3.10" date="2013-07-18" status="outdated"/>
+    <revision version="13.10" date="2013-09-19" status="review"/>
+
+    <credit type="author">
+      <name>GNOME Documentation Project</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <desc>Laptops go to sleep when you close the lid, in order to save power.</desc>
+  </info>
+
+<title>Why does my computer turn off when I close the lid?</title>
+
+<p>When you close the lid of your laptop, your computer will <link
+xref="power-suspend"><em>suspend</em></link> in order to save power. This means
+that the computer isn't actually turned off - it has just gone to sleep. You
+can resume it by opening the lid. If it doesn't resume, try clicking the mouse
+or pressing a key. If that still doesn't work, press the power button.</p>
+
+<p>Some computers are unable to suspend properly, normally because their
+hardware isn't completely supported by the operating system (for example, the
+Linux drivers are incomplete). In this case, you may find that you are unable
+to resume your computer after you've closed the lid. You can try to <link
+xref="power-suspendfail">fix the problem with suspend</link>, or you can
+prevent the computer from trying to suspend when you close the lid.</p>
+
+<section id="nosuspend">
+ <title>Stop the computer from suspending when the lid is closed</title>
+ <p>If you don't want the computer to suspend when you close the lid, you can change the settings for that behavior:</p>
+ <note style="warning">
+   <p>Be very careful if you change this setting. Some laptops can overheat
+   if they are left running with the lid closed, especially if they are in
+   a confined place like a backpack.</p>
+ </note>
+
+<steps>
+  <item><p>Click the icon at the very right of the <gui>menu bar</gui> and select <gui>System Settings</gui>.</p></item>
+  <item><p>In the <gui>Hardware</gui> section, click <gui>Power</gui>.</p></item>
+  <item><p>Set the drop-down menus next to <gui>When the lid is closed</gui> to <gui>Do nothing</gui>.</p></item>
+</steps>
+</section>
+
+</page>

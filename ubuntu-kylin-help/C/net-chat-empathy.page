@@ -1,0 +1,48 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="net-chat-empathy">
+  <info>
+    <link type="guide" xref="net-chat" />
+    <link type="seealso" xref="net-chat-video"/>
+    
+    <revision version="13.10" date="2013-09-15" status="review"/>
+
+    <credit type="author">
+      <name>Ubuntu Documentation Team</name>
+      <email>ubuntu-doc@lists.ubuntu.com</email>
+    </credit>
+
+    <desc>With <app>Empathy</app> you can chat, call and video call with friends
+      and colleagues on a variety of networks</desc>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+  <title>Instant messaging on Ubuntu</title>
+
+  <p>
+    With the <app>Empathy</app> application, you can chat with people online and
+    with friends and colleagues who use Google Talk, AIM, Windows Live and many
+    other chat programs. With a microphone or a webcam you can also have audio
+    or video calls.
+  </p>
+
+  <p>
+    Empathy is installed by default in Ubuntu. Start <app>Empathy Instant
+    Messaging</app> from the <link xref="unity-dash-intro">Dash</link>,
+    the <link xref="unity-launcher-intro">Launcher</link> or choose 
+    <gui>Chat</gui> from the <link xref="unity-menubar-intro">Messaging menu</link>.
+  </p>
+
+  <note style="tip">
+    <p>
+      You can change your instant messaging status (Available, Away, Busy, etc.)
+      from the <link xref="unity-menubar-intro">Messaging menu</link>.
+    </p>
+  </note>
+
+  <p>
+    For help with using Empathy, read the <link href="help:empathy">Empathy
+    manual</link>.
+  </p>
+
+</page>

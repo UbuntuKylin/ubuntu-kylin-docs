@@ -1,0 +1,46 @@
+﻿<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="unity-dash-video">
+  <info>
+    <link type="guide" xref="unity-dash-intro#dash-lenses"/>
+    <link type="seealso" xref="unity-dash-intro#dash-lenses"/>
+
+    <desc>Find and play videos from your computer or the internet.</desc>
+
+    <revision version="13.10" date="2013-10-23" status="outdated"/>
+
+    <credit type="author">
+      <name>Jeremy Bicha</name>
+      <email>jbicha@ubuntu.com</email>
+    </credit>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+  <title>Video lens</title>
+
+  <p>The video lens is the third lens after the Dash home on the
+    <gui>lens bar</gui> and is represented by a film strip. The video lens
+    gives you access to your videos or videos available online.</p>
+
+  <p>You can even buy or rent videos from the Dash.</p>
+
+  <p>You can use <keyseq><key>Super</key><key>V</key></keyseq> to open the
+    Dash directly at the video lens.</p>
+
+
+<section id="dash-apps-previews">
+  <title>Previews</title>
+
+  <p>Right click on a search result to open a <gui>preview</gui> with more 
+  information about the video.</p>
+
+</section>
+
+<section id="dash-apps-filters">
+  <title>Filters</title>
+
+  <p>Click <gui>Filter results</gui> to filter by video source.</p>
+
+</section>
+
+</page>

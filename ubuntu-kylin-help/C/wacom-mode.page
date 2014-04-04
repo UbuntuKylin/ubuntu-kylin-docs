@@ -1,0 +1,42 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="wacom-mode">
+  <info>
+    <credit type="author">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2012</years>
+    </credit>
+
+    <link type="guide" xref="wacom"/>
+    <revision pkgversion="3.5.5" version="0.1" date="2012-08-15" status="draft"/>
+    <revision version="13.10" date="2013-10-23" status="review"/>
+		<include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <desc>Switch the tablet between tablet mode and mouse mode.</desc>
+  </info>
+
+  <title>Set the Wacom tablet's tracking mode</title>
+
+<p><gui>Tracking Mode</gui> determines how the pointer is mapped to the screen.</p>
+
+<steps>
+  <item><p>Click the icon at the far right of the <gui>menu bar</gui> and select
+   <gui>System Settings</gui>.</p></item>
+  <item><p>Open <gui>Wacom Graphics Tablet</gui>.</p>
+     <note style="tip"><p>If no tablet is detected, you'll be asked to
+      <gui>Please plug in or turn on your Wacom tablet</gui>.</p></note>
+  </item>
+  <item><p>Next to <gui>Tracking Mode</gui>, select <gui>Tablet (absolute)</gui>
+   or <gui>Touchpad (relative)</gui>.</p></item>
+</steps>
+
+<note style="tip"><p>In <em>absolute</em> mode, each point on the tablet maps
+ to a point on the screen. The top left corner of the screen, for instance,
+ always corresponds to the same point on the tablet.</p>
+ <p>In <em>relative</em> mode, if you lift the pointer off the tablet and put it
+ down in a different position, the cursor on the screen doesn't move. This is
+ the way a mouse operates, allowing you to cover distances on the screen with
+ less hand movement.</p></note>
+
+</page>

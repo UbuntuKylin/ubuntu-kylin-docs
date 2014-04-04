@@ -1,0 +1,40 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="net-chat-video">
+  <info>
+    <link type="guide" xref="net-chat"/>
+
+    <revision version="13.10" date="2013-09-15" status="review"/>
+
+    <credit type="author">
+      <name>Ubuntu Documentation Team</name>
+    </credit>
+
+    <desc>What applications can I use to make video calls?</desc>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+<title>Video calls</title>
+
+  <p>
+    You can make video calls from Ubuntu without installing any additional
+    software using <app>Empathy</app> - via the <em>Google Talk</em>, <em>MSN
+    </em>, <em>Jabber </em>, and <em>SIP</em> networks.
+    See <link href="help:empathy/audio-video">the Empathy manual</link>
+    for help on making video calls with <app>Empathy</app>. 
+  </p>
+
+  <list>
+    <title>Other applications which support video calls include</title>
+
+    <item><p>
+      <app><link href="apt:skype">Skype</link></app>
+    </p></item>
+
+    <item><p>
+      <app><link href="apt:ekiga">Ekiga</link></app>
+    </p></item>
+
+  </list>
+
+</page>

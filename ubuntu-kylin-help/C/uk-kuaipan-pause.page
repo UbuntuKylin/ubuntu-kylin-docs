@@ -1,0 +1,39 @@
+﻿<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="uk-kuaipan-pause">
+
+  <info>
+    <credit type="author">
+      <name>Ubuntu Kylin 文档团队</name>
+      <email>luolei@ubuntukylin.com</email>
+    </credit>
+    <desc>
+      暂停或恢复文件同步。
+    </desc>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+    <link type="guide" xref="uk-kuaipan#sync"/>
+    <revision version="14.04" date="2014-03-26" status="review"/>
+  </info>
+
+  <title>
+    暂停 &amp; 恢复
+  </title>
+
+  <p>通过快盘系统托盘，您可以随时暂停或恢复本地文件与服务器之间的同步。</p>
+
+  <list>
+
+     <item>
+      <p>要暂停同步，请单击桌面右上角的快盘图标，在弹出菜单中选择<gui>暂停同步</gui>，此时<gui>立即同步</gui>功能将会失效。</p>
+    </item>
+
+     <item>
+      <p>要恢复同步，请单击桌面右上角的快盘图标，在弹出菜单中选择<gui>恢复同步</gui>，快盘会立即进行一次同步。</p>
+    </item>
+
+    <item>
+      <p>由于网络故障等原因，快盘可能发生同步错误，您可以选择<gui>立即同步</gui>要求快盘立刻对本地文件进行一次扫描并与服务器进行同步。当快盘处于暂停状态时，<gui>立即同步</gui>功能失效。</p>
+    </item>
+    </list>
+
+</page>

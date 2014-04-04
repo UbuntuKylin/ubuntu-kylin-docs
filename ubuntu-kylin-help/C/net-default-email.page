@@ -1,0 +1,41 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="net-default-email">
+  <info>
+    <link type="guide" xref="net-email"/>
+
+    <revision pkgversion="3.7.1" version="0.2" date="2012-11-16" status="outdated"/>
+    <revision version="13.10" date="2013-09-15" status="review"/>
+
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+
+    <desc>Change the default email client by going to <gui>Details</gui> in the <gui>System Settings</gui>.</desc>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+<title>Change which mail application is used to write emails</title>
+
+<p>When you click a button or link to send a new email (for example, in your word processing application), your default mail application will open up with a blank message, ready for you to write. If you have more than one mail application installed, however, the wrong mail application might open up. You can fix this by changing which one is the default email application:</p>
+
+<steps>
+ <item>
+  <p>Click the icon at the very right of the <gui>menu bar</gui> and select <gui>System Settings</gui>.</p>
+ </item>
+
+ <item>
+  <p>Open <gui>Details</gui> and choose <gui>Default Applications</gui> from the list on the left side of the window.</p>
+ </item>
+
+ <item>
+  <p>Choose which email client you would like to be used by default by changing the <gui>Mail</gui> option.</p>
+ </item>
+</steps>
+
+</page>

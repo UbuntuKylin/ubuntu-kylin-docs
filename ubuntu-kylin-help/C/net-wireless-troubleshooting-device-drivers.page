@@ -1,0 +1,129 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="net-wireless-troubleshooting-device-drivers">
+  <info>
+    <link type="guide" xref="net-wireless-troubleshooting"/>
+    <revision pkgversion="3.4.0" date="2012-03-05" status="outdated"/>
+    <revision version="13.10" date="2013-10-23" status="outdated"/>
+
+    <credit type="author">
+      <name>Contributors to the Ubuntu documentation wiki</name>
+    </credit>
+
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+
+    <desc>Some device drivers don't work very well with certain wireless adapters, so you may need to find a better one.</desc>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+<title>Wireless network troubleshooter</title>
+<subtitle>Make sure that working device drivers are installed</subtitle>
+
+<!-- Needs links (see below) -->
+
+<p>In this step you can check to see if you can get working device drivers for your wireless adapter. A <em>device driver</em> is a piece of software which tells the computer how to make a hardware device work properly. Even though the wireless adapter has been recognized by the computer, it may not have drivers which work very well. You may be able to find different drivers for the wireless adapter which do work. Try some of the options below:</p>
+
+<list>
+ <item>
+  <p>Check to see if your wireless adapter is on a list of supported devices</p>
+  <p>Most Linux distributions keep a list of wireless devices that they have support for. Sometimes, these lists provide extra information on how to get the drivers for certain adapters working properly. Go to the list for your distribution (for example, <link href="https://help.ubuntu.com/community/WifiDocs/WirelessCardsSupported">Ubuntu</link>, <link href="http://linuxwireless.org/en/users/Drivers">Fedora</link> or <link href="http://en.opensuse.org/HCL:Network_(Wireless)">openSuSE</link>) and see if your make and model of wireless adapter is listed. You may be able to use some of the information there to get your wireless drivers working.</p>
+ </item>
+ 
+ <item>
+  <p>Look for additional open or proprietary drivers</p>
+  <p>Although Ubuntu includes support for a large amount of devices, some drivers need to be installed separately.
+  Use the <gui>Additional Drivers</gui> tool to check for these extra open or <link 
+  xref="hardware-driver-proprietary">proprietary</link> drivers.</p>
+
+  <steps>
+    <item>
+      <p>
+        Click the button at the far right side of the menu bar and select <gui>System Settings</gui>.
+    </p></item>
+    <item><p>
+        In the System section, click <gui>Software Sources</gui>.
+    </p></item>
+    <item><p>
+        Switch to the <gui>Additional Drivers</gui> tab.
+    </p></item>
+  </steps>
+
+ </item>
+ 
+ <item>
+  <p>Use the Windows drivers for your adapter</p>
+  <p>In general, you cannot use a device driver designed for one operating system (like Windows) on another operating system (like Linux). This is because they have different ways of handling devices. For wireless adapters, however, you can install a compatibility layer called <em>NDISwrapper</em> which lets you use some Windows wireless drivers on Linux. This is useful because wireless adapters almost always have Windows drivers available for them, whereas Linux drivers are sometimes not available. You can learn more about how to use NDISwrapper <link href="http://sourceforge.net/apps/mediawiki/ndiswrapper/index.php?title=Main_Page">here</link>. Note that not all wireless drivers can be used through NDISwrapper.</p>
+  <p>Full information on ndiswrapper kept on
+        <link href="https://help.ubuntu.com/community/WifiDocs/Driver/Ndiswrapper">this page</link>
+        including troubleshooting help specific to ndiswrapper.</p>
+
+ </item>
+</list>
+
+<!-- 
+  <p>
+    Your device may already be supported with a preinstalled driver. To check if a driver was
+    automatically loaded, run <cmd>sudo lshw -C network</cmd>. Look in the line that
+    begins with <gui>configuration:</gui> for the word <em>driver</em>. If this exists, a
+    driver has already been installed and loaded.
+  </p>
+  <p>
+    If you are not running the most recent kernel, update your system first. Drivers,
+    especially wireless, are constantly being added and modified. You can do this by clicking
+    on the <link xref="unity-menubar-intro">system menu</link> and selecting <gui>System
+    Settings</gui>. In the System section, click <gui>Update Manager</gui>.
+  </p>
+
+
+
+<section id="net-wireless-driver-check2">
+  <title>Check Driver</title>
+  <p>
+      If you ran <cmd>lshw -C network</cmd> and saw a driver bound to the device then let's test to make sure it's communicating with the kernel. You can also go back to the
+      <link xref="net-wireless-troubleshooting-initial-check">Initial Check page</link>
+      to check for any signs of connectivity.
+  </p>
+  <list type="numbered">
+    <item>
+      <p>
+        Run <cmd>sudo lsmod</cmd> to see if the driver is loaded. Look for the driver name
+        that was listed in the "configuration" line output of lshw.
+      </p>
+      <list>
+        <item>
+          <p>
+            If you did not see the driver module in the list then use <cmd>sudo modprobe</cmd> to load it.
+          </p>
+        </item>
+      </list>
+    </item>
+    <item>
+      <p>
+        Run <cmd>sudo iwconfig</cmd>. If you see output like in the example in the command section then the driver is at least identifying the device as a wireless device to the kernel.
+      </p>
+    </item>
+    <item>
+      <p>
+          Run the command <cmd>sudo iwlist scan</cmd> to scan for a wireless access point. If
+          an access point is identified, the card is probably working properly as it can
+          complete a wireless interface task.
+      </p>
+    </item>
+  </list>
+
+  <note>
+    <p>
+      To find more information about all the commands used in this guide, click
+      <link href="https://help.ubuntu.com/community/WifiDocs/WirelessTroubleShootingGuide/Commands">here</link>.
+    </p>
+  </note>
+
+</section>
+
+-->
+
+<links type="series"/>
+</page>

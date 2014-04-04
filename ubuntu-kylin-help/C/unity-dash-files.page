@@ -1,0 +1,54 @@
+﻿<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="unity-dash-files">
+  <info>
+    <link type="guide" xref="unity-dash-intro#dash-lenses"/>
+    <link type="seealso" xref="unity-dash-intro#dash-lenses"/>
+
+    <desc>Find files, folders, and downloads.</desc>
+
+    <revision version="13.10" date="2013-10-23" status="outdated"/>
+
+    <credit type="author">
+      <name>Jeremy Bicha</name>
+      <email>jbicha@ubuntu.com</email>
+    </credit>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+  <title>Files lens</title>
+
+  <p>The files lens is the second lens after the Dash home in the
+    <gui>lens bar</gui> and is represented by a document. The files lens
+    gives you access to recently used files, folders, or downloads.</p>
+
+  <p>You can use <keyseq><key>Super</key><key>F</key></keyseq> to open the
+    Dash directly at the files lens.</p>
+
+  <steps>
+  <item><p>If you use Google Drive, be sure to add your Google credentials 
+  to <link xref="accounts">Online Accounts</link> to see search results 
+  from Google Drive.</p></item>
+  </steps>
+
+<section id="dash-apps-previews">
+  <title>Previews</title>
+
+  <p>Right click on a search result to open a <gui>preview</gui>. The 
+  preview shows the file format, file size, and when it was last 
+  saved.</p>
+
+  <p>You can open a file, email it, or open the folder that contains the 
+  file.</p>
+
+</section>
+
+<section id="dash-apps-filters">
+  <title>Filters</title>
+
+  <p>Click <gui>Filter results</gui> to filter by file type, file size, or 
+  the last time the file was saved.</p>
+
+</section>
+
+</page>

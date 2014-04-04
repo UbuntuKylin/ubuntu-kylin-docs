@@ -1,0 +1,44 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:if="http://projectmallard.org/if/1.0/"
+      type="topic" style="task"
+      id="clock-timezone">
+
+  <info>
+    <link type="guide" xref="clock"/>
+    <desc>Add other timezones so you can see what time it is in other cities.</desc>
+    <revision pkgversion="3.8.0" date="2013-03-09" status="candidate"/>
+    <revision version="13.10" date="2013-09-07" status="review"/>
+
+    <credit type="author">
+      <name>GNOME Documentation Project</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+<title>Show other timezones</title>
+
+<p>If you want to know what time it is in different cities around the world, you can add
+additional timezones to the clock menu. These additional cities will show up below the
+calendar when you click on the clock.</p>
+
+<steps>
+  <item><p>Click on the clock and select <gui>Date &amp; Time Settings</gui>.</p></item>
+  <item><p>Switch to the <gui>Clock</gui> tab and select <gui>Time in other locations</gui>.</p></item>
+  <item><p>Click <gui>Choose locations</gui>.</p></item>
+  <item><p>Click <gui>+</gui> to add a location.</p></item>
+  <item><p>Fill in the Location blank with the city name you want to add. Wait a moment
+  for a list of possible cities to show up in the drop-down list.</p></item>
+  <item><p>Select the city you want and the current time in that location will fill in
+  automatically.</p></item>
+  <item><p>Click <gui>-</gui> to delete a city from the list.</p></item>
+  <item><p>You can also drag and drop the cities in this <gui>Locations</gui> window to
+  change the order in which they will show up in the clock menu.</p></item>
+</steps>
+
+</page>

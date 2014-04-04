@@ -1,0 +1,47 @@
+﻿<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="unity-dash-friends">
+  <info>
+    <link type="guide" xref="unity-dash-intro#dash-lenses"/>
+    <link type="seealso" xref="unity-dash-intro#dash-lenses"/>
+
+    <desc>Browse messages from your online social media accounts.</desc>
+
+    <revision version="13.10" date="2013-10-22" status="outdated"/>
+
+    <credit type="author">
+      <name>Jeremy Bicha</name>
+      <email>jbicha@ubuntu.com</email>
+    </credit>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+  <title>Friends scope</title>
+
+  <p>The Friends scope is the sixth lens after the Dash home in the
+    <gui>lens bar</gui> and is represented by a speaking bubble. The 
+    Friends scope gives you access to your social media accounts.</p>
+
+  <p>You can use <keyseq><key>Super</key><key>G</key></keyseq> to open the
+    Dash directly at the Friends Scope icon.</p>
+
+  <note><p>The lens will be blank until you enter your credentials in 
+    <link xref="accounts">Online Accounts</link>.</p></note>
+
+<section id="dash-apps-previews">
+  <title>Previews</title>
+
+  <p>Right click on a search result to open a <gui>preview</gui>. The 
+  preview gives you more information and allows you to "like" or reshare 
+  posts.</p>
+
+</section>
+
+<section id="dash-apps-filters">
+  <title>Filters</title>
+
+  <p>Click <gui>Filter results</gui> to filter by account.</p>
+
+</section>
+
+</page>

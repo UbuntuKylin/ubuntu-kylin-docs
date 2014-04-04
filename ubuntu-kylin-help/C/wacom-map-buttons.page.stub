@@ -1,0 +1,40 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="wacom-map-buttons">
+  <info>
+    <revision pkgversion="3.5.5" version="0.1" date="2012-08-15" status="review"/>
+
+    <link type="guide" xref="wacom"/>
+
+    <credit type="author copyright">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2012</years>
+    </credit>
+
+    <desc>Assign functions to the hardware buttons on the graphics tablet.</desc>
+  </info>
+
+  <title>Map the tablet buttons</title>
+
+  <comment>
+    <cite date="2012.10-21" href="mailto:mdhillca@gmail.com">Michael Hill</cite>
+    <p>If the graphics tablet has buttons, map functions to each one. List the
+     possible functions in a table.</p>
+  </comment>
+
+  <p>Short introductory text...</p>
+
+<steps>
+  <item><p>Click the icon at the far right of the <gui>menu bar</gui> and select
+   <gui>System Settings</gui>.</p></item>
+  <item><p>Open <gui>Wacom Graphics Tablet</gui>.</p>
+     <note style="tip"><p>If no tablet is detected, you'll be asked to
+      <gui>Please plug in or turn on your Wacom tablet</gui>.</p></note>
+  </item>
+  <item><p>Next to <gui>Tracking Mode</gui>, select <gui>Tablet (absolute)</gui>
+   or <gui>Touchpad (relative)</gui>.</p></item>
+</steps>
+
+
+</page>

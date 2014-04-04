@@ -1,0 +1,82 @@
+﻿<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="topic" style="question"
+      id="unity-scrollbars-intro">
+  <info>
+    <link type="guide" xref="shell-overview#desktop" />
+    <link type="seealso" xref="mouse-touchpad-click" />
+
+    <desc>Overlay scrollbars are the thin orange strips on long documents.</desc>
+    <revision version="13.10" date="2013-10-23" status="outdated"/>
+
+    <credit type="author">
+      <name>Jeremy Bicha</name>
+      <email>jbicha@ubuntu.com</email>
+    </credit>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+<title>What are overlay scrollbars?</title>
+
+<comment>
+  <cite date="2012-09-20">jbicha</cite>
+  <p>This should get a screenshot for Precise. A short video like the GNOME help's
+  dual monitor video would probably be really awesome for Quirky.</p>
+</comment>
+
+<p>Ubuntu includes <em>overlay scrollbars</em> which take up less screen space than
+traditional scrollbars, giving you more room for your content. While inspired by mobile devices
+where traditional scrollbars aren't needed, Ubuntu's overlay scrollbars are designed to work
+just as well with a mouse.</p>
+
+<p>Some apps like Firefox and LibreOffice don't support the new scrollbars yet.</p>
+
+<section id="using">
+  <title>Use the scrollbars</title>
+
+  <p>The overlay scrollbar appears as a thin orange strip at the edge of a scrollable area.
+  The position of the scrollbar corresponds with your screen's position in the scrollable content.
+  The strip length corresponds with the content length; the shorter the strip, the longer the content.</p>
+
+  <p>Move your mouse pointer over any point on the scrollable edge of the content to reveal the <gui>thumb slider</gui>.</p>
+
+  <list>
+    <title>Ways to use the scrollbars:</title>
+    <item><p>
+    Click the top half of the <gui>thumb slider</gui> to scroll one page up. Click the bottom half to scroll one page down.
+    </p></item>
+    <item><p>
+    Drag the <gui>thumb slider</gui> up or down to move the screen's position exactly where you want it.
+    </p></item>
+    <item><p>
+    <link xref="mouse-middleclick"/> on the <gui>thumb slider</gui> to move the screen's position without needing to drag or
+    scroll page by page. This is especially useful in long documents.
+    </p></item>
+  </list>
+</section>
+
+<section id="disable-scrollbars">
+  <title>Disable the scrollbars</title>
+
+  <p>You can disable the new scrollbars if you prefer the traditional style:</p>
+
+  <steps>
+    <item><p>Open the <app>Terminal</app> by pressing <keyseq><key>Ctrl</key><key>Alt</key><key>t</key></keyseq>
+    or by searching for <input>terminal</input> in the <gui>Dash</gui>.
+    </p></item>
+    <item><p>Type the following command and press <key>Enter</key>:</p>
+<code its:translate="no">gsettings set com.canonical.desktop.interface scrollbar-mode normal</code>
+    </item>
+  </steps>
+
+  <p>If you change your mind and want to re-enable the scrollbars, run this command:</p>
+
+  <code its:translate="no">gsettings reset com.canonical.desktop.interface scrollbar-mode</code>
+
+
+  <note style="tip">
+    <p>Setting your theme to <link xref="a11y-contrast">High Contrast</link> will also disable the overlay scrollbars.</p>
+  </note>
+
+</section>
+</page>

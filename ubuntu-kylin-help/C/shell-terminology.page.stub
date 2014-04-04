@@ -1,0 +1,88 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="reference"
+      id="shell-terminology">
+
+  <info>
+    <link type="guide" xref="shell-overview#desktop" />
+    
+    <desc>An overview of terms used to describe different parts of the desktop.</desc>
+    
+    <revision version="11.04" date="2011-04-06" status="outdated"/>
+    <credit type="author">
+      <name>GNOME Documentation Project</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+<title>Dash, Launcher, menu bar... What are they?</title>
+
+<!-- THIS SHOULD BE ALPHABETICALLY SORTED... it is. -->
+
+<terms>
+ <item>
+  <title>Activities overview</title>
+  <p>The <em>activities overview</em> is the screen that's displayed when you
+ click on <gui>Activities</gui> at the top left of the screen.</p>
+ </item>
+ 
+ <item>
+  <title>Alt-Tab window switcher</title>
+  <p>When you hold down the <key>Alt</key> key and then press <key>Tab</key>, a
+ <em>window switcher</em> appears. This shows the icons of the applications you
+ have currently open.</p>
+ </item>
+ 
+ <item>
+  <title>Dash</title>
+  <p>The <em>Dash</em> is the list of your favorite applications that is shown
+ on the left-hand side of the activities overview. Applications that are
+ currently running are also shown here. The Dash is sometimes referred to as the
+ <em>dock</em>.</p>
+ </item>
+ 
+ <item>
+  <title>Hot corner</title>
+  <p>The <em>hot corner</em> is the corner at the top left of the screen. When
+ you move the pointer to this corner, the activities overview opens.</p>
+ </item>
+ 
+ <item>
+  <title>Notifications</title>
+  <p><em>Notifications</em> are messages that pop up at the bottom of the screen,
+ telling you that something just happened. For example, when someone chatting
+ with you sends a message, a notification will pop up to tell you. If you don't
+ want to deal with a message right now, it is hidden in your messaging tray. Move
+ your mouse to the bottom-right corner to see your messaging tray.</p>
+ </item>
+ 
+ <item>
+  <title>System settings</title>
+  <p>The <em>System Settings</em> are where you can change preferences and so on,
+ similar to the Control Panel in Windows or the System Preferences in Mac OS.
+ Click your name on the top-right of the menu bar and select <gui>System Settings</gui> to access them.</p>
+ </item>
+ 
+ <item>
+  <title>Menu bar</title>
+  <p>The <em>menu bar</em> is the bar that runs along the very top of the screen.
+ The <gui>Activities</gui> link is on one end of the menu bar and your username
+ is on the other.</p>
+ </item>
+ 
+ <item>
+  <title>Workspace</title>
+  <p>You can put windows on different <em>workspaces</em>. They are a convenient
+ way of grouping and separating windows.</p>
+ </item>
+ 
+ <item>
+  <title>Workspace selector</title>
+  <p>The <em>workspace selector</em> is the list of workspaces that is shown on
+ the right-hand side of the <gui>Windows</gui> view in the activities overview.</p>
+ </item>
+ 
+</terms>
+
+</page>

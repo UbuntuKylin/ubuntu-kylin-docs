@@ -1,0 +1,77 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="net-chat-skype">
+  <info>
+    <link type="guide" xref="net-chat" group="#last"/>
+    <link type="seealso" xref="net-chat-video"/>
+
+    <revision version="13.10" date="2013-09-15" status="review"/>
+
+    <credit type="author">
+      <name>Ubuntu Documentation Team</name>
+    </credit>
+
+    <desc><app>Skype</app> is proprietary software and must be installed manually
+    on Ubuntu</desc>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+<title>How can I use Skype on Ubuntu?</title>
+
+  <p>
+    <app>Skype</app> is proprietary software that allows you to make calls over
+    the Internet using your computer.
+  </p>
+
+  <p>
+    Skype uses decentralized peer-to-peer technologies, so your calls do not go
+    through a central server, but through distributed servers and other users.
+  </p>
+
+  <p>
+    The Skype software is free to use, but it is not free software; the source
+    code is proprietary and not available for modification.
+  </p>
+
+  <p>
+    Skype is not installed by default on Ubuntu. <link href="apt:skype">Install
+    the <em>skype</em> package</link> to use it.
+  </p>
+
+  <note><p>
+    You need to <link xref="addremove-sources#canonical-partner">activate
+    the Canonical Partner Repository</link> to install <app>Skype</app>
+  </p></note>
+
+  <comment>
+    <cite>Matthew East</cite>
+    <p>Add reference to webcam and microphone hardware troubleshooting pages when
+       they exist.</p>
+  </comment>
+
+
+  <list>
+
+    <title>Additional resources for help with <app>Skype</app></title>
+
+    <item><p>
+      <link href="https://help.ubuntu.com/community/SkypeRecordingHowto">
+      How to record Skype conversations
+      </link>
+    </p></item>
+
+    <item><p>
+      <link href="https://wiki.ubuntu.com/SkypeWebCams">
+      A list of webcams which are compatible with Skype
+      </link>
+    </p></item>
+
+    <item><p>
+      <link href="https://help.ubuntu.com/community/SkypeTroubleshooting">
+      Troubleshooting Skype - for advanced users
+      </link>
+    </p></item>
+  
+  </list>
+
+</page>

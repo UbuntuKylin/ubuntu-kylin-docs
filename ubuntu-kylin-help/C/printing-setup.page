@@ -1,0 +1,96 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="printing-setup">
+
+  <info>
+    <link type="guide" xref="printing#setup" group="#first" />
+
+    <desc>Set up a printer that is connected to your computer.</desc>
+
+    <revision pkgversion="3.7.1" version="0.2" date="2012-11-16" status="outdated"/>
+    <revision version="13.10" date="2013-09-19" status="review"/>
+
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email>jwcampbell@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Paul W. Frields</name>
+      <email>stickster@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Steven Richards</name>
+      <email>steven.richardspc@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+  <title>Set up a local printer</title>
+  <p>Your system can recognize many types of printers automatically once they're
+ connected. Most printers are connected with a USB cable that attaches to your
+ computer.</p>
+
+ <note style="tip">
+  <p>You do not need to select whether you want to install network or local
+  printer now. They are listed in one window.</p>
+ </note>
+
+  <comment>
+    <cite date="2012-02-19">shaunm</cite>
+    <p>Do we have anything on what to do when your printer isn't found? 3.0.1?</p>
+  </comment>
+
+  <steps>
+    <item><p>Make sure the printer is turned on.</p>
+    </item>
+    <item><p>Connect the printer to your system via the appropriate cable. You
+ may see activity on the screen as the system searches for drivers, and you may
+ be asked to authenticate to install them.</p>
+    </item>
+    <item><p>A message will appear when the system is finished installing the
+ printer. Select <gui>Print Test Page</gui> to print a test page, or
+ <gui>Options</gui> to make additional changes in the printer setup.</p>
+    </item>
+  </steps>
+
+  <p>If your printer was not set up automatically, you can add it in
+  the printer settings.</p>
+
+  <steps>
+    <item><p>Click the icon at the far right of the <gui>menu bar</gui> and select
+    <gui>System Settings</gui>.</p></item>
+    <item><p>Open <gui>Printers</gui>.</p></item>
+    <item><p>Click <gui>Add</gui> and select the printer from the Devices window.</p></item>
+    <item><p>Click <gui>Forward</gui> and wait while it searches for drivers.</p></item>
+    <item><p>You can customize the printer's name, description, and location if you like.
+    When finished, click <gui>Apply</gui>.</p></item>
+    <item><p>You can now print a test page or click <gui>Cancel</gui> to skip that step.</p></item>
+  </steps>
+
+  <note>
+    <p>If there are multiple drivers available for your computer, you may be
+    asked to select a driver. To use the recommended driver, just click Forward
+    on the make and model screens.</p>
+  </note>
+
+<comment>
+<p>Add link to above when page is ready.
+xref="printing-setup-drivers" install print drivers.</p>
+</comment>
+
+  <p>After you install the printer, you may wish to
+ <link xref="printing-setup-default-printer">change your default printer</link>.</p>
+
+</page>

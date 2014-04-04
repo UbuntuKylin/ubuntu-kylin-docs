@@ -1,0 +1,41 @@
+﻿<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="uk-kuaipan-notify">
+
+  <info>
+    <credit type="author">
+      <name>Ubuntu Kylin 文档团队</name>
+      <email>luolei@ubuntukylin.com</email>
+    </credit>
+    <desc>
+      开启或关闭同步信息的桌面通知，设置开机自启动快盘。
+    </desc>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+    <link type="guide" xref="uk-kuaipan#preference"/>
+    <revision version="14.04" date="2014-03-28" status="review"/>
+  </info>
+
+  <title>
+    桌面通知 &amp; 开机启动
+  </title>
+
+  <p>开启桌面通知之后，<app>金山快盘</app>会在开始、完成同步等时刻在桌面右上角通知区域显示同步信息。</p>
+  <p>如果设置了开机自启动，<app>金山快盘</app>会在每次开机进入系统时自动在后台启动运行。</p>
+
+  <steps>
+
+     <item>
+      <p>单击桌面右上角的快盘图标，选择<guiseq><gui>首选项</gui><gui>常规</gui></guiseq>。</p>
+    </item>
+
+    <item>
+      <p>按照需求勾选<gui>显示桌面通知</gui>或<gui>开机自动启动</gui>前的复选框。</p>
+    </item>
+
+    <item>
+      <p>单击<gui>设置</gui>使更改生效。</p>
+    </item>
+
+  </steps>
+
+</page>

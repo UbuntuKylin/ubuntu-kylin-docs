@@ -1,0 +1,125 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="shell-windows-states">
+
+  <info>
+
+    <link type="guide" xref="shell-windows#working-with-windows"/>
+    <link type="seealso" xref="unity-menubar-intro#window-management"/>
+
+    <desc>Restore, resize, arrange and hide.</desc>
+
+    <revision pkgversion="3.4.0" date="2012-09-20" status="candidate"/>
+    <revision version="13.10" date="2013-10-23" status="review"/>
+    <credit type="author copyright">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+      <years>2012</years>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+<title>Window operations</title>
+
+<p>Windows can be resized or concealed to suit workflow.</p>
+
+
+<section id="min-rest-close">
+<title>Minimize, restore and close</title>
+
+    <p> To minimize or hide a window:</p>
+    <list>
+      <item>
+       <p>Click the <gui>-</gui> in the top left hand corner of the application's <gui>menu bar</gui>. If the 
+       application is maximized (taking up your whole screen), the menu bar will appear at the very top
+       of the screen. Otherwise, the minimize button will appear at the top of the application window.</p>
+      </item>
+      <item>
+       <p>Or press <keyseq><key>Alt</key><key>Space</key></keyseq> to bring up the
+       window menu.  Then press <key>n</key>. The window 'disappears' into the
+       Launcher.</p>
+      </item>
+    </list>
+
+    <p>To restore the window:</p>
+    <list>
+      <item>
+       <p>Click on it in the <link xref="unity-launcher-intro">Launcher</link>
+       or retrieve it from the window
+       switcher by pressing <keyseq><key>Alt</key><key>Tab</key></keyseq>.</p>
+      </item>
+    </list>
+
+    <p> To close the window:</p>
+    <list>
+      <item>
+       <p>Click the <gui>x</gui> in the top left hand corner of the window, or</p>
+      </item>
+      <item>
+       <p>Press <keyseq><key>Alt</key><key>F4</key></keyseq>, or</p>
+      </item>
+      <item>
+       <p>Press <keyseq><key>Alt</key><key>Space</key></keyseq> to bring up the
+       window menu.  Then press <key>c</key>.</p>
+      </item>
+    </list>
+
+</section>
+
+<section id="resize">
+<title>Resize</title>
+
+<note style="important">
+ <p>A window cannot be resized if it is <em>maximized</em>.</p>
+</note>
+<p>To resize your window horizontally and/or vertically:</p>
+<list>
+ <item>
+ <p>Move the mouse pointer into any corner of the window until it changes into a
+ 'corner-pointer'. Click+hold+drag to resize the window in any direction.</p>
+ </item>
+</list>
+<p>To resize only in the horizontal direction:</p>
+<list>
+ <item>
+ <p>Move the mouse pointer to either side of the window until it changes into a
+ 'side-pointer'.   Click+hold+drag to resize the window horizontally.</p>
+ </item>
+</list>
+<p>To resize only in the vertical direction:</p>
+<list>
+ <item>
+ <p>Move the mouse pointer to the top or bottom of the window until it changes
+ into a 'top-pointer' or 'bottom-pointer' respectively.   Click+hold+drag to
+ resize the window vertically.</p>
+ </item>
+</list>
+
+</section>
+
+<section id="arrange">
+
+<title>Arranging windows in your workspace</title>
+
+<p>To place two windows side by side:</p>
+  
+<list>
+ <item><p>Click on the <gui>title bar</gui> of a window and drag it toward the
+  left edge of the screen.  When the <gui>mouse pointer</gui> touches the edge,
+  the left half of the screen becomes highlighted. Release the mouse button and
+  the window will fill the left half of the screen.</p></item>
+ <item><p>Drag another window to the right side: when the right half of the
+  screen is highlighted, release. Each of the two windows fills half the
+  screen.</p></item>
+</list>
+
+    <note style="tip">
+      <p>Pressing <key>Alt</key> + click anywhere in a window will allow you to
+       move the window. Some people may find this easier than clicking on the
+       <gui>title bar</gui> of an application.</p>
+    </note>
+    
+</section>
+
+</page>

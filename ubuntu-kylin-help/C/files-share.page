@@ -1,0 +1,77 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="files-share">
+
+  <info>
+    <link type="guide" xref="files" group="more"/>
+    <link type="guide" xref="sharing"/>
+    <link type="seealso" xref="nautilus-connect"/>
+    <desc>Transfer files to your email contacts from the file
+    manager.</desc>
+
+    <revision pkgversion="3.8.2" version="0.3" date="2013-05-11" 
+    status="review"/>
+    <revision version="13.10" date="2013-10-23" status="review"/>
+
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+<title>Share and transfer files</title>
+
+<comment>
+  <cite date="2012-02-20">jim</cite>
+  <p>If we get gnome-user-share integrated eventually, we should discuss
+  or link that here.</p>
+</comment>
+
+<p>You can share files with your contacts or transfer them to external 
+devices or <link xref="nautilus-connect">network shares</link> directly 
+from the file manager.</p>
+
+<steps>
+  <item><p>Open the <link xref="files-browse">file 
+  manager</link>.</p></item>
+  <item><p>Locate the file you want to transfer.</p></item>
+  <item><p>Right-click the file and select <gui>Send To</gui>.</p></item>
+  <item><p>The <gui>Send To</gui> window will appear. Choose where you
+  want to send the file and click <gui>Send</gui>. See the list of
+  destinations below for more information.</p></item>
+</steps>
+
+<note style="tip">
+  <p>You can send multiple files at once. Select multiple files by holding
+  down <key>Ctrl</key>, then right-click any selected file. You can have
+  the files automatically compressed into a zip or tar archive.</p>
+</note>
+
+<list>
+  <title>Destinations</title>
+  <item><p>To email the file, select <gui>Email</gui> and enter
+  the recipient's email address.</p></item>
+  <item><p>To send the file to an instant messaging contact, select
+  <gui>Instant Message</gui>, then select contact from the drop-down list.
+  Your instant messaging application may need to be started for this
+  to work.</p></item>
+  <item><p>To write the file to a CD or DVD, select <gui>CD/DVD 
+  Creator</gui>.
+  See <link xref="files-disc-write"/> to learn more.</p></item>
+  <item><p>To transfer the file to a Bluetooth device, select
+  <gui>Bluetooth (OBEX Push)</gui> and select the device to send the file 
+  to.
+  You will only see devices you have already paired with.
+  See <link xref="bluetooth"/> for more information.</p></item>
+  <item><p>To copy a file to an external device like a USB flash drive,
+  or to upload it to a server you've connected to, select <gui>Removable
+  disks and shares</gui>, then select the device or server you want to
+  copy the file to.</p></item>
+</list>
+
+</page>

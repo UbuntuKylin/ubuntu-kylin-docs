@@ -1,0 +1,69 @@
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" 
+			id="accounts-provider-not-available">
+
+  <info>
+    <credit type="author">
+      <name>Baptiste Mille-Mathias</name>
+      <email>baptistem@gnome.org</email>
+    </credit>
+
+    <credit type="editor">
+      <name>Kevin M. Godby</name>
+      <email>kevin@godby.org</email>
+    </credit>
+
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+
+		<credit type="editor">
+      <name>Greg Beam</name>
+      <email>ki7mt@yahoo.com</email>
+    </credit>
+
+		<link type="guide" xref="accounts" />
+    <revision pkgversion="3.10.2" version="0.1" date="2014-01-08" status="review"/>
+		<revision version="14.04" date="2014-01-08" status="review"/>
+		<include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <desc>
+      Why aren't service providers listed?
+    </desc>
+  </info>
+
+
+  <title>
+    Why is my account type not on the list?
+  </title>
+
+  <p>
+    Support for your favorite online service provider needs someone to develop 
+    it. Currently, the following types of online accounts are supported:
+  </p>
+
+<table>
+  <tr>
+    <td><p>Facebook</p></td> <td><p>Flickr</p></td>
+    <td><p>Google</p></td>
+  </tr>
+  <tr>
+    <td><p>Twitter</p></td> <td><p>AIM</p></td>
+    <td><p>Windows Live</p></td>
+  </tr>
+  <tr>
+    <td><p>Salut</p></td> <td><p>Jabber</p></td>
+    <td><p>Yahoo</p></td>
+  </tr>
+</table>
+
+  <note style="important">
+   <p>
+     If you're interested in adding support for other services, contact the 
+     developers on the <link 
+     href="https://bugzilla.gnome.org/enter_bug.cgi?product=gnome-online-accounts">
+     bug tracker</link>.
+   </p>
+  </note>
+
+</page>

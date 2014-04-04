@@ -1,0 +1,22 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="net-install-java-plugin">
+  <info>
+    <link type="guide" xref="net-browser"/>
+
+    <revision version="13.10" date="2013-10-23" status="outdated"/>
+    
+    <credit type="author">
+      <name>Ubuntu Documentation Team</name>
+    </credit>
+
+    <desc>Help your browser work with websites that require Java.</desc>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+<title>Install the Java browser plug-in</title>
+<p>Some websites use small <em>Java</em> programs, which require a Java plugin to be installed in order to run.</p>
+
+<p><link href="apt:icedtea6-plugin">Install the icedtea6-plugin package</link> to view Java programs in your browser.</p>
+
+</page>

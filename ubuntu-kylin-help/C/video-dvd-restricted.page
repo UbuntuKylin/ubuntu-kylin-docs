@@ -1,0 +1,46 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="video-dvd-restricted">
+
+  <info>
+    <link type="guide" xref="media#videos" group="#last"/>
+    <link type="seealso" xref="video-dvd"/>
+    
+    <desc>Most commercial DVDs are encrypted and will not play without decryption software.</desc>
+    
+    <revision version="13.10" date="2013-10-23" status="outdated"/>
+    <credit type="author">
+      <name>Ubuntu Documentation Project</name>
+      <email>ubuntu-doc@lists.ubuntu.com</email>
+    </credit>
+    
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+<title>How do I enable restricted codecs to play DVDs?</title>
+
+<p>DVD support cannot be provided by default in Ubuntu due to legal and technical restrictions. Most commercial DVDs are encrypted and so require the use of decryption software in order to play them. </p>
+
+<section id="fluendo">
+ <title>Use Fluendo to legally play DVDs</title>
+ <p>You can buy a commercial DVD decoder that can handle copy protection from <link href="apt:fluendo-dvd">Fluendo</link>. It works with Linux and should be legal to use in all countries.</p>
+</section>
+
+<section id="restricted">
+ <title>Use alternative decryption software</title>
+
+ <note style="warning"><p>In some countries, the use of the below unlicensed decryption software is not permitted by law. Verify that you are within your rights to use it.</p></note>
+
+ <steps>
+  <item><p>Install <link href="apt:libdvdnav4">libdvdnav4</link>, <link href="apt:libdvdread4">libdvdread4</link>,
+<link href="apt:gstreamer0.10-plugins-bad">gstreamer0.10-plugins-bad</link>, and <link 
+href="apt:gstreamer0.10-plugins-ugly">gstreamer0.10-plugins-ugly</link>.</p></item>
+  <item><p>If you would like to play encrypted DVDs (see the legal note above), open the Dash 
+and launch a <app>Terminal</app>.</p></item>
+  <item><p>Type the following into the screen which appears, then press <key>Enter</key>:</p>
+  <p><code>sudo /usr/share/doc/libdvdread4/install-css.sh</code></p></item>
+  <item><p>Enter your password to complete the installation.</p></item>
+
+</steps>
+</section>
+</page>

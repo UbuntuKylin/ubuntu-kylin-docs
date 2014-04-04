@@ -1,0 +1,95 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="net-mobile">
+  <info>
+    <link type="guide" xref="net"/>
+    
+    <revision version="13.10" date="2013-09-15" status="review"/>
+
+    <credit type="author">
+      <name>Ubuntu Documentation Team</name>
+    </credit>
+
+    <desc>Connect to the internet using mobile broadband</desc>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+<title>Connect to mobile broadband</title>
+
+    <p>
+      <em>Mobile Broadband</em> refers to any kind of high speed 
+      Internet connection which is provided by an external device such as a 
+      3G USB stick or mobile phone with built-in HSPA/UMTS/GPRS data 
+      connection. Some laptops have recently been produced with mobile 
+      broadband devices already inside them.
+    </p>
+    <p>
+      Most mobile broadband devices should be recognized automatically when you 
+      connect them to your computer. Ubuntu will prompt you to configure the 
+      device.
+    </p>
+    <steps>
+        <item>
+          <p>
+          The <gui>New Mobile Broadband Connection</gui> wizard will 
+          open automatically when you connect the device.
+          </p>
+        </item>
+        <item>
+          <p>
+          Click <gui>Forward</gui> and enter your details, 
+          including the country where your Mobile Broadband device was issued, 
+          the network provider and type of connection (for example, 
+          <em>Contract</em> or <em>pre-pay</em>).
+          </p>
+        </item>
+        <item>
+          <p>
+          Give your connection a name and click <gui>Apply</gui>.
+          </p>
+        </item>
+        <item>
+          <p>
+          Your connection is now ready to use. To connect, click the <gui>network 
+          menu</gui> in the <gui>menu bar</gui> and select your new connection.
+          </p>
+        </item>
+        <item>
+          <p>
+          To disconnect, click the <gui>network menu</gui> in the menu bar and click
+          <gui>Disconnect</gui>.
+          </p>
+        </item>
+    </steps>
+    <p>
+    If you are not prompted to configure the device when you connect it, it 
+    may still be recognized by Ubuntu. In such cases you can add the connection 
+    manually.
+    </p>
+    <steps>
+    	<item>
+    	  <p>
+    	  Click the <link xref="unity-menubar-intro">network menu</link> in the menu bar 
+    	  and select <gui>Edit Connections...</gui>
+    	  </p>
+    	</item>
+    	<item>
+    	  <p>
+    	  Switch to the <gui>Mobile Broadband</gui> tab.
+    	  </p>
+    	</item>
+    	<item>
+    	  <p>
+    	  Click <gui>Add</gui>.
+    	  </p>
+    	</item>
+    	<item>
+    	  <p>
+    	  This should open the <gui>New Mobile Broadband 
+    	  Connection</gui> wizard. Enter your details as described above.
+    	  </p>
+    	</item>
+    </steps>
+
+ 
+</page>

@@ -1,0 +1,100 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="guide" style="ui"
+      id="uk-weather">
+
+  <info>
+
+    <link type="guide" xref="uk" group="weather"/>
+    <title role="trail" type="link">天气预报</title>
+
+    <desc>
+      来自中国气象局的天气预报信息。
+    </desc>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="review"/>
+    <revision version="14.04" date="2014-03-26" status="review"/>
+    <credit type="author">
+      <name>Ubuntu Kylin 文档团队</name>
+      <email>Jingshi@ubuntukylin.com</email>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+<title>天气预报</title>
+
+  <p>
+  <app>天气预报</app>提供来自中国气象局的天气预报信息，为用户日常起居和旅行提供参考。    
+  </p>
+  <p>
+    软件已预装在 Ubuntu Kylin 系统中，如果被卸载，您可以重新<link href="apt:indicator-china-weather">安装</link>。
+  </p>
+
+<links type="topic" style="2column"/>
+
+<section id="foreast" style="1column">
+ <title>查看天气 </title>
+ <p>点击桌面右上角的天气预报图标后会出现下拉菜单，分为两部分：上半部分显示当前气象信息；下半部分为应用项。</p>
+ <list>
+     <item>
+      <p><em>当前气象信息</em>：可以查看的天气信息有<gui>当前天气</gui>、<gui>当前气温</gui>、<gui>湿度</gui>、<gui>风向</gui>、<gui>风力</gui>、<gui>发布时间</gui>、<gui>PM2.5</gui>、<gui>地点</gui>等。</p>
+    </item> 
+
+     <item>
+     <p><em>六天天气预报</em>：为您提供当前城市未来六天的天气情况。
+</p>
+    </item> 
+
+ </list>
+<p>根据设定的时间，<app>天气预报</app> 会自动更新。也可以手动更新，只需要点击 <gui>更新</gui> 选项 ，气象信息就会自动刷新。同时会在 <gui>更新</gui> 旁边显示最后一次更新的时间。 </p>
+</section>
+
+<section id="configure" style="1column">
+ <title>配置 </title>
+  <p>可以在 <gui>常规</gui> 和 <gui>地点</gui> 两个界面进行配置。</p>
+<section id="common">
+  <title>常规 </title>
+
+ <p>
+<gui>常规</gui> 分为 <gui>可变配置</gui> 和 <gui>固定配置</gui> 两项内容。
+</p>
+
+<p>
+<gui>可变配置</gui>：
+</p>
+
+<list>
+<item><p>
+<gui>图标旁显示温度</gui>，勾选后可以在天气图标旁边同步显示温度；
+</p></item>
+
+<item><p>
+<gui>更新时间</gui>，默认为 60 分钟更新一次，也可以根据需要自行配置。
+</p></item>
+</list>
+
+
+<p>
+<gui>固定配置</gui>：
+</p>
+<p>
+介绍配置信息的标准单位以及数据来源。
+</p>
+
+
+</section>
+
+
+<section id="place">
+  <title>地点 </title>
+
+<p>
+　　内置了国内城市列表，输入城市拼音或者文字进行 <gui>查找</gui> 。通过 <gui>添加</gui>和 <gui>删除</gui> 按钮向城市列表中添加和删除城市，支持添加多城市，在选择城市后点击 <gui>确定</gui> 按钮可以切换 <app>天气预报</app> 所使用城市。
+</p>
+
+</section>
+</section>
+
+
+
+</page>

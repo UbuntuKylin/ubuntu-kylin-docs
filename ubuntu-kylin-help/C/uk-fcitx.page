@@ -1,0 +1,44 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="guide" style="ui"
+      id="uk-fcitx">
+
+  <info>
+
+    <link type="guide" xref="uk" group="fcitx"/>
+    <title role="trail" type="link">小企鹅输入法</title>
+
+    <desc>	
+      <link xref="uk-fcitx-qimpanel-wordlist">候选词列表</link>，
+      <link xref="uk-fcitx-qimpanel-skin">皮肤字体风格</link>，
+      <link xref="uk-fcitx-sogou-shortcuts">候选词显示个数</link>，
+      <link xref="uk-fcitx-sogou-wordlist">翻页快捷键</link>...
+    </desc>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="review"/>
+    <revision version="14.04" date="2014-03-26" status="review"/>
+    <credit type="author">
+      <name>Ubuntu Kylin 文档团队 </name>
+      <email>Jingshi@ubuntukylin.com</email>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+<title>小企鹅输入法</title>
+<p><link href="https://fcitx-im.org/wiki/Fcitx">小企鹅输入法(Fcitx)</link> 是 Ubuntu Kylin 默认的输入法。它是一个可扩展的输入法框架，支持拼音、五笔字型以及区位、二笔等输入方式。</p>
+
+<section id="qimpanel" style="2column">
+ <title>小企鹅输入法面板</title>
+<p>
+<app>小企鹅输入法面板</app>(Fcitx-qimpanel)由 Ubuntu Kylin 团队开发，是一个配合<app>小企鹅输入法</app>进行候选词显示的独立前端面板。启动 <app>Fcitx-qimpanel</app> 程序后，<app>Fcitx</app> 输出的候选词将自动显示在新的面板之上。<app>Fcitx-qimpanel</app> 自带四套简约风格的 Ubuntu Kylin 特色皮肤，使得候选词的显示与选择更加美观方便。
+</p>
+</section>
+
+<section id="sogou" style="2column">
+ <title>搜狗输入法</title>
+ <p>
+   由 Ubuntu Kylin 团队与搜狗公司基于<app>小企鹅输入法</app>框架合作开发的 Linux 输入法引擎。<link href="http://pinyin.sogou.com/">搜狗拼音输入法</link> 是互联网上流行的一种拼音输入法，该引擎与其他平台下的输入体验保持一致，旨在配合用户输入习惯、提高输入效率。
+ </p>
+</section>
+
+</page>

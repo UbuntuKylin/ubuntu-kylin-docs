@@ -1,0 +1,72 @@
+﻿<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="uk-kuaipan-selective-sync">
+
+  <info>
+    <credit type="author">
+      <name>Ubuntu Kylin 文档团队</name>
+      <email>luolei@ubuntukylin.com</email>
+    </credit>
+    <desc>
+      选择从云端同步到本地的文件夹，过滤不同步的本地文件/文件夹。
+    </desc>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+    <link type="guide" xref="uk-kuaipan#preference"/>
+    <revision version="14.04" date="2014-03-26" status="review"/>
+  </info>
+
+  <title>
+    选择性同步 &amp; 本地文件过滤
+  </title>
+
+    <p><app>金山快盘</app>可以选择从服务器同步到本地的文件夹，或过滤本地同步目录中的文件/文件夹使之不与服务器同步。</p>
+
+  <section id="selective" style="1column">
+    <title>选择性同步</title>
+
+  <steps>
+
+     <item>
+      <p>单击桌面右上角的快盘图标，选择<guiseq><gui>首选项</gui><gui>高级</gui></guiseq>，单击<gui>带宽限制</gui>旁的<gui>更改设置</gui>按钮。</p>
+    </item>
+
+     <item>
+      <p>在<gui>选择性同步设置</gui>界面中勾选要同步的文件夹，您可以通过单击<gui>全选</gui>或<gui>全不选</gui>快速进行选择。</p>
+    </item>
+
+     <item>
+      <p>完成之后，单击<gui>确定</gui>使选择生效。</p>
+    </item>
+
+  </steps>
+  <note>
+  <p>快盘根目录下的文件夹以及新增加的一级子目录会自动列入同步列表。</p>
+  </note>
+
+  </section>
+
+  <section id="filter" style="1column">
+    <title>本地文件过滤</title>
+
+  <steps>
+
+     <item>
+      <p>单击桌面右上角的快盘图标，选择<guiseq><gui>首选项</gui><gui>高级</gui></guiseq>，单击<gui>本地文件过滤</gui>旁的<gui>更改设置</gui>按钮。</p>
+    </item>
+
+     <item>
+      <p><gui>本地文件过滤设置</gui>分为<gui>文件后缀</gui>、<gui>文件名</gui>、<gui>文件前缀</gui>、<gui>文件夹前缀</gui>和<gui>文件夹后缀</gui>五种过滤格式，请按照需求添加或删除不同步的文件或文件夹格式。</p>
+    </item>
+
+     <item>
+      <p>关闭<gui>本地文件过滤设置</gui>界面使设置生效，被过滤的文件将不再与服务器同步。</p>
+    </item>
+
+  </steps>
+  <note>
+  <p>默认情况下，<gui>金山快盘</gui>会过滤隐藏文件和某些应用程序运行时产生的临时文件。</p>
+  </note>
+
+  </section>
+
+</page>

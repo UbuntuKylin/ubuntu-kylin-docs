@@ -1,0 +1,57 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      style="problem"
+      id="power-nowireless">
+
+  <info>
+    <link type="guide" xref="power#problems"/>
+    <link type="guide" xref="net-problem"/>
+    <link type="seealso" xref="power-suspendfail"/>
+
+    <revision pkgversion="3.7.1" version="0.2" date="2012-11-16" status="outdated"/>
+    <revision version="13.10" date="2013-09-19" status="review"/>
+
+    <desc>Some wireless devices have problems handling when your computer is suspended and doesn't resume properly.</desc>
+    <credit type="author">
+      <name>GNOME Documentation Project</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+<title>I have no wireless network when I wake up my computer</title>
+
+<p>If you have suspended your computer, or it has hibernated, you may find that
+your wireless internet connection does not work when you resume it again. This
+happens when the <link xref="hardware-driver">driver</link> for the wireless
+device does not fully support certain power saving features. Typically, the
+wireless connection fails to turn on properly when the computer is resumed.</p>
+
+<p>If this happens, try switching your wireless off and then back on again:</p>
+<steps>
+  <item>
+    <p>Click the icon at the very right of the menu bar and select <gui>System Settings</gui></p>
+  </item>
+  <item>
+    <p>Open <gui>Network</gui> and select the <gui>Wireless</gui> tab</p>
+  </item>
+  <item>
+    <p>Switch the wireless off and then on again</p>
+  </item>
+  <item>
+    <p>If the wireless still does not work, switch on <gui>Airplane Mode</gui> and then switch it off again</p>
+  </item>
+</steps>
+
+<p>If this doesn't work, restarting your computer should make the wireless work again.</p>
+
+</page>

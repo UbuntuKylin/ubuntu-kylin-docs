@@ -1,0 +1,39 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="guide" style="ui"
+      id="uk-wps">
+
+  <info>
+
+    <link type="guide" xref="uk" group="uk-wps"/>
+    <title role="trail" type="link">WPS 办公套件</title>
+
+    <desc>
+      <link xref="uk-wps-writer">WPS 文字</link>，
+      <link xref="uk-wps-spreadsheets">WPS 表格</link>，
+      <link xref="uk-wps-presentations">WPS 演示</link>...
+    </desc>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="review"/>
+    <revision version="14.04" date="2014-04-02" status="reviewed"/>
+    <credit type="author">
+      <name>Ubuntu Kylin 文档团队</name>
+      <email>Jingshi@ubuntukylin.com</email>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+<title>WPS 办公套件</title>
+
+  <p>
+  <app>WPS</app> 文字处理系统是一款集成了文字、表格、演示、网页浏览、图片浏览等功能的办公软件套件，提供免费的在线存储空间及文档模板，支持阅读和输出 pdf 文件，全面兼容微软 Office 97-2013 格式。
+  </p>
+
+  <p>
+    <app>WPS 办公套件</app> 可免费使用，但默认情况下没有包含在 Ubuntu Kylin 发行版中，请 <link href="apt:wps-office">安装</link> 以开始使用。
+  </p>
+
+<links type="topic" style="2column" groups="
+       writer spreadsheets presentations"/>
+
+</page>

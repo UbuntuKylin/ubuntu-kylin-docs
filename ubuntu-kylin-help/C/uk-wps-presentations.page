@@ -1,0 +1,66 @@
+﻿<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="uk-wps-presentations">
+  <info>
+    <link type="guide" xref="uk-wps" group="presentations"/>
+
+    <desc>幻灯片制作和演示。
+    </desc>
+
+    <revision version="14.04" date="2014-04-02" status="reviewed"/>
+
+    <credit type="author">
+      <name>Ubuntu Kylin 文档团队</name>
+      <email>jingshi@ubuntukylin.com</email>
+    </credit>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+  <title>WPS 演示</title>
+  <p><app>WPS 演示</app> 是制作和演示幻灯片的软件。能够制作出集文字、图形、图像、声音以及视频剪辑等多媒体元素于一体的演示文稿，把您所要表达的信息组织在一组图文并茂的画面中，用于介绍公司的产品、展示自己的学术成果。不仅在投影仪或者计算机上能进行演示，也可以将演示文稿打印出来，制作成胶片，以便应用到更广泛的领域中。</p>
+  <p><app>WPS 演示</app> 分为 7 大模块，分别为：<gui>开始</gui>、<gui>插入</gui>、<gui>设计</gui>、<gui>动画</gui>、<gui>幻灯片放映</gui>、<gui>审阅</gui>、<gui>视图</gui>。 </p>
+
+<section id="func" style="1column">
+    <title>功能</title>
+  <list>
+    <item><p>
+    <gui>开始</gui> 菜单中提供了对幻灯片进行编辑、格式设置、插入、播放等最常用的功能。
+    </p></item>
+
+    <item><p>
+    <gui>插入</gui> 菜单中提供了在幻灯片中插入图片、表格、页眉和页脚等美化文档的相关设置。
+    </p></item>
+    
+    <item><p>
+    <gui>设计</gui> 菜单中提供了在幻灯片中使用设计模板、颜色方案、幻灯片版式、背景等功能。
+    </p></item>
+    
+    <item><p>
+    <gui>动画</gui> 菜单中提供了在幻灯片内容的动画方案、切换效果、预览等功能。
+    </p></item>
+    
+    <item><p>
+    <gui>幻灯片放映</gui> 菜单中提供幻灯片的放映方式、切换方式。
+    </p></item>
+    
+    <item><p>
+    <gui>审阅</gui> 菜单中提供对幻灯片内容进行检查、修订等功能。
+    </p></item>
+    
+    <item><p>
+    <gui>视图</gui> 菜单中提供了对幻灯片显示方式的设置。
+    </p></item>
+
+  </list>
+</section>
+
+<section>
+   <title>有关<app> WPS 演示</app> 使用的其他资源和信息 </title>
+   <list>
+   <item><p>
+       请参考<link href="http://office.wps.cn/"> OFFICE 学院 </link>。
+   </p></item>
+   </list>
+</section>
+
+</page>

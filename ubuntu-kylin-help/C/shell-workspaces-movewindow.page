@@ -1,0 +1,70 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      style="task"
+      id="shell-workspaces-movewindow">
+
+  <info>
+
+    <link type="guide" xref="shell-windows#working-with-workspaces"/>
+    <link type="seealso" xref="shell-workspaces"/>
+
+    <desc>Open the workspace switcher and drag the window to a different
+    workspace.</desc>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="review"/>
+    <revision version="13.10" date="2013-10-23" status="outdated"/>
+    <credit type="author">
+      <name>GNOME Documentation Project</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+  </info>
+
+<title>Move a window to a different workspace</title>
+
+<p>Using the mouse:</p>
+
+<steps>
+ <item>
+  <p>Open the <link xref="unity-launcher-intro">Launcher</link> and click the
+<gui>workspace switcher</gui> button near the bottom.</p>
+ </item>
+ <item>
+  <p>Drag the window to the workspace you choose.</p>
+ </item>
+</steps>
+
+<p>Using the keyboard:</p>
+
+<steps>
+  <item><p>Select the window you want to move.</p>
+  </item>
+  <item>
+    <p>Press
+     <keyseq><key>Ctrl</key><key>Alt</key><key>Shift</key><key>&#8594;</key></keyseq>
+      to move the window to a workspace which is to the right of the current workspace on
+      the <gui>workspace switcher</gui>.</p>
+  </item>
+  <item>
+    <p>Press
+     <keyseq><key>Ctrl</key><key>Alt</key><key>Shift</key><key>&#8592;</key></keyseq>
+      to move the window to a workspace which is to the left of the current workspace on
+      the <gui>workspace switcher</gui>.</p>
+  </item>
+  <item>
+    <p>Press
+     <keyseq><key>Ctrl</key><key>Alt</key><key>Shift</key><key>&#8595;</key></keyseq>
+      to move the window to a workspace which is below the current workspace on
+      the <gui>workspace switcher</gui>.</p>
+  </item>
+  <item>
+    <p>Press
+     <keyseq><key>Ctrl</key><key>Alt</key><key>Shift</key><key>&#8593;</key></keyseq>
+      to move the window to a workspace which is above the current workspace on
+      the <gui>workspace switcher</gui>.</p>
+  </item>
+</steps>
+
+</page>

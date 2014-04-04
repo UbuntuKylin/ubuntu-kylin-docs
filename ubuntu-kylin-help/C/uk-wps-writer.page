@@ -1,0 +1,61 @@
+﻿<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="uk-wps-writer">
+  <info>
+    <link type="guide" xref="uk-wps" group="writer"/>
+
+    <desc>文字编辑和排版。
+    </desc>
+
+    <revision version="14.04" date="2014-04-02" status="reviewed"/>
+
+    <credit type="author">
+      <name>Ubuntu Kylin 文档团队</name>
+      <email>jingshi@ubuntukylin.com</email>
+    </credit>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+  <title>WPS 文字</title>
+  <p><app>WPS 文字</app> 是 WPS 办公套装软件的一个重要的组成部分，可对文字进行编辑、格式化、排版与打印。</p>
+  <p><app>WPS 文字</app> 包含 7 个功能模块，分别为：<gui>开始</gui>、<gui>插入</gui>、<gui>页面布局</gui>、<gui>引用</gui>、<gui>审阅</gui>、<gui>视图</gui>、<gui>章节</gui>。  </p>
+
+<section id="func" style="1column">
+    <title>功能</title>
+  <list>
+    <item><p>
+    <gui>开始</gui> 菜单中提供了对文档进行编辑、格式设置等最常用的功能。      
+    </p></item>
+
+    <item><p>
+    <gui>插入</gui> 菜单中提供了在文档中插入图片、表格、页眉和页脚等美化文档的相关设置。   
+    </p></item>
+    <item><p>
+    <gui>页面布局</gui> 菜单中提供了对文档内容的文字方向、分栏、文字环绕等功能。  
+    </p></item>
+    <item><p>
+    <gui>引用</gui> 菜单中提供了对文档的目录级别、脚注尾注等进行设置。  
+    </p></item>
+    <item><p>
+    <gui>审阅</gui> 菜单中提供了对文档内容的修订功能，审阅者可以直接在文档上进行修改。  
+    </p></item>
+    <item><p>
+    <gui>视图</gui> 菜单中提供了文档显示方式的设置。  
+    </p></item>
+    <item><p>
+    <gui>章节</gui> 菜单中提供了对文档封面、章节、目录、导航等内容进行设置。  
+    </p></item>
+
+  </list>
+</section>
+
+<section>
+   <title>有关<app> WPS 文字</app> 使用的其他资源和信息 </title>
+   <list>
+   <item><p>
+       请参考<link href="http://office.wps.cn/"> OFFICE 学院 </link>。
+   </p></item>
+   </list>
+</section>
+
+</page>

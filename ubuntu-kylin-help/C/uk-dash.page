@@ -1,0 +1,49 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="guide" style="ui"
+      id="uk-dash">
+
+  <info>
+
+    <link type="guide" xref="uk" group="dash"/>
+    <title role="trail" type="link">Dash 中文搜索</title>
+
+    <desc>
+      <!--这里规定引用本文件的位置显示在主标题之下的小标题-->	
+      <link xref="uk-dash-music">中文音乐搜索</link>，
+      <link xref="uk-dash-video">中文视频搜索</link>，
+      <link xref="uk-dash-photo">中文图片搜索</link>...
+    </desc>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="review"/>
+    <revision version="14.04" date="2014-03-26" status="review"/>
+    <credit type="author">
+      <name>Ubuntu Kylin 文档团队</name>
+      <email>Jingshi@ubuntukylin.com</email>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+<title>Dash 中文搜索</title>
+
+  <p>
+  Dash 中文搜索允许您使用中文搜索本地或远程的应用程序、文件、音乐、视频以及图片等内容，并显示您最近使用过的文件。    
+  </p>
+
+
+<links type="topic" style="2column"/>
+<!--
+<section id="music" style="2column">
+ <title>中文音乐搜索</title>
+</section>
+
+<section id="video" style="2column">
+ <title>中文视频搜索</title>
+</section>
+
+<section id="photo" style="2column">
+ <title>中文图片搜索</title>
+</section>-->
+
+
+</page>

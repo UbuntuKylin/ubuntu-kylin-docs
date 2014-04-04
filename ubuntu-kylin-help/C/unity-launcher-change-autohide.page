@@ -1,0 +1,34 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="unity-launcher-change-autohide">
+  <info>
+    <link type="guide" xref="unity-launcher-intro#launcher-customizing" group="#last"/>
+
+    <revision version="13.10" date="2013-10-23" status="outdated"/>
+
+    <credit type="author">
+      <name>Jeremy Bicha</name>
+      <email>jbicha@ubuntu.com</email>
+    </credit>
+
+    <desc>Show the <gui>Launcher</gui> only when you need it.</desc>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+  <title>Auto-hide the Launcher</title>
+
+  <p>You can hide the <gui>Launcher</gui> if you only want to see it when you move your
+    mouse or touchpad pointer to the left side of the screen.</p>
+
+  <steps>
+    <item><p>Click the icon at the very right of the <gui>menu bar</gui> and select <gui>System Settings</gui>.</p></item>
+    <item><p>In the Personal section, click <gui>Appearance</gui>.</p></item>
+    <item><p>Switch to the <gui>Behavior</gui> tab.</p></item>
+    <item><p>Switch <gui>Auto-hide the Launcher</gui> on.</p></item>
+  </steps>
+
+  <p>To help prevent you from accidentally showing the Launcher, Ubuntu requires you to
+    push a little bit harder with your mouse or touchpad pointer to make the Launcher show.
+    You can adjust the force needed by setting the <gui>Reveal sensitivity</gui> lower or higher.</p>
+
+</page>

@@ -1,0 +1,48 @@
+﻿<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="uk-kuaipan-view">
+
+  <info>
+    <credit type="author">
+      <name>Ubuntu Kylin 文档团队</name>
+      <email>luolei@ubuntukylin.com</email>
+    </credit>
+    <desc>
+      通过系统托盘查看同步文件夹、账户信息及同步状态。
+    </desc>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+    <link type="guide" xref="uk-kuaipan#sync" group="#first"/>
+    <revision version="14.04" date="2014-03-26" status="review"/>
+  </info>
+
+  <title>
+    查看
+  </title>
+
+  <p>单击顶部状态栏右侧的快盘图标，会弹出快盘的系统菜单，通过该菜单可以查看账户相关信息或是对快盘进行设置。可查看的主要内容有：</p>
+
+  <list>
+
+     <item>
+      <p>单击<gui>打开快盘文件夹</gui>查看本地同步文件。</p>
+    </item>
+
+    <item>
+      <p>通过<gui>在线查看</gui>在网页上浏览您的文件、在线回收站或访问产品主页。</p>
+    </item>
+
+    <item>
+      <p>通过<gui>最近更改的文件</gui>查看最近上传或下载的文件。</p>
+    </item>
+
+    <item>
+      <p>快盘账户信息栏显示您的快盘空间信息，如“总共 1000 GB，已使用 20%”。</p>
+    </item>
+
+    <item>
+      <p>同步状态栏显示本地快盘文件夹的同步状态，如“正在同步...”、“同步状态：最新”等。如果快盘正在进行同步，还会显示正在上传/下载的文件、同步速度、剩余时间等详细信息。</p>
+    </item>
+
+  </list>
+
+</page>

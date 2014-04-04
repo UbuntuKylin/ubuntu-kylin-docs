@@ -1,0 +1,40 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="shell-windows-tiled">
+
+  <info>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <desc>
+      Maximize two windows side-by-side.
+    </desc>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+    <link type="guide" xref="shell-windows#working-with-windows"/>
+    <revision pkgversion="3.4.0" date="2012-02-19" status="final"/>
+    <revision pkgversion="3.4.0" date="2012-03-14" status="candidate"/>
+    <revision version="13.10" date="2013-10-24" status="review"/>
+  </info>
+
+<title>Tile windows</title>
+
+<p>You can maximize a window on only the left or right side of the screen,
+allowing you to place two windows side-by-side to quickly switch between
+them.</p>
+
+<p>To maximize a window along a side of the screen, grab the titlebar and drag
+it to the left or right side until half of the screen is highlighted. Using the
+keyboard, hold down <key>Ctrl</key> and <key><link xref="windows-key">Super</link></key> and press
+the <key>Left</key> or <key>Right</key> key.</p>
+
+<!-- Disable this line since neither of these actually work 100%
+<p>To restore a window to its original size, drag it away from the side of
+the screen, or use the same keyboard shortcut you used to maximize.</p>
+-->
+
+<note style="tip">
+  <p>Hold down the <key>Alt</key> key and drag anywhere in a window to move it.</p>
+</note>
+
+</page>

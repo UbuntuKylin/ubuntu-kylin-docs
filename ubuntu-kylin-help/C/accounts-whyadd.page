@@ -1,0 +1,41 @@
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" 
+			id="accounts-whyadd">
+  <info>
+    <credit type="author copyright">
+      <name>Susanna Huhtanen</name>
+      <email>ihmis.suski@gmail.com</email>
+      <years>2012</years>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+
+		<credit type="editor">
+    	<name>Greg Beam</name>
+    	<email>ki7mt@yahoo.com</email>
+    </credit>
+
+    <link type="guide" xref="accounts"/>
+    <revision pkgversion="3.10.2" version="0.1" date="2014-01-08" status="review"/>
+		<revision version="14.04" date="2014-01-08" status="review"/>
+
+    <desc>
+      Why add your email or social media accounts to your desktop?
+    </desc>
+  </info>
+
+  <title>
+    Why should I add an account?
+  </title>
+
+  <p>
+    Adding your accounts brings a choice of services like calendar, chat, and 
+    e-mail straight to your desktop, making services a seamless part of your 
+		user experience. By adding accounts, you can keep in touch with services of
+		different accounts, like chats, at the same time. Just set your account once
+		and every time you start your computer all the accounts and services you've
+		added will be ready for you.
+  </p>
+
+</page>

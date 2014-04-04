@@ -1,0 +1,28 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="guide" style="task"
+      id="unity-launcher-intro">
+  <info>
+    <revision version="11.04" date="2011-04-20" status="stub"/>
+
+    <credit type="author">
+      <name>Ubuntu Documentation Team</name>
+    </credit>
+
+    <desc></desc>
+  </info>
+
+  <title>Launch your favorite apps from the Launcher</title>
+
+  <comment>
+    <p>Intro guide page for the Unity Launcher. Overview of the Launcher at the top, with help topics that will link into it below.</p>
+  </comment>
+
+  <p>Short introductory text...</p>
+
+  <steps>
+    <item><p>First step...</p></item>
+    <item><p>Second step...</p></item>
+    <item><p>Third step...</p></item>
+  </steps>
+
+</page>

@@ -1,0 +1,12 @@
+AC_INIT([ubuntu-kylin-docs], [14.04],
+        [https://bugs.launchpad.net/ubuntu/+source/ubuntu-kylin-docs])
+AM_INIT_AUTOMAKE
+
+YELP_HELP_INIT
+
+AM_MAINTAINER_MODE
+
+AC_OUTPUT([
+Makefile
+ubuntu-kylin-help/Makefile
+])

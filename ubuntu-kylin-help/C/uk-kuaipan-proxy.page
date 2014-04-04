@@ -1,0 +1,47 @@
+﻿<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="uk-kuaipan-proxy">
+
+  <info>
+    <credit type="author">
+      <name>Ubuntu Kylin 文档团队</name>
+      <email>luolei@ubuntukylin.com</email>
+    </credit>
+    <desc>
+      设置<app>金山快盘</app>使用的网络代理服务器。
+    </desc>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+    <link type="guide" xref="uk-kuaipan#preference"/>
+    <revision version="14.04" date="2014-03-26" status="review"/>
+  </info>
+
+  <title>
+    代理服务器设置
+  </title>
+
+  <p> <link xref="net-proxy">代理服务器</link> 过滤您要访问的网络资源，通常在学校、公司及其他机构中用于控制您可以访问的网站，防止您不登录账户就访问 Internet，或者对网站执行安全检查。<app>金山快盘</app>提供独立的代理服务器设置功能。</p>
+
+  <steps>
+
+    <item>
+      <p>单击桌面右上角的快盘图标，选择<guiseq><gui>首选项</gui><gui>网络</gui></guiseq>，单击<gui>代理服务器</gui>旁的<gui>更改设置</gui>按钮。如果是第一次运行<app>金山快盘</app>，请在登录界面点击<gui>代理设置</gui>。</p>
+    </item>
+
+    <item>
+      <p>在弹出的<gui>代理设置</gui>页面选择<gui>手动设置</gui>。</p>
+    </item>
+
+    <item>
+      <p>选择 <gui>HTTP</gui>、<gui>Sock4</gui> 或 <gui>Sock5</gui> 代理协议，填写服务器地址和端口信息。</p>
+    </item>
+
+    <item>
+      <p>如果<gui>代理服务器需要验证</gui>，请勾选开启验证信息框，输入用户名和密码。</p>
+    </item>
+
+    <item>
+      <p>最后单击<gui>设置</gui>按钮启用代理设置，快盘会立即对代理进行测试。如果提示<gui>无法连接快盘服务器</gui>，请重新检查代理设置。</p>
+    </item> 
+  </steps>
+
+</page>

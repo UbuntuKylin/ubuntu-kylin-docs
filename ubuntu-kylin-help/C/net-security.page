@@ -1,0 +1,24 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="guide" style="task"
+      id="net-security">
+
+  <info>
+    <revision pkgversion="3.4.0" date="2012-02-21" status="final"/>
+    <revision version="13.10" date="2013-09-15" status="review"/>
+
+    <link type="guide" xref="net"/>
+
+    <desc>
+      <link xref="net-antivirus">Antivirus software</link>,
+      <link xref="net-firewall-on-off">basic firewalls</link>…
+    </desc>
+
+    <credit type="author">
+      <name>The Ubuntu Documentation Team</name>
+    </credit>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+<title>Keeping safe on the internet</title>
+
+</page>

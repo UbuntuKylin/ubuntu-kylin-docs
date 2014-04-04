@@ -1,0 +1,75 @@
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="accounts-remove">
+
+	<info>
+		<credit type="author">
+			<name>Michael Hill</name>
+			<email>mdhillca@gmail.com</email>
+		</credit>
+
+		<credit type="editor">
+			<name>Greg Beam</name>
+			<email>ki7mt@yahoo.com</email>
+		</credit>
+
+		<link type="guide" xref="accounts" />
+		<link type="seealso" xref="accounts-disable-service"/>
+    <revision pkgversion="3.10.2" version="0.1" date="2014-01-08" status="review"/>
+		<revision version="14.04" date="2014-01-08" status="review"/>
+		<include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+		<desc>
+			Remove online account services
+		</desc>
+	</info>
+
+	<title>
+		Remove an account
+	</title>
+
+	<steps>
+		<item>
+			<p>Click the icon at the very right of the <gui>menu bar</gui> and select
+			<gui>System Settings</gui>.
+			</p>
+		</item>
+
+		<item>
+			<p>Select <gui>Online Accounts</gui>.
+			</p>
+		</item>
+
+    <item>
+      <p>
+        From the left windowpane, select the account you wish to remove.
+      </p>
+    </item>
+
+    <item>
+      <p>
+        Click the <gui>Remove Account</gui> button in the lower-right portion of 
+        the window.
+			</p>
+
+  <note style="tip">
+    <p>
+      Removing the selection from <app>Online Accounts</app> in no way affects
+			the account from your service provider.
+    </p>
+  </note>
+    </item>
+
+    <item>
+      <p>
+        Click <gui>Remove</gui>.
+      </p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>
+      Instead of deleting the account completely, you can <link 
+      xref="accounts-disable-service">restrict the service</link> from being
+			accessed by your desktop.
+    </p>
+  </note>
+</page>

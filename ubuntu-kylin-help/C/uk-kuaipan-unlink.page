@@ -1,0 +1,44 @@
+﻿<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="uk-kuaipan-unlink">
+
+  <info>
+    <credit type="author">
+      <name>Ubuntu Kylin 文档团队</name>
+      <email>luolei@ubuntukylin.com</email>
+    </credit>
+    <desc>
+      解除<app>金山快盘</app>与本计算机的绑定。
+    </desc>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+    <link type="guide" xref="uk-kuaipan#sync"/>
+    <revision version="14.04" date="2014-03-26" status="review"/>
+  </info>
+
+  <title>
+    解除绑定
+  </title>
+
+  <p>如果您不想继续使用<gui>金山快盘</gui>，可以<gui>解除此计算机与快盘的连接</gui>。执行该操作之后，您存在本地的文件将不会再与快盘服务器同步，但是本地快盘文件夹会被保留。操作步骤如下：</p>
+
+  <steps>
+
+     <item>
+      <p>单击桌面顶部状态栏右侧的快盘图标，在弹出的菜单中选择<gui>首选项</gui>。</p>
+    </item>
+
+    <item>
+      <p>切换到<gui>账户</gui>选项卡。</p>
+    </item>
+
+    <item>
+      <p>单击<gui>解除此计算机与快盘的连接</gui>按钮，程序会弹出询问提示框，请选择<gui>是</gui>。</p>
+    </item>
+
+    <item>
+      <p>接下来选择是否清除快盘产生的临时文件，如果您以后还会使用快盘，可以保留这些文件以加快第一次运行的速度，否则建议您删除临时文件以节省空间。</p>
+    </item>
+
+  </steps>
+
+</page>

@@ -1,0 +1,50 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="topic" style="ui"
+      id="shell-workspaces">
+
+  <info>
+
+    <link type="guide" xref="shell-windows#working-with-workspaces" group="#first"/>
+
+    <desc>Workspaces are a way of grouping windows on your desktop.</desc>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="review"/>
+    <revision version="13.10" date="2013-10-23" status="outdated"/>
+    <credit type="author">
+      <name>GNOME Documentation Project</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+  </info>
+
+<title>What is a workspace, and how will it help me?</title>
+
+<media type="image" src="figures/unity-workspace-intro.png"
+       style="floatend floatright">
+  <p>Workspace switcher button</p>
+</media>
+
+  <p>Workspaces refer to the grouping of windows on your desktop. These virtual desktops increase the size of your working area.  Workspaces are meant to reduce
+ clutter and make the desktop easier to navigate.</p>
+
+  <p>Workspaces can be used to organize your work. For example, you could have
+ all your communication windows, such as e-mail and your chat program, on one
+ workspace, and the work you are doing on a different workspace. Your music
+ manager could be on a third workspace.</p>
+
+ <p>Open the <link xref="unity-launcher-intro">Launcher</link> and click the <gui>workspace switcher</gui> icon near the bottom. By default, Ubuntu shows 4 workspaces, arranged in 2 rows and 2 columns. You can change the number of workspaces:</p>
+
+<steps>
+  <title>Change the number of workspaces</title>
+  <item><p>Go to the <link xref="unity-dash-intro">Dash</link> and open the <app>Terminal</app>.</p></item>
+  <item><p>To change the number of rows, type the following command, changing the final number to the number you wish. Press <key>Enter</key>.</p>
+
+    <code its:translate="no">gsettings set org.compiz.core:/org/compiz/profiles/unity/plugins/core/ vsize 2</code></item>
+  <item><p>To change the number of columns, type the following command, changing the final number to the number you wish. Press <key>Enter</key>.</p>
+    <code its:translate="no">gsettings set org.compiz.core:/org/compiz/profiles/unity/plugins/core/ hsize 3</code></item>
+</steps>
+
+</page>

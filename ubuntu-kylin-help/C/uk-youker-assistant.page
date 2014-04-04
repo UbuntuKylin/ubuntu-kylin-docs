@@ -1,0 +1,76 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="guide" style="task"
+      id="uk-youker-assistant">
+
+  <info>
+
+    <!--<link type="guide" xref="uk" group="assistant"/>-->
+    <title role="trail" type="link">金山快盘</title>
+
+    <desc>	
+      <link xref="uk-kuaipan-first-run">设置向导</link>，
+      <link xref="uk-kuaipan-view">查看</link>，
+      <link xref="uk-kuaipan-pause">暂停 &amp; 恢复</link>…
+    </desc>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="review"/>
+    <revision version="14.04" date="2014-04-02" status="writing"/>
+    <credit type="author">
+      <name>Ubuntu Kylin 文档团队</name>
+      <email>luolei@ubuntukylin.com</email>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+<title>优客助手</title>
+
+  <p>
+    <app>优客助手</app>是专为 Ubuntu/Ubuntu Kylin 用户打造的系统级管理与配置工具，可以查看系统的详细硬件信息、清理系统中残留的垃圾以及配置个性化的系统，另外<gui>功能大全</gui>中还包含一些实用小工具。
+  </p>
+
+<links type="topic" style="1column"/>
+
+<section id="main" style="2column">
+ <title>首页</title>
+</section>
+
+<section id="info" style="2column">
+ <title>系统信息</title>
+</section>
+
+<section id="clean" style="2column">
+ <title>系统清理</title>
+</section>
+
+<section id="personalize" style="2column">
+ <title>系统美化</title>
+</section>
+
+<section id="tool" style="2column">
+ <title>功能大全</title>
+</section>
+
+<section id="ball" style="2column">
+ <title>加速球</title>
+</section>
+
+<section id="help" style="2column">
+  <list>
+    <title>帮助与反馈</title>
+
+    <item><p>
+      当您在使用过程中遇到困难时，可以点击<app>优客助手</app>首页右下角的<gui>论坛求助</gui>，获得优客们的帮助。</p></item>
+
+    <item>
+      <p>如果您对软件本身有任何建议，可以点击首页右下角的<gui>问题反馈</gui>。</p>
+    </item>
+
+    <item>
+      <p>还可通过点击首页右下角的<gui>新版本特性</gui>查看当前版本所更新的内容。</p>
+    </item>
+
+  </list>
+</section>
+
+</page>

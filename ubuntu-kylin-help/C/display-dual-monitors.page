@@ -1,0 +1,102 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:if="http://projectmallard.org/if/1.0/"
+      type="topic" style="task"
+      id="display-dual-monitors">
+
+  <info>
+    <desc>Set up dual monitors on your laptop.</desc>
+    <revision pkgversion="3.8.2" date="2014-01-19" status="review"/>
+    <revision version="14.04" date="2014-01-19" status="review"/>
+    <credit type="author">
+      <name>Ubuntu Documentation Team</name>
+      <email>ubuntu-doc@lists.ubuntu.com</email>
+    </credit>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+    <link type="guide" xref="prefs-display"/>
+  </info>
+
+<title>Connect an external monitor to your laptop</title>
+
+	<section id="unity-steps">
+		<title>
+			Set up an external monitor
+		</title>
+		<p>
+			To set up an external monitor with your laptop, connect the monitor to 
+			your laptop. If your system doesn't recognize it immediately, or you
+			would like to adjust the settings:
+		</p>
+		<steps>
+			<item>
+				<p>
+					Click the icon at the very right of the 
+					<gui>menu bar</gui> and select <gui>System 
+					Settings</gui>.
+				</p>
+			</item>
+			<item>
+				<p>
+					Open <gui>Displays</gui>.
+				</p>
+			</item>
+			<item>
+				<p>
+					Click on the image of the monitor you would like to 
+					activate or deactivate, then switch it 
+					<gui>ON/OFF</gui>.
+				</p>
+			</item>
+			<item>
+				<p>
+					By default, the Launcher only shows on the primary
+					monitor. To change which monitor is "primary", change
+					the monitor in the <gui>Launcher Placement</gui>
+					drop-down box. You could also drag the Launcher in the
+					preview to the monitor you want to set as the "primary"
+					monitor.
+				</p>
+				<p>
+					If you want the Launcher to show on all monitors,
+					change <gui>Launcher Placement</gui> to 
+					<gui>All Displays</gui>.
+				</p>
+			</item>
+			<item>
+				<p>
+					To change the "position" of a monitor, click on it
+					and drag it to the desired position.
+				</p>
+				<note>
+					<p>
+						If you would like both monitors to display the
+						same content, check the <gui>Mirror
+						displays</gui> box.
+					</p>
+				</note>
+			</item>
+			<item>
+				<p>
+					When you are happy with your settings, click
+					<gui>Apply</gui> and then click  <gui>Keep
+					This Configuration</gui>.
+				</p>
+			</item>
+			<item>
+				<p>
+					To close the <gui>Displays</gui> click on the
+					<gui>x</gui> in the top corner.
+				</p>
+			</item>
+		</steps>
+	</section>
+
+	<section id="sticky-edges">
+		<title>Sticky Edges</title>
+		<p>A typical problem with dual monitors is that it's easy for the mouse pointer to "slip" to
+		the other monitor when you don't want it to. Unity's <gui>Sticky Edges</gui> feature helps
+		with that problem by requiring you to push a little bit harder to move the mouse pointer
+		from one monitor to the other.</p>
+		<p>You can switch <gui>Sticky Edges</gui> off if you don't like this feature.</p>
+	</section>
+
+</page>

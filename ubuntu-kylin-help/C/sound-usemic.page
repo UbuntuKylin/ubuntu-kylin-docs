@@ -1,0 +1,43 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="sound-usemic">
+  <info>
+    <link type="guide" xref="media#sound"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="outdated"/>
+    <revision version="13.10" date="2013-10-23" status="review"/>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+
+    <desc>Use an analog or USB microphone and select a default input device.</desc>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+  <title>Use a different microphone</title>
+
+  <p>You can use an external microphone for chatting with friends, speaking
+  with colleagues at work, making voice recordings, or using other multimedia
+  applications. Even if your computer has a built-in microphone or a webcam
+  with a microphone, a separate microphone usually provides better audio
+  quality.</p>
+
+  <p>If your microphone has a circular plug, just plug it into the appropriate
+  adapter on your computer. Most computers have two adapters: one for
+  microphones and one for speakers. Look for a picture of a microphone next to
+  the adapter. Microphones plugged into the appropriate adapter will usually
+  be used by default. If not, see the instructions below for selecting a
+  default input device.</p>
+
+  <p>If you have a USB microphone, plug it into any USB port on your
+  computer. USB microphones act as separate audio devices, and you may
+  have to specify which microphone to use by default.</p>
+
+  <steps>
+    <title>Select a default audio input device</title>
+    <item><p>Click the <gui>sound menu</gui> on the <gui>menu bar</gui> and select <gui>Sound Settings</gui>.</p></item>
+    <item><p>On the <gui>Input</gui> tab, select the device in the list of devices.
+    The input level indicator should respond when you speak.</p></item>
+  </steps>
+</page>

@@ -1,0 +1,86 @@
+﻿<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="unity-dash-intro">
+  <info>
+    <link type="guide" xref="index" group="unity-dash-intro"/>
+    <link type="guide" xref="shell-overview#desktop"/>
+
+    <desc>The Dash is the top button in the Launcher.</desc>
+
+    <revision version="13.10" date="2013-10-23" status="outdated"/>
+
+    <credit type="author">
+      <name>Jeremy Bicha</name>
+      <email>jbicha@ubuntu.com</email>
+    </credit>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+  <title>Find apps, files, music, and more with the Dash</title>
+
+  <media type="image" src="figures/unity-dash-sample.png" style="floatend floatright">
+    <p>Unity Search</p>
+  </media>
+
+  <p>The <gui>Dash</gui> allows you to search for applications, files, music, and videos,
+    and shows you items that you have used recently. If you have ever worked on
+    a spreadsheet or edited an
+    image and forgot where you saved it, you will surely find this feature of the Dash to be useful.
+  </p>
+
+  <p>To start using the <gui>Dash</gui>, click the top icon in the <link xref="unity-launcher-intro">Launcher</link>.
+    This icon has the Ubuntu logo on it.
+    For faster access, you can just press the <key xref="windows-key">Super</key> key.</p>
+
+  <p>To hide the <gui>Dash</gui>, click the top icon again or press <key>Super</key> or <key>Esc</key>.</p>
+
+<section id="dash-home">
+  <title>Search everything from the Dash home</title>
+
+  <p>The first thing you'll see when opening the Dash is the Dash Home. Without typing
+    or clicking anything, the Dash Home will show you apps and files you've used recently.</p>
+  <p>Only one row of results will show for each type. If there are more results, you can
+    click <gui>See more results</gui> to view them.</p>
+
+  <p>To search, just start typing and related search results will automatically appear
+    from the different installed lenses.</p>
+
+  <p>Click on a result to open it, or you can press <key>Enter</key> to open the first
+    item in the list.</p>
+
+</section>
+
+<section id="dash-lenses">
+  <title>Lenses</title>
+
+  <p>Lenses allow you to focus the Dash results and exclude results from other lenses.</p>
+
+  <p>You can see the available lenses in the <gui>lens bar</gui>, the darker strip at
+    the bottom of the Dash.</p>
+
+  <p>To switch to a different lens, click the appropriate icon or press
+    <keyseq><key>Ctrl</key><key>Tab</key></keyseq>.</p>
+
+</section>
+
+<section id="dash-filters">
+  <title>Filters</title>
+
+  <p>Filters allow you to narrow down your search even further.</p>
+
+  <p>Click <gui>Filter results</gui> to choose filters. You may need to click a
+    filter heading such as <gui>Sources</gui> to see the available choices.</p>
+
+</section>
+
+<section id="dash-previews">
+  <title>Previews</title>
+
+  <p>If you right click on a search result, a <gui>preview</gui> will open with more
+    information about the result.</p>
+
+  <p>To close the preview, click any empty space or press <key>Esc</key>.</p>
+
+</section>
+
+</page>

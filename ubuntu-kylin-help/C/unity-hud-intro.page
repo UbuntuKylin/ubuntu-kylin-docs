@@ -1,0 +1,64 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="guide" style="question"
+      id="unity-hud-intro">
+
+  <info>
+    <link type="guide" xref="shell-overview#desktop" />
+
+    <desc>Use the HUD to search menus of the apps you use.</desc>
+    <revision version="13.10" date="2013-10-23" status="outdated"/>
+
+    <credit type="author">
+      <name>Jeremy Bicha</name>
+      <email>jbicha@ubuntu.com</email>
+    </credit>
+    
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+<title>What is the HUD?</title>
+
+<p>The <gui>HUD</gui> or <gui>Heads Up Display</gui> is a search-based 
+alternative to traditional menus and was introduced in Ubuntu 12.04 
+LTS.</p>
+
+<p>Some apps like <link href="apt:gimp">Gimp</link> or 
+<link href="apt:inkscape">Inkscape</link> have hundreds of menu items. If 
+you're using apps like these, you may remember the name of a menu option, 
+but you might not remember how to find it in the menus.</p>
+
+<p>Using a search box can be quite a bit faster than navigating extended 
+menu hierarchies. The HUD also can be more accessible than normal menus as 
+some people are unable to precisely control a mouse pointer.</p>
+
+<section id="use-the-hud">
+<title>Use the HUD</title>
+
+  <p>To try the HUD:</p>
+
+  <steps>
+    <item>
+      <p>Tap <key>Alt</key> to open the HUD.</p>
+    </item>
+    <item>
+      <p>Start typing.</p>
+    </item>
+    <item>
+      <p>When you see a result that you want to run, use the up and down 
+      keys to select the result, then press <key>Enter</key>, or click 
+      your desired search result.</p>
+    </item>
+    <item>
+      <p>If you change your mind and want to exit the HUD, tap the 
+      <key>Alt</key> again or the <key>Esc</key>. You can also click 
+      anywhere outside the HUD to close the HUD.</p>
+    </item>
+  </steps>
+
+<p>The HUD keeps track of your search history and adjusts the search 
+results to be even more useful the more you use it.</p>
+
+</section>
+
+</page>

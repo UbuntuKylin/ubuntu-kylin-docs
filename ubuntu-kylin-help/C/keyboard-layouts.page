@@ -1,0 +1,145 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="keyboard-layouts">
+  <info>
+    <link type="guide" xref="prefs-language#textentry"/>
+    <link type="guide" xref="keyboard" group="i18n"/>
+    <link type="seealso" xref="keyboard-shortcuts-set"/>
+
+    <revision pkgversion="3.8" version="0.3" date="2013-04-30" status="review"/>
+    <revision version="14.04" date="2014-02-28" status="review"/>
+
+    <credit type="author copyright">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+      <years>2012</years>
+    </credit>
+    <credit type="author">
+       <name>Julita Inca</name>
+       <email>yrazes@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Juanjo Marín</name>
+      <email>juanj.marin@juntadeandalucia.es</email>
+    </credit>
+    <credit type="editor">
+      <name>Ubuntu Documentation Team</name>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <desc>Add input sources and switch between them.</desc>
+  </info>
+
+  <title>Use alternative input sources</title>
+
+  <p>Keyboards come in hundreds of different layouts for different languages.
+  Even for a single language, there are often multiple keyboard layouts, such
+  as the Dvorak layout for English. You can make your keyboard behave like a
+  keyboard with a different layout, regardless of the letters and symbols
+  printed on the keys. This is useful if you often switch between multiple
+  languages.</p>
+
+  <p>Some languages, such as Chinese or Korean, require a more complex input
+  method than just a simple key to character mapping. Consequently some of
+  the input sources you can choose between enable such a method.</p>
+
+  <note>
+    <p>Options with input methods are only available if respective input method
+    (IM) engine is installed. When you <link xref="prefs-language-install">install
+    a language</link>, a suitable IM engine is automatically installed if applicable.
+    For example, if you install Korean, the package <em>ibus-hangul</em> is
+    installed, and the input source option <gui>Korean (Hangul)</gui> is made
+    available next time you log in. You can also <link xref="addremove-install">
+    install</link> the IBus IM engine of your choice separately.</p>
+  </note>
+
+  <section id="add">
+    <title>Add input sources</title>
+
+    <note style="sidebar">
+      <p>You can preview an image of any layout by selecting it in the list and clicking
+      <gui><media type="image" src="figures/input-keyboard-symbolic.svg" width="16" height="16">
+      preview</media></gui>.</p>
+    </note>
+
+    <steps>
+      <item>
+       <p>Click the icon at the very right of the menu bar and select <gui>System Settings</gui>.</p>
+      </item>
+      <item>
+       <p>In the Personal section, click <gui>Text Entry</gui>.</p>
+      </item>
+      <item>
+       <p>Click the <gui>+</gui> button, select an input source, and click 
+       <gui>Add</gui>.</p>
+      </item>
+    </steps>
+
+    <p>The default source is the source at the top of the list. Use the
+    <gui>↑</gui> and <gui>↓</gui> buttons to move sources up and down in
+    the list.</p>
+
+    <note style="tip">
+      <p>If you select a source with an input method, you can click
+      <gui><media type="image" src="figures/input-preferences.png" width="18" height="18">
+      preferences</media></gui> to access that method's preferences dialog if any.</p>
+    </note>
+  </section>
+
+  <section id="indicator">
+    <title>Input source indicator</title>
+
+    <p>You can quickly switch between selected sources using the input source
+    indicator in the menu bar. The menu will display a short identifier for the
+    current source, such as <gui>En</gui> for the standard English layout or a
+    symbol in case of a source that uses a special input method, e.g. Chinese
+    (Chewing). Click the input source indicator and select from the menu the
+    source you want to use.</p>
+  </section>
+
+  <section id="shortcuts">
+    <title>Keyboard shortcuts</title>
+
+    <p>You can also use keyboard shortcuts to quickly switch between your selected
+    input sources. By default the shortcut for switching to next source is
+    <keyseq><key xref="windows-key">Super</key><key>Space</key></keyseq>, but you
+    can change it:</p>
+
+    <steps>
+      <item>
+       <p>Click the icon at the very right of the menu bar and select <gui>System Settings</gui>.</p>
+      </item>
+      <item>
+       <p>In the Personal section, click <gui>Text Entry</gui>.</p>
+      </item>
+      <item>
+       <p>Click the current shortcut definition below the label <gui>Switch to
+       next source using</gui>.</p>
+      </item>
+      <item>
+       <p>When the shortcut definition has changed to <gui>New accelerator...</gui>,
+       press the keys you want to use as the new shortcut.</p>
+      </item>
+    </steps>
+  </section>
+
+  <section id="windows">
+    <title>Set input source for all windows or individually for each window</title>
+
+    <p>When you use multiple sources, you can choose to have all windows use the
+    same source or to set a different source for each window. Using a different
+    source for each window is useful, for example, if you're writing an article
+    in another language in a word processor window. Your input source selection will
+    be remembered for each window as you switch between windows.</p>
+
+    <p>By default, new windows will use the default input source. You can
+    instead choose to have them use the source of the window you were last
+    using.</p>
+  </section>
+
+</page>

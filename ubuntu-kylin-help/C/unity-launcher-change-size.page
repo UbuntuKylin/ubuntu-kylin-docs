@@ -1,0 +1,37 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="unity-launcher-change-size">
+  <info>
+    <link type="guide" xref="unity-launcher-intro#launcher-customizing" group="#last"/>
+
+    <revision version="13.10" date="2013-10-23" status="review"/>
+
+    <credit type="author">
+      <name>Ubuntu Documentation Team</name>
+    </credit>
+
+    <desc>Make the icons in the Launcher larger or smaller.</desc>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+  <title>Change the size of icons in the Launcher</title>
+
+  <p>You can make the Launcher icons smaller to allow more items to fit in the Launcher.
+  Or you might want to make the Launcher icons larger so they are easier to click.</p>
+
+  <steps>
+    <item>
+     <p>Click the icon at the very right of the menu bar and select
+     <gui>System Settings</gui>.</p>
+    </item>
+    <item>
+     <p>Click <gui>Appearance</gui>.</p>
+    </item>
+    <item>
+      <p>Move the <gui>Launcher icon size</gui> slider to increase or decrease the size of the
+      <gui>Launcher</gui> icons.</p>
+      <note><p>The default <gui>Launcher</gui> icon size is <em>48</em>.</p></note>
+    </item>
+  </steps>
+
+</page>

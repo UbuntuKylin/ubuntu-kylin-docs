@@ -1,0 +1,98 @@
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="accounts-add">
+
+  <info>
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email>jwcampbell@gmail.com</email>
+    </credit>
+
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+
+		<credit type="editor">
+      <name>Greg Beam</name>
+      <email>ki7mt@yahoo.com</email>
+    </credit>
+
+		<link type="guide" xref="accounts" />
+    <revision pkgversion="3.10.2" version="0.1" date="2014-01-08" status="review"/>
+		<revision version="14.04" date="2014-01-08" status="review"/>
+		<include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+		<desc>
+			Connect to online accounts
+		</desc>
+
+  </info>
+
+	<title>
+		Add an account
+	</title>
+
+  <p>
+    Adding an account will help link your online accounts with your Ubuntu 
+    desktop. Thus, your email, chat, and other related applications will be set
+		up for you.
+  </p>
+
+  <steps>
+		<item>
+			<p>Click the icon at the very right of the <gui>menu bar</gui> and select
+			<gui>System Settings</gui>.
+			</p>
+		</item>
+		<item>
+			<p>Select <gui>Online Accounts</gui>.
+			</p>
+		</item>
+    <item>
+	    <p>
+	      Select an <gui>Account Type</gui> from the right hand windowpane.
+      </p>
+			<note style="tip">
+		    <p>
+					If you want to configure more accounts, you can repeat this process
+					afterwards.
+		    </p>
+		  </note>
+    </item>
+    <item>
+      <p>
+        A small web user interface will open where you can enter your online
+				account credentials. For example, if you are setting up a Google
+				account, enter your Google username, password and sign in.
+      </p>
+    </item>
+    <item>
+      <p>
+        If you entered your credentials correctly, you will be prompted to 
+        accept the terms. Select <gui>Accept</gui> to continue.
+			
+				Once accepted, Ubuntu needs permission to access your account. To allow
+				access, click on the <gui>Grant Access</gui> button. When prompted,
+				enter the current users password.
+      </p>
+    </item>
+		<item>
+      <p>
+        Now you can select the applications you want linked to your online
+				account. For example, if you want to use an online account for chat,
+				but do not want the calendar, turn the <gui>calendar</gui> option off.
+      </p>
+    </item>
+  </steps>
+  <p>
+    After you have added the accounts, each application you have selected will
+		automatically use those credentials when you log into your account.
+  </p>
+  <note style="tip">
+    <p>
+      For security reasons, Ubuntu will not store your password on your 
+      computer. Instead, it stores a token that is provided by the online 
+      service. If you want to fully revoke the link between your desktop and the 
+      online service, <link xref="accounts-remove">remove</link> it.
+    </p>
+  </note>
+</page>

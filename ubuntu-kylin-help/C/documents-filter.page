@@ -1,0 +1,37 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="documents-filter">
+
+  <info>
+    <credit type="author copyright">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2012</years>
+    </credit>
+    <desc>
+      Choose which documents to display.
+    </desc>
+    <link type="guide" xref="documents#view"/>
+    <revision pkgversion="3.5.90" date="2012-09-05" status="review"/>
+    <revision version="13.10" date="2013-10-24" status="review"/>
+  </info>
+
+  <title>Filter documents</title>
+
+  <p>Click the <media type="image" src="figures/go-down.png">down</media> button
+   next to the <link xref="documents-search">search</link> bar to limit the
+   scope of the search in these categories:</p>
+
+  <list>
+    <item><p><em>Sources</em>: Local, Google, SkyDrive, or All.</p></item>
+    <item><p><em>Type</em>: Collections, PDF Documents, Presentations,
+     Spreadsheets, Text Documents, or All.</p></item>
+    <item><p>Title, Author, or All.</p></item>
+  </list>
+
+  <note style="tip"><p>In order for <gui>Google</gui> or <gui>SkyDrive</gui> to
+    appear in the filter list, it is necessary to configure Google or Windows
+    Live as an <link xref="accounts-add">online account</link>.</p>
+  </note>
+
+</page>

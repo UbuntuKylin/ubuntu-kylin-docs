@@ -1,0 +1,44 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="hardware-driver-proprietary">
+
+  <info>
+    <link type="guide" xref="hardware" group="more"/>
+    
+    <desc>Proprietary device drivers are not freely available or open source.</desc>
+    
+    <revision version="13.10" date="2013-09-12" status="review"/>
+
+    <credit type="author">
+      <name>Ubuntu Documentation Team</name>
+      <email>ubuntu-doc@lists.ubuntu.com</email>
+    </credit>
+    
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+<title>What are proprietary drivers?</title>
+
+  <p>Most of the devices (hardware) attached to your computer should function
+  properly in Ubuntu. These devices are likely to have open source drivers, which means
+  that the drivers can be modified by the Ubuntu developers and problems with
+  them can be fixed.</p>
+
+  <p>Some hardware does not have open source drivers, usually because the hardware
+  manufacturer has not released details of their hardware which would make it
+  possible to create such a driver. These devices may have limited functionality
+  or may not work at all.</p>
+
+  <p>If a proprietary driver is available for a certain device, you can install it
+  in order to allow your device to function properly, or to add new features. For
+  example, installing a proprietary driver for certain graphics cards may allow you
+  to use more advanced visual effects.</p>
+
+  <p>Many computers do not need proprietary drivers at all because the open source
+  drivers fully support the hardware.</p>
+
+  <note style="warning">
+    <p>Most problems with proprietary drivers cannot be fixed by Ubuntu developers.</p>
+  </note>
+
+</page>

@@ -1,0 +1,56 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="net-wireless-adhoc">
+  <info>
+    <link type="guide" xref="net-wireless"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="outdated"/>
+    <revision version="13.10" date="2013-10-23" status="outdated"/>
+
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+
+    <desc>Use an ad-hoc network to allow other devices to connect to your
+    computer and its network connections.</desc>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+<title>Create a wireless hotspot</title>
+
+<p>You can use your computer as a wireless hotspot. This allows other devices to
+connect to you without a separate network, and allows you to share an internet
+connection you've made with another interface, such as to a wired network or
+over the cellular network.</p>
+
+<comment>
+<cite date="2012-02-19">shaunm</cite>
+<p>Things I'm not sure about: Is this actually ad-hoc? It seems to use the
+same icon. What happens if you have multiple wireless adapters? Ought to be
+able to share wireless to wireless, I think, but I don't know what the UI
+looks like. Also, does any of this work? I couldn't successfully test.</p>
+<p>Also, looks like there's no page to set the device name. Make one, then
+link below where it says the name of the network is your device name.</p>
+</comment>
+
+<steps>
+  <item><p>Click the icon at the very right of the menu bar and select <gui>System Settings</gui>.</p></item>
+  <item><p>Open <gui>Network</gui> and select <gui>Wireless</gui> on the left.</p></item>
+  <item><p>Click the <gui>Use as Hotspot</gui> button.</p></item>
+  <item><p>If you are already connected to a wireless network, you will be asked
+  if you want to disconnect from that network. A single wireless adapter can only
+  connect to or create one network at a time. Click <gui>Create Hotspot</gui> to
+  confirm.</p></item>
+</steps>
+
+<p>A network name (SSID) and security key are automatically generated.
+The network name will be based on the name of your computer. Other devices
+will need this information to connect to the hotspot you've just created.</p>
+
+</page>

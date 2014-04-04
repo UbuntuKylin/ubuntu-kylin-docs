@@ -1,0 +1,59 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="guide" style="task"
+      id="screen-shot-record">
+
+  <info>
+
+    <link type="guide" xref="tips"/>
+    <link type="seealso" xref="shell-keyboard-shortcuts"/>
+
+    <desc>Take a picture of what's happening on your screen.</desc>
+    <revision pkgversion="3.6.1" version="0.2" date="2012-11-10" status="review"/>
+    <revision version="13.10" date="2013-09-19" status="review"/>
+
+    <credit type="author copyright">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="author copyright">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+      <years>2012</years>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+<title>Screenshots</title>
+
+<p>You can take a picture of your screen (a <em>screenshot</em>). This is useful if you want to show someone how to do something on the computer, for example. Screenshots are just normal picture files, so you can email them and share them on the web.</p>
+
+<section id="screenshot">
+ <title>Take a screenshot</title>
+ <p>To take a picture of what's on your screen:</p>
+<steps>
+<item><p>Go to the <gui>Dash</gui> and open the <app>Screenshot</app> tool.</p></item>
+
+<item>
+ <p>In the <app>Take Screenshot</app> window, select whether to grab the
+ entire desktop, a single window, or an area of the screen. Set a delay
+ if you need to select a window or otherwise set up your desktop for
+ the screenshot. Then choose any effects you want.</p>
+</item>
+
+<item>
+  <p>Click <gui>Take Screenshot</gui>.</p>
+  <p>If you selected <gui>Select area to grab</gui>, the pointer changes into
+  a crosshair. Click and drag the area you want for the screenshot.</p>
+</item>
+
+<item>
+  <p>In the <gui>Save Screenshot</gui> window, enter a file name and choose a
+  folder, then click <gui>Save</gui>.</p>
+</item>
+</steps>
+
+</section>
+
+</page>

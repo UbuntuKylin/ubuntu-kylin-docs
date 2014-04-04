@@ -1,0 +1,83 @@
+
+<page xmlns="http://projectmallard.org/1.0/"
+	xmlns:ui="http://projectmallard.org/ui/1.0/"
+      type="guide" style="task"
+      id="uk-calendar">
+
+  <info>
+
+    <link type="guide" xref="uk" group="calendar"/>
+    <title role="trail" type="link">中国农历</title>
+
+    <desc>
+      <!--这里规定引用本文件的位置显示在主标题之下的小标题-->	
+      基于中国传统历法的日历软件。
+    </desc>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="review"/>
+    <revision version="14.04" date="2014-4-1" status="review"/>
+    <credit type="author">
+      <name>Ubuntu Kylin 文档团队</name>
+      <email>luolei@ubuntukylin.com</email>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+<title>中国农历</title>
+
+  <p>
+    基于中国传统历法的日历软件，用户可以方便的查找中国传统节日和节气、查看宜忌信息，并且提供便签等便利功能。
+  </p>
+
+ <!--<list ui:expanded="false">-->
+ <list>
+ <title>软件界面</title>
+  <item>
+   <p><em>打开主界面</em>：单击桌面右上角的<app>中国农历</app>图标，通过<gui>显示/隐藏</gui>切换主界面显示。</p>
+  </item>
+
+  <item>
+   <p><em>切换日期</em>：在主界面顶部切换年月，可使用 &lt; 和 &gt; 切换年和月，或通过下拉菜单直接选择，然后在选定的月份选择日期，还可通过点击<gui>今日</gui>回到当天。</p>
+  </item>
+
+  <item>
+   <p><em>查看宜忌</em>：选择一个日期，在界面右下方查看当天的宜忌信息。</p>
+  </item>
+
+  <item>
+   <p><em>便签</em>：选择一个日期，在界面左下方可以看到当天是否有便签内容。双击该日期会弹出便签界面，可输入文字或点击<gui>清空计划</gui>清除输入的内容。</p>
+  </item>
+
+ </list>
+
+ <!--<list ui:expanded="false">-->
+ <list>
+ <title>托盘菜单</title>
+  <item>
+   <p><em>显示/隐藏</em>：单击可显示或隐藏软件主界面，呈现方式见<gui>显示模式</gui>。</p>
+  </item>
+
+  <item>
+   <p><em>开机启动</em>：勾选后会在每次启动系统时自动运行本软件。</p>
+  </item>
+
+  <item>
+   <p><em>显示模式</em>：<gui>总在最前</gui>表示主界面永远显示在所有窗口的最上方；<gui>总在最后</gui>表示主界面永远显示在其他窗口之下；<gui>普通模式</gui>表示主界面的显示方式和其他窗口一样由操作系统决定。</p>
+  </item>
+
+  <item>
+   <p><em>换肤</em>：切换已有的皮肤主题。</p>
+  </item>
+
+  <item>
+   <p><em>关于本软件</em>：介绍软件和开发者信息。</p>
+  </item>
+
+  <item>
+   <p><em>退出</em>：关闭软件。</p>
+  </item>
+
+ </list>
+
+</page>

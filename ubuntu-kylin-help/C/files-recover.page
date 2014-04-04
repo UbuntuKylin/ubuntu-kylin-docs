@@ -1,0 +1,45 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:if="http://projectmallard.org/if/1.0/"
+      type="topic" style="task"
+      id="files-recover">
+
+  <info>
+    <link type="guide" xref="files" group="more"/>
+    <link type="seealso" xref="files-lost" />
+    <desc>Deleted files are normally sent to the Trash, but can be recovered.
+    </desc>
+
+    <revision pkgversion="3.6.0" version="0.2" date="2012-09-28" status="review"/>
+    <revision version="13.10" date="2013-10-23" status="review"/>
+
+    <credit type="author">
+      <name>GNOME Documentation Project</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+  <title>Recover a file from the Trash</title>
+    <p>If you delete a file with the file manager, the file is normally placed
+    into the <gui>Trash</gui>, and should be able to be restored.</p>
+    <steps>
+      <title>To restore a file from the Trash:</title>
+        <item><p>Open the <gui>Launcher</gui> and then click the <app>Trash</app> shortcut which is 
+        located at the bottom of the Launcher.</p></item>
+        <item><p>If your deleted file is there, right-click on it and select <gui>
+        Restore</gui>. It will be restored to the folder it was deleted from. </p></item>
+    </steps>
+
+  <p>If you deleted the file by pressing <keyseq><key>Shift</key><key>Delete
+  </key></keyseq>, or by using the command line, the file has been permanently
+  deleted. Files that have been permanently deleted can't be recovered from the
+  <gui>Trash</gui>.</p>
+
+  <p>There are a number of recovery tools available that are sometimes able to
+  recover files that were permanently deleted. These tools are generally not
+  very easy to use, however. If you accidentally permanently deleted a file,
+  it's probably best to ask for advice on a support forum to see if you can
+  recover it.</p>
+
+</page>

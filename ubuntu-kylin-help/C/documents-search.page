@@ -1,0 +1,49 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="documents-search">
+
+  <info>
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email>yrazes@gmail.com</email>
+      <years>2012</years>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2012</years>
+    </credit>
+    <desc>
+      Find your documents by title or author.
+    </desc>
+    <link type="guide" xref="documents#view"/>
+    <revision pkgversion="3.5.90" date="2012-09-05" status="review"/>
+    <revision version="13.10" date="2013-10-24" status="review"/>
+  </info>
+
+  <title>Search for files</title>
+
+  <comment>
+    <cite date="2012-02-20" href="mailto:yrazes@gmail.com">Julita Inca</cite>
+    <p>By the end of this page, the reader will be able to find their documents.
+    This topic is about:
+       - How search works
+       - How you can manipulate search filters
+       - Shortcut keys for searching
+    </p>
+  </comment>
+
+  <p>To start a search in <app>Documents</app>:</p>
+
+  <list>
+   <item><p>Press <keyseq><key>Ctrl</key><key>F</key></keyseq>.</p></item>
+   <item><p>Click the magnifying glass icon.</p></item>
+   <item><p>Start typing. Documents will match by title or author.</p></item>
+  </list>
+
+  <note style="tip"><p>You can restrict or filter the search results by clicking
+   the <media type="image" src="figures/go-down.png">down</media> button and
+   selecting various <link xref="documents-filter">filters</link>.</p>
+  </note>
+
+</page>

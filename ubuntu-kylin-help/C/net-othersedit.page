@@ -1,0 +1,57 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="problem"
+      id="net-othersedit">
+  <info>
+    <link type="guide" xref="net-problem"/>
+    <link type="seealso" xref="user-admin-explain"/>
+
+    <revision pkgversion="3.7.1" version="0.2" date="2012-11-16" status="outdated"/>
+    <revision version="13.10" date="2013-09-15" status="review"/>
+
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+
+    <desc>You need to uncheck the <gui>Available to all users</gui> option in the network connection settings.</desc>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+<title>Other users can't edit the network connections</title>
+
+<comment>
+<cite date="2012-02-19">shaunm</cite>
+<p>I know there were polkit policy changes. Not sure if this is
+100% on the money for 3.2. Double-check when possible</p>
+</comment>
+
+<p>If you can edit a network connection but other users on your computer can't, you may have set the connection to be <gui>available to all users</gui>. This makes it so that everyone on the computer can <em>connect</em> using that connection, but only users <link xref="user-admin-explain">with administrative rights</link> are allowed to change its settings.</p>
+
+<p>The reason for this is that, since everyone is affected if the settings are changed, only highly-trusted (admin) users should be allowed to modify the connection.</p>
+
+<p>If other users really need to be able to change the connection themselves, make it so the connection is <em>not</em> set to be available to everyone on the computer. This way, everyone will be able to manage their own connection settings rather than relying on one set of shared, system-wide settings for the connection.</p>
+
+<steps>
+ <title>Make it so that the connection isn't shared any more</title>
+ <item>
+  <p>Click the <gui>network menu</gui> on the menu bar and click <gui>Edit Connections</gui>.</p>
+ </item>
+
+ <item>
+  <p>Find the connection you want everyone to be able to manage/edit themselves. Click to select it and then click <gui>Edit</gui>.</p>
+ </item>
+
+ <item>
+  <p>You will have to enter your admin password to change the connection. Only admin users can do this.</p>
+ </item>
+
+ <item>
+  <p>Uncheck <gui>Available to all users</gui> and click <gui>Save</gui>. Other users of the computer will now be able to manage the connection themselves.</p>
+ </item>
+</steps>
+
+</page>

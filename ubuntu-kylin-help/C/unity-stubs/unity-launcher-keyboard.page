@@ -1,0 +1,28 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="unity-launcher-keyboard">
+  <info>
+    <revision version="11.04" date="2011-04-20" status="stub"/>
+
+    <credit type="author">
+      <name>Ubuntu Documentation Team</name>
+    </credit>
+
+    <desc></desc>
+  </info>
+
+  <title>Launcher keyboard shortcuts</title>
+
+  <comment>
+    <p>How users can use the keyboard to launch apps from the Launcher.</p>
+  </comment>
+
+  <p>Short introductory text...</p>
+
+  <steps>
+    <item><p>First step...</p></item>
+    <item><p>Second step...</p></item>
+    <item><p>Third step...</p></item>
+  </steps>
+
+</page>

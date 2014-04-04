@@ -1,0 +1,51 @@
+ubuntu-kylin-docs
+=================
+
+This package is a fork of ubuntu-docs, which contains documents which 
+will be packaged together and shipped as ubuntu-kylin-docs in the 
+Ubuntu Kylin distribution.  They contain documents targetted for
+ end-users of Ubuntu Kylin as a desktop.
+
+The Ubuntu Kylin Documentation Project (UKDP) is responsible for this 
+documentation. Packages are maintained in bzr in the ubuntu-kylin-docs 
+Launchpad project and are uploaded periodically by the UKDP. Please do 
+not sponsor or upload new packages without consulting with the UKDP.
+
+Homepage: http://www.ubuntukylin.com
+Launchpad project: https://launchpad.net/ubuntu-kylin-docs
+Bzr: https://code.launchpad.net/ubuntu-kylin-docs
+
+ubuntu-docs
+===============
+
+This package contains documents which will be packaged together and
+shipped as ubuntu-docs in the Ubuntu distribution.  They contain
+documents targetted for end-users of Ubuntu as a desktop.
+
+The Ubuntu Documentation Project (UDP) is responsible for this documentation.
+Packages are maintained in bzr in the ubuntu-docs Launchpad project and are
+uploaded periodically by the UDP. Please do not sponsor or upload 
+new packages without consulting with the UDP.
+
+UDP homepage: https://wiki.ubuntu.com/DocumentationTeam
+UDP mailing list: http://lists.ubuntu.com/mailman/listinfo/ubuntu-docs
+Launchpad project: https://launchpad.net/ubuntu-docs
+Bzr: https://code.launchpad.net/ubuntu-docs
+
+Reporting Problems
+------------------
+
+If you find problems in the documentation, please report bugs in Launchpad.
+
+http://bugs.launchpad.net/ubuntu/+source/ubuntu-docs
+
+Helpful shell commands
+----------------------
+
+# Rename .po files from Launchpad export to remove the extra
+# "ubuntu-help-" prefix (you need to have perl installed for this one)
+
+find ./ -path '*/*.po' -exec rename 's/ubuntu-help-//' '{}' \;
+
+# Recursively find and replace a string
+find ./ -type f -exec sed -i 's/typo/fixed/g' {} \;

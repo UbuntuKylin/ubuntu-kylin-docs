@@ -1,0 +1,46 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="clock-more-info">
+
+  <info>
+    <link type="guide" xref="clock"/>
+    <desc>Choose to show additional information such as the date or day of the week.</desc>
+    <revision version="13.10" date="2013-09-07" status="review"/>
+
+    <credit type="author">
+      <name>Ubuntu Documentation Project</name>
+      <email>ubuntu-doc@lists.ubuntu.com</email>
+    </credit>
+    
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+<title>Change how much information is shown in the clock</title>
+
+<p>By default, Ubuntu only shows the time in the clock. You can set the clock to show
+additional information if you choose.</p>
+
+<p>Click on the clock and select <gui>Date &amp; Time Settings</gui>. Switch to the
+<gui>Clock</gui> tab. Select the time and date options you want to display.</p>
+
+<note><p>You can also turn the clock off entirely by unchecking <gui>Show a clock
+in the menu bar</gui>.</p>
+<p>If you later change your mind, you can get the clock back by clicking the icon in
+the very right of the menu bar and selecting <gui>System Settings</gui>. In the System
+section, click <gui>Time &amp; Date</gui>.</p></note>
+
+<section id="change-date-format">
+  <title>Change the date format</title>
+<p>You can also change the clock's date format to match the preferred standard for your location.</p>
+
+<steps>
+  <item><p>Click the icon at the very right of the menu bar and select <gui>System Settings</gui>.</p></item>
+  <item><p>In the Personal section, click <gui>Language Support</gui>.</p></item>
+  <item><p>Switch to the <gui>Regional Formats</gui> tab.</p></item>
+  <item><p>Select your preferred location in the dropdown list.</p></item>
+  <item><p>You will need to <link xref="shell-exit">log out</link> and log back in for this change to take effect.</p></item>
+</steps>
+
+</section>
+
+</page>

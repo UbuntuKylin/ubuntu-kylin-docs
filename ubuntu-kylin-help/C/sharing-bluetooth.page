@@ -1,0 +1,43 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="sharing-bluetooth">
+  <info>
+    <link type="guide" xref="bluetooth"/>
+
+    <desc>Bluetooth file sharing and receiving options.</desc>
+
+    <revision version="14.04" date="2014-03-06" status="review"/>
+
+    <credit type="author">
+      <name>Ubuntu Documentation Team</name>
+      <email>ubuntu-doc@lists.ubuntu.com</email>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+  <title>Control sharing over Bluetooth</title>
+
+  <p>You can allow access to your <file>Public</file> and
+  <file>Downloads</file> folders for Bluetooth file sharing, and also restrict
+  that access to only <em>trusted devices</em>. Configure
+  <gui>Personal File Sharing Preferences</gui> to control access to the shared folders on your
+  computer.</p>
+
+  <note style="info">
+    <p>A Bluetooth device is <em>trusted</em> if you have <em>paired</em>, or
+    connected your computer to it. See
+    <link xref="bluetooth-connect-device"/>.</p>
+  </note>
+
+  <steps>
+    <title>Share your <file>Public</file> folder over Bluetooth</title>
+    <item>
+      <p>In the <gui>Dash</gui>, open <app>Personal File Sharing</app>.</p>
+    </item>
+    <item>
+      <p>Select the desired Bluetooth file sharing and receiving options options from the list.</p>
+    </item>
+  </steps>
+
+</page>

@@ -1,0 +1,49 @@
+﻿<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="uk-dash-video">
+  <info>
+    <link type="guide" xref="uk-dash"/>
+    <link type="seealso" xref="unity-dash-intro#dash-lenses"/>
+
+    <desc>从本地或网站上查找并播放视频。</desc>
+
+    <revision version="14.04" date="2014-4-2" status="reviewed"/>
+
+    <credit type="author">
+      <name>Ubuntu Kylin 文档团队 </name>
+      <email>jingshi@ubuntukylin.com</email>
+    </credit>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+  <title>Dash 中文视频搜索</title>
+
+  <p><app>Dash 中文视频搜索</app>位于 <gui>Dash</gui> 面板第四个栏目，用一个电影胶片表示。通过 <app>Dash 中文视频搜索</app>，您可以使用中文轻松找到想看的本地或在线视频。</p>
+
+  <p>还可使用 <keyseq><key>Super</key><key>V</key></keyseq> 组合键直接打开视频搜索。</p>
+
+<section id="dash-apps-search">
+  <title>搜索</title>
+<steps>
+<item>
+  <p>打开 <gui>Dash</gui>，在搜索框内输入关键字，搜索结果将会显示在 <gui>Dash</gui> 面板上。</p></item>
+<item><p>搜索结果分为两类：一类为 <gui>在线</gui>；一类为 <gui>更多建议</gui>。</p></item>
+<item><p><gui>在线</gui> 中显示搜索到的视频，根据每个视频的标题可以快速的定位到您要查找的视频。</p></item>
+<item><p>点击 <gui>在线</gui> 右侧的 <gui>显示较少结果/显示另外*个结果</gui> 可以打开或收起搜索结果条目。</p></item>
+<item><p><gui>更多建议</gui> 中显示相关的视频。</p></item>
+</steps>
+</section>
+
+
+<section id="dash-apps-previews">
+  <title>预览</title>
+<steps>
+<item><p>在 <gui>Dash</gui> 面板上右键点击视频，可以预览视频的详细信息。</p></item>
+<item><p>在预览页面点击鼠标，返回到搜索页面。</p></item>
+<item><p>点击 <gui>&lt;</gui> 或 <gui>&gt;</gui> 可预览上一个和下一个视频。</p></item>
+<item><p>点击<gui>播放</gui>按钮，将链接到网站观看视频。</p></item>
+</steps>
+</section>
+
+
+</page>

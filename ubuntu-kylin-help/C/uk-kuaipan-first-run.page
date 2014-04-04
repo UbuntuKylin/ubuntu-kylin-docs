@@ -1,0 +1,54 @@
+﻿<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="uk-kuaipan-first-run">
+
+  <info>
+    <credit type="author">
+      <name>Ubuntu Kylin 文档团队</name>
+      <email>luolei@ubuntukylin.com</email>
+    </credit>
+    <desc>
+      第一次运行<app>金山快盘</app>时进行设置。
+    </desc>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+    <link type="guide" xref="uk-kuaipan" group="#first"/>
+    <revision version="14.04" date="2014-03-26" status="review"/>
+  </info>
+
+  <title>
+    首次运行金山快盘
+  </title>
+
+  <p>第一次运行<app>金山快盘</app>时，请按照以下步骤进行设置：</p>
+
+  <steps>
+
+     <item>
+      <p>使用 <link xref="net-wireless-connect">无线</link> 或 <link xref="net-wired-connect">有线</link> 连接到互联网。</p>
+    </item>
+
+    <item>
+      <p>单击<gui>启动器</gui>上的<app>金山快盘</app>图标，或在 <gui>Dash</gui> 中搜索<input>金山快盘</input>。</p>
+    </item>
+
+    <item>
+      <p>程序首次启动会进入登录界面，请按照提示输入用户名和密码登录快盘，如果您还没有快盘帐号，请单击<gui>新建用户</gui>进行注册。</p>
+    </item>
+
+    <item>
+      <p>登录成功后会进入<gui>设置向导</gui>，首先创建快盘同步文件夹，请单击<gui>浏览</gui>选择同步文件夹的路径，单击<gui>下一步</gui>继续运行向导。</p>
+    </item>
+
+    <item>
+      <p>然后选择要同步到本地的目录，默认为<gui>同步所有文件到此计算机</gui>，如果您不希望将云端的所有文件同步到本地，请单击<gui>选择部分文件同步到此计算机</gui>，在弹出窗口 <link xref="uk-kuaipan-selective-sync#selective">选择要同步的文件夹</link>。</p>
+    </item>
+
+    <item>
+      <p>最后单击<gui>完成</gui>开始使用快盘，应用程序会在<app>文件浏览器</app>中打开同步文件夹并自动开始同步。如需修改设置，请单击<gui>上一步</gui>回到前一个页面。</p>
+    </item> 
+  </steps>
+  <note> 
+    <p>如果您是通过代理连接互联网，请在登录界面单击<gui>代理设置</gui>，在弹出窗口 <link xref="uk-kuaipan-proxy">设置代理服务器信息</link>。</p>
+  </note>
+
+</page>

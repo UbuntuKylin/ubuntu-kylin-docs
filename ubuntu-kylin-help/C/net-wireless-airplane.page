@@ -1,0 +1,34 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="net-wireless-airplane">
+  <info>
+    <link type="guide" xref="net-wireless"/>
+    <link type="seealso" xref="bluetooth-turn-on-off"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-20" status="final"/>
+    <revision version="13.10" date="2013-09-15" status="review"/>
+
+    <credit type="author">
+      <name>GNOME Documentation Project</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+
+    <credit type="author">
+      <name>Ubuntu Documentation Team</name>
+    </credit>
+
+    <desc>Click the network menu on the menu bar and uncheck Enable Wireless.</desc>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+<title>Turn off wireless (airplane mode)</title>
+
+<p>If you have your computer on an airplane (or some other area where wireless connections are not allowed), you should switch off your wireless. You may also want to switch off your wireless for other reasons (to save battery power, for example). To do this:</p>
+
+<p>To do this, click the <gui>network menu</gui> on the menu bar and uncheck <gui>Enable Wireless</gui>. This will turn off your wireless connection until you switch it back on again.</p>
+
+<p>To turn wireless back on, click the <gui>network menu</gui> on the menu bar and select <gui>Enable Wireless</gui> so that it has a checkmark in front of it.</p>
+
+<note style="tip"><p>Your laptop may still be broadcasting if you have not turned off <link xref="bluetooth-turn-on-off">Bluetooth</link>.</p></note>
+
+</page>

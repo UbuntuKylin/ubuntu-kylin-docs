@@ -1,0 +1,36 @@
+<page xmlns="http://projectmallard.org/1.0/" type="guide" style="task" id="accounts">
+
+  <info>
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+
+		<credit type="editor">
+      <name>Greg Beam</name>
+      <email>ki7mt@yahoo.com</email>
+    </credit>
+
+    <link type="guide" xref="prefs"/>
+    <revision pkgversion="3.10.2" version="0.1" date="2014-01-08" status="review"/>
+		<revision version="14.04" date="2014-01-08" status="review"/>
+		<include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+		<desc>
+	    <link xref="accounts-add">Add accounts, </link>
+	    <link xref="accounts-remove">Remove accounts, </link>
+	    <link xref="accounts-disable-service">Disable services</link>
+		</desc>
+  </info>
+
+  <title>
+    Online accounts
+  </title>
+
+  <p>
+    You can enter your login details for online services, such as Google and 
+    Facebook, into the <app>Online Accounts</app> application. This will let you 
+    access your calendar, mail, chat accounts, and similar applications without
+		having to enter your account details again.
+  </p>
+</page>

@@ -1,0 +1,61 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="guide" style="task"
+      id="uk-kuaipan">
+
+  <info>
+
+    <link type="guide" xref="uk" group="kuaipan"/>
+    <title role="trail" type="link">金山快盘</title>
+
+    <desc>
+      <!--这里规定引用本文件的位置显示在主标题之下的小标题-->	
+      <link xref="uk-kuaipan-first-run">设置向导</link>，
+      <link xref="uk-kuaipan-view">查看</link>，
+      <link xref="uk-kuaipan-pause">暂停 &amp; 恢复</link>…
+    </desc>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="review"/>
+    <revision version="14.04" date="2014-03-26" status="review"/>
+    <credit type="author">
+      <name>Ubuntu Kylin 文档团队</name>
+      <email>luolei@ubuntukylin.com</email>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+<title>金山快盘</title>
+
+  <p>
+    <app>金山快盘</app>是 Ubuntu Kylin 团队与金山云公司合作，共同开发的金山快盘 Linux 客户端，具备文件同步、备份和共享功能，能够为您提供安全可控、跨平台的一站式文件管理体验。
+  </p>
+  <p>
+    <app>金山快盘</app>可免费使用，但默认情况下没有包含在 Ubuntu Kylin 发行版中，请 <link href="apt:kuaipan4uk">安装</link> 以开始使用。
+  </p>
+
+<links type="topic" style="1column"/>
+
+<section id="sync" style="2column">
+ <title>快盘同步控制</title>
+</section>
+
+<section id="preference" style="2column">
+ <title>快盘功能选项</title>
+</section>
+
+<section id="others" style="1column">
+  <list>
+    <title>其他资源</title>
+
+    <item><p>
+      关于<app>金山快盘</app>的更多信息请参考 <app><link href="http://www.ubuntukylin.com/upload/file/Kuaipan%20for%20Ubuntu%20Kylin-guide-1.0.pdf">帮助手册</link></app>。
+    </p></item>
+
+    <item>
+      <p>如果您对软件本身有任何建议，请在 <app><link href="http://www.ubuntukylin.com/ukylin/forum.php?mod=viewthread&amp;tid=4360&amp;highlight=%BF%EC%C5%CC">讨论专区</link></app> 提出。</p>
+    </item>
+
+  </list>
+</section>
+
+</page>
