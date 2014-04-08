@@ -5,12 +5,16 @@
   <info>
 
     <!--<link type="guide" xref="uk" group="assistant"/>-->
-    <title role="trail" type="link">金山快盘</title>
+    <link type="guide" xref="uk" group="assistant"/>
+    <title role="trail" type="link">优客助手</title>
 
     <desc>	
-      <link xref="uk-kuaipan-first-run">设置向导</link>，
-      <link xref="uk-kuaipan-view">查看</link>，
-      <link xref="uk-kuaipan-pause">暂停 &amp; 恢复</link>…
+      <link xref="uk-youker-home">首页</link>，
+      <link xref="uk-youker-info">系统信息</link>，
+      <link xref="uk-youker-clean">系统清理</link>，     
+      <link xref="uk-youker-personalize">系统美化</link>，     
+      <link xref="uk-youker-tool">功能大全</link>，
+      <link xref="uk-youker-ball">监控球</link>…
     </desc>
 
     <revision pkgversion="3.4.0" date="2012-02-19" status="review"/>
@@ -26,12 +30,14 @@
 <title>优客助手</title>
 
   <p>
-    <app>优客助手</app>是专为 Ubuntu/Ubuntu Kylin 用户打造的系统级管理与配置工具，可以查看系统的详细硬件信息、清理系统中残留的垃圾以及配置个性化的系统，另外<gui>功能大全</gui>中还包含一些实用小工具。
+    <app>优客助手</app> 是专为 Ubuntu/Ubuntu Kylin 用户打造的“系统级管理与配置工具”。基于 Qt/QML、Python 实现，可以查看系统的详细硬件信息、清理系统中残留的垃圾以及配置个性化的系统。让您的桌面更加流畅、易用而富有个性。
   </p>
+<p><app>优客助手</app> 默认集成在Ubuntu Kylin系统中，如果被卸载，请点击 <link href="apt:youker-assistant">安装</link> 以开始使用。 </p>
 
 <links type="topic" style="1column"/>
 
-<section id="main" style="2column">
+<!--
+<section id="home" style="2column">
  <title>首页</title>
 </section>
 
@@ -52,22 +58,22 @@
 </section>
 
 <section id="ball" style="2column">
- <title>加速球</title>
+ <title>监控球</title>
 </section>
-
+-->
 <section id="help" style="2column">
   <list>
     <title>帮助与反馈</title>
 
     <item><p>
-      当您在使用过程中遇到困难时，可以点击<app>优客助手</app>首页右下角的<gui>论坛求助</gui>，获得优客们的帮助。</p></item>
+      当您在使用过程中遇到困难时，可以点击 <app>优客助手</app> 首页右下角的 <gui>论坛求助</gui>，获得优客们的帮助。</p></item>
 
     <item>
-      <p>如果您对软件本身有任何建议，可以点击首页右下角的<gui>问题反馈</gui>。</p>
+      <p>如果您对软件本身有任何建议，可以点击首页右下角的 <gui>问题反馈</gui>。</p>
     </item>
 
     <item>
-      <p>还可通过点击首页右下角的<gui>新版本特性</gui>查看当前版本所更新的内容。</p>
+      <p>还可通过点击首页右下角的 <gui>新版本特性</gui> 查看当前版本所更新的内容。</p>
     </item>
 
   </list>

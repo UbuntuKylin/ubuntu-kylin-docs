@@ -1,0 +1,60 @@
+<page xmlns="http://projectmallard.org/1.0/"
+	xmlns:ui="http://projectmallard.org/ui/1.0/"
+      type="guide" style="task"
+      id="uk-youker-clean">
+
+  <info>
+
+    <link type="guide" xref="uk-youker-assistant"/>
+    <title role="trail" type="link">系统清理</title>
+
+    <desc>
+        针对性的对系统垃圾进行清理，让系统运行更有效率。
+    </desc>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="review"/>
+    <revision version="14.04" date="2014-4-1" status="review"/>
+    <credit type="author">
+      <name>Ubuntu Kylin 文档团队</name>
+      <email>jingshi@ubuntukylin.com</email>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+<title>系统清理 </title>
+    <p>不同于 <gui>首页</gui> 的 <gui>一键清理</gui>，<gui>系统清理</gui> 提供更为详尽的清理方式，可以有针对性的对系统垃圾进行清理，帮助您节约磁盘空间，让系统运行更有效率。</p>
+
+
+<!--<section id="panel" style="1column">-->
+ <!--<list ui:expanded="false">-->
+ <list>
+  <item>
+   <p><em>缓存清理</em>：清理系统中的缓存文件。点击 <gui>开始扫描</gui> 按钮之后，程序会根据勾选的选项扫描缓存文件，并以列表的形式展示扫描结果，请点击 <gui>开始清理</gui> 删除选中的缓存文件。其中 <gui>包缓存</gui> 是在安装软件时下载至本地的软件包；<gui>软件中心缓存</gui> 是 <app>软件中心</app> 为加快启动速度缓存在本地的图片文件；<gui>缩略图缓存</gui> 是查看图片后产生的文件。 </p>
+  </item>
+
+  <item>
+   <p><em>包卸载</em>：清理不再需要但仍然残留在系统中的依赖包。点击 <gui>开始扫描</gui> 按钮之后，程序会根据勾选的选项扫描软件包，并以列表的形式展示扫描结果。点击 <gui>开始清理</gui> 会弹出密码框，输入密码之后程序会自动卸载选中的软件包。 </p>
+  </item>
+
+  <item>
+   <p><em>Cookies 清理</em>：清理 Cookies。点击 <gui>开始扫描</gui> 按钮之后，程序会根据勾选的选项扫描 Cookies，并以列表的形式展示扫描结果。点击 <gui>开始清理</gui> 删除选中的 Cookies。 </p>
+  </item>
+
+  <item>
+   <p><em>浏览器清理</em>：清理浏览器缓冲。点击 <gui>开始扫描</gui> 按钮之后，程序会根据勾选的选项扫描浏览器产生的垃圾文件，并以列表的形式展示扫描结果。点击 <gui>开始清理</gui> 删除选中的文件或目录。</p>
+  </item>
+
+  <item>
+   <p><em>痕迹清理</em>：清理系统使用痕迹。点击 <gui>开始扫描</gui> 按钮之后，程序会显示您所有的访问记录总数，点击 <gui>开始清理</gui> 按钮清空历史记录。</p>
+  </item>
+
+  <item>
+   <p><em>查找大文件</em>：查找并清理系统中的大文件。按 <gui>浏览</gui> 按钮选择要扫描的目录，并指定文件大小，程序会在所选目录搜索大于该值的文件，并按照从大到小的顺序列出。请根据需要选择要清理的大文件。</p>
+  </item>
+
+ </list>
+
+
+
+</page>

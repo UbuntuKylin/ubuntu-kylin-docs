@@ -336,6 +336,12 @@ HELP_FILES = \
 	uk-wps-spreadsheets.page \
 	uk-wps-writer.page \
 	uk-youker-assistant.page \
+	uk-youker-ball.page \
+	uk-youker-clean.page \
+	uk-youker-home.page \
+	uk-youker-info.page \
+	uk-youker-personalize.page \
+	uk-youker-tool.page \
 	unity-dash-apps.page \
 	unity-dash-files.page \
 	unity-dash-friends.page \

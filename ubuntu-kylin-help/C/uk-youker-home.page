@@ -1,0 +1,58 @@
+<page xmlns="http://projectmallard.org/1.0/"
+	xmlns:ui="http://projectmallard.org/ui/1.0/"
+      type="guide" style="task"
+      id="uk-youker-home">
+
+  <info>
+
+    <link type="guide" xref="uk-youker-assistant"/>
+    <title role="trail" type="link">首页</title>
+
+    <desc>
+      一键清理系统垃圾、帮助您节省磁盘空间，让系统运行更有效率。
+    </desc>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="review"/>
+    <revision version="14.04" date="2014-4-1" status="review"/>
+    <credit type="author">
+      <name>Ubuntu Kylin 文档团队</name>
+      <email>jingshi@ubuntukylin.com</email>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+<title>优客助手首页 </title>
+<p>一键清理、登录、天气预报、常用配置工具等信息。 </p>
+
+
+<!--<section id="panel" style="1column">-->
+ <!--<list ui:expanded="false">-->
+ <list>
+  <item>
+   <p><em>一键清理 </em>：清理系统垃圾的便捷方式。通过勾选或者取消勾选来选择需要清理的选项，默认情况下是全部勾选的。<gui>一键清理</gui> 功能需要管理员权限，点击 时会弹出管理员密码输入框，输入正确后密码之后将进行清理操作。 </p>
+  </item>
+
+  <item>
+   <p><em>登录帐号</em>：如果您已经拥有 Ubuntu Kylin 论坛的帐号，可以直接使用该帐号进行登录，否则需要进行注册。登录后保持在线可以获得积分，不同积分对应不同的等级，另外执行每日任务可以额外增加积分。 </p>
+  </item>
+
+  <item>
+   <p><em>天气预报</em>：展示当前的天气、温度、湿度以及风速等信息。
+   <gui>更换城市</gui> 可以切换列表中的城市，如需添加城市请点击 <gui>配置</gui>。
+    <gui>预报</gui> 中提供了未来六天的天气情况。
+    <gui>配置</gui> 页面可以更改更新周期、添加/删除城市或查看数据来源。
+    点击 <gui>更新</gui> 按钮可强制更新天气信息。</p>
+  </item>
+
+  <item>
+   <p><em>常用配置工具</em>：列出了一些经常用到的工具，更多信息见 <link xref="uk-youker-personalize">系统美化</link>。</p>
+  </item>
+
+
+
+ </list>
+
+
+
+</page>

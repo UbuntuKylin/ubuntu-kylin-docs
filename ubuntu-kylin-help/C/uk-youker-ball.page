@@ -1,0 +1,38 @@
+<page xmlns="http://projectmallard.org/1.0/"
+	xmlns:ui="http://projectmallard.org/ui/1.0/"
+      type="guide" style="task"
+      id="uk-youker-ball">
+
+  <info>
+
+    <link type="guide" xref="uk-youker-assistant"/>
+    <title role="trail" type="link">监控球</title>
+
+    <desc>
+      实时监控系统内存和 CPU 使用情况。
+    </desc>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="review"/>
+    <revision version="14.04" date="2014-4-1" status="review"/>
+    <credit type="author">
+      <name>Ubuntu Kylin 文档团队</name>
+      <email>jingshi@ubuntukylin.com</email>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+<title>监控球</title>
+  <p>实时监控系统内存以及 CPU 使用情况，分为缩略显示界面和详细显示界面。</p>
+
+ <list>
+  <item>
+   <p>打开 <app>优客助手</app> 之后，<app>监控球</app> 将以缩略界面显示在桌面右上方，包括上传速度、下载速度和内存占用率等信息。 </p>
+  </item>
+
+  <item>
+   <p>双击 <app>监控球</app> 缩略界面将打开详细界面，有 <gui>一键加速</gui> 和 <gui>详细</gui> 按钮。点击 <gui>一键加速</gui> 按钮将清理内存空间；点击 <gui>详细</gui> 按钮将显示 CPU 占有率、内存占有率等信息。再次双击 <app>监控球</app> 缩略界面关闭详细信息。 </p>
+  </item>
+ </list>
+
+</page>

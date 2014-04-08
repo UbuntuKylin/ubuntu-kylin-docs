@@ -8,10 +8,10 @@ ubuntu-kylin-docs (14.04.1) trusty; urgency=low
     - Add an introduction of Ubuntu Kylin.
     - Change "Ubuntu" to "Ubuntu Kylin" or "Ubuntu/Ubuntu Kylin".
   * whats-new.page
-    - Add some feature of Ubuntu Kylin.
+    - Add some Ubuntu Kylin features.
   * Makefile.am
-    - Add uk*.page
-    - Delete all language except zh_CN.
+    - Add uk*.page to the source list.
+    - Delete all languages except zh_CN.
 
  -- Lei Luo <luolei@ubuntukylin.com>  Thu, 3 Apr 2014 20:26:00 +0800
     

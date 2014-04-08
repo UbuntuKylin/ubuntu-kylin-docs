@@ -1,0 +1,92 @@
+<page xmlns="http://projectmallard.org/1.0/"
+	xmlns:ui="http://projectmallard.org/ui/1.0/"
+      type="guide" style="task"
+      id="uk-youker-info">
+
+  <info>
+
+    <link type="guide" xref="uk-youker-assistant"/>
+    <title role="trail" type="link">系统信息 </title>
+
+    <desc>
+     展示计算机硬件、桌面和用户信息。
+    </desc>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="review"/>
+    <revision version="14.04" date="2014-4-1" status="review"/>
+    <credit type="author">
+      <name>Ubuntu Kylin 文档团队</name>
+      <email>jingshi@ubuntukylin.com</email>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+<title>系统信息</title>
+<p><gui>系统信息</gui> 向您展示当前计算机的详细硬件、桌面及用户信息。</p>
+
+ <list>
+  <item>
+   <p><em>电脑基本信息</em>：主要包括制造商、电脑型号、电脑版本、序列号、主机名、持续运行时间、操作系统类型、操作系统版本、系统位数、内核版本、内核架构等信息。 </p>
+  </item>
+
+  <item>
+   <p><em>桌面信息</em>：主要包括桌面环境、发行版、语言、当前用户、用户主目录等信息。 </p>
+  </item>
+
+  <item>
+   <p><em>处理器信息</em>：主要包括处理器、制造商、序列号、插座/插槽、最大主频、当前主频、前端总线、核心数目、一级缓存、二级缓存等信息。 </p>
+  </item>
+
+  <item>
+   <p><em>内存条信息</em>：主要包括插槽号、内存型号、制造商、序列号、内存大小、数据宽度、内存条等信息。</p>
+  </item>
+
+  <item>
+   <p><em>硬盘信息</em>：主要包括主板型号、主板产商、序列号、BIOS 产商、BIOS 版本、发布日期等信息。</p>
+  </item>
+
+  <item>
+   <p><em>硬盘信息</em>：主要包括硬盘型号、硬盘厂商、硬盘容量、设备名称、固件版本、序列号等信息。</p>
+  </item>
+
+  <item>
+   <p><em>有线网卡信息 </em>：主要包括制造商、有线网卡驱动、总线地址、设备名称、IP 地址、MAC 地址、连接状态、最大带宽等信息。</p>
+  </item>
+
+  <item>
+   <p><em>无线网卡信息</em>：主要包括网卡型号、制造商、无线网卡驱动、总线地址等信息。</p>
+  </item>
+
+  <item>
+   <p><em>显卡信息</em>：主要包括显卡型号、当前显卡、显卡制造商、显卡驱动、总线地址等信息。</p>
+  </item>
+
+  <item>
+   <p><em>音频信息 </em>：主要包括声卡型号、制造商、总线地址、声卡驱动等信息。</p>
+  </item>
+
+  <item>
+   <p><em>设备驱动信息 </em>：主要包括 VGA 兼容控制器、通信控制器、以太网控制器、USB 控制器、声卡型号、PCI 桥、USB 控制器、ISA 桥、SATA 控制器、系统管理总线、信号处理控制器、网络控制器、主桥等信息。</p>
+  </item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ </list>
+
+
+
+</page>
