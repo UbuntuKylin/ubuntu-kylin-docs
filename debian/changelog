@@ -1,4 +1,4 @@
-ubuntu-kylin-docs (14.04.2) trusty; urgency=low
+ubuntu-kylin-docs (14.04.1) trusty; urgency=low
 
   * Initial release containing Ubuntu Kylin features.
   * Collect Ubuntu Kylin screenshots to "ubuntu-kylin-help/zh_CN/figures".
