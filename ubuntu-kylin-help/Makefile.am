@@ -286,7 +286,6 @@ HELP_FILES = \
 	sharing.page \
 	sharing-bluetooth.page \
 	sharing-desktop.page \
-	sharing-remote-login.page \
 	shell-apps-favorites.page \
 	shell-exit.page \
 	shell-guest-session.page \

@@ -4,19 +4,19 @@ Upstream-Contact: Ubuntu Kylin Documentation Team <luolei@ubuntukylin.com>
 Source: https://launchpad.net/ubuntu-kylin-docs
 Copyright: (C) 2014 The Ubuntu Kylin Documentation Team
 
-Files: debian/* ubuntu-help/C/check*.sh
+Files: debian/* ubuntu-kylin-help/C/check*.sh
 Copyright: (C) 2014 The Ubuntu Kylin Documentation Team
 License: GPL-3+
 
-Files: ubuntu-help/*/*.page ubuntu-help/*/figures/*
+Files: ubuntu-kylin-help/*/*.page ubuntu-help/*/figures/*
 Copyright: (C) 2014 The Ubuntu Kylin Documentation Team
 License: CC-BY-SA-3.0
 
-Files: debian/* ubuntu-help/C/check*.sh
+Files: debian/* ubuntu-kylin-help/C/check*.sh
 Copyright: (C) 2004-2013 The Ubuntu Documentation Team
 License: GPL-3+
 
-Files: ubuntu-help/*/*.page ubuntu-help/*/figures/*
+Files: ubuntu-kylin-help/*/*.page except uk*.page ubuntu-help/*/figures/*
 Copyright: (C) 2004-2013 The Ubuntu Documentation Team
 License: CC-BY-SA-3.0
 

@@ -7,11 +7,10 @@
 
     <desc>
       <link xref="sharing-desktop">Desktop sharing</link>,
-      <link xref="files-share">Share files</link>,
-      <link xref="sharing-remote-login">remote login</link>…
+      <link xref="files-share">Share files</link>…
     </desc>
 
-    <revision version="14.04" date="2014-03-06" status="review"/>
+    <revision version="14.04" date="2014-04-03" status="review"/>
 
     <credit type="author">
       <name>Ekaterina Gerasimova</name>

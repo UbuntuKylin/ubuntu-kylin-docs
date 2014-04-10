@@ -9,7 +9,7 @@
     <desc>Online results make the Dash more useful and help fund Ubuntu 
     development.</desc>
 
-    <revision version="14.04" date="2014-03-20" status="review"/>
+    <revision version="14.04" date="2014-04-03" status="review"/>
     <credit type="author">
       <name>Jeremy Bicha</name>
       <email>jbicha@ubuntu.com</email>
@@ -26,8 +26,7 @@
 
 <p>In addition to helping you find apps or files on your computer, the 
 <gui>Dash</gui> also shows you related online results for your searches. 
-Online sources include Amazon.com and the Ubuntu One Music Store and more 
-online sources will be added.</p>
+Online sources include Amazon.com and dozens of other online sources.</p>
 
 <p>When you purchase music or products from these sources, Canonical 
 receives a small portion of the profits in exchange for directing more 

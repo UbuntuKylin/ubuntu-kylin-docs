@@ -73,12 +73,6 @@
   <title>List of status menus and what they do</title>
 
     <item>
-      <p><em>Bluetooth menu</em> <media type="image" mime="image/svg" src="/usr/share/icons/ubuntu-mono-light/status/24/bluetooth-active.svg">Bluetooth icon</media></p>
-      <p>Send or receive files by <link xref="bluetooth">Bluetooth</link>. This menu
-        is hidden if a supported Bluetooth device isn't detected.</p>
-    </item>
-
-    <item>
       <p><em>Network menu</em> <media type="image" mime="image/svg" src="/usr/share/icons/ubuntu-mono-light/status/24/network-offline.svg">Offline network icon</media></p>
       <p>Connect to <link xref="net-wired-connect">wired</link>, <link xref="net-wireless-connect">wireless</link>,
         <link xref="net-mobile">mobile</link>, and <link xref="net-vpn-connect">VPN</link> networks.</p>
@@ -87,6 +81,12 @@
     <item>
       <p><em>Input source menu</em> <media type="image" mime="image/svg" src="/usr/share/icons/ubuntu-mono-light/status/22/indicator-keyboard-En.svg">Input source icon</media></p>
       <p>Select keyboard layout/input source, <link xref="keyboard-layouts">configure input sources</link>.</p>
+    </item>
+
+    <item>
+      <p><em>Bluetooth menu</em> <media type="image" mime="image/svg" src="/usr/share/icons/ubuntu-mono-light/status/24/bluetooth-active.svg">Bluetooth icon</media></p>
+      <p>Send or receive files by <link xref="bluetooth">Bluetooth</link>. This menu
+        is hidden if a supported Bluetooth device isn't detected.</p>
     </item>
 
     <item>

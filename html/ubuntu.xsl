@@ -99,6 +99,11 @@ kbd {
     <xsl:value-of select="$color.gray_border_actually"/><xsl:text>;
 }
 
+/* insert some space above the links groups on the front page */
+div.links-grid-link {
+    margin: 0.8em 0 0 0;
+}
+
 a img, :link img, :visited img {
     border: 0;
 }

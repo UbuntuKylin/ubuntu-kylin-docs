@@ -1,4 +1,5 @@
 ﻿<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
       type="topic" style="task"
       id="addremove-sources">
 
@@ -67,7 +68,7 @@
         similar to:
       </p>
       <p>
-        <code>deb http://archive.ubuntu.com/ubuntu/ saucy main</code>
+        <code its:translate="no">deb http://archive.ubuntu.com/ubuntu/ trusty main</code>
       </p>
     </item>
     <item>
@@ -99,7 +100,7 @@
       <gui>Add</gui> and enter:
     </p>
     <p>
-      <code>deb http://archive.canonical.com/ubuntu saucy partner</code>
+      <code its:translate="no">deb http://archive.canonical.com/ubuntu trusty partner</code>
     </p>
     <p>
       Click <gui>Add Source</gui> then close the Software Sources window. Wait a 

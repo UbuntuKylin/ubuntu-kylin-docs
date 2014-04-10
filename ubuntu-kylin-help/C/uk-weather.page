@@ -27,9 +27,8 @@
   <app>天气预报</app>提供来自中国气象局的天气预报信息，为用户日常起居和旅行提供参考。    
   </p>
   <p>
-    软件已预装在 Ubuntu Kylin 系统中，如果被卸载，您可以重新<link href="apt:indicator-china-weather">安装</link>。
+    软件已预装在 Ubuntu Kylin 系统中，如果被卸载，您可以重新 <link href="apt:indicator-china-weather">安装</link>。
   </p>
-
 <links type="topic" style="2column"/>
 
 <section id="foreast" style="1column">

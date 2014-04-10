@@ -8,7 +8,7 @@
     to use.</desc>
     <title type="sort">c</title>
     <revision pkgversion="3.4.0" date="2012-02-19" status="review"/>
-    <revision version="13.10" date="2013-09-07" status="review"/>
+    <revision version="14.04" date="2014-04-03" status="review"/>
 
     <credit type="author">
       <name>GNOME Documentation Project</name>
@@ -55,8 +55,7 @@
     </item>
     <item>
      <p>Online backup service (<link href = "http://aws.amazon.com/s3/">Amazon 
-     S3</link> or <link href="https://one.ubuntu.com/">Ubuntu One</link>, for 
-     example; capacity depends on price)</p>
+     S3</link>, for example; capacity depends on price)</p>
     </item>
    </list>
 
