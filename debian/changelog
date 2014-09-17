@@ -1,3 +1,9 @@
+ubuntu-kylin-docs (14.10.1) utopic; urgency=low
+
+  * Update to Ubuntu Kylin 14.10
+
+ -- Lei Luo <luolei@ubuntukylin.com>  Thu, 17 Sep 2014 10:41:22 +0800
+
 ubuntu-kylin-docs (14.04.3) trusty; urgency=low
   
   * Add "Replaces" field in debian control file to automatically remove
