@@ -2,7 +2,7 @@ ubuntu-kylin-docs (14.10.1) utopic; urgency=low
 
   * Update to Ubuntu Kylin 14.10
 
- -- Lei Luo <luolei@ubuntukylin.com>  Thu, 17 Sep 2014 10:41:22 +0800
+ -- Luo Lei <luolei@ubuntukylin.com>  Thu, 18 Sep 2014 16:06:18 +0800
 
 ubuntu-kylin-docs (14.04.3) trusty; urgency=low
   
@@ -11,7 +11,7 @@ ubuntu-kylin-docs (14.04.3) trusty; urgency=low
   * Merge ubuntu-docs changes.
   * Update zh_CN tranlation.
 
- -- Lei Luo <luolei@ubuntukylin.com>  Thu, 10 Apr 2014 14:58:12 +0800
+ -- Luo Lei <luolei@ubuntukylin.com>  Thu, 10 Apr 2014 14:58:12 +0800
 
 ubuntu-kylin-docs (14.04.2) trusty; urgency=low
 
@@ -20,7 +20,7 @@ ubuntu-kylin-docs (14.04.2) trusty; urgency=low
   * Replace "html/img/favicon.ico, footer_logo.png, logo.png, 
     logo-ubuntu-header.png" by Ubuntu Kylin ones.
 
- -- Lei Luo <luolei@ubuntukylin.com>  Wed, 9 Apr 2014 09:41:03 +0800
+ -- Luo Lei <luolei@ubuntukylin.com>  Wed, 9 Apr 2014 09:41:03 +0800
 
 ubuntu-kylin-docs (14.04.1) trusty; urgency=low
 
@@ -37,5 +37,5 @@ ubuntu-kylin-docs (14.04.1) trusty; urgency=low
     - Add uk*.page to the source list.
     - Delete all languages except zh_CN.
 
- -- Lei Luo <luolei@ubuntukylin.com>  Thu, 3 Apr 2014 20:26:00 +0800
+ -- Luo Lei <luolei@ubuntukylin.com>  Thu, 3 Apr 2014 20:26:00 +0800
  
