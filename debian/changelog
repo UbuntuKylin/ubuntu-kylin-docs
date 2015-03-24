@@ -1,3 +1,9 @@
+ubuntu-kylin-docs (15.04.1) vivid; urgency=low
+
+  * Update to Ubuntu Kylin 15.04
+
+ -- Luo Lei <luolei@ubuntukylin.com>  Tue, 24 Mar 2015 15:53:12 +0800
+
 ubuntu-kylin-docs (14.10.1) utopic; urgency=low
 
   * Update to Ubuntu Kylin 14.10

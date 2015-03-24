@@ -8,7 +8,7 @@
 
     <desc>Improvements in the latest version of Ubuntu.</desc>
 
-    <revision version="14.04" date="2014-03-20" status="review"/>
+    <revision version="15.04" date="2015-03-23" status="review"/>
     <credit type="author">
       <name>Jeremy Bicha</name>
       <email>jbicha@ubuntu.com</email>
@@ -21,9 +21,9 @@
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
   </info>
 
-  <title>Ubuntu Kylin 14.10 有哪些新特性？</title>
+  <title>Ubuntu Kylin 15.04 有哪些新特性？</title>
 
-<p>Ubuntu Kylin 是基于 Ubuntu 的中文开源操作系统，底层基于 Linux 和 X/Mir，上层共享 Ubuntu 众多特性，并针对中文用户需求，在 SDK、UI 以及生态应用软件等各方面进行增强。以下是 Ubuntu Kylin 14.10 的一些新特性：
+<p>Ubuntu Kylin 是基于 Ubuntu 的中文开源操作系统，底层基于 Linux 和 X/Mir，上层共享 Ubuntu 众多特性，并针对中文用户需求，在 SDK、UI 以及生态应用软件等各方面进行增强。以下是 Ubuntu Kylin 15.04 的一些新特性：
 </p>
 
 <section id="new-features">
@@ -32,7 +32,7 @@
 <list>
 
   <item><p>
-    基于天河二号云平台建立 Ubuntu Kylin 软件仓库；并针对 14.10 发布了 Ubuntu Kylin 软件中心，界面简洁，同时支持 Ubuntu 和 Ubuntu Kylin 软件仓库，便于快速安装 Ubuntu Kylin 团队为您定制的中文特色软件。
+    基于天河二号云平台建立 Ubuntu Kylin 软件仓库；并针对 15.04 完善了 Ubuntu Kylin 软件中心，界面简洁，同时支持 Ubuntu 和 Ubuntu Kylin 软件仓库，便于快速安装 Ubuntu Kylin 团队为您定制的中文特色软件。
   </p></item>
 
   <item><p>
@@ -44,7 +44,7 @@
   </p></item>
 
   <item><p>
-    更开创了 <link href="http://www.ubuntukylin.com/Community/">Ubuntu Kylin 社区</link>，通过“最美中国”壁纸征集、Ubuntu SDK 全球系统公开课中国区活动、发布派对、在线知识库平台、积分商场等线上线下社区互动，以活动促进开源文化推广、促进开源技术交流。Ubuntu Kylin 社区随时欢迎您的参与，时刻准备着为您提供帮助。
+    更开创了 <link href="http://www.ubuntukylin.com/Community/">Ubuntu Kylin 社区</link>，通过在线知识库平台、积分商场、发布派对等线上线下社区互动，以活动促进开源文化推广、促进开源技术交流。Ubuntu Kylin 社区随时欢迎您的参与，时刻准备着为您提供帮助。
   </p></item>
 
   <item><p>The menus of the currently focused application are by default available
