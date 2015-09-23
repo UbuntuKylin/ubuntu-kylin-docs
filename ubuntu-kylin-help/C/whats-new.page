@@ -8,7 +8,7 @@
 
     <desc>Improvements in the latest version of Ubuntu.</desc>
 
-    <revision version="15.04" date="2015-03-23" status="review"/>
+    <revision version="15.10" date="2015-09-18" status="review"/>
     <credit type="author">
       <name>Jeremy Bicha</name>
       <email>jbicha@ubuntu.com</email>
@@ -21,9 +21,9 @@
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
   </info>
 
-  <title>Ubuntu Kylin 15.04 有哪些新特性？</title>
+  <title>Ubuntu Kylin 15.10 有哪些新特性？</title>
 
-<p>Ubuntu Kylin 是基于 Ubuntu 的中文开源操作系统，底层基于 Linux 和 X/Mir，上层共享 Ubuntu 众多特性，并针对中文用户需求，在 SDK、UI 以及生态应用软件等各方面进行增强。以下是 Ubuntu Kylin 15.04 的一些新特性：
+<p>Ubuntu Kylin 是基于 Ubuntu 的中文开源操作系统，底层基于 Linux 和 X/Mir，上层共享 Ubuntu 众多特性，并针对中文用户需求，在 SDK、UI 以及生态应用软件等各方面进行增强。以下是 Ubuntu Kylin 15.10 的一些新特性：
 </p>
 
 <section id="new-features">
@@ -32,7 +32,7 @@
 <list>
 
   <item><p>
-    基于天河二号云平台建立 Ubuntu Kylin 软件仓库；并针对 15.04 完善了 Ubuntu Kylin 软件中心，界面简洁，同时支持 Ubuntu 和 Ubuntu Kylin 软件仓库，便于快速安装 Ubuntu Kylin 团队为您定制的中文特色软件。
+    基于天河二号云平台建立 Ubuntu Kylin 软件仓库；并针对 15.10 完善了 Ubuntu Kylin 软件中心，界面简洁，同时支持 Ubuntu 和 Ubuntu Kylin 软件仓库，便于快速安装 Ubuntu Kylin 团队为您定制的中文特色软件。
   </p></item>
 
   <item><p>
