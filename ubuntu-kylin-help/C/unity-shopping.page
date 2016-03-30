@@ -25,7 +25,7 @@
   <title>Why are there shopping links in the Dash?</title>
 
 <p>In addition to helping you find apps or files on your computer, the 
-<gui>Dash</gui> also shows you related online results for your searches. 
+<gui>Dash</gui> can also show you related online results for your searches. 
 Online sources include Amazon.com and dozens of other online sources.</p>
 
 <p>When you purchase music or products from these sources, Canonical 
@@ -34,23 +34,22 @@ business to these stores. Canonical, the company that created and
 continues to support the Ubuntu project, then uses this money to make 
 Ubuntu better.</p>
 
-<section id="disable-shopping">
-  <title>Turn off online search results</title>
+<p>By default, the inclusion of online search results is turned off.</p>
 
-  <p>If you don't want to receive online search suggestions, you can 
-  disable this feature.</p>
+<section id="enable-shopping">
+  <title>Turn on online search results</title>
+
+  <p>If you want to receive online search suggestions, you can 
+  enable this feature through the <gui>Security &amp; Privacy</gui> system setting.</p>
 
 <steps>
 
-  <item><p>Click the icon at the far right of the <gui>menu bar</gui> and 
+  <item><p>Click the <gui>system menu</gui> at the far right of the <gui>menu bar</gui> and 
   select <gui>System Settings</gui>.</p></item>
 
   <item><p>Open <gui>Security &amp; Privacy</gui> and select the <gui>Search</gui> tab.</p></item>
 
-  <item><p>Switch off <gui>Include online search results</gui>.</p></item>
-
-  <item><p><link xref="shell-exit">Log out</link> and log back in for the 
-  change to take effect.</p></item>
+  <item><p>Switch on <gui>Include online search results</gui>.</p></item>
 
 
 </steps>

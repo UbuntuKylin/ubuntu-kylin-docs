@@ -41,12 +41,12 @@
     especially valuable on small screens like netbooks.
   </p>
 
-  <p>If you want, you can change the default behavior, and have your menus attached
-    to the window title bar of respective application instead of the menu bar.</p>
+  <p>If you want, you can change the default behavior to having your menus attached
+    to the window title bar of respective application instead of the menu bar, and setting the visibility to always displayed instead of only displayed on mouse hovering. </p>
 
   <steps>
     <item>
-      <p>Click the icon at the very right of the menu bar and select
+      <p>Click the <gui>system menu</gui> at the very right of the <gui>menu bar</gui> and select
         <gui>System Settings</gui>.</p>
     </item>
     <item>
@@ -55,6 +55,9 @@
     </item>
     <item>
       <p>Under <gui>Show the menus for a window</gui>, select <gui>In the window's title bar</gui>.</p>
+    </item>
+    <item>
+      <p>Under <gui>Menus visibility</gui>, select <gui>Always displayed</gui>.</p>
     </item>
   </steps>
 
@@ -73,48 +76,48 @@
   <title>List of status menus and what they do</title>
 
     <item>
-      <p><em>Network menu</em> <media type="image" mime="image/svg" src="/usr/share/icons/ubuntu-mono-light/status/24/network-offline.svg">Offline network icon</media></p>
+      <p><em>Network menu</em> <media type="image" mime="image/svg" src="figures/network-offline.svg">Offline network icon</media></p>
       <p>Connect to <link xref="net-wired-connect">wired</link>, <link xref="net-wireless-connect">wireless</link>,
         <link xref="net-mobile">mobile</link>, and <link xref="net-vpn-connect">VPN</link> networks.</p>
     </item>
 
     <item>
-      <p><em>Input source menu</em> <media type="image" mime="image/svg" src="/usr/share/icons/ubuntu-mono-light/status/22/indicator-keyboard-En.svg">Input source icon</media></p>
+      <p><em>Input source menu</em> <media type="image" mime="image/svg" src="figures/indicator-keyboard-En.svg">Input source icon</media></p>
       <p>Select keyboard layout/input source, <link xref="keyboard-layouts">configure input sources</link>.</p>
     </item>
 
     <item>
-      <p><em>Bluetooth menu</em> <media type="image" mime="image/svg" src="/usr/share/icons/ubuntu-mono-light/status/24/bluetooth-active.svg">Bluetooth icon</media></p>
+      <p><em>Bluetooth menu</em> <media type="image" mime="image/svg" src="figures/bluetooth-active.svg">Bluetooth icon</media></p>
       <p>Send or receive files by <link xref="bluetooth">Bluetooth</link>. This menu
         is hidden if a supported Bluetooth device isn't detected.</p>
     </item>
 
     <item>
-      <p><em>Messaging menu</em> <media type="image" mime="image/svg" src="/usr/share/icons/ubuntu-mono-light/status/24/indicator-messages.svg">Message icon</media></p>
+      <p><em>Messaging menu</em> <media type="image" mime="image/svg" src="figures/indicator-messages.svg">Message icon</media></p>
       <p>Easily launch and receive incoming notifications from messaging applications
          including email, social networking, and Internet chat.</p>
     </item>
 
     <item>
-      <p><em>Battery menu</em> <media type="image" mime="image/svg" src="/usr/share/icons/ubuntu-mono-light/status/24/battery-100.svg">Battery icon</media></p>
+      <p><em>Battery menu</em> <media type="image" mime="image/svg" src="figures/battery-100.svg">Battery icon</media></p>
       <p>Check your laptop battery's charging status. This menu is
        hidden if a battery isn't detected.</p>
     </item>
 
     <item>
-      <p><em>Sound menu</em> <media type="image" mime="image/svg" src="/usr/share/icons/ubuntu-mono-light/status/24/audio-volume-high-panel.svg">Volume icon</media></p>
+      <p><em>Sound menu</em> <media type="image" mime="image/svg" src="figures/audio-volume-high-panel.svg">Volume icon</media></p>
       <p>Set the <link xref="sound-volume">volume</link>, configure sound <link xref="media">settings</link>,
         and control media players like <app>Rhythmbox</app>.</p>
     </item>
 
     <item>
       <p><em>Clock</em></p>
-      <p>Access the current time and date. Appointments from your
-        <link xref="clock-calendar">Evolution calendar</link> can also display here.</p>
+      <p>Access the current time and date. Appointments from the built in
+        <link xref="clock-calendar">Calendar application</link> can also display here.</p>
     </item>
 
     <item>
-      <p><em>System menu</em> <media type="image" mime="image/svg" src="/usr/share/icons/ubuntu-mono-light/status/22/system-devices-panel.svg">Power cog icon</media></p>
+      <p><em>System menu</em> <media type="image" mime="image/svg" src="figures/system-devices-panel.svg">Power cog icon</media></p>
       <p>Access details about your computer, this help guide, and <link xref="prefs">system settings</link>.
         Switch users, lock screen, log out, suspend, restart or shutdown your computer.</p>
       <note><p>Some of the icons used by the indicator menus change according to the status of the application.</p></note>

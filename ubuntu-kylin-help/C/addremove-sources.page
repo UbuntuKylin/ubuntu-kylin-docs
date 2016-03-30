@@ -13,7 +13,7 @@
     </desc>
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
     <link type="guide" xref="addremove"/>
-    <revision version="13.10" date="2013-10-25" status="review"/>
+    <revision version="16.04" date="2016-03-13" status="review"/>
   </info>
 
   <title>
@@ -44,15 +44,14 @@
     </title>
     <item>
       <p>
-        Click on the <app>Ubuntu Software Center</app> icon in the Launcher, or 
-        search for Ubuntu Software Center in the search bar of the 
+        Click on the <app>Software</app> icon in the Launcher, or 
+        search for <input>Software</input> in the search bar of the 
         <app>Dash</app>.
       </p>
     </item>
     <item>
       <p>
-        When the Software Center launches, click <guiseq><gui>Edit</gui>
-        <gui>Software Sources</gui></guiseq>
+        When <app>Software</app> launches, click <gui>Software &amp; Updates</gui>
       </p>
     </item>
     <item>
@@ -68,13 +67,13 @@
         similar to:
       </p>
       <p>
-        <code its:translate="no">deb http://archive.ubuntu.com/ubuntu/ trusty main</code>
+        <code its:translate="no">deb http://archive.ubuntu.com/ubuntu/ xenial main</code>
       </p>
     </item>
     <item>
       <p>
-        Click <gui>Add Source</gui> then close the Software Sources window. 
-        Ubuntu Software Center will then check your software sources for new 
+        Click <gui>Add Source</gui> then close the <app>Software &amp; Updates</app> window. 
+        <app>Software</app> will then check your software sources for new 
         updates.
       </p>
     </item>
@@ -88,23 +87,23 @@
       The Canonical Partner repository offers some proprietary applications 
       that don't cost any money to use but are closed source. They include 
       software like <app>Skype</app>, <app>Adobe Reader</app> and <app>Adobe 
-      Flash Plugin</app>. Software in this repository will appear in Ubuntu 
-      Software Center search results but won't be installable until this 
+      Flash Plugin</app>. Software in this repository will appear in
+      <app>Software</app> search results but won't be installable until this 
       repository is enabled.
     </p>
     <p>
       To enable the repository, follow the steps above to open the <gui>Other 
-      Software</gui> tab in <app>Software Sources</app>. If you see the 
+      Software</gui> tab in <app>Software &amp; Updates</app>. If you see the 
       <gui>Canonical Partners</gui> repository in the list, make sure it is 
-      checked then close the Software Sources window. If you don't see it, click 
+      checked then close the <app>Software &amp; Updates</app> window. If you don't see it, click 
       <gui>Add</gui> and enter:
     </p>
     <p>
-      <code its:translate="no">deb http://archive.canonical.com/ubuntu trusty partner</code>
+      <code its:translate="no">deb http://archive.canonical.com/ubuntu xenial partner</code>
     </p>
     <p>
-      Click <gui>Add Source</gui> then close the Software Sources window. Wait a 
-      moment for Ubuntu Software Center to download the repository information.
+      Click <gui>Add Source</gui> then close the <app>Software &amp; Updates</app> window. Wait a 
+      moment for <app>Software</app> to download the repository information.
     </p>
   </section>
 

@@ -16,7 +16,7 @@
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
   </info>
 
-  <title>Find apps, files, music, and more with the Dash</title>
+  <title>Find applications, files, music, and more with the Dash</title>
 
   <media type="image" src="figures/unity-dash-sample.png" style="floatend floatright">
     <p>Unity Search</p>
@@ -38,7 +38,7 @@
   <title>Search everything from the Dash home</title>
 
   <p>The first thing you'll see when opening the Dash is the Dash Home. Without typing
-    or clicking anything, the Dash Home will show you apps and files you've used recently.</p>
+    or clicking anything, the Dash Home will show you applications and files you've used recently.</p>
   <p>Only one row of results will show for each type. If there are more results, you can
     click <gui>See more results</gui> to view them.</p>
 

@@ -9,13 +9,13 @@
 
 <xsl:param name="mal.if.platform" select="'platform:unity'"/>
 
-<xsl:param name="color.gray_background" select="'#f7f6f5'"/>
+<xsl:param name="color.gray_background" select="'#f2f2f2'"/>
 <xsl:param name="color.gray_border" select="'#ccc1c1'"/>
-<xsl:param name="color.blue_background" select="'#f7f6f5'"/>
+<xsl:param name="color.blue_background" select="'#f2f2f2'"/>
 <xsl:param name="color.blue_border" select="'#ccc1c1'"/>
-<xsl:param name="color.yellow_background" select="'#f7f6f5'"/>
+<xsl:param name="color.yellow_background" select="'#f2f2f2'"/>
 <xsl:param name="color.yellow_border" select="'#ccc1c1'"/>
-<xsl:param name="color.red_background" select="'#f7f6f5'"/>
+<xsl:param name="color.red_background" select="'#f2f2f2'"/>
 <xsl:param name="color.red_border" select="'#ccc1c1'"/>
 
 <xsl:param name="color.text" select="'#333333'"/>
@@ -134,7 +134,7 @@ body {
 }
 
 #search-box {
-    margin-left: 650px;
+    margin-left: 660px;
     -moz-border-radius: 0px 0px 4px 4px;
     -webkit-border-bottom-left-radius: 4px;
     -webkit-border-bottom-right-radius: 4px;
@@ -681,94 +681,88 @@ input, select {
 
       <xsl:apply-templates mode="html.body.attr.mode" select="$node"/>
       <script src="https://ssl.google-analytics.com/urchin.js"
-      type="text/javascript"></script>
+        type="text/javascript">
+      </script>
       <script type="text/javascript">
-      _uacct = "UA-1018242-8";
-      urchinTracker();
+        _uacct = "UA-1018242-8";
+        urchinTracker();
       </script>
 
-
-    <div id="leftbanner">
-    </div>
-    <div id="rightbanner">
-    </div>
-    <div id="container">
+      <div id="container">
         <div id="container-inner">
-	    <div id="mothership">
-		<ul>
-	            <li><a href="http://www.ubuntu.com/partners">Partners</a> </li>
-        	    <li><a href="http://www.ubuntu.com/support">Support</a></li>
-        	    <li><a href="http://www.ubuntu.com/community">Community</a></li>
-        	    <li><a href="http://www.ubuntu.com">Ubuntu.com</a></li>
-	        </ul>
-	    </div>
-            <div id="header">
-                <h1 id="ubuntu-header"><a href="https://help.ubuntu.com/">Ubuntu Documentation</a></h1>
-                <ul id="main-menu">
-                    <li><a class="main-menu-item current" href="https://help.ubuntu.com/">Official Documentation</a></li>
-                    <li><a href="https://help.ubuntu.com/community">Community Help Wiki</a></li>
-                </ul>
-            </div>
-            <div id="menu-search">
-                <div id="subheader"> 
-                    <div class="subheader-menu"> 
-                    </div> 
-                </div>
-                <div id="search-box">
-		<noscript>
-		<form action="https://www.google.com/cse" id="cse-search-box">
-		    <div>
-		     <input type="hidden" name="cx" value="003883529982892832976:e2vwumte3fq" />
- 		    <input type="hidden" name="ie" value="UTF-8" />
- 		    <input type="text" name="q" size="21" />
- 		    <input type="submit" name="sa" value="Search" />
- 		    </div>
-		</form>
-		</noscript>
+          <div id="mothership">
+            <ul>
+              <li><a href="http://www.ubuntu.com/partners">Partners</a> </li>
+              <li><a href="http://www.ubuntu.com/support">Support</a></li>
+              <li><a href="http://www.ubuntu.com/community">Community</a></li>
+              <li><a href="http://www.ubuntu.com">Ubuntu.com</a></li>
+            </ul>
+          </div>
+          <div id="header">
+            <h1 id="ubuntu-header"><a href="https://help.ubuntu.com/">Ubuntu Documentation</a></h1>
+            <ul id="main-menu">
+              <li><a class="main-menu-item current" href="../../">Official Documentation</a></li>
+              <li><a href="https://help.ubuntu.com/community/CommunityHelpWiki">Community Help Wiki</a></li>
+              <li><a href="http://community.ubuntu.com/contribute/documentation/">Contribute</a></li>
+            </ul>
+          </div>
+          <div id="menu-search">
+            <div id="search-box">
+              <noscript>
+                <form action="https://www.google.com/cse" id="cse-search-box">
+                  <div>
+                    <input type="hidden" name="cx" value="003883529982892832976:e2vwumte3fq" />
+                    <input type="hidden" name="ie" value="UTF-8" />
+                    <input type="text" name="q" size="21" />
+                    <input type="submit" name="sa" value="Search" />
+                  </div>
+                </form>
+              </noscript>
 
-		<script>
-		 document.write('<form action="https://help.ubuntu.com/search.html" id="cse-search-box">');
-		 document.write('  <div>');
-		 document.write('    <input type="hidden" name="cof" value="FORID:9" />');
-		 document.write('    <input type="hidden" name="cx" value="003883529982892832976:e2vwumte3fq" />');
-		 document.write('    <input type="hidden" name="ie" value="UTF-8" />');
-		 document.write('    <input type="text" name="q" size="21" />');
-		 document.write('    <input type="submit" name="sa" value="Search" />');
-		 document.write('  </div>');
-		 document.write('</form>');
-		</script>
-		</div>
+              <script>
+                document.write('<form action="../../search.html" id="cse-search-box">');
+                document.write('  <div>');
+                document.write('    <input type="hidden" name="cof" value="FORID:9" />');
+                document.write('    <input type="hidden" name="cx" value="003883529982892832976:e2vwumte3fq" />');
+                document.write('    <input type="hidden" name="ie" value="UTF-8" />');
+                document.write('    <input type="text" name="q" size="21" />');
+                document.write('    <input type="submit" name="sa" value="Search" />');
+                document.write('  </div>');
+                document.write('</form>');
+              </script>
             </div>
-        <xsl:apply-templates mode="html.header.mode" select="$node"/>
-        <div id="cwt-content" class="clearfix content-area">
-	    <div id="page">
-	        <div id="content">
-		    <xsl:apply-templates mode="html.body.mode" select="$node"/>
-		</div>
-		<div id="pagebottom">
-		</div>
-	    </div>
+          </div>
+          <xsl:apply-templates mode="html.header.mode" select="$node"/>
+          <div id="cwt-content" class="clearfix content-area">
+            <div id="page">
+              <div id="content">
+                <xsl:apply-templates mode="html.body.mode" select="$node"/>
+              </div>
+              <div id="pagebottom">
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
-    <div id="footer">
-	<p>The material in this document is available under a free license, see <a href="/legal.html">Legal</a> for details<br /> For information on contributing see the <a href="https://wiki.ubuntu.com/DocumentationTeam">Ubuntu Documentation Team wiki page</a>. To report errors in this documentation, <a href="https://bugs.launchpad.net/ubuntu/+source/ubuntu-docs">file a bug</a>.</p>
-	<p>关于 Ubuntu Kylin 相关文档的缺陷请提交到 <a href="https://bugs.launchpad.net/ubuntu/+source/ubuntu-docs">Ubuntu Kylin 主页</a>。</p>
-    </div>
-    </div>
+        <div id="footer">
+          <p>The material in this document is available under a free license, see <a href="../../legal.html">Legal</a> for details.<br />
+          For information on contributing see the <a href="https://wiki.ubuntu.com/DocumentationTeam">Ubuntu Documentation Team wiki page</a>.
+          To report errors in this documentation, <a href="https://bugs.launchpad.net/ubuntu/+source/ubuntu-docs">file a bug</a>.</p>
+          <p>关于 Ubuntu Kylin 相关文档的缺陷请提交到 <a href="https://bugs.launchpad.net/ubuntu/+source/ubuntu-docs">Ubuntu Kylin 主页</a>。</p>
+        </div>
+      </div>
 
   <!-- IE6 hacks -->
   <!--[if IE 6 ]>
           <script src="js/pngFix.js"></script>
           <script> DD_belatedPNG.fix('.png'); </script>
   <![endif]-->
-</body>
-</html>
-
+    </body>
+  </html>
 </xsl:template>
 
 <xsl:template name="mal2html.page.linktrails.trail.prefix">
   <xsl:param name="node" select="."/>
-  <a href="https://help.ubuntu.com/14.04" class="trail">Ubuntu 14.04</a>
+  <span style="color: #333">Ubuntu Kylin 16.04</span>
   <xsl:variable name="direction">
     <xsl:call-template name="l10n.direction"/>
   </xsl:variable>

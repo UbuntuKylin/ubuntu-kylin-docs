@@ -10,7 +10,7 @@
     <desc>Workspaces are a way of grouping windows on your desktop.</desc>
 
     <revision pkgversion="3.4.0" date="2012-02-19" status="review"/>
-    <revision version="13.10" date="2013-10-23" status="outdated"/>
+    <revision version="14.10" date="2014-09-14" status="review"/>
     <credit type="author">
       <name>GNOME Documentation Project</name>
       <email>gnome-doc-list@gnome.org</email>
@@ -35,7 +35,20 @@
  workspace, and the work you are doing on a different workspace. Your music
  manager could be on a third workspace.</p>
 
- <p>Open the <link xref="unity-launcher-intro">Launcher</link> and click the <gui>workspace switcher</gui> icon near the bottom. By default, Ubuntu shows 4 workspaces, arranged in 2 rows and 2 columns. You can change the number of workspaces:</p>
+  <steps>
+    <title>Enable workspaces</title>
+    <item>
+      <p>Click the icon at the very right of the menu bar and select <gui>System Settings</gui>.</p>
+    </item>
+    <item>
+      <p>In the Personal section, click <gui>Appearance</gui> and select the <gui>Behavior</gui> tab.</p>
+    </item>
+    <item>
+      <p>Tick the <gui>Enable workspaces</gui> checkbox.</p>
+    </item>
+  </steps>
+
+ <p>Now you can open the <link xref="unity-launcher-intro">Launcher</link> and click the <gui>workspace switcher</gui> icon near the bottom. By default, Ubuntu shows 4 workspaces, arranged in 2 rows and 2 columns. You can change the number of workspaces:</p>
 
 <steps>
   <title>Change the number of workspaces</title>

@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-user-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2014-04-08 08:15+0000\n"
-"PO-Revision-Date: 2014-04-10 09:44+0800\n"
+"POT-Creation-Date: 2016-03-18 23:26+0100\n"
+"PO-Revision-Date: 2016-03-30 11:11+0800\n"
 "Last-Translator: Luo Lei <luolei@ubuntukylin.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-04-10 01:16+0000\n"
+"X-Launchpad-Export-Date: 2016-03-22 12:50+0000\n"
 "X-Generator: Poedit 1.5.4\n"
 "Language: new\n"
 "X-Poedit-Bookmarks: -1,-1,-1,-1,-1,-1,-1,-1,-1,3154\n"
@@ -29,11 +29,12 @@ msgstr "此作品以<_:link-1/> 许可协议发布"
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
-"Launchpad Contributions:\n"
+" Launchpad Contributions:\n"
 "  Aron Xu https://launchpad.net/~happyaron\n"
 "  Carlos Gong https://launchpad.net/~bfsugxy\n"
-"  Dingyuan Wang https://launchpad.net/~abcdoyle888\n"
+"  Dingyuan Wang https://launchpad.net/~gumblex\n"
 "  Doug Smythies https://launchpad.net/~dsmythies\n"
+"  Edwin Wang https://launchpad.net/~edwin-wang\n"
 "  Gunnar Hjalmarsson https://launchpad.net/~gunnarhj\n"
 "  Luo Lei https://launchpad.net/~luolei\n"
 "  TeliuTe https://launchpad.net/~teliute\n"
@@ -195,7 +196,7 @@ msgstr ""
 #: C/mouse-touchpad-click.page:98 C/net-default-browser.page:29
 #: C/net-default-email.page:29 C/net-findip.page:34 C/power-closelid.page:52
 #: C/power-whydim.page:35 C/session-formats.page:37
-#: C/session-screenlocks.page:36 C/unity-launcher-change-autohide.page:24
+#: C/session-screenlocks.page:36
 msgid ""
 "Click the icon at the very right of the <gui>menu bar</gui> and select "
 "<gui>System Settings</gui>."
@@ -282,7 +283,7 @@ msgstr "打开<gui>辅助功能</gui>，选择<gui>视觉</gui>标签。"
 #. (itstool) path: item/p
 #: C/a11y-contrast.page:51
 msgid "Switch <gui>High Contrast</gui> to <gui>ON</gui>."
-msgstr "将 <gui>High Contrast</gui> 切换到<gui>开启</gui>状态。"
+msgstr "将 <gui>高对比度</gui> 切换到<gui>开启</gui>状态。"
 
 #. (itstool) path: info/desc
 #: C/a11y-dwellclick.page:18
@@ -329,7 +330,7 @@ msgstr "在菜单栏上点击自己的名字，然后选择 <gui>系统设置</g
 msgid ""
 "Open <gui>Universal Access</gui> and select the <gui>Pointing and Clicking</"
 "gui> tab."
-msgstr "打开<gui>通用辅助功能</gui>并选择<gui>指向和单击</gui>选项卡。"
+msgstr "打开<gui>通用辅助功能</gui>并选择<gui>指向和单击</gui>标签页。"
 
 #. (itstool) path: item/p
 #: C/a11y-dwellclick.page:68
@@ -559,7 +560,7 @@ msgid ""
 "change the <gui>Acceptance delay</gui> under <gui>Simulated Secondary Click</"
 "gui>."
 msgstr ""
-"您可以修改按住鼠标左键来完成一次右击的时间：在 <gui>指向与点击</gui>选项卡，"
+"您可以修改按住鼠标左键来完成一次右击的时间：在 <gui>指向与点击</gui>标签页，"
 "修改<gui>模拟次要点击</gui>下方的<gui>延迟时间</gui>。"
 
 #. (itstool) path: page/p
@@ -827,7 +828,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/a11y-visualalert.page:50
 msgid "Open <gui>Universal Access</gui> and select the <gui>Hearing</gui> tab."
-msgstr "打开<gui>通用辅助功能</gui>并选择<gui>指向和单击</gui>选项卡。"
+msgstr "打开<gui>通用辅助功能</gui>并选择<gui>指向和单击</gui>标签页。"
 
 #. (itstool) path: item/p
 #: C/a11y-visualalert.page:55
@@ -884,27 +885,29 @@ msgstr "GNOME 文档项目"
 #: C/about-this-guide.page:12 C/addremove-install-synaptic.page:7
 #: C/addremove-install.page:7 C/addremove-ppa.page:7 C/addremove-remove.page:7
 #: C/addremove-sources.page:8 C/addremove.page:11 C/app-cheese.page:7
-#: C/display-dual-monitors.page:11 C/documents.page:12 C/files-browse.page:32
-#: C/files.page:14 C/hardware-driver-proprietary.page:13 C/keyboard.page:23
+#: C/bluetooth-turn-on-off.page:23 C/display-dual-monitors.page:11
+#: C/documents.page:12 C/files-browse.page:32 C/files.page:14
+#: C/hardware-driver-proprietary.page:13 C/keyboard.page:23
 #: C/keyboard-layouts.page:30 C/keyboard-nav.page:16
 #: C/nautilus-display.page:22 C/net-antivirus.page:19
 #: C/net-chat-empathy.page:11 C/net-chat-skype.page:11
 #: C/net-chat-social.page:10 C/net-chat-video.page:10
 #: C/net-install-java-plugin.page:10 C/net-mobile.page:10
 #: C/net-wireless-airplane.page:17 C/net-wireless-hidden.page:17
-#: C/prefs-language.page:18 C/report-ubuntu-bug.page:12
-#: C/session-formats.page:22 C/session-language.page:30 C/sharing.page:20
-#: C/sharing-bluetooth.page:12 C/sharing-desktop.page:15
+#: C/numeric-keypad.page:14 C/prefs-language.page:18
+#: C/report-ubuntu-bug.page:12 C/session-formats.page:22
+#: C/session-language.page:30 C/sharing.page:20 C/sharing-bluetooth.page:12
+#: C/sharing-desktop.page:15 C/startup-applications.page:14
 #: C/tips-specialchars.page:20 C/unity-launcher-change-size.page:10
 #: C/unity-launcher-intro.page:13 C/unity-menubar-intro.page:15
-#: C/unity-shopping.page:18 C/whats-new.page:17 C/windows-key.page:14
+#: C/unity-shopping.page:18 C/windows-key.page:14
 msgid "Ubuntu Documentation Team"
-msgstr "Ubuntu 文档团队"
+msgstr "Ubuntu 文档团队 & Ubuntu Kylin 文档团队"
 
 #. (itstool) path: info/desc
 #: C/about-this-guide.page:14
 msgid "A few tips on using the Ubuntu Desktop Guide."
-msgstr "使用 Ubuntu 桌面指南的几个技巧。"
+msgstr "使用 Ubuntu/Ubuntu Kylin 桌面指南的几个技巧。"
 
 #. (itstool) path: page/title
 #: C/about-this-guide.page:23
@@ -918,8 +921,8 @@ msgid ""
 "computer-related questions, and provides tips on using your computer "
 "effectively."
 msgstr ""
-"本指南将带您体验 Ubuntu 桌面特性，回答计算机相关的问题，并给出一些提高计算机"
-"使用效率的小提示。"
+"本指南将带您体验 Ubuntu/Ubuntu Kylin 桌面特性，回答计算机相关的问题，并给出一"
+"些提高计算机使用效率的小提示。"
 
 #. (itstool) path: item/p
 #: C/about-this-guide.page:35
@@ -965,12 +968,12 @@ msgstr ""
 #: C/about-this-guide.page:64
 msgid ""
 "Thank you for taking the time to read the <em>Ubuntu Desktop Guide</em>."
-msgstr "感谢您阅读 <em>Ubuntu 桌面指南</em>。"
+msgstr "感谢您阅读 <em>Ubuntu/Ubuntu Kylin 桌面指南</em>。"
 
 #. (itstool) path: page/p
 #: C/about-this-guide.page:68
 msgid "-- The Ubuntu Documentation team"
-msgstr "-- Ubuntu 文档团队"
+msgstr "-- Ubuntu 文档团队 & Ubuntu Kylin 文档团队"
 
 #. (itstool) path: credit/name
 #: C/accounts.page:10 C/accounts-add.page:15
@@ -1039,7 +1042,7 @@ msgid ""
 "Adding an account will help link your online accounts with your Ubuntu "
 "desktop. Thus, your email, chat, and other related applications will be set "
 "up for you."
-msgstr "添加账户可以设置将您的电子邮件、聊天工具等在线账户连接到 Ubuntu 桌面。"
+msgstr "添加账户可以设置将您的电子邮件、聊天工具等在线账户连接到 Ubuntu/Ubuntu Kylin 桌面。"
 
 #. (itstool) path: item/p
 #: C/accounts-add.page:47 C/accounts-disable-service.page:50
@@ -1461,9 +1464,10 @@ msgstr ""
 #: C/addremove-install-synaptic.page:26
 msgid ""
 "Synaptic is a powerful but complicated software management alternative to "
-"Ubuntu Software Center."
+"<app>Software</app>."
 msgstr ""
-"新立得是一款可以替代 Ubuntu 软件中心的功能强大但非常复杂的软件管理工具。"
+"新立得是一款可以替代<app>Ubuntu 软件中心</app>的功能强大但非常复杂的软件管理"
+"工具。"
 
 #. (itstool) path: page/title
 #: C/addremove-install-synaptic.page:32
@@ -1474,23 +1478,23 @@ msgstr "使用新立得进行更高级的软件管理"
 #: C/addremove-install-synaptic.page:36
 msgid ""
 "<app>Synaptic Package Manager</app> is more powerful and can do some "
-"software management tasks which <app>Ubuntu Software Center</app> can't. "
-"Synaptic's interface is more complicated and doesn't support newer Software "
-"Center features like ratings and reviews and therefore isn't recommended for "
-"use by those new to Ubuntu."
+"software management tasks which <app>Software</app> can't. Synaptic's "
+"interface is more complicated and doesn't support newer <app>Software</app> "
+"features like ratings and reviews and therefore isn't recommended for use by "
+"those new to Ubuntu."
 msgstr ""
-"<app>新立得软件包管理器</app>功能更为强大，可以执行 <app>Ubuntu 软件中心</"
-"app>无法完成的一些软件包管理任务。新立得的界面更为复杂，不支持较新的软件中心"
-"功能，如评级和审核，因此不建议 Ubuntu 新手使用。"
+"<app>新立得软件包管理器</app> 功能更为强大，可以执行 <app>Ubuntu 软件中心</"
+"app>无法完成的一些软件包管理任务。新立得的界面更为复杂，不支持较新的"
+"<app>Ubuntu 软件中心</app>功能，如评级和审核，因此不建议 Ubuntu 新手使用。"
 
 #. (itstool) path: page/p
 #: C/addremove-install-synaptic.page:44
 msgid ""
 "Synaptic isn't installed by default, but you can <link href=\"apt:synaptic"
-"\">install</link> it with Software Center."
+"\">install</link> it with <app>Software</app>."
 msgstr ""
-"默认情况下，Ubuntu 上没有安装 Synaptic，但您可以使用软件中心 <link href="
-"\"apt:synaptic\"><em>安装</em></link> 它。"
+"默认情况下，Ubuntu 上没有安装新立得，但您可以使用 <app>Ubuntu 软件中心</app> "
+"<link href=\"apt:synaptic\">安装</link>它。"
 
 #. (itstool) path: section/title
 #: C/addremove-install-synaptic.page:50
@@ -1525,7 +1529,7 @@ msgstr "右键单击您想要安装的应用程序，并选择<gui>标记以便�
 #. (itstool) path: item/p
 #: C/addremove-install-synaptic.page:73
 msgid "If you are asked to mark additional changes, click <gui>Mark</gui>."
-msgstr "如果提示您标记其他修改，请单击<gui>标记</gui>"
+msgstr "如果提示您标记其他修改，请单击<gui>标记</gui>。"
 
 #. (itstool) path: item/p
 #: C/addremove-install-synaptic.page:78
@@ -1552,9 +1556,8 @@ msgstr ""
 
 #. (itstool) path: info/desc
 #: C/addremove-install.page:9
-msgid ""
-"Use the Ubuntu Software Center to add programs and make Ubuntu more useful."
-msgstr "使用 Ubuntu 软件中心添加程序，使 Ubuntu 功能更加丰富。"
+msgid "Use <app>Software</app> to add programs and make Ubuntu more useful."
+msgstr "使用<app>Ubuntu 软件中心</app>添加程序，使 Ubuntu 功能更加实用。"
 
 #. (itstool) path: page/title
 #: C/addremove-install.page:21
@@ -1589,18 +1592,19 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/addremove-install.page:44 C/addremove-ppa.page:51
 msgid ""
-"Click the <app>Ubuntu Software Center</app> icon in the <gui>Launcher</gui>, "
-"or search for <input>Software Center</input> in the <gui>Dash</gui>."
+"Click the <app>Software</app> icon in the <gui>Launcher</gui>, or search for "
+"<input>Software</input> in the <gui>Dash</gui>."
 msgstr ""
-"单击<gui>启动器</gui>中的 <app>Ubuntu 软件中心</app>图标，或在 <gui>Dash</"
-"gui> 搜索<input>软件中心</input>。"
+"单击 <gui>启动器</gui>上的 <app>Ubuntu 软件中心</app>，或在 <gui>Dash</gui> "
+"搜索<input>软件中心</input> 。"
 
 #. (itstool) path: item/p
 #: C/addremove-install.page:51
 msgid ""
-"When the Software Center launches, search for an application, or select a "
+"When <app>Software</app> launches, search for an application, or select a "
 "category and find an application from the list."
-msgstr "软件中心启动后，搜索应用程序，或选择类别然后从列表中寻找应用程序。"
+msgstr ""
+"<app>软件中心</app>启动后，搜索应用程序，或选择类别然后从列表中寻找应用程序。"
 
 #. (itstool) path: item/p
 #: C/addremove-install.page:57
@@ -1686,35 +1690,33 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/addremove-ppa.page:58 C/addremove-sources.page:53
 msgid ""
-"When the Software Center launches, click <guiseq><gui>Edit</gui> "
-"<gui>Software Sources</gui></guiseq>"
-msgstr ""
-"软件中心启动之后，单击<guiseq><gui>编辑</gui> <gui>软件源</gui></guiseq>"
+"When <app>Software</app> launches, click <gui>Software &amp; Updates</gui>"
+msgstr "<app>软件中心</app>启动之后，单击<gui>编辑 &amp; 软件源</gui>"
 
 #. (itstool) path: item/p
-#: C/addremove-ppa.page:64
+#: C/addremove-ppa.page:63
 msgid "Switch to the <gui>Other Software</gui> tab."
-msgstr "切换到<gui>其他软件</gui>选项卡。"
+msgstr "切换到<gui>其他软件</gui>标签页。"
 
 #. (itstool) path: item/p
-#: C/addremove-ppa.page:69
+#: C/addremove-ppa.page:68
 msgid "Click <gui>Add</gui> and enter the <code>ppa:</code> location."
 msgstr "单击<gui>添加</gui>，然后输入 <code>ppa:</code> 地址。"
 
 #. (itstool) path: item/p
-#: C/addremove-ppa.page:74
+#: C/addremove-ppa.page:73
 msgid ""
 "Click <gui>Add Source</gui>. Enter your password in the Authenticate window."
 msgstr "单击<gui>添加软件源</gui>并在认证窗口输入密码。"
 
 #. (itstool) path: item/p
-#: C/addremove-ppa.page:80
+#: C/addremove-ppa.page:79
 msgid ""
-"Close the Software Sources window. Ubuntu Software Center will then check "
-"your software sources for new software."
+"Close the <app>Software &amp; Updates</app> window. <app>Software</app> will "
+"then check your software sources for new software."
 msgstr ""
-"单击<gui>添加来源</gui>，然后关闭“软件源”窗口。Ubuntu 软件中心将会检查您的软"
-"件源是否有新的更新。"
+"关闭 <app>软件和更新</app> 窗口。<app>Ubuntu 软件中心</app> 将会检查您的软件"
+"源是否有新的更新。"
 
 #. (itstool) path: info/desc
 #: C/addremove-remove.page:9
@@ -1729,23 +1731,22 @@ msgstr "删除应用程序"
 #. (itstool) path: page/p
 #: C/addremove-remove.page:21
 msgid ""
-"The <app>Ubuntu Software Center</app> helps you to remove software that you "
-"no longer use."
-msgstr "<app>Ubuntu 软件中心</app>可协助您删除不再使用的软件。"
+"<app>Software</app> helps you to remove software that you no longer use."
+msgstr "<app>Ubuntu 软件中心</app> 可协助您删除不再使用的软件。"
 
 #. (itstool) path: item/p
 #: C/addremove-remove.page:28
 msgid ""
-"Click the <app>Ubuntu Software Center</app> icon in the <gui>Launcher</gui> "
-"or search for <input>Software Center</input> in the <gui>Dash</gui>."
+"Click the <app>Software</app> icon in the <gui>Launcher</gui> or search for "
+"<input>Software</input> in the <gui>Dash</gui>."
 msgstr ""
-"单击<gui>启动器</gui>中的 <app>Ubuntu 软件中心</app>图标，或在 <gui>Dash</"
-"gui> 搜索<input>软件中心</input>。"
+"单击 <gui>启动器</gui>上的 <app>Ubuntu 软件中心</app>，或在<gui>Dash</gui>搜"
+"索<input>软件中心</input> 。"
 
 #. (itstool) path: item/p
 #: C/addremove-remove.page:35
 msgid ""
-"When the Software Center opens, click the <gui>Installed</gui> button at the "
+"When <app>Software</app> opens, click the <gui>Installed</gui> button at the "
 "top."
 msgstr "<app>软件中心</app>打开后，单击顶部的<gui>已安装</gui>按钮。"
 
@@ -1810,21 +1811,21 @@ msgstr "安装其他软件仓库"
 #. (itstool) path: item/p
 #: C/addremove-sources.page:46
 msgid ""
-"Click on the <app>Ubuntu Software Center</app> icon in the Launcher, or "
-"search for Ubuntu Software Center in the search bar of the <app>Dash</app>."
+"Click on the <app>Software</app> icon in the Launcher, or search for "
+"<input>Software</input> in the search bar of the <app>Dash</app>."
 msgstr ""
-"单击启动器中的 <app>Ubuntu 软件中心</app>图标，或在 <app>Dash</app> 搜索栏中"
-"搜索“Ubuntu 软件中心”。"
+"单击 <gui>启动器</gui>上的 <app>Ubuntu 软件中心</app>，或在<gui>Dash</gui>搜"
+"索<input>软件中心</input> 。"
 
 #. (itstool) path: item/p
-#: C/addremove-sources.page:59
+#: C/addremove-sources.page:58
 msgid ""
 "You will be asked to enter your password. Once you have done that, switch to "
 "the <gui>Other Software</gui> tab."
 msgstr "您会被要求输入密码。输完密码后，转到<gui>其他软件</gui>标签页。"
 
 #. (itstool) path: item/p
-#: C/addremove-sources.page:65
+#: C/addremove-sources.page:64
 msgid ""
 "Click <gui>Add</gui> and enter the APT line for the repository. This should "
 "be available from the website of the repository, and should look similar to:"
@@ -1833,54 +1834,57 @@ msgstr ""
 "看起来类似于："
 
 #. (itstool) path: item/p
-#: C/addremove-sources.page:75
+#: C/addremove-sources.page:74
 msgid ""
-"Click <gui>Add Source</gui> then close the Software Sources window. Ubuntu "
-"Software Center will then check your software sources for new updates."
+"Click <gui>Add Source</gui> then close the <app>Software &amp; Updates</app> "
+"window. <app>Software</app> will then check your software sources for new "
+"updates."
 msgstr ""
-"单击<gui>添加源</gui>，然后关闭“软件源”窗口。Ubuntu 软件中心之后会检查您的软"
-"件来源是否有新的更新。"
+"单击<gui>添加源</gui>，然后关闭<app>软件和更新</app>窗口。<app>Ubuntu 软件中"
+"心</app>之后会检查您的软件来源是否有新的更新。"
 
 #. (itstool) path: section/title
-#: C/addremove-sources.page:84
+#: C/addremove-sources.page:83
 msgid "Activate the Canonical Partner repository"
 msgstr "激活 Canonical 合作伙伴软件仓库"
 
 #. (itstool) path: section/p
-#: C/addremove-sources.page:87
+#: C/addremove-sources.page:86
 msgid ""
 "The Canonical Partner repository offers some proprietary applications that "
 "don't cost any money to use but are closed source. They include software "
 "like <app>Skype</app>, <app>Adobe Reader</app> and <app>Adobe Flash Plugin</"
-"app>. Software in this repository will appear in Ubuntu Software Center "
-"search results but won't be installable until this repository is enabled."
+"app>. Software in this repository will appear in <app>Software</app> search "
+"results but won't be installable until this repository is enabled."
 msgstr ""
 "Canonical 合作伙伴仓库提供一些免费的专有应用程序，但这些应用程序是闭源的。其"
 "中包括 <app>Skype</app>、<app>Adobe Reader</app> 和 <app>Adobe Flash Plugin</"
-"app> 等软件。此库中的软件将出现在 Ubuntu 软件中心搜索结果中，但在该库启用后才"
-"能安装。"
+"app> 等软件。此库中的软件将出现在<app>Ubuntu 软件中心</app>搜索结果中，但在该"
+"库启用后才能安装。"
 
 #. (itstool) path: section/p
-#: C/addremove-sources.page:95
+#: C/addremove-sources.page:94
 msgid ""
 "To enable the repository, follow the steps above to open the <gui>Other "
-"Software</gui> tab in <app>Software Sources</app>. If you see the "
+"Software</gui> tab in <app>Software &amp; Updates</app>. If you see the "
 "<gui>Canonical Partners</gui> repository in the list, make sure it is "
-"checked then close the Software Sources window. If you don't see it, click "
-"<gui>Add</gui> and enter:"
+"checked then close the <app>Software &amp; Updates</app> window. If you "
+"don't see it, click <gui>Add</gui> and enter:"
 msgstr ""
-"要启用该库，请遵照上述步骤打开<gui>其他软件</gui>选项卡(在<app>软件源</app>"
-"中)。如果您在列表中看到 <gui>Canonical 合作伙伴</gui>仓库，请确保将其选中， "
-"然后关闭“软件源”窗口。如果没有看到该库，单击<gui>添加</gui>，然后输入："
+"要启用该库，请遵照上述步骤打开在<app>软件和更新 </app>中的<gui>其他软件</gui>"
+"标签页。如果您在列表中看到<gui>Canonical 合作伙伴</gui>仓库，请确保将其选中，"
+"然后关闭 <app>软件和更新</app> 窗口。如果没有看到该库，单击<gui>添加</gui>，"
+"然后输入："
 
 #. (itstool) path: section/p
-#: C/addremove-sources.page:105
+#: C/addremove-sources.page:104
 msgid ""
-"Click <gui>Add Source</gui> then close the Software Sources window. Wait a "
-"moment for Ubuntu Software Center to download the repository information."
+"Click <gui>Add Source</gui> then close the <app>Software &amp; Updates</app> "
+"window. Wait a moment for <app>Software</app> to download the repository "
+"information."
 msgstr ""
-"单击<gui>添加源</gui>，然后关闭“软件源”窗口。等待 Ubuntu 软件中心下载软件仓库"
-"信息。"
+"单击<gui>添加源</gui>，然后关闭 <app>软件和更新</app>窗口。等待<app>Ubuntu 软"
+"件中心</app>下载软件仓库信息。"
 
 #. (itstool) path: info/title
 #: C/addremove.page:8
@@ -1924,50 +1928,12 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/app-cheese.page:27
-msgid "Cheese is not installed by default in Ubuntu. To install Cheese:"
-msgstr "Ubuntu 中未默认安装茄子大头贴。要安装茄子大头贴："
-
-#. (itstool) path: item/p
-#: C/app-cheese.page:33
-msgid ""
-"Click <link href=\"apt:cheese\">this link</link> to launch the <app>Software "
-"Center</app>."
-msgstr "单击<link href=\"apt:cheese\">此链接</link>启动<app>软件中心</app>。"
-
-#. (itstool) path: item/p
-#: C/app-cheese.page:39
-msgid ""
-"Read the information and reviews about Cheese to make sure you want to "
-"install it."
-msgstr "阅读有关茄子大头贴的信息和评注以确保您确实要安装它。"
-
-#. (itstool) path: item/p
-#: C/app-cheese.page:45
-msgid ""
-"If you choose to install it, click <gui>Install</gui> from the Software "
-"Center window."
-msgstr "如果您选择安装，从“软件中心”窗口单击<gui>安装</gui>。"
-
-#. (itstool) path: page/p
-#: C/app-cheese.page:52
-msgid ""
-"You may need to provide the administrative password to complete the "
-"installation."
-msgstr "您可能需要提供管理密码才能完成安装。"
-
-#. (itstool) path: page/p
-#: C/app-cheese.page:57
 msgid ""
 "For help with using Cheese, read the <link href=\"help:cheese\">Cheese user "
 "guide</link>."
 msgstr ""
 "如需茄子大头贴的帮助，请阅读<link href=\"help:cheese\">茄子大头贴用户指南</"
 "link>。"
-
-#. (itstool) path: note/p
-#: C/app-cheese.page:63
-msgid "You need to install Cheese before you can read the Cheese user guide."
-msgstr "您需要先安装茄子大头贴才能阅读其用户指南。"
 
 #. (itstool) path: info/desc
 #: C/backup-check.page:7
@@ -3052,7 +3018,7 @@ msgid "Enable or disable the Bluetooth device on your computer."
 msgstr "在您的计算机上启用或禁用蓝牙设备。"
 
 #. (itstool) path: page/title
-#: C/bluetooth-turn-on-off.page:25
+#: C/bluetooth-turn-on-off.page:28
 msgid "Turn Bluetooth on or off"
 msgstr "开启或关闭蓝牙"
 
@@ -3062,32 +3028,22 @@ msgstr "开启或关闭蓝牙"
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/bluetooth-turn-on-off.page:29 C/unity-menubar-intro.page:87
+#: C/bluetooth-turn-on-off.page:32 C/unity-menubar-intro.page:90
 msgctxt "_"
 msgid ""
-"external ref='/usr/share/icons/ubuntu-mono-light/status/24/bluetooth-active."
-"svg' md5='__failed__'"
+"external ref='figures/bluetooth-active.svg' "
+"md5='265f0461c4f337cfe7f9ebc04b98a58f'"
 msgstr ""
-"external ref='/usr/share/icons/ubuntu-mono-light/status/24/bluetooth-active."
-"svg' md5='__failed__'"
+"external ref='figures/bluetooth-active.svg' "
+"md5='265f0461c4f337cfe7f9ebc04b98a58f'"
 
 #. (itstool) path: media/p
-#: C/bluetooth-turn-on-off.page:30
+#: C/bluetooth-turn-on-off.page:33
 msgid "The Bluetooth icon in the menu bar"
 msgstr "菜单栏上的蓝牙图标"
 
-#. (itstool) path: when/p
-#: C/bluetooth-turn-on-off.page:35
-msgid ""
-"You can turn Bluetooth on to use Bluetooth devices and send and receive "
-"files, but turn it off to conserve power. To turn Bluetooth on, click the "
-"Bluetooth icon in the menu bar and click <gui>Turn On Bluetooth</gui>."
-msgstr ""
-"您可以打开系统的蓝牙功能，以使用蓝牙设备或与蓝牙设备互传文件；也可以关闭蓝牙"
-"设备以节省电量。点击菜单栏的蓝牙图标并单击<gui>打开蓝牙</gui>。"
-
-#. (itstool) path: choose/p
-#: C/bluetooth-turn-on-off.page:40
+#. (itstool) path: page/p
+#: C/bluetooth-turn-on-off.page:36
 msgid ""
 "You can turn Bluetooth on to use Bluetooth devices and send and receive "
 "files, but turn it off to conserve power. To turn Bluetooth on, click the "
@@ -3097,7 +3053,7 @@ msgstr ""
 "上的蓝牙图标，打开<gui>蓝牙</gui>。"
 
 #. (itstool) path: when/p
-#: C/bluetooth-turn-on-off.page:47
+#: C/bluetooth-turn-on-off.page:42
 msgid ""
 "Many laptop computers have a hardware switch or key combination to turn "
 "Bluetooth on and off. If the Bluetooth hardware is turned off, you will not "
@@ -3110,7 +3066,7 @@ msgstr ""
 "<key>Fn</key> 键的帮助下访问。"
 
 #. (itstool) path: choose/p
-#: C/bluetooth-turn-on-off.page:53
+#: C/bluetooth-turn-on-off.page:48
 msgid ""
 "Many laptop computers have a hardware switch or key combination to turn "
 "Bluetooth on and off. If the Bluetooth hardware is turned off, you will not "
@@ -3122,29 +3078,22 @@ msgstr ""
 "在顶栏上将看不到蓝牙图标。请您寻找计算机上的开关或键盘上的键，键盘键通常可在 "
 "<key>Fn</key> 键的帮助下找到。"
 
-#. (itstool) path: when/p
-#: C/bluetooth-turn-on-off.page:62
-msgid ""
-"To turn Bluetooth off, click the Bluetooth icon and click <gui>Turn Off "
-"Bluetooth</gui>."
-msgstr "要关闭蓝牙，请单击蓝牙图标，然后单击<gui>关闭蓝牙</gui>。"
-
-#. (itstool) path: choose/p
-#: C/bluetooth-turn-on-off.page:65
+#. (itstool) path: page/p
+#: C/bluetooth-turn-on-off.page:55
 msgid ""
 "To turn Bluetooth off, click the Bluetooth icon and switch <gui>Bluetooth</"
 "gui> off."
 msgstr "要关闭蓝牙，请单击蓝牙图标，然后关闭<gui>蓝牙</gui>。"
 
 #. (itstool) path: note/p
-#: C/bluetooth-turn-on-off.page:69
+#: C/bluetooth-turn-on-off.page:58
 msgid ""
-"You only need to switch <gui>Visibility</gui> on if you are connecting to "
-"this computer from another device. See <link xref=\"bluetooth-visibility\"/> "
-"for more information."
+"You only need to switch <gui>Visible</gui> on if you are connecting to this "
+"computer from another device. See <link xref=\"bluetooth-visibility\"/> for "
+"more information."
 msgstr ""
-"如果您需要从另一蓝牙设备连接到这台电脑，则需要将系统的蓝牙设置为可见状态。更"
-"多信息请查阅<link xref=\"bluetooth-visibility\"/>"
+"如果您需要从另一蓝牙设备连接到这台电脑，则需要将系统的蓝牙设置为<gui>可见状态"
+"</gui>。更多信息请查阅 <link xref=\"bluetooth-visibility\"/> 。"
 
 #. (itstool) path: info/desc
 #: C/bluetooth-visibility.page:11
@@ -4916,66 +4865,65 @@ msgstr "日程事件"
 #. (itstool) path: page/p
 #: C/clock-calendar.page:29
 msgid ""
-"You can organize your calendar appointments by clicking on the clock in the "
-"panel, if you're using a mail and calendar application called "
-"<app>Evolution</app>."
+"A built in calendar application called <app>Calendar</app> allows you to "
+"organize your calendar appointments or events. Up to five of these, over a "
+"four-week duration, will appear by clicking on the clock in the <gui>menu "
+"bar</gui>."
 msgstr ""
-"如果您使用名为 <app>Evolution</app> 的邮件和日历应用程序，则可通过单击面板上"
-"的时钟，管理您的日程事件。"
-
-#. (itstool) path: page/p
-#: C/clock-calendar.page:32
-msgid ""
-"If you have already set up Evolution, click the clock on the menu bar and "
-"then click the <gui>Add Event</gui> to start adding appointments. As "
-"appointments are added, they will appear below the calendar when you click "
-"on the clock."
-msgstr ""
-"如果您已安装 Evolution，单击顶栏的时钟，然后单击<gui>添加事件</gui>即可开始添"
-"加日程。日程添加后，当您单击时钟时，即会显示在日历下方。"
-
-#. (itstool) path: page/p
-#: C/clock-calendar.page:36
-msgid ""
-"To quickly get to the full Evolution calendar, click on the clock and click "
-"the first line where today's date is."
-msgstr ""
-"要快速转到完整的 Evolution 日历，单击时钟，然后单击显示当日日期的第一行。"
+"系统自带的 <app>日历</app> 可以用于管理日程事件安排。点击<gui>菜单栏</gui>上"
+"的时钟可以看到最多跨越四个星期的最多五项日程。"
 
 #. (itstool) path: note/p
-#: C/clock-calendar.page:45
+#: C/clock-calendar.page:31
 msgid ""
-"This will work only if you have an existing <app>Evolution</app> account. "
-"Otherwise, a window will appear with the necessary steps for adding your "
-"first account."
+"Calendar appointment integration is also supported with a mail and calendar "
+"application called <app>Evolution</app>, which may be installed separately."
 msgstr ""
-"这仅在您已拥有 <app>Evolution</app> 帐户时有效。否则，会出现一个窗口，显示添"
-"加首个帐户需要的步骤。"
+"您还可以使用名为 <app>Evolution</app> 的邮件和日历应用程序来进行整合日程事"
+"件，其需要单独安装。"
 
 #. (itstool) path: section/title
-#: C/clock-calendar.page:49
-msgid "Turn off Evolution calendar integration"
-msgstr "关闭 Evolution 日历集成"
+#: C/clock-calendar.page:34
+msgid "Launch the Calendar application"
+msgstr "开启日历程序"
 
 #. (itstool) path: section/p
-#: C/clock-calendar.page:50
-msgid "You can also turn off this feature if you like."
-msgstr "如果有必要，您也可以关闭该功能。"
+#: C/clock-calendar.page:35
+msgid ""
+"Appointments and events may be managed through the built in <app>Calendar</"
+"app> application."
+msgstr "日程事件可通过 Ubuntu 自带的 <app>日历</app> 应用程序进行管理。"
 
 #. (itstool) path: item/p
-#: C/clock-calendar.page:53
-msgid "Click on the clock and select <gui>Time &amp; Date Settings</gui>."
-msgstr "单击时钟，然后选择<gui>时间和日期设置</gui>。"
+#: C/clock-calendar.page:38
+msgid ""
+"Click on the <gui>Dash</gui> icon in the <link xref=\"unity-launcher-intro"
+"\">Launcher</link>."
+msgstr ""
+"单击<link xref=\"unity-launcher-intro\">启动器</link>中的<gui>Dash</gui>图"
+"标。"
 
 #. (itstool) path: item/p
-#: C/clock-calendar.page:54
-msgid "Now, switch to the <gui>Clock</gui> tab."
-msgstr "现在，转到<gui>时钟</gui>标签页。"
+#: C/clock-calendar.page:39
+msgid ""
+"Type <input>calendar</input> in the <gui>Search your computer</gui> to "
+"locate the <app>Calendar</app> application."
+msgstr ""
+"在 <gui>搜索您的本地和在线资源中</gui> 输入 <input>日历</input>，搜索 <app>日"
+"历</app> 应用程序。"
 
 #. (itstool) path: item/p
-#: C/clock-calendar.page:55
-msgid "Uncheck <gui>Coming events from Evolution Calendar</gui>."
-msgstr "取消选中 <gui>Evolution 日历中即将到来的事件</gui>。"
+#: C/clock-calendar.page:40
+msgid "Click the <gui>Calendar</gui> application icon."
+msgstr "单击<gui>日历</gui>应用程序图标。"
+
+#. (itstool) path: section/p
+#: C/clock-calendar.page:43
+msgid ""
+"Alternatively, you may also type <input>gnome-calendar</input> in the "
+"<app>Terminal</app> application."
+msgstr ""
+"或者，您可以在 <app>终端</app> 应用程序输入 <input>gnome-calendar</input>。"
 
 #. (itstool) path: info/desc
 #: C/clock-more-info.page:7
@@ -5044,12 +4992,13 @@ msgid ""
 msgstr "您还可以更改时钟的日期格式以与您所在位置的首选标准一致。"
 
 #. (itstool) path: item/p
-#: C/clock-more-info.page:37 C/keyboard-layouts.page:72
-#: C/keyboard-layouts.page:115 C/keyboard-osk.page:34
-#: C/keyboard-repeat-keys.page:42 C/keyboard-shortcuts-set.page:41
-#: C/net-proxy.page:50 C/net-wireless-adhoc.page:43
-#: C/prefs-language-install.page:25 C/session-language.page:43
-#: C/unity-launcher-change-size.page:24 C/unity-menubar-intro.page:49
+#: C/clock-more-info.page:37 C/keyboard-layouts.page:63
+#: C/keyboard-layouts.page:106 C/keyboard-layouts.page:166
+#: C/keyboard-osk.page:34 C/keyboard-repeat-keys.page:42
+#: C/keyboard-shortcuts-set.page:41 C/net-proxy.page:50
+#: C/net-wireless-adhoc.page:43 C/prefs-language-install.page:25
+#: C/session-language.page:43 C/shell-workspaces.page:41
+#: C/unity-launcher-change-size.page:24
 msgid ""
 "Click the icon at the very right of the menu bar and select <gui>System "
 "Settings</gui>."
@@ -5206,7 +5155,7 @@ msgstr "点击时钟并选择<gui>日期 &amp; 时间设置</gui>。"
 msgid ""
 "Switch to the <gui>Clock</gui> tab and select <gui>Time in other locations</"
 "gui>."
-msgstr "转到<gui>时钟</gui>选项卡，然后选中<gui>其他地区的时间</gui>。"
+msgstr "转到<gui>时钟</gui>标签页，然后选中<gui>其他地区的时间</gui>。"
 
 #. (itstool) path: item/p
 #: C/clock-timezone.page:33
@@ -6244,9 +6193,9 @@ msgid ""
 "supported by <app>Document Viewer</app> (Evince), <app>Microsoft Office</"
 "app>, <app>LibreOffice</app> and <app>Google Docs</app>."
 msgstr ""
-"<app>文档</app>显示了 PDF 、DVI、XPS、PostScript 和<app>文件浏览器</app>"
-"(Evince)，<app> Microsoft Office </app>，<app> LibreOffice </app>以及<app> "
-"Google Docs </app>支持的格式。"
+"<app>文档</app>显示了 PDF 、DVI、XPS、PostScript 和<app>文件浏览器</"
+"app>(Evince)，<app> Microsoft Office </app>，<app> LibreOffice </app>以及"
+"<app> Google Docs </app>支持的格式。"
 
 #. (itstool) path: credit/years
 #: C/documents-info.page:21 C/documents-viewgrid.page:21
@@ -6771,9 +6720,9 @@ msgid ""
 "Media</gui>. If you open an audio disc with the file manager, the tracks "
 "will appear as WAV files that you can play in any audio player application."
 msgstr ""
-"选择您最常用的音乐应用程序或 CD 音频提取器来处理音频 CDs。如果您使用音频 DVDs"
-"(DVD-A)，选择在<gui>其他介质</gui>中如何打开他们。如果用文件管理器打开​​音频光"
-"盘，该曲目将显示为WAV文件，您可以在任何音频播放器中播放。"
+"选择您最常用的音乐应用程序或 CD 音频提取器来处理音频 CDs。如果您使用音频 "
+"DVDs(DVD-A)，选择在<gui>其他介质</gui>中如何打开他们。如果用文件管理器打开​​音"
+"频光盘，该曲目将显示为WAV文件，您可以在任何音频播放器中播放。"
 
 #. (itstool) path: item/title
 #: C/files-autorun.page:86
@@ -7046,13 +6995,12 @@ msgstr "前往您想要存放复制后文件的目录。"
 #. (itstool) path: item/p
 #: C/files-copy.page:49
 msgid ""
-"Click the gear icon and pick <gui>Paste</gui> to finish copying the file, or "
-"press <keyseq><key>Ctrl</key><key>V</key></keyseq>. There will now be a copy "
-"of the file in the original folder and the other folder."
+"Right-click and pick <gui>Paste</gui> to finish copying the file, or press "
+"<keyseq><key>Ctrl</key><key>V</key></keyseq>. There will now be a copy of "
+"the file in the original folder and the other folder."
 msgstr ""
-"点击齿轮按钮，选择<gui>粘贴</gui>来完成复制文件，或按<keyseq><key> Ctrl </"
-"key><key> V </key></keyseq>键。这将在源文件夹和其他文件夹上生成这个文件的一个"
-"拷贝。"
+"点击右键，选择 <gui>粘贴</gui>，或者按<keyseq><key> Ctrl </key><key> V </"
+"key></keyseq>键。这将在源文件夹和其他文件夹上生成这个文件的一个拷贝。"
 
 #. (itstool) path: steps/title
 #: C/files-copy.page:56
@@ -7081,13 +7029,12 @@ msgstr "前往您想要存放移动后项目的文件夹。"
 #. (itstool) path: item/p
 #: C/files-copy.page:61
 msgid ""
-"Click the gear button in the toolbar and pick <gui>Paste</gui> to finish "
-"moving the file, or press <keyseq><key>Ctrl</key><key>V</key></keyseq>. The "
-"file will be taken out of its original folder and moved to the other folder."
+"Right-click and pick <gui>Paste</gui> to finish moving the file, or press "
+"<keyseq><key>Ctrl</key><key>V</key></keyseq>. The file will be taken out of "
+"its original folder and moved to the other folder."
 msgstr ""
-"点击工具栏上的齿轮按钮，选择<gui>粘贴</gui>来完成移动文件，或者按"
-"<keyseq><key> Ctrl </key><key> V </key></keyseq>键。该文件将从原始文件夹移动"
-"到其他文件夹。"
+"点击右键，选择 <gui>粘贴</gui>，或者按<keyseq><key> Ctrl </key><key> V </"
+"key></keyseq>键。该文件将从原始文件夹移动到其他文件夹。"
 
 #. (itstool) path: steps/title
 #: C/files-copy.page:68
@@ -7687,7 +7634,7 @@ msgstr "右击该文件，然后选择<gui>属性</gui>。"
 #. (itstool) path: item/p
 #: C/files-open.page:56
 msgid "Select the <gui>Open With</gui> tab."
-msgstr "选择<gui>打开方式</gui>选项卡。"
+msgstr "选择<gui>打开方式</gui>标签页。"
 
 #. (itstool) path: item/p
 #: C/files-open.page:57
@@ -8044,11 +7991,11 @@ msgstr ""
 #: C/files-rename.page:52
 msgid ""
 "If you renamed the wrong file, or named your file improperly, you can undo "
-"the rename. To revert the action, immediately click the gear button in the "
-"toolbar and select <gui>Undo</gui> to restore the former name."
+"the rename. To revert the action and restore the former name, immediately "
+"click <gui>Edit</gui> in the menu bar and select <gui>Undo Rename</gui>."
 msgstr ""
 "如果您重命名了错误的文件或者命名您的文件不当，您可以撤销重命名。立即点击工具"
-"栏上的齿轮按钮，选择 <gui>撤销</gui> 即可恢复原来的文件名。"
+"栏上的<gui>编辑</gui>，选择<gui>撤销</gui>即可恢复原来的文件名。"
 
 #. (itstool) path: section/title
 #: C/files-rename.page:58
@@ -8265,9 +8212,11 @@ msgstr "如上所述开始搜索。"
 #. (itstool) path: item/p
 #: C/files-search.page:76
 msgid ""
-"When you're happy with the search parameters, click the ⚙ gear button and "
-"select <gui>Save Search As</gui>."
-msgstr "当您对搜索参数感到满意时，点击齿轮按钮并选择 <gui>保存搜索为</gui> 。"
+"When you're happy with the search parameters, click <gui>File</gui> in the "
+"menu bar and select <gui>Save Search As...</gui>."
+msgstr ""
+"当您对搜索参数感到满意时，点击菜单栏上的<gui>文件</gui>并选择<gui>搜索另存"
+"为...</gui> 。"
 
 #. (itstool) path: item/p
 #: C/files-search.page:78
@@ -8471,10 +8420,10 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/files-share.page:66
 msgid ""
-"To transfer the file to a Bluetooth device, select <gui>Bluetooth (OBEX Push)"
-"</gui> and select the device to send the file to. You will only see devices "
-"you have already paired with. See <link xref=\"bluetooth\"/> for more "
-"information."
+"To transfer the file to a Bluetooth device, select <gui>Bluetooth (OBEX "
+"Push)</gui> and select the device to send the file to. You will only see "
+"devices you have already paired with. See <link xref=\"bluetooth\"/> for "
+"more information."
 msgstr ""
 "要向蓝牙设备传输文件，请选择<gui>蓝牙(OBEX 推送)</gui>。对于更多信息，请参见"
 "<link xref=\"bluetooth\"/>。"
@@ -8950,8 +8899,8 @@ msgid ""
 msgstr ""
 "<link xref=\"hardware#problems\">硬件问题</link>、<link xref=\"printing\">打"
 "印机</link>、<link xref=\"power\">电源设置</link>、<link xref=\"color\">色彩"
-"管理</link>、<link xref=\"bluetooth\">蓝牙</link>、<link xref=\"disk"
-"\">硬盘</link>…"
+"管理</link>、<link xref=\"bluetooth\">蓝牙</link>、<link xref=\"disk\">磁盘</"
+"link>…"
 
 #. (itstool) path: page/title
 #: C/hardware.page:28
@@ -9082,13 +9031,13 @@ msgstr ""
 #: C/index.page:6
 msgctxt "link"
 msgid "Ubuntu Desktop Guide"
-msgstr "Ubuntu 桌面指南"
+msgstr "Ubuntu/Ubuntu Kylin 桌面指南"
 
 #. (itstool) path: info/title
 #: C/index.page:7
 msgctxt "text"
 msgid "Ubuntu Desktop Guide"
-msgstr "Ubuntu 桌面指南"
+msgstr "Ubuntu/Ubuntu Kylin 桌面指南"
 
 #. (itstool) path: title/media
 #. This is a reference to an external file such as an image or video. When
@@ -9110,7 +9059,7 @@ msgid ""
 "\"figures/ubuntu-logo.png\">Help</media> Ubuntu Desktop Guide"
 msgstr ""
 "<media type=\"image\" mime=\"image/png\" width=\"16\" height=\"16\" src="
-"\"figures/ubuntu-logo.png\">帮助</media> Ubuntu 桌面指南"
+"\"figures/ubuntu-logo.png\">帮助</media> Ubuntu/Ubuntu Kylin 桌面指南"
 
 #. (itstool) path: page/title
 #: C/index.page:21
@@ -9119,7 +9068,7 @@ msgid ""
 "Ubuntu Desktop Guide"
 msgstr ""
 "<media type=\"image\" src=\"figures/ubuntu-logo.png\">Ubuntu 徽标</media> "
-"Ubuntu 桌面指南"
+"Ubuntu/Ubuntu Kylin 桌面指南"
 
 #. (itstool) path: info/desc
 #: C/keyboard.page:11
@@ -9218,31 +9167,15 @@ msgstr ""
 msgid ""
 "Some languages, such as Chinese or Korean, require a more complex input "
 "method than just a simple key to character mapping. Consequently some of the "
-"input sources you can choose between enable such a method."
+"input sources you can choose between enable such a method. More about that "
+"in the section <link xref=\"#complex\">Complex input methods</link>."
 msgstr ""
 "诸如汉语、韩语这样的语言，不仅仅是一个简单字符映射，它们需要更为复杂的输入"
-"法，因此您可以在能适用于这种输入法的输入源中做选择。"
-
-#. (itstool) path: note/p
-#: C/keyboard-layouts.page:52
-msgid ""
-"Options with input methods are only available if respective input method "
-"(IM) engine is installed. When you <link xref=\"prefs-language-install"
-"\">install a language</link>, a suitable IM engine is automatically "
-"installed if applicable. For example, if you install Korean, the package "
-"<em>ibus-hangul</em> is installed, and the input source option <gui>Korean "
-"(Hangul)</gui> is made available next time you log in. You can also <link "
-"xref=\"addremove-install\"> install</link> the IBus IM engine of your choice "
-"separately."
-msgstr ""
-"输入法的选项只有在相应的输入法引擎已经安装之后才会可用。<link xref=\"prefs-"
-"language-install\">安装语言</link> 时，如果可能将会自动安装合适的输入法引擎。"
-"例如，如果安装韩语，<em>ibus-hangul</em> 包也会安装，下次登录的时候输入源选"
-"项 <gui>韩语 (Hangul)</gui> 将会可用。您也可以根据自己的选择 <link xref="
-"\"addremove-install\">安装</link> IBus 输入法引擎。"
+"法，因此您可以在能适用于这种输入法的输入源中做选择。更多信息请查阅<link xref="
+"\"#complex\">复杂输入法</link>"
 
 #. (itstool) path: section/title
-#: C/keyboard-layouts.page:62
+#: C/keyboard-layouts.page:53
 msgid "Add input sources"
 msgstr "添加输入源"
 
@@ -9251,7 +9184,7 @@ msgstr "添加输入源"
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/keyboard-layouts.page:66
+#: C/keyboard-layouts.page:57
 msgctxt "_"
 msgid ""
 "external ref='figures/input-keyboard-symbolic.svg' "
@@ -9261,7 +9194,7 @@ msgstr ""
 "md5='c23665786e41e7bcb87fa0f8d355d74e'"
 
 #. (itstool) path: note/p
-#: C/keyboard-layouts.page:65
+#: C/keyboard-layouts.page:56
 msgid ""
 "You can preview an image of any layout by selecting it in the list and "
 "clicking <gui><media type=\"image\" src=\"figures/input-keyboard-symbolic.svg"
@@ -9272,12 +9205,13 @@ msgstr ""
 "按钮来预览任意布局的图像。"
 
 #. (itstool) path: item/p
-#: C/keyboard-layouts.page:75 C/keyboard-layouts.page:118
+#: C/keyboard-layouts.page:66 C/keyboard-layouts.page:109
+#: C/keyboard-layouts.page:169
 msgid "In the Personal section, click <gui>Text Entry</gui>."
 msgstr "在个人部分中，点击 <gui>文本输入</gui> 。"
 
 #. (itstool) path: item/p
-#: C/keyboard-layouts.page:78
+#: C/keyboard-layouts.page:69
 msgid ""
 "Click the <gui>+</gui> button, select an input source, and click <gui>Add</"
 "gui>."
@@ -9285,7 +9219,7 @@ msgstr ""
 "点击 <gui>+</gui> 按钮，选择一种输入源，然后点击 <gui>添加</gui> 按钮。"
 
 #. (itstool) path: section/p
-#: C/keyboard-layouts.page:83
+#: C/keyboard-layouts.page:74
 msgid ""
 "The default source is the source at the top of the list. Use the <gui>↑</"
 "gui> and <gui>↓</gui> buttons to move sources up and down in the list."
@@ -9298,7 +9232,7 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/keyboard-layouts.page:89
+#: C/keyboard-layouts.page:80
 msgctxt "_"
 msgid ""
 "external ref='figures/input-preferences.png' "
@@ -9308,7 +9242,7 @@ msgstr ""
 "md5='2422aec461572532a159ef4c61e0384f'"
 
 #. (itstool) path: note/p
-#: C/keyboard-layouts.page:88
+#: C/keyboard-layouts.page:79
 msgid ""
 "If you select a source with an input method, you can click <gui><media type="
 "\"image\" src=\"figures/input-preferences.png\" width=\"18\" height=\"18\"> "
@@ -9319,12 +9253,12 @@ msgstr ""
 "输入法首选项对话框。"
 
 #. (itstool) path: section/title
-#: C/keyboard-layouts.page:95
+#: C/keyboard-layouts.page:86
 msgid "Input source indicator"
 msgstr "输入源指示符"
 
 #. (itstool) path: section/p
-#: C/keyboard-layouts.page:97
+#: C/keyboard-layouts.page:88
 msgid ""
 "You can quickly switch between selected sources using the input source "
 "indicator in the menu bar. The menu will display a short identifier for the "
@@ -9339,12 +9273,12 @@ msgstr ""
 "源。"
 
 #. (itstool) path: section/title
-#: C/keyboard-layouts.page:106
+#: C/keyboard-layouts.page:97
 msgid "Keyboard shortcuts"
 msgstr "键盘快捷键"
 
 #. (itstool) path: section/p
-#: C/keyboard-layouts.page:108
+#: C/keyboard-layouts.page:99
 msgid ""
 "You can also use keyboard shortcuts to quickly switch between your selected "
 "input sources. By default the shortcut for switching to next source is "
@@ -9356,14 +9290,14 @@ msgstr ""
 "keyseq> ，不过您可以改变它："
 
 #. (itstool) path: item/p
-#: C/keyboard-layouts.page:121
+#: C/keyboard-layouts.page:112
 msgid ""
 "Click the current shortcut definition below the label <gui>Switch to next "
 "source using</gui>."
 msgstr "点击 <gui>切换使用下一个源</gui> 标签下方的当前快捷键定义。"
 
 #. (itstool) path: item/p
-#: C/keyboard-layouts.page:125
+#: C/keyboard-layouts.page:116
 msgid ""
 "When the shortcut definition has changed to <gui>New accelerator...</gui>, "
 "press the keys you want to use as the new shortcut."
@@ -9372,12 +9306,12 @@ msgstr ""
 "即可。"
 
 #. (itstool) path: section/title
-#: C/keyboard-layouts.page:132
+#: C/keyboard-layouts.page:123
 msgid "Set input source for all windows or individually for each window"
 msgstr "为所有窗口或者单独为每个窗口设置输入源"
 
 #. (itstool) path: section/p
-#: C/keyboard-layouts.page:134
+#: C/keyboard-layouts.page:125
 msgid ""
 "When you use multiple sources, you can choose to have all windows use the "
 "same source or to set a different source for each window. Using a different "
@@ -9390,12 +9324,97 @@ msgstr ""
 "一种语言写一篇文章，您的输入源选择将在切换窗口时记住您为每个窗口进行的设置。"
 
 #. (itstool) path: section/p
-#: C/keyboard-layouts.page:140
+#: C/keyboard-layouts.page:131
 msgid ""
 "By default, new windows will use the default input source. You can instead "
 "choose to have them use the source of the window you were last using."
 msgstr ""
 "默认情况下，新窗口将使用默认输入源。您可以让它们选择使用您最后使用窗口的源。"
+
+#. (itstool) path: section/title
+#: C/keyboard-layouts.page:137
+msgid "Complex input methods"
+msgstr "复杂输入法"
+
+#. (itstool) path: section/p
+#: C/keyboard-layouts.page:139
+msgid ""
+"Recommended frameworks for input methods are <em>IBus</em> and <em>Fcitx</"
+"em>. The latter is the default framework in Ubuntu for Chinese, Japanese, "
+"Korean and Vietnamese."
+msgstr ""
+"推荐输入法框架为<em>IBus</em> 以及 <em>Fcitx</em>。后者是 Ubuntu 中文、日语、"
+"韩语以及越南语的默认输入法框架。"
+
+#. (itstool) path: section/p
+#: C/keyboard-layouts.page:143
+msgid ""
+"Input source options with input methods are only available if respective "
+"input method (IM) engine is installed. When you install a language, a "
+"suitable IM engine is automatically installed if applicable."
+msgstr ""
+"输入法的选项只有在相应的输入法引擎已经安装之后才会可用。安装语言时，如果可能"
+"将会自动安装合适的输入法引擎。"
+
+#. (itstool) path: section/p
+#: C/keyboard-layouts.page:147
+msgid ""
+"For example, to prepare for typing Korean (Hangul) on an English system, "
+"follow these steps:"
+msgstr "例如，请按照以下步骤在英语系统下安装韩语(Hangul)："
+
+#. (itstool) path: item/p
+#: C/keyboard-layouts.page:152
+msgid ""
+"<link xref=\"prefs-language-install\">Install</link> Korean. One of the "
+"installed packages is <em>fcitx-hangul</em>, the Hangul IM engine for Fcitx."
+msgstr ""
+"<link xref=\"prefs-language-install\">安装</link> 韩语。<em>fcitx-hangul</"
+"em> 包(Fcitx 输入法引擎)也会安装。"
+
+#. (itstool) path: item/p
+#: C/keyboard-layouts.page:157
+msgid "Close <gui>Language Support</gui> and open it again."
+msgstr "关闭 <gui>语言支持</gui> 然后再打开。"
+
+#. (itstool) path: item/p
+#: C/keyboard-layouts.page:160
+msgid "Select <em>fcitx</em> as the <gui>Keyboard input method system</gui>."
+msgstr "选择 <em>fcitx</em> 为<gui>键盘输入法系统</gui>。"
+
+#. (itstool) path: item/p
+#: C/keyboard-layouts.page:163
+msgid "Log out and log in again."
+msgstr "注销系统然后重新登录。"
+
+#. (itstool) path: item/p
+#: C/keyboard-layouts.page:172
+msgid ""
+"Click the <gui>+</gui> button, select <em>Hangul (Fcitx)</em>, and click "
+"<gui>Add</gui>."
+msgstr ""
+"点击  <gui>+</gui> 按钮，选择<em>Hangul (Fcitx)</em>，然后点击<gui>添加</gui>"
+"按钮。"
+
+#. (itstool) path: section/p
+#: C/keyboard-layouts.page:177
+msgid ""
+"This will make <em>Hangul</em> available in the Fcitx input source indicator "
+"in the menu bar. (The design differs from the IBus equivalent.)"
+msgstr ""
+"<em>Hangul</em>可通过菜单栏的 Fcitx 输入源指示符调用。(此设计与 IBus 不同。)"
+
+#. (itstool) path: section/p
+#: C/keyboard-layouts.page:180
+msgid ""
+"If you prefer some other IM engine than the one which is installed "
+"automatically when you install a language, you can <link xref=\"addremove-"
+"install\">install</link> the IBus or Fcitx IM engine of your choice "
+"separately."
+msgstr ""
+"如果您想要安装其他输入法引擎，而不是安装语言时，系统自动安装输入法引擎。您可"
+"以根据自己的选择<link xref=\"addremove-install\">安装</link> IBus 或者 Fcitx "
+"输入法引擎。"
 
 #. (itstool) path: info/desc
 #: C/keyboard-nav.page:19
@@ -9735,7 +9754,7 @@ msgstr "弹出窗口菜单，就像在标题栏上右键单击一样。"
 #: C/unity-dash-photos.page:14 C/unity-dash-video.page:13
 #: C/unity-hud-intro.page:13 C/unity-launcher-change-autohide.page:10
 #: C/unity-launcher-shapes.page:10 C/unity-scrollbars-intro.page:13
-#: C/unity-shopping.page:14 C/whats-new.page:13
+#: C/unity-shopping.page:14
 msgid "Jeremy Bicha"
 msgstr "Jeremy Bicha"
 
@@ -9821,7 +9840,7 @@ msgstr "要改变键盘快捷键的设置："
 #. (itstool) path: item/p
 #: C/keyboard-shortcuts-set.page:42
 msgid "Open <gui>Keyboard</gui> and select the <gui>Shortcuts</gui> tab."
-msgstr "打开<gui>鼠标和触摸板</gui>，然后选择<gui>鼠标</gui>选项卡。"
+msgstr "打开<gui>鼠标和触摸板</gui>，然后选择<gui>鼠标</gui>标签页。"
 
 #. (itstool) path: item/p
 #: C/keyboard-shortcuts-set.page:45
@@ -9933,21 +9952,16 @@ msgstr "右键单击桌面，然后选择<gui>更改桌面背景</gui>。"
 
 #. (itstool) path: item/p
 #: C/look-background.page:47
-msgid ""
-"Select an image or color. The settings are applied immediately. <link xref="
-"\"shell-workspaces-switch\">Switch to an empty workspace</link> to view your "
-"entire desktop."
-msgstr ""
-"选择图像或颜色。系统将立即应用所修改的设置。<link xref=\"shell-workspaces-"
-"switch\">切换到空工作区</link>即可查看整个桌面。"
+msgid "Select an image or color. The settings are applied immediately."
+msgstr "选择一张图片或一种颜色。设置立即生效。"
 
 #. (itstool) path: page/p
-#: C/look-background.page:52
+#: C/look-background.page:50
 msgid "There are three choices in the drop-down list on the top right."
 msgstr "左侧的下拉列表中有三个选项。"
 
 #. (itstool) path: item/p
-#: C/look-background.page:54
+#: C/look-background.page:52
 msgid ""
 "Select <gui>Wallpapers</gui> to use one of the many professional background "
 "images that ship with Ubuntu. With the exception of the Ubuntu wallpaper, "
@@ -9958,7 +9972,7 @@ msgstr ""
 "了 Ubuntu 默认壁纸外，所有系统自带壁纸均由社区壁纸设计大赛优胜者制作。"
 
 #. (itstool) path: item/p
-#: C/look-background.page:58
+#: C/look-background.page:56
 msgid ""
 "Some wallpapers are partially transparent and allow a background color to "
 "show through. For these wallpapers, there will be a color selector button in "
@@ -9968,7 +9982,7 @@ msgstr ""
 "钮。"
 
 #. (itstool) path: item/p
-#: C/look-background.page:62
+#: C/look-background.page:60
 msgid ""
 "Select <gui>Pictures Folder</gui> to use one of your own photos from your "
 "Pictures folder. Most photo management applications store photos there."
@@ -9977,7 +9991,7 @@ msgstr ""
 "程序都在该文件夹中存储照片。"
 
 #. (itstool) path: item/p
-#: C/look-background.page:65
+#: C/look-background.page:63
 msgid ""
 "Select <gui>Colors &amp; Gradients</gui> to just use a flat color or a "
 "linear gradient. Color selector buttons will appear in the bottom right "
@@ -9987,7 +10001,7 @@ msgstr ""
 "会显示在右下角。"
 
 #. (itstool) path: page/p
-#: C/look-background.page:70
+#: C/look-background.page:68
 msgid ""
 "You can also browse for any picture on your computer by clicking the <gui>+</"
 "gui> button. Any picture you add this way will show up under <gui>Pictures "
@@ -10467,7 +10481,7 @@ msgstr "在 <gui>常规</gui> 部分，切换 <gui>主按钮</gui> 至 <gui>右�
 msgid ""
 "Use the middle mouse button to open applications, paste text, open tabs, and "
 "more."
-msgstr "用中键执行打开应用程序、粘贴文本、打开选项卡等操作。"
+msgstr "用中键执行打开应用程序、粘贴文本、打开标签页等操作。"
 
 #. (itstool) path: page/title
 #: C/mouse-middleclick.page:30
@@ -10557,8 +10571,8 @@ msgid ""
 "used middle-click to paste it to the location bar and pressed <key>Enter</"
 "key>."
 msgstr ""
-"大多网络浏览器均可用鼠标中键快速打开链接。只须用鼠标中键单击链接，就会在新选"
-"项卡中将其打开。但单击 <app>Firefox</app> 网络浏览器中的链接时要小心。在 "
+"大多网络浏览器均可用鼠标中键快速打开链接。只须用鼠标中键单击链接，就会在新标"
+"签页中将其打开。但单击 <app>Firefox</app> 网络浏览器中的链接时要小心。在 "
 "<app>Firefox</app> 中，如果用中键单击的不是链接，则会尝试以 URL 的形式加载所"
 "选文本，效果等同于通过中键单击将其粘贴到位置栏中并按 <key>回车</key>。"
 
@@ -10570,7 +10584,7 @@ msgid ""
 "browsers. If you middle-click a file, it will open the file, just as if you "
 "had double-clicked."
 msgstr ""
-"在文件管理器中，中键单击有两种作用。如果中键单击文件夹，则会在新选项卡中将其"
+"在文件管理器中，中键单击有两种作用。如果中键单击文件夹，则会在新标签页中将其"
 "打开。这是在模仿热门网络浏览器的功能。如果中键单击文件，则会打开文件，如同执"
 "行的是双击操作。"
 
@@ -10782,15 +10796,15 @@ msgid ""
 "<sys>[XExtensionPointer]</sys> items has the name of the mouse to the left "
 "of it."
 msgstr ""
-"您将看到一个简短的鼠标设备列表。确保其中至少有一个项目的旁边显示 <sys>"
-"[XExtensionPointer]</sys>，并且其中一个 <sys>[XExtensionPointer]</sys> 项目的"
-"左侧有鼠标名称。"
+"您将看到一个简短的鼠标设备列表。确保其中至少有一个项目的旁边显示 "
+"<sys>[XExtensionPointer]</sys>，并且其中一个 <sys>[XExtensionPointer]</sys> "
+"项目的左侧有鼠标名称。"
 
 #. (itstool) path: item/p
 #: C/mouse-problem-notmoving.page:61
 msgid ""
-"If there is no entry that has the name of the mouse followed by <sys>"
-"[XExtensionPointer]</sys>, then the mouse was not recognized by your "
+"If there is no entry that has the name of the mouse followed by "
+"<sys>[XExtensionPointer]</sys>, then the mouse was not recognized by your "
 "computer. If the entry exists, your mouse was recognized by your computer. "
 "In this case you should check that the mouse is <link xref=\"mouse-problem-"
 "notmoving#plugged-in\">plugged in</link> and in <link xref=\"mouse-problem-"
@@ -10913,9 +10927,9 @@ msgid ""
 "you may need to perform some extra steps to get it working. The steps might "
 "depend on the make or model of your mouse."
 msgstr ""
-"大多射频(无线电)无线鼠标插入计算机时都应该会自动运行。如果使用的是蓝牙或 IR"
-"(红外)无线鼠标，则可能必须多执行几步才能使其运行。这几步可能取决于鼠标的制造"
-"方式和型号。"
+"大多射频(无线电)无线鼠标插入计算机时都应该会自动运行。如果使用的是蓝牙或 "
+"IR(红外)无线鼠标，则可能必须多执行几步才能使其运行。这几步可能取决于鼠标的制"
+"造方式和型号。"
 
 #. (itstool) path: info/desc
 #: C/mouse-sensitivity.page:11
@@ -11591,9 +11605,9 @@ msgstr "打开要对其添加书签的文件夹(或位置)。"
 #. (itstool) path: item/p
 #: C/nautilus-bookmarks-edit.page:30
 msgid ""
-"Click the gear button in the toolbar and pick <gui>Bookmark this Location</"
-"gui>."
-msgstr "点击工具栏上的齿轮按钮，选择 <gui>添加该路径到书签</gui> 。"
+"Click <gui>Bookmarks</gui> in the menu bar and select <gui>Bookmark this "
+"Location</gui>."
+msgstr "点击菜单栏上的<gui>书签</gui>，选择<gui>将该位置加入书签</gui>。"
 
 #. (itstool) path: steps/title
 #: C/nautilus-bookmarks-edit.page:35
@@ -11601,13 +11615,11 @@ msgid "Delete a bookmark:"
 msgstr "删除书签："
 
 #. (itstool) path: item/p
-#: C/nautilus-bookmarks-edit.page:36 C/nautilus-bookmarks-edit.page:44
+#: C/nautilus-bookmarks-edit.page:36
 msgid ""
-"Click on <gui>Files</gui> in the top bar and pick <gui>Bookmarks</gui> from "
-"the app menu."
-msgstr ""
-"点击顶部面板的 <gui>文件</gui> ，然后在弹出的程序菜单中选择 <gui>书签</"
-"gui> 。"
+"Click <gui>Bookmarks</gui> in the menu bar and select <gui>Bookmarks...</"
+"gui> from the app menu."
+msgstr "点击菜单栏上的<gui>书签</gui>，选择<gui>书签...</gui>。"
 
 #. (itstool) path: item/p
 #: C/nautilus-bookmarks-edit.page:38
@@ -11621,6 +11633,15 @@ msgstr ""
 #: C/nautilus-bookmarks-edit.page:43
 msgid "Rename a bookmark:"
 msgstr "重命名书签："
+
+#. (itstool) path: item/p
+#: C/nautilus-bookmarks-edit.page:44
+msgid ""
+"Click on <gui>Files</gui> in the top bar and pick <gui>Bookmarks</gui> from "
+"the app menu."
+msgstr ""
+"点击顶部面板的 <gui>文件</gui> ，然后在弹出的程序菜单中选择 <gui>书签</"
+"gui> 。"
 
 #. (itstool) path: item/p
 #: C/nautilus-bookmarks-edit.page:46
@@ -12098,10 +12119,10 @@ msgid ""
 "videos, there will be an extra tab that provides information like the "
 "dimensions, duration, and codec."
 msgstr ""
-"显示在<gui>基本</gui>选项卡中的信息的说明如下。其中也有<gui><link xref="
+"显示在<gui>基本</gui>标签页中的信息的说明如下。其中也有<gui><link xref="
 "\"nautilus-file-properties-permissions\">权限</link></gui>和<gui><link xref="
-"\"files-open#default\">打开方式</link></gui>选项卡。对于某些类型的文件(如图像"
-"和视频)，会多显示一个选项卡，其中有尺寸、持续时间和编码之类的信息。"
+"\"files-open#default\">打开方式</link></gui>标签页。对于某些类型的文件(如图像"
+"和视频)，会多显示一个标签页，其中有尺寸、持续时间和编码之类的信息。"
 
 #. (itstool) path: section/title
 #: C/nautilus-file-properties-basic.page:47
@@ -12293,7 +12314,7 @@ msgid ""
 "<gui>Properties</gui>, then select the <gui>Permissions</gui> tab."
 msgstr ""
 "可用文件权限控制谁能查看和编辑用户拥有的文件。要查看和设置文件权限，请右键单"
-"击文件，选择<gui>属性</gui>，然后选择<gui>权限</gui>选项卡。"
+"击文件，选择<gui>属性</gui>，然后选择<gui>权限</gui>标签页。"
 
 #. (itstool) path: page/p
 #: C/nautilus-file-properties-permissions.page:37
@@ -12885,7 +12906,7 @@ msgstr ""
 "软件在后台运行，不断检查计可能会设法侵入计算机的计算机病毒。"
 
 #. (itstool) path: page/p
-#: C/net-antivirus.page:29
+#: C/net-antivirus.page:31
 msgid ""
 "Anti-virus software does exist for Linux, but you probably don't need to use "
 "it. Viruses that affect Linux are still very rare. Some argue that this is "
@@ -12899,19 +12920,19 @@ msgstr ""
 "编写者利用的安全问题很快就会得到解决。"
 
 #. (itstool) path: page/p
-#: C/net-antivirus.page:31
+#: C/net-antivirus.page:36
 msgid ""
 "Whatever the reason, Linux viruses are so rare that you don't really need to "
 "worry about them at the moment."
 msgstr "无论原因如何，目前 Linux 病毒都少得令人无须担心。"
 
 #. (itstool) path: page/p
-#: C/net-antivirus.page:33
+#: C/net-antivirus.page:38
 msgid ""
 "If you want to be extra-safe, or if you want to check for viruses in files "
 "that you are passing between yourself and people using Windows and Mac OS, "
-"you can still install anti-virus software. Check in the <app>Ubuntu Software "
-"Center</app> where a number of applications are available."
+"you can still install anti-virus software. Check in <app>Software</app> "
+"where a number of applications are available."
 msgstr ""
 "如果要添加一重安全措施，或者要检查在自己和使用 Windows 和 Mac OS 的人之间传送"
 "的文件中的病毒，则还是可以安装防病毒软件。请查看 <app>Ubuntu 软件中心</app>，"
@@ -12935,7 +12956,7 @@ msgstr ""
 #: C/net-general.page:19 C/net-problem.page:17 C/net-security.page:17
 #: C/net-wired.page:17 C/net-wireless.page:21 C/net-wireless-connect.page:19
 msgid "The Ubuntu Documentation Team"
-msgstr "Ubuntu 文档团队"
+msgstr "Ubuntu 文档团队 & Ubuntu Kylin 文档团队"
 
 #. (itstool) path: page/title
 #: C/net-browser.page:24
@@ -13727,7 +13748,7 @@ msgid ""
 "Click on the <gui>IPv4 Settings</gui> tab and change the <gui>Method</gui> "
 "to <em>Manual</em>."
 msgstr ""
-"转到<gui>无线安全</gui>选项卡，然后更改<gui>安全</gui>设置<gui>无</gui>。"
+"转到<gui>无线安全</gui>标签页，然后更改<gui>安全</gui>设置<gui>无</gui>。"
 
 #. (itstool) path: item/p
 #: C/net-fixed-ip-address.page:29
@@ -13819,32 +13840,25 @@ msgstr ""
 "的消息。Flash 可免费下载(但非开源软件)并适用于大多数 Web 浏览器。"
 
 #. (itstool) path: steps/title
-#: C/net-install-flash.page:31
+#: C/net-install-flash.page:32
 msgid "How to install Flash"
 msgstr "如何安装 Flash"
 
 #. (itstool) path: item/p
-#: C/net-install-flash.page:33
+#: C/net-install-flash.page:34
 msgid ""
-"Click <link href=\"apt:flashplugin-installer\">this link</link> to launch "
-"the <app>Software Center</app>."
-msgstr "单击<link href=\"apt:cheese\">此链接</link>启动<app>软件中心</app>。"
+"Click <link href=\"apt:flashplugin-installer\">this link</link> to launch an "
+"install option window."
+msgstr ""
+"单击<link href=\"apt:flashplugin-installer\">此链接</link>启动询问安装窗口。"
 
 #. (itstool) path: item/p
-#: C/net-install-flash.page:36
-msgid ""
-"Read the information and reviews to make sure you want to install Flash."
-msgstr "阅读有关 Cheese 的信息和评论以确保您确实要安装它。"
+#: C/net-install-flash.page:37
+msgid "If you choose to install Flash, click <gui>Install</gui>."
+msgstr "如果您选择安装，点击<gui>安装</gui>。"
 
 #. (itstool) path: item/p
-#: C/net-install-flash.page:39
-msgid ""
-"If you choose to install Flash, click <gui>Install</gui> from the Software "
-"Center window."
-msgstr "如果您选择安装，从“软件中心”窗口单击<gui>安装</gui>。"
-
-#. (itstool) path: item/p
-#: C/net-install-flash.page:42
+#: C/net-install-flash.page:40
 msgid ""
 "If you have any web browser windows open, close them and then re-open them. "
 "The web browser should detect that Flash is installed when you open it "
@@ -13854,12 +13868,12 @@ msgstr ""
 "器会检测到 Flash 已安装，现在您应可以使用 Flash 查看该网站。"
 
 #. (itstool) path: section/title
-#: C/net-install-flash.page:47
+#: C/net-install-flash.page:46
 msgid "Open-source alternatives to Flash"
 msgstr "Flash 的开源替代品"
 
 #. (itstool) path: section/p
-#: C/net-install-flash.page:48
+#: C/net-install-flash.page:47
 msgid ""
 "A handful of free, open-source alternatives to Flash are available. These "
 "tend to work better than the Flash plug-in in some ways (for example, by "
@@ -13871,7 +13885,7 @@ msgstr ""
 "Flash 页面)。"
 
 #. (itstool) path: section/p
-#: C/net-install-flash.page:49
+#: C/net-install-flash.page:50
 msgid ""
 "You might like to try one of these if you are dissatisfied with the Flash "
 "player, or if you would like to use as much open-source software as possible "
@@ -13881,12 +13895,12 @@ msgstr ""
 "试其中某款软件。下面提供了几个选项："
 
 #. (itstool) path: item/p
-#: C/net-install-flash.page:51
+#: C/net-install-flash.page:53
 msgid "<link href=\"apt:browser-plugin-gnash\">Gnash</link>"
 msgstr "<link href=\"apt:browser-plugin-gnash\">Gnash</link>"
 
 #. (itstool) path: item/p
-#: C/net-install-flash.page:52
+#: C/net-install-flash.page:54
 msgid "<link href=\"apt:browser-plugin-lightspark\">LightSpark</link>"
 msgstr "<link href=\"apt:browser-plugin-lightspark\">LightSpark</link>"
 
@@ -14080,7 +14094,7 @@ msgid ""
 "if you plug in to the network with a cable, look at the <gui>Wired</gui> tab."
 msgstr ""
 "查找您要手动设置的网络连接。例如，如果通过网线接入网络，请查看<gui>有线</gui>"
-"选项卡。"
+"标签页。"
 
 #. (itstool) path: item/p
 #: C/net-manual.page:35
@@ -14095,7 +14109,7 @@ msgid ""
 "Go to the <gui>IPv4 Settings</gui> tab and change the <gui>Method</gui> to "
 "<gui>Manual</gui>."
 msgstr ""
-"转到<gui>IPv4 设置</gui>选项卡，然后更改<gui>方式</gui>设置<gui>手动</gui>。"
+"转到<gui>IPv4 设置</gui>标签页，然后更改<gui>方式</gui>设置<gui>手动</gui>。"
 
 #. (itstool) path: item/p
 #: C/net-manual.page:43
@@ -14229,7 +14243,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/net-mobile.page:77
 msgid "Switch to the <gui>Mobile Broadband</gui> tab."
-msgstr "切换到<gui>移动宽带</gui>选项卡。"
+msgstr "切换到<gui>移动宽带</gui>标签页。"
 
 #. (itstool) path: item/p
 #: C/net-mobile.page:82
@@ -14347,7 +14361,7 @@ msgid ""
 "need to switch to the <gui>Wireless</gui> tab. Select the network name and "
 "then click <gui>Edit</gui>."
 msgstr ""
-"找到您希望对所有人可用的连接。您可能还需要切换到 <gui>无线</gui> 选项卡。选择"
+"找到您希望对所有人可用的连接。您可能还需要切换到 <gui>无线</gui> 标签页。选择"
 "相应的网络名称然后点击 <gui>编辑</gui>。"
 
 #. (itstool) path: item/p
@@ -14679,8 +14693,9 @@ msgid ""
 "before or apps that are not well-known. Providing anyone/anything with root "
 "level permissions puts your computer at high risk to exploitation."
 msgstr ""
-"向任何应用程序提供最高级别权限(特别是之前从未用过或不太了解的应用程序)时，请"
-"格外小心。为任何人/事提供最高级别权限将为您的计算机带来高暴露风险。"
+"向任何应用程序提供<link xref=\"user-admin-explain\">最高级别权限</link>(特别"
+"是之前从未用过或不太了解的应用程序)时，请格外小心。为任何人/事提供最高级别权"
+"限将为您的计算机带来高暴露风险。"
 
 #. (itstool) path: item/p
 #: C/net-security-tips.page:51
@@ -14861,25 +14876,22 @@ msgstr ""
 "登录的用户访问您所连接的本地网络。"
 
 #. (itstool) path: page/p
-#: C/net-vpn-connect.page:24
+#: C/net-vpn-connect.page:28
 msgid ""
 "There are a number of different types of VPN. You may have to install some "
 "extra software depending on what type of VPN you're connecting to. Find out "
 "the connection details from whoever is in charge of the VPN and see which "
-"<em>VPN client</em> you need to use. Then, open <app>Ubuntu Software Center</"
-"app> and search for the <app>network-manager</app> package which works with "
-"your VPN (if there is one) and install it. You will need to click the "
-"<gui>Show technical items</gui> link at the bottom of <app>Ubuntu Software "
-"Center</app>."
+"<em>VPN client</em> you need to use. Then, open <app>Software</app> and "
+"search for the <app>network-manager</app> package which works with your VPN "
+"(if there is one) and install it."
 msgstr ""
 "VPN 有多种不同的类型。根据您所连接的 VPN 类型，您可能需要额外安装一些软件。查"
-"明 VPN 主管方以及需要使用的 <em>VPN 客户端</em>等连接详情。然后打开 "
-"<app>Ubuntu 软件中心</app> 并搜索与您的 VPN 配合工作的 <app>network-manager</"
-"app> 软件包(如果有)并进行安装。您需要单击 <app>Ubuntu 软件中心</app> 底部的"
-"<gui>显示技术项目</gui>链接。"
+"明 VPN 主管方以及需要使用的<em>VPN 客户端</em>等连接详情。然后打开"
+"<app>Ubuntu 软件中心</app>并搜索与您的 VPN 配合工作的<app>network-manager</"
+"app>软件包(如果有)并进行安装。"
 
 #. (itstool) path: note/p
-#: C/net-vpn-connect.page:27
+#: C/net-vpn-connect.page:34
 msgid ""
 "If there isn't a NetworkManager package for your type of VPN, you will "
 "probably have to download and install some client software from the company "
@@ -14890,12 +14902,12 @@ msgstr ""
 "供公司的专用客户端软件。要使连接正常工作，您可能要遵循一些不同的说明。"
 
 #. (itstool) path: page/p
-#: C/net-vpn-connect.page:30
+#: C/net-vpn-connect.page:38
 msgid "Once that's done, you can set up the VPN connection:"
 msgstr "一旦完成，您即可设置 VPN 连接："
 
 #. (itstool) path: item/p
-#: C/net-vpn-connect.page:34
+#: C/net-vpn-connect.page:42
 msgid ""
 "Click the <gui>network menu</gui> on the menu bar and, under <gui>VPN "
 "Connections</gui>, select <gui>Configure VPN</gui>."
@@ -14904,19 +14916,19 @@ msgstr ""
 "VPN</gui>。"
 
 #. (itstool) path: item/p
-#: C/net-vpn-connect.page:38
+#: C/net-vpn-connect.page:46
 msgid "Click <gui>Add</gui> and choose which kind of VPN connection you have."
 msgstr "单击<gui>添加</gui>并选择您要使用的 VPN 类型。"
 
 #. (itstool) path: item/p
-#: C/net-vpn-connect.page:42
+#: C/net-vpn-connect.page:50
 msgid ""
 "Click <gui>Create</gui> and follow the instructions on the screen, entering "
 "details like your username and password as you go."
 msgstr "单击<gui>新建</gui>并按屏幕上的说明操作，输入用户名和密码等详细信息。"
 
 #. (itstool) path: item/p
-#: C/net-vpn-connect.page:46
+#: C/net-vpn-connect.page:54
 msgid ""
 "When you've finished setting-up the VPN, click the <gui>network menu</gui> "
 "on the menu bar, go to <gui>VPN Connections</gui> and click on the "
@@ -14928,7 +14940,7 @@ msgstr ""
 "发生变化。"
 
 #. (itstool) path: item/p
-#: C/net-vpn-connect.page:50
+#: C/net-vpn-connect.page:59
 msgid ""
 "Hopefully, you will successfully connect to the VPN. If not, you may need to "
 "double-check the VPN settings you entered. You can do this by clicking the "
@@ -14936,11 +14948,11 @@ msgid ""
 "<gui>VPN</gui> tab."
 msgstr ""
 "正常情况下，您将成功连接到 VPN。如果不能，您可能需要再次检查输入的 VPN 设置。"
-"您可通过单击网络菜单、选择<gui>编辑连接</gui>并转到<gui>VPN</gui> 选项卡来实"
+"您可通过单击网络菜单、选择<gui>编辑连接</gui>并转到<gui>VPN</gui> 标签页来实"
 "现此操作。"
 
 #. (itstool) path: item/p
-#: C/net-vpn-connect.page:54
+#: C/net-vpn-connect.page:64
 msgid ""
 "To disconnect from the VPN, click the network menu and select "
 "<gui>Disconnect</gui> under the name of your VPN connection."
@@ -15483,7 +15495,7 @@ msgid ""
 "available network to connect to a different one that has just come in range."
 msgstr ""
 "如果设置为自动连接的多个网络均有覆盖，计算机将连接到<gui>网络连接</gui>窗口"
-"<gui>无线</gui>选项卡中显示的第一个网络。它不会从一个可用网络断开而连接到刚进"
+"<gui>无线</gui>标签页中显示的第一个网络。它不会从一个可用网络断开而连接到刚进"
 "入搜索范围的其他网络。"
 
 #. (itstool) path: title/gui
@@ -15703,7 +15715,7 @@ msgid ""
 "which DNS servers it should use. Change the <gui>Method</gui> to see "
 "different ways of getting/setting that information."
 msgstr ""
-"使用此选项卡定义计算机的 IP 地址及其要使用的 DNS 服务器等信息。更改<gui>方法"
+"使用此标签页定义计算机的 IP 地址及其要使用的 DNS 服务器等信息。更改<gui>方法"
 "</gui>以查看获取/设置此信息的不同方式。"
 
 #. (itstool) path: section/p
@@ -15801,7 +15813,7 @@ msgid ""
 "IPv6 standard. Very modern networks use IPv6, but IPv4 is still more popular "
 "at the moment."
 msgstr ""
-"此选项与 <gui>IPv4</gui> 选项卡类似，不同之处在于IPv6 标准更新。较新的网络都"
+"此选项与 <gui>IPv4</gui> 标签页类似，不同之处在于IPv6 标准更新。较新的网络都"
 "使用 IPv6，但目前IPv4 仍很流行。"
 
 #. (itstool) path: info/desc
@@ -16181,12 +16193,12 @@ msgstr ""
 "在问题。您可能找到其他能够工作的驱动，请尝试下列几个："
 
 #. (itstool) path: item/p
-#: C/net-wireless-troubleshooting-device-drivers.page:31
+#: C/net-wireless-troubleshooting-device-drivers.page:34
 msgid "Check to see if your wireless adapter is on a list of supported devices"
 msgstr "检查您的无线适配器是否在受支持设备列表中"
 
 #. (itstool) path: item/p
-#: C/net-wireless-troubleshooting-device-drivers.page:32
+#: C/net-wireless-troubleshooting-device-drivers.page:35
 msgid ""
 "Most Linux distributions keep a list of wireless devices that they have "
 "support for. Sometimes, these lists provide extra information on how to get "
@@ -16207,12 +16219,12 @@ msgstr ""
 "作的信息。"
 
 #. (itstool) path: item/p
-#: C/net-wireless-troubleshooting-device-drivers.page:36
+#: C/net-wireless-troubleshooting-device-drivers.page:44
 msgid "Look for additional open or proprietary drivers"
 msgstr "寻找专有驱动程序？"
 
 #. (itstool) path: item/p
-#: C/net-wireless-troubleshooting-device-drivers.page:37
+#: C/net-wireless-troubleshooting-device-drivers.page:45
 msgid ""
 "Although Ubuntu includes support for a large amount of devices, some drivers "
 "need to be installed separately. Use the <gui>Additional Drivers</gui> tool "
@@ -16224,29 +16236,29 @@ msgstr ""
 "link> 驱动。"
 
 #. (itstool) path: item/p
-#: C/net-wireless-troubleshooting-device-drivers.page:43
+#: C/net-wireless-troubleshooting-device-drivers.page:51
 msgid ""
 "Click the button at the far right side of the menu bar and select "
 "<gui>System Settings</gui>."
 msgstr "单击顶栏最右侧的图标，选择<gui>系统设置</gui>。"
 
 #. (itstool) path: item/p
-#: C/net-wireless-troubleshooting-device-drivers.page:46
-msgid "In the System section, click <gui>Software Sources</gui>."
-msgstr "在系统部分，点击 <gui>软件源</gui> 。"
+#: C/net-wireless-troubleshooting-device-drivers.page:54
+msgid "In the System section, click <gui>Software &amp; Updates</gui>."
+msgstr "在系统部分，点击<gui>软件和更新</gui>。"
 
 #. (itstool) path: item/p
-#: C/net-wireless-troubleshooting-device-drivers.page:49
+#: C/net-wireless-troubleshooting-device-drivers.page:57
 msgid "Switch to the <gui>Additional Drivers</gui> tab."
 msgstr "切换到 <gui>附加驱动</gui> 标签。"
 
 #. (itstool) path: item/p
-#: C/net-wireless-troubleshooting-device-drivers.page:57
+#: C/net-wireless-troubleshooting-device-drivers.page:65
 msgid "Use the Windows drivers for your adapter"
 msgstr "使用 Windows 网卡驱动"
 
 #. (itstool) path: item/p
-#: C/net-wireless-troubleshooting-device-drivers.page:58
+#: C/net-wireless-troubleshooting-device-drivers.page:66
 msgid ""
 "In general, you cannot use a device driver designed for one operating system "
 "(like Windows) on another operating system (like Linux). This is because "
@@ -16269,7 +16281,7 @@ msgstr ""
 "NDISwrapper 运行。"
 
 #. (itstool) path: item/p
-#: C/net-wireless-troubleshooting-device-drivers.page:59
+#: C/net-wireless-troubleshooting-device-drivers.page:73
 msgid ""
 "Full information on ndiswrapper kept on <link href=\"https://help.ubuntu.com/"
 "community/WifiDocs/Driver/Ndiswrapper\">this page</link> including "
@@ -16360,8 +16372,9 @@ msgid ""
 "xref=\"#pci\">internal PCI</link>, <link xref=\"#usb\">USB</link>, or <link "
 "xref=\"#pcmcia\">PCMCIA</link>)."
 msgstr ""
-"您采取的步骤取决于使用的设备类型。请参阅与计算机上所用无线适配器类型相关的部"
-"分。PCI、USB 或 PCMCIA。"
+"如果无线设备<em>没有<em>列出，下一步操作取决于使用的设备类型。请参阅与计算机"
+"上所用无线适配器类型相关的部分：<link xref=\"#pci\">内置 PCI</link>、<link "
+"xref=\"#usb\">USB</link> 或 <link xref=\"#pcmcia\">PCMCIA</link>。"
 
 #. (itstool) path: section/title
 #: C/net-wireless-troubleshooting-hardware-check.page:46
@@ -16803,7 +16816,7 @@ msgstr ""
 msgid ""
 "Go to the <gui>Wireless</gui> tab and find the network that you <em>don't</"
 "em> want it to keep connecting to."
-msgstr "转至<gui>无线</gui>选项卡并查找<em>不想</em>让其保持连接的网络。"
+msgstr "转至<gui>无线</gui>标签页并查找<em>不想</em>让其保持连接的网络。"
 
 #. (itstool) path: item/p
 #: C/net-wrongnetwork.page:37
@@ -16811,7 +16824,7 @@ msgid ""
 "Click that network once to select it and click <gui>Delete</gui>. Your "
 "computer won't try to connect to that network any more."
 msgstr ""
-"单击选定该网络并单击<gui>删除</gui>。您的计算机将不再尝试连接到该网络。"
+"单击选定该网部分单击<gui>删除</gui>。您的计算机将不再尝试连接到该网络。"
 
 #. (itstool) path: page/p
 #: C/net-wrongnetwork.page:42
@@ -16823,6 +16836,56 @@ msgid ""
 msgstr ""
 "如果您稍后想要连接到刚删除的网络，则只需从您单击顶部面板上网络菜单时出现的无"
 "线网络列表中选择它即可，和连接到任何其他无线网络步骤一致。"
+
+#. (itstool) path: info/desc
+#: C/numeric-keypad.page:9
+msgid "Enable the numeric keypad by default."
+msgstr "默认情况下，启用数字键盘。"
+
+#. (itstool) path: page/title
+#: C/numeric-keypad.page:20
+msgid "Numeric keypad"
+msgstr "数字键盘"
+
+#. (itstool) path: page/p
+#: C/numeric-keypad.page:22
+msgid ""
+"With the <key>Num Lock</key> key you can manually switch on or off the "
+"numeric keypad on your keyboard. Also, computers' BIOS settings often "
+"include an option to decide if the computer should be started with the "
+"numeric keypad enabled. Otherwise, this is a way to configure it:"
+msgstr ""
+"使用<key>Num Lock</key> 按钮，您可以手动开启或开闭您键盘上的数字键盘。您也可"
+"以通过 BIOS 设置来开机时启动数字键盘。不然，还有一种方法可以设置："
+
+#. (itstool) path: item/p
+#: C/numeric-keypad.page:29
+msgid ""
+"<link xref=\"addremove-install\">Install</link> the <em>numlockx</em> "
+"package."
+msgstr "<link xref=\"addremove-install\">安装</link>  <em>numlockx</em> 包。"
+
+#. (itstool) path: item/p
+#: C/numeric-keypad.page:32
+msgid ""
+"Open <app><link xref=\"startup-applications\">Startup Applications</link></"
+"app> and add a startup program with the command: <cmd>numlockx on</cmd>"
+msgstr ""
+"打开<app><link xref=\"startup-applications\">启动应用程序</link></app>，使用"
+"命令<cmd>numlockx on</cmd>添加数字键盘为启动应用程序。"
+
+#. (itstool) path: page/p
+#: C/numeric-keypad.page:37
+msgid ""
+"If you want the numeric keyboard to be on also at the login screen, you can "
+"create a special configuration file. Press <keyseq><key>Ctrl</key><key>Alt</"
+"key><key>T</key></keyseq> to open a terminal window, and then run this "
+"command (it's one long command, even if it may be shown wrapped on the "
+"screen - copy and paste to get it right):"
+msgstr ""
+"如果希望在登录界面也打开数字键盘，您可以创建一个特殊的配置文件。按"
+"<keyseq><key>Ctrl</key><key>Alt</key><key>T</key></keyseq>打开终端窗口，执行"
+"此命令（长度较长，甚至会在屏幕上自动换行 - 复制粘贴即可）："
 
 #. (itstool) path: info/desc
 #: C/power-batterybroken.page:10
@@ -17293,7 +17356,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/power-closelid.page:53
 msgid "In the <gui>Hardware</gui> section, click <gui>Power</gui>."
-msgstr "在<gui>布局</gui>选项卡中单击<gui>电源</gui>。"
+msgstr "在<gui>布局</gui>标签页中单击<gui>电源</gui>。"
 
 #. (itstool) path: item/p
 #: C/power-closelid.page:54
@@ -17667,7 +17730,7 @@ msgstr "单击面板最右侧的图标，选择<gui>系统设置</gui>。"
 #. (itstool) path: item/p
 #: C/power-nowireless.page:45
 msgid "Open <gui>Network</gui> and select the <gui>Wireless</gui> tab"
-msgstr "打开<gui>网络</gui>并选中<gui>无线</gui>选项卡。"
+msgstr "打开<gui>网络</gui>并选中<gui>无线</gui>标签页。"
 
 #. (itstool) path: item/p
 #: C/power-nowireless.page:48
@@ -18313,7 +18376,7 @@ msgid ""
 "from the <gui>Two-sided</gui> drop-down list. If the option is disabled, two-"
 "sided printing is not available for your printer."
 msgstr ""
-"转入打印窗口选项卡的<gui>页面设置</gui>并从下拉列表中选择<gui>双面</gui>选"
+"转入打印窗口标签页的<gui>页面设置</gui>并从下拉列表中选择<gui>双面</gui>选"
 "项。如果该选项已禁用，则打印机不可用于双面打印。"
 
 #. (itstool) path: item/p
@@ -18385,7 +18448,7 @@ msgstr "如何取消打印作业："
 #. (itstool) path: item/p
 #: C/printing-cancel-job.page:44 C/printing-cancel-job.page:74
 #: C/printing-setup-default-printer.page:35 C/printing-setup.page:72
-#: C/unity-shopping.page:45 C/user-add.page:64 C/user-admin-change.page:32
+#: C/user-add.page:64 C/user-admin-change.page:32
 #: C/user-changepassword.page:52 C/user-changepicture.page:30
 #: C/user-delete.page:32 C/wacom-left-handed.page:27 C/wacom-mode.page:24
 #: C/wacom-multi-monitor.page:29 C/wacom-stylus.page:32
@@ -18495,7 +18558,7 @@ msgstr "单击<guiseq><gui>文件</gui><gui>打印</gui></guiseq>"
 #. (itstool) path: item/p
 #: C/printing-differentsize.page:34
 msgid "Select the <gui>Page Setup</gui> tab."
-msgstr "选择<gui>页面设置</gui>选项卡。"
+msgstr "选择<gui>页面设置</gui>标签页。"
 
 #. (itstool) path: item/p
 #: C/printing-differentsize.page:35
@@ -18695,7 +18758,7 @@ msgid ""
 "In the <gui>General</gui> tab of the Print window under <em>Copies</em>, "
 "check <gui>Reverse</gui>. The last page will be printed first, and so on."
 msgstr ""
-"在打印窗口的 <gui>常规</gui> 选项卡下找到 <em>份数</em>，选中 <gui>逆续</"
+"在打印窗口的 <gui>常规</gui> 标签页下找到 <em>份数</em>，选中 <gui>逆续</"
 "gui>。这样会先打印最后一页，然后逆续进行。"
 
 #. (itstool) path: section/title
@@ -18727,7 +18790,7 @@ msgid ""
 "In the <gui>General</gui> tab of the Print window under <em>Copies</em> "
 "check <gui>Collate</gui>."
 msgstr ""
-"在打印窗口的 <gui>常规</gui> 选项卡下找到 <em>份数</em>，选中 <gui>校正</"
+"在打印窗口的 <gui>常规</gui> 标签页下找到 <em>份数</em>，选中 <gui>校正</"
 "gui>。"
 
 #. (itstool) path: info/desc
@@ -18791,7 +18854,7 @@ msgid ""
 "In the <gui>General</gui> tab in the <gui>Print</gui> window choose "
 "<gui>Pages</gui> from the <gui>Range</gui> section."
 msgstr ""
-"在<gui>打印</gui>窗口中的<gui>常规</gui>选项卡中，从<gui>范围</gui>部分中选择"
+"在<gui>打印</gui>窗口中的<gui>常规</gui>标签页中，从<gui>范围</gui>部分中选择"
 "<gui>页码</gui>。"
 
 #. (itstool) path: item/p
@@ -19492,8 +19555,8 @@ msgid ""
 "<link xref=\"sharing-desktop\">Desktop sharing</link>, <link xref=\"files-"
 "share\">Share files</link>…"
 msgstr ""
-"在线备份服务(例如 <link href=\"http://aws.amazon.com/s3/\">Amazon S3</"
-"link>， 容量与价格有关)"
+"<link xref=\"sharing-desktop\">桌面共享</link>，<link xref=\"files-share\">共"
+"享文件</link>…"
 
 #. (itstool) path: page/title
 #: C/sharing.page:27
@@ -19544,8 +19607,8 @@ msgstr "在 <gui>Dash</gui> 中，打开 <app>个人文件共享</app>。"
 #. (itstool) path: item/p
 #: C/sharing-bluetooth.page:39
 msgid ""
-"Select the desired Bluetooth file sharing and receiving options options from "
-"the list."
+"Select the desired Bluetooth file sharing and receiving options from the "
+"list."
 msgstr "从列表中选择需要的蓝牙文件共享接收选项。"
 
 #. (itstool) path: info/desc
@@ -20707,14 +20770,19 @@ msgstr "打开工作区切换器并将该窗口托动到不同的工作区。"
 msgid "Move a window to a different workspace"
 msgstr "将窗口移动到另一个工作区"
 
+#. (itstool) path: note/p
+#: C/shell-workspaces-movewindow.page:28 C/shell-workspaces-switch.page:27
+msgid "Please see <link xref=\"shell-workspaces\"/> about enabling workspaces."
+msgstr "关于启用工作区，请参阅<link xref=\"shell-workspaces\"/>。"
+
 #. (itstool) path: page/p
 #. (itstool) path: item/title
-#: C/shell-workspaces-movewindow.page:27 C/shell-workspaces-switch.page:28
+#: C/shell-workspaces-movewindow.page:31 C/shell-workspaces-switch.page:32
 msgid "Using the mouse:"
 msgstr "使用鼠标："
 
 #. (itstool) path: item/p
-#: C/shell-workspaces-movewindow.page:31
+#: C/shell-workspaces-movewindow.page:35
 msgid ""
 "Open the <link xref=\"unity-launcher-intro\">Launcher</link> and click the "
 "<gui>workspace switcher</gui> button near the bottom."
@@ -20723,23 +20791,23 @@ msgstr ""
 "作区切换器</gui>按钮。"
 
 #. (itstool) path: item/p
-#: C/shell-workspaces-movewindow.page:35
+#: C/shell-workspaces-movewindow.page:39
 msgid "Drag the window to the workspace you choose."
 msgstr "将窗口拖动到您选择的工作区。"
 
 #. (itstool) path: page/p
 #. (itstool) path: item/title
-#: C/shell-workspaces-movewindow.page:39 C/shell-workspaces-switch.page:33
+#: C/shell-workspaces-movewindow.page:43 C/shell-workspaces-switch.page:37
 msgid "Using the keyboard:"
 msgstr "使用键盘："
 
 #. (itstool) path: item/p
-#: C/shell-workspaces-movewindow.page:42
+#: C/shell-workspaces-movewindow.page:46
 msgid "Select the window you want to move."
 msgstr "选择您想切换到的窗口。"
 
 #. (itstool) path: item/p
-#: C/shell-workspaces-movewindow.page:45
+#: C/shell-workspaces-movewindow.page:49
 msgid ""
 "Press <keyseq><key>Ctrl</key><key>Alt</key><key>Shift</key><key>→</key></"
 "keyseq> to move the window to a workspace which is to the right of the "
@@ -20749,7 +20817,7 @@ msgstr ""
 "keyseq> 将窗口移动到<gui>工作区切换器</gui>里右侧的工作区。"
 
 #. (itstool) path: item/p
-#: C/shell-workspaces-movewindow.page:51
+#: C/shell-workspaces-movewindow.page:55
 msgid ""
 "Press <keyseq><key>Ctrl</key><key>Alt</key><key>Shift</key><key>←</key></"
 "keyseq> to move the window to a workspace which is to the left of the "
@@ -20759,7 +20827,7 @@ msgstr ""
 "keyseq> 将窗口移动到<gui>工作区切换器</gui>里左侧的工作区。"
 
 #. (itstool) path: item/p
-#: C/shell-workspaces-movewindow.page:57
+#: C/shell-workspaces-movewindow.page:61
 msgid ""
 "Press <keyseq><key>Ctrl</key><key>Alt</key><key>Shift</key><key>↓</key></"
 "keyseq> to move the window to a workspace which is below the current "
@@ -20769,7 +20837,7 @@ msgstr ""
 "keyseq> 将窗口移动到<gui>工作区切换器</gui>里下方的工作区。"
 
 #. (itstool) path: item/p
-#: C/shell-workspaces-movewindow.page:63
+#: C/shell-workspaces-movewindow.page:67
 msgid ""
 "Press <keyseq><key>Ctrl</key><key>Alt</key><key>Shift</key><key>↑</key></"
 "keyseq> to move the window to a workspace which is above the current "
@@ -20797,10 +20865,10 @@ msgstr "工作区是什么，它对我有何帮助？"
 msgctxt "_"
 msgid ""
 "external ref='figures/unity-workspace-intro.png' "
-"md5='6000b012197429a0c6004a354d7e9e70'"
+"md5='058673b073532130bbe9d340a4b3d6e1'"
 msgstr ""
 "external ref='figures/unity-workspace-intro.png' "
-"md5='6000b012197429a0c6004a354d7e9e70'"
+"md5='058673b073532130bbe9d340a4b3d6e1'"
 
 #. (itstool) path: media/p
 #: C/shell-workspaces.page:27
@@ -20829,25 +20897,42 @@ msgstr ""
 "天程序)位于一个工作区，并且使您正在进行的工作位于另一个工作区，您的音乐管理器"
 "可位于第三个工作区。"
 
-#. (itstool) path: page/p
-#: C/shell-workspaces.page:38
+#. (itstool) path: steps/title
+#: C/shell-workspaces.page:39
+msgid "Enable workspaces"
+msgstr "启用工作区"
+
+#. (itstool) path: item/p
+#: C/shell-workspaces.page:44
 msgid ""
-"Open the <link xref=\"unity-launcher-intro\">Launcher</link> and click the "
-"<gui>workspace switcher</gui> icon near the bottom. By default, Ubuntu shows "
-"4 workspaces, arranged in 2 rows and 2 columns. You can change the number of "
-"workspaces:"
+"In the Personal section, click <gui>Appearance</gui> and select the "
+"<gui>Behavior</gui> tab."
+msgstr "在“个人”区域，单击<gui>外观</gui> 并选择<gui>行为</gui>标签页。"
+
+#. (itstool) path: item/p
+#: C/shell-workspaces.page:47
+msgid "Tick the <gui>Enable workspaces</gui> checkbox."
+msgstr "勾选<gui>开启工作区</gui> 复选框。"
+
+#. (itstool) path: page/p
+#: C/shell-workspaces.page:51
+msgid ""
+"Now you can open the <link xref=\"unity-launcher-intro\">Launcher</link> and "
+"click the <gui>workspace switcher</gui> icon near the bottom. By default, "
+"Ubuntu shows 4 workspaces, arranged in 2 rows and 2 columns. You can change "
+"the number of workspaces:"
 msgstr ""
-"打开<link xref=\"unity-launcher-intro\">启动器</link>并单击靠近底部的<gui>工"
+"打开 <link xref=\"unity-launcher-intro\">启动器</link>并单击靠近底部的<gui>工"
 "作区切换器</gui>图标。默认情况下，Ubuntu 会显示 4 个工作区，成 2 排 2 列排"
-"列。您可以轻松更改工作区数量："
+"列。您可以更改工作区数量："
 
 #. (itstool) path: steps/title
-#: C/shell-workspaces.page:41
+#: C/shell-workspaces.page:54
 msgid "Change the number of workspaces"
 msgstr "更改工作区编号"
 
 #. (itstool) path: item/p
-#: C/shell-workspaces.page:42
+#: C/shell-workspaces.page:55
 msgid ""
 "Go to the <link xref=\"unity-dash-intro\">Dash</link> and open the "
 "<app>Terminal</app>."
@@ -20855,7 +20940,7 @@ msgstr ""
 "前往 <link xref=\"unity-dash-intro\">Dash</link> 并打开 <app>终端</app>。"
 
 #. (itstool) path: item/p
-#: C/shell-workspaces.page:43
+#: C/shell-workspaces.page:56
 msgid ""
 "To change the number of rows, type the following command, changing the final "
 "number to the number you wish. Press <key>Enter</key>."
@@ -20864,7 +20949,7 @@ msgstr ""
 "key>。"
 
 #. (itstool) path: item/p
-#: C/shell-workspaces.page:46
+#: C/shell-workspaces.page:59
 msgid ""
 "To change the number of columns, type the following command, changing the "
 "final number to the number you wish. Press <key>Enter</key>."
@@ -20883,7 +20968,7 @@ msgid "Switch between workspaces"
 msgstr "在工作区之间进行切换"
 
 #. (itstool) path: item/p
-#: C/shell-workspaces-switch.page:29
+#: C/shell-workspaces-switch.page:33
 msgid ""
 "Open the <link xref=\"unity-launcher-intro\">Launcher</link> and click the "
 "<gui>workspace switcher</gui> button near the bottom. Double-click on any "
@@ -20895,7 +20980,7 @@ msgstr ""
 "器”按钮返回至上一个工作区。"
 
 #. (itstool) path: item/p
-#: C/shell-workspaces-switch.page:37
+#: C/shell-workspaces-switch.page:41
 msgid ""
 "Press <keyseq><key>Ctrl</key><key>Alt</key><key>→</key></keyseq> to move to "
 "a workspace which is to the right of the current workspace."
@@ -20904,7 +20989,7 @@ msgstr ""
 "作区右侧的工作区。"
 
 #. (itstool) path: item/p
-#: C/shell-workspaces-switch.page:40
+#: C/shell-workspaces-switch.page:44
 msgid ""
 "Press <keyseq><key>Ctrl</key><key>Alt</key><key>←</key></keyseq> to move to "
 "a workspace which is to the left of the current workspace."
@@ -20913,7 +20998,7 @@ msgstr ""
 "作区左侧的工作区。"
 
 #. (itstool) path: item/p
-#: C/shell-workspaces-switch.page:45
+#: C/shell-workspaces-switch.page:49
 msgid ""
 "Press <keyseq><key>Ctrl</key><key>Alt</key><key>↓</key></keyseq> to move to "
 "a workspace which is below the current workspace."
@@ -20922,7 +21007,7 @@ msgstr ""
 "作区下面的工作区。"
 
 #. (itstool) path: item/p
-#: C/shell-workspaces-switch.page:48
+#: C/shell-workspaces-switch.page:52
 msgid ""
 "Press <keyseq><key>Ctrl</key><key>Alt</key><key>↑</key></keyseq> to move to "
 "a workspace which is above the current workspace."
@@ -20935,14 +21020,14 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/shell-workspaces-switch.page:56
+#: C/shell-workspaces-switch.page:60
 msgctxt "_"
 msgid ""
 "external ref='figures/unity-windows.png' "
-"md5='207d37d0d15b3e2c759f90fabe877f55'"
+"md5='a29e8180454ef7c9d06bf4a7f8bf238d'"
 msgstr ""
 "external ref='figures/unity-windows.png' "
-"md5='207d37d0d15b3e2c759f90fabe877f55'"
+"md5='a29e8180454ef7c9d06bf4a7f8bf238d'"
 
 #. (itstool) path: info/desc
 #: C/sound-alert.page:14
@@ -21432,7 +21517,7 @@ msgid ""
 msgstr ""
 "一些电脑支持多声道环绕声输出。这通常会使用编有不同颜色的多 TRS 插孔。如果不确"
 "定不同插头所对应的插槽，则您可在声音设置里测试声音输出。单击<gui>菜单栏</gui>"
-"中的<gui>声音菜单</gui>，然后单击<gui>声音设置</gui>。在<gui>硬件</gui>选项卡"
+"中的<gui>声音菜单</gui>，然后单击<gui>声音设置</gui>。在<gui>硬件</gui>标签页"
 "的设备列表中选择您的扬声器，然后单击<gui>测试扬声器</gui>。单击弹出窗口中每个"
 "扬声器的按钮。每个按钮将仅向与其扬声器对应的声道报告自己的位置。"
 
@@ -21457,7 +21542,7 @@ msgid ""
 "If you don't see your device on the <gui>Output</gui> tab, check the "
 "<gui>Hardware</gui> tab. Select your device and try different profiles."
 msgstr ""
-"如果在<gui>输出</gui>标签页中看不到您的设备，则选中<gui>硬件</gui>选项卡。选"
+"如果在<gui>输出</gui>标签页中看不到您的设备，则选中<gui>硬件</gui>标签页。选"
 "择您的设备，并尝试不同的配置。"
 
 #. (itstool) path: info/desc
@@ -21544,6 +21629,57 @@ msgid ""
 msgstr ""
 "只有正在播放声音的应用程序才会被列出。如果没有列出正在播放声音的应用程序，则"
 "该应用程序可能不支持这样控制音量的功能。在这种情况下，您不能更改它的音量。"
+
+#. (itstool) path: info/desc
+#: C/startup-applications.page:9
+msgid "Choose what applications to start when you log in."
+msgstr "选择登录时要启动的应用程序。"
+
+#. (itstool) path: page/title
+#: C/startup-applications.page:20
+msgid "Startup Applications"
+msgstr "启动应用程序"
+
+#. (itstool) path: page/p
+#: C/startup-applications.page:22
+msgid ""
+"You can configure what applications should be started at login, in addition "
+"to the default startup applications configured on the system."
+msgstr "您可以设置登录系统时，额外启动的以及系统默认自动启动的应用程序。"
+
+#. (itstool) path: item/p
+#: C/startup-applications.page:27
+msgid ""
+"Use <link xref=\"unity-dash-intro\">the Dash</link> to find and open "
+"<gui>Startup Applications</gui>. Alternatively you can press "
+"<keyseq><key>Alt</key><key>F2</key></keyseq> and run the <cmd>gnome-session-"
+"properties</cmd> command."
+msgstr ""
+"使用 <link xref=\"unity-dash-intro\">Dash</link> 搜索并打开 <gui>启动应用程序"
+"首选项</gui>。或者您可以输入<keyseq><key>Alt</key><key>F2</key></keyseq>，并"
+"执行<cmd>gnome-session-properties</cmd>命令。"
+
+#. (itstool) path: item/p
+#: C/startup-applications.page:33
+msgid ""
+"Click <gui>Add</gui> and enter the command to be executed at login (name and "
+"comment are optional). For example, to make Firefox start automatically, "
+"it's sufficient to type <cmd>firefox</cmd> in the <gui>Command</gui> field "
+"and confirm with <gui>Add</gui>."
+msgstr ""
+"单击<gui>添加</gui>并输入启动程序命令（名称和注释是可选的）。例如，添加火狐为"
+"自启动程序，在 <gui>命令</gui> 输入框内输入<cmd>firefox</cmd> 并点击 <gui>添"
+"加</gui>确认。"
+
+#. (itstool) path: note/p
+#: C/startup-applications.page:41
+msgid ""
+"You can either type the command, or click the <gui>Browse...</gui> button "
+"and select a command. Applications to autostart are typically located in the "
+"<code>/usr/bin</code> folder."
+msgstr ""
+"您可以输入命令，也可以点击<gui>浏览...</gui>按钮，并选择命令。自启动应用程序"
+"一般位于 <code>/usr/bin</code> 文件夹。"
 
 #. (itstool) path: info/desc
 #: C/tips.page:12
@@ -21633,17 +21769,16 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/tips-specialchars.page:65
 msgid ""
-"To enter a character by its code point, hold down <key>Ctrl</key> and "
-"<key>Shift</key>, type <key>u</key> followed by the four-character code "
-"point, then release <key>Ctrl</key> and <key>Shift</key>. If you often use "
-"characters that you can't easily access with other methods, you might find "
-"it useful to memorize the code point for those characters so you can enter "
-"them quickly."
+"To enter a character by its code point, press <keyseq><key>Ctrl</"
+"key><key>Shift</key><key>U</key></keyseq>, type the four-character code "
+"point, and press <key>Enter</key>. If you often use characters that you "
+"can't easily access with other methods, you might find it useful to memorize "
+"the code point for those characters so you can enter them quickly."
 msgstr ""
-"要通过其码位键入字符，请按住 <key>Ctrl</key> 和 <key>Shift</key>，先输入 "
-"<key>u</key> 再输入四位码位，最后释放 <key>Ctrl</key> 和 <key>Shift</key>。如"
-"果您经常使用容易地通过其他方法获得的字符，您会发现记住这些字符的码位非常有"
-"用，这样您可快速的输入这些字符。"
+"要通过其码位键入字符，请按住<keyseq><key>Ctrl</key><key>Shift</key><key>U</"
+"key></keyseq>，输入四位码位，最后按住 <key>Enter</key>。如果您经常使用容易地"
+"通过其他方法获得的字符，您会发现记住这些字符的码位非常有用，这样您可快速的输"
+"入这些字符。"
 
 #. (itstool) path: section/title
 #: C/tips-specialchars.page:74
@@ -21676,11 +21811,11 @@ msgstr "应用程序栏目"
 #: C/unity-dash-apps.page:21
 msgid ""
 "The applications lens is the first lens after the Dash home in the <gui>lens "
-"bar</gui>. The applications lens gives you access to your apps or apps "
-"available for install."
+"bar</gui>. The applications lens gives you access to your applications or "
+"applications available for install."
 msgstr ""
-"应用栏目是<gui>栏目条</gui>上 Dash 主界面后的第一个栏目。音乐栏目可以帮助您访"
-"问以及安装的或者可用安装的程序。"
+"应用栏目是栏目条上 Dash 主界面后的第一个栏目。应用栏目可以帮助您访问以及安装"
+"的或者可用安装的程序。"
 
 #. (itstool) path: page/p
 #: C/unity-dash-apps.page:25
@@ -21703,18 +21838,18 @@ msgstr "预览"
 #: C/unity-dash-apps.page:31
 msgid ""
 "Right click on a search result to open a <gui>preview</gui>. The preview "
-"shows a short description of the app, a screenshot, its <gui>Software "
-"Center</gui> rating, and what version is available."
+"shows a short description of the application, a screenshot, its "
+"<app>Software</app> rating, and what version is available."
 msgstr ""
-"在搜索结果上点击右键打开 <gui>预览</gui>。预览显示应用的简短描述，一个截图，"
-"<gui>软件中心</gui> 中的评分以及可用的版本。"
+"在搜索结果上点击右键打开<gui>预览</gui>。预览显示应用的简短描述，一个截图，"
+"<app>软件中心</app>中的评分以及可用的版本。"
 
 #. (itstool) path: section/p
 #: C/unity-dash-apps.page:35
 msgid ""
-"For installed apps, you can see when the app was installed and either launch "
-"the app or uninstall it. Certain essential apps cannot be uninstalled from "
-"the preview."
+"For installed applications, you can see when the application was installed "
+"and either launch the application or uninstall it. Certain essential "
+"applications cannot be uninstalled from the preview."
 msgstr ""
 "对于已经安装的应用，可以查看何时安装的或者启动或者卸载。一些重要的应用不能在"
 "预览中卸载。"
@@ -21722,8 +21857,8 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/unity-dash-apps.page:39
 msgid ""
-"For apps that haven't been installed, you can install them right from the "
-"preview."
+"For applications that haven't been installed, you can install them right "
+"from the preview."
 msgstr "对于还没有安装的应用，可以在预览中安装。"
 
 #. (itstool) path: section/title
@@ -21739,14 +21874,13 @@ msgstr "过滤器"
 msgid ""
 "Click <gui>Filter results</gui> if you'd like to only see results for a "
 "certain type of application. You can also click <guiseq><gui>Sources</"
-"gui><gui>Local Apps</gui></guiseq> to only view installed apps or "
-"<guiseq><gui>Sources</gui><gui>Software Center</gui></guiseq> to only show "
-"apps available for install."
+"gui><gui>Local Applications</gui></guiseq> to only view installed "
+"applications or <guiseq><gui>Sources</gui><gui>Software Center</gui></"
+"guiseq> to only show applications available for install."
 msgstr ""
-"如果只想看到特定类型应用程序的结果，请点击 <gui>Filter results</gui>。您也可"
-"以点击 <guiseq><gui>Sources</gui><gui>Local Apps</gui></guiseq> 以只查看已安"
-"装的应用或 <guiseq><gui>源</gui><gui>软件中心</gui></guiseq>以只显示可以安装"
-"的应用。"
+"如果只想看到特定类型应用程序的结果，请点击 <gui>过滤结果</gui>。您也可以点击"
+"<guiseq><gui>来源</gui><gui>应用程序</gui></guiseq> 以只查看已安装的应用或"
+"<guiseq><gui>来源</gui><gui>软件中心</gui></guiseq>以只显示可以安装的应用。"
 
 #. (itstool) path: info/desc
 #: C/unity-dash-files.page:8
@@ -21870,7 +22004,7 @@ msgstr "Dash 是启动器顶部的按钮。"
 
 #. (itstool) path: page/title
 #: C/unity-dash-intro.page:19
-msgid "Find apps, files, music, and more with the Dash"
+msgid "Find applications, files, music, and more with the Dash"
 msgstr "使用 Dash 查找应用、文件、音乐以及更多内容"
 
 #. (itstool) path: page/media
@@ -21882,10 +22016,10 @@ msgstr "使用 Dash 查找应用、文件、音乐以及更多内容"
 msgctxt "_"
 msgid ""
 "external ref='figures/unity-dash-sample.png' "
-"md5='001e1772fdb57bc7a88601566f6eb0e1'"
+"md5='b911663ea04c69ca882b45d469e8d786'"
 msgstr ""
 "external ref='figures/unity-dash-sample.png' "
-"md5='001e1772fdb57bc7a88601566f6eb0e1'"
+"md5='b911663ea04c69ca882b45d469e8d786'"
 
 #. (itstool) path: media/p
 #: C/unity-dash-intro.page:22
@@ -21934,11 +22068,11 @@ msgstr "在 Dash 主界面可以搜索所有"
 #: C/unity-dash-intro.page:40
 msgid ""
 "The first thing you'll see when opening the Dash is the Dash Home. Without "
-"typing or clicking anything, the Dash Home will show you apps and files "
-"you've used recently."
+"typing or clicking anything, the Dash Home will show you applications and "
+"files you've used recently."
 msgstr ""
-"打开 Dash 后看到的第一个界面就是 Dash 主界面。不需要输入或点击，Dash 主界面将"
-"显示最近使用的程序和文件。"
+"打开 Dash 后看到的第一个界面就是 Dash 主界面。不作任何输入或点击，Dash 主界面"
+"将显示最近使用的程序和文件。"
 
 #. (itstool) path: section/p
 #: C/unity-dash-intro.page:42
@@ -22287,7 +22421,7 @@ msgid ""
 "Ubuntu desktop. First we will take a moment to look at some of Unity's key "
 "features, and how you can use them."
 msgstr ""
-"本文档用以回答使用 Unity 和 Ubuntu 桌面的问题。首先让我们来看一下 Unity 的关"
+"本文档用以回答使用 Unity 和 Ubuntu/Ubuntu Kylin 桌面的问题。首先让我们来看一下 Unity 的关"
 "键功能，以及如何使用它们。"
 
 #. (itstool) path: section/title
@@ -22304,10 +22438,10 @@ msgstr "开始使用 Unity"
 msgctxt "_"
 msgid ""
 "external ref='figures/unity-overview.png' "
-"md5='1042fd18e19531f6104180861461e9c6'"
+"md5='e6639b68b89c315005e0fc6099f56ace'"
 msgstr ""
 "external ref='figures/unity-overview.png' "
-"md5='1042fd18e19531f6104180861461e9c6'"
+"md5='e6639b68b89c315005e0fc6099f56ace'"
 
 #. (itstool) path: media/p
 #: C/unity-introduction.page:38
@@ -22329,10 +22463,10 @@ msgstr "启动器"
 msgctxt "_"
 msgid ""
 "external ref='figures/unity-launcher.png' "
-"md5='805176ea690ddea2d14187f118dcec85'"
+"md5='698a6f3411b2531101072d21bd765b87'"
 msgstr ""
 "external ref='figures/unity-launcher.png' "
-"md5='805176ea690ddea2d14187f118dcec85'"
+"md5='698a6f3411b2531101072d21bd765b87'"
 
 #. (itstool) path: section/p
 #: C/unity-introduction.page:49
@@ -22373,9 +22507,9 @@ msgstr ""
 #: C/unity-introduction.page:69
 msgctxt "_"
 msgid ""
-"external ref='figures/unity-dash.png' md5='505b8243d7651a007559b1281e689d86'"
+"external ref='figures/unity-dash.png' md5='662f7cff94c799b528db7a9b8e0e8512'"
 msgstr ""
-"external ref='figures/unity-dash.png' md5='505b8243d7651a007559b1281e689d86'"
+"external ref='figures/unity-dash.png' md5='662f7cff94c799b528db7a9b8e0e8512'"
 
 #. (itstool) path: media/p
 #: C/unity-introduction.page:70
@@ -22385,15 +22519,15 @@ msgstr "Unity Dash"
 #. (itstool) path: section/p
 #: C/unity-introduction.page:73
 msgid ""
-"The <em>Dash</em> is designed to make it easier to find, open, and use apps, "
-"files, music, and more. For example, if you type the word \"document\" into "
-"the <em>Search Bar</em>, the Dash will show you applications that help you "
-"write and edit documents. It will also show you relevant folders and "
-"documents that you have been working on recently."
+"The <em>Dash</em> is designed to make it easier to find, open, and use "
+"applications, files, music, and more. For example, if you type the word "
+"\"document\" into the <em>Search Bar</em>, the Dash will show you "
+"applications that help you write and edit documents. It will also show you "
+"relevant folders and documents that you have been working on recently."
 msgstr ""
-"<em>Dash</em> 功能帮助您更快地发现、打开和使用应用程序、文件、音乐和其它资"
-"源。例如当你在 <em>搜索框</em> 中输入“文档”时，Dash 将展示给您可用于撰写和编"
-"辑文档的各种应用程序，以及您最近使用的文档和相关文件夹。"
+"<em>Dash</em> 帮助您更快地发现、打开和使用应用程序、文件、音乐和其它资源。例"
+"如当你在<em>搜索框</em>中输入“文档”时，Dash 将展示给您可用于撰写和编辑文档的"
+"各种应用程序，以及您最近使用的文档和相关文件夹。"
 
 #. (itstool) path: item/p
 #: C/unity-introduction.page:80
@@ -22414,10 +22548,20 @@ msgstr "自动隐藏启动器"
 #: C/unity-launcher-change-autohide.page:20
 msgid ""
 "You can hide the <gui>Launcher</gui> if you only want to see it when you "
-"move your mouse or touchpad pointer to the left side of the screen."
+"move your mouse or touchpad pointer to either the left side or top left "
+"corner of the screen."
 msgstr ""
-"您可以让启动器自动隐藏，这样只有在您将鼠标或触控板指针移动到屏幕最左侧时才会"
-"看到它。"
+"您可以让<gui>启动器</gui>自动隐藏，这样只有在您将鼠标或触控板指针移动到屏幕最"
+"底部时才会看到它。"
+
+#. (itstool) path: item/p
+#: C/unity-launcher-change-autohide.page:24 C/unity-menubar-intro.page:49
+msgid ""
+"Click the <gui>system menu</gui> at the very right of the <gui>menu bar</"
+"gui> and select <gui>System Settings</gui>."
+msgstr ""
+"单击顶部<gui>菜单栏</gui>最右侧的<gui>系统菜单</gui>图标，选择<gui>系统设置</"
+"gui>。"
 
 #. (itstool) path: item/p
 #: C/unity-launcher-change-autohide.page:25
@@ -22427,15 +22571,23 @@ msgstr "在“个人”区域中，单击 <gui>外观</gui>。"
 #. (itstool) path: item/p
 #: C/unity-launcher-change-autohide.page:26
 msgid "Switch to the <gui>Behavior</gui> tab."
-msgstr "切换到 <gui>行为</gui> 选项卡。"
+msgstr "切换到 <gui>行为</gui> 标签页。"
 
 #. (itstool) path: item/p
 #: C/unity-launcher-change-autohide.page:27
 msgid "Switch <gui>Auto-hide the Launcher</gui> on."
 msgstr "打开 <gui>自动隐藏启动器</gui> 开关。"
 
+#. (itstool) path: item/p
+#: C/unity-launcher-change-autohide.page:28
+msgid ""
+"Select <gui>Left side</gui> or <gui>Top left corner</gui> to designate the "
+"reveal location for the <gui>Launcher</gui>."
+msgstr ""
+"选择<gui>左边</gui> 或 <gui>左上角</gui>设置<gui>Launcher</gui>的显示位置。"
+
 #. (itstool) path: page/p
-#: C/unity-launcher-change-autohide.page:30
+#: C/unity-launcher-change-autohide.page:31
 msgid ""
 "To help prevent you from accidentally showing the Launcher, Ubuntu requires "
 "you to push a little bit harder with your mouse or touchpad pointer to make "
@@ -22443,7 +22595,7 @@ msgid ""
 "<gui>Reveal sensitivity</gui> lower or higher."
 msgstr ""
 "为了防止在自动隐藏模式下因为误操作而显示启动器，您必须稍微用力将鼠标或触控板"
-"指针“推向”屏幕左侧方可显示启动器。您可以手动调整启动器的 <gui>呈现灵敏度</"
+"指针“推向”屏幕底部方可显示启动器。您可以手动调整启动器的 <gui>呈现灵敏度</"
 "gui>。"
 
 #. (itstool) path: info/desc
@@ -22487,7 +22639,7 @@ msgstr "<gui>启动器</gui>图标的默认尺寸为 <em>48</em>。"
 #. (itstool) path: info/desc
 #: C/unity-launcher-intro.page:8
 msgid "The Launcher is at the left of your screen."
-msgstr "启动器位于屏幕左侧。"
+msgstr "启动器位于屏幕底部。"
 
 #. (itstool) path: page/title
 #: C/unity-launcher-intro.page:19
@@ -22503,10 +22655,10 @@ msgstr "使用启动器启动应用程序"
 msgctxt "_"
 msgid ""
 "external ref='figures/unity-launcher-apps.png' "
-"md5='7eea14c8fcf1b9965253cc21767b7a00'"
+"md5='09090d19992241b8a279dd19f7d5dc3c'"
 msgstr ""
 "external ref='figures/unity-launcher-apps.png' "
-"md5='7eea14c8fcf1b9965253cc21767b7a00'"
+"md5='09090d19992241b8a279dd19f7d5dc3c'"
 
 #. (itstool) path: media/p
 #: C/unity-launcher-intro.page:23
@@ -22522,7 +22674,7 @@ msgid ""
 "workspaces, removable devices and the trash."
 msgstr ""
 "<gui>启动器</gui> 是 Unity 桌面的核心组件之一。进入桌面之后，您会看到启动器位"
-"于屏幕最左侧。您可以在启动器上快速控制应用程序、工作区、各种外接设备和回收"
+"于屏幕最底部。您可以在启动器上快速控制应用程序、工作区、各种外接设备和回收"
 "站。"
 
 #. (itstool) path: page/p
@@ -22572,7 +22724,7 @@ msgstr "启动器图标菜单"
 msgid ""
 "Right clicking on a Launcher icon will reveal a menu of actions. The actions "
 "available depend on whether the icon is locked to the launcher or not, if "
-"the icons is for an application whether it's running or not, and on the "
+"the icon is for an application whether it's running or not, and on the "
 "specific icon itself. Available actions can include the following."
 msgstr ""
 "在启动器图标上右键点击将会调出动作菜单。可用的动作以来图标是否已经锁定到启动"
@@ -22621,8 +22773,8 @@ msgstr "一些应用程序自带特别的快速操作选项，例如打开新文
 
 #. (itstool) path: info/desc
 #: C/unity-launcher-shapes.page:14
-msgid "The triangles show you your currently running apps."
-msgstr "三角形指示器告诉您应用程序目前正在运行。"
+msgid "The triangles show you your currently running applications."
+msgstr "小三角形显示您正在运行的程序。"
 
 #. (itstool) path: page/title
 #: C/unity-launcher-shapes.page:18
@@ -22633,29 +22785,33 @@ msgstr "启动器图标的各种形状和颜色分别是什么含义？"
 #: C/unity-launcher-shapes.page:20
 msgid ""
 "When you start an app, the Launcher icon pulses to let you know that Ubuntu "
-"is starting your app. This is useful because while some apps start "
-"immediately, others may take a minute to load."
+"is starting your application. This is useful because while some applications "
+"start immediately, others may take a minute to load."
 msgstr ""
-"当您启动应用程序时，启动器图标会跳动，告诉您 Ubuntu 正在打开这一程序。这是因"
-"为只有少数程序可以做到瞬间启动，其它程序需要一点时间进行加载。"
+"当您启动应用程序时，启动器图标会跳动，告诉您 Ubuntu 正在打开这一程序。虽然一"
+"些应用可以很快启动，但还有其它程序需要一点时间进行加载。"
 
 #. (itstool) path: page/p
 #: C/unity-launcher-shapes.page:24
 msgid ""
-"Once the app has finished starting, a small <em>white triangle</em> will "
-"show to the left of the Launcher square. Two triangles means that you have "
-"two windows of the same app open. If you have three or more windows of the "
-"same app open, three triangles will show."
+"Once the application has finished starting, a set of small <em>white "
+"triangles</em> will show to the left and right of the Launcher square. "
+"Additional triangles will appear on the left of the Launcher square as "
+"additional windows of the same application are open (i.e. two triangles "
+"means that you have two windows of the same application open; three "
+"triangles means three windows). If you have more than three windows of the "
+"same application open, only three triangles will show."
 msgstr ""
-"当应用程序启动完毕，启动器图标的左侧会出现<em>白色小三角形指示器</em>。两个小"
+"当应用程序启动完毕，启动器图标的上部会出现<em>白色小三角形</em>指示器。两个小"
 "三角形表示这个程序打开了两个窗口。如果程序打开了三个或更多窗口，则会显示三个"
 "小三角形指示器。"
 
 #. (itstool) path: note/p
 #: C/unity-launcher-shapes.page:29
 msgid ""
-"Apps that aren't currently running have translucent Launcher icon squares. "
-"When an app is running, the Launcher icon square is full of color."
+"Applications that aren't currently running have translucent Launcher icon "
+"squares. When an application is running, the Launcher icon square is full of "
+"color."
 msgstr ""
 "图标处于半透明状态的是当前并未打开的程序。当程序开始运行时，其图标则会变得不"
 "透明。"
@@ -22668,34 +22824,36 @@ msgstr "通知"
 #. (itstool) path: section/p
 #: C/unity-launcher-shapes.page:35
 msgid ""
-"If an app wants your attention to notify you of something (like a finished "
-"download), the Launcher icon will wiggle and glow and the white triangle "
-"will become <em>blue</em>. Click the Launcher icon to dismiss the "
+"If an application wants your attention to notify you of something (like a "
+"finished download), the Launcher icon will wiggle and glow and the white "
+"triangle will become <em>blue</em>. Click the Launcher icon to dismiss the "
 "notification."
 msgstr ""
 "如果有应用程序希望发出通知引起您的注意（比如有文件下载完成），其对应的启动器"
-"图标将会晃动并发光，其三角形指示器将变为 <em>蓝色</em>。您可以单击启动器图标"
-"来取消通知。"
+"图标将会晃动并发光，其三角形指示器将变为<em>蓝色</em>。您可以单击启动器图标来"
+"取消通知。"
 
 #. (itstool) path: section/p
 #: C/unity-launcher-shapes.page:39
 msgid ""
-"Apps can also show a <em>number</em> on their Launcher icon. Messaging apps "
-"use the number to tell you how many unread messages you have. <gui>Software "
-"Updater</gui> uses it to tell you how many updates are available."
+"Applications can also show a <em>number</em> on their Launcher icon. "
+"Messaging applications use the number to tell you how many unread messages "
+"you have. <gui>Software Updater</gui> uses it to tell you how many updates "
+"are available."
 msgstr ""
 "应用程序也可以在启动器图标上显示<em>数字</em>。即时消息类应用可以用数字来告知"
-"您未读消息的数量。而<gui>软件更新</gui>工具可以用数字告诉您当前可用的更新数"
+"您未读消息的数量。而<gui>软件更新工具</gui> 可以用数字告诉您当前可用的更新数"
 "量。"
 
 #. (itstool) path: section/p
 #: C/unity-launcher-shapes.page:43
 msgid ""
-"Finally, apps can use a <em>progress bar</em> to let you know how long a "
-"process is taking without you needing to keep the app window in view."
+"Finally, applications can use a <em>progress bar</em> to let you know how "
+"long a process is taking without you needing to keep the application window "
+"in view."
 msgstr ""
-"最后，应用也可以使用进度条来直接在图标上告知您特定操作过程的进度，而不用总是"
-"将应用程序窗口保持在视线内。"
+"最后，应用也可以使用<em>进度条</em>来直接在图标上告知您特定操作过程的进度，而"
+"不用总是将应用程序窗口保持在视线内。"
 
 #. (itstool) path: info/desc
 #: C/unity-menubar-intro.page:10
@@ -22747,41 +22905,47 @@ msgid ""
 "small screens like netbooks."
 msgstr ""
 "<gui>应用菜单</gui> 默认位于窗口管理按钮的右端。Unity 将隐藏应用菜单和窗口管"
-"理按钮，除非将鼠标指针移动到屏幕的左上部霍震按 <keyseq><key>Alt</"
+"理按钮，除非将鼠标指针移动到屏幕的左上部或者按 <keyseq><key>Alt</"
 "key><key>F10</key></keyseq>。此功能让您可以一次看到更多的内容，尤其是在上网本"
 "等小屏幕设备上尤其有用。"
 
 #. (itstool) path: section/p
 #: C/unity-menubar-intro.page:44
 msgid ""
-"If you want, you can change the default behavior, and have your menus "
+"If you want, you can change the default behavior to having your menus "
 "attached to the window title bar of respective application instead of the "
-"menu bar."
+"menu bar, and setting the visibility to always displayed instead of only "
+"displayed on mouse hovering."
 msgstr ""
-"需要时，可以更改默认行为，以及让您的菜单附着到每个应用的窗口标题栏而不是桌面"
-"的菜单栏。"
+"需要时，可以更改默认行为，让您的菜单附着到每个应用的窗口标题栏而不是桌面的菜"
+"单栏以及设置您的菜单总是显示而不是将鼠标指针移至菜单栏才会显示。"
 
 #. (itstool) path: item/p
 #: C/unity-menubar-intro.page:53
 msgid ""
 "In the Personal section, click <gui>Appearance</gui> and choose the "
 "<gui>Behavior</gui> tab."
-msgstr "在个人部分中，点击 <gui>外观</gui> 然后选择 <gui>行为</gui>。"
+msgstr "在个人部分中，点击 <gui>外观</gui> 然后选择 <gui>行为</gui>标签页。"
 
 #. (itstool) path: item/p
 #: C/unity-menubar-intro.page:57
 msgid ""
 "Under <gui>Show the menus for a window</gui>, select <gui>In the window's "
 "title bar</gui>."
-msgstr "在 <gui>为窗口显示菜单</gui> 下，选择 <gui>在窗口标题栏中</gui>。"
+msgstr "在 <gui>显示窗口菜单</gui> 下，选择 <gui>在窗口的标题栏</gui>。"
+
+#. (itstool) path: item/p
+#: C/unity-menubar-intro.page:60
+msgid "Under <gui>Menus visibility</gui>, select <gui>Always displayed</gui>."
+msgstr "在<gui>菜单可见度</gui>下, 选择 <gui>总是显示</gui>."
 
 #. (itstool) path: section/title
-#: C/unity-menubar-intro.page:65
+#: C/unity-menubar-intro.page:68
 msgid "Status menus"
 msgstr "状态菜单"
 
 #. (itstool) path: section/p
-#: C/unity-menubar-intro.page:66
+#: C/unity-menubar-intro.page:69
 msgid ""
 "Ubuntu has several different <gui>status menus</gui> (sometimes referred to "
 "as <gui>indicators</gui>) on the right side of the menu bar. The status "
@@ -22792,7 +22956,7 @@ msgstr ""
 "gui>）。您可以很方便地在这些状态菜单中检查和修改电脑本身和各种程序的状态。"
 
 #. (itstool) path: list/title
-#: C/unity-menubar-intro.page:73
+#: C/unity-menubar-intro.page:76
 msgid "List of status menus and what they do"
 msgstr "状态菜单名称和功能列表"
 
@@ -22801,27 +22965,26 @@ msgstr "状态菜单名称和功能列表"
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/unity-menubar-intro.page:76
+#: C/unity-menubar-intro.page:79
 msgctxt "_"
 msgid ""
-"external ref='/usr/share/icons/ubuntu-mono-light/status/24/network-offline."
-"svg' md5='__failed__'"
+"external ref='figures/network-offline.svg' "
+"md5='2cdffddec0853f7f7538b9e4a6116039'"
 msgstr ""
-"external ref='/usr/share/icons/ubuntu-mono-light/status/24/network-offline."
-"svg' md5='__failed__'"
+"external ref='figures/network-offline.svg' "
+"md5='2cdffddec0853f7f7538b9e4a6116039'"
 
 #. (itstool) path: item/p
-#: C/unity-menubar-intro.page:76
+#: C/unity-menubar-intro.page:79
 msgid ""
-"<em>Network menu</em> <media type=\"image\" mime=\"image/svg\" src=\"/usr/"
-"share/icons/ubuntu-mono-light/status/24/network-offline.svg\">Offline "
-"network icon</media>"
+"<em>Network menu</em> <media type=\"image\" mime=\"image/svg\" src=\"figures/"
+"network-offline.svg\">Offline network icon</media>"
 msgstr ""
-"<em>网络菜单</em><media type=\"image\" mime=\"image/svg\" src=\"/usr/share/"
-"icons/ubuntu-mono-light/status/24/network-offline.svg\">脱机网络图标</media>"
+"<em>网络菜单</em> <media type=\"image\" mime=\"image/svg\" src=\"figures/"
+"network-offline.svg\">离线网络图标</media>"
 
 #. (itstool) path: item/p
-#: C/unity-menubar-intro.page:77
+#: C/unity-menubar-intro.page:80
 msgid ""
 "Connect to <link xref=\"net-wired-connect\">wired</link>, <link xref=\"net-"
 "wireless-connect\">wireless</link>, <link xref=\"net-mobile\">mobile</link>, "
@@ -22829,35 +22992,33 @@ msgid ""
 msgstr ""
 "连接到<link xref=\"net-wired-connect\">有线</link>、<link xref=\"net-"
 "wireless-connect\">无线</link>、<link xref=\"net-mobile\">手机</link>和 "
-"<link xref=\"net-vpn-connect\">VPN</link>网络。"
+"<link xref=\"net-vpn-connect\">VPN</link> 网络。"
 
 #. (itstool) path: p/media
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/unity-menubar-intro.page:82
+#: C/unity-menubar-intro.page:85
 msgctxt "_"
 msgid ""
-"external ref='/usr/share/icons/ubuntu-mono-light/status/22/indicator-"
-"keyboard-En.svg' md5='__failed__'"
+"external ref='figures/indicator-keyboard-En.svg' "
+"md5='79043c6827d1eb59d1eba720bd798318'"
 msgstr ""
-"external ref='/usr/share/icons/ubuntu-mono-light/status/22/indicator-"
-"keyboard-En.svg' md5='__failed__'"
+"external ref='figures/indicator-keyboard-En.svg' "
+"md5='79043c6827d1eb59d1eba720bd798318'"
 
 #. (itstool) path: item/p
-#: C/unity-menubar-intro.page:82
+#: C/unity-menubar-intro.page:85
 msgid ""
-"<em>Input source menu</em> <media type=\"image\" mime=\"image/svg\" src=\"/"
-"usr/share/icons/ubuntu-mono-light/status/22/indicator-keyboard-En.svg"
-"\">Input source icon</media>"
+"<em>Input source menu</em> <media type=\"image\" mime=\"image/svg\" src="
+"\"figures/indicator-keyboard-En.svg\">Input source icon</media>"
 msgstr ""
-"<em>输入源菜单</em> <media type=\"image\" mime=\"image/svg\" src=\"/usr/"
-"share/icons/ubuntu-mono-light/status/22/indicator-keyboard-En.svg\">输入源图"
-"标</media>"
+"<em>输入源菜单</em> <media type=\"image\" mime=\"image/svg\" src=\"figures/"
+"indicator-keyboard-En.svg\">输入源图标</media>"
 
 #. (itstool) path: item/p
-#: C/unity-menubar-intro.page:83
+#: C/unity-menubar-intro.page:86
 msgid ""
 "Select keyboard layout/input source, <link xref=\"keyboard-layouts"
 "\">configure input sources</link>."
@@ -22865,17 +23026,16 @@ msgstr ""
 "选择键盘布局和输入源，<link xref=\"keyboard-layouts\">配置输入源</link>。"
 
 #. (itstool) path: item/p
-#: C/unity-menubar-intro.page:87
+#: C/unity-menubar-intro.page:90
 msgid ""
-"<em>Bluetooth menu</em> <media type=\"image\" mime=\"image/svg\" src=\"/usr/"
-"share/icons/ubuntu-mono-light/status/24/bluetooth-active.svg\">Bluetooth "
-"icon</media>"
+"<em>Bluetooth menu</em> <media type=\"image\" mime=\"image/svg\" src="
+"\"figures/bluetooth-active.svg\">Bluetooth icon</media>"
 msgstr ""
-"<em>蓝牙菜单</em><media type=\"image\" mime=\"image/svg\" src=\"/usr/share/"
-"icons/ubuntu-mono-light/status/24/bluetooth-active.svg\">蓝牙图标</media>"
+"<em>蓝牙菜单</em> <media type=\"image\" mime=\"image/svg\" src=\"figures/"
+"bluetooth-active.svg\">蓝牙图标</media>"
 
 #. (itstool) path: item/p
-#: C/unity-menubar-intro.page:88
+#: C/unity-menubar-intro.page:91
 msgid ""
 "Send or receive files by <link xref=\"bluetooth\">Bluetooth</link>. This "
 "menu is hidden if a supported Bluetooth device isn't detected."
@@ -22888,27 +23048,26 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/unity-menubar-intro.page:93
+#: C/unity-menubar-intro.page:96
 msgctxt "_"
 msgid ""
-"external ref='/usr/share/icons/ubuntu-mono-light/status/24/indicator-"
-"messages.svg' md5='__failed__'"
+"external ref='figures/indicator-messages.svg' "
+"md5='c7753a983bb72624bf340e2b3336973e'"
 msgstr ""
-"external ref='/usr/share/icons/ubuntu-mono-light/status/24/indicator-"
-"messages.svg' md5='__failed__'"
+"external ref='figures/indicator-messages.svg' "
+"md5='c7753a983bb72624bf340e2b3336973e'"
 
 #. (itstool) path: item/p
-#: C/unity-menubar-intro.page:93
+#: C/unity-menubar-intro.page:96
 msgid ""
-"<em>Messaging menu</em> <media type=\"image\" mime=\"image/svg\" src=\"/usr/"
-"share/icons/ubuntu-mono-light/status/24/indicator-messages.svg\">Message "
-"icon</media>"
+"<em>Messaging menu</em> <media type=\"image\" mime=\"image/svg\" src="
+"\"figures/indicator-messages.svg\">Message icon</media>"
 msgstr ""
-"<em>消息菜单</em><media type=\"image\" mime=\"image/svg\" src=\"/usr/share/"
-"icons/ubuntu-mono-light/status/24/indicator-messages.svg\">消息图标</media>"
+"<em>消息菜单</em> <media type=\"image\" mime=\"image/svg\" src=\"figures/"
+"indicator-messages.svg\">消息图标</media>"
 
 #. (itstool) path: item/p
-#: C/unity-menubar-intro.page:94
+#: C/unity-menubar-intro.page:97
 msgid ""
 "Easily launch and receive incoming notifications from messaging applications "
 "including email, social networking, and Internet chat."
@@ -22921,27 +23080,24 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/unity-menubar-intro.page:99
+#: C/unity-menubar-intro.page:102
 msgctxt "_"
 msgid ""
-"external ref='/usr/share/icons/ubuntu-mono-light/status/24/battery-100.svg' "
-"md5='__failed__'"
+"external ref='figures/battery-100.svg' md5='695cb299a2941423020d12dedfdb2254'"
 msgstr ""
-"external ref='/usr/share/icons/ubuntu-mono-light/status/24/battery-100.svg' "
-"md5='__failed__'"
+"external ref='figures/battery-100.svg' md5='695cb299a2941423020d12dedfdb2254'"
 
 #. (itstool) path: item/p
-#: C/unity-menubar-intro.page:99
+#: C/unity-menubar-intro.page:102
 msgid ""
-"<em>Battery menu</em> <media type=\"image\" mime=\"image/svg\" src=\"/usr/"
-"share/icons/ubuntu-mono-light/status/24/battery-100.svg\">Battery icon</"
-"media>"
+"<em>Battery menu</em> <media type=\"image\" mime=\"image/svg\" src=\"figures/"
+"battery-100.svg\">Battery icon</media>"
 msgstr ""
-"<em>电池菜单</em><media type=\"image\" mime=\"image/svg\" src=\"/usr/share/"
-"icons/ubuntu-mono-light/status/24/battery-100.svg\">电池图标</media>"
+"<em>电池菜单</em> <media type=\"image\" mime=\"image/svg\" src=\"figures/"
+"battery-100.svg\">电池图标</media>"
 
 #. (itstool) path: item/p
-#: C/unity-menubar-intro.page:100
+#: C/unity-menubar-intro.page:103
 msgid ""
 "Check your laptop battery's charging status. This menu is hidden if a "
 "battery isn't detected."
@@ -22953,28 +23109,26 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/unity-menubar-intro.page:105
+#: C/unity-menubar-intro.page:108
 msgctxt "_"
 msgid ""
-"external ref='/usr/share/icons/ubuntu-mono-light/status/24/audio-volume-high-"
-"panel.svg' md5='__failed__'"
+"external ref='figures/audio-volume-high-panel.svg' "
+"md5='571b59734272f80a40e8d2e9a8d4256e'"
 msgstr ""
-"external ref='/usr/share/icons/ubuntu-mono-light/status/24/audio-volume-high-"
-"panel.svg' md5='__failed__'"
+"external ref='figures/audio-volume-high-panel.svg' "
+"md5='571b59734272f80a40e8d2e9a8d4256e'"
 
 #. (itstool) path: item/p
-#: C/unity-menubar-intro.page:105
+#: C/unity-menubar-intro.page:108
 msgid ""
-"<em>Sound menu</em> <media type=\"image\" mime=\"image/svg\" src=\"/usr/"
-"share/icons/ubuntu-mono-light/status/24/audio-volume-high-panel.svg\">Volume "
-"icon</media>"
+"<em>Sound menu</em> <media type=\"image\" mime=\"image/svg\" src=\"figures/"
+"audio-volume-high-panel.svg\">Volume icon</media>"
 msgstr ""
-"<em>声音菜单</em><media type=\"image\" mime=\"image/svg\" src=\"/usr/share/"
-"icons/ubuntu-mono-light/status/24/audio-volume-high-panel.svg\">音量图标</"
-"media>"
+"<em>声音菜单</em> <media type=\"image\" mime=\"image/svg\" src=\"figures/"
+"audio-volume-high-panel.svg\">音量图标</media>"
 
 #. (itstool) path: item/p
-#: C/unity-menubar-intro.page:106
+#: C/unity-menubar-intro.page:109
 msgid ""
 "Set the <link xref=\"sound-volume\">volume</link>, configure sound <link "
 "xref=\"media\">settings</link>, and control media players like "
@@ -22984,46 +23138,44 @@ msgstr ""
 "置</link>和控制媒体播放器，如 <app>Rythmbox</app>。"
 
 #. (itstool) path: item/p
-#: C/unity-menubar-intro.page:111
+#: C/unity-menubar-intro.page:114
 msgid "<em>Clock</em>"
 msgstr "<em>时钟</em>"
 
 #. (itstool) path: item/p
-#: C/unity-menubar-intro.page:112
+#: C/unity-menubar-intro.page:115
 msgid ""
-"Access the current time and date. Appointments from your <link xref=\"clock-"
-"calendar\">Evolution calendar</link> can also display here."
+"Access the current time and date. Appointments from the built in <link xref="
+"\"clock-calendar\">Calendar application</link> can also display here."
 msgstr ""
-"查看当前时间和日期。<link xref=\"clock-calendar\">Evolution 日历</link> 中的"
-"日程项目也会显示在这里。"
+"查看当前时间和日期。系统自带<link xref=\"clock-calendar\">日历应用程序</"
+"link> 中的日程项目也会显示在这里。"
 
 #. (itstool) path: p/media
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/unity-menubar-intro.page:117
+#: C/unity-menubar-intro.page:120
 msgctxt "_"
 msgid ""
-"external ref='/usr/share/icons/ubuntu-mono-light/status/22/system-devices-"
-"panel.svg' md5='__failed__'"
+"external ref='figures/system-devices-panel.svg' "
+"md5='5b9f7ec215446c7f2eb43a66392aea85'"
 msgstr ""
-"external ref='/usr/share/icons/ubuntu-mono-light/status/22/system-devices-"
-"panel.svg' md5='__failed__'"
+"external ref='figures/system-devices-panel.svg' "
+"md5='5b9f7ec215446c7f2eb43a66392aea85'"
 
 #. (itstool) path: item/p
-#: C/unity-menubar-intro.page:117
+#: C/unity-menubar-intro.page:120
 msgid ""
-"<em>System menu</em> <media type=\"image\" mime=\"image/svg\" src=\"/usr/"
-"share/icons/ubuntu-mono-light/status/22/system-devices-panel.svg\">Power cog "
-"icon</media>"
+"<em>System menu</em> <media type=\"image\" mime=\"image/svg\" src=\"figures/"
+"system-devices-panel.svg\">Power cog icon</media>"
 msgstr ""
-"<em>系统菜单</em><media type=\"image\" mime=\"image/svg\" src=\"/usr/share/"
-"icons/ubuntu-mono-light/status/22/system-devices-panel.svg\">“Power cog”图标"
-"</media>"
+"<em>系统菜单</em> <media type=\"image\" mime=\"image/svg\" src=\"figures/"
+"system-devices-panel.svg\">齿轮图标</media>"
 
 #. (itstool) path: item/p
-#: C/unity-menubar-intro.page:118
+#: C/unity-menubar-intro.page:121
 msgid ""
 "Access details about your computer, this help guide, and <link xref=\"prefs"
 "\">system settings</link>. Switch users, lock screen, log out, suspend, "
@@ -23033,14 +23185,14 @@ msgstr ""
 "用户、锁屏、注销、挂起、重启或关闭计算机。"
 
 #. (itstool) path: note/p
-#: C/unity-menubar-intro.page:120
+#: C/unity-menubar-intro.page:123
 msgid ""
 "Some of the icons used by the indicator menus change according to the status "
 "of the application."
 msgstr "一些图标由指示器菜单根据应用程序状态更改。"
 
 #. (itstool) path: item/p
-#: C/unity-menubar-intro.page:121
+#: C/unity-menubar-intro.page:124
 msgid ""
 "Other programs such as <app>Tomboy</app> or <app>Transmission</app> can also "
 "add indicator menus to the panel."
@@ -23107,68 +23259,15 @@ msgstr "使用滚动条的方法："
 #. (itstool) path: item/p
 #: C/unity-scrollbars-intro.page:45
 msgid ""
-"Click the top half of the <gui>thumb slider</gui> to scroll one page up. "
-"Click the bottom half to scroll one page down."
-msgstr "点击滚动手柄的上半部分向上滚动页面，点击下半部分向下滚动页面。"
-
-#. (itstool) path: item/p
-#: C/unity-scrollbars-intro.page:48
-msgid ""
 "Drag the <gui>thumb slider</gui> up or down to move the screen's position "
 "exactly where you want it."
 msgstr "上下拖拽滚动手柄，使页面到达您想要的位置。"
 
 #. (itstool) path: item/p
-#: C/unity-scrollbars-intro.page:51
+#: C/unity-scrollbars-intro.page:48
 msgid ""
-"<link xref=\"mouse-middleclick\"/> on the <gui>thumb slider</gui> to move "
-"the screen's position without needing to drag or scroll page by page. This "
-"is especially useful in long documents."
-msgstr ""
-"使用<link xref=\"mouse-middleclick\"/>鼠标中键</link>点击滚动手柄可以按页滚动"
-"页面，这对长文档非常有用。"
-
-#. (itstool) path: section/title
-#: C/unity-scrollbars-intro.page:59
-msgid "Disable the scrollbars"
-msgstr "禁用滚动条"
-
-#. (itstool) path: section/p
-#: C/unity-scrollbars-intro.page:61
-msgid "You can disable the new scrollbars if you prefer the traditional style:"
-msgstr "您可以禁用新滚动条，如果您更喜欢传统滚动条："
-
-#. (itstool) path: item/p
-#: C/unity-scrollbars-intro.page:64
-msgid ""
-"Open the <app>Terminal</app> by pressing <keyseq><key>Ctrl</key><key>Alt</"
-"key><key>t</key></keyseq> or by searching for <input>terminal</input> in the "
-"<gui>Dash</gui>."
-msgstr ""
-"要打开 <app>终端</app>，您可以按下 <keyseq><key>Ctrl</key><key>Alt</"
-"key><key>t</key></keyseq> 或直接在 <gui>Dash</gui> 中搜索 <input>终端</"
-"input>。"
-
-#. (itstool) path: item/p
-#: C/unity-scrollbars-intro.page:67
-msgid "Type the following command and press <key>Enter</key>:"
-msgstr "键入以下内容，然后按<key>回车</key>："
-
-#. (itstool) path: section/p
-#: C/unity-scrollbars-intro.page:72
-msgid ""
-"If you change your mind and want to re-enable the scrollbars, run this "
-"command:"
-msgstr "如果您改变了主意，想要重新启用滚动条，运行此命令："
-
-#. (itstool) path: note/p
-#: C/unity-scrollbars-intro.page:78
-msgid ""
-"Setting your theme to <link xref=\"a11y-contrast\">High Contrast</link> will "
-"also disable the overlay scrollbars."
-msgstr ""
-"将您的主题设置为 <link xref=\"a11y-contrast\">高对比度</link> 将禁用即现式滚"
-"动条。"
+"Click the scrollbar to move the screen's position exactly where you want it."
+msgstr "单击滚动条，使页面到达您想要的位置。"
 
 #. (itstool) path: info/desc
 #: C/unity-shopping.page:9
@@ -23185,11 +23284,11 @@ msgstr "为什么 Dash 中会存在商品购买链接？"
 #: C/unity-shopping.page:27
 msgid ""
 "In addition to helping you find apps or files on your computer, the "
-"<gui>Dash</gui> also shows you related online results for your searches. "
+"<gui>Dash</gui> can also show you related online results for your searches. "
 "Online sources include Amazon.com and dozens of other online sources."
 msgstr ""
-"为了方便查找可用的应用程序和文件，<gui>Dash</gui> 还会搜索 Amazon.com 等几十"
-"种在线资源，并显示与查找内容相关的在线搜索结果。"
+"为了方便查找可用的应用程序和文件，<gui>Dash</gui>还会搜索 Amazon.com 等几十种"
+"在线资源，并显示与查找内容相关的在线搜索结果。"
 
 #. (itstool) path: page/p
 #: C/unity-shopping.page:31
@@ -23203,35 +23302,44 @@ msgstr ""
 "中获得一小部分返利。而作为 Ubuntu 项目的母公司和最大支持者，Canonical 将用这"
 "些资金进一步推动 Ubuntu 的发展。"
 
+#. (itstool) path: page/p
+#: C/unity-shopping.page:37
+msgid "By default, the inclusion of online search results is turned off."
+msgstr "默认情况下，不开启包含在线搜索结果。"
+
 #. (itstool) path: section/title
-#: C/unity-shopping.page:38
-msgid "Turn off online search results"
-msgstr "关闭在线搜索结果"
+#: C/unity-shopping.page:40
+msgid "Turn on online search results"
+msgstr "开启在线搜索结果"
 
 #. (itstool) path: section/p
-#: C/unity-shopping.page:40
+#: C/unity-shopping.page:42
 msgid ""
-"If you don't want to receive online search suggestions, you can disable this "
-"feature."
-msgstr "如果您不愿接收在线搜索建议，您可以关闭这个特性。"
+"If you want to receive online search suggestions, you can enable this "
+"feature through the <gui>Security &amp; Privacy</gui> system setting."
+msgstr ""
+"如果您愿意接收在线搜索建议，您可以通过<gui>安全和隐私</gui>系统设置开启这个特"
+"性。"
 
 #. (itstool) path: item/p
-#: C/unity-shopping.page:48
+#: C/unity-shopping.page:47
+msgid ""
+"Click the <gui>system menu</gui> at the far right of the <gui>menu bar</gui> "
+"and select <gui>System Settings</gui>."
+msgstr ""
+"点击<gui>菜单栏</gui>最右端的<gui>系统菜单</gui>图标并选择<gui>系统设置</"
+"gui>。"
+
+#. (itstool) path: item/p
+#: C/unity-shopping.page:50
 msgid ""
 "Open <gui>Security &amp; Privacy</gui> and select the <gui>Search</gui> tab."
 msgstr "打开 <gui>安全和隐私</gui> 然后选择 <gui>搜索</gui> 标签。"
 
 #. (itstool) path: item/p
-#: C/unity-shopping.page:50
-msgid "Switch off <gui>Include online search results</gui>."
-msgstr "关闭 <gui>包含在线搜索结果</gui> 开关。"
-
-#. (itstool) path: item/p
 #: C/unity-shopping.page:52
-msgid ""
-"<link xref=\"shell-exit\">Log out</link> and log back in for the change to "
-"take effect."
-msgstr "您将需要注销，然后重新登录，此项更改才能生效。"
+msgid "Switch on <gui>Include online search results</gui>."
+msgstr "打开<gui>包含在线搜索结果</gui>开关"
 
 #. (itstool) path: info/title
 #: C/user-accounts.page:7
@@ -23453,7 +23561,7 @@ msgid ""
 "Click the label <gui>Standard</gui> next to <gui>Account type</gui> and "
 "select <gui>Administrator</gui>."
 msgstr ""
-"在 <gui>账户类型</gui> 选项卡中单击  <gui>标准</gui> 标签，并选择  <gui>管理"
+"在 <gui>账户类型</gui> 标签页中单击  <gui>标准</gui> 标签，并选择  <gui>管理"
 "员</gui>。"
 
 #. (itstool) path: item/p
@@ -24512,7 +24620,7 @@ msgid ""
 "Go to the <gui>Audio/Video</gui> tab and look at which <gui>codec</gui> is "
 "listed under <gui>Video</gui>."
 msgstr ""
-"选择 <gui>音频/视频</gui>选项卡并查看<gui>视频</gui>下有哪些<gui>解码器</"
+"选择 <gui>音频/视频</gui>标签页并查看<gui>视频</gui>下有哪些<gui>解码器</"
 "gui>。"
 
 #. (itstool) path: page/p
@@ -24528,7 +24636,7 @@ msgid ""
 msgstr ""
 "询问遇到播放问题的人他们是否安装了正确的编码解码器。他们会发现，通过网络搜索"
 "编码的名称和他们视频播放程序的名称会非常有帮助。例如，如果您的视频使用 "
-"<em>Theora</em> 格式并且您的朋友使用Windows 媒体播放器试图观看它，则搜"
+"<em>Theora</em> 格式并且您的朋友使用 Windows 媒体播放器试图观看它，则搜"
 "索“theora windows 媒体播放器”。如果未安装，则您将经常能够免费下载正确的编码解"
 "码器。"
 
@@ -24540,12 +24648,12 @@ msgid ""
 "as Linux, and supports a lot of different video formats. Otherwise, try "
 "converting your video into a different format. Most video editors are able "
 "to do this, and specific video converter applications are available. Check "
-"the <app>Ubuntu Software Center</app> to see what's available."
+"<app>Software</app> to see what's available."
 msgstr ""
 "如果您未找到正确的编码解码器，则尝试 <link href=\"http://www.videolan.org/"
-"vlc/\">VLC 媒体播放器</link>。它可在 Windows、Mac.OS 及 Linux 上运行，并支持"
+"vlc/\">VLC 媒体播放器r</link>。它可在 Windows、Mac OS 及 Linux 上运行，并支持"
 "各种视频格式。或者，尝试将您的视频转换成另外一种格式。大多数视频编辑器可执行"
-"此操作，并且还可使用特定的视频转换应用程序。可以在 <app>Ubuntu 软件中心</app>"
+"此操作，并且还可使用特定的视频转换应用程序。可以在<app>Ubuntu 软件中心</app>"
 "查找这类可用软件。"
 
 #. (itstool) path: note/p
@@ -24757,142 +24865,6 @@ msgstr ""
 "备名称旁边。使用分页符来控制您需要调节哪支手写笔的设置。"
 
 #. (itstool) path: info/desc
-#: C/whats-new.page:9
-msgid "Improvements in the latest version of Ubuntu."
-msgstr "最新版 Ubuntu 中的新功能。"
-
-#. (itstool) path: page/title
-#: C/whats-new.page:24
-msgid "What's new in Ubuntu 14.04?"
-msgstr "Ubuntu 14.04 中有哪些新功能？"
-
-#. (itstool) path: page/p
-#: C/whats-new.page:26
-msgid ""
-"Ubuntu 14.04 LTS continues the evolution of the <em>Unity</em> interface. "
-"Below are a few highlights of changes since Ubuntu 12.04 LTS."
-msgstr ""
-"Ubuntu 14.04 LTS 继续 <em>Unity</em> 界面的演进。下边是需要强调的自 Ubuntu "
-"12.04 LTS 开始的一些更改。"
-
-#. (itstool) path: section/title
-#: C/whats-new.page:30
-msgid "New and improved features"
-msgstr "最新改进与特性"
-
-#. (itstool) path: item/p
-#: C/whats-new.page:34
-msgid ""
-"The menus of the currently focused application are by default available in "
-"Ubuntu's integrated <link xref=\"unity-menubar-intro#app-menus\">menu bar</"
-"link>. However, if you want you can switch to the conventional style and "
-"show the app menus in the window title bar of respective application instead "
-"(this latter option is new since Ubuntu 13.10)."
-msgstr ""
-"当前聚焦地应用程序的菜单默认显示在 Ubuntu 的集成 <link xref=\"unity-menubar-"
-"intro#app-menus\">菜单栏</link>。然而，如果您想切换回常规样式并在对应应用的窗"
-"口标题栏显示应用菜单(后一个选项是最早在 Ubuntu 13.10 出现的)。"
-
-#. (itstool) path: item/p
-#: C/whats-new.page:40
-msgid ""
-"Support added for scaling Unity on a per-monitor basis, which allows for a "
-"better experience on high-DPI displays. Similar scaling support is also "
-"available in LibreOffice and Chromium."
-msgstr ""
-"也添加了对每个监视器缩放 Unity 支持，这在高 DPI 的显示器上可以有更好的体验。"
-"类似的缩放支持也对 LibreOffice 和 Chromium 可用。"
-
-#. (itstool) path: item/p
-#: C/whats-new.page:44
-msgid ""
-"Improved look and style including rounded window decorations, a new "
-"interface for screen unlock, and other tweaks to the theme."
-msgstr "改进的外观和样式包括圆角窗口装饰、新的屏幕锁定界面和对主题的其他优化。"
-
-#. (itstool) path: item/p
-#: C/whats-new.page:47
-msgid ""
-"The <link xref=\"keyboard-layouts\">integrated <gui>Text Entry</gui> "
-"interface</link> and the related input source <link xref=\"unity-menubar-"
-"intro#status-menus\"> status menu</link> are designed to set both keyboard "
-"layout and IBus input methods."
-msgstr ""
-"<link xref=\"keyboard-layouts\">集成 <gui>输入框</gui> 界面</link> 及相关地输"
-"入源 <link xref=\"unity-menubar-intro#status-menus\">状态菜单</link> 设计为同"
-"时设置键盘布局和 IBus 输入法。"
-
-#. (itstool) path: item/p
-#: C/whats-new.page:51
-msgid "A number of improvements have been made to the <gui>Dash</gui>:"
-msgstr "对 <gui>Dash</gui> 做了很多改进："
-
-#. (itstool) path: item/p
-#: C/whats-new.page:53
-msgid ""
-"The <gui>Dash</gui> may now search dozens of different online sources "
-"simultaneously. The Internet-based searches <link xref=\"unity-shopping"
-"\">may be disabled</link>."
-msgstr ""
-"<gui>Dash</gui> 可以同时搜索很多不同的在线源。基于网络的搜索 <link xref="
-"\"unity-shopping\">可以禁用</link>。"
-
-#. (itstool) path: item/p
-#: C/whats-new.page:56
-msgid ""
-"The <gui>Dash</gui> search results may be filtered by category and source.."
-msgstr "<gui>Dash</gui> 搜索结果可以根据分类和来源过滤。"
-
-#. (itstool) path: item/p
-#: C/whats-new.page:58
-msgid ""
-"Right-clicking on a search result in the <gui>Dash</gui> will display a full-"
-"screen preview with more information."
-msgstr "在 <gui>Dash</gui> 的搜索结果中点击右键将显示有更多信息的全屏预览。"
-
-#. (itstool) path: item/p
-#: C/whats-new.page:60
-msgid ""
-"Use the <link xref=\"unity-dash-photos\">photos lens</link> to view photos "
-"from your computer or from your social networks."
-msgstr ""
-"使用 <link xref=\"unity-dash-photos\">照片栏目</link> 查看计算机和社交网络上"
-"的照片。"
-
-#. (itstool) path: item/p
-#: C/whats-new.page:63
-msgid ""
-"Add or remove scopes from the <gui>Dash</gui> to customize your experience."
-msgstr "从 <gui>Dash</gui> 中添加或移除内容来源，以定制自己的使用体验。"
-
-#. (itstool) path: item/p
-#: C/whats-new.page:66
-msgid ""
-"Browse messages from your social networks with the new <link xref=\"unity-"
-"dash-friends\">Friends scope</link>."
-msgstr ""
-"从全新的 <link xref=\"unity-dash-friends\">好友分类</link> 中查看好友的社交网"
-"络消息。"
-
-#. (itstool) path: item/p
-#: C/whats-new.page:71
-msgid ""
-"Enter your credentials in <link xref=\"accounts\">Online Accounts</link> to "
-"easily set up online integration for the Dash, Empathy, and more."
-msgstr ""
-"在 <link xref=\"accounts\">在线账户</link> 中输入您的密码或其他认证以容易地设"
-"置 Dash、Empathy 以及更多其他程序的在线集成。"
-
-#. (itstool) path: item/p
-#: C/whats-new.page:74
-msgid ""
-"Keep track of contact information for your friends and colleagues with <link "
-"xref=\"contacts\">Contacts</link>, your personal address book."
-msgstr ""
-"使用 <link xref=\"contacts\">联系人</link> － 您的私人地址簿 － 跟踪朋友和同"
-"事的联系方式。"
-
-#. (itstool) path: info/desc
 #: C/windows-key.page:7
 msgid "The Super key provides access to the Dash and the Launcher."
 msgstr "徽标键用来访问 Dash 和启动器。"
@@ -24942,100 +24914,3 @@ msgid ""
 msgstr ""
 "Super 键可帮助您执行更多操作。要了解关于 <em>Super</em> 键使用的更多信息，请"
 "参见<link xref=\"shell-keyboard-shortcuts\">键盘快捷方式</link>页面。"
-
-#~ msgid ""
-#~ "The Super key provides access to the Dash and the Launcher. You can "
-#~ "usually find it next to the <key>Alt</key> key on your keyboard."
-#~ msgstr ""
-#~ "Super 键提供对 Dash 和启动器的访问。您通常可在键盘的 <key>Alt</key> 键旁边"
-#~ "找到它。"
-
-#~ msgctxt "_"
-#~ msgid ""
-#~ "external ref='/usr/share/icons/ubuntu-mono-light/status/24/bluetooth-"
-#~ "active.svg' md5='265f0461c4f337cfe7f9ebc04b98a58f'"
-#~ msgstr ""
-#~ "external ref='/usr/share/icons/ubuntu-mono-light/status/24/bluetooth-"
-#~ "active.svg' md5='265f0461c4f337cfe7f9ebc04b98a58f'"
-
-#~ msgctxt "_"
-#~ msgid ""
-#~ "external ref='/usr/share/icons/ubuntu-mono-light/status/24/indicator-"
-#~ "messages.svg' md5='c7753a983bb72624bf340e2b3336973e'"
-#~ msgstr ""
-#~ "external ref='/usr/share/icons/ubuntu-mono-light/status/24/indicator-"
-#~ "messages.svg' md5='c7753a983bb72624bf340e2b3336973e'"
-
-#~ msgctxt "_"
-#~ msgid ""
-#~ "external ref='/usr/share/icons/ubuntu-mono-light/status/24/battery-100."
-#~ "svg' md5='695cb299a2941423020d12dedfdb2254'"
-#~ msgstr ""
-#~ "external ref='/usr/share/icons/ubuntu-mono-light/status/24/battery-100."
-#~ "svg' md5='695cb299a2941423020d12dedfdb2254'"
-
-#~ msgctxt "_"
-#~ msgid ""
-#~ "external ref='/usr/share/icons/ubuntu-mono-light/status/24/network-"
-#~ "offline.svg' md5='2cdffddec0853f7f7538b9e4a6116039'"
-#~ msgstr ""
-#~ "external ref='/usr/share/icons/ubuntu-mono-light/status/24/network-"
-#~ "offline.svg' md5='2cdffddec0853f7f7538b9e4a6116039'"
-
-#~ msgctxt "_"
-#~ msgid ""
-#~ "external ref='/usr/share/icons/ubuntu-mono-light/status/22/system-devices-"
-#~ "panel.svg' md5='5b9f7ec215446c7f2eb43a66392aea85'"
-#~ msgstr ""
-#~ "external ref='/usr/share/icons/ubuntu-mono-light/status/22/system-devices-"
-#~ "panel.svg' md5='5b9f7ec215446c7f2eb43a66392aea85'"
-
-#~ msgctxt "_"
-#~ msgid ""
-#~ "external ref='figures/unity-overview.png' "
-#~ "md5='9ef8894d62d387b08d02eec62ae6953d'"
-#~ msgstr ""
-#~ "external ref='figures/unity-overview.png' "
-#~ "md5='9ef8894d62d387b08d02eec62ae6953d'"
-
-#~ msgctxt "_"
-#~ msgid ""
-#~ "external ref='/usr/share/icons/ubuntu-mono-light/status/24/audio-volume-"
-#~ "high-panel.svg' md5='60405f31ad03268f4676461c2f5fc6d1'"
-#~ msgstr ""
-#~ "external ref='/usr/share/icons/ubuntu-mono-light/status/24/audio-volume-"
-#~ "high-panel.svg' md5='60405f31ad03268f4676461c2f5fc6d1'"
-
-#~ msgid ""
-#~ "Search literally hundreds of different online sources directly from the "
-#~ "<gui>Dash</gui>."
-#~ msgstr "在 <gui>Dash</gui> 中直接搜索数百种不同的在线信息来源。"
-
-#~ msgid "Choose to filter <gui>Dash</gui> results in several different ways."
-#~ msgstr "用多种不同方式过滤 <gui>Dash</gui> 中的搜索结果。"
-
-#~ msgid ""
-#~ "Get work done in style with LibreOffice 4.0, now with new, modern "
-#~ "presentation templates and built-in support for Ubuntu's integrated <link "
-#~ "xref=\"unity-menubar-intro#app-menus\">menu bar</link>."
-#~ msgstr ""
-#~ "全新的 LibreOffice 4.0 办公套件，添加了多种新演示文稿模板，并原生支持 "
-#~ "Ubuntu 的整合式 <link xref=\"unity-menubar-intro#app-menus\">菜单栏</"
-#~ "link>。"
-
-#~ msgctxt "_"
-#~ msgid ""
-#~ "external ref='figures/unity-windows.png' "
-#~ "md5='1bf2ad7c20e03a4ccfa629a77984ac94'"
-#~ msgstr ""
-#~ "external ref='figures/unity-windows.png' "
-#~ "md5='1bf2ad7c20e03a4ccfa629a77984ac94'"
-
-#~ msgctxt "_"
-#~ msgid ""
-#~ "external ref='/usr/share/icons/ubuntu-mono-light/status/22/indicator-"
-#~ "keyboard-En.svg' md5='79043c6827d1eb59d1eba720bd798318'"
-#~ msgstr ""
-#~ "external ref='/usr/share/icons/ubuntu-mono-light/status/22/indicator-"
-#~ "keyboard-En.svg' md5='79043c6827d1eb59d1eba720bd798318'"
-

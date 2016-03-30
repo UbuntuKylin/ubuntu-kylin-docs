@@ -49,6 +49,16 @@ Raring
 raring
 Saucy
 saucy
+Trusty
+trusty
+Utopic
+utopic
+Vivid
+vivid
+Wily
+wily
+Xenial
+xenial
 );
 
 for i in "${ReleaseNames[@]}"; # for each name in the ReleaseNames array above

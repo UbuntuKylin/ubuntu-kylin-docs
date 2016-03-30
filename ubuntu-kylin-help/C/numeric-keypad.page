@@ -1,0 +1,45 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="topic"
+      style="task"
+      id="numeric-keypad">
+
+  <info>
+    <link type="guide" xref="keyboard"/>
+    <desc>Enable the numeric keypad by default.</desc>
+
+    <revision version="15.04" date="2014-11-10" status="review"/>
+
+    <credit type="author">
+      <name>Ubuntu Documentation Team</name>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+  <title>Numeric keypad</title>
+
+  <p>With the <key>Num Lock</key> key you can manually switch on or off
+  the numeric keypad on your keyboard. Also, computers' BIOS settings often
+  include an option to decide if the computer should be started with the
+  numeric keypad enabled. Otherwise, this is a way to configure it:</p>
+
+  <steps>
+    <item>
+      <p><link xref="addremove-install">Install</link> the <em>numlockx</em> package.</p>
+    </item>
+    <item>
+      <p>Open <app><link xref="startup-applications">Startup Applications</link></app>
+      and add a startup program with the command: <cmd>numlockx on</cmd></p>
+    </item>
+  </steps>
+
+  <p>If you want the numeric keyboard to be on also at the login screen,
+  you can create a special configuration file. Press
+  <keyseq><key>Ctrl</key><key>Alt</key><key>T</key></keyseq> to open a terminal
+  window, and then run this command (it's one long command, even if it may be
+  shown wrapped on the screen - copy and paste to get it right):</p>
+
+  <p><cmd its:translate="no">sudo sh -c 'printf "[SeatDefaults]\ngreeter-setup-script=numlockx on\n" >/usr/share/lightdm/lightdm.conf.d/50-numlock.conf'</cmd></p>
+
+</page>

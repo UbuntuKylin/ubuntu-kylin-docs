@@ -21,7 +21,13 @@
 #
 # remarks: Use this script to validate all the Mallard documents.
 #
-# usage: ./check_validation.sh
+# usage: ./validate.sh [ARGUMENT]
+#
+#    When called without an argument, the script checks the original untranslated
+#    .page files in ubuntu-help/C.
+#    Calling it with an argument is useful only after you have built the
+#    translated .page files. Pass the language code as argument to check a
+#    specific translation, or 'all' to check all the built .page files.
 #
 # notes:
 #
@@ -34,10 +40,8 @@
 #    the actual originating line determined or referenced in the messages.
 #
 #    After building them, Documentation Committers should also be validating all
-#    languages. To do so just run the command from one directory level up and
-#    with a wild card for the subdirectory. Execution will take awhile.
-#    Example:
-#    yelp-check validate --strict --allow http://www.w3.org/2005/11/its --allow http://www.w3.org/1999/xlink --allow http://projectmallard.org/experimental/ */*.page
+#    languages. To do so just run the script with the argument 'all'. Execution
+#    will take awhile.
 #
 #    Currently, February 2014, there is a problem in the package libxml2
 #    resulting an severe spew of meaningless errors. Hence the "grep" portion
@@ -62,7 +66,10 @@
 #
 #################################################################################
 
-echo " --Validation pass 1: The .page files actual validation pass (syntax):"
+validate() {
+    DIR="../ubuntu-help/$1"
+
+    echo " --Validation pass 1: The .page files actual validation pass (syntax):"
 #
 # The command we eventually want to exectute:
 #yelp-check validate --strict --allow http://www.w3.org/2005/11/its --allow http://www.w3.org/1999/xlink --allow http://projectmallard.org/experimental/ *.page
@@ -71,13 +78,45 @@ echo " --Validation pass 1: The .page files actual validation pass (syntax):"
 #yelp-check validate --strict --allow http://www.w3.org/2005/11/its --allow http://www.w3.org/1999/xlink --allow http://projectmallard.org/experimental/ *.page | grep -v "relaxng\.c"
 #
 # The watered down command we have to use for now:
-yelp-check validate *.page
+    yelp-check validate "$DIR"/*.page
 
-echo " --Validation pass 2: Check the IDs:"
-yelp-check ids *.page
+    echo " --Validation pass 2: Check the IDs:"
+    yelp-check ids "$DIR"/*.page
 
-echo " --Validation pass 3: Check for orphans (no link back trail):"
-yelp-check orphans *.page
+    echo " --Validation pass 3: Check for orphans (no link back trail):"
+    yelp-check orphans "$DIR"/*.page
 
-echo " --Validation pass 4: Check for non-existent internal links:"
-yelp-check links *.page
+    echo " --Validation pass 4: Check for non-existent internal links:"
+    yelp-check links "$DIR"/*.page
+}
+
+if [ "${PWD##*/}" != 'scripts' ]; then
+    echo "ERROR: You must run this script from the 'scripts' directory."
+    exit 1
+fi
+
+if [ -z "$1" ]; then
+    echo 'Validation of original untranslated pages in ubuntu-help/C:'
+    validate C
+    echo
+elif [ "$1" = 'all' ]; then
+    for lang in $( ls ../ubuntu-help ); do
+        test -d "../ubuntu-help/$lang" || continue
+        test -f "../ubuntu-help/$lang/index.page" || continue
+        echo "Language '$lang':"
+        validate $lang
+        echo
+    done
+else
+    test -d "../ubuntu-help/$1" || {
+        echo "ERROR: Language code '$1' does not exist."
+        exit 1
+    }
+    test -f "../ubuntu-help/$1/index.page" || {
+        echo "ERROR: '$1/index.page' not found."
+        exit 1
+    }
+    echo "Language '$1':"
+    validate $1
+    echo
+fi

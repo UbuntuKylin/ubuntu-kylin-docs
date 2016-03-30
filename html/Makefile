@@ -23,7 +23,7 @@ MAKECMD=make
 HTMLDESTDIR=build
 SRCDIR=../ubuntu-kylin-help
 SED=/bin/sed
-INSTALLDIR=/var/www/14.04/
+INSTALLDIR=ubuntu-kylin-docs
 URLFIXER=fix-urls.sed
 
 # Space-separated list of language codes for documents. HTML will only be
@@ -65,9 +65,11 @@ ubuntu-kylin-help: clean style
 		$(SED) -i \
 			-e '1s/^/<!DOCTYPE html\>\n/' \
 			-e "s/<html>/<html lang="$$lang">/" \
-			-e 's|/usr/share/icons/.*/\(.*\.svg\)|img/\1|'\
 			"$(HTMLDESTDIR)/$$lang/"*.html; \
 		$(SED) -i -f "$(URLFIXER)" "$(HTMLDESTDIR)/$$lang/"*.html; \
+		sed -i -r -e \
+			's|(<div class="region"><div class="contents">)|<div class="title" style="margin-bottom: 1.5em"><span>Ubuntu 16.04</span></div>\1|' \
+			"$(HTMLDESTDIR)/$$lang/index.html"; \
 		echo "\nSearching for yelp help system internal links and either changing them to equivalent or related external links or deleting them:"; \
 		$(SED) -i -e '/help:language-selector/d' "$(HTMLDESTDIR)/$$lang/"session*.html; \
 		grep "href=\"ghelp:" "$(HTMLDESTDIR)/$$lang/"*.html; \
@@ -93,10 +95,11 @@ style:
 		cp "$(SRCDIR)/C/figures/"* "$(HTMLDESTDIR)/$$lang/figures"; \
 	done
 
-# Installs all HTML files to a multilingual site (e.g. run with Apache and
-# MultiViews enabled)
+# Installs all HTML files to a single multilingual directory for subsequent copying to
+# the web server document structure (e.g. to run with Apache and MultiViews enabled)
 install:
 	rm -Rf "$(INSTALLDIR)"/*; \
+	mkdir -p "$(INSTALLDIR)"; \
 	cp -R "$(HTMLDESTDIR)/"* "$(INSTALLDIR)"; \
 	for lc in C $(help_linguas); do \
 		lang=`echo $$lc | $(SED) -e 's/[@_]/-/'`; \
@@ -104,6 +107,8 @@ install:
 		if test "$$lang" = "gl"; then lang=gl-GL; fi; \
 		if test "$$lang" = "ms"; then lang=ms-MS; fi; \
 		if test "$$lang" = "pl"; then lang=pl-PL; fi; \
+		cp -af "$(INSTALLDIR)/$$lang"/*.css "$(INSTALLDIR)"; \
+		rm -Rf "$(INSTALLDIR)/$$lang"/*.css ; \
 		find "$(INSTALLDIR)/$$lang" -type f -exec mv {} {}.$$lang \; ; \
 		cp -af "$(INSTALLDIR)/$$lang"/* "$(INSTALLDIR)"; \
 		rm -Rf "$(INSTALLDIR)/$$lang" ; \

@@ -1,5 +1,5 @@
-AC_INIT([ubuntu-kylin-docs], [15.10],
-        [https://bugs.launchpad.net/ubuntu/+source/ubuntu-kylin-docs])
+AC_INIT([ubuntu-kylin-docs], [16.04],
+        [https://bugs.launchpad.net/ubuntu-kylin-docs])
 AM_INIT_AUTOMAKE
 
 YELP_HELP_INIT

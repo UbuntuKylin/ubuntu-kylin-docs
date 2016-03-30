@@ -1,3 +1,9 @@
+ubuntu-kylin-docs (16.04.1) xenial; urgency=low
+
+  * Merge ubuntu-docs 16.04.2
+
+ -- Luo Lei <luolei@ubuntukylin.com>  Fri, 25 Mar 2016 10:42:12 +0800
+
 ubuntu-kylin-docs (15.10.1) wily; urgency=low
 
   * Update to Ubuntu Kylin 15.10
@@ -50,4 +56,3 @@ ubuntu-kylin-docs (14.04.1) trusty; urgency=low
     - Delete all languages except zh_CN.
 
  -- Luo Lei <luolei@ubuntukylin.com>  Thu, 3 Apr 2014 20:26:00 +0800
- 

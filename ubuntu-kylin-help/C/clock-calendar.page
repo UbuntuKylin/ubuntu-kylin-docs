@@ -26,39 +26,22 @@
 
  <title>Calendar appointments</title>
 
-<p>You can organize your calendar appointments by clicking on the clock in the panel,
-if you're using a mail and calendar application called <app>Evolution</app>.</p>
+<p>A built in calendar application called <app>Calendar</app> allows you to organize your calendar appointments or events. Up to five of these, over a four-week duration, will appear by clicking on the clock in the <gui>menu bar</gui>.</p>
 
-<p>If you have already set up Evolution, click the clock on the menu bar and then click
-the <gui>Add Event</gui> to start adding appointments. As appointments are added, they
-will appear below the calendar when you click on the clock.</p>
+<note><p>Calendar appointment integration is also supported with a mail and calendar application called <app>Evolution</app>, which may be installed separately.</p></note>
 
-<p>To quickly get to the full Evolution calendar, click on the clock and click the first
-line where today's date is.</p>
-
-<!--Disabling unless someone wants to make a screenshot
-<media type="image" src="figures/shell-appts.png"
-       width="500" height="282">
-  <p>Clock, calendar, and appointments</p>
-</media>-->
-
-<note><p>This will work only if you have an existing <app>Evolution</app> account. Otherwise,
-a window will appear with the necessary steps for adding your first account.</p></note>
-
-<section id="turn-off-appointments">
-  <title>Turn off Evolution calendar integration</title>
-<p>You can also turn off this feature if you like.</p>
+<section id="launch-calendar-application">
+  <title>Launch the Calendar application</title>
+<p>Appointments and events may be managed through the built in <app>Calendar</app> application.</p>
 
 <steps>
-  <item><p>Click on the clock and select <gui>Time &amp; Date Settings</gui>.</p></item>
-  <item><p>Now, switch to the <gui>Clock</gui> tab.</p></item>
-  <item><p>Uncheck <gui>Coming events from Evolution Calendar</gui>.</p></item>
+  <item><p>Click on the <gui>Dash</gui> icon in the <link xref="unity-launcher-intro">Launcher</link>.</p></item>
+  <item><p>Type <input>calendar</input> in the <gui>Search your computer</gui> to locate the <app>Calendar</app> application.</p></item>
+  <item><p>Click the <gui>Calendar</gui> application icon.</p></item>
 </steps>
 
+<p>Alternatively, you may also type <input>gnome-calendar</input> in the <app>Terminal</app> application.</p>
 </section>
 
-<!--<comment>
-    <cite date="2011-02-10" href="mailto:nruz@alumnos.inf.utfsm.cl">Natalia Ruz</cite>
-    <p>Should have some information or link to "how to add a mail account to Evolution", and possibly an image (but maybe a screenshot is too big).</p>
-  </comment>-->
+
 </page>

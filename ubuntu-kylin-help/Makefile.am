@@ -5,6 +5,9 @@ HELP_ID = ubuntu-help
 HELP_LINGUAS = zh_CN
 
 HELP_MEDIA = \
+	figures/audio-volume-high-panel.svg \
+	figures/battery-100.svg \
+	figures/bluetooth-active.svg \
 	figures/color-average.png \
 	figures/color-camera.png \
 	figures/color-display.png \
@@ -12,14 +15,17 @@ HELP_MEDIA = \
 	figures/color-profile-default.png \
 	figures/color-space.png \
 	figures/go-down.png \
+	figures/indicator-keyboard-En.svg \
+	figures/indicator-messages.svg \
 	figures/input-keyboard-symbolic.svg \
 	figures/input-preferences.png \
 	figures/nautilus.png \
 	figures/nautilus-icons.png \
+	figures/network-offline.svg \
 	figures/printing-select.png \
 	figures/system-devices-panel.svg \
 	figures/ubuntu-logo.png \
-	figures/ubuntu-mascot-creature.jpg \
+	figures/ubuntu-mascot-creature.png \
 	figures/unity.png \
 	figures/unity-appmenu-intro.png \
 	figures/unity-dash-intro.png \
@@ -244,6 +250,7 @@ HELP_FILES = \
 	net-wireless-troubleshooting-initial-check.page \
 	net-wireless-wepwpa.page \
 	net-wrongnetwork.page \
+	numeric-keypad.page \
 	power-batterybroken.page \
 	power-batteryestimate.page \
 	power-batterylife.page \
@@ -306,6 +313,7 @@ HELP_FILES = \
 	sound-usemic.page \
 	sound-usespeakers.page \
 	sound-volume.page \
+	startup-applications.page \
 	tips.page \
 	tips-specialchars.page \
 	uk-calendar.page \
@@ -318,15 +326,6 @@ HELP_FILES = \
 	uk-fcitx-qimpanel-wordlist.page \
 	uk-fcitx-sogou-shortcuts.page \
 	uk-fcitx-sogou-wordlist.page \
-	uk-kuaipan-bandwidth.page \
-	uk-kuaipan-first-run.page \
-	uk-kuaipan-notify.page \
-	uk-kuaipan.page \
-	uk-kuaipan-pause.page \
-	uk-kuaipan-proxy.page \
-	uk-kuaipan-selective-sync.page \
-	uk-kuaipan-unlink.page \
-	uk-kuaipan-view.page \
 	uk.page \
 	uk-software-center.page \
 	uk-weather.page \
@@ -376,7 +375,7 @@ HELP_FILES = \
 	wacom-multi-monitor.page \
 	wacom.page \
 	wacom-stylus.page \
-	whats-new.page \
-	windows-key.page
+	windows-key.page \
+    whats-new.page
 
 dist-hook: doc-dist-hook

@@ -11,7 +11,7 @@
     <desc>Open the workspace switcher and double-click one of the workspaces.</desc>
 
     <revision pkgversion="3.4.0" date="2012-02-19" status="review"/>
-    <revision version="13.10" date="2013-10-23" status="outdated"/>
+    <revision version="14.10" date="2014-09-14" status="review"/>
     <credit type="author">
       <name>GNOME Documentation Project</name>
       <email>gnome-doc-list@gnome.org</email>
@@ -22,6 +22,10 @@
   </info>
 
 <title>Switch between workspaces</title>
+
+<note>
+  <p>Please see <link xref="shell-workspaces"/> about enabling workspaces.</p>
+</note>
 
 <terms>
 <item>

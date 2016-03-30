@@ -11,37 +11,37 @@
       <email>jbicha@ubuntu.com</email>
     </credit>
 
-    <desc>The triangles show you your currently running apps.</desc>
+    <desc>The triangles show you your currently running applications.</desc>
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
   </info>
 
   <title>What do the different shapes and colors in Launcher icons mean?</title>
 
   <p>When you start an app, the Launcher icon pulses to let you know that
-    Ubuntu is starting your app. This is useful because while some apps start immediately,
+    Ubuntu is starting your application. This is useful because while some applications start immediately,
     others may take a minute to load.</p>
 
-  <p>Once the app has finished starting, a small <em>white triangle</em> will show
-    to the left of the Launcher square.
-    Two triangles means that you have two windows of the same app open.
-    If you have three or more windows of the same app open, three triangles will show.</p>
+  <p>Once the application has finished starting, a set of small <em>white triangles</em> will show
+    to the left and right of the Launcher square.
+    Additional triangles will appear on the left of the Launcher square as additional windows of the same application are open (i.e. two triangles means that you have two windows of the same application open; three triangles means three windows).
+    If you have more than three windows of the same application open, only three triangles will show.</p>
 
-    <note style="tip"><p>Apps that aren't currently running have translucent Launcher icon squares.
-    When an app is running, the Launcher icon square is full of color.</p></note>
+    <note style="tip"><p>Applications that aren't currently running have translucent Launcher icon squares.
+    When an application is running, the Launcher icon square is full of color.</p></note>
 
 <section id="launcher-notifications">
   <title>Notifications</title>
 
-  <p>If an app wants your attention to notify you of something (like a finished download),
+  <p>If an application wants your attention to notify you of something (like a finished download),
     the Launcher icon will wiggle and glow and the white triangle will become <em>blue</em>.
     Click the Launcher icon to dismiss the notification.</p>
 
-  <p>Apps can also show a <em>number</em> on their Launcher icon. Messaging apps use the
+  <p>Applications can also show a <em>number</em> on their Launcher icon. Messaging applications use the
     number to tell you how many unread messages you have. <gui>Software Updater</gui>
     uses it to tell you how many updates are available.</p>
 
-  <p>Finally, apps can use a <em>progress bar</em> to let you know how long a process is
-    taking without you needing to keep the app window in view.</p>
+  <p>Finally, applications can use a <em>progress bar</em> to let you know how long a process is
+    taking without you needing to keep the application window in view.</p>
 
 </section>
 

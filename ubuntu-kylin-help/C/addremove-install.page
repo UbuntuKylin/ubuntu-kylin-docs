@@ -7,7 +7,7 @@
       <name>Ubuntu Documentation Team</name>
     </credit>
     <desc>
-      Use the Ubuntu Software Center to add programs and make Ubuntu more 
+      Use <app>Software</app> to add programs and make Ubuntu more 
       useful.
     </desc>
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
@@ -15,7 +15,7 @@
     <link type="seealso" xref="addremove-remove"/>
     <link type="seealso" xref="addremove-install-synaptic"/>
     <link type="seealso" xref="prefs-language-install"/>
-    <revision version="13.10" date="2013-10-25" status="review"/>
+    <revision version="16.04" date="2016-03-13" status="review"/>
   </info>
 
   <title>
@@ -42,14 +42,14 @@
     </item>
     <item>
       <p>
-        Click the <app>Ubuntu Software Center</app> icon in the 
-        <gui>Launcher</gui>, or search for <input>Software Center</input> in the 
+        Click the <app>Software</app> icon in the 
+        <gui>Launcher</gui>, or search for <input>Software</input> in the 
         <gui>Dash</gui>.
       </p>
     </item>
     <item>
       <p>
-        When the Software Center launches, search for an application, or select 
+        When <app>Software</app> launches, search for an application, or select 
         a category and find an application from the list.
       </p>
     </item>
@@ -80,13 +80,4 @@
     </item>
   </steps>
   
-  <!-- The Software Center help hasn't even been updated for Unity yet, so no 
-  need to link there
-  <p>
-    For more information about using the <app>Ubuntu Software Center</app>, 
-    consult the <link href="help:software-center">Ubuntu Software Center 
-    Manual</link>.
-  </p>
-  -->
-
 </page>

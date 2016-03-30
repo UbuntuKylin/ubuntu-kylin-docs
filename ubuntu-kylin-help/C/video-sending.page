@@ -44,7 +44,7 @@
  Windows and Mac OS as well as Linux, and supports a lot of different video
  formats. Otherwise, try converting your video into a different format. Most
  video editors are able to do this, and specific video converter applications are
- available. Check the <app>Ubuntu Software Center</app> to see what's available.</p>
+ available. Check <app>Software</app> to see what's available.</p>
 
 <note>
   <p>There are a few other problems which might prevent someone from playing
@@ -53,5 +53,6 @@
  with their video playback application, or the video may not have been created
  properly (there could have been some errors when you saved the video).</p>
 </note>
-	
+
 </page>
+

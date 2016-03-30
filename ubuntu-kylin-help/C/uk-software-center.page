@@ -6,7 +6,7 @@
   <info>
 
     <link type="guide" xref="uk" group="sc"/>
-    <title role="trail" type="link">Ubuntu Kylin 软件中心</title>
+    <title role="trail" type="link">优麒麟软件中心</title>
 
     <desc>
       <!--这里规定引用本文件的位置显示在主标题之下的小标题-->	
@@ -23,10 +23,10 @@
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
   </info>
 
-<title>Ubuntu Kylin 软件中心</title>
+<title>软件中心</title>
 
   <p>
-    <app>Ubuntu Kylin 软件中心</app>客户端是由 Ubuntu Kylin 团队开发的一款软件管理工具。其目的是为了提高软件本土化的体验，软件中心的安装包和相关的数据来自 Ubuntu 和 Ubuntu Kylin 软件源。
+    <app>优麒麟软件中心</app>客户端是由 Ubuntu Kylin 团队开发的一款软件管理工具。其目的是为了提高软件本土化的体验，软件中心的安装包和相关的数据来自 Ubuntu 和 Ubuntu Kylin 软件源。
   </p>
 
 <!--<section id="panel" style="1column">-->

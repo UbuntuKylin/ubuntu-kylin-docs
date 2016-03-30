@@ -7,7 +7,7 @@
     <desc>Change file or folder name.</desc>
 
     <revision pkgversion="3.5.92" version="0.2" date="2012-09-19" status="review"/>
-    <revision version="13.10" date="2013-09-07" status="review"/>
+    <revision version="14.10" date="2014-09-14" status="review"/>
 
     <credit type="author">
       <name>GNOME Documentation Project</name>
@@ -50,8 +50,8 @@
 
   <note style="tip">
     <p>If you renamed the wrong file, or named your file improperly, you can
-    undo the rename. To revert the action, immediately click the gear button in
-    the toolbar and select <gui>Undo</gui> to restore the former name.</p>
+    undo the rename. To revert the action and restore the former name, immediately
+    click <gui>Edit</gui> in the menu bar and select <gui>Undo Rename</gui>.</p>
   </note>
 
   <section id="valid-chars">

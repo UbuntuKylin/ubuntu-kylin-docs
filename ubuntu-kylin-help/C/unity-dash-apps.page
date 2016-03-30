@@ -7,7 +7,7 @@
 
     <desc>Run, install, or uninstall apps.</desc>
 
-    <revision version="13.10" date="2013-10-23" status="outdated"/>
+    <revision version="16.04" date="2013-03-14" status="outdated"/>
 
     <credit type="author">
       <name>Jeremy Bicha</name>
@@ -20,7 +20,7 @@
 
   <p>The applications lens is the first lens after the Dash home in the
     <gui>lens bar</gui>. The applications lens gives you access to your 
-    apps or apps available for install.</p>
+    applications or applications available for install.</p>
 
   <p>You can use <keyseq><key>Super</key><key>A</key></keyseq> to open the
     Dash directly at the applications lens.</p>
@@ -29,14 +29,14 @@
   <title>Previews</title>
 
   <p>Right click on a search result to open a <gui>preview</gui>. The 
-  preview shows a short description of the app, a screenshot, its 
-  <gui>Software Center</gui> rating, and what version is available.</p>
+  preview shows a short description of the application, a screenshot, its 
+  <app>Software</app> rating, and what version is available.</p>
 
-  <p>For installed apps, you can see when the app was installed and
-     either launch the app or uninstall it. Certain essential apps cannot
+  <p>For installed applications, you can see when the application was installed and
+     either launch the application or uninstall it. Certain essential applications cannot
      be uninstalled from the preview.</p>
 
-  <p>For apps that haven't been installed, you can install them right from 
+  <p>For applications that haven't been installed, you can install them right from 
   the preview.</p>
 
 </section>
@@ -46,9 +46,9 @@
 
   <p>Click <gui>Filter results</gui> if you'd like to only see results for 
   a certain type of application. You can also click 
-  <guiseq><gui>Sources</gui><gui>Local Apps</gui></guiseq> to only view 
-  installed apps or <guiseq><gui>Sources</gui><gui>Software 
-  Center</gui></guiseq> to only show apps available for install.</p>
+  <guiseq><gui>Sources</gui><gui>Local Applications</gui></guiseq> to only view 
+  installed applications or <guiseq><gui>Sources</gui><gui>Software 
+  Center</gui></guiseq> to only show applications available for install.</p>
 
 </section>
 

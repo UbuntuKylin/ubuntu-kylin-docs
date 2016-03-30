@@ -43,40 +43,12 @@ just as well with a mouse.</p>
   <list>
     <title>Ways to use the scrollbars:</title>
     <item><p>
-    Click the top half of the <gui>thumb slider</gui> to scroll one page up. Click the bottom half to scroll one page down.
-    </p></item>
-    <item><p>
     Drag the <gui>thumb slider</gui> up or down to move the screen's position exactly where you want it.
     </p></item>
     <item><p>
-    <link xref="mouse-middleclick"/> on the <gui>thumb slider</gui> to move the screen's position without needing to drag or
-    scroll page by page. This is especially useful in long documents.
+    Click the scrollbar to move the screen's position exactly where you want it.
     </p></item>
   </list>
-</section>
+</section> 
 
-<section id="disable-scrollbars">
-  <title>Disable the scrollbars</title>
-
-  <p>You can disable the new scrollbars if you prefer the traditional style:</p>
-
-  <steps>
-    <item><p>Open the <app>Terminal</app> by pressing <keyseq><key>Ctrl</key><key>Alt</key><key>t</key></keyseq>
-    or by searching for <input>terminal</input> in the <gui>Dash</gui>.
-    </p></item>
-    <item><p>Type the following command and press <key>Enter</key>:</p>
-<code its:translate="no">gsettings set com.canonical.desktop.interface scrollbar-mode normal</code>
-    </item>
-  </steps>
-
-  <p>If you change your mind and want to re-enable the scrollbars, run this command:</p>
-
-  <code its:translate="no">gsettings reset com.canonical.desktop.interface scrollbar-mode</code>
-
-
-  <note style="tip">
-    <p>Setting your theme to <link xref="a11y-contrast">High Contrast</link> will also disable the overlay scrollbars.</p>
-  </note>
-
-</section>
 </page>

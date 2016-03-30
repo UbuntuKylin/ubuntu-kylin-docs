@@ -11,7 +11,7 @@
     </desc>
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
     <link type="guide" xref="addremove" group="#first"/>
-    <revision version="13.10" date="2013-10-25" status="review"/>
+    <revision version="16.04" date="2016-03-13" status="review"/>
   </info>
 
   <title>
@@ -19,21 +19,21 @@
   </title>
 
   <p>
-    The <app>Ubuntu Software Center</app> helps you to remove software that you 
+    <app>Software</app> helps you to remove software that you 
     no longer use.
   </p>
     
   <steps>
     <item>
       <p>
-        Click the <app>Ubuntu Software Center</app> icon in the 
-        <gui>Launcher</gui> or search for <input>Software Center</input> in the 
+        Click the <app>Software</app> icon in the 
+        <gui>Launcher</gui> or search for <input>Software</input> in the 
         <gui>Dash</gui>.
       </p>
     </item>
     <item>
       <p>
-        When the Software Center opens, click the <gui>Installed</gui> button at 
+        When <app>Software</app> opens, click the <gui>Installed</gui> button at 
         the top.
       </p>
     </item>

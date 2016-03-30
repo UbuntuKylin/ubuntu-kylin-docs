@@ -7,7 +7,7 @@
     <link type="seealso" xref="keyboard-shortcuts-set"/>
 
     <revision pkgversion="3.8" version="0.3" date="2013-04-30" status="review"/>
-    <revision version="14.04" date="2014-02-28" status="review"/>
+    <revision version="16.04" date="2016-03-17" status="review"/>
 
     <credit type="author copyright">
       <name>Shaun McCance</name>
@@ -46,17 +46,8 @@
 
   <p>Some languages, such as Chinese or Korean, require a more complex input
   method than just a simple key to character mapping. Consequently some of
-  the input sources you can choose between enable such a method.</p>
-
-  <note>
-    <p>Options with input methods are only available if respective input method
-    (IM) engine is installed. When you <link xref="prefs-language-install">install
-    a language</link>, a suitable IM engine is automatically installed if applicable.
-    For example, if you install Korean, the package <em>ibus-hangul</em> is
-    installed, and the input source option <gui>Korean (Hangul)</gui> is made
-    available next time you log in. You can also <link xref="addremove-install">
-    install</link> the IBus IM engine of your choice separately.</p>
-  </note>
+  the input sources you can choose between enable such a method. More about
+  that in the section <link xref="#complex">Complex input methods</link>.</p>
 
   <section id="add">
     <title>Add input sources</title>
@@ -75,7 +66,7 @@
        <p>In the Personal section, click <gui>Text Entry</gui>.</p>
       </item>
       <item>
-       <p>Click the <gui>+</gui> button, select an input source, and click 
+       <p>Click the <gui>+</gui> button, select an input source, and click
        <gui>Add</gui>.</p>
       </item>
     </steps>
@@ -140,6 +131,56 @@
     <p>By default, new windows will use the default input source. You can
     instead choose to have them use the source of the window you were last
     using.</p>
+  </section>
+
+  <section id="complex">
+    <title>Complex input methods</title>
+
+    <p>Recommended frameworks for input methods are <em>IBus</em> and
+    <em>Fcitx</em>. The latter is the default framework in Ubuntu for Chinese,
+    Japanese, Korean and Vietnamese.</p>
+
+    <p>Input source options with input methods are only available if respective
+    input method (IM) engine is installed. When you install a language, a suitable
+    IM engine is automatically installed if applicable.</p>
+
+    <p>For example, to prepare for typing Korean (Hangul) on an English system,
+    follow these steps:</p>
+
+    <steps>
+      <item>
+        <p><link xref="prefs-language-install">Install</link> Korean. One of the
+        installed packages is <em>fcitx-hangul</em>, the Hangul IM engine for
+        Fcitx.</p>
+      </item>
+      <item>
+        <p>Close <gui>Language Support</gui> and open it again.</p>
+      </item>
+      <item>
+        <p>Select <em>fcitx</em> as the <gui>Keyboard input method system</gui>.</p>
+      </item>
+      <item>
+        <p>Log out and log in again.</p>
+      </item>
+      <item>
+       <p>Click the icon at the very right of the menu bar and select <gui>System Settings</gui>.</p>
+      </item>
+      <item>
+       <p>In the Personal section, click <gui>Text Entry</gui>.</p>
+      </item>
+      <item>
+       <p>Click the <gui>+</gui> button, select <em>Hangul (Fcitx)</em>, and click
+       <gui>Add</gui>.</p>
+      </item>
+    </steps>
+
+    <p>This will make <em>Hangul</em> available in the Fcitx input source indicator
+    in the menu bar. (The design differs from the IBus equivalent.)</p>
+
+    <p>If you prefer some other IM engine than the one which is installed
+    automatically when you install a language, you can
+    <link xref="addremove-install">install</link> the IBus or Fcitx IM engine of
+    your choice separately.</p>
   </section>
 
 </page>

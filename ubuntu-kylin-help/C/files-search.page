@@ -7,7 +7,7 @@
     <link type="guide" xref="files"/>
 
     <revision pkgversion="3.6.0" version="0.2" date="2012-09-25" status="review"/>
-    <revision version="13.10" date="2013-09-07" status="review"/>
+    <revision version="14.10" date="2014-09-14" status="review"/>
 
     <desc>Locate files based on file name and type. Save your searches for
     later use.</desc>
@@ -73,8 +73,8 @@
   <steps>
     <title>Save a search</title>
     <item><p>Start a search as above.</p></item>
-    <item><p>When you're happy with the search parameters, click the ⚙ gear
-    button and select <gui>Save Search As</gui>.</p></item>
+    <item><p>When you're happy with the search parameters, click <gui>File</gui>
+    in the menu bar and select <gui>Save Search As...</gui>.</p></item>
     <item><p>Give the search a name and click <gui>Save</gui>. If you like,
     select a different folder to save the search in. When you view that folder,
     you will see your saved search as an orange folder icon with a magnifying

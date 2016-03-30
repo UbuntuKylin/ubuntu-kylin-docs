@@ -14,7 +14,7 @@
 
     <link type="guide" xref="addremove"/>
     <revision pkgversion="0.80.4" version="0" date="2014-01-11" status="review"/>
-		<revision version="14.04" date="2014-01-08" status="review"/>
+		<revision version="16.04" date="2016-03-13" status="review"/>
 
 		<license>
 			<p>
@@ -25,7 +25,7 @@
 
     <desc>
       Synaptic is a powerful but complicated software management alternative to 
-      Ubuntu Software Center.
+      <app>Software</app>.
     </desc>
   </info>
 
@@ -35,15 +35,15 @@
 
   <p>
     <app>Synaptic Package Manager</app> is more powerful and can do some 
-    software management tasks which <app>Ubuntu Software Center</app> can't. 
-    Synaptic's interface is more complicated and doesn't support newer Software 
-    Center features like ratings and reviews and therefore isn't recommended for 
+    software management tasks which <app>Software</app> can't. 
+    Synaptic's interface is more complicated and doesn't support newer <app>Software</app>
+    features like ratings and reviews and therefore isn't recommended for 
     use by those new to Ubuntu.
   </p>
 
   <p>
     Synaptic isn't installed by default, but you can <link 
-    href="apt:synaptic">install</link> it with Software Center.
+    href="apt:synaptic">install</link> it with <app>Software</app>.
   </p>
 
   <section id="install-software-with-synaptic">

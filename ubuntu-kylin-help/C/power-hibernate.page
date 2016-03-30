@@ -96,7 +96,7 @@ ResultActive=yes
 
 [Re-enable hibernate by default in logind]
 Identity=unix-user:*
-Action=org.freedesktop.login1.hibernate
+Action=org.freedesktop.login1.hibernate;org.freedesktop.login1.hibernate-multiple-sessions
 ResultActive=yes
 </code>
 

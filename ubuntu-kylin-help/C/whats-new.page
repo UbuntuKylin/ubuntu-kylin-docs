@@ -6,9 +6,9 @@
     <link type="guide" xref="index" group="whats-new"/>
     <link type="guide" xref="shell-overview" group="#first"/>
 
-    <desc>Improvements in the latest version of Ubuntu.</desc>
+    <desc>Ubuntu Kylin 版本的新特性。</desc>
 
-    <revision version="15.10" date="2015-09-18" status="review"/>
+    <revision version="16.04" date="2016-03-30" status="review"/>
     <credit type="author">
       <name>Jeremy Bicha</name>
       <email>jbicha@ubuntu.com</email>
@@ -21,74 +21,56 @@
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
   </info>
 
-  <title>Ubuntu Kylin 15.10 有哪些新特性？</title>
+  <title>Ubuntu Kylin 16.04 有哪些新特性？</title>
 
-<p>Ubuntu Kylin 是基于 Ubuntu 的中文开源操作系统，底层基于 Linux 和 X/Mir，上层共享 Ubuntu 众多特性，并针对中文用户需求，在 SDK、UI 以及生态应用软件等各方面进行增强。以下是 Ubuntu Kylin 15.10 的一些新特性：
+<p>Ubuntu Kylin 是基于 Ubuntu 的中文开源操作系统，目标是创建更适合中文用户的 Linux 发行版，并将成果反馈到全球用户。Ubuntu Kylin 底层基于 Linux 内核，上层共享 Ubuntu 众多特性，并针对中文用户需求，在 SDK、UI 以及生态应用软件等各方面进行增强。以下是 Ubuntu Kylin 16.04 的一些新特性：
 </p>
 
 <section id="new-features">
-  <title>New and improved features</title>
+  <title>新特性</title>
 
 <list>
 
   <item><p>
-    基于天河二号云平台建立 Ubuntu Kylin 软件仓库；并针对 15.10 完善了 Ubuntu Kylin 软件中心，界面简洁，同时支持 Ubuntu 和 Ubuntu Kylin 软件仓库，便于快速安装 Ubuntu Kylin 团队为您定制的中文特色软件。
+    提供了一套更美观、舒适与友好的 UKUI 风格的登录与锁屏界面。
   </p></item>
 
   <item><p>
-    针对中文用户的系统需求，在中文化、裁剪优化和系统美化等方面做到贴心的系统定制，满足细腻的用户体验。
+    采用了新的扁平化风格的系统图标。
   </p></item>
 
   <item><p>
-    开发<app>优客助手</app>、<app>小企鹅输入法面板</app>等特色软件，满足更多中文桌面用户的系统管理和使用需求；与商业公司联合开发<app>金山快盘</app>、<app>WPS</app>、<app>搜狗输入法</app>等 Linux 版本商业软件，打造更加完善的 Linux 生态链。
+    默认将 <gui>Unity 启动器</gui> 移动到屏幕底部。
   </p></item>
 
   <item><p>
-    更开创了 <link href="http://www.ubuntukylin.com/Community/">Ubuntu Kylin 社区</link>，通过在线知识库平台、积分商场、发布派对等线上线下社区互动，以活动促进开源文化推广、促进开源技术交流。Ubuntu Kylin 社区随时欢迎您的参与，时刻准备着为您提供帮助。
+    <app>优麒麟软件中心</app> 在 16.04 中替代 <app>Ubuntu 软件中心</app> 成为默认的软件包管理工具，优化了各类软件安装方式的流程和体验。同时还具备查询用户安装软件的历史，一键安装以前安装的软件等功能。
   </p></item>
 
-  <item><p>The menus of the currently focused application are by default available
-    in Ubuntu's integrated <link xref="unity-menubar-intro#app-menus">menu bar</link>.
-    However, if you want you can switch to the conventional style and show the app
-    menus in the window title bar of respective application instead (this latter
-    option is new since Ubuntu 13.10).</p></item>
+  <item><p><app>优客助手</app> 对各功能进行优化，增强了流畅性和稳定性。</p></item>
 
-  <item><p>Support added for scaling Unity on a per-monitor basis, which allows for a
-    better experience on high-DPI displays. Similar scaling support is also available
-    in LibreOffice and Chromium.</p></item>
+  <item><p><app>WPS</app> 版本升级，新增图表、主题及样式、文本对象的 2D 及 3D 效果等功能。</p></item>
 
-  <item><p>Improved look and style including rounded window decorations, a new
-    interface for screen unlock, and other tweaks to the theme.</p></item>
+  <item><p><app>搜狗输入法</app> 更新了最新的 2015 年词库，完善支持繁简切换功能，修复若干细节问题。</p></item>
 
-  <item><p>The <link xref="keyboard-layouts">integrated <gui>Text Entry</gui> interface</link>
-    and the related input source <link xref="unity-menubar-intro#status-menus">
-    status menu</link> are designed to set both keyboard layout and IBus input methods.</p></item>
+  <item><p>默认使用思源字体作为中文字体。</p></item>
 
-  <item><p>A number of improvements have been made to the <gui>Dash</gui>:</p>
+  <item><p>对 <gui>Dash</gui> 的功能进行了增强:</p>
     <list>
-      <item><p>The <gui>Dash</gui> may now search dozens of different online sources simultaneously.
-        The Internet-based searches <link xref="unity-shopping">may be disabled</link>.</p></item>
+      <item><p>在 <gui>Dash</gui> 中增加了会话快捷方式（重启，关机等）。</p></item>
 
-      <item><p>The <gui>Dash</gui> search results may be filtered by category and source..</p></item>
+      <item><p>提供了新的滚动条样式。</p></item>
 
-      <item><p>Right-clicking on a search result in the <gui>Dash</gui> will display a full-screen preview with more information.</p></item>
+      <item><p>指示打开的外部存储器或垃圾箱窗口数量。</p></item>
 
-      <item><p>Use the <link xref="unity-dash-photos">photos lens</link> to view
-        photos from your computer or from your social networks.</p></item>
+      <item><p>为<gui>工作区切换器</gui> 新增了快捷菜单。</p></item>
+ 
+      <item><p>在可移动设备的快捷菜单中加入了格式化的选项。</p></item>
 
-      <item><p>Add or remove scopes from the <gui>Dash</gui> to customize your
-           experience.</p></item>
-
-      <item><p>Browse messages from your social networks with the new
-        <link xref="unity-dash-friends">Friends scope</link>.</p></item>
+      <item><p>可以用 <keyseq><key>Alt</key><key>{num}</key></keyseq> 打开 <gui>启动器</gui> 上的外部存储器。</p></item>
     </list>
   </item>
 
-  <item><p>Enter your credentials in <link xref="accounts">Online Accounts</link>
-    to easily set up online integration for the Dash, Empathy, and more.</p></item>
-
-  <item><p>Keep track of contact information for your friends and colleagues with
-    <link xref="contacts">Contacts</link>, your personal address book.</p></item>
 
 </list>
 </section>

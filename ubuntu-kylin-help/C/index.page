@@ -21,16 +21,16 @@
 <title><media type="image" src="figures/ubuntu-logo.png">Ubuntu Kylin 图标</media> Ubuntu Kylin 桌面指南</title>
 <links type="topic" style="mouseovers"
        groups="unity-introduction whats-new unity-launcher-intro unity-dash-intro unity-menubar-intro shell-exit">
-  <e:mouseover src="figures/unity.png"/>
-  <e:mouseover match="unity-introduction" src="figures/ubuntu-mascot-creature.jpg"/>
+  <e:mouseover src="figures/ubuntu-mascot-creature.png"/>
+  <e:mouseover match="unity-introduction" src="figures/unity.png"/>
   <e:mouseover match="unity-launcher-intro" src="figures/unity-launcher-intro.png"/>
   <e:mouseover match="unity-dash-intro" src="figures/unity-dash-intro.png"/>
   <e:mouseover match="unity-menubar-intro" src="figures/unity-appmenu-intro.png"/>
   <e:mouseover match="shell-exit" src="figures/unity-exit.png"/>
 </links>
 
-<links type="topic" style="toronto" groups="
-       uk shell-overview
+<links type="topic" style="toronto" groups="uk
+       shell-overview
        net media files addremove
        prefs hardware
        a11y tips more-help"/>

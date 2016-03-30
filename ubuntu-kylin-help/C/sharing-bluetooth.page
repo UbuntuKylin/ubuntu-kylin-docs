@@ -6,7 +6,7 @@
 
     <desc>Bluetooth file sharing and receiving options.</desc>
 
-    <revision version="14.04" date="2014-03-06" status="review"/>
+    <revision version="14.10" date="2014-09-14" status="review"/>
 
     <credit type="author">
       <name>Ubuntu Documentation Team</name>
@@ -36,7 +36,7 @@
       <p>In the <gui>Dash</gui>, open <app>Personal File Sharing</app>.</p>
     </item>
     <item>
-      <p>Select the desired Bluetooth file sharing and receiving options options from the list.</p>
+      <p>Select the desired Bluetooth file sharing and receiving options from the list.</p>
     </item>
   </steps>
 

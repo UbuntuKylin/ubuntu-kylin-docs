@@ -12,7 +12,7 @@
     </desc>
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
     <link type="guide" xref="media#videos" />
-    <revision version="13.10" date="2013-10-25" status="review"/>
+    <revision version="16.04" date="2016-03-16" status="review"/>
   </info>
 
   <title>
@@ -25,44 +25,8 @@
   </p>
 
   <p>
-    Cheese is not installed by default in Ubuntu. To install Cheese:
-  </p>
-
-  <list type="numbered">
-    <item>
-      <p>
-        Click <link href="apt:cheese">this link</link> to launch the 
-        <app>Software Center</app>.
-      </p>
-    </item>
-    <item>
-      <p>
-        Read the information and reviews about Cheese to make sure you want to 
-        install it.
-      </p>
-    </item>
-    <item>
-      <p>
-        If you choose to install it, click <gui>Install</gui> from the Software 
-        Center window.
-      </p>
-    </item>
-  </list>
-
-  <p>
-    You may need to provide the administrative password to complete the 
-    installation.
-  </p>
-
-  <p>
     For help with using Cheese, read the <link href="help:cheese">Cheese user 
     guide</link>.
   </p>
-
-  <note style="important">
-    <p>
-      You need to install Cheese before you can read the Cheese user guide.
-    </p>
-  </note>
 
 </page>

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-04-08 11:10+0800\n"
+"POT-Creation-Date: 2016-03-18 23:26+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -326,7 +326,6 @@ msgstr ""
 #: C/power-whydim.page:35
 #: C/session-formats.page:37
 #: C/session-screenlocks.page:36
-#: C/unity-launcher-change-autohide.page:24
 msgid "Click the icon at the very right of the <gui>menu bar</gui> and select <gui>System Settings</gui>."
 msgstr ""
 
@@ -874,9 +873,10 @@ msgstr ""
 #: C/addremove-install.page:7
 #: C/addremove-ppa.page:7
 #: C/addremove-remove.page:7
-#: C/addremove-sources.page:7
+#: C/addremove-sources.page:8
 #: C/addremove.page:11
 #: C/app-cheese.page:7
+#: C/bluetooth-turn-on-off.page:23
 #: C/display-dual-monitors.page:11
 #: C/documents.page:12
 #: C/files-browse.page:32
@@ -895,13 +895,15 @@ msgstr ""
 #: C/net-mobile.page:10
 #: C/net-wireless-airplane.page:17
 #: C/net-wireless-hidden.page:17
+#: C/numeric-keypad.page:14
 #: C/prefs-language.page:18
 #: C/report-ubuntu-bug.page:12
 #: C/session-formats.page:22
 #: C/session-language.page:30
-#: C/sharing.page:21
+#: C/sharing.page:20
 #: C/sharing-bluetooth.page:12
 #: C/sharing-desktop.page:15
+#: C/startup-applications.page:14
 #: C/tips-specialchars.page:20
 #: C/unity-launcher-change-size.page:10
 #: C/unity-launcher-intro.page:13
@@ -1214,7 +1216,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/accounts-remove.page:62
-#: C/sharing-remote-login.page:46
 msgid "Click <gui>Remove</gui>."
 msgstr ""
 
@@ -1348,7 +1349,7 @@ msgstr ""
 
 #. (itstool) path: info/desc
 #: C/addremove-install-synaptic.page:26
-msgid "Synaptic is a powerful but complicated software management alternative to Ubuntu Software Center."
+msgid "Synaptic is a powerful but complicated software management alternative to <app>Software</app>."
 msgstr ""
 
 #. (itstool) path: page/title
@@ -1358,12 +1359,12 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/addremove-install-synaptic.page:36
-msgid "<app>Synaptic Package Manager</app> is more powerful and can do some software management tasks which <app>Ubuntu Software Center</app> can't. Synaptic's interface is more complicated and doesn't support newer Software Center features like ratings and reviews and therefore isn't recommended for use by those new to Ubuntu."
+msgid "<app>Synaptic Package Manager</app> is more powerful and can do some software management tasks which <app>Software</app> can't. Synaptic's interface is more complicated and doesn't support newer <app>Software</app> features like ratings and reviews and therefore isn't recommended for use by those new to Ubuntu."
 msgstr ""
 
 #. (itstool) path: page/p
 #: C/addremove-install-synaptic.page:44
-msgid "Synaptic isn't installed by default, but you can <link href=\"apt:synaptic\">install</link> it with Software Center."
+msgid "Synaptic isn't installed by default, but you can <link href=\"apt:synaptic\">install</link> it with <app>Software</app>."
 msgstr ""
 
 #. (itstool) path: section/title
@@ -1408,7 +1409,7 @@ msgstr ""
 
 #. (itstool) path: info/desc
 #: C/addremove-install.page:9
-msgid "Use the Ubuntu Software Center to add programs and make Ubuntu more useful."
+msgid "Use <app>Software</app> to add programs and make Ubuntu more useful."
 msgstr ""
 
 #. (itstool) path: page/title
@@ -1434,12 +1435,12 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/addremove-install.page:44
 #: C/addremove-ppa.page:51
-msgid "Click the <app>Ubuntu Software Center</app> icon in the <gui>Launcher</gui>, or search for <input>Software Center</input> in the <gui>Dash</gui>."
+msgid "Click the <app>Software</app> icon in the <gui>Launcher</gui>, or search for <input>Software</input> in the <gui>Dash</gui>."
 msgstr ""
 
 #. (itstool) path: item/p
 #: C/addremove-install.page:51
-msgid "When the Software Center launches, search for an application, or select a category and find an application from the list."
+msgid "When <app>Software</app> launches, search for an application, or select a category and find an application from the list."
 msgstr ""
 
 #. (itstool) path: item/p
@@ -1479,13 +1480,13 @@ msgstr ""
 
 #. (itstool) path: note/p
 #: C/addremove-ppa.page:29
-#: C/addremove-sources.page:30
+#: C/addremove-sources.page:31
 msgid "Only add software repositories from sources that you trust!"
 msgstr ""
 
 #. (itstool) path: note/p
 #: C/addremove-ppa.page:32
-#: C/addremove-sources.page:33
+#: C/addremove-sources.page:34
 msgid "Third-party software repositories are not checked for security or reliability by Ubuntu members, and may contain software which is harmful to your computer."
 msgstr ""
 
@@ -1501,28 +1502,28 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/addremove-ppa.page:58
-#: C/addremove-sources.page:52
-msgid "When the Software Center launches, click <guiseq><gui>Edit</gui> <gui>Software Sources</gui></guiseq>"
+#: C/addremove-sources.page:53
+msgid "When <app>Software</app> launches, click <gui>Software &amp; Updates</gui>"
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/addremove-ppa.page:64
+#: C/addremove-ppa.page:63
 msgid "Switch to the <gui>Other Software</gui> tab."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/addremove-ppa.page:69
+#: C/addremove-ppa.page:68
 msgid "Click <gui>Add</gui> and enter the <code>ppa:</code> location."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/addremove-ppa.page:74
+#: C/addremove-ppa.page:73
 msgid "Click <gui>Add Source</gui>. Enter your password in the Authenticate window."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/addremove-ppa.page:80
-msgid "Close the Software Sources window. Ubuntu Software Center will then check your software sources for new software."
+#: C/addremove-ppa.page:79
+msgid "Close the <app>Software &amp; Updates</app> window. <app>Software</app> will then check your software sources for new software."
 msgstr ""
 
 #. (itstool) path: info/desc
@@ -1537,17 +1538,17 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/addremove-remove.page:21
-msgid "The <app>Ubuntu Software Center</app> helps you to remove software that you no longer use."
+msgid "<app>Software</app> helps you to remove software that you no longer use."
 msgstr ""
 
 #. (itstool) path: item/p
 #: C/addremove-remove.page:28
-msgid "Click the <app>Ubuntu Software Center</app> icon in the <gui>Launcher</gui> or search for <input>Software Center</input> in the <gui>Dash</gui>."
+msgid "Click the <app>Software</app> icon in the <gui>Launcher</gui> or search for <input>Software</input> in the <gui>Dash</gui>."
 msgstr ""
 
 #. (itstool) path: item/p
 #: C/addremove-remove.page:35
-msgid "When the Software Center opens, click the <gui>Installed</gui> button at the top."
+msgid "When <app>Software</app> opens, click the <gui>Installed</gui> button at the top."
 msgstr ""
 
 #. (itstool) path: item/p
@@ -1571,28 +1572,28 @@ msgid "Some applications depend on other applications to work properly. If you t
 msgstr ""
 
 #. (itstool) path: info/desc
-#: C/addremove-sources.page:9
+#: C/addremove-sources.page:10
 msgid "Add other repositories to extend the software sources Ubuntu uses for installation and upgrades."
 msgstr ""
 
 #. (itstool) path: page/title
-#: C/addremove-sources.page:18
+#: C/addremove-sources.page:19
 msgid "Add additional software repositories"
 msgstr ""
 
 #. (itstool) path: page/p
-#: C/addremove-sources.page:22
+#: C/addremove-sources.page:23
 msgid "Software is available from third-party sources, as well as from the default Ubuntu software repositories. If you want to install software from a third-party software repository, you must add it to Ubuntu's list of available repositories."
 msgstr ""
 
 #. (itstool) path: steps/title
-#: C/addremove-sources.page:41
+#: C/addremove-sources.page:42
 msgid "Install other repositories"
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/addremove-sources.page:45
-msgid "Click on the <app>Ubuntu Software Center</app> icon in the Launcher, or search for Ubuntu Software Center in the search bar of the <app>Dash</app>."
+#: C/addremove-sources.page:46
+msgid "Click on the <app>Software</app> icon in the Launcher, or search for <input>Software</input> in the search bar of the <app>Dash</app>."
 msgstr ""
 
 #. (itstool) path: item/p
@@ -1606,13 +1607,8 @@ msgid "Click <gui>Add</gui> and enter the APT line for the repository. This shou
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/addremove-sources.page:69
-msgid "<code>deb http://archive.ubuntu.com/ubuntu/ saucy main</code>"
-msgstr ""
-
-#. (itstool) path: item/p
 #: C/addremove-sources.page:74
-msgid "Click <gui>Add Source</gui> then close the Software Sources window. Ubuntu Software Center will then check your software sources for new updates."
+msgid "Click <gui>Add Source</gui> then close the <app>Software &amp; Updates</app> window. <app>Software</app> will then check your software sources for new updates."
 msgstr ""
 
 #. (itstool) path: section/title
@@ -1622,22 +1618,17 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/addremove-sources.page:86
-msgid "The Canonical Partner repository offers some proprietary applications that don't cost any money to use but are closed source. They include software like <app>Skype</app>, <app>Adobe Reader</app> and <app>Adobe Flash Plugin</app>. Software in this repository will appear in Ubuntu Software Center search results but won't be installable until this repository is enabled."
+msgid "The Canonical Partner repository offers some proprietary applications that don't cost any money to use but are closed source. They include software like <app>Skype</app>, <app>Adobe Reader</app> and <app>Adobe Flash Plugin</app>. Software in this repository will appear in <app>Software</app> search results but won't be installable until this repository is enabled."
 msgstr ""
 
 #. (itstool) path: section/p
 #: C/addremove-sources.page:94
-msgid "To enable the repository, follow the steps above to open the <gui>Other Software</gui> tab in <app>Software Sources</app>. If you see the <gui>Canonical Partners</gui> repository in the list, make sure it is checked then close the Software Sources window. If you don't see it, click <gui>Add</gui> and enter:"
-msgstr ""
-
-#. (itstool) path: section/p
-#: C/addremove-sources.page:101
-msgid "<code>deb http://archive.canonical.com/ubuntu saucy partner</code>"
+msgid "To enable the repository, follow the steps above to open the <gui>Other Software</gui> tab in <app>Software &amp; Updates</app>. If you see the <gui>Canonical Partners</gui> repository in the list, make sure it is checked then close the <app>Software &amp; Updates</app> window. If you don't see it, click <gui>Add</gui> and enter:"
 msgstr ""
 
 #. (itstool) path: section/p
 #: C/addremove-sources.page:104
-msgid "Click <gui>Add Source</gui> then close the Software Sources window. Wait a moment for Ubuntu Software Center to download the repository information."
+msgid "Click <gui>Add Source</gui> then close the <app>Software &amp; Updates</app> window. Wait a moment for <app>Software</app> to download the repository information."
 msgstr ""
 
 #. (itstool) path: info/title
@@ -1673,37 +1664,7 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/app-cheese.page:27
-msgid "Cheese is not installed by default in Ubuntu. To install Cheese:"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/app-cheese.page:33
-msgid "Click <link href=\"apt:cheese\">this link</link> to launch the <app>Software Center</app>."
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/app-cheese.page:39
-msgid "Read the information and reviews about Cheese to make sure you want to install it."
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/app-cheese.page:45
-msgid "If you choose to install it, click <gui>Install</gui> from the Software Center window."
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/app-cheese.page:52
-msgid "You may need to provide the administrative password to complete the installation."
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/app-cheese.page:57
 msgid "For help with using Cheese, read the <link href=\"help:cheese\">Cheese user guide</link>."
-msgstr ""
-
-#. (itstool) path: note/p
-#: C/app-cheese.page:63
-msgid "You need to install Cheese before you can read the Cheese user guide."
 msgstr ""
 
 #. (itstool) path: info/desc
@@ -2066,11 +2027,11 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/backup-where.page:57
-msgid "Online backup service (<link href=\"http://aws.amazon.com/s3/\">Amazon S3</link> or <link href=\"https://one.ubuntu.com/\">Ubuntu One</link>, for example; capacity depends on price)"
+msgid "Online backup service (<link href=\"http://aws.amazon.com/s3/\">Amazon S3</link>, for example; capacity depends on price)"
 msgstr ""
 
 #. (itstool) path: page/p
-#: C/backup-where.page:63
+#: C/backup-where.page:62
 msgid "Some of these options have sufficient capacity to allow for a backup of every file on your system, which is also known as a <em>complete system backup</em>."
 msgstr ""
 
@@ -2429,65 +2390,56 @@ msgstr ""
 msgid "In the device information on the right, click <gui>Send Files</gui>."
 msgstr ""
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/bluetooth-turn-on-off.page:29
-#: C/unity-menubar-intro.page:76
-msgctxt "_"
-msgid "external ref='/usr/share/icons/ubuntu-mono-light/status/24/bluetooth-active.svg' md5='265f0461c4f337cfe7f9ebc04b98a58f'"
-msgstr ""
-
 #. (itstool) path: info/desc
 #: C/bluetooth-turn-on-off.page:12
 msgid "Enable or disable the Bluetooth device on your computer."
 msgstr ""
 
 #. (itstool) path: page/title
-#: C/bluetooth-turn-on-off.page:25
+#: C/bluetooth-turn-on-off.page:28
 msgid "Turn Bluetooth on or off"
 msgstr ""
 
+#. (itstool) path: page/media
+#. (itstool) path: p/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/bluetooth-turn-on-off.page:32
+#: C/unity-menubar-intro.page:90
+msgctxt "_"
+msgid "external ref='figures/bluetooth-active.svg' md5='265f0461c4f337cfe7f9ebc04b98a58f'"
+msgstr ""
+
 #. (itstool) path: media/p
-#: C/bluetooth-turn-on-off.page:30
+#: C/bluetooth-turn-on-off.page:33
 msgid "The Bluetooth icon in the menu bar"
 msgstr ""
 
-#. (itstool) path: when/p
-#: C/bluetooth-turn-on-off.page:35
-msgid "You can turn Bluetooth on to use Bluetooth devices and send and receive files, but turn it off to conserve power. To turn Bluetooth on, click the Bluetooth icon in the menu bar and click <gui>Turn On Bluetooth</gui>."
-msgstr ""
-
-#. (itstool) path: choose/p
-#: C/bluetooth-turn-on-off.page:40
+#. (itstool) path: page/p
+#: C/bluetooth-turn-on-off.page:36
 msgid "You can turn Bluetooth on to use Bluetooth devices and send and receive files, but turn it off to conserve power. To turn Bluetooth on, click the Bluetooth icon on the top bar and switch <gui>Bluetooth</gui> on."
 msgstr ""
 
 #. (itstool) path: when/p
-#: C/bluetooth-turn-on-off.page:47
+#: C/bluetooth-turn-on-off.page:42
 msgid "Many laptop computers have a hardware switch or key combination to turn Bluetooth on and off. If the Bluetooth hardware is turned off, you will not see a Bluetooth icon in the menu bar. Look for a switch on your computer or a key on your keyboard. The keyboard key is often accessed with the help of the <key>Fn</key> key."
 msgstr ""
 
 #. (itstool) path: choose/p
-#: C/bluetooth-turn-on-off.page:53
+#: C/bluetooth-turn-on-off.page:48
 msgid "Many laptop computers have a hardware switch or key combination to turn Bluetooth on and off. If the Bluetooth hardware is turned off, you will not see a Bluetooth icon in the top bar. Look for a switch on your computer or a key on your keyboard. The keyboard key is often accessed with the help of the <key>Fn</key> key."
 msgstr ""
 
-#. (itstool) path: when/p
-#: C/bluetooth-turn-on-off.page:62
-msgid "To turn Bluetooth off, click the Bluetooth icon and click <gui>Turn Off Bluetooth</gui>."
-msgstr ""
-
-#. (itstool) path: choose/p
-#: C/bluetooth-turn-on-off.page:65
+#. (itstool) path: page/p
+#: C/bluetooth-turn-on-off.page:55
 msgid "To turn Bluetooth off, click the Bluetooth icon and switch <gui>Bluetooth</gui> off."
 msgstr ""
 
 #. (itstool) path: note/p
-#: C/bluetooth-turn-on-off.page:69
-msgid "You only need to switch <gui>Visibility</gui> on if you are connecting to this computer from another device. See <link xref=\"bluetooth-visibility\"/> for more information."
+#: C/bluetooth-turn-on-off.page:58
+msgid "You only need to switch <gui>Visible</gui> on if you are connecting to this computer from another device. See <link xref=\"bluetooth-visibility\"/> for more information."
 msgstr ""
 
 #. (itstool) path: info/desc
@@ -2518,17 +2470,6 @@ msgstr ""
 #. (itstool) path: page/p
 #: C/bluetooth-visibility.page:34
 msgid "Unless you or someone you trust needs to connect to your computer from another device, you should leave visibility off."
-msgstr ""
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/color-assignprofiles.page:55
-#: C/color-notspecifiededid.page:32
-msgctxt "_"
-msgid "external ref='figures/color-profile-default.png' md5='78403ca445191bb5f9be02fecf80968c'"
 msgstr ""
 
 #. (itstool) path: info/desc
@@ -2586,6 +2527,17 @@ msgstr ""
 #. (itstool) path: figure/desc
 #: C/color-assignprofiles.page:54
 msgid "You can make a profile default by changing it with the radio button."
+msgstr ""
+
+#. (itstool) path: figure/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/color-assignprofiles.page:55
+#: C/color-notspecifiededid.page:32
+msgctxt "_"
+msgid "external ref='figures/color-profile-default.png' md5='78403ca445191bb5f9be02fecf80968c'"
 msgstr ""
 
 #. (itstool) path: page/p
@@ -3221,16 +3173,6 @@ msgstr ""
 msgid "Every device that is processing color should have it's own ICC profile and when this is achieved the system is said to have an <em>end-to-end color-managed workflow</em>. With this kind of workflow you can be sure that colors are not being lost or modified."
 msgstr ""
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/color-whatisspace.page:51
-msgctxt "_"
-msgid "external ref='figures/color-space.png' md5='0417f11824ea39b7ab1e31193c19e207'"
-msgstr ""
-
 #. (itstool) path: info/desc
 #: C/color-whatisspace.page:8
 msgid "A color space is a defined range of colors."
@@ -3259,6 +3201,16 @@ msgstr ""
 #. (itstool) path: figure/desc
 #: C/color-whatisspace.page:49
 msgid "sRGB, AdobeRGB and ProPhotoRGB represented by white triangles"
+msgstr ""
+
+#. (itstool) path: figure/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/color-whatisspace.page:51
+msgctxt "_"
+msgid "external ref='figures/color-space.png' md5='0417f11824ea39b7ab1e31193c19e207'"
 msgstr ""
 
 #. (itstool) path: page/p
@@ -3296,16 +3248,6 @@ msgstr ""
 msgid "Color management is a process for converting from one color space to another, where a color space can be a well known defined space like sRGB, or a custom space such as your monitor or printer profile."
 msgstr ""
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/color-why-calibrate.page:25
-msgctxt "_"
-msgid "external ref='figures/color-average.png' md5='9189963fdd14f11f0685a9ef2196279b'"
-msgstr ""
-
 #. (itstool) path: info/desc
 #: C/color-why-calibrate.page:7
 msgid "Calibrating is important if you care about the colors you display or print."
@@ -3321,6 +3263,16 @@ msgstr ""
 msgid "Generic profiles are usually bad. When a manufacturer creates a new model, they just take a few items from the production line and average them together:"
 msgstr ""
 
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/color-why-calibrate.page:25
+msgctxt "_"
+msgid "external ref='figures/color-average.png' md5='9189963fdd14f11f0685a9ef2196279b'"
+msgstr ""
+
 #. (itstool) path: media/p
 #: C/color-why-calibrate.page:26
 msgid "Averaged profiles"
@@ -3334,36 +3286,6 @@ msgstr ""
 #. (itstool) path: page/p
 #: C/color-why-calibrate.page:37
 msgid "The best way of ensuring the profile you have is accurate is by doing the calibration yourself, or by letting an external company supply you with a profile based on your exact characterization state."
-msgstr ""
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/color-whyimportant.page:31
-msgctxt "_"
-msgid "external ref='figures/color-camera.png' md5='3c7319d2fde00e55eaca8f5318667a66'"
-msgstr ""
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/color-whyimportant.page:41
-msgctxt "_"
-msgid "external ref='figures/color-display.png' md5='a4cd5c10c2fe44a82d6096963573cd8e'"
-msgstr ""
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/color-whyimportant.page:51
-msgctxt "_"
-msgid "external ref='figures/color-printer.png' md5='42cae5a5d2aac8c774b76f7b41cc921c'"
 msgstr ""
 
 #. (itstool) path: info/desc
@@ -3391,6 +3313,16 @@ msgstr ""
 msgid "A bird on a frosty wall as seen on the camera view-finder"
 msgstr ""
 
+#. (itstool) path: figure/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/color-whyimportant.page:31
+msgctxt "_"
+msgid "external ref='figures/color-camera.png' md5='3c7319d2fde00e55eaca8f5318667a66'"
+msgstr ""
+
 #. (itstool) path: page/p
 #: C/color-whyimportant.page:34
 msgid "Displays typically over-saturate the blue channel, making the images look cold."
@@ -3401,6 +3333,16 @@ msgstr ""
 msgid "This is what the user sees on a typical business laptop screen"
 msgstr ""
 
+#. (itstool) path: figure/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/color-whyimportant.page:41
+msgctxt "_"
+msgid "external ref='figures/color-display.png' md5='a4cd5c10c2fe44a82d6096963573cd8e'"
+msgstr ""
+
 #. (itstool) path: page/p
 #: C/color-whyimportant.page:44
 msgid "Notice how the white is not 'paper white' and the black of the eye is now a muddy brown."
@@ -3409,6 +3351,16 @@ msgstr ""
 #. (itstool) path: figure/desc
 #: C/color-whyimportant.page:50
 msgid "This is what the user sees when printing on a typical inkjet printer"
+msgstr ""
+
+#. (itstool) path: figure/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/color-whyimportant.page:51
+msgctxt "_"
+msgid "external ref='figures/color-printer.png' md5='42cae5a5d2aac8c774b76f7b41cc921c'"
 msgstr ""
 
 #. (itstool) path: page/p
@@ -3463,7 +3415,7 @@ msgstr ""
 #: C/power-nowireless.page:20
 #: C/power-suspendfail.page:18
 #: C/power-suspend.page:17
-#: C/sharing.page:17
+#: C/sharing.page:16
 #: C/sharing-desktop.page:11
 msgid "Ekaterina Gerasimova"
 msgstr ""
@@ -3768,47 +3720,42 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/clock-calendar.page:29
-msgid "You can organize your calendar appointments by clicking on the clock in the panel, if you're using a mail and calendar application called <app>Evolution</app>."
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/clock-calendar.page:32
-msgid "If you have already set up Evolution, click the clock on the menu bar and then click the <gui>Add Event</gui> to start adding appointments. As appointments are added, they will appear below the calendar when you click on the clock."
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/clock-calendar.page:36
-msgid "To quickly get to the full Evolution calendar, click on the clock and click the first line where today's date is."
+msgid "A built in calendar application called <app>Calendar</app> allows you to organize your calendar appointments or events. Up to five of these, over a four-week duration, will appear by clicking on the clock in the <gui>menu bar</gui>."
 msgstr ""
 
 #. (itstool) path: note/p
-#: C/clock-calendar.page:45
-msgid "This will work only if you have an existing <app>Evolution</app> account. Otherwise, a window will appear with the necessary steps for adding your first account."
+#: C/clock-calendar.page:31
+msgid "Calendar appointment integration is also supported with a mail and calendar application called <app>Evolution</app>, which may be installed separately."
 msgstr ""
 
 #. (itstool) path: section/title
-#: C/clock-calendar.page:49
-msgid "Turn off Evolution calendar integration"
+#: C/clock-calendar.page:34
+msgid "Launch the Calendar application"
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/clock-calendar.page:50
-msgid "You can also turn off this feature if you like."
+#: C/clock-calendar.page:35
+msgid "Appointments and events may be managed through the built in <app>Calendar</app> application."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/clock-calendar.page:53
-msgid "Click on the clock and select <gui>Time &amp; Date Settings</gui>."
+#: C/clock-calendar.page:38
+msgid "Click on the <gui>Dash</gui> icon in the <link xref=\"unity-launcher-intro\">Launcher</link>."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/clock-calendar.page:54
-msgid "Now, switch to the <gui>Clock</gui> tab."
+#: C/clock-calendar.page:39
+msgid "Type <input>calendar</input> in the <gui>Search your computer</gui> to locate the <app>Calendar</app> application."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/clock-calendar.page:55
-msgid "Uncheck <gui>Coming events from Evolution Calendar</gui>."
+#: C/clock-calendar.page:40
+msgid "Click the <gui>Calendar</gui> application icon."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/clock-calendar.page:43
+msgid "Alternatively, you may also type <input>gnome-calendar</input> in the <app>Terminal</app> application."
 msgstr ""
 
 #. (itstool) path: info/desc
@@ -3862,8 +3809,9 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/clock-more-info.page:37
-#: C/keyboard-layouts.page:72
-#: C/keyboard-layouts.page:115
+#: C/keyboard-layouts.page:63
+#: C/keyboard-layouts.page:106
+#: C/keyboard-layouts.page:166
 #: C/keyboard-osk.page:34
 #: C/keyboard-repeat-keys.page:42
 #: C/keyboard-shortcuts-set.page:41
@@ -3871,8 +3819,8 @@ msgstr ""
 #: C/net-wireless-adhoc.page:43
 #: C/prefs-language-install.page:25
 #: C/session-language.page:43
+#: C/shell-workspaces.page:41
 #: C/unity-launcher-change-size.page:24
-#: C/unity-menubar-intro.page:49
 msgid "Click the icon at the very right of the menu bar and select <gui>System Settings</gui>."
 msgstr ""
 
@@ -4642,7 +4590,17 @@ msgstr ""
 msgid "Click the Trash button in the button bar. The collection will be deleted, leaving the original documents."
 msgstr ""
 
-#. (itstool) path: media
+#. (itstool) path: info/desc
+#: C/documents-filter.page:11
+msgid "Choose which documents to display."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/documents-filter.page:19
+msgid "Filter documents"
+msgstr ""
+
+#. (itstool) path: p/media
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
@@ -4664,16 +4622,6 @@ msgstr ""
 #: C/nautilus-views.page:122
 msgctxt "_"
 msgid "external ref='figures/go-down.png' md5='e8c16f5ab9ed933f4a537b740506f4d4'"
-msgstr ""
-
-#. (itstool) path: info/desc
-#: C/documents-filter.page:11
-msgid "Choose which documents to display."
-msgstr ""
-
-#. (itstool) path: page/title
-#: C/documents-filter.page:19
-msgid "Filter documents"
 msgstr ""
 
 #. (itstool) path: page/p
@@ -5284,7 +5232,7 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/files-copy.page:49
-msgid "Click the gear icon and pick <gui>Paste</gui> to finish copying the file, or press <keyseq><key>Ctrl</key><key>V</key></keyseq>. There will now be a copy of the file in the original folder and the other folder."
+msgid "Right-click and pick <gui>Paste</gui> to finish copying the file, or press <keyseq><key>Ctrl</key><key>V</key></keyseq>. There will now be a copy of the file in the original folder and the other folder."
 msgstr ""
 
 #. (itstool) path: steps/title
@@ -5309,7 +5257,7 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/files-copy.page:61
-msgid "Click the gear button in the toolbar and pick <gui>Paste</gui> to finish moving the file, or press <keyseq><key>Ctrl</key><key>V</key></keyseq>. The file will be taken out of its original folder and moved to the other folder."
+msgid "Right-click and pick <gui>Paste</gui> to finish moving the file, or press <keyseq><key>Ctrl</key><key>V</key></keyseq>. The file will be taken out of its original folder and moved to the other folder."
 msgstr ""
 
 #. (itstool) path: steps/title
@@ -5687,16 +5635,6 @@ msgstr ""
 msgid "This changes the default application not just for the selected file, but for all files with the same type."
 msgstr ""
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/files.page:34
-msgctxt "_"
-msgid "external ref='figures/nautilus.png' md5='ee872fa563c3c7f46484bbab8459b909'"
-msgstr ""
-
 #. (itstool) path: info/title
 #: C/files.page:18
 msgctxt "link:trail"
@@ -5711,6 +5649,16 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/files.page:31
 msgid "Files, folders &amp; search"
+msgstr ""
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/files.page:34
+msgctxt "_"
+msgid "external ref='figures/nautilus.png' md5='ee872fa563c3c7f46484bbab8459b909'"
 msgstr ""
 
 #. (itstool) path: media/p
@@ -5906,7 +5854,7 @@ msgstr ""
 
 #. (itstool) path: note/p
 #: C/files-rename.page:52
-msgid "If you renamed the wrong file, or named your file improperly, you can undo the rename. To revert the action, immediately click the gear button in the toolbar and select <gui>Undo</gui> to restore the former name."
+msgid "If you renamed the wrong file, or named your file improperly, you can undo the rename. To revert the action and restore the former name, immediately click <gui>Edit</gui> in the menu bar and select <gui>Undo Rename</gui>."
 msgstr ""
 
 #. (itstool) path: section/title
@@ -6048,7 +5996,7 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/files-search.page:76
-msgid "When you're happy with the search parameters, click the ⚙ gear button and select <gui>Save Search As</gui>."
+msgid "When you're happy with the search parameters, click <gui>File</gui> in the menu bar and select <gui>Save Search As...</gui>."
 msgstr ""
 
 #. (itstool) path: item/p
@@ -6566,7 +6514,19 @@ msgstr ""
 msgid "Most problems with the display are caused by issues with graphics drivers or configuration. Which of the topics below best describes the problem you are experiencing?"
 msgstr ""
 
-#. (itstool) path: media
+#. (itstool) path: info/title
+#: C/index.page:6
+msgctxt "link"
+msgid "Ubuntu Desktop Guide"
+msgstr ""
+
+#. (itstool) path: info/title
+#: C/index.page:7
+msgctxt "text"
+msgid "Ubuntu Desktop Guide"
+msgstr ""
+
+#. (itstool) path: title/media
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
@@ -6578,26 +6538,14 @@ msgid "external ref='figures/ubuntu-logo.png' md5='d2369e87106064d4c4ff65a0e65dc
 msgstr ""
 
 #. (itstool) path: info/title
-#: C/index.page:6
-msgctxt "link"
-msgid "Ubuntu Kylin 桌面指南"
-msgstr ""
-
-#. (itstool) path: info/title
-#: C/index.page:7
-msgctxt "text"
-msgid "Ubuntu Kylin 桌面指南"
-msgstr ""
-
-#. (itstool) path: info/title
 #: C/index.page:8
 msgctxt "link:trail"
-msgid "<media type=\"image\" mime=\"image/png\" width=\"16\" height=\"16\" src=\"figures/ubuntu-logo.png\">Help</media> Ubuntu Kylin 桌面指南"
+msgid "<media type=\"image\" mime=\"image/png\" width=\"16\" height=\"16\" src=\"figures/ubuntu-logo.png\">Help</media> Ubuntu Desktop Guide"
 msgstr ""
 
 #. (itstool) path: page/title
 #: C/index.page:21
-msgid "<media type=\"image\" src=\"figures/ubuntu-logo.png\">Ubuntu Kylin 图标</media> Ubuntu Kylin 桌面指南"
+msgid "<media type=\"image\" src=\"figures/ubuntu-logo.png\">Ubuntu Logo</media> Ubuntu Desktop Guide"
 msgstr ""
 
 #. (itstool) path: info/desc
@@ -6653,26 +6601,6 @@ msgstr ""
 msgid "Use the <gui>Speed</gui> slider to adjust how quickly the cursor blinks."
 msgstr ""
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/keyboard-layouts.page:66
-msgctxt "_"
-msgid "external ref='figures/input-keyboard-symbolic.svg' md5='74389aa7cb7f9702fd63253a83f08678'"
-msgstr ""
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/keyboard-layouts.page:89
-msgctxt "_"
-msgid "external ref='figures/input-preferences.png' md5='2422aec461572532a159ef4c61e0384f'"
-msgstr ""
-
 #. (itstool) path: credit/name
 #: C/keyboard-layouts.page:26
 msgid "Juanjo Marín"
@@ -6695,88 +6623,159 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/keyboard-layouts.page:47
-msgid "Some languages, such as Chinese or Korean, require a more complex input method than just a simple key to character mapping. Consequently some of the input sources you can choose between enable such a method."
-msgstr ""
-
-#. (itstool) path: note/p
-#: C/keyboard-layouts.page:52
-msgid "Options with input methods are only available if respective input method (IM) engine is installed. When you <link xref=\"prefs-language-install\">install a language</link>, a suitable IM engine is automatically installed if applicable. For example, if you install Korean, the package <em>ibus-hangul</em> is installed, and the input source option <gui>Korean (Hangul)</gui> is made available next time you log in. You can also <link xref=\"addremove-install\"> install</link> the IBus IM engine of your choice separately."
+msgid "Some languages, such as Chinese or Korean, require a more complex input method than just a simple key to character mapping. Consequently some of the input sources you can choose between enable such a method. More about that in the section <link xref=\"#complex\">Complex input methods</link>."
 msgstr ""
 
 #. (itstool) path: section/title
-#: C/keyboard-layouts.page:62
+#: C/keyboard-layouts.page:53
 msgid "Add input sources"
 msgstr ""
 
+#. (itstool) path: gui/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/keyboard-layouts.page:57
+msgctxt "_"
+msgid "external ref='figures/input-keyboard-symbolic.svg' md5='74389aa7cb7f9702fd63253a83f08678'"
+msgstr ""
+
 #. (itstool) path: note/p
-#: C/keyboard-layouts.page:65
+#: C/keyboard-layouts.page:56
 msgid "You can preview an image of any layout by selecting it in the list and clicking <gui><media type=\"image\" src=\"figures/input-keyboard-symbolic.svg\" width=\"16\" height=\"16\"> preview</media></gui>."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/keyboard-layouts.page:75
-#: C/keyboard-layouts.page:118
+#: C/keyboard-layouts.page:66
+#: C/keyboard-layouts.page:109
+#: C/keyboard-layouts.page:169
 msgid "In the Personal section, click <gui>Text Entry</gui>."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/keyboard-layouts.page:78
+#: C/keyboard-layouts.page:69
 msgid "Click the <gui>+</gui> button, select an input source, and click <gui>Add</gui>."
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/keyboard-layouts.page:83
+#: C/keyboard-layouts.page:74
 msgid "The default source is the source at the top of the list. Use the <gui>↑</gui> and <gui>↓</gui> buttons to move sources up and down in the list."
 msgstr ""
 
+#. (itstool) path: gui/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/keyboard-layouts.page:80
+msgctxt "_"
+msgid "external ref='figures/input-preferences.png' md5='2422aec461572532a159ef4c61e0384f'"
+msgstr ""
+
 #. (itstool) path: note/p
-#: C/keyboard-layouts.page:88
+#: C/keyboard-layouts.page:79
 msgid "If you select a source with an input method, you can click <gui><media type=\"image\" src=\"figures/input-preferences.png\" width=\"18\" height=\"18\"> preferences</media></gui> to access that method's preferences dialog if any."
 msgstr ""
 
 #. (itstool) path: section/title
-#: C/keyboard-layouts.page:95
+#: C/keyboard-layouts.page:86
 msgid "Input source indicator"
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/keyboard-layouts.page:97
+#: C/keyboard-layouts.page:88
 msgid "You can quickly switch between selected sources using the input source indicator in the menu bar. The menu will display a short identifier for the current source, such as <gui>En</gui> for the standard English layout or a symbol in case of a source that uses a special input method, e.g. Chinese (Chewing). Click the input source indicator and select from the menu the source you want to use."
 msgstr ""
 
 #. (itstool) path: section/title
-#: C/keyboard-layouts.page:106
+#: C/keyboard-layouts.page:97
 msgid "Keyboard shortcuts"
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/keyboard-layouts.page:108
+#: C/keyboard-layouts.page:99
 msgid "You can also use keyboard shortcuts to quickly switch between your selected input sources. By default the shortcut for switching to next source is <keyseq><key xref=\"windows-key\">Super</key><key>Space</key></keyseq>, but you can change it:"
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/keyboard-layouts.page:121
+#: C/keyboard-layouts.page:112
 msgid "Click the current shortcut definition below the label <gui>Switch to next source using</gui>."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/keyboard-layouts.page:125
+#: C/keyboard-layouts.page:116
 msgid "When the shortcut definition has changed to <gui>New accelerator...</gui>, press the keys you want to use as the new shortcut."
 msgstr ""
 
 #. (itstool) path: section/title
-#: C/keyboard-layouts.page:132
+#: C/keyboard-layouts.page:123
 msgid "Set input source for all windows or individually for each window"
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/keyboard-layouts.page:134
+#: C/keyboard-layouts.page:125
 msgid "When you use multiple sources, you can choose to have all windows use the same source or to set a different source for each window. Using a different source for each window is useful, for example, if you're writing an article in another language in a word processor window. Your input source selection will be remembered for each window as you switch between windows."
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/keyboard-layouts.page:140
+#: C/keyboard-layouts.page:131
 msgid "By default, new windows will use the default input source. You can instead choose to have them use the source of the window you were last using."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/keyboard-layouts.page:137
+msgid "Complex input methods"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/keyboard-layouts.page:139
+msgid "Recommended frameworks for input methods are <em>IBus</em> and <em>Fcitx</em>. The latter is the default framework in Ubuntu for Chinese, Japanese, Korean and Vietnamese."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/keyboard-layouts.page:143
+msgid "Input source options with input methods are only available if respective input method (IM) engine is installed. When you install a language, a suitable IM engine is automatically installed if applicable."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/keyboard-layouts.page:147
+msgid "For example, to prepare for typing Korean (Hangul) on an English system, follow these steps:"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/keyboard-layouts.page:152
+msgid "<link xref=\"prefs-language-install\">Install</link> Korean. One of the installed packages is <em>fcitx-hangul</em>, the Hangul IM engine for Fcitx."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/keyboard-layouts.page:157
+msgid "Close <gui>Language Support</gui> and open it again."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/keyboard-layouts.page:160
+msgid "Select <em>fcitx</em> as the <gui>Keyboard input method system</gui>."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/keyboard-layouts.page:163
+msgid "Log out and log in again."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/keyboard-layouts.page:172
+msgid "Click the <gui>+</gui> button, select <em>Hangul (Fcitx)</em>, and click <gui>Add</gui>."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/keyboard-layouts.page:177
+msgid "This will make <em>Hangul</em> available in the Fcitx input source indicator in the menu bar. (The design differs from the IBus equivalent.)"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/keyboard-layouts.page:180
+msgid "If you prefer some other IM engine than the one which is installed automatically when you install a language, you can <link xref=\"addremove-install\">install</link> the IBus or Fcitx IM engine of your choice separately."
 msgstr ""
 
 #. (itstool) path: info/desc
@@ -7030,7 +7029,6 @@ msgstr ""
 #: C/keyboard-osk.page:11
 #: C/net-firewall-on-off.page:17
 #: C/power-hibernate.page:24
-#: C/sharing-remote-login.page:10
 #: C/unity-dash-apps.page:13
 #: C/unity-dash-files.page:13
 #: C/unity-dash-friends.page:13
@@ -7043,7 +7041,6 @@ msgstr ""
 #: C/unity-launcher-shapes.page:10
 #: C/unity-scrollbars-intro.page:13
 #: C/unity-shopping.page:14
-#: C/whats-new.page:13
 msgid "Jeremy Bicha"
 msgstr ""
 
@@ -7184,36 +7181,36 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/look-background.page:47
-msgid "Select an image or color. The settings are applied immediately. <link xref=\"shell-workspaces-switch\">Switch to an empty workspace</link> to view your entire desktop."
+msgid "Select an image or color. The settings are applied immediately."
 msgstr ""
 
 #. (itstool) path: page/p
-#: C/look-background.page:52
+#: C/look-background.page:50
 msgid "There are three choices in the drop-down list on the top right."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/look-background.page:54
+#: C/look-background.page:52
 msgid "Select <gui>Wallpapers</gui> to use one of the many professional background images that ship with Ubuntu. With the exception of the Ubuntu wallpaper, all of the default wallpaper choices were created by winners of a Community Wallpaper Contest."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/look-background.page:58
+#: C/look-background.page:56
 msgid "Some wallpapers are partially transparent and allow a background color to show through. For these wallpapers, there will be a color selector button in the bottom-right corner."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/look-background.page:62
+#: C/look-background.page:60
 msgid "Select <gui>Pictures Folder</gui> to use one of your own photos from your Pictures folder. Most photo management applications store photos there."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/look-background.page:65
+#: C/look-background.page:63
 msgid "Select <gui>Colors &amp; Gradients</gui> to just use a flat color or a linear gradient. Color selector buttons will appear in the bottom right corner."
 msgstr ""
 
 #. (itstool) path: page/p
-#: C/look-background.page:70
+#: C/look-background.page:68
 msgid "You can also browse for any picture on your computer by clicking the <gui>+</gui> button. Any picture you add this way will show up under <gui>Pictures Folder</gui>. You can remove it from the list by selecting it and clicking the <gui>-</gui> button. Removing a picture from the list will not delete the original file."
 msgstr ""
 
@@ -8224,7 +8221,7 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/nautilus-bookmarks-edit.page:30
-msgid "Click the gear button in the toolbar and pick <gui>Bookmark this Location</gui>."
+msgid "Click <gui>Bookmarks</gui> in the menu bar and select <gui>Bookmark this Location</gui>."
 msgstr ""
 
 #. (itstool) path: steps/title
@@ -8234,8 +8231,7 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/nautilus-bookmarks-edit.page:36
-#: C/nautilus-bookmarks-edit.page:44
-msgid "Click on <gui>Files</gui> in the top bar and pick <gui>Bookmarks</gui> from the app menu."
+msgid "Click <gui>Bookmarks</gui> in the menu bar and select <gui>Bookmarks...</gui> from the app menu."
 msgstr ""
 
 #. (itstool) path: item/p
@@ -8246,6 +8242,11 @@ msgstr ""
 #. (itstool) path: steps/title
 #: C/nautilus-bookmarks-edit.page:43
 msgid "Rename a bookmark:"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/nautilus-bookmarks-edit.page:44
+msgid "Click on <gui>Files</gui> in the top bar and pick <gui>Bookmarks</gui> from the app menu."
 msgstr ""
 
 #. (itstool) path: item/p
@@ -8478,16 +8479,6 @@ msgstr ""
 msgid "<sys>http://example.hostname.com/path</sys>"
 msgstr ""
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/nautilus-display.page:40
-msgctxt "_"
-msgid "external ref='figures/nautilus-icons.png' md5='5eb11f3f70bb27c18f77727f6db678af'"
-msgstr ""
-
 #. (itstool) path: info/desc
 #: C/nautilus-display.page:8
 msgid "Control icon captions used in the file manager."
@@ -8506,6 +8497,16 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/nautilus-display.page:38
 msgid "Icon captions"
+msgstr ""
+
+#. (itstool) path: section/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/nautilus-display.page:40
+msgctxt "_"
+msgid "external ref='figures/nautilus-icons.png' md5='5eb11f3f70bb27c18f77727f6db678af'"
 msgstr ""
 
 #. (itstool) path: media/p
@@ -9073,18 +9074,18 @@ msgid "If you are used to Windows or Mac OS, you are probably also used to havin
 msgstr ""
 
 #. (itstool) path: page/p
-#: C/net-antivirus.page:29
+#: C/net-antivirus.page:31
 msgid "Anti-virus software does exist for Linux, but you probably don't need to use it. Viruses that affect Linux are still very rare. Some argue that this is because Linux is not as widely used as other operating systems, so no-one writes viruses for it. Others argue that Linux is intrinsically more secure, and security problems that viruses could make use of are fixed very quickly."
 msgstr ""
 
 #. (itstool) path: page/p
-#: C/net-antivirus.page:31
+#: C/net-antivirus.page:36
 msgid "Whatever the reason, Linux viruses are so rare that you don't really need to worry about them at the moment."
 msgstr ""
 
 #. (itstool) path: page/p
-#: C/net-antivirus.page:33
-msgid "If you want to be extra-safe, or if you want to check for viruses in files that you are passing between yourself and people using Windows and Mac OS, you can still install anti-virus software. Check in the <app>Ubuntu Software Center</app> where a number of applications are available."
+#: C/net-antivirus.page:38
+msgid "If you want to be extra-safe, or if you want to check for viruses in files that you are passing between yourself and people using Windows and Mac OS, you can still install anti-virus software. Check in <app>Software</app> where a number of applications are available."
 msgstr ""
 
 #. (itstool) path: info/desc
@@ -9687,52 +9688,47 @@ msgid "If you do not have Flash installed, you will probably see a message telli
 msgstr ""
 
 #. (itstool) path: steps/title
-#: C/net-install-flash.page:31
+#: C/net-install-flash.page:32
 msgid "How to install Flash"
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/net-install-flash.page:33
-msgid "Click <link href=\"apt:flashplugin-installer\">this link</link> to launch the <app>Software Center</app>."
+#: C/net-install-flash.page:34
+msgid "Click <link href=\"apt:flashplugin-installer\">this link</link> to launch an install option window."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/net-install-flash.page:36
-msgid "Read the information and reviews to make sure you want to install Flash."
+#: C/net-install-flash.page:37
+msgid "If you choose to install Flash, click <gui>Install</gui>."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/net-install-flash.page:39
-msgid "If you choose to install Flash, click <gui>Install</gui> from the Software Center window."
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/net-install-flash.page:42
+#: C/net-install-flash.page:40
 msgid "If you have any web browser windows open, close them and then re-open them. The web browser should detect that Flash is installed when you open it again, and you should now be able to view websites using Flash."
 msgstr ""
 
 #. (itstool) path: section/title
-#: C/net-install-flash.page:47
+#: C/net-install-flash.page:46
 msgid "Open-source alternatives to Flash"
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/net-install-flash.page:48
+#: C/net-install-flash.page:47
 msgid "A handful of free, open-source alternatives to Flash are available. These tend to work better than the Flash plug-in in some ways (for example, by handling sound playback better), but worse in others (for example, by not being able to display some of the more complicated Flash pages on the web)."
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/net-install-flash.page:49
+#: C/net-install-flash.page:50
 msgid "You might like to try one of these if you are dissatisfied with the Flash player, or if you would like to use as much open-source software as possible on your computer. Here are a few of the options:"
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/net-install-flash.page:51
+#: C/net-install-flash.page:53
 msgid "<link href=\"apt:browser-plugin-gnash\">Gnash</link>"
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/net-install-flash.page:52
+#: C/net-install-flash.page:54
 msgid "<link href=\"apt:browser-plugin-lightspark\">LightSpark</link>"
 msgstr ""
 
@@ -10342,47 +10338,47 @@ msgid "A VPN (or <em>Virtual Private Network</em>) is a way of connecting to a l
 msgstr ""
 
 #. (itstool) path: page/p
-#: C/net-vpn-connect.page:24
-msgid "There are a number of different types of VPN. You may have to install some extra software depending on what type of VPN you're connecting to. Find out the connection details from whoever is in charge of the VPN and see which <em>VPN client</em> you need to use. Then, open <app>Ubuntu Software Center</app> and search for the <app>network-manager</app> package which works with your VPN (if there is one) and install it. You will need to click the <gui>Show technical items</gui> link at the bottom of <app>Ubuntu Software Center</app>."
+#: C/net-vpn-connect.page:28
+msgid "There are a number of different types of VPN. You may have to install some extra software depending on what type of VPN you're connecting to. Find out the connection details from whoever is in charge of the VPN and see which <em>VPN client</em> you need to use. Then, open <app>Software</app> and search for the <app>network-manager</app> package which works with your VPN (if there is one) and install it."
 msgstr ""
 
 #. (itstool) path: note/p
-#: C/net-vpn-connect.page:27
+#: C/net-vpn-connect.page:34
 msgid "If there isn't a NetworkManager package for your type of VPN, you will probably have to download and install some client software from the company that provides the VPN software. You'll probably have to follow some different instructions to get that working."
 msgstr ""
 
 #. (itstool) path: page/p
-#: C/net-vpn-connect.page:30
+#: C/net-vpn-connect.page:38
 msgid "Once that's done, you can set up the VPN connection:"
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/net-vpn-connect.page:34
+#: C/net-vpn-connect.page:42
 msgid "Click the <gui>network menu</gui> on the menu bar and, under <gui>VPN Connections</gui>, select <gui>Configure VPN</gui>."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/net-vpn-connect.page:38
+#: C/net-vpn-connect.page:46
 msgid "Click <gui>Add</gui> and choose which kind of VPN connection you have."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/net-vpn-connect.page:42
+#: C/net-vpn-connect.page:50
 msgid "Click <gui>Create</gui> and follow the instructions on the screen, entering details like your username and password as you go."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/net-vpn-connect.page:46
+#: C/net-vpn-connect.page:54
 msgid "When you've finished setting-up the VPN, click the <gui>network menu</gui> on the menu bar, go to <gui>VPN Connections</gui> and click on the connection you just created. It will try to establish a VPN connection - the network icon will change as it tries to connect."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/net-vpn-connect.page:50
+#: C/net-vpn-connect.page:59
 msgid "Hopefully, you will successfully connect to the VPN. If not, you may need to double-check the VPN settings you entered. You can do this by clicking the network menu, selecting <gui>Edit Connections</gui> and going to the <gui>VPN</gui> tab."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/net-vpn-connect.page:54
+#: C/net-vpn-connect.page:64
 msgid "To disconnect from the VPN, click the network menu and select <gui>Disconnect</gui> under the name of your VPN connection."
 msgstr ""
 
@@ -11113,52 +11109,52 @@ msgid "In this step you can check to see if you can get working device drivers f
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/net-wireless-troubleshooting-device-drivers.page:31
+#: C/net-wireless-troubleshooting-device-drivers.page:34
 msgid "Check to see if your wireless adapter is on a list of supported devices"
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/net-wireless-troubleshooting-device-drivers.page:32
+#: C/net-wireless-troubleshooting-device-drivers.page:35
 msgid "Most Linux distributions keep a list of wireless devices that they have support for. Sometimes, these lists provide extra information on how to get the drivers for certain adapters working properly. Go to the list for your distribution (for example, <link href=\"https://help.ubuntu.com/community/WifiDocs/WirelessCardsSupported\">Ubuntu</link>, <link href=\"http://linuxwireless.org/en/users/Drivers\">Fedora</link> or <link href=\"http://en.opensuse.org/HCL:Network_(Wireless)\">openSuSE</link>) and see if your make and model of wireless adapter is listed. You may be able to use some of the information there to get your wireless drivers working."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/net-wireless-troubleshooting-device-drivers.page:36
+#: C/net-wireless-troubleshooting-device-drivers.page:44
 msgid "Look for additional open or proprietary drivers"
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/net-wireless-troubleshooting-device-drivers.page:37
+#: C/net-wireless-troubleshooting-device-drivers.page:45
 msgid "Although Ubuntu includes support for a large amount of devices, some drivers need to be installed separately. Use the <gui>Additional Drivers</gui> tool to check for these extra open or <link xref=\"hardware-driver-proprietary\">proprietary</link> drivers."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/net-wireless-troubleshooting-device-drivers.page:43
+#: C/net-wireless-troubleshooting-device-drivers.page:51
 msgid "Click the button at the far right side of the menu bar and select <gui>System Settings</gui>."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/net-wireless-troubleshooting-device-drivers.page:46
-msgid "In the System section, click <gui>Software Sources</gui>."
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/net-wireless-troubleshooting-device-drivers.page:49
-msgid "Switch to the <gui>Additional Drivers</gui> tab."
+#: C/net-wireless-troubleshooting-device-drivers.page:54
+msgid "In the System section, click <gui>Software &amp; Updates</gui>."
 msgstr ""
 
 #. (itstool) path: item/p
 #: C/net-wireless-troubleshooting-device-drivers.page:57
+msgid "Switch to the <gui>Additional Drivers</gui> tab."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/net-wireless-troubleshooting-device-drivers.page:65
 msgid "Use the Windows drivers for your adapter"
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/net-wireless-troubleshooting-device-drivers.page:58
+#: C/net-wireless-troubleshooting-device-drivers.page:66
 msgid "In general, you cannot use a device driver designed for one operating system (like Windows) on another operating system (like Linux). This is because they have different ways of handling devices. For wireless adapters, however, you can install a compatibility layer called <em>NDISwrapper</em> which lets you use some Windows wireless drivers on Linux. This is useful because wireless adapters almost always have Windows drivers available for them, whereas Linux drivers are sometimes not available. You can learn more about how to use NDISwrapper <link href=\"http://sourceforge.net/apps/mediawiki/ndiswrapper/index.php?title=Main_Page\">here</link>. Note that not all wireless drivers can be used through NDISwrapper."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/net-wireless-troubleshooting-device-drivers.page:59
+#: C/net-wireless-troubleshooting-device-drivers.page:73
 msgid "Full information on ndiswrapper kept on <link href=\"https://help.ubuntu.com/community/WifiDocs/Driver/Ndiswrapper\">this page</link> including troubleshooting help specific to ndiswrapper."
 msgstr ""
 
@@ -11487,6 +11483,36 @@ msgstr ""
 #. (itstool) path: page/p
 #: C/net-wrongnetwork.page:42
 msgid "If you later want to connect to the network you just deleted, simply select it from the list of wireless networks that appears when you click the network menu on the menu bar - just as you would connect to any other wireless network."
+msgstr ""
+
+#. (itstool) path: info/desc
+#: C/numeric-keypad.page:9
+msgid "Enable the numeric keypad by default."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/numeric-keypad.page:20
+msgid "Numeric keypad"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/numeric-keypad.page:22
+msgid "With the <key>Num Lock</key> key you can manually switch on or off the numeric keypad on your keyboard. Also, computers' BIOS settings often include an option to decide if the computer should be started with the numeric keypad enabled. Otherwise, this is a way to configure it:"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/numeric-keypad.page:29
+msgid "<link xref=\"addremove-install\">Install</link> the <em>numlockx</em> package."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/numeric-keypad.page:32
+msgid "Open <app><link xref=\"startup-applications\">Startup Applications</link></app> and add a startup program with the command: <cmd>numlockx on</cmd>"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/numeric-keypad.page:37
+msgid "If you want the numeric keyboard to be on also at the login screen, you can create a special configuration file. Press <keyseq><key>Ctrl</key><key>Alt</key><key>T</key></keyseq> to open a terminal window, and then run this command (it's one long command, even if it may be shown wrapped on the screen - copy and paste to get it right):"
 msgstr ""
 
 #. (itstool) path: info/desc
@@ -12455,7 +12481,6 @@ msgstr ""
 #: C/printing-cancel-job.page:74
 #: C/printing-setup-default-printer.page:35
 #: C/printing-setup.page:72
-#: C/unity-shopping.page:46
 #: C/user-add.page:64
 #: C/user-admin-change.page:32
 #: C/user-changepassword.page:52
@@ -12720,16 +12745,6 @@ msgstr ""
 msgid "Once the jam has been cleared you may need to press the printer's <gui>Resume</gui> button to start printing again. With some printers, you may even need to turn the printer off and then on again, and then start the print job again."
 msgstr ""
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/printing-select.page:36
-msgctxt "_"
-msgid "external ref='figures/printing-select.png' md5='053f8b6773086fc24f2f65f3cfc3df5f'"
-msgstr ""
-
 #. (itstool) path: info/desc
 #: C/printing-select.page:7
 msgid "Print only specific pages, or only a range of pages."
@@ -12758,6 +12773,16 @@ msgstr ""
 #. (itstool) path: note/p
 #: C/printing-select.page:33
 msgid "For example, if you enter \"1,3,5-7,9\" in the <gui>Pages</gui> text box, pages 1,3,5,6,7 and 9 will be printed."
+msgstr ""
+
+#. (itstool) path: note/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/printing-select.page:36
+msgctxt "_"
+msgid "external ref='figures/printing-select.png' md5='053f8b6773086fc24f2f65f3cfc3df5f'"
 msgstr ""
 
 #. (itstool) path: info/desc
@@ -13210,11 +13235,11 @@ msgstr ""
 
 #. (itstool) path: info/desc
 #: C/sharing.page:8
-msgid "<link xref=\"sharing-desktop\">Desktop sharing</link>, <link xref=\"files-share\">Share files</link>, <link xref=\"sharing-remote-login\">remote login</link>…"
+msgid "<link xref=\"sharing-desktop\">Desktop sharing</link>, <link xref=\"files-share\">Share files</link>…"
 msgstr ""
 
 #. (itstool) path: page/title
-#: C/sharing.page:28
+#: C/sharing.page:27
 msgid "Sharing"
 msgstr ""
 
@@ -13250,7 +13275,7 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/sharing-bluetooth.page:39
-msgid "Select the desired Bluetooth file sharing and receiving options options from the list."
+msgid "Select the desired Bluetooth file sharing and receiving options from the list."
 msgstr ""
 
 #. (itstool) path: info/desc
@@ -13346,46 +13371,6 @@ msgstr ""
 #. (itstool) path: note/p
 #: C/sharing-desktop.page:94
 msgid "If this option is disabled, it is possible for someone to connect to your desktop without your knowledge, depending on the security settings."
-msgstr ""
-
-#. (itstool) path: info/desc
-#: C/sharing-remote-login.page:14
-msgid "Log in to your remote desktops from the login screen."
-msgstr ""
-
-#. (itstool) path: page/title
-#: C/sharing-remote-login.page:18
-msgid "What is remote login?"
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/sharing-remote-login.page:20
-msgid "You can use Ubuntu as a remote desktop client straight from the login screen using Ubuntu's <link xref=\"shell-guest-session\">guest session</link> feature. This means you don't need a local account on the client computer. The Remote Desktop Protocol is the only supported protocol so far."
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/sharing-remote-login.page:26
-msgid "The system is designed so that <app>Ubuntu One</app> securely stores your login information so that instead of needing to remember your credentials for multiple remote computers, you can just enter your Ubuntu One email and password to log in."
-msgstr ""
-
-#. (itstool) path: note/p
-#: C/sharing-remote-login.page:31
-msgid "Ubuntu also includes the <app>Remmina</app> remote desktop client if you'd prefer to connect to remote computers while logged in as a regular user."
-msgstr ""
-
-#. (itstool) path: section/title
-#: C/sharing-remote-login.page:36
-msgid "Turn off remote login"
-msgstr ""
-
-#. (itstool) path: section/p
-#: C/sharing-remote-login.page:38
-msgid "If you don't want to use remote login from the login screen, you can remove the remote login service."
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/sharing-remote-login.page:43
-msgid "Click <link href=\"apt:remote-login-service\">this link</link> to open the Software Center."
 msgstr ""
 
 #. (itstool) path: info/desc
@@ -14112,63 +14097,59 @@ msgstr ""
 msgid "Move a window to a different workspace"
 msgstr ""
 
+#. (itstool) path: note/p
+#: C/shell-workspaces-movewindow.page:28
+#: C/shell-workspaces-switch.page:27
+msgid "Please see <link xref=\"shell-workspaces\"/> about enabling workspaces."
+msgstr ""
+
 #. (itstool) path: page/p
 #. (itstool) path: item/title
-#: C/shell-workspaces-movewindow.page:27
-#: C/shell-workspaces-switch.page:28
+#: C/shell-workspaces-movewindow.page:31
+#: C/shell-workspaces-switch.page:32
 msgid "Using the mouse:"
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/shell-workspaces-movewindow.page:31
+#: C/shell-workspaces-movewindow.page:35
 msgid "Open the <link xref=\"unity-launcher-intro\">Launcher</link> and click the <gui>workspace switcher</gui> button near the bottom."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/shell-workspaces-movewindow.page:35
+#: C/shell-workspaces-movewindow.page:39
 msgid "Drag the window to the workspace you choose."
 msgstr ""
 
 #. (itstool) path: page/p
 #. (itstool) path: item/title
-#: C/shell-workspaces-movewindow.page:39
-#: C/shell-workspaces-switch.page:33
+#: C/shell-workspaces-movewindow.page:43
+#: C/shell-workspaces-switch.page:37
 msgid "Using the keyboard:"
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/shell-workspaces-movewindow.page:42
+#: C/shell-workspaces-movewindow.page:46
 msgid "Select the window you want to move."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/shell-workspaces-movewindow.page:45
+#: C/shell-workspaces-movewindow.page:49
 msgid "Press <keyseq><key>Ctrl</key><key>Alt</key><key>Shift</key><key>→</key></keyseq> to move the window to a workspace which is to the right of the current workspace on the <gui>workspace switcher</gui>."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/shell-workspaces-movewindow.page:51
+#: C/shell-workspaces-movewindow.page:55
 msgid "Press <keyseq><key>Ctrl</key><key>Alt</key><key>Shift</key><key>←</key></keyseq> to move the window to a workspace which is to the left of the current workspace on the <gui>workspace switcher</gui>."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/shell-workspaces-movewindow.page:57
+#: C/shell-workspaces-movewindow.page:61
 msgid "Press <keyseq><key>Ctrl</key><key>Alt</key><key>Shift</key><key>↓</key></keyseq> to move the window to a workspace which is below the current workspace on the <gui>workspace switcher</gui>."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/shell-workspaces-movewindow.page:63
+#: C/shell-workspaces-movewindow.page:67
 msgid "Press <keyseq><key>Ctrl</key><key>Alt</key><key>Shift</key><key>↑</key></keyseq> to move the window to a workspace which is above the current workspace on the <gui>workspace switcher</gui>."
-msgstr ""
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/shell-workspaces.page:26
-msgctxt "_"
-msgid "external ref='figures/unity-workspace-intro.png' md5='6000b012197429a0c6004a354d7e9e70'"
 msgstr ""
 
 #. (itstool) path: info/desc
@@ -14179,6 +14160,16 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/shell-workspaces.page:23
 msgid "What is a workspace, and how will it help me?"
+msgstr ""
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/shell-workspaces.page:26
+msgctxt "_"
+msgid "external ref='figures/unity-workspace-intro.png' md5='058673b073532130bbe9d340a4b3d6e1'"
 msgstr ""
 
 #. (itstool) path: media/p
@@ -14196,39 +14187,44 @@ msgstr ""
 msgid "Workspaces can be used to organize your work. For example, you could have all your communication windows, such as e-mail and your chat program, on one workspace, and the work you are doing on a different workspace. Your music manager could be on a third workspace."
 msgstr ""
 
+#. (itstool) path: steps/title
+#: C/shell-workspaces.page:39
+msgid "Enable workspaces"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/shell-workspaces.page:44
+msgid "In the Personal section, click <gui>Appearance</gui> and select the <gui>Behavior</gui> tab."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/shell-workspaces.page:47
+msgid "Tick the <gui>Enable workspaces</gui> checkbox."
+msgstr ""
+
 #. (itstool) path: page/p
-#: C/shell-workspaces.page:38
-msgid "Open the <link xref=\"unity-launcher-intro\">Launcher</link> and click the <gui>workspace switcher</gui> icon near the bottom. By default, Ubuntu shows 4 workspaces, arranged in 2 rows and 2 columns. You can change the number of workspaces:"
+#: C/shell-workspaces.page:51
+msgid "Now you can open the <link xref=\"unity-launcher-intro\">Launcher</link> and click the <gui>workspace switcher</gui> icon near the bottom. By default, Ubuntu shows 4 workspaces, arranged in 2 rows and 2 columns. You can change the number of workspaces:"
 msgstr ""
 
 #. (itstool) path: steps/title
-#: C/shell-workspaces.page:41
+#: C/shell-workspaces.page:54
 msgid "Change the number of workspaces"
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/shell-workspaces.page:42
+#: C/shell-workspaces.page:55
 msgid "Go to the <link xref=\"unity-dash-intro\">Dash</link> and open the <app>Terminal</app>."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/shell-workspaces.page:43
+#: C/shell-workspaces.page:56
 msgid "To change the number of rows, type the following command, changing the final number to the number you wish. Press <key>Enter</key>."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/shell-workspaces.page:46
+#: C/shell-workspaces.page:59
 msgid "To change the number of columns, type the following command, changing the final number to the number you wish. Press <key>Enter</key>."
-msgstr ""
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/shell-workspaces-switch.page:56
-msgctxt "_"
-msgid "external ref='figures/unity-windows.png' md5='1bf2ad7c20e03a4ccfa629a77984ac94'"
 msgstr ""
 
 #. (itstool) path: info/desc
@@ -14242,28 +14238,38 @@ msgid "Switch between workspaces"
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/shell-workspaces-switch.page:29
+#: C/shell-workspaces-switch.page:33
 msgid "Open the <link xref=\"unity-launcher-intro\">Launcher</link> and click the <gui>workspace switcher</gui> button near the bottom. Double-click on any window or workspace to switch to it, or press the workspace switcher button again to return to your previous workspace."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/shell-workspaces-switch.page:37
+#: C/shell-workspaces-switch.page:41
 msgid "Press <keyseq><key>Ctrl</key><key>Alt</key><key>→</key></keyseq> to move to a workspace which is to the right of the current workspace."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/shell-workspaces-switch.page:40
+#: C/shell-workspaces-switch.page:44
 msgid "Press <keyseq><key>Ctrl</key><key>Alt</key><key>←</key></keyseq> to move to a workspace which is to the left of the current workspace."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/shell-workspaces-switch.page:45
+#: C/shell-workspaces-switch.page:49
 msgid "Press <keyseq><key>Ctrl</key><key>Alt</key><key>↓</key></keyseq> to move to a workspace which is below the current workspace."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/shell-workspaces-switch.page:48
+#: C/shell-workspaces-switch.page:52
 msgid "Press <keyseq><key>Ctrl</key><key>Alt</key><key>↑</key></keyseq> to move to a workspace which is above the current workspace."
+msgstr ""
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/shell-workspaces-switch.page:60
+msgctxt "_"
+msgid "external ref='figures/unity-windows.png' md5='a29e8180454ef7c9d06bf4a7f8bf238d'"
 msgstr ""
 
 #. (itstool) path: info/desc
@@ -14620,6 +14626,36 @@ msgid "Only applications that are playing sounds will be listed. If an applicati
 msgstr ""
 
 #. (itstool) path: info/desc
+#: C/startup-applications.page:9
+msgid "Choose what applications to start when you log in."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/startup-applications.page:20
+msgid "Startup Applications"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/startup-applications.page:22
+msgid "You can configure what applications should be started at login, in addition to the default startup applications configured on the system."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/startup-applications.page:27
+msgid "Use <link xref=\"unity-dash-intro\">the Dash</link> to find and open <gui>Startup Applications</gui>. Alternatively you can press <keyseq><key>Alt</key><key>F2</key></keyseq> and run the <cmd>gnome-session-properties</cmd> command."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/startup-applications.page:33
+msgid "Click <gui>Add</gui> and enter the command to be executed at login (name and comment are optional). For example, to make Firefox start automatically, it's sufficient to type <cmd>firefox</cmd> in the <gui>Command</gui> field and confirm with <gui>Add</gui>."
+msgstr ""
+
+#. (itstool) path: note/p
+#: C/startup-applications.page:41
+msgid "You can either type the command, or click the <gui>Browse...</gui> button and select a command. Applications to autostart are typically located in the <code>/usr/bin</code> folder."
+msgstr ""
+
+#. (itstool) path: info/desc
 #: C/tips.page:12
 msgid "<link xref=\"tips-specialchars\">Special characters</link>, <link xref=\"mouse-middleclick\">middle click shortcuts</link>…"
 msgstr ""
@@ -14676,7 +14712,7 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/tips-specialchars.page:65
-msgid "To enter a character by its code point, hold down <key>Ctrl</key> and <key>Shift</key>, type <key>u</key> followed by the four-character code point, then release <key>Ctrl</key> and <key>Shift</key>. If you often use characters that you can't easily access with other methods, you might find it useful to memorize the code point for those characters so you can enter them quickly."
+msgid "To enter a character by its code point, press <keyseq><key>Ctrl</key><key>Shift</key><key>U</key></keyseq>, type the four-character code point, and press <key>Enter</key>. If you often use characters that you can't easily access with other methods, you might find it useful to memorize the code point for those characters so you can enter them quickly."
 msgstr ""
 
 #. (itstool) path: section/title
@@ -14687,1700 +14723,6 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/tips-specialchars.page:75
 msgid "You can make your keyboard behave like the keyboard for another language, regardless of the letters printed on the keys. You can even switch between different input sources using an icon in the menu bar. To learn how, see <link xref=\"keyboard-layouts\"/>."
-msgstr ""
-
-#. (itstool) path: info/title
-#: C/uk-calendar.page:10
-msgctxt "link:trail"
-msgid "中国农历"
-msgstr ""
-
-#. (itstool) path: info/desc
-#: C/uk-calendar.page:12
-msgid "基于中国传统历法的日历软件。"
-msgstr ""
-
-#. (itstool) path: credit/name
-#: C/uk-calendar.page:20
-#: C/uk-dash-music.page:13
-#: C/uk-dash.page:20
-#: C/uk-dash-photo.page:13
-#: C/uk-dash-video.page:13
-#: C/uk-fcitx.page:20
-#: C/uk-fcitx-qimpanel-skin.page:7
-#: C/uk-fcitx-qimpanel-wordlist.page:7
-#: C/uk-fcitx-sogou-shortcuts.page:7
-#: C/uk-fcitx-sogou-wordlist.page:7
-#: C/uk-kuaipan-bandwidth.page:7
-#: C/uk-kuaipan-first-run.page:7
-#: C/uk-kuaipan-notify.page:7
-#: C/uk-kuaipan.page:20
-#: C/uk-kuaipan-pause.page:7
-#: C/uk-kuaipan-proxy.page:7
-#: C/uk-kuaipan-selective-sync.page:7
-#: C/uk-kuaipan-unlink.page:7
-#: C/uk-kuaipan-view.page:7
-#: C/uk.page:25
-#: C/uk-software-center.page:19
-#: C/uk-weather.page:17
-#: C/uk-wps.page:19
-#: C/uk-wps-presentations.page:13
-#: C/uk-wps-spreadsheets.page:13
-#: C/uk-wps-writer.page:13
-#: C/uk-youker-assistant.page:23
-#: C/uk-youker-ball.page:18
-#: C/uk-youker-clean.page:18
-#: C/uk-youker-home.page:18
-#: C/uk-youker-info.page:18
-#: C/uk-youker-personalize.page:18
-#: C/uk-youker-tool.page:18
-#: C/unity-introduction.page:23
-#: C/whats-new.page:17
-msgid "Ubuntu Kylin 文档团队"
-msgstr ""
-
-#. (itstool) path: page/title
-#: C/uk-calendar.page:27
-msgid "中国农历"
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/uk-calendar.page:29
-msgid "基于中国传统历法的日历软件，用户可以方便的查找中国传统节日和节气、查看宜忌信息，并且提供便签等便利功能。"
-msgstr ""
-
-#. (itstool) path: list/title
-#: C/uk-calendar.page:35
-msgid "软件界面"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-calendar.page:37
-msgid "<em>打开主界面</em>：单击桌面右上角的<app>中国农历</app>图标，通过<gui>显示/隐藏</gui>切换主界面显示。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-calendar.page:41
-msgid "<em>切换日期</em>：在主界面顶部切换年月，可使用 &lt; 和 &gt; 切换年和月，或通过下拉菜单直接选择，然后在选定的月份选择日期，还可通过点击<gui>今日</gui>回到当天。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-calendar.page:45
-msgid "<em>查看宜忌</em>：选择一个日期，在界面右下方查看当天的宜忌信息。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-calendar.page:49
-msgid "<em>便签</em>：选择一个日期，在界面左下方可以看到当天是否有便签内容。双击该日期会弹出便签界面，可输入文字或点击<gui>清空计划</gui>清除输入的内容。"
-msgstr ""
-
-#. (itstool) path: list/title
-#: C/uk-calendar.page:56
-msgid "托盘菜单"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-calendar.page:58
-msgid "<em>显示/隐藏</em>：单击可显示或隐藏软件主界面，呈现方式见<gui>显示模式</gui>。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-calendar.page:62
-msgid "<em>开机启动</em>：勾选后会在每次启动系统时自动运行本软件。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-calendar.page:66
-msgid "<em>显示模式</em>：<gui>总在最前</gui>表示主界面永远显示在所有窗口的最上方；<gui>总在最后</gui>表示主界面永远显示在其他窗口之下；<gui>普通模式</gui>表示主界面的显示方式和其他窗口一样由操作系统决定。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-calendar.page:70
-msgid "<em>换肤</em>：切换已有的皮肤主题。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-calendar.page:74
-msgid "<em>关于本软件</em>：介绍软件和开发者信息。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-calendar.page:78
-msgid "<em>退出</em>：关闭软件。"
-msgstr ""
-
-#. (itstool) path: info/desc
-#: C/uk-dash-music.page:8
-msgid "从本地或网站上查找并播放音乐。"
-msgstr ""
-
-#. (itstool) path: page/title
-#: C/uk-dash-music.page:19
-msgid "Dash 中文音乐搜索"
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/uk-dash-music.page:21
-msgid "<app>Dash 中文音乐搜索</app>位于 <gui>Dash</gui> 面板的第五个栏目，用一个音符来表示。通过 <app>Dash 中文音乐搜索</app>，您可以使用中文轻松找到喜欢的本地或在线音乐。"
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/uk-dash-music.page:22
-msgid "还可使用 <keyseq><key>Super</key><key>M</key></keyseq> 组合键直接打开音乐搜索。"
-msgstr ""
-
-#. (itstool) path: section/title
-#: C/uk-dash-music.page:26
-#: C/uk-dash-photo.page:27
-#: C/uk-dash-video.page:26
-msgid "搜索"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-dash-music.page:29
-msgid "打开 <gui>Dash</gui>， 在搜索框内输入关键字，搜索结果将会显示在 <gui> Dash </gui> 面板上。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-dash-music.page:33
-msgid "搜索结果分为两类：一类为<gui>曲目</gui>；一类为<gui>专辑</gui>。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-dash-music.page:37
-msgid "<gui>曲目</gui>中显示搜索到的歌曲，每首歌曲以 “歌曲名+歌手” 的方式显示。可以快速的搜索到您要查找的歌曲。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-dash-music.page:41
-msgid "点击 <gui>曲目</gui> 右侧的 <gui>显示较少结果/显示另外*个结果</gui> 可以打开或收起搜索结果条目。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-dash-music.page:45
-msgid "<gui>专辑</gui> 中显示歌曲所在的专辑或歌手发布的专辑。"
-msgstr ""
-
-#. (itstool) path: section/title
-#: C/uk-dash-music.page:55
-#: C/uk-dash-photo.page:38
-#: C/uk-dash-video.page:39
-msgid "预览"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-dash-music.page:58
-msgid "在 <gui>Dash</gui> 面板上右键点击歌曲，可以预览歌曲的详细信息。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-dash-music.page:60
-#: C/uk-dash-photo.page:41
-#: C/uk-dash-video.page:42
-msgid "在预览页面点击鼠标，返回到搜索页面。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-dash-music.page:61
-msgid "点击 <gui>&lt;</gui> 或 <gui>&gt;</gui> 箭头可预览上一首或下一首歌曲。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-dash-music.page:62
-msgid "点击 <gui>试听</gui> 按钮，将链接到网站试听歌曲。"
-msgstr ""
-
-#. (itstool) path: info/title
-#: C/uk-dash.page:8
-msgctxt "link:trail"
-msgid "Dash 中文搜索"
-msgstr ""
-
-#. (itstool) path: info/desc
-#: C/uk-dash.page:10
-msgid "<link xref=\"uk-dash-music\">中文音乐搜索</link>， <link xref=\"uk-dash-video\">中文视频搜索</link>， <link xref=\"uk-dash-photo\">中文图片搜索</link>..."
-msgstr ""
-
-#. (itstool) path: page/title
-#: C/uk-dash.page:27
-msgid "Dash 中文搜索"
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/uk-dash.page:29
-msgid "Dash 中文搜索允许您使用中文搜索本地或远程的应用程序、文件、音乐、视频以及图片等内容，并显示您最近使用过的文件。"
-msgstr ""
-
-#. (itstool) path: info/desc
-#: C/uk-dash-photo.page:8
-msgid "查看本地或网站上照片。"
-msgstr ""
-
-#. (itstool) path: page/title
-#: C/uk-dash-photo.page:20
-msgid "Dash 中文图片搜索"
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/uk-dash-photo.page:22
-msgid "<app>Dash 中文图片搜索</app>位于 <gui>Dash</gui> 面板的第六个栏目，用一个照相机表示。通过 <app>Dash 中文图片搜索</app>，您可以使用中文轻松找到需要的本地或在线图片。"
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/uk-dash-photo.page:24
-msgid "还可使用 <keyseq><key>Super</key><key>C</key></keyseq> 组合键直接打开图片搜索。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-dash-photo.page:30
-msgid "打开 <gui>Dash</gui>， 在搜索框内输入关键字，搜索结果将会显示在 <gui>Dash</gui> 面板上。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-dash-photo.page:31
-msgid "<gui>最近使用</gui> 中显示搜索到的图片，根据每个图片的标题可以快速的搜索到您要查找的图片。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-dash-photo.page:32
-msgid "点击 <gui>最近使用</gui> 右侧的 <gui>显示较少结果/显示另外*个结果</gui> 可以打开或收起搜索结果条目。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-dash-photo.page:40
-msgid "在 <gui>Dash</gui> 面板上右键点击图片，可以预览图片的详细信息。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-dash-photo.page:42
-msgid "点击 <gui>&lt;</gui> 或 <gui>&gt;</gui> 箭头可预览上一张和下一张图片。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-dash-photo.page:43
-msgid "点击<gui>查看</gui>按钮，将链接到网站查看图片。"
-msgstr ""
-
-#. (itstool) path: info/desc
-#: C/uk-dash-video.page:8
-msgid "从本地或网站上查找并播放视频。"
-msgstr ""
-
-#. (itstool) path: page/title
-#: C/uk-dash-video.page:19
-msgid "Dash 中文视频搜索"
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/uk-dash-video.page:21
-msgid "<app>Dash 中文视频搜索</app>位于 <gui>Dash</gui> 面板第四个栏目，用一个电影胶片表示。通过 <app>Dash 中文视频搜索</app>，您可以使用中文轻松找到想看的本地或在线视频。"
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/uk-dash-video.page:23
-msgid "还可使用 <keyseq><key>Super</key><key>V</key></keyseq> 组合键直接打开视频搜索。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-dash-video.page:29
-msgid "打开 <gui>Dash</gui>，在搜索框内输入关键字，搜索结果将会显示在 <gui>Dash</gui> 面板上。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-dash-video.page:30
-msgid "搜索结果分为两类：一类为 <gui>在线</gui>；一类为 <gui>更多建议</gui>。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-dash-video.page:31
-msgid "<gui>在线</gui> 中显示搜索到的视频，根据每个视频的标题可以快速的定位到您要查找的视频。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-dash-video.page:32
-msgid "点击 <gui>在线</gui> 右侧的 <gui>显示较少结果/显示另外*个结果</gui> 可以打开或收起搜索结果条目。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-dash-video.page:33
-msgid "<gui>更多建议</gui> 中显示相关的视频。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-dash-video.page:41
-msgid "在 <gui>Dash</gui> 面板上右键点击视频，可以预览视频的详细信息。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-dash-video.page:43
-msgid "点击 <gui>&lt;</gui> 或 <gui>&gt;</gui> 可预览上一个和下一个视频。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-dash-video.page:44
-msgid "点击<gui>播放</gui>按钮，将链接到网站观看视频。"
-msgstr ""
-
-#. (itstool) path: info/title
-#: C/uk-fcitx.page:8
-msgctxt "link:trail"
-msgid "小企鹅输入法"
-msgstr ""
-
-#. (itstool) path: info/desc
-#: C/uk-fcitx.page:10
-msgid "<link xref=\"uk-fcitx-qimpanel-wordlist\">候选词列表</link>， <link xref=\"uk-fcitx-qimpanel-skin\">皮肤字体风格</link>， <link xref=\"uk-fcitx-sogou-shortcuts\">候选词显示个数</link>， <link xref=\"uk-fcitx-sogou-wordlist\">翻页快捷键</link>..."
-msgstr ""
-
-#. (itstool) path: page/title
-#: C/uk-fcitx.page:27
-msgid "小企鹅输入法"
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/uk-fcitx.page:28
-msgid "<link href=\"https://fcitx-im.org/wiki/Fcitx\">小企鹅输入法(Fcitx)</link> 是 Ubuntu Kylin 默认的输入法。它是一个可扩展的输入法框架，支持拼音、五笔字型以及区位、二笔等输入方式。"
-msgstr ""
-
-#. (itstool) path: section/title
-#: C/uk-fcitx.page:31
-msgid "小企鹅输入法面板"
-msgstr ""
-
-#. (itstool) path: section/p
-#: C/uk-fcitx.page:32
-msgid "<app>小企鹅输入法面板</app>(Fcitx-qimpanel)由 Ubuntu Kylin 团队开发，是一个配合<app>小企鹅输入法</app>进行候选词显示的独立前端面板。启动 <app>Fcitx-qimpanel</app> 程序后，<app>Fcitx</app> 输出的候选词将自动显示在新的面板之上。<app>Fcitx-qimpanel</app> 自带四套简约风格的 Ubuntu Kylin 特色皮肤，使得候选词的显示与选择更加美观方便。"
-msgstr ""
-
-#. (itstool) path: section/title
-#: C/uk-fcitx.page:38
-msgid "搜狗输入法"
-msgstr ""
-
-#. (itstool) path: section/p
-#: C/uk-fcitx.page:39
-msgid "由 Ubuntu Kylin 团队与搜狗公司基于<app>小企鹅输入法</app>框架合作开发的 Linux 输入法引擎。<link href=\"http://pinyin.sogou.com/\">搜狗拼音输入法</link> 是互联网上流行的一种拼音输入法，该引擎与其他平台下的输入体验保持一致，旨在配合用户输入习惯、提高输入效率。"
-msgstr ""
-
-#. (itstool) path: info/desc
-#: C/uk-fcitx-qimpanel-skin.page:14
-msgid "定制皮肤字体风格。"
-msgstr ""
-
-#. (itstool) path: page/title
-#: C/uk-fcitx-qimpanel-skin.page:22
-msgid "皮肤字体风格"
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/uk-fcitx-qimpanel-skin.page:26
-msgid "<app>小企鹅输入法面板</app> 附带皮肤字体定制工具，可根据个人需要修改皮肤字体大小。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-fcitx-qimpanel-skin.page:32
-#: C/uk-fcitx-qimpanel-wordlist.page:31
-#: C/uk-fcitx-sogou-shortcuts.page:31
-#: C/uk-fcitx-sogou-wordlist.page:31
-msgid "点击桌面右上角的输入法系统图标，弹出下拉菜单。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-fcitx-qimpanel-skin.page:36
-#: C/uk-fcitx-qimpanel-wordlist.page:35
-msgid "选择 <gui>配置面板和皮肤</gui>，弹出 <gui>配置面板设置</gui> 窗口。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-fcitx-qimpanel-skin.page:40
-msgid "选择 <gui>皮肤设计</gui> 标签页。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-fcitx-qimpanel-skin.page:44
-msgid "在 <gui>所有皮肤</gui> 列表里，双击当前正在使用的皮肤，比如 <gui>ubuntukylin-dark1</gui>，弹出对应的皮肤修改界面。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-fcitx-qimpanel-skin.page:48
-msgid "选择 <gui>皮肤字体</gui> 标签页。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-fcitx-qimpanel-skin.page:52
-msgid "修改 <gui>候选词字体大小</gui>。"
-msgstr ""
-
-#. (itstool) path: info/desc
-#: C/uk-fcitx-qimpanel-wordlist.page:14
-msgid "定制候选词显示风格。"
-msgstr ""
-
-#. (itstool) path: page/title
-#: C/uk-fcitx-qimpanel-wordlist.page:22
-msgid "候选词列表"
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/uk-fcitx-qimpanel-wordlist.page:26
-msgid "<app>小企鹅输入法面板</app> 支持横向或纵向显示候选词列表。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-fcitx-qimpanel-wordlist.page:39
-msgid "在 <gui>外观</gui> 标签页选择候选词列表显示方向。"
-msgstr ""
-
-#. (itstool) path: info/desc
-#: C/uk-fcitx-sogou-shortcuts.page:14
-msgid "根据个人习惯对翻页快捷键进行全局配置。"
-msgstr ""
-
-#. (itstool) path: page/title
-#: C/uk-fcitx-sogou-shortcuts.page:22
-msgid "翻页快捷键"
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/uk-fcitx-sogou-shortcuts.page:26
-msgid "根据个人习惯设置输入法快捷键。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-fcitx-sogou-shortcuts.page:35
-msgid "如果 <gui>搜狗拼音</gui> 选项未被选中，先选择启用 <gui>搜狗拼音</gui>。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-fcitx-sogou-shortcuts.page:39
-msgid "在 <gui>搜狗拼音</gui> 处于启用状态时，下拉菜单将出现 <gui>设置</gui> 菜单项。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-fcitx-sogou-shortcuts.page:43
-msgid "选择 <gui>设置</gui>，弹出 <gui>搜狗拼音输入法设置</gui> 窗口。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-fcitx-sogou-shortcuts.page:47
-msgid "选择 <guiseq><gui>搜狗拼音输入法设置</gui><gui>按键</gui></guiseq>。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-fcitx-sogou-shortcuts.page:50
-msgid "在 <gui>翻页按键</gui> 栏更改翻页快捷键方案，如：<key>+</key>/<key>-</key>，<key>,</key>/<key>.</key> 等。"
-msgstr ""
-
-#. (itstool) path: info/desc
-#: C/uk-fcitx-sogou-wordlist.page:14
-msgid "根据个人习惯设置候选词个数。"
-msgstr ""
-
-#. (itstool) path: page/title
-#: C/uk-fcitx-sogou-wordlist.page:22
-msgid "候选词显示个数"
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/uk-fcitx-sogou-wordlist.page:26
-msgid "根据个人习惯对输入法候选词个数进行配置。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-fcitx-sogou-wordlist.page:35
-msgid "如果菜单项 <gui>搜狗拼音</gui> 未处于活动状态，请选择激活 <gui>搜狗拼音</gui>。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-fcitx-sogou-wordlist.page:39
-msgid "在 <gui>搜狗拼音</gui> 处于活动状态时，下拉菜单将出现 <gui>设置</gui> 菜单项。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-fcitx-sogou-wordlist.page:43
-msgid "选择 <gui>设置</gui>，将弹出 <gui>搜狗拼音输入法设置</gui> 窗口。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-fcitx-sogou-wordlist.page:47
-msgid "选择 <guiseq><gui>搜狗拼音输入法设置</gui><gui>外观</gui></guiseq>。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-fcitx-sogou-wordlist.page:51
-msgid "在 <gui>候选词个数</gui> 栏选择每页候选词显示个数。"
-msgstr ""
-
-#. (itstool) path: info/desc
-#: C/uk-kuaipan-bandwidth.page:10
-msgid "限制同步所能使用的最大上传/下载带宽。"
-msgstr ""
-
-#. (itstool) path: page/title
-#: C/uk-kuaipan-bandwidth.page:18
-msgid "占用带宽设置"
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/uk-kuaipan-bandwidth.page:22
-msgid "您可以限制<gui>金山快盘</gui>在同步过程中能够达到的最大上传/下载速度，为其他网络程序的正常运行保留足够的带宽。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-kuaipan-bandwidth.page:27
-msgid "单击桌面右上角的快盘图标，选择<guiseq><gui>首选项</gui><gui>网络</gui></guiseq>，单击<gui>带宽限制</gui>旁的<gui>更改设置</gui>按钮。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-kuaipan-bandwidth.page:31
-msgid "在弹出的<gui>带宽设置</gui>页面选择<gui>不限制</gui>，或选择<gui>限制为</gui>并输入限额。<gui>上传速度</gui>和<gui>下载速度</gui>可分别进行设置。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-kuaipan-bandwidth.page:35
-#: C/uk-kuaipan-notify.page:36
-msgid "单击<gui>设置</gui>使更改生效。"
-msgstr ""
-
-#. (itstool) path: info/desc
-#: C/uk-kuaipan-first-run.page:10
-msgid "第一次运行<app>金山快盘</app>时进行设置。"
-msgstr ""
-
-#. (itstool) path: page/title
-#: C/uk-kuaipan-first-run.page:18
-msgid "首次运行金山快盘"
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/uk-kuaipan-first-run.page:22
-msgid "第一次运行<app>金山快盘</app>时，请按照以下步骤进行设置："
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-kuaipan-first-run.page:27
-msgid "使用 <link xref=\"net-wireless-connect\">无线</link> 或 <link xref=\"net-wired-connect\">有线</link> 连接到互联网。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-kuaipan-first-run.page:31
-msgid "单击<gui>启动器</gui>上的<app>金山快盘</app>图标，或在 <gui>Dash</gui> 中搜索<input>金山快盘</input>。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-kuaipan-first-run.page:35
-msgid "程序首次启动会进入登录界面，请按照提示输入用户名和密码登录快盘，如果您还没有快盘帐号，请单击<gui>新建用户</gui>进行注册。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-kuaipan-first-run.page:39
-msgid "登录成功后会进入<gui>设置向导</gui>，首先创建快盘同步文件夹，请单击<gui>浏览</gui>选择同步文件夹的路径，单击<gui>下一步</gui>继续运行向导。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-kuaipan-first-run.page:43
-msgid "然后选择要同步到本地的目录，默认为<gui>同步所有文件到此计算机</gui>，如果您不希望将云端的所有文件同步到本地，请单击<gui>选择部分文件同步到此计算机</gui>，在弹出窗口 <link xref=\"uk-kuaipan-selective-sync#selective\">选择要同步的文件夹</link>。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-kuaipan-first-run.page:47
-msgid "最后单击<gui>完成</gui>开始使用快盘，应用程序会在<app>文件浏览器</app>中打开同步文件夹并自动开始同步。如需修改设置，请单击<gui>上一步</gui>回到前一个页面。"
-msgstr ""
-
-#. (itstool) path: note/p
-#: C/uk-kuaipan-first-run.page:51
-msgid "如果您是通过代理连接互联网，请在登录界面单击<gui>代理设置</gui>，在弹出窗口 <link xref=\"uk-kuaipan-proxy\">设置代理服务器信息</link>。"
-msgstr ""
-
-#. (itstool) path: info/desc
-#: C/uk-kuaipan-notify.page:10
-msgid "开启或关闭同步信息的桌面通知，设置开机自启动快盘。"
-msgstr ""
-
-#. (itstool) path: page/title
-#: C/uk-kuaipan-notify.page:18
-msgid "桌面通知 &amp; 开机启动"
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/uk-kuaipan-notify.page:22
-msgid "开启桌面通知之后，<app>金山快盘</app>会在开始、完成同步等时刻在桌面右上角通知区域显示同步信息。"
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/uk-kuaipan-notify.page:23
-msgid "如果设置了开机自启动，<app>金山快盘</app>会在每次开机进入系统时自动在后台启动运行。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-kuaipan-notify.page:28
-msgid "单击桌面右上角的快盘图标，选择<guiseq><gui>首选项</gui><gui>常规</gui></guiseq>。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-kuaipan-notify.page:32
-msgid "按照需求勾选<gui>显示桌面通知</gui>或<gui>开机自动启动</gui>前的复选框。"
-msgstr ""
-
-#. (itstool) path: info/title
-#: C/uk-kuaipan.page:8
-msgctxt "link:trail"
-msgid "金山快盘"
-msgstr ""
-
-#. (itstool) path: info/desc
-#: C/uk-kuaipan.page:10
-msgid "<link xref=\"uk-kuaipan-first-run\">设置向导</link>， <link xref=\"uk-kuaipan-view\">查看</link>， <link xref=\"uk-kuaipan-pause\">暂停 &amp; 恢复</link>…"
-msgstr ""
-
-#. (itstool) path: page/title
-#: C/uk-kuaipan.page:27
-msgid "金山快盘"
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/uk-kuaipan.page:29
-msgid "<app>金山快盘</app>是 Ubuntu Kylin 团队与金山云公司合作，共同开发的金山快盘 Linux 客户端，具备文件同步、备份和共享功能，能够为您提供安全可控、跨平台的一站式文件管理体验。"
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/uk-kuaipan.page:32
-msgid "<app>金山快盘</app>可免费使用，但默认情况下没有包含在 Ubuntu Kylin 发行版中，请 <link href=\"apt:kuaipan4uk\">安装</link> 以开始使用。"
-msgstr ""
-
-#. (itstool) path: section/title
-#: C/uk-kuaipan.page:39
-msgid "快盘同步控制"
-msgstr ""
-
-#. (itstool) path: section/title
-#: C/uk-kuaipan.page:43
-msgid "快盘功能选项"
-msgstr ""
-
-#. (itstool) path: list/title
-#: C/uk-kuaipan.page:48
-msgid "其他资源"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-kuaipan.page:50
-msgid "关于<app>金山快盘</app>的更多信息请参考 <app><link href=\"http://www.ubuntukylin.com/upload/file/Kuaipan%20for%20Ubuntu%20Kylin-guide-1.0.pdf\">帮助手册</link></app>。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-kuaipan.page:55
-msgid "如果您对软件本身有任何建议，请在 <app><link href=\"http://www.ubuntukylin.com/ukylin/forum.php?mod=viewthread&amp;tid=4360&amp;highlight=%BF%EC%C5%CC\">讨论专区</link></app> 提出。"
-msgstr ""
-
-#. (itstool) path: info/desc
-#: C/uk-kuaipan-pause.page:10
-msgid "暂停或恢复文件同步。"
-msgstr ""
-
-#. (itstool) path: page/title
-#: C/uk-kuaipan-pause.page:18
-msgid "暂停 &amp; 恢复"
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/uk-kuaipan-pause.page:22
-msgid "通过快盘系统托盘，您可以随时暂停或恢复本地文件与服务器之间的同步。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-kuaipan-pause.page:27
-msgid "要暂停同步，请单击桌面右上角的快盘图标，在弹出菜单中选择<gui>暂停同步</gui>，此时<gui>立即同步</gui>功能将会失效。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-kuaipan-pause.page:31
-msgid "要恢复同步，请单击桌面右上角的快盘图标，在弹出菜单中选择<gui>恢复同步</gui>，快盘会立即进行一次同步。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-kuaipan-pause.page:35
-msgid "由于网络故障等原因，快盘可能发生同步错误，您可以选择<gui>立即同步</gui>要求快盘立刻对本地文件进行一次扫描并与服务器进行同步。当快盘处于暂停状态时，<gui>立即同步</gui>功能失效。"
-msgstr ""
-
-#. (itstool) path: info/desc
-#: C/uk-kuaipan-proxy.page:10
-msgid "设置<app>金山快盘</app>使用的网络代理服务器。"
-msgstr ""
-
-#. (itstool) path: page/title
-#: C/uk-kuaipan-proxy.page:18
-msgid "代理服务器设置"
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/uk-kuaipan-proxy.page:22
-msgid "<link xref=\"net-proxy\">代理服务器</link> 过滤您要访问的网络资源，通常在学校、公司及其他机构中用于控制您可以访问的网站，防止您不登录账户就访问 Internet，或者对网站执行安全检查。<app>金山快盘</app>提供独立的代理服务器设置功能。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-kuaipan-proxy.page:27
-msgid "单击桌面右上角的快盘图标，选择<guiseq><gui>首选项</gui><gui>网络</gui></guiseq>，单击<gui>代理服务器</gui>旁的<gui>更改设置</gui>按钮。如果是第一次运行<app>金山快盘</app>，请在登录界面点击<gui>代理设置</gui>。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-kuaipan-proxy.page:31
-msgid "在弹出的<gui>代理设置</gui>页面选择<gui>手动设置</gui>。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-kuaipan-proxy.page:35
-msgid "选择 <gui>HTTP</gui>、<gui>Sock4</gui> 或 <gui>Sock5</gui> 代理协议，填写服务器地址和端口信息。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-kuaipan-proxy.page:39
-msgid "如果<gui>代理服务器需要验证</gui>，请勾选开启验证信息框，输入用户名和密码。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-kuaipan-proxy.page:43
-msgid "最后单击<gui>设置</gui>按钮启用代理设置，快盘会立即对代理进行测试。如果提示<gui>无法连接快盘服务器</gui>，请重新检查代理设置。"
-msgstr ""
-
-#. (itstool) path: info/desc
-#: C/uk-kuaipan-selective-sync.page:10
-msgid "选择从云端同步到本地的文件夹，过滤不同步的本地文件/文件夹。"
-msgstr ""
-
-#. (itstool) path: page/title
-#: C/uk-kuaipan-selective-sync.page:18
-msgid "选择性同步 &amp; 本地文件过滤"
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/uk-kuaipan-selective-sync.page:22
-msgid "<app>金山快盘</app>可以选择从服务器同步到本地的文件夹，或过滤本地同步目录中的文件/文件夹使之不与服务器同步。"
-msgstr ""
-
-#. (itstool) path: section/title
-#: C/uk-kuaipan-selective-sync.page:25
-msgid "选择性同步"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-kuaipan-selective-sync.page:30
-msgid "单击桌面右上角的快盘图标，选择<guiseq><gui>首选项</gui><gui>高级</gui></guiseq>，单击<gui>带宽限制</gui>旁的<gui>更改设置</gui>按钮。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-kuaipan-selective-sync.page:34
-msgid "在<gui>选择性同步设置</gui>界面中勾选要同步的文件夹，您可以通过单击<gui>全选</gui>或<gui>全不选</gui>快速进行选择。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-kuaipan-selective-sync.page:38
-msgid "完成之后，单击<gui>确定</gui>使选择生效。"
-msgstr ""
-
-#. (itstool) path: note/p
-#: C/uk-kuaipan-selective-sync.page:43
-msgid "快盘根目录下的文件夹以及新增加的一级子目录会自动列入同步列表。"
-msgstr ""
-
-#. (itstool) path: section/title
-#: C/uk-kuaipan-selective-sync.page:49
-msgid "本地文件过滤"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-kuaipan-selective-sync.page:54
-msgid "单击桌面右上角的快盘图标，选择<guiseq><gui>首选项</gui><gui>高级</gui></guiseq>，单击<gui>本地文件过滤</gui>旁的<gui>更改设置</gui>按钮。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-kuaipan-selective-sync.page:58
-msgid "<gui>本地文件过滤设置</gui>分为<gui>文件后缀</gui>、<gui>文件名</gui>、<gui>文件前缀</gui>、<gui>文件夹前缀</gui>和<gui>文件夹后缀</gui>五种过滤格式，请按照需求添加或删除不同步的文件或文件夹格式。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-kuaipan-selective-sync.page:62
-msgid "关闭<gui>本地文件过滤设置</gui>界面使设置生效，被过滤的文件将不再与服务器同步。"
-msgstr ""
-
-#. (itstool) path: note/p
-#: C/uk-kuaipan-selective-sync.page:67
-msgid "默认情况下，<gui>金山快盘</gui>会过滤隐藏文件和某些应用程序运行时产生的临时文件。"
-msgstr ""
-
-#. (itstool) path: info/desc
-#: C/uk-kuaipan-unlink.page:10
-msgid "解除<app>金山快盘</app>与本计算机的绑定。"
-msgstr ""
-
-#. (itstool) path: page/title
-#: C/uk-kuaipan-unlink.page:18
-msgid "解除绑定"
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/uk-kuaipan-unlink.page:22
-msgid "如果您不想继续使用<gui>金山快盘</gui>，可以<gui>解除此计算机与快盘的连接</gui>。执行该操作之后，您存在本地的文件将不会再与快盘服务器同步，但是本地快盘文件夹会被保留。操作步骤如下："
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-kuaipan-unlink.page:27
-msgid "单击桌面顶部状态栏右侧的快盘图标，在弹出的菜单中选择<gui>首选项</gui>。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-kuaipan-unlink.page:31
-msgid "切换到<gui>账户</gui>选项卡。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-kuaipan-unlink.page:35
-msgid "单击<gui>解除此计算机与快盘的连接</gui>按钮，程序会弹出询问提示框，请选择<gui>是</gui>。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-kuaipan-unlink.page:39
-msgid "接下来选择是否清除快盘产生的临时文件，如果您以后还会使用快盘，可以保留这些文件以加快第一次运行的速度，否则建议您删除临时文件以节省空间。"
-msgstr ""
-
-#. (itstool) path: info/desc
-#: C/uk-kuaipan-view.page:10
-msgid "通过系统托盘查看同步文件夹、账户信息及同步状态。"
-msgstr ""
-
-#. (itstool) path: page/title
-#: C/uk-kuaipan-view.page:18
-msgid "查看"
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/uk-kuaipan-view.page:22
-msgid "单击顶部状态栏右侧的快盘图标，会弹出快盘的系统菜单，通过该菜单可以查看账户相关信息或是对快盘进行设置。可查看的主要内容有："
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-kuaipan-view.page:27
-msgid "单击<gui>打开快盘文件夹</gui>查看本地同步文件。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-kuaipan-view.page:31
-msgid "通过<gui>在线查看</gui>在网页上浏览您的文件、在线回收站或访问产品主页。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-kuaipan-view.page:35
-msgid "通过<gui>最近更改的文件</gui>查看最近上传或下载的文件。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-kuaipan-view.page:39
-msgid "快盘账户信息栏显示您的快盘空间信息，如“总共 1000 GB，已使用 20%”。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-kuaipan-view.page:43
-msgid "同步状态栏显示本地快盘文件夹的同步状态，如“正在同步...”、“同步状态：最新”等。如果快盘正在进行同步，还会显示正在上传/下载的文件、同步速度、剩余时间等详细信息。"
-msgstr ""
-
-#. (itstool) path: info/title
-#: C/uk.page:9
-msgctxt "link:trail"
-msgid "Ubuntu Kylin 特色软件"
-msgstr ""
-
-#. (itstool) path: info/desc
-#: C/uk.page:11
-msgid "<link xref=\"uk-youker-assistant\">优客助手</link>， <link xref=\"uk-software-center\">软件中心</link>， <link xref=\"uk-fcitx\">小企鹅输入法</link>， <link xref=\"uk-dash\">Dash 中文搜索</link>， <link xref=\"uk-calendar\">中国农历</link>， <link xref=\"uk-weather\">天气预报</link>， <link xref=\"uk-kuaipan\">金山快盘</link>， <link xref=\"uk-wps\">WPS</link>…"
-msgstr ""
-
-#. (itstool) path: page/title
-#: C/uk.page:32
-msgid "Ubuntu Kylin 特色软件"
-msgstr ""
-
-#. (itstool) path: info/title
-#: C/uk-software-center.page:9
-msgctxt "link:trail"
-msgid "Ubuntu Kylin 软件中心"
-msgstr ""
-
-#. (itstool) path: info/desc
-#: C/uk-software-center.page:11
-msgid "为提高本土化体验开发的软件管理工具，数据来自 Ubuntu 和 Ubuntu Kylin 软件源。"
-msgstr ""
-
-#. (itstool) path: page/title
-#: C/uk-software-center.page:26
-msgid "Ubuntu Kylin 软件中心"
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/uk-software-center.page:28
-msgid "<app>Ubuntu Kylin 软件中心</app>客户端是由 Ubuntu Kylin 团队开发的一款软件管理工具。其目的是为了提高软件本土化的体验，软件中心的安装包和相关的数据来自 Ubuntu 和 Ubuntu Kylin 软件源。"
-msgstr ""
-
-#. (itstool) path: list/title
-#: C/uk-software-center.page:35
-msgid "软件中心界面"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-software-center.page:37
-msgid "<em>广告栏</em>：展示当前热门的软件。大部分软件可通过软件源直接安装，还有少数软件由于法律或其他原因没有放置在软件源中。对于源中的软件，点击广告将进入<em>软件详细</em>界面；对于源中没有的软件，点击广告将会跳转到软件的下载安装网页，请您根据网页提示手动安装。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-software-center.page:41
-msgid "<em>推荐软件</em>：向新装系统用户推荐的“装机必备”软件。每款推荐软件都有当前安装状态显示，已经安装的软件会显示<gui>已安装</gui>，还未安装的软件会显示<em>安装</em>，系统识别到的已安装软件则会显示<em>启动</em>。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-software-center.page:45
-msgid "<em>排行榜</em>：根据<gui>下载排行</gui>、<gui>评分排行</gui>等排序方式显示排名靠前的软件。<gui>下载排行</gui>按照软件用户下载量从高到低排序，<gui>评分排行</gui>按照用户评分从高到低排序。点击排行榜中的软件名将会跳转到<em>软件详情</em>界面。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-software-center.page:49
-msgid "<em>软件分类</em>：分类列出所有软件。点击分类跳转到对应分类的<em>软件列表</em>。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-software-center.page:53
-msgid "<em>软件详情</em>：软件详细信息。包括当前版本、可用最新版本、软件大小、软件评分、软件详细介绍、软件截图、用户评论等。在软件评分下方有<gui>安装</gui>、<gui>升级</gui>、<gui>卸载</gui>三个按钮，按钮为灰色时表示功能不可用。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-software-center.page:57
-msgid "<em>软件列表</em>：当前软件类别下所有软件的列表。显示软件名及简介，软件的当前安装状态、安装版本及可用的最新版本，点击某个软件之后进入<em>软件详情</em>界面。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-software-center.page:61
-msgid "<em>进度列表</em>：软件安装、升级的进度。软件安装进度分为<gui>下载进行中</gui>、<gui>安装进行中</gui>等状态，右侧还有一个停止按钮，点击将会<em>停止安装操作</em>，进入<gui>安装进行中</gui>状态之后无法停止。"
-msgstr ""
-
-#. (itstool) path: list/title
-#: C/uk-software-center.page:69
-msgid "使用操作"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-software-center.page:71
-msgid "<em>搜索</em>：在软件中心右上角的搜索栏中输入搜索关键字，按 <key>Enter</key> 键显示包含对应关键字的<em>软件列表</em>。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-software-center.page:75
-msgid "<em>安装</em>：在<em>软件详情</em>或<em>软件列表</em>页面点击<em>安装</em>按钮，会弹出授权窗口，输入管理员密码后开始安装，软件安装进度可在<em>进度列表</em>下查看。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-software-center.page:79
-msgid "<em>升级</em>：在<em>软件详情</em>或<em>软件列表</em>页面点击<em>升级</em>按钮，会弹出授权窗口，输入管理员密码后开始升级，软件升级进度可在<em>进度列表</em>下查看。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-software-center.page:83
-msgid "<em>卸载</em>：在<em>软件详情</em>或<em>软件列表</em>页面点击<em>卸载</em>按钮，会弹出授权窗口，输入管理员密码后开始卸载，软件卸载进度可在<em>进度列表</em>下查看。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-software-center.page:87
-msgid "<em>停止安装</em>：点击安装按钮后，如果想停止安装，可进入<em>进度列表</em>界面，点击进度条后的小红叉停止对应软件的安装。注意：只有在软件还在<gui>下载进行中</gui>的状态时才能停止，进入到<gui>安装进行中</gui>状态后无法停止安装。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-software-center.page:91
-msgid "<em>前进 &amp; 后退</em>：在软件中心面板上方有 <gui>&lt;</gui> 和 <gui>&gt;</gui> 按钮，分别是前进和后退功能：点击 <gui>&lt;</gui> 按钮返回上一个界面，点击 <gui>&gt;</gui> 按钮跳转到下一个界面。"
-msgstr ""
-
-#. (itstool) path: info/title
-#: C/uk-weather.page:8
-msgctxt "link:trail"
-msgid "天气预报"
-msgstr ""
-
-#. (itstool) path: info/desc
-#: C/uk-weather.page:10
-msgid "来自中国气象局的天气预报信息。"
-msgstr ""
-
-#. (itstool) path: page/title
-#: C/uk-weather.page:24
-msgid "天气预报"
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/uk-weather.page:26
-msgid "<app>天气预报</app>提供来自中国气象局的天气预报信息，为用户日常起居和旅行提供参考。"
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/uk-weather.page:29
-msgid "软件已预装在 Ubuntu Kylin 系统中，如果被卸载，您可以重新<link href=\"apt:indicator-china-weather\">安装</link>。"
-msgstr ""
-
-#. (itstool) path: section/title
-#: C/uk-weather.page:36
-msgid "查看天气"
-msgstr ""
-
-#. (itstool) path: section/p
-#: C/uk-weather.page:37
-msgid "点击桌面右上角的天气预报图标后会出现下拉菜单，分为两部分：上半部分显示当前气象信息；下半部分为应用项。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-weather.page:40
-msgid "<em>当前气象信息</em>：可以查看的天气信息有<gui>当前天气</gui>、<gui>当前气温</gui>、<gui>湿度</gui>、<gui>风向</gui>、<gui>风力</gui>、<gui>发布时间</gui>、<gui>PM2.5</gui>、<gui>地点</gui>等。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-weather.page:44
-msgid "<em>六天天气预报</em>：为您提供当前城市未来六天的天气情况。"
-msgstr ""
-
-#. (itstool) path: section/p
-#: C/uk-weather.page:49
-msgid "根据设定的时间，<app>天气预报</app> 会自动更新。也可以手动更新，只需要点击 <gui>更新</gui> 选项 ，气象信息就会自动刷新。同时会在 <gui>更新</gui> 旁边显示最后一次更新的时间。"
-msgstr ""
-
-#. (itstool) path: section/title
-#: C/uk-weather.page:53
-msgid "配置"
-msgstr ""
-
-#. (itstool) path: section/p
-#: C/uk-weather.page:54
-msgid "可以在 <gui>常规</gui> 和 <gui>地点</gui> 两个界面进行配置。"
-msgstr ""
-
-#. (itstool) path: section/title
-#: C/uk-weather.page:56
-msgid "常规"
-msgstr ""
-
-#. (itstool) path: section/p
-#: C/uk-weather.page:58
-msgid "<gui>常规</gui> 分为 <gui>可变配置</gui> 和 <gui>固定配置</gui> 两项内容。"
-msgstr ""
-
-#. (itstool) path: section/p
-#: C/uk-weather.page:62
-msgid "<gui>可变配置</gui>："
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-weather.page:67
-msgid "<gui>图标旁显示温度</gui>，勾选后可以在天气图标旁边同步显示温度；"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-weather.page:71
-msgid "<gui>更新时间</gui>，默认为 60 分钟更新一次，也可以根据需要自行配置。"
-msgstr ""
-
-#. (itstool) path: section/p
-#: C/uk-weather.page:77
-msgid "<gui>固定配置</gui>："
-msgstr ""
-
-#. (itstool) path: section/p
-#: C/uk-weather.page:80
-msgid "介绍配置信息的标准单位以及数据来源。"
-msgstr ""
-
-#. (itstool) path: section/title
-#: C/uk-weather.page:89
-msgid "地点"
-msgstr ""
-
-#. (itstool) path: section/p
-#: C/uk-weather.page:91
-msgid "内置了国内城市列表，输入城市拼音或者文字进行 <gui>查找</gui> 。通过 <gui>添加</gui>和 <gui>删除</gui> 按钮向城市列表中添加和删除城市，支持添加多城市，在选择城市后点击 <gui>确定</gui> 按钮可以切换 <app>天气预报</app> 所使用城市。"
-msgstr ""
-
-#. (itstool) path: info/title
-#: C/uk-wps.page:8
-msgctxt "link:trail"
-msgid "WPS 办公套件"
-msgstr ""
-
-#. (itstool) path: info/desc
-#: C/uk-wps.page:10
-msgid "<link xref=\"uk-wps-writer\">WPS 文字</link>， <link xref=\"uk-wps-spreadsheets\">WPS 表格</link>， <link xref=\"uk-wps-presentations\">WPS 演示</link>..."
-msgstr ""
-
-#. (itstool) path: page/title
-#: C/uk-wps.page:26
-msgid "WPS 办公套件"
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/uk-wps.page:28
-msgid "<app>WPS</app> 文字处理系统是一款集成了文字、表格、演示、网页浏览、图片浏览等功能的办公软件套件，提供免费的在线存储空间及文档模板，支持阅读和输出 pdf 文件，全面兼容微软 Office 97-2013 格式。"
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/uk-wps.page:32
-msgid "<app>WPS 办公套件</app> 可免费使用，但默认情况下没有包含在 Ubuntu Kylin 发行版中，请 <link href=\"apt:wps-office\">安装</link> 以开始使用。"
-msgstr ""
-
-#. (itstool) path: info/desc
-#: C/uk-wps-presentations.page:7
-msgid "幻灯片制作和演示。"
-msgstr ""
-
-#. (itstool) path: page/title
-#: C/uk-wps-presentations.page:19
-msgid "WPS 演示"
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/uk-wps-presentations.page:20
-msgid "<app>WPS 演示</app> 是制作和演示幻灯片的软件。能够制作出集文字、图形、图像、声音以及视频剪辑等多媒体元素于一体的演示文稿，把您所要表达的信息组织在一组图文并茂的画面中，用于介绍公司的产品、展示自己的学术成果。不仅在投影仪或者计算机上能进行演示，也可以将演示文稿打印出来，制作成胶片，以便应用到更广泛的领域中。"
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/uk-wps-presentations.page:21
-msgid "<app>WPS 演示</app> 分为 7 大模块，分别为：<gui>开始</gui>、<gui>插入</gui>、<gui>设计</gui>、<gui>动画</gui>、<gui>幻灯片放映</gui>、<gui>审阅</gui>、<gui>视图</gui>。"
-msgstr ""
-
-#. (itstool) path: section/title
-#: C/uk-wps-presentations.page:24
-#: C/uk-wps-spreadsheets.page:24
-#: C/uk-wps-writer.page:24
-msgid "功能"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-wps-presentations.page:26
-msgid "<gui>开始</gui> 菜单中提供了对幻灯片进行编辑、格式设置、插入、播放等最常用的功能。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-wps-presentations.page:30
-msgid "<gui>插入</gui> 菜单中提供了在幻灯片中插入图片、表格、页眉和页脚等美化文档的相关设置。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-wps-presentations.page:34
-msgid "<gui>设计</gui> 菜单中提供了在幻灯片中使用设计模板、颜色方案、幻灯片版式、背景等功能。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-wps-presentations.page:38
-msgid "<gui>动画</gui> 菜单中提供了在幻灯片内容的动画方案、切换效果、预览等功能。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-wps-presentations.page:42
-msgid "<gui>幻灯片放映</gui> 菜单中提供幻灯片的放映方式、切换方式。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-wps-presentations.page:46
-msgid "<gui>审阅</gui> 菜单中提供对幻灯片内容进行检查、修订等功能。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-wps-presentations.page:50
-msgid "<gui>视图</gui> 菜单中提供了对幻灯片显示方式的设置。"
-msgstr ""
-
-#. (itstool) path: section/title
-#: C/uk-wps-presentations.page:58
-msgid "有关<app> WPS 演示</app> 使用的其他资源和信息"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-wps-presentations.page:60
-#: C/uk-wps-spreadsheets.page:65
-#: C/uk-wps-writer.page:55
-msgid "请参考<link href=\"http://office.wps.cn/\"> OFFICE 学院 </link>。"
-msgstr ""
-
-#. (itstool) path: info/desc
-#: C/uk-wps-spreadsheets.page:7
-msgid "数据处理、统计分析和辅助决策。"
-msgstr ""
-
-#. (itstool) path: page/title
-#: C/uk-wps-spreadsheets.page:19
-msgid "WPS 表格"
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/uk-wps-spreadsheets.page:20
-msgid "<app>WPS 表格</app> 可以进行各种数据的处理、统计分析和辅助决策操作。"
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/uk-wps-spreadsheets.page:21
-msgid "<app>WPS 表格</app> 分为 8 大模块，分别为：<gui>开始</gui>、<gui>插入</gui>、<gui>页面布局</gui>、<gui>公式</gui>、<gui>数据</gui>、<gui>表格样式</gui>、<gui>审阅</gui>、<gui>视图</gui>。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-wps-spreadsheets.page:26
-msgid "<gui>开始</gui> 菜单中提供了对表格进行编辑、格式设置、排序、筛选、自动求和等最常用的功能。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-wps-spreadsheets.page:30
-msgid "<gui>插入</gui> 菜单中提供了在表格中插入图片、数据透视表、页眉和页脚、超链接等美化表格的相关设置。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-wps-spreadsheets.page:34
-msgid "<gui>页面布局</gui> 菜单中提供了对表格的纸张方向、打印区域设置等功能。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-wps-spreadsheets.page:38
-msgid "<gui>公式</gui> 菜单中提供了常用函数、财务、逻辑、文本、数学函数等公式，使得数据运算更加方便。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-wps-spreadsheets.page:42
-msgid "<gui>数据</gui> 菜单中提供了对数据进行分类、模拟、组织、筛选等功能。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-wps-spreadsheets.page:46
-msgid "<gui>表格样式</gui> 菜单中提供了多种样式，轻松的做到一键美化。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-wps-spreadsheets.page:50
-msgid "<gui>审阅</gui> 菜单中提供了对表格数据进行检查、修订、保护等功能。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-wps-spreadsheets.page:54
-msgid "<gui>视图</gui> 菜单中提供了对表格数据显示样式的设置。"
-msgstr ""
-
-#. (itstool) path: section/title
-#: C/uk-wps-spreadsheets.page:63
-msgid "有关<app> WPS 表格</app>使用的其他资源和信息"
-msgstr ""
-
-#. (itstool) path: info/desc
-#: C/uk-wps-writer.page:7
-msgid "文字编辑和排版。"
-msgstr ""
-
-#. (itstool) path: page/title
-#: C/uk-wps-writer.page:19
-msgid "WPS 文字"
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/uk-wps-writer.page:20
-msgid "<app>WPS 文字</app> 是 WPS 办公套装软件的一个重要的组成部分，可对文字进行编辑、格式化、排版与打印。"
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/uk-wps-writer.page:21
-msgid "<app>WPS 文字</app> 包含 7 个功能模块，分别为：<gui>开始</gui>、<gui>插入</gui>、<gui>页面布局</gui>、<gui>引用</gui>、<gui>审阅</gui>、<gui>视图</gui>、<gui>章节</gui>。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-wps-writer.page:26
-msgid "<gui>开始</gui> 菜单中提供了对文档进行编辑、格式设置等最常用的功能。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-wps-writer.page:30
-msgid "<gui>插入</gui> 菜单中提供了在文档中插入图片、表格、页眉和页脚等美化文档的相关设置。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-wps-writer.page:33
-msgid "<gui>页面布局</gui> 菜单中提供了对文档内容的文字方向、分栏、文字环绕等功能。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-wps-writer.page:36
-msgid "<gui>引用</gui> 菜单中提供了对文档的目录级别、脚注尾注等进行设置。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-wps-writer.page:39
-msgid "<gui>审阅</gui> 菜单中提供了对文档内容的修订功能，审阅者可以直接在文档上进行修改。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-wps-writer.page:42
-msgid "<gui>视图</gui> 菜单中提供了文档显示方式的设置。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-wps-writer.page:45
-msgid "<gui>章节</gui> 菜单中提供了对文档封面、章节、目录、导航等内容进行设置。"
-msgstr ""
-
-#. (itstool) path: section/title
-#: C/uk-wps-writer.page:53
-msgid "有关<app> WPS 文字</app> 使用的其他资源和信息"
-msgstr ""
-
-#. (itstool) path: info/title
-#: C/uk-youker-assistant.page:9
-msgctxt "link:trail"
-msgid "优客助手"
-msgstr ""
-
-#. (itstool) path: info/desc
-#: C/uk-youker-assistant.page:11
-msgid "<link xref=\"uk-youker-home\">首页</link>， <link xref=\"uk-youker-info\">系统信息</link>， <link xref=\"uk-youker-clean\">系统清理</link>， <link xref=\"uk-youker-personalize\">系统美化</link>， <link xref=\"uk-youker-tool\">功能大全</link>， <link xref=\"uk-youker-ball\">监控球</link>…"
-msgstr ""
-
-#. (itstool) path: page/title
-#: C/uk-youker-assistant.page:30
-msgid "优客助手"
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/uk-youker-assistant.page:32
-msgid "<app>优客助手</app> 是专为 Ubuntu/Ubuntu Kylin 用户打造的“系统级管理与配置工具”。基于 Qt/QML、Python 实现，可以查看系统的详细硬件信息、清理系统中残留的垃圾以及配置个性化的系统。让您的桌面更加流畅、易用而富有个性。"
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/uk-youker-assistant.page:35
-msgid "<app>优客助手</app> 默认集成在Ubuntu Kylin系统中，如果被卸载，请点击 <link href=\"apt:youker-assistant\">安装</link> 以开始使用。"
-msgstr ""
-
-#. (itstool) path: list/title
-#: C/uk-youker-assistant.page:66
-msgid "帮助与反馈"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-youker-assistant.page:68
-msgid "当您在使用过程中遇到困难时，可以点击 <app>优客助手</app> 首页右下角的 <gui>论坛求助</gui>，获得优客们的帮助。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-youker-assistant.page:72
-msgid "如果您对软件本身有任何建议，可以点击首页右下角的 <gui>问题反馈</gui>。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-youker-assistant.page:76
-msgid "还可通过点击首页右下角的 <gui>新版本特性</gui> 查看当前版本所更新的内容。"
-msgstr ""
-
-#. (itstool) path: info/title
-#: C/uk-youker-ball.page:9
-msgctxt "link:trail"
-msgid "监控球"
-msgstr ""
-
-#. (itstool) path: info/desc
-#: C/uk-youker-ball.page:11
-msgid "实时监控系统内存和 CPU 使用情况。"
-msgstr ""
-
-#. (itstool) path: page/title
-#: C/uk-youker-ball.page:25
-msgid "监控球"
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/uk-youker-ball.page:26
-msgid "实时监控系统内存以及 CPU 使用情况，分为缩略显示界面和详细显示界面。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-youker-ball.page:30
-msgid "打开 <app>优客助手</app> 之后，<app>监控球</app> 将以缩略界面显示在桌面右上方，包括上传速度、下载速度和内存占用率等信息。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-youker-ball.page:34
-msgid "双击 <app>监控球</app> 缩略界面将打开详细界面，有 <gui>一键加速</gui> 和 <gui>详细</gui> 按钮。点击 <gui>一键加速</gui> 按钮将清理内存空间；点击 <gui>详细</gui> 按钮将显示 CPU 占有率、内存占有率等信息。再次双击 <app>监控球</app> 缩略界面关闭详细信息。"
-msgstr ""
-
-#. (itstool) path: info/title
-#: C/uk-youker-clean.page:9
-msgctxt "link:trail"
-msgid "系统清理"
-msgstr ""
-
-#. (itstool) path: info/desc
-#: C/uk-youker-clean.page:11
-msgid "针对性的对系统垃圾进行清理，让系统运行更有效率。"
-msgstr ""
-
-#. (itstool) path: page/title
-#: C/uk-youker-clean.page:25
-msgid "系统清理"
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/uk-youker-clean.page:26
-msgid "不同于 <gui>首页</gui> 的 <gui>一键清理</gui>，<gui>系统清理</gui> 提供更为详尽的清理方式，可以有针对性的对系统垃圾进行清理，帮助您节约磁盘空间，让系统运行更有效率。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-youker-clean.page:33
-msgid "<em>缓存清理</em>：清理系统中的缓存文件。点击 <gui>开始扫描</gui> 按钮之后，程序会根据勾选的选项扫描缓存文件，并以列表的形式展示扫描结果，请点击 <gui>开始清理</gui> 删除选中的缓存文件。其中 <gui>包缓存</gui> 是在安装软件时下载至本地的软件包；<gui>软件中心缓存</gui> 是 <app>软件中心</app> 为加快启动速度缓存在本地的图片文件；<gui>缩略图缓存</gui> 是查看图片后产生的文件。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-youker-clean.page:37
-msgid "<em>包卸载</em>：清理不再需要但仍然残留在系统中的依赖包。点击 <gui>开始扫描</gui> 按钮之后，程序会根据勾选的选项扫描软件包，并以列表的形式展示扫描结果。点击 <gui>开始清理</gui> 会弹出密码框，输入密码之后程序会自动卸载选中的软件包。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-youker-clean.page:41
-msgid "<em>Cookies 清理</em>：清理 Cookies。点击 <gui>开始扫描</gui> 按钮之后，程序会根据勾选的选项扫描 Cookies，并以列表的形式展示扫描结果。点击 <gui>开始清理</gui> 删除选中的 Cookies。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-youker-clean.page:45
-msgid "<em>浏览器清理</em>：清理浏览器缓冲。点击 <gui>开始扫描</gui> 按钮之后，程序会根据勾选的选项扫描浏览器产生的垃圾文件，并以列表的形式展示扫描结果。点击 <gui>开始清理</gui> 删除选中的文件或目录。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-youker-clean.page:49
-msgid "<em>痕迹清理</em>：清理系统使用痕迹。点击 <gui>开始扫描</gui> 按钮之后，程序会显示您所有的访问记录总数，点击 <gui>开始清理</gui> 按钮清空历史记录。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-youker-clean.page:53
-msgid "<em>查找大文件</em>：查找并清理系统中的大文件。按 <gui>浏览</gui> 按钮选择要扫描的目录，并指定文件大小，程序会在所选目录搜索大于该值的文件，并按照从大到小的顺序列出。请根据需要选择要清理的大文件。"
-msgstr ""
-
-#. (itstool) path: info/title
-#: C/uk-youker-home.page:9
-msgctxt "link:trail"
-msgid "首页"
-msgstr ""
-
-#. (itstool) path: info/desc
-#: C/uk-youker-home.page:11
-msgid "一键清理系统垃圾、帮助您节省磁盘空间，让系统运行更有效率。"
-msgstr ""
-
-#. (itstool) path: page/title
-#: C/uk-youker-home.page:25
-msgid "优客助手首页"
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/uk-youker-home.page:26
-msgid "一键清理、登录、天气预报、常用配置工具等信息。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-youker-home.page:33
-msgid "<em>一键清理 </em>：清理系统垃圾的便捷方式。通过勾选或者取消勾选来选择需要清理的选项，默认情况下是全部勾选的。<gui>一键清理</gui> 功能需要管理员权限，点击 时会弹出管理员密码输入框，输入正确后密码之后将进行清理操作。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-youker-home.page:37
-msgid "<em>登录帐号</em>：如果您已经拥有 Ubuntu Kylin 论坛的帐号，可以直接使用该帐号进行登录，否则需要进行注册。登录后保持在线可以获得积分，不同积分对应不同的等级，另外执行每日任务可以额外增加积分。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-youker-home.page:41
-msgid "<em>天气预报</em>：展示当前的天气、温度、湿度以及风速等信息。 <gui>更换城市</gui> 可以切换列表中的城市，如需添加城市请点击 <gui>配置</gui>。 <gui>预报</gui> 中提供了未来六天的天气情况。 <gui>配置</gui> 页面可以更改更新周期、添加/删除城市或查看数据来源。 点击 <gui>更新</gui> 按钮可强制更新天气信息。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-youker-home.page:49
-msgid "<em>常用配置工具</em>：列出了一些经常用到的工具，更多信息见 <link xref=\"uk-youker-personalize\">系统美化</link>。"
-msgstr ""
-
-#. (itstool) path: info/title
-#: C/uk-youker-info.page:9
-msgctxt "link:trail"
-msgid "系统信息"
-msgstr ""
-
-#. (itstool) path: info/desc
-#: C/uk-youker-info.page:11
-msgid "展示计算机硬件、桌面和用户信息。"
-msgstr ""
-
-#. (itstool) path: page/title
-#: C/uk-youker-info.page:25
-msgid "系统信息"
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/uk-youker-info.page:26
-msgid "<gui>系统信息</gui> 向您展示当前计算机的详细硬件、桌面及用户信息。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-youker-info.page:30
-msgid "<em>电脑基本信息</em>：主要包括制造商、电脑型号、电脑版本、序列号、主机名、持续运行时间、操作系统类型、操作系统版本、系统位数、内核版本、内核架构等信息。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-youker-info.page:34
-msgid "<em>桌面信息</em>：主要包括桌面环境、发行版、语言、当前用户、用户主目录等信息。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-youker-info.page:38
-msgid "<em>处理器信息</em>：主要包括处理器、制造商、序列号、插座/插槽、最大主频、当前主频、前端总线、核心数目、一级缓存、二级缓存等信息。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-youker-info.page:42
-msgid "<em>内存条信息</em>：主要包括插槽号、内存型号、制造商、序列号、内存大小、数据宽度、内存条等信息。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-youker-info.page:46
-msgid "<em>硬盘信息</em>：主要包括主板型号、主板产商、序列号、BIOS 产商、BIOS 版本、发布日期等信息。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-youker-info.page:50
-msgid "<em>硬盘信息</em>：主要包括硬盘型号、硬盘厂商、硬盘容量、设备名称、固件版本、序列号等信息。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-youker-info.page:54
-msgid "<em>有线网卡信息 </em>：主要包括制造商、有线网卡驱动、总线地址、设备名称、IP 地址、MAC 地址、连接状态、最大带宽等信息。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-youker-info.page:58
-msgid "<em>无线网卡信息</em>：主要包括网卡型号、制造商、无线网卡驱动、总线地址等信息。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-youker-info.page:62
-msgid "<em>显卡信息</em>：主要包括显卡型号、当前显卡、显卡制造商、显卡驱动、总线地址等信息。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-youker-info.page:66
-msgid "<em>音频信息 </em>：主要包括声卡型号、制造商、总线地址、声卡驱动等信息。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-youker-info.page:70
-msgid "<em>设备驱动信息 </em>：主要包括 VGA 兼容控制器、通信控制器、以太网控制器、USB 控制器、声卡型号、PCI 桥、USB 控制器、ISA 桥、SATA 控制器、系统管理总线、信号处理控制器、网络控制器、主桥等信息。"
-msgstr ""
-
-#. (itstool) path: info/title
-#: C/uk-youker-personalize.page:9
-msgctxt "link:trail"
-msgid "系统美化"
-msgstr ""
-
-#. (itstool) path: info/desc
-#: C/uk-youker-personalize.page:11
-msgid "根据个人喜好对系统进行全方位的定制。"
-msgstr ""
-
-#. (itstool) path: page/title
-#: C/uk-youker-personalize.page:25
-msgid "系统美化"
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/uk-youker-personalize.page:26
-msgid "在 <gui>系统美化</gui> 页面可以从 <gui>个性化</gui>、<gui>桌面</gui>、<gui>字体</gui>、<gui>系统选项</gui>、<gui>杂项</gui> 等几个方面对系统进行定制。"
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/uk-youker-personalize.page:27
-msgid "详细内容包含 <gui>主题设置</gui>、<gui>图标配置</gui>、<gui>鼠标指针</gui>、<gui>声音效果</gui>、<gui>开机动画</gui>、<gui>自定义启动器</gui>、<gui>窗口</gui>、<gui>默认字体设置</gui>、<gui>触摸板设置</gui>、<gui>坏点检测</gui> 以及 <gui>文件管理器</gui>，请点击对应的选项进入设置界面。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-youker-personalize.page:36
-msgid "<em>主题设置</em>： 提供 4 种窗口主题，分别为 “ubuntukylin-theme”、“Ambiance”、“HighContrast”、“Radiance”。窗口主题被选中之后立即生效。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-youker-personalize.page:40
-msgid "<em>图标配置</em>：对 <gui>图标主题设置</gui> 和 <gui>桌面图标显示控制</gui> 的相关选项进行配置。<gui>图标主题设置</gui> 可以通过下拉列表选择主题，选择后，立即生效。点击 <gui>桌面图标显示控制</gui> 中对应栏目的开关按钮可以切换图标的 <gui>已启用</gui> 或 <gui>已禁用</gui> 状态。<gui>恢复默认</gui> 按钮可以将主题及桌面图标恢复为系统默认状态。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-youker-personalize.page:44
-msgid "<em>鼠标指针</em>：设置鼠标指针的主题和大小，选择后立即生效。点击 <gui>恢复默认</gui> 按钮恢复系统默认设置。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-youker-personalize.page:48
-msgid "<em>声音效果</em>：设置声音的主题、系统事件提示音，如：开机登录音乐，按钮点击声音等。点击 <gui>试听</gui> 播放当前对应事件的音乐；点击 <gui>替换</gui> 自动替换对应事件的音乐；点击 <gui>恢复默认</gui> 按钮恢复系统默认设置。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-youker-personalize.page:52
-msgid "<em>开机动画</em>：首先通过点击 <gui>自定义图片</gui> 按钮选择图片，对应图片名称将出现在右侧的可选开机动画列表中，请选择需要设置的开机动画，然后点击 <gui>确定</gui> 按钮，开机动画将会在下次启动时生效。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-youker-personalize.page:56
-msgid "<em>定义启动器</em>：设置桌面左边 <app>启动器</app> 中图标的尺寸以及 <app>启动器</app> 是否自动隐藏。启动器图标尺寸可以拖动滑动条进行设置，设置完成后点击 <gui>确定</gui> 生效。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-youker-personalize.page:61
-msgid "<em>默认字体设置</em>：对默认字体、桌面字体、等宽字体、文档字体以及标题栏字体进行设置。首先点击当前字体，在打开的 <gui>更换字体</gui> 窗口中选择要更改的字体，选择 <gui>确定</gui> 使字体立即生效。点击 <gui>恢复默认</gui> 按钮可将字体恢复到更改设置之前的状态。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-youker-personalize.page:65
-msgid "<em>触摸板设置</em>：开启、关闭触摸板或设置滚动条。其中 <gui>滚动条类型</gui> 设置是对系统滚动条的外型进行设置；<gui>触摸板滚动触发方式</gui> 是在触摸板上触发滚动条的方式。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-youker-personalize.page:69
-msgid "<em>坏点检测</em>：通过多个纯色界面来帮助检查电脑屏幕是否存在颜色不对的坏点。进入检测后，单击鼠标左键切换纯色界面；单击鼠标右键退出检测。"
-msgstr ""
-
-#. (itstool) path: C/uk-youker-personalize.page/page
-#: C/uk-youker-personalize.page:4
-msgid "<_:info-1/> <_:title-2/> <_:p-3/> <_:p-4/> :w <_:list-5/>"
-msgstr ""
-
-#. (itstool) path: info/title
-#: C/uk-youker-tool.page:9
-msgctxt "link:trail"
-msgid "功能大全"
-msgstr ""
-
-#. (itstool) path: info/desc
-#: C/uk-youker-tool.page:11
-msgid "常用系统配置工具，让系统使用起来更加顺畅。"
-msgstr ""
-
-#. (itstool) path: page/title
-#: C/uk-youker-tool.page:25
-msgid "功能大全"
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/uk-youker-tool.page:26
-msgid "在 <gui>功能大全</gui> 页面的 <gui>默认工具箱</gui> 中提供了一些实用小工具：<gui>坏点检测</gui>、<gui>开机动画</gui>、<gui>输入法配置</gui>、<gui>任务管理器</gui>。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-youker-tool.page:33
-msgid "<em>输入法配置</em>：分为 <gui>当前输入法列表 </gui>、<gui>个性化配置</gui> 和 <gui>外观配置</gui>。<gui>当前输入法列表</gui> 界面包含输入法语言的添加、删除及输入法切换的快捷键设置。通过向左或向右按钮添加或删除输入法，通过向上和向下按钮调整输入法的优先级。<gui>个性化配置</gui>界面，根据个人习惯进行全局配置，主要包括 <gui>显示设置</gui> 和 <gui>快捷键</gui>。其中 <gui>显示设置</gui> 中可以设置候选词列表和候选词个数；<gui>快捷键</gui> 可以设置切换输入法和上下翻页的快捷键。<gui>外观配置</gui> 界面包含皮肤设置和更换字体设置，可以对皮肤、字体、字体大小进行设置。点击 <gui>应用</gui> 之后设置生效；点击 <gui>取消</gui> 按钮或 <gui>返回主页</gui> 按钮将取消全部设置。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/uk-youker-tool.page:37
-msgid "<em>任务管理器</em>：显示当前系统中的进程，每一行代表一个进程，从左至右描述信息依次为：<gui>用户</gui>、<gui> ID </gui>、<gui> CPU占用 %</gui>、<gui>内存占用 %</gui>、<gui>启动时间</gui>、<gui>进程说明</gui>以及 <gui>进程名</gui>。默认显示当前用户的进程，选择进程信息上方的 <gui>所有用户</gui> 可以显示系统中所有用户的进程信息。点击 <gui>刷新</gui> 按钮将重新扫描系统中的进程信息；如需结束某个进程时，请选中进程并点击 <gui>结束进程</gui> 按钮，其中管理员进程会要求需要输入密码。"
-msgstr ""
-
-#. (itstool) path: note/p
-#: C/uk-youker-tool.page:44
-msgid "<gui>坏点检测</gui> 和 <gui>开机动画</gui> 的使用方法参见 <link xref=\"uk-youker-personalize\">系统美化</link>。"
 msgstr ""
 
 #. (itstool) path: info/desc
@@ -16395,7 +14737,7 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/unity-dash-apps.page:21
-msgid "The applications lens is the first lens after the Dash home in the <gui>lens bar</gui>. The applications lens gives you access to your apps or apps available for install."
+msgid "The applications lens is the first lens after the Dash home in the <gui>lens bar</gui>. The applications lens gives you access to your applications or applications available for install."
 msgstr ""
 
 #. (itstool) path: page/p
@@ -16416,17 +14758,17 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/unity-dash-apps.page:31
-msgid "Right click on a search result to open a <gui>preview</gui>. The preview shows a short description of the app, a screenshot, its <gui>Software Center</gui> rating, and what version is available."
+msgid "Right click on a search result to open a <gui>preview</gui>. The preview shows a short description of the application, a screenshot, its <app>Software</app> rating, and what version is available."
 msgstr ""
 
 #. (itstool) path: section/p
 #: C/unity-dash-apps.page:35
-msgid "For installed apps, you can see when the app was installed and either launch the app or uninstall it. Certain essential apps cannot be uninstalled from the preview."
+msgid "For installed applications, you can see when the application was installed and either launch the application or uninstall it. Certain essential applications cannot be uninstalled from the preview."
 msgstr ""
 
 #. (itstool) path: section/p
 #: C/unity-dash-apps.page:39
-msgid "For apps that haven't been installed, you can install them right from the preview."
+msgid "For applications that haven't been installed, you can install them right from the preview."
 msgstr ""
 
 #. (itstool) path: section/title
@@ -16442,7 +14784,7 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/unity-dash-apps.page:47
-msgid "Click <gui>Filter results</gui> if you'd like to only see results for a certain type of application. You can also click <guiseq><gui>Sources</gui><gui>Local Apps</gui></guiseq> to only view installed apps or <guiseq><gui>Sources</gui><gui>Software Center</gui></guiseq> to only show apps available for install."
+msgid "Click <gui>Filter results</gui> if you'd like to only see results for a certain type of application. You can also click <guiseq><gui>Sources</gui><gui>Local Applications</gui></guiseq> to only view installed applications or <guiseq><gui>Sources</gui><gui>Software Center</gui></guiseq> to only show applications available for install."
 msgstr ""
 
 #. (itstool) path: info/desc
@@ -16520,16 +14862,6 @@ msgstr ""
 msgid "Click <gui>Filter results</gui> to filter by account."
 msgstr ""
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/unity-dash-intro.page:21
-msgctxt "_"
-msgid "external ref='figures/unity-dash-sample.png' md5='001e1772fdb57bc7a88601566f6eb0e1'"
-msgstr ""
-
 #. (itstool) path: info/desc
 #: C/unity-dash-intro.page:8
 msgid "The Dash is the top button in the Launcher."
@@ -16537,7 +14869,17 @@ msgstr ""
 
 #. (itstool) path: page/title
 #: C/unity-dash-intro.page:19
-msgid "Find apps, files, music, and more with the Dash"
+msgid "Find applications, files, music, and more with the Dash"
+msgstr ""
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/unity-dash-intro.page:21
+msgctxt "_"
+msgid "external ref='figures/unity-dash-sample.png' md5='b911663ea04c69ca882b45d469e8d786'"
 msgstr ""
 
 #. (itstool) path: media/p
@@ -16567,7 +14909,7 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/unity-dash-intro.page:40
-msgid "The first thing you'll see when opening the Dash is the Dash Home. Without typing or clicking anything, the Dash Home will show you apps and files you've used recently."
+msgid "The first thing you'll see when opening the Dash is the Dash Home. Without typing or clicking anything, the Dash Home will show you applications and files you've used recently."
 msgstr ""
 
 #. (itstool) path: section/p
@@ -16790,115 +15132,105 @@ msgstr ""
 msgid "The HUD keeps track of your search history and adjusts the search results to be even more useful the more you use it."
 msgstr ""
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/unity-introduction.page:43
-msgctxt "_"
-msgid "external ref='figures/unity-overview.png' md5='9ef8894d62d387b08d02eec62ae6953d'"
-msgstr ""
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/unity-introduction.page:51
-msgctxt "_"
-msgid "external ref='figures/unity-launcher.png' md5='805176ea690ddea2d14187f118dcec85'"
-msgstr ""
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/unity-introduction.page:75
-msgctxt "_"
-msgid "external ref='figures/unity-dash.png' md5='505b8243d7651a007559b1281e689d86'"
-msgstr ""
-
 #. (itstool) path: info/desc
 #: C/unity-introduction.page:9
 msgid "A visual introduction to the Unity desktop."
 msgstr ""
 
 #. (itstool) path: page/title
-#: C/unity-introduction.page:30
-msgid "欢迎使用 Ubuntu Kylin"
+#: C/unity-introduction.page:25
+msgid "Welcome to Ubuntu"
 msgstr ""
 
 #. (itstool) path: page/p
-#: C/unity-introduction.page:32
-msgid "Ubuntu Kylin 是由中国 CCN 联合实验室支持和主导的开源项目，其宗旨是采用平台国际化与应用本地化融合的设计理念，通过定制本地化的桌面用户环境以及开发满足广大中文用户特定需求的应用软件来提供细腻的中文用户体验，做更有中国特色的操作系统。"
+#: C/unity-introduction.page:27
+msgid "Ubuntu features <em>Unity</em>, a reimagined way to use your computer. Unity is designed to minimize distractions, give you more room to work, and help you get things done."
 msgstr ""
 
 #. (itstool) path: page/p
-#: C/unity-introduction.page:33
-msgid "Ubuntu Kylin 以 Ubuntu 为参考，得到来自 Debian、Ubuntu、LUPA 及各地 Linux 用户组等国内外众多社区爱好者的广泛参与和热情支持，其开发贡献者可参见 <link href=\"http://launchpad.net/~ubuntukylin-members/+members#active\">Ubuntu Kylin 开发者团队列表</link>。"
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/unity-introduction.page:35
-msgid "Ubuntu/Ubuntu Kylin 使用 <em>Unity</em>，一种使用电脑的全新方式。Unity 的设计原则是消除多余的界面元素，最大化操作区域，帮助您高效完成工作。"
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/unity-introduction.page:37
+#: C/unity-introduction.page:31
 msgid "This guide is designed to answer your questions about using Unity and your Ubuntu desktop. First we will take a moment to look at some of Unity's key features, and how you can use them."
 msgstr ""
 
 #. (itstool) path: section/title
-#: C/unity-introduction.page:41
+#: C/unity-introduction.page:35
 msgid "Getting started with Unity"
 msgstr ""
 
+#. (itstool) path: section/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/unity-introduction.page:37
+msgctxt "_"
+msgid "external ref='figures/unity-overview.png' md5='e6639b68b89c315005e0fc6099f56ace'"
+msgstr ""
+
 #. (itstool) path: media/p
-#: C/unity-introduction.page:44
+#: C/unity-introduction.page:38
 msgid "The Unity desktop"
 msgstr ""
 
 #. (itstool) path: section/title
 #. (itstool) path: media/p
-#: C/unity-introduction.page:48
-#: C/unity-introduction.page:52
+#: C/unity-introduction.page:42
+#: C/unity-introduction.page:46
 msgid "The Launcher"
 msgstr ""
 
+#. (itstool) path: section/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/unity-introduction.page:45
+msgctxt "_"
+msgid "external ref='figures/unity-launcher.png' md5='698a6f3411b2531101072d21bd765b87'"
+msgstr ""
+
 #. (itstool) path: section/p
-#: C/unity-introduction.page:55
+#: C/unity-introduction.page:49
 msgid "The <gui>Launcher</gui> appears automatically when you log in to your desktop, and gives you quick access to the applications you use most often."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/unity-introduction.page:62
+#: C/unity-introduction.page:56
 msgid "<link xref=\"unity-launcher-intro\">Learn more about the Launcher.</link>"
 msgstr ""
 
 #. (itstool) path: section/title
-#: C/unity-introduction.page:68
+#: C/unity-introduction.page:62
 msgid "The Dash"
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/unity-introduction.page:70
+#: C/unity-introduction.page:64
 msgid "The <gui>Ubuntu Button</gui> sits near the top left corner of the screen and is always the top item in the Launcher. If you click the <gui>Ubuntu Button</gui>, Unity will present you with an additional feature of the desktop, the <gui>Dash</gui>."
 msgstr ""
 
+#. (itstool) path: section/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/unity-introduction.page:69
+msgctxt "_"
+msgid "external ref='figures/unity-dash.png' md5='662f7cff94c799b528db7a9b8e0e8512'"
+msgstr ""
+
 #. (itstool) path: media/p
-#: C/unity-introduction.page:76
+#: C/unity-introduction.page:70
 msgid "The Unity Dash"
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/unity-introduction.page:79
-msgid "The <em>Dash</em> is designed to make it easier to find, open, and use apps, files, music, and more. For example, if you type the word \"document\" into the <em>Search Bar</em>, the Dash will show you applications that help you write and edit documents. It will also show you relevant folders and documents that you have been working on recently."
+#: C/unity-introduction.page:73
+msgid "The <em>Dash</em> is designed to make it easier to find, open, and use applications, files, music, and more. For example, if you type the word \"document\" into the <em>Search Bar</em>, the Dash will show you applications that help you write and edit documents. It will also show you relevant folders and documents that you have been working on recently."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/unity-introduction.page:86
+#: C/unity-introduction.page:80
 msgid "<link xref=\"unity-dash-intro\">Learn more about the Dash.</link>"
 msgstr ""
 
@@ -16914,7 +15246,13 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/unity-launcher-change-autohide.page:20
-msgid "You can hide the <gui>Launcher</gui> if you only want to see it when you move your mouse or touchpad pointer to the left side of the screen."
+msgid "You can hide the <gui>Launcher</gui> if you only want to see it when you move your mouse or touchpad pointer to either the left side or top left corner of the screen."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/unity-launcher-change-autohide.page:24
+#: C/unity-menubar-intro.page:49
+msgid "Click the <gui>system menu</gui> at the very right of the <gui>menu bar</gui> and select <gui>System Settings</gui>."
 msgstr ""
 
 #. (itstool) path: item/p
@@ -16932,8 +15270,13 @@ msgstr ""
 msgid "Switch <gui>Auto-hide the Launcher</gui> on."
 msgstr ""
 
+#. (itstool) path: item/p
+#: C/unity-launcher-change-autohide.page:28
+msgid "Select <gui>Left side</gui> or <gui>Top left corner</gui> to designate the reveal location for the <gui>Launcher</gui>."
+msgstr ""
+
 #. (itstool) path: page/p
-#: C/unity-launcher-change-autohide.page:30
+#: C/unity-launcher-change-autohide.page:31
 msgid "To help prevent you from accidentally showing the Launcher, Ubuntu requires you to push a little bit harder with your mouse or touchpad pointer to make the Launcher show. You can adjust the force needed by setting the <gui>Reveal sensitivity</gui> lower or higher."
 msgstr ""
 
@@ -16967,16 +15310,6 @@ msgstr ""
 msgid "The default <gui>Launcher</gui> icon size is <em>48</em>."
 msgstr ""
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/unity-launcher-intro.page:22
-msgctxt "_"
-msgid "external ref='figures/unity-launcher-apps.png' md5='7eea14c8fcf1b9965253cc21767b7a00'"
-msgstr ""
-
 #. (itstool) path: info/desc
 #: C/unity-launcher-intro.page:8
 msgid "The Launcher is at the left of your screen."
@@ -16985,6 +15318,16 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/unity-launcher-intro.page:19
 msgid "Use the Launcher to start applications"
+msgstr ""
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/unity-launcher-intro.page:22
+msgctxt "_"
+msgid "external ref='figures/unity-launcher-apps.png' md5='09090d19992241b8a279dd19f7d5dc3c'"
 msgstr ""
 
 #. (itstool) path: media/p
@@ -17034,7 +15377,7 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/unity-launcher-menu.page:20
-msgid "Right clicking on a Launcher icon will reveal a menu of actions. The actions available depend on whether the icon is locked to the launcher or not, if the icons is for an application whether it's running or not, and on the specific icon itself. Available actions can include the following."
+msgid "Right clicking on a Launcher icon will reveal a menu of actions. The actions available depend on whether the icon is locked to the launcher or not, if the icon is for an application whether it's running or not, and on the specific icon itself. Available actions can include the following."
 msgstr ""
 
 #. (itstool) path: item/p
@@ -17069,7 +15412,7 @@ msgstr ""
 
 #. (itstool) path: info/desc
 #: C/unity-launcher-shapes.page:14
-msgid "The triangles show you your currently running apps."
+msgid "The triangles show you your currently running applications."
 msgstr ""
 
 #. (itstool) path: page/title
@@ -17079,17 +15422,17 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/unity-launcher-shapes.page:20
-msgid "When you start an app, the Launcher icon pulses to let you know that Ubuntu is starting your app. This is useful because while some apps start immediately, others may take a minute to load."
+msgid "When you start an app, the Launcher icon pulses to let you know that Ubuntu is starting your application. This is useful because while some applications start immediately, others may take a minute to load."
 msgstr ""
 
 #. (itstool) path: page/p
 #: C/unity-launcher-shapes.page:24
-msgid "Once the app has finished starting, a small <em>white triangle</em> will show to the left of the Launcher square. Two triangles means that you have two windows of the same app open. If you have three or more windows of the same app open, three triangles will show."
+msgid "Once the application has finished starting, a set of small <em>white triangles</em> will show to the left and right of the Launcher square. Additional triangles will appear on the left of the Launcher square as additional windows of the same application are open (i.e. two triangles means that you have two windows of the same application open; three triangles means three windows). If you have more than three windows of the same application open, only three triangles will show."
 msgstr ""
 
 #. (itstool) path: note/p
 #: C/unity-launcher-shapes.page:29
-msgid "Apps that aren't currently running have translucent Launcher icon squares. When an app is running, the Launcher icon square is full of color."
+msgid "Applications that aren't currently running have translucent Launcher icon squares. When an application is running, the Launcher icon square is full of color."
 msgstr ""
 
 #. (itstool) path: section/title
@@ -17099,77 +15442,17 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/unity-launcher-shapes.page:35
-msgid "If an app wants your attention to notify you of something (like a finished download), the Launcher icon will wiggle and glow and the white triangle will become <em>blue</em>. Click the Launcher icon to dismiss the notification."
+msgid "If an application wants your attention to notify you of something (like a finished download), the Launcher icon will wiggle and glow and the white triangle will become <em>blue</em>. Click the Launcher icon to dismiss the notification."
 msgstr ""
 
 #. (itstool) path: section/p
 #: C/unity-launcher-shapes.page:39
-msgid "Apps can also show a <em>number</em> on their Launcher icon. Messaging apps use the number to tell you how many unread messages you have. <gui>Software Updater</gui> uses it to tell you how many updates are available."
+msgid "Applications can also show a <em>number</em> on their Launcher icon. Messaging applications use the number to tell you how many unread messages you have. <gui>Software Updater</gui> uses it to tell you how many updates are available."
 msgstr ""
 
 #. (itstool) path: section/p
 #: C/unity-launcher-shapes.page:43
-msgid "Finally, apps can use a <em>progress bar</em> to let you know how long a process is taking without you needing to keep the app window in view."
-msgstr ""
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/unity-menubar-intro.page:82
-msgctxt "_"
-msgid "external ref='/usr/share/icons/ubuntu-mono-light/status/24/network-offline.svg' md5='2cdffddec0853f7f7538b9e4a6116039'"
-msgstr ""
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/unity-menubar-intro.page:88
-msgctxt "_"
-msgid "external ref='/usr/share/icons/ubuntu-mono-light/status/22/indicator-keyboard-En.svg' md5='79043c6827d1eb59d1eba720bd798318'"
-msgstr ""
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/unity-menubar-intro.page:93
-msgctxt "_"
-msgid "external ref='/usr/share/icons/ubuntu-mono-light/status/24/indicator-messages.svg' md5='c7753a983bb72624bf340e2b3336973e'"
-msgstr ""
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/unity-menubar-intro.page:99
-msgctxt "_"
-msgid "external ref='/usr/share/icons/ubuntu-mono-light/status/24/battery-100.svg' md5='695cb299a2941423020d12dedfdb2254'"
-msgstr ""
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/unity-menubar-intro.page:105
-msgctxt "_"
-msgid "external ref='/usr/share/icons/ubuntu-mono-light/status/24/audio-volume-high-panel.svg' md5='60405f31ad03268f4676461c2f5fc6d1'"
-msgstr ""
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/unity-menubar-intro.page:117
-msgctxt "_"
-msgid "external ref='/usr/share/icons/ubuntu-mono-light/status/22/system-devices-panel.svg' md5='5b9f7ec215446c7f2eb43a66392aea85'"
+msgid "Finally, applications can use a <em>progress bar</em> to let you know how long a process is taking without you needing to keep the application window in view."
 msgstr ""
 
 #. (itstool) path: info/desc
@@ -17209,7 +15492,7 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/unity-menubar-intro.page:44
-msgid "If you want, you can change the default behavior, and have your menus attached to the window title bar of respective application instead of the menu bar."
+msgid "If you want, you can change the default behavior to having your menus attached to the window title bar of respective application instead of the menu bar, and setting the visibility to always displayed instead of only displayed on mouse hovering."
 msgstr ""
 
 #. (itstool) path: item/p
@@ -17222,108 +15505,173 @@ msgstr ""
 msgid "Under <gui>Show the menus for a window</gui>, select <gui>In the window's title bar</gui>."
 msgstr ""
 
+#. (itstool) path: item/p
+#: C/unity-menubar-intro.page:60
+msgid "Under <gui>Menus visibility</gui>, select <gui>Always displayed</gui>."
+msgstr ""
+
 #. (itstool) path: section/title
-#: C/unity-menubar-intro.page:65
+#: C/unity-menubar-intro.page:68
 msgid "Status menus"
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/unity-menubar-intro.page:66
+#: C/unity-menubar-intro.page:69
 msgid "Ubuntu has several different <gui>status menus</gui> (sometimes referred to as <gui>indicators</gui>) on the right side of the menu bar. The status menus are a convenient place where you can check and modify the state of your computer and applications."
 msgstr ""
 
 #. (itstool) path: list/title
-#: C/unity-menubar-intro.page:73
+#: C/unity-menubar-intro.page:76
 msgid "List of status menus and what they do"
 msgstr ""
 
-#. (itstool) path: item/p
-#: C/unity-menubar-intro.page:76
-msgid "<em>Bluetooth menu</em> <media type=\"image\" mime=\"image/svg\" src=\"/usr/share/icons/ubuntu-mono-light/status/24/bluetooth-active.svg\">Bluetooth icon</media>"
+#. (itstool) path: p/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/unity-menubar-intro.page:79
+msgctxt "_"
+msgid "external ref='figures/network-offline.svg' md5='2cdffddec0853f7f7538b9e4a6116039'"
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/unity-menubar-intro.page:77
-msgid "Send or receive files by <link xref=\"bluetooth\">Bluetooth</link>. This menu is hidden if a supported Bluetooth device isn't detected."
+#: C/unity-menubar-intro.page:79
+msgid "<em>Network menu</em> <media type=\"image\" mime=\"image/svg\" src=\"figures/network-offline.svg\">Offline network icon</media>"
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/unity-menubar-intro.page:82
-msgid "<em>Network menu</em> <media type=\"image\" mime=\"image/svg\" src=\"/usr/share/icons/ubuntu-mono-light/status/24/network-offline.svg\">Offline network icon</media>"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/unity-menubar-intro.page:83
+#: C/unity-menubar-intro.page:80
 msgid "Connect to <link xref=\"net-wired-connect\">wired</link>, <link xref=\"net-wireless-connect\">wireless</link>, <link xref=\"net-mobile\">mobile</link>, and <link xref=\"net-vpn-connect\">VPN</link> networks."
 msgstr ""
 
-#. (itstool) path: item/p
-#: C/unity-menubar-intro.page:88
-msgid "<em>Input source menu</em> <media type=\"image\" mime=\"image/svg\" src=\"/usr/share/icons/ubuntu-mono-light/status/22/indicator-keyboard-En.svg\">Input source icon</media>"
+#. (itstool) path: p/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/unity-menubar-intro.page:85
+msgctxt "_"
+msgid "external ref='figures/indicator-keyboard-En.svg' md5='79043c6827d1eb59d1eba720bd798318'"
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/unity-menubar-intro.page:89
+#: C/unity-menubar-intro.page:85
+msgid "<em>Input source menu</em> <media type=\"image\" mime=\"image/svg\" src=\"figures/indicator-keyboard-En.svg\">Input source icon</media>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/unity-menubar-intro.page:86
 msgid "Select keyboard layout/input source, <link xref=\"keyboard-layouts\">configure input sources</link>."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/unity-menubar-intro.page:93
-msgid "<em>Messaging menu</em> <media type=\"image\" mime=\"image/svg\" src=\"/usr/share/icons/ubuntu-mono-light/status/24/indicator-messages.svg\">Message icon</media>"
+#: C/unity-menubar-intro.page:90
+msgid "<em>Bluetooth menu</em> <media type=\"image\" mime=\"image/svg\" src=\"figures/bluetooth-active.svg\">Bluetooth icon</media>"
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/unity-menubar-intro.page:94
+#: C/unity-menubar-intro.page:91
+msgid "Send or receive files by <link xref=\"bluetooth\">Bluetooth</link>. This menu is hidden if a supported Bluetooth device isn't detected."
+msgstr ""
+
+#. (itstool) path: p/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/unity-menubar-intro.page:96
+msgctxt "_"
+msgid "external ref='figures/indicator-messages.svg' md5='c7753a983bb72624bf340e2b3336973e'"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/unity-menubar-intro.page:96
+msgid "<em>Messaging menu</em> <media type=\"image\" mime=\"image/svg\" src=\"figures/indicator-messages.svg\">Message icon</media>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/unity-menubar-intro.page:97
 msgid "Easily launch and receive incoming notifications from messaging applications including email, social networking, and Internet chat."
 msgstr ""
 
-#. (itstool) path: item/p
-#: C/unity-menubar-intro.page:99
-msgid "<em>Battery menu</em> <media type=\"image\" mime=\"image/svg\" src=\"/usr/share/icons/ubuntu-mono-light/status/24/battery-100.svg\">Battery icon</media>"
+#. (itstool) path: p/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/unity-menubar-intro.page:102
+msgctxt "_"
+msgid "external ref='figures/battery-100.svg' md5='695cb299a2941423020d12dedfdb2254'"
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/unity-menubar-intro.page:100
+#: C/unity-menubar-intro.page:102
+msgid "<em>Battery menu</em> <media type=\"image\" mime=\"image/svg\" src=\"figures/battery-100.svg\">Battery icon</media>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/unity-menubar-intro.page:103
 msgid "Check your laptop battery's charging status. This menu is hidden if a battery isn't detected."
 msgstr ""
 
-#. (itstool) path: item/p
-#: C/unity-menubar-intro.page:105
-msgid "<em>Sound menu</em> <media type=\"image\" mime=\"image/svg\" src=\"/usr/share/icons/ubuntu-mono-light/status/24/audio-volume-high-panel.svg\">Volume icon</media>"
+#. (itstool) path: p/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/unity-menubar-intro.page:108
+msgctxt "_"
+msgid "external ref='figures/audio-volume-high-panel.svg' md5='571b59734272f80a40e8d2e9a8d4256e'"
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/unity-menubar-intro.page:106
+#: C/unity-menubar-intro.page:108
+msgid "<em>Sound menu</em> <media type=\"image\" mime=\"image/svg\" src=\"figures/audio-volume-high-panel.svg\">Volume icon</media>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/unity-menubar-intro.page:109
 msgid "Set the <link xref=\"sound-volume\">volume</link>, configure sound <link xref=\"media\">settings</link>, and control media players like <app>Rhythmbox</app>."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/unity-menubar-intro.page:111
+#: C/unity-menubar-intro.page:114
 msgid "<em>Clock</em>"
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/unity-menubar-intro.page:112
-msgid "Access the current time and date. Appointments from your <link xref=\"clock-calendar\">Evolution calendar</link> can also display here."
+#: C/unity-menubar-intro.page:115
+msgid "Access the current time and date. Appointments from the built in <link xref=\"clock-calendar\">Calendar application</link> can also display here."
 msgstr ""
 
-#. (itstool) path: item/p
-#: C/unity-menubar-intro.page:117
-msgid "<em>System menu</em> <media type=\"image\" mime=\"image/svg\" src=\"/usr/share/icons/ubuntu-mono-light/status/22/system-devices-panel.svg\">Power cog icon</media>"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/unity-menubar-intro.page:118
-msgid "Access details about your computer, this help guide, and <link xref=\"prefs\">system settings</link>. Switch users, lock screen, log out, suspend, restart or shutdown your computer."
-msgstr ""
-
-#. (itstool) path: note/p
+#. (itstool) path: p/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
 #: C/unity-menubar-intro.page:120
-msgid "Some of the icons used by the indicator menus change according to the status of the application."
+msgctxt "_"
+msgid "external ref='figures/system-devices-panel.svg' md5='5b9f7ec215446c7f2eb43a66392aea85'"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/unity-menubar-intro.page:120
+msgid "<em>System menu</em> <media type=\"image\" mime=\"image/svg\" src=\"figures/system-devices-panel.svg\">Power cog icon</media>"
 msgstr ""
 
 #. (itstool) path: item/p
 #: C/unity-menubar-intro.page:121
+msgid "Access details about your computer, this help guide, and <link xref=\"prefs\">system settings</link>. Switch users, lock screen, log out, suspend, restart or shutdown your computer."
+msgstr ""
+
+#. (itstool) path: note/p
+#: C/unity-menubar-intro.page:123
+msgid "Some of the icons used by the indicator menus change according to the status of the application."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/unity-menubar-intro.page:124
 msgid "Other programs such as <app>Tomboy</app> or <app>Transmission</app> can also add indicator menus to the panel."
 msgstr ""
 
@@ -17369,47 +15717,12 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/unity-scrollbars-intro.page:45
-msgid "Click the top half of the <gui>thumb slider</gui> to scroll one page up. Click the bottom half to scroll one page down."
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/unity-scrollbars-intro.page:48
 msgid "Drag the <gui>thumb slider</gui> up or down to move the screen's position exactly where you want it."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/unity-scrollbars-intro.page:51
-msgid "<link xref=\"mouse-middleclick\"/> on the <gui>thumb slider</gui> to move the screen's position without needing to drag or scroll page by page. This is especially useful in long documents."
-msgstr ""
-
-#. (itstool) path: section/title
-#: C/unity-scrollbars-intro.page:59
-msgid "Disable the scrollbars"
-msgstr ""
-
-#. (itstool) path: section/p
-#: C/unity-scrollbars-intro.page:61
-msgid "You can disable the new scrollbars if you prefer the traditional style:"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/unity-scrollbars-intro.page:64
-msgid "Open the <app>Terminal</app> by pressing <keyseq><key>Ctrl</key><key>Alt</key><key>t</key></keyseq> or by searching for <input>terminal</input> in the <gui>Dash</gui>."
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/unity-scrollbars-intro.page:67
-msgid "Type the following command and press <key>Enter</key>:"
-msgstr ""
-
-#. (itstool) path: section/p
-#: C/unity-scrollbars-intro.page:72
-msgid "If you change your mind and want to re-enable the scrollbars, run this command:"
-msgstr ""
-
-#. (itstool) path: note/p
-#: C/unity-scrollbars-intro.page:78
-msgid "Setting your theme to <link xref=\"a11y-contrast\">High Contrast</link> will also disable the overlay scrollbars."
+#: C/unity-scrollbars-intro.page:48
+msgid "Click the scrollbar to move the screen's position exactly where you want it."
 msgstr ""
 
 #. (itstool) path: info/desc
@@ -17424,37 +15737,42 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/unity-shopping.page:27
-msgid "In addition to helping you find apps or files on your computer, the <gui>Dash</gui> also shows you related online results for your searches. Online sources include Amazon.com and the Ubuntu One Music Store and more online sources will be added."
+msgid "In addition to helping you find apps or files on your computer, the <gui>Dash</gui> can also show you related online results for your searches. Online sources include Amazon.com and dozens of other online sources."
 msgstr ""
 
 #. (itstool) path: page/p
-#: C/unity-shopping.page:32
+#: C/unity-shopping.page:31
 msgid "When you purchase music or products from these sources, Canonical receives a small portion of the profits in exchange for directing more business to these stores. Canonical, the company that created and continues to support the Ubuntu project, then uses this money to make Ubuntu better."
 msgstr ""
 
+#. (itstool) path: page/p
+#: C/unity-shopping.page:37
+msgid "By default, the inclusion of online search results is turned off."
+msgstr ""
+
 #. (itstool) path: section/title
-#: C/unity-shopping.page:39
-msgid "Turn off online search results"
+#: C/unity-shopping.page:40
+msgid "Turn on online search results"
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/unity-shopping.page:41
-msgid "If you don't want to receive online search suggestions, you can disable this feature."
+#: C/unity-shopping.page:42
+msgid "If you want to receive online search suggestions, you can enable this feature through the <gui>Security &amp; Privacy</gui> system setting."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/unity-shopping.page:49
+#: C/unity-shopping.page:47
+msgid "Click the <gui>system menu</gui> at the far right of the <gui>menu bar</gui> and select <gui>System Settings</gui>."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/unity-shopping.page:50
 msgid "Open <gui>Security &amp; Privacy</gui> and select the <gui>Search</gui> tab."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/unity-shopping.page:51
-msgid "Switch off <gui>Include online search results</gui>."
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/unity-shopping.page:53
-msgid "<link xref=\"shell-exit\">Log out</link> and log back in for the change to take effect."
+#: C/unity-shopping.page:52
+msgid "Switch on <gui>Include online search results</gui>."
 msgstr ""
 
 #. (itstool) path: info/title
@@ -18304,7 +16622,7 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/video-sending.page:42
-msgid "If you can't find the right codec, try the <link href=\"http://www.videolan.org/vlc/\">VLC media player</link>. It works on Windows and Mac OS as well as Linux, and supports a lot of different video formats. Otherwise, try converting your video into a different format. Most video editors are able to do this, and specific video converter applications are available. Check the <app>Ubuntu Software Center</app> to see what's available."
+msgid "If you can't find the right codec, try the <link href=\"http://www.videolan.org/vlc/\">VLC media player</link>. It works on Windows and Mac OS as well as Linux, and supports a lot of different video formats. Otherwise, try converting your video into a different format. Most video editors are able to do this, and specific video converter applications are available. Check <app>Software</app> to see what's available."
 msgstr ""
 
 #. (itstool) path: note/p
@@ -18456,111 +16774,6 @@ msgstr ""
 #. (itstool) path: note/p
 #: C/wacom-stylus.page:56
 msgid "If you have more than one stylus, when the additional stylus gets close to the tablet, a pager will be displayed next to the stylus device name. Use the pager to choose which stylus to configured."
-msgstr ""
-
-#. (itstool) path: info/desc
-#: C/whats-new.page:9
-msgid "Improvements in the latest version of Ubuntu."
-msgstr ""
-
-#. (itstool) path: page/title
-#: C/whats-new.page:24
-msgid "Ubuntu Kylin 14.04 有哪些新特性？"
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/whats-new.page:26
-msgid "Ubuntu Kylin 是基于 Ubuntu 的中文开源操作系统，底层基于 Linux 和 X/Mir，上层共享 Ubuntu 众多特性，并针对中文用户需求，在 SDK、UI 以及生态应用软件等各方面进行增强。以下是 Ubuntu Kylin 14.04 LTS 的一些新特性："
-msgstr ""
-
-#. (itstool) path: section/title
-#: C/whats-new.page:30
-msgid "New and improved features"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/whats-new.page:34
-msgid "基于天河二号云平台建立 Ubuntu Kylin 软件仓库；并针对 14.04 发布了 Ubuntu Kylin 软件中心尝鲜版，界面简洁，同时支持 Ubuntu 和 Ubuntu Kylin 软件仓库，便于快速安装 Ubuntu Kylin 团队为您定制的中文特色软件。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/whats-new.page:38
-msgid "针对中文用户的系统需求，在中文化、裁剪优化和系统美化等方面做到贴心的系统定制，满足细腻的用户体验。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/whats-new.page:42
-msgid "开发<app>优客助手</app>、<app>小企鹅输入法面板</app>等特色软件，满足更多中文桌面用户的系统管理和使用需求；与商业公司联合开发<app>金山快盘</app>、<app>WPS</app>、<app>搜狗输入法</app>等 Linux 版本商业软件，打造更加完善的 Linux 生态链。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/whats-new.page:46
-msgid "更开创了 <link href=\"http://www.ubuntukylin.com/Community/\">Ubuntu Kylin 社区</link>，通过“最美中国”壁纸征集、Ubuntu SDK 全球系统公开课中国区活动、发布派对、在线知识库平台、积分商场等线上线下社区互动，以活动促进开源文化推广、促进开源技术交流。Ubuntu Kylin 社区随时欢迎您的参与，时刻准备着为您提供帮助。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/whats-new.page:50
-msgid "The menus of the currently focused application are by default available in Ubuntu's integrated <link xref=\"unity-menubar-intro#app-menus\">menu bar</link>. However, if you want you can switch to the conventional style and show the app menus in the window title bar of respective application instead (this latter option is new since Ubuntu 13.10)."
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/whats-new.page:56
-msgid "Support added for scaling Unity on a per-monitor basis, which allows for a better experience on high-DPI displays. Similar scaling support is also available in LibreOffice and Chromium."
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/whats-new.page:60
-msgid "Improved look and style including rounded window decorations, a new interface for screen unlock, and other tweaks to the theme."
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/whats-new.page:63
-msgid "The <link xref=\"keyboard-layouts\">integrated <gui>Text Entry</gui> interface</link> and the related input source <link xref=\"unity-menubar-intro#status-menus\"> status menu</link> are designed to set both keyboard layout and IBus input methods."
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/whats-new.page:67
-msgid "A number of improvements have been made to the <gui>Dash</gui>:"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/whats-new.page:69
-msgid "The <gui>Dash</gui> may now search dozens of different online sources simultaneously. The Internet-based searches <link xref=\"unity-shopping\">may be disabled</link>."
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/whats-new.page:72
-msgid "The <gui>Dash</gui> search results may be filtered by category and source.."
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/whats-new.page:74
-msgid "Right-clicking on a search result in the <gui>Dash</gui> will display a full-screen preview with more information."
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/whats-new.page:76
-msgid "Use the <link xref=\"unity-dash-photos\">photos lens</link> to view photos from your computer or from your social networks."
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/whats-new.page:79
-msgid "Add or remove scopes from the <gui>Dash</gui> to customize your experience."
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/whats-new.page:82
-msgid "Browse messages from your social networks with the new <link xref=\"unity-dash-friends\">Friends scope</link>."
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/whats-new.page:87
-msgid "Enter your credentials in <link xref=\"accounts\">Online Accounts</link> to easily set up online integration for the Dash, Empathy, and more."
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/whats-new.page:90
-msgid "Keep track of contact information for your friends and colleagues with <link xref=\"contacts\">Contacts</link>, your personal address book."
 msgstr ""
 
 #. (itstool) path: info/desc

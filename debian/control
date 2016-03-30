@@ -6,8 +6,8 @@ Build-Depends: debhelper (>= 8), cdbs
 Build-Depends-Indep: gnome-common,
                      pkg-config,
                      yelp-tools
-Vcs-Bzr: http://bazaar.launchpad.net/~ubuntu-core-doc/ubuntu-docs/trusty
-Standards-Version: 3.9.5
+Vcs-Bzr: http://bazaar.launchpad.net/~luolei/ubuntu-kylin-docs/xenial
+Standards-Version: 3.9.6
 Homepage: https://launchpad.net/ubuntu-kylin-docs
 
 Package: ubuntu-kylin-docs
