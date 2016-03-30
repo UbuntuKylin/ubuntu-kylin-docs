@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2016-03-18 23:26+0100\n"
+"POT-Creation-Date: 2016-03-30 16:55+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -6517,13 +6517,13 @@ msgstr ""
 #. (itstool) path: info/title
 #: C/index.page:6
 msgctxt "link"
-msgid "Ubuntu Desktop Guide"
+msgid "Ubuntu Kylin 桌面指南"
 msgstr ""
 
 #. (itstool) path: info/title
 #: C/index.page:7
 msgctxt "text"
-msgid "Ubuntu Desktop Guide"
+msgid "Ubuntu Kylin 桌面指南"
 msgstr ""
 
 #. (itstool) path: title/media
@@ -6540,12 +6540,12 @@ msgstr ""
 #. (itstool) path: info/title
 #: C/index.page:8
 msgctxt "link:trail"
-msgid "<media type=\"image\" mime=\"image/png\" width=\"16\" height=\"16\" src=\"figures/ubuntu-logo.png\">Help</media> Ubuntu Desktop Guide"
+msgid "<media type=\"image\" mime=\"image/png\" width=\"16\" height=\"16\" src=\"figures/ubuntu-logo.png\">Help</media> Ubuntu Kylin 桌面指南"
 msgstr ""
 
 #. (itstool) path: page/title
 #: C/index.page:21
-msgid "<media type=\"image\" src=\"figures/ubuntu-logo.png\">Ubuntu Logo</media> Ubuntu Desktop Guide"
+msgid "<media type=\"image\" src=\"figures/ubuntu-logo.png\">Ubuntu Kylin 图标</media> Ubuntu Kylin 桌面指南"
 msgstr ""
 
 #. (itstool) path: info/desc
@@ -7041,6 +7041,7 @@ msgstr ""
 #: C/unity-launcher-shapes.page:10
 #: C/unity-scrollbars-intro.page:13
 #: C/unity-shopping.page:14
+#: C/whats-new.page:13
 msgid "Jeremy Bicha"
 msgstr ""
 
@@ -14725,6 +14726,1319 @@ msgstr ""
 msgid "You can make your keyboard behave like the keyboard for another language, regardless of the letters printed on the keys. You can even switch between different input sources using an icon in the menu bar. To learn how, see <link xref=\"keyboard-layouts\"/>."
 msgstr ""
 
+#. (itstool) path: info/title
+#: C/uk-calendar.page:10
+msgctxt "link:trail"
+msgid "中国农历"
+msgstr ""
+
+#. (itstool) path: info/desc
+#: C/uk-calendar.page:12
+msgid "基于中国传统历法的日历软件。"
+msgstr ""
+
+#. (itstool) path: credit/name
+#: C/uk-calendar.page:20
+#: C/uk-dash-music.page:13
+#: C/uk-dash.page:20
+#: C/uk-dash-photo.page:13
+#: C/uk-dash-video.page:13
+#: C/uk-fcitx.page:20
+#: C/uk-fcitx-qimpanel-skin.page:7
+#: C/uk-fcitx-qimpanel-wordlist.page:7
+#: C/uk-fcitx-sogou-shortcuts.page:7
+#: C/uk-fcitx-sogou-wordlist.page:7
+#: C/uk.page:25
+#: C/uk-software-center.page:19
+#: C/uk-weather.page:17
+#: C/uk-wps.page:19
+#: C/uk-wps-presentations.page:13
+#: C/uk-wps-spreadsheets.page:13
+#: C/uk-wps-writer.page:13
+#: C/uk-youker-assistant.page:23
+#: C/uk-youker-ball.page:18
+#: C/uk-youker-clean.page:18
+#: C/uk-youker-home.page:18
+#: C/uk-youker-info.page:18
+#: C/uk-youker-personalize.page:18
+#: C/uk-youker-tool.page:18
+#: C/unity-introduction.page:23
+#: C/whats-new.page:17
+msgid "Ubuntu Kylin 文档团队"
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/uk-calendar.page:27
+msgid "中国农历"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/uk-calendar.page:29
+msgid "基于中国传统历法的日历软件，用户可以方便的查找中国传统节日和节气、查看宜忌信息，并且提供便签等便利功能。"
+msgstr ""
+
+#. (itstool) path: list/title
+#: C/uk-calendar.page:35
+msgid "软件界面"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-calendar.page:37
+msgid "<em>打开主界面</em>：单击桌面右上角的<app>中国农历</app>图标，通过<gui>显示/隐藏</gui>切换主界面显示。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-calendar.page:41
+msgid "<em>切换日期</em>：在主界面顶部切换年月，可使用 &lt; 和 &gt; 切换年和月，或通过下拉菜单直接选择，然后在选定的月份选择日期，还可通过点击<gui>今日</gui>回到当天。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-calendar.page:45
+msgid "<em>查看宜忌</em>：选择一个日期，在界面右下方查看当天的宜忌信息。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-calendar.page:49
+msgid "<em>便签</em>：选择一个日期，在界面左下方可以看到当天是否有便签内容。双击该日期会弹出便签界面，可输入文字或点击<gui>清空计划</gui>清除输入的内容。"
+msgstr ""
+
+#. (itstool) path: list/title
+#: C/uk-calendar.page:56
+msgid "托盘菜单"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-calendar.page:58
+msgid "<em>显示/隐藏</em>：单击可显示或隐藏软件主界面，呈现方式见<gui>显示模式</gui>。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-calendar.page:62
+msgid "<em>开机启动</em>：勾选后会在每次启动系统时自动运行本软件。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-calendar.page:66
+msgid "<em>显示模式</em>：<gui>总在最前</gui>表示主界面永远显示在所有窗口的最上方；<gui>总在最后</gui>表示主界面永远显示在其他窗口之下；<gui>普通模式</gui>表示主界面的显示方式和其他窗口一样由操作系统决定。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-calendar.page:70
+msgid "<em>换肤</em>：切换已有的皮肤主题。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-calendar.page:74
+msgid "<em>关于本软件</em>：介绍软件和开发者信息。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-calendar.page:78
+msgid "<em>退出</em>：关闭软件。"
+msgstr ""
+
+#. (itstool) path: info/desc
+#: C/uk-dash-music.page:8
+msgid "从本地或网站上查找并播放音乐。"
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/uk-dash-music.page:19
+msgid "Dash 中文音乐搜索"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/uk-dash-music.page:21
+msgid "<app>Dash 中文音乐搜索</app>位于 <gui>Dash</gui> 面板的第五个栏目，用一个音符来表示。通过 <app>Dash 中文音乐搜索</app>，您可以使用中文轻松找到喜欢的本地或在线音乐。"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/uk-dash-music.page:22
+msgid "还可使用 <keyseq><key>Super</key><key>M</key></keyseq> 组合键直接打开音乐搜索。"
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/uk-dash-music.page:26
+#: C/uk-dash-photo.page:27
+#: C/uk-dash-video.page:26
+msgid "搜索"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-dash-music.page:29
+msgid "打开 <gui>Dash</gui>， 在搜索框内输入关键字，搜索结果将会显示在 <gui> Dash </gui> 面板上。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-dash-music.page:33
+msgid "搜索结果分为两类：一类为<gui>曲目</gui>；一类为<gui>专辑</gui>。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-dash-music.page:37
+msgid "<gui>曲目</gui>中显示搜索到的歌曲，每首歌曲以 “歌曲名+歌手” 的方式显示。可以快速的搜索到您要查找的歌曲。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-dash-music.page:41
+msgid "点击 <gui>曲目</gui> 右侧的 <gui>显示较少结果/显示另外*个结果</gui> 可以打开或收起搜索结果条目。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-dash-music.page:45
+msgid "<gui>专辑</gui> 中显示歌曲所在的专辑或歌手发布的专辑。"
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/uk-dash-music.page:55
+#: C/uk-dash-photo.page:38
+#: C/uk-dash-video.page:39
+msgid "预览"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-dash-music.page:58
+msgid "在 <gui>Dash</gui> 面板上右键点击歌曲，可以预览歌曲的详细信息。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-dash-music.page:60
+#: C/uk-dash-photo.page:41
+#: C/uk-dash-video.page:42
+msgid "在预览页面点击鼠标，返回到搜索页面。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-dash-music.page:61
+msgid "点击 <gui>&lt;</gui> 或 <gui>&gt;</gui> 箭头可预览上一首或下一首歌曲。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-dash-music.page:62
+msgid "点击 <gui>试听</gui> 按钮，将链接到网站试听歌曲。"
+msgstr ""
+
+#. (itstool) path: info/title
+#: C/uk-dash.page:8
+msgctxt "link:trail"
+msgid "Dash 中文搜索"
+msgstr ""
+
+#. (itstool) path: info/desc
+#: C/uk-dash.page:10
+msgid "<link xref=\"uk-dash-music\">中文音乐搜索</link>， <link xref=\"uk-dash-video\">中文视频搜索</link>， <link xref=\"uk-dash-photo\">中文图片搜索</link>..."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/uk-dash.page:27
+msgid "Dash 中文搜索"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/uk-dash.page:29
+msgid "Dash 中文搜索允许您使用中文搜索本地或远程的应用程序、文件、音乐、视频以及图片等内容，并显示您最近使用过的文件。"
+msgstr ""
+
+#. (itstool) path: info/desc
+#: C/uk-dash-photo.page:8
+msgid "查看本地或网站上照片。"
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/uk-dash-photo.page:20
+msgid "Dash 中文图片搜索"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/uk-dash-photo.page:22
+msgid "<app>Dash 中文图片搜索</app>位于 <gui>Dash</gui> 面板的第六个栏目，用一个照相机表示。通过 <app>Dash 中文图片搜索</app>，您可以使用中文轻松找到需要的本地或在线图片。"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/uk-dash-photo.page:24
+msgid "还可使用 <keyseq><key>Super</key><key>C</key></keyseq> 组合键直接打开图片搜索。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-dash-photo.page:30
+msgid "打开 <gui>Dash</gui>， 在搜索框内输入关键字，搜索结果将会显示在 <gui>Dash</gui> 面板上。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-dash-photo.page:31
+msgid "<gui>最近使用</gui> 中显示搜索到的图片，根据每个图片的标题可以快速的搜索到您要查找的图片。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-dash-photo.page:32
+msgid "点击 <gui>最近使用</gui> 右侧的 <gui>显示较少结果/显示另外*个结果</gui> 可以打开或收起搜索结果条目。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-dash-photo.page:40
+msgid "在 <gui>Dash</gui> 面板上右键点击图片，可以预览图片的详细信息。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-dash-photo.page:42
+msgid "点击 <gui>&lt;</gui> 或 <gui>&gt;</gui> 箭头可预览上一张和下一张图片。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-dash-photo.page:43
+msgid "点击<gui>查看</gui>按钮，将链接到网站查看图片。"
+msgstr ""
+
+#. (itstool) path: info/desc
+#: C/uk-dash-video.page:8
+msgid "从本地或网站上查找并播放视频。"
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/uk-dash-video.page:19
+msgid "Dash 中文视频搜索"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/uk-dash-video.page:21
+msgid "<app>Dash 中文视频搜索</app>位于 <gui>Dash</gui> 面板第四个栏目，用一个电影胶片表示。通过 <app>Dash 中文视频搜索</app>，您可以使用中文轻松找到想看的本地或在线视频。"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/uk-dash-video.page:23
+msgid "还可使用 <keyseq><key>Super</key><key>V</key></keyseq> 组合键直接打开视频搜索。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-dash-video.page:29
+msgid "打开 <gui>Dash</gui>，在搜索框内输入关键字，搜索结果将会显示在 <gui>Dash</gui> 面板上。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-dash-video.page:30
+msgid "搜索结果分为两类：一类为 <gui>在线</gui>；一类为 <gui>更多建议</gui>。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-dash-video.page:31
+msgid "<gui>在线</gui> 中显示搜索到的视频，根据每个视频的标题可以快速的定位到您要查找的视频。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-dash-video.page:32
+msgid "点击 <gui>在线</gui> 右侧的 <gui>显示较少结果/显示另外*个结果</gui> 可以打开或收起搜索结果条目。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-dash-video.page:33
+msgid "<gui>更多建议</gui> 中显示相关的视频。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-dash-video.page:41
+msgid "在 <gui>Dash</gui> 面板上右键点击视频，可以预览视频的详细信息。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-dash-video.page:43
+msgid "点击 <gui>&lt;</gui> 或 <gui>&gt;</gui> 可预览上一个和下一个视频。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-dash-video.page:44
+msgid "点击<gui>播放</gui>按钮，将链接到网站观看视频。"
+msgstr ""
+
+#. (itstool) path: info/title
+#: C/uk-fcitx.page:8
+msgctxt "link:trail"
+msgid "小企鹅输入法"
+msgstr ""
+
+#. (itstool) path: info/desc
+#: C/uk-fcitx.page:10
+msgid "<link xref=\"uk-fcitx-qimpanel-wordlist\">候选词列表</link>， <link xref=\"uk-fcitx-qimpanel-skin\">皮肤字体风格</link>， <link xref=\"uk-fcitx-sogou-shortcuts\">候选词显示个数</link>， <link xref=\"uk-fcitx-sogou-wordlist\">翻页快捷键</link>..."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/uk-fcitx.page:27
+msgid "小企鹅输入法"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/uk-fcitx.page:28
+msgid "<link href=\"https://fcitx-im.org/wiki/Fcitx\">小企鹅输入法(Fcitx)</link> 是 Ubuntu Kylin 默认的输入法。它是一个可扩展的输入法框架，支持拼音、五笔字型以及区位、二笔等输入方式。"
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/uk-fcitx.page:31
+msgid "小企鹅输入法面板"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/uk-fcitx.page:32
+msgid "<app>小企鹅输入法面板</app>(Fcitx-qimpanel)由 Ubuntu Kylin 团队开发，是一个配合<app>小企鹅输入法</app>进行候选词显示的独立前端面板。启动 <app>Fcitx-qimpanel</app> 程序后，<app>Fcitx</app> 输出的候选词将自动显示在新的面板之上。<app>Fcitx-qimpanel</app> 自带四套简约风格的 Ubuntu Kylin 特色皮肤，使得候选词的显示与选择更加美观方便。"
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/uk-fcitx.page:38
+msgid "搜狗输入法"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/uk-fcitx.page:39
+msgid "由 Ubuntu Kylin 团队与搜狗公司基于<app>小企鹅输入法</app>框架合作开发的 Linux 输入法引擎。<link href=\"http://pinyin.sogou.com/\">搜狗拼音输入法</link> 是互联网上流行的一种拼音输入法，该引擎与其他平台下的输入体验保持一致，旨在配合用户输入习惯、提高输入效率。"
+msgstr ""
+
+#. (itstool) path: info/desc
+#: C/uk-fcitx-qimpanel-skin.page:14
+msgid "定制皮肤字体风格。"
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/uk-fcitx-qimpanel-skin.page:22
+msgid "皮肤字体风格"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/uk-fcitx-qimpanel-skin.page:26
+msgid "<app>小企鹅输入法面板</app> 附带皮肤字体定制工具，可根据个人需要修改皮肤字体大小。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-fcitx-qimpanel-skin.page:32
+#: C/uk-fcitx-qimpanel-wordlist.page:31
+#: C/uk-fcitx-sogou-shortcuts.page:31
+#: C/uk-fcitx-sogou-wordlist.page:31
+msgid "点击桌面右上角的输入法系统图标，弹出下拉菜单。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-fcitx-qimpanel-skin.page:36
+#: C/uk-fcitx-qimpanel-wordlist.page:35
+msgid "选择 <gui>配置面板和皮肤</gui>，弹出 <gui>配置面板设置</gui> 窗口。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-fcitx-qimpanel-skin.page:40
+msgid "选择 <gui>皮肤设计</gui> 标签页。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-fcitx-qimpanel-skin.page:44
+msgid "在 <gui>所有皮肤</gui> 列表里，双击当前正在使用的皮肤，比如 <gui>ubuntukylin-dark1</gui>，弹出对应的皮肤修改界面。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-fcitx-qimpanel-skin.page:48
+msgid "选择 <gui>皮肤字体</gui> 标签页。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-fcitx-qimpanel-skin.page:52
+msgid "修改 <gui>候选词字体大小</gui>。"
+msgstr ""
+
+#. (itstool) path: info/desc
+#: C/uk-fcitx-qimpanel-wordlist.page:14
+msgid "定制候选词显示风格。"
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/uk-fcitx-qimpanel-wordlist.page:22
+msgid "候选词列表"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/uk-fcitx-qimpanel-wordlist.page:26
+msgid "<app>小企鹅输入法面板</app> 支持横向或纵向显示候选词列表。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-fcitx-qimpanel-wordlist.page:39
+msgid "在 <gui>外观</gui> 标签页选择候选词列表显示方向。"
+msgstr ""
+
+#. (itstool) path: info/desc
+#: C/uk-fcitx-sogou-shortcuts.page:14
+msgid "根据个人习惯对翻页快捷键进行全局配置。"
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/uk-fcitx-sogou-shortcuts.page:22
+msgid "翻页快捷键"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/uk-fcitx-sogou-shortcuts.page:26
+msgid "根据个人习惯设置输入法快捷键。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-fcitx-sogou-shortcuts.page:35
+msgid "如果 <gui>搜狗拼音</gui> 选项未被选中，先选择启用 <gui>搜狗拼音</gui>。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-fcitx-sogou-shortcuts.page:39
+msgid "在 <gui>搜狗拼音</gui> 处于启用状态时，下拉菜单将出现 <gui>设置</gui> 菜单项。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-fcitx-sogou-shortcuts.page:43
+msgid "选择 <gui>设置</gui>，弹出 <gui>搜狗拼音输入法设置</gui> 窗口。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-fcitx-sogou-shortcuts.page:47
+msgid "选择 <guiseq><gui>搜狗拼音输入法设置</gui><gui>按键</gui></guiseq>。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-fcitx-sogou-shortcuts.page:50
+msgid "在 <gui>翻页按键</gui> 栏更改翻页快捷键方案，如：<key>+</key>/<key>-</key>，<key>,</key>/<key>.</key> 等。"
+msgstr ""
+
+#. (itstool) path: info/desc
+#: C/uk-fcitx-sogou-wordlist.page:14
+msgid "根据个人习惯设置候选词个数。"
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/uk-fcitx-sogou-wordlist.page:22
+msgid "候选词显示个数"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/uk-fcitx-sogou-wordlist.page:26
+msgid "根据个人习惯对输入法候选词个数进行配置。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-fcitx-sogou-wordlist.page:35
+msgid "如果菜单项 <gui>搜狗拼音</gui> 未处于活动状态，请选择激活 <gui>搜狗拼音</gui>。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-fcitx-sogou-wordlist.page:39
+msgid "在 <gui>搜狗拼音</gui> 处于活动状态时，下拉菜单将出现 <gui>设置</gui> 菜单项。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-fcitx-sogou-wordlist.page:43
+msgid "选择 <gui>设置</gui>，将弹出 <gui>搜狗拼音输入法设置</gui> 窗口。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-fcitx-sogou-wordlist.page:47
+msgid "选择 <guiseq><gui>搜狗拼音输入法设置</gui><gui>外观</gui></guiseq>。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-fcitx-sogou-wordlist.page:51
+msgid "在 <gui>候选词个数</gui> 栏选择每页候选词显示个数。"
+msgstr ""
+
+#. (itstool) path: info/title
+#: C/uk.page:9
+msgctxt "link:trail"
+msgid "Ubuntu Kylin 特色软件"
+msgstr ""
+
+#. (itstool) path: info/desc
+#: C/uk.page:11
+msgid "<link xref=\"uk-youker-assistant\">优客助手</link>， <link xref=\"uk-software-center\">软件中心</link>， <link xref=\"uk-fcitx\">小企鹅输入法</link>， <link xref=\"uk-dash\">Dash 中文搜索</link>， <link xref=\"uk-calendar\">中国农历</link>， <link xref=\"uk-weather\">天气预报</link>， <link xref=\"uk-wps\">WPS</link>…"
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/uk.page:32
+msgid "Ubuntu Kylin 特色软件"
+msgstr ""
+
+#. (itstool) path: info/title
+#: C/uk-software-center.page:9
+msgctxt "link:trail"
+msgid "优麒麟软件中心"
+msgstr ""
+
+#. (itstool) path: info/desc
+#: C/uk-software-center.page:11
+msgid "为提高本土化体验开发的软件管理工具，数据来自 Ubuntu 和 Ubuntu Kylin 软件源。"
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/uk-software-center.page:26
+msgid "软件中心"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/uk-software-center.page:28
+msgid "<app>优麒麟软件中心</app>客户端是由 Ubuntu Kylin 团队开发的一款软件管理工具。其目的是为了提高软件本土化的体验，软件中心的安装包和相关的数据来自 Ubuntu 和 Ubuntu Kylin 软件源。"
+msgstr ""
+
+#. (itstool) path: list/title
+#: C/uk-software-center.page:35
+msgid "软件中心界面"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-software-center.page:37
+msgid "<em>广告栏</em>：展示当前热门的软件。大部分软件可通过软件源直接安装，还有少数软件由于法律或其他原因没有放置在软件源中。对于源中的软件，点击广告将进入<em>软件详细</em>界面；对于源中没有的软件，点击广告将会跳转到软件的下载安装网页，请您根据网页提示手动安装。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-software-center.page:41
+msgid "<em>推荐软件</em>：向新装系统用户推荐的“装机必备”软件。每款推荐软件都有当前安装状态显示，已经安装的软件会显示<gui>已安装</gui>，还未安装的软件会显示<em>安装</em>，系统识别到的已安装软件则会显示<em>启动</em>。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-software-center.page:45
+msgid "<em>排行榜</em>：根据<gui>下载排行</gui>、<gui>评分排行</gui>等排序方式显示排名靠前的软件。<gui>下载排行</gui>按照软件用户下载量从高到低排序，<gui>评分排行</gui>按照用户评分从高到低排序。点击排行榜中的软件名将会跳转到<em>软件详情</em>界面。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-software-center.page:49
+msgid "<em>软件分类</em>：分类列出所有软件。点击分类跳转到对应分类的<em>软件列表</em>。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-software-center.page:53
+msgid "<em>软件详情</em>：软件详细信息。包括当前版本、可用最新版本、软件大小、软件评分、软件详细介绍、软件截图、用户评论等。在软件评分下方有<gui>安装</gui>、<gui>升级</gui>、<gui>卸载</gui>三个按钮，按钮为灰色时表示功能不可用。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-software-center.page:57
+msgid "<em>软件列表</em>：当前软件类别下所有软件的列表。显示软件名及简介，软件的当前安装状态、安装版本及可用的最新版本，点击某个软件之后进入<em>软件详情</em>界面。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-software-center.page:61
+msgid "<em>进度列表</em>：软件安装、升级的进度。软件安装进度分为<gui>下载进行中</gui>、<gui>安装进行中</gui>等状态，右侧还有一个停止按钮，点击将会<em>停止安装操作</em>，进入<gui>安装进行中</gui>状态之后无法停止。"
+msgstr ""
+
+#. (itstool) path: list/title
+#: C/uk-software-center.page:69
+msgid "使用操作"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-software-center.page:71
+msgid "<em>搜索</em>：在软件中心右上角的搜索栏中输入搜索关键字，按 <key>Enter</key> 键显示包含对应关键字的<em>软件列表</em>。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-software-center.page:75
+msgid "<em>安装</em>：在<em>软件详情</em>或<em>软件列表</em>页面点击<em>安装</em>按钮，会弹出授权窗口，输入管理员密码后开始安装，软件安装进度可在<em>进度列表</em>下查看。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-software-center.page:79
+msgid "<em>升级</em>：在<em>软件详情</em>或<em>软件列表</em>页面点击<em>升级</em>按钮，会弹出授权窗口，输入管理员密码后开始升级，软件升级进度可在<em>进度列表</em>下查看。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-software-center.page:83
+msgid "<em>卸载</em>：在<em>软件详情</em>或<em>软件列表</em>页面点击<em>卸载</em>按钮，会弹出授权窗口，输入管理员密码后开始卸载，软件卸载进度可在<em>进度列表</em>下查看。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-software-center.page:87
+msgid "<em>停止安装</em>：点击安装按钮后，如果想停止安装，可进入<em>进度列表</em>界面，点击进度条后的小红叉停止对应软件的安装。注意：只有在软件还在<gui>下载进行中</gui>的状态时才能停止，进入到<gui>安装进行中</gui>状态后无法停止安装。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-software-center.page:91
+msgid "<em>前进 &amp; 后退</em>：在软件中心面板上方有 <gui>&lt;</gui> 和 <gui>&gt;</gui> 按钮，分别是前进和后退功能：点击 <gui>&lt;</gui> 按钮返回上一个界面，点击 <gui>&gt;</gui> 按钮跳转到下一个界面。"
+msgstr ""
+
+#. (itstool) path: info/title
+#: C/uk-weather.page:8
+msgctxt "link:trail"
+msgid "天气预报"
+msgstr ""
+
+#. (itstool) path: info/desc
+#: C/uk-weather.page:10
+msgid "来自中国气象局的天气预报信息。"
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/uk-weather.page:24
+msgid "天气预报"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/uk-weather.page:26
+msgid "<app>天气预报</app>提供来自中国气象局的天气预报信息，为用户日常起居和旅行提供参考。"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/uk-weather.page:29
+msgid "软件已预装在 Ubuntu Kylin 系统中，如果被卸载，您可以重新 <link href=\"apt:indicator-china-weather\">安装</link>。"
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/uk-weather.page:35
+msgid "查看天气"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/uk-weather.page:36
+msgid "点击桌面右上角的天气预报图标后会出现下拉菜单，分为两部分：上半部分显示当前气象信息；下半部分为应用项。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-weather.page:39
+msgid "<em>当前气象信息</em>：可以查看的天气信息有<gui>当前天气</gui>、<gui>当前气温</gui>、<gui>湿度</gui>、<gui>风向</gui>、<gui>风力</gui>、<gui>发布时间</gui>、<gui>PM2.5</gui>、<gui>地点</gui>等。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-weather.page:43
+msgid "<em>六天天气预报</em>：为您提供当前城市未来六天的天气情况。"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/uk-weather.page:48
+msgid "根据设定的时间，<app>天气预报</app> 会自动更新。也可以手动更新，只需要点击 <gui>更新</gui> 选项 ，气象信息就会自动刷新。同时会在 <gui>更新</gui> 旁边显示最后一次更新的时间。"
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/uk-weather.page:52
+msgid "配置"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/uk-weather.page:53
+msgid "可以在 <gui>常规</gui> 和 <gui>地点</gui> 两个界面进行配置。"
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/uk-weather.page:55
+msgid "常规"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/uk-weather.page:57
+msgid "<gui>常规</gui> 分为 <gui>可变配置</gui> 和 <gui>固定配置</gui> 两项内容。"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/uk-weather.page:61
+msgid "<gui>可变配置</gui>："
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-weather.page:66
+msgid "<gui>图标旁显示温度</gui>，勾选后可以在天气图标旁边同步显示温度；"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-weather.page:70
+msgid "<gui>更新时间</gui>，默认为 60 分钟更新一次，也可以根据需要自行配置。"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/uk-weather.page:76
+msgid "<gui>固定配置</gui>："
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/uk-weather.page:79
+msgid "介绍配置信息的标准单位以及数据来源。"
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/uk-weather.page:88
+msgid "地点"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/uk-weather.page:90
+msgid "内置了国内城市列表，输入城市拼音或者文字进行 <gui>查找</gui> 。通过 <gui>添加</gui>和 <gui>删除</gui> 按钮向城市列表中添加和删除城市，支持添加多城市，在选择城市后点击 <gui>确定</gui> 按钮可以切换 <app>天气预报</app> 所使用城市。"
+msgstr ""
+
+#. (itstool) path: info/title
+#: C/uk-wps.page:8
+msgctxt "link:trail"
+msgid "WPS 办公套件"
+msgstr ""
+
+#. (itstool) path: info/desc
+#: C/uk-wps.page:10
+msgid "<link xref=\"uk-wps-writer\">WPS 文字</link>， <link xref=\"uk-wps-spreadsheets\">WPS 表格</link>， <link xref=\"uk-wps-presentations\">WPS 演示</link>..."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/uk-wps.page:26
+msgid "WPS 办公套件"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/uk-wps.page:28
+msgid "<app>WPS</app> 文字处理系统是一款集成了文字、表格、演示、网页浏览、图片浏览等功能的办公软件套件，提供免费的在线存储空间及文档模板，支持阅读和输出 pdf 文件，全面兼容微软 Office 97-2013 格式。"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/uk-wps.page:32
+msgid "<app>WPS 办公套件</app> 可免费使用，但默认情况下没有包含在 Ubuntu Kylin 发行版中，请 <link href=\"apt:wps-office\">安装</link> 以开始使用。"
+msgstr ""
+
+#. (itstool) path: info/desc
+#: C/uk-wps-presentations.page:7
+msgid "幻灯片制作和演示。"
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/uk-wps-presentations.page:19
+msgid "WPS 演示"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/uk-wps-presentations.page:20
+msgid "<app>WPS 演示</app> 是制作和演示幻灯片的软件。能够制作出集文字、图形、图像、声音以及视频剪辑等多媒体元素于一体的演示文稿，把您所要表达的信息组织在一组图文并茂的画面中，用于介绍公司的产品、展示自己的学术成果。不仅在投影仪或者计算机上能进行演示，也可以将演示文稿打印出来，制作成胶片，以便应用到更广泛的领域中。"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/uk-wps-presentations.page:21
+msgid "<app>WPS 演示</app> 分为 7 大模块，分别为：<gui>开始</gui>、<gui>插入</gui>、<gui>设计</gui>、<gui>动画</gui>、<gui>幻灯片放映</gui>、<gui>审阅</gui>、<gui>视图</gui>。"
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/uk-wps-presentations.page:24
+#: C/uk-wps-spreadsheets.page:24
+#: C/uk-wps-writer.page:24
+msgid "功能"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-wps-presentations.page:26
+msgid "<gui>开始</gui> 菜单中提供了对幻灯片进行编辑、格式设置、插入、播放等最常用的功能。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-wps-presentations.page:30
+msgid "<gui>插入</gui> 菜单中提供了在幻灯片中插入图片、表格、页眉和页脚等美化文档的相关设置。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-wps-presentations.page:34
+msgid "<gui>设计</gui> 菜单中提供了在幻灯片中使用设计模板、颜色方案、幻灯片版式、背景等功能。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-wps-presentations.page:38
+msgid "<gui>动画</gui> 菜单中提供了在幻灯片内容的动画方案、切换效果、预览等功能。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-wps-presentations.page:42
+msgid "<gui>幻灯片放映</gui> 菜单中提供幻灯片的放映方式、切换方式。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-wps-presentations.page:46
+msgid "<gui>审阅</gui> 菜单中提供对幻灯片内容进行检查、修订等功能。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-wps-presentations.page:50
+msgid "<gui>视图</gui> 菜单中提供了对幻灯片显示方式的设置。"
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/uk-wps-presentations.page:58
+msgid "有关<app> WPS 演示</app> 使用的其他资源和信息"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-wps-presentations.page:60
+#: C/uk-wps-spreadsheets.page:65
+#: C/uk-wps-writer.page:55
+msgid "请参考<link href=\"http://office.wps.cn/\"> OFFICE 学院 </link>。"
+msgstr ""
+
+#. (itstool) path: info/desc
+#: C/uk-wps-spreadsheets.page:7
+msgid "数据处理、统计分析和辅助决策。"
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/uk-wps-spreadsheets.page:19
+msgid "WPS 表格"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/uk-wps-spreadsheets.page:20
+msgid "<app>WPS 表格</app> 可以进行各种数据的处理、统计分析和辅助决策操作。"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/uk-wps-spreadsheets.page:21
+msgid "<app>WPS 表格</app> 分为 8 大模块，分别为：<gui>开始</gui>、<gui>插入</gui>、<gui>页面布局</gui>、<gui>公式</gui>、<gui>数据</gui>、<gui>表格样式</gui>、<gui>审阅</gui>、<gui>视图</gui>。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-wps-spreadsheets.page:26
+msgid "<gui>开始</gui> 菜单中提供了对表格进行编辑、格式设置、排序、筛选、自动求和等最常用的功能。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-wps-spreadsheets.page:30
+msgid "<gui>插入</gui> 菜单中提供了在表格中插入图片、数据透视表、页眉和页脚、超链接等美化表格的相关设置。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-wps-spreadsheets.page:34
+msgid "<gui>页面布局</gui> 菜单中提供了对表格的纸张方向、打印区域设置等功能。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-wps-spreadsheets.page:38
+msgid "<gui>公式</gui> 菜单中提供了常用函数、财务、逻辑、文本、数学函数等公式，使得数据运算更加方便。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-wps-spreadsheets.page:42
+msgid "<gui>数据</gui> 菜单中提供了对数据进行分类、模拟、组织、筛选等功能。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-wps-spreadsheets.page:46
+msgid "<gui>表格样式</gui> 菜单中提供了多种样式，轻松的做到一键美化。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-wps-spreadsheets.page:50
+msgid "<gui>审阅</gui> 菜单中提供了对表格数据进行检查、修订、保护等功能。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-wps-spreadsheets.page:54
+msgid "<gui>视图</gui> 菜单中提供了对表格数据显示样式的设置。"
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/uk-wps-spreadsheets.page:63
+msgid "有关<app> WPS 表格</app>使用的其他资源和信息"
+msgstr ""
+
+#. (itstool) path: info/desc
+#: C/uk-wps-writer.page:7
+msgid "文字编辑和排版。"
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/uk-wps-writer.page:19
+msgid "WPS 文字"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/uk-wps-writer.page:20
+msgid "<app>WPS 文字</app> 是 WPS 办公套装软件的一个重要的组成部分，可对文字进行编辑、格式化、排版与打印。"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/uk-wps-writer.page:21
+msgid "<app>WPS 文字</app> 包含 7 个功能模块，分别为：<gui>开始</gui>、<gui>插入</gui>、<gui>页面布局</gui>、<gui>引用</gui>、<gui>审阅</gui>、<gui>视图</gui>、<gui>章节</gui>。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-wps-writer.page:26
+msgid "<gui>开始</gui> 菜单中提供了对文档进行编辑、格式设置等最常用的功能。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-wps-writer.page:30
+msgid "<gui>插入</gui> 菜单中提供了在文档中插入图片、表格、页眉和页脚等美化文档的相关设置。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-wps-writer.page:33
+msgid "<gui>页面布局</gui> 菜单中提供了对文档内容的文字方向、分栏、文字环绕等功能。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-wps-writer.page:36
+msgid "<gui>引用</gui> 菜单中提供了对文档的目录级别、脚注尾注等进行设置。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-wps-writer.page:39
+msgid "<gui>审阅</gui> 菜单中提供了对文档内容的修订功能，审阅者可以直接在文档上进行修改。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-wps-writer.page:42
+msgid "<gui>视图</gui> 菜单中提供了文档显示方式的设置。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-wps-writer.page:45
+msgid "<gui>章节</gui> 菜单中提供了对文档封面、章节、目录、导航等内容进行设置。"
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/uk-wps-writer.page:53
+msgid "有关<app> WPS 文字</app> 使用的其他资源和信息"
+msgstr ""
+
+#. (itstool) path: info/title
+#: C/uk-youker-assistant.page:9
+msgctxt "link:trail"
+msgid "优客助手"
+msgstr ""
+
+#. (itstool) path: info/desc
+#: C/uk-youker-assistant.page:11
+msgid "<link xref=\"uk-youker-home\">首页</link>， <link xref=\"uk-youker-info\">系统信息</link>， <link xref=\"uk-youker-clean\">系统清理</link>， <link xref=\"uk-youker-personalize\">系统美化</link>， <link xref=\"uk-youker-tool\">功能大全</link>， <link xref=\"uk-youker-ball\">监控球</link>…"
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/uk-youker-assistant.page:30
+msgid "优客助手"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/uk-youker-assistant.page:32
+msgid "<app>优客助手</app> 是专为 Ubuntu/Ubuntu Kylin 用户打造的“系统级管理与配置工具”。基于 Qt/QML、Python 实现，可以查看系统的详细硬件信息、清理系统中残留的垃圾以及配置个性化的系统。让您的桌面更加流畅、易用而富有个性。"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/uk-youker-assistant.page:35
+msgid "<app>优客助手</app> 默认集成在Ubuntu Kylin系统中，如果被卸载，请点击 <link href=\"apt:youker-assistant\">安装</link> 以开始使用。"
+msgstr ""
+
+#. (itstool) path: list/title
+#: C/uk-youker-assistant.page:66
+msgid "帮助与反馈"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-youker-assistant.page:68
+msgid "当您在使用过程中遇到困难时，可以点击 <app>优客助手</app> 首页右下角的 <gui>论坛求助</gui>，获得优客们的帮助。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-youker-assistant.page:72
+msgid "如果您对软件本身有任何建议，可以点击首页右下角的 <gui>问题反馈</gui>。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-youker-assistant.page:76
+msgid "还可通过点击首页右下角的 <gui>新版本特性</gui> 查看当前版本所更新的内容。"
+msgstr ""
+
+#. (itstool) path: info/title
+#: C/uk-youker-ball.page:9
+msgctxt "link:trail"
+msgid "监控球"
+msgstr ""
+
+#. (itstool) path: info/desc
+#: C/uk-youker-ball.page:11
+msgid "实时监控系统内存和 CPU 使用情况。"
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/uk-youker-ball.page:25
+msgid "监控球"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/uk-youker-ball.page:26
+msgid "实时监控系统内存以及 CPU 使用情况，分为缩略显示界面和详细显示界面。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-youker-ball.page:30
+msgid "打开 <app>优客助手</app> 之后，<app>监控球</app> 将以缩略界面显示在桌面右上方，包括上传速度、下载速度和内存占用率等信息。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-youker-ball.page:34
+msgid "双击 <app>监控球</app> 缩略界面将打开详细界面，有 <gui>一键加速</gui> 和 <gui>详细</gui> 按钮。点击 <gui>一键加速</gui> 按钮将清理内存空间；点击 <gui>详细</gui> 按钮将显示 CPU 占有率、内存占有率等信息。再次双击 <app>监控球</app> 缩略界面关闭详细信息。"
+msgstr ""
+
+#. (itstool) path: info/title
+#: C/uk-youker-clean.page:9
+msgctxt "link:trail"
+msgid "系统清理"
+msgstr ""
+
+#. (itstool) path: info/desc
+#: C/uk-youker-clean.page:11
+msgid "针对性的对系统垃圾进行清理，让系统运行更有效率。"
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/uk-youker-clean.page:25
+msgid "系统清理"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/uk-youker-clean.page:26
+msgid "不同于 <gui>首页</gui> 的 <gui>一键清理</gui>，<gui>系统清理</gui> 提供更为详尽的清理方式，可以有针对性的对系统垃圾进行清理，帮助您节约磁盘空间，让系统运行更有效率。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-youker-clean.page:33
+msgid "<em>缓存清理</em>：清理系统中的缓存文件。点击 <gui>开始扫描</gui> 按钮之后，程序会根据勾选的选项扫描缓存文件，并以列表的形式展示扫描结果，请点击 <gui>开始清理</gui> 删除选中的缓存文件。其中 <gui>包缓存</gui> 是在安装软件时下载至本地的软件包；<gui>软件中心缓存</gui> 是 <app>软件中心</app> 为加快启动速度缓存在本地的图片文件；<gui>缩略图缓存</gui> 是查看图片后产生的文件。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-youker-clean.page:37
+msgid "<em>包卸载</em>：清理不再需要但仍然残留在系统中的依赖包。点击 <gui>开始扫描</gui> 按钮之后，程序会根据勾选的选项扫描软件包，并以列表的形式展示扫描结果。点击 <gui>开始清理</gui> 会弹出密码框，输入密码之后程序会自动卸载选中的软件包。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-youker-clean.page:41
+msgid "<em>Cookies 清理</em>：清理 Cookies。点击 <gui>开始扫描</gui> 按钮之后，程序会根据勾选的选项扫描 Cookies，并以列表的形式展示扫描结果。点击 <gui>开始清理</gui> 删除选中的 Cookies。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-youker-clean.page:45
+msgid "<em>浏览器清理</em>：清理浏览器缓冲。点击 <gui>开始扫描</gui> 按钮之后，程序会根据勾选的选项扫描浏览器产生的垃圾文件，并以列表的形式展示扫描结果。点击 <gui>开始清理</gui> 删除选中的文件或目录。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-youker-clean.page:49
+msgid "<em>痕迹清理</em>：清理系统使用痕迹。点击 <gui>开始扫描</gui> 按钮之后，程序会显示您所有的访问记录总数，点击 <gui>开始清理</gui> 按钮清空历史记录。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-youker-clean.page:53
+msgid "<em>查找大文件</em>：查找并清理系统中的大文件。按 <gui>浏览</gui> 按钮选择要扫描的目录，并指定文件大小，程序会在所选目录搜索大于该值的文件，并按照从大到小的顺序列出。请根据需要选择要清理的大文件。"
+msgstr ""
+
+#. (itstool) path: info/title
+#: C/uk-youker-home.page:9
+msgctxt "link:trail"
+msgid "首页"
+msgstr ""
+
+#. (itstool) path: info/desc
+#: C/uk-youker-home.page:11
+msgid "一键清理系统垃圾、帮助您节省磁盘空间，让系统运行更有效率。"
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/uk-youker-home.page:25
+msgid "优客助手首页"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/uk-youker-home.page:26
+msgid "一键清理、登录、天气预报、常用配置工具等信息。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-youker-home.page:33
+msgid "<em>一键清理 </em>：清理系统垃圾的便捷方式。通过勾选或者取消勾选来选择需要清理的选项，默认情况下是全部勾选的。<gui>一键清理</gui> 功能需要管理员权限，点击 时会弹出管理员密码输入框，输入正确后密码之后将进行清理操作。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-youker-home.page:37
+msgid "<em>登录帐号</em>：如果您已经拥有 Ubuntu Kylin 论坛的帐号，可以直接使用该帐号进行登录，否则需要进行注册。登录后保持在线可以获得积分，不同积分对应不同的等级，另外执行每日任务可以额外增加积分。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-youker-home.page:41
+msgid "<em>天气预报</em>：展示当前的天气、温度、湿度以及风速等信息。 <gui>更换城市</gui> 可以切换列表中的城市，如需添加城市请点击 <gui>配置</gui>。 <gui>预报</gui> 中提供了未来六天的天气情况。 <gui>配置</gui> 页面可以更改更新周期、添加/删除城市或查看数据来源。 点击 <gui>更新</gui> 按钮可强制更新天气信息。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-youker-home.page:49
+msgid "<em>常用配置工具</em>：列出了一些经常用到的工具，更多信息见 <link xref=\"uk-youker-personalize\">系统美化</link>。"
+msgstr ""
+
+#. (itstool) path: info/title
+#: C/uk-youker-info.page:9
+msgctxt "link:trail"
+msgid "系统信息"
+msgstr ""
+
+#. (itstool) path: info/desc
+#: C/uk-youker-info.page:11
+msgid "展示计算机硬件、桌面和用户信息。"
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/uk-youker-info.page:25
+msgid "系统信息"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/uk-youker-info.page:26
+msgid "<gui>系统信息</gui> 向您展示当前计算机的详细硬件、桌面及用户信息。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-youker-info.page:30
+msgid "<em>电脑基本信息</em>：主要包括制造商、电脑型号、电脑版本、序列号、主机名、持续运行时间、操作系统类型、操作系统版本、系统位数、内核版本、内核架构等信息。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-youker-info.page:34
+msgid "<em>桌面信息</em>：主要包括桌面环境、发行版、语言、当前用户、用户主目录等信息。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-youker-info.page:38
+msgid "<em>处理器信息</em>：主要包括处理器、制造商、序列号、插座/插槽、最大主频、当前主频、前端总线、核心数目、一级缓存、二级缓存等信息。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-youker-info.page:42
+msgid "<em>内存条信息</em>：主要包括插槽号、内存型号、制造商、序列号、内存大小、数据宽度、内存条等信息。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-youker-info.page:46
+msgid "<em>硬盘信息</em>：主要包括主板型号、主板产商、序列号、BIOS 产商、BIOS 版本、发布日期等信息。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-youker-info.page:50
+msgid "<em>硬盘信息</em>：主要包括硬盘型号、硬盘厂商、硬盘容量、设备名称、固件版本、序列号等信息。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-youker-info.page:54
+msgid "<em>有线网卡信息 </em>：主要包括制造商、有线网卡驱动、总线地址、设备名称、IP 地址、MAC 地址、连接状态、最大带宽等信息。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-youker-info.page:58
+msgid "<em>无线网卡信息</em>：主要包括网卡型号、制造商、无线网卡驱动、总线地址等信息。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-youker-info.page:62
+msgid "<em>显卡信息</em>：主要包括显卡型号、当前显卡、显卡制造商、显卡驱动、总线地址等信息。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-youker-info.page:66
+msgid "<em>音频信息 </em>：主要包括声卡型号、制造商、总线地址、声卡驱动等信息。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-youker-info.page:70
+msgid "<em>设备驱动信息 </em>：主要包括 VGA 兼容控制器、通信控制器、以太网控制器、USB 控制器、声卡型号、PCI 桥、USB 控制器、ISA 桥、SATA 控制器、系统管理总线、信号处理控制器、网络控制器、主桥等信息。"
+msgstr ""
+
+#. (itstool) path: info/title
+#: C/uk-youker-personalize.page:9
+msgctxt "link:trail"
+msgid "系统美化"
+msgstr ""
+
+#. (itstool) path: info/desc
+#: C/uk-youker-personalize.page:11
+msgid "根据个人喜好对系统进行全方位的定制。"
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/uk-youker-personalize.page:25
+msgid "系统美化"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/uk-youker-personalize.page:26
+msgid "在 <gui>系统美化</gui> 页面可以从 <gui>个性化</gui>、<gui>桌面</gui>、<gui>字体</gui>、<gui>系统选项</gui>、<gui>杂项</gui> 等几个方面对系统进行定制。"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/uk-youker-personalize.page:27
+msgid "详细内容包含 <gui>主题设置</gui>、<gui>图标配置</gui>、<gui>鼠标指针</gui>、<gui>声音效果</gui>、<gui>开机动画</gui>、<gui>自定义启动器</gui>、<gui>窗口</gui>、<gui>默认字体设置</gui>、<gui>触摸板设置</gui>、<gui>坏点检测</gui> 以及 <gui>文件管理器</gui>，请点击对应的选项进入设置界面。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-youker-personalize.page:36
+msgid "<em>主题设置</em>： 提供 4 种窗口主题，分别为 “ubuntukylin-theme”、“Ambiance”、“HighContrast”、“Radiance”。窗口主题被选中之后立即生效。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-youker-personalize.page:40
+msgid "<em>图标配置</em>：对 <gui>图标主题设置</gui> 和 <gui>桌面图标显示控制</gui> 的相关选项进行配置。<gui>图标主题设置</gui> 可以通过下拉列表选择主题，选择后，立即生效。点击 <gui>桌面图标显示控制</gui> 中对应栏目的开关按钮可以切换图标的 <gui>已启用</gui> 或 <gui>已禁用</gui> 状态。<gui>恢复默认</gui> 按钮可以将主题及桌面图标恢复为系统默认状态。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-youker-personalize.page:44
+msgid "<em>鼠标指针</em>：设置鼠标指针的主题和大小，选择后立即生效。点击 <gui>恢复默认</gui> 按钮恢复系统默认设置。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-youker-personalize.page:48
+msgid "<em>声音效果</em>：设置声音的主题、系统事件提示音，如：开机登录音乐，按钮点击声音等。点击 <gui>试听</gui> 播放当前对应事件的音乐；点击 <gui>替换</gui> 自动替换对应事件的音乐；点击 <gui>恢复默认</gui> 按钮恢复系统默认设置。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-youker-personalize.page:52
+msgid "<em>开机动画</em>：首先通过点击 <gui>自定义图片</gui> 按钮选择图片，对应图片名称将出现在右侧的可选开机动画列表中，请选择需要设置的开机动画，然后点击 <gui>确定</gui> 按钮，开机动画将会在下次启动时生效。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-youker-personalize.page:56
+msgid "<em>定义启动器</em>：设置桌面左边 <app>启动器</app> 中图标的尺寸以及 <app>启动器</app> 是否自动隐藏。启动器图标尺寸可以拖动滑动条进行设置，设置完成后点击 <gui>确定</gui> 生效。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-youker-personalize.page:61
+msgid "<em>默认字体设置</em>：对默认字体、桌面字体、等宽字体、文档字体以及标题栏字体进行设置。首先点击当前字体，在打开的 <gui>更换字体</gui> 窗口中选择要更改的字体，选择 <gui>确定</gui> 使字体立即生效。点击 <gui>恢复默认</gui> 按钮可将字体恢复到更改设置之前的状态。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-youker-personalize.page:65
+msgid "<em>触摸板设置</em>：开启、关闭触摸板或设置滚动条。其中 <gui>滚动条类型</gui> 设置是对系统滚动条的外型进行设置；<gui>触摸板滚动触发方式</gui> 是在触摸板上触发滚动条的方式。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-youker-personalize.page:69
+msgid "<em>坏点检测</em>：通过多个纯色界面来帮助检查电脑屏幕是否存在颜色不对的坏点。进入检测后，单击鼠标左键切换纯色界面；单击鼠标右键退出检测。"
+msgstr ""
+
+#. (itstool) path: C/uk-youker-personalize.page/page
+#: C/uk-youker-personalize.page:4
+msgid "<_:info-1/> <_:title-2/> <_:p-3/> <_:p-4/> :w <_:list-5/>"
+msgstr ""
+
+#. (itstool) path: info/title
+#: C/uk-youker-tool.page:9
+msgctxt "link:trail"
+msgid "功能大全"
+msgstr ""
+
+#. (itstool) path: info/desc
+#: C/uk-youker-tool.page:11
+msgid "常用系统配置工具，让系统使用起来更加顺畅。"
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/uk-youker-tool.page:25
+msgid "功能大全"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/uk-youker-tool.page:26
+msgid "在 <gui>功能大全</gui> 页面的 <gui>默认工具箱</gui> 中提供了一些实用小工具：<gui>坏点检测</gui>、<gui>开机动画</gui>、<gui>输入法配置</gui>、<gui>任务管理器</gui>。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-youker-tool.page:33
+msgid "<em>输入法配置</em>：分为 <gui>当前输入法列表 </gui>、<gui>个性化配置</gui> 和 <gui>外观配置</gui>。<gui>当前输入法列表</gui> 界面包含输入法语言的添加、删除及输入法切换的快捷键设置。通过向左或向右按钮添加或删除输入法，通过向上和向下按钮调整输入法的优先级。<gui>个性化配置</gui>界面，根据个人习惯进行全局配置，主要包括 <gui>显示设置</gui> 和 <gui>快捷键</gui>。其中 <gui>显示设置</gui> 中可以设置候选词列表和候选词个数；<gui>快捷键</gui> 可以设置切换输入法和上下翻页的快捷键。<gui>外观配置</gui> 界面包含皮肤设置和更换字体设置，可以对皮肤、字体、字体大小进行设置。点击 <gui>应用</gui> 之后设置生效；点击 <gui>取消</gui> 按钮或 <gui>返回主页</gui> 按钮将取消全部设置。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/uk-youker-tool.page:37
+msgid "<em>任务管理器</em>：显示当前系统中的进程，每一行代表一个进程，从左至右描述信息依次为：<gui>用户</gui>、<gui> ID </gui>、<gui> CPU占用 %</gui>、<gui>内存占用 %</gui>、<gui>启动时间</gui>、<gui>进程说明</gui>以及 <gui>进程名</gui>。默认显示当前用户的进程，选择进程信息上方的 <gui>所有用户</gui> 可以显示系统中所有用户的进程信息。点击 <gui>刷新</gui> 按钮将重新扫描系统中的进程信息；如需结束某个进程时，请选中进程并点击 <gui>结束进程</gui> 按钮，其中管理员进程会要求需要输入密码。"
+msgstr ""
+
+#. (itstool) path: note/p
+#: C/uk-youker-tool.page:44
+msgid "<gui>坏点检测</gui> 和 <gui>开机动画</gui> 的使用方法参见 <link xref=\"uk-youker-personalize\">系统美化</link>。"
+msgstr ""
+
 #. (itstool) path: info/desc
 #: C/unity-dash-apps.page:8
 msgid "Run, install, or uninstall apps."
@@ -15138,22 +16452,32 @@ msgid "A visual introduction to the Unity desktop."
 msgstr ""
 
 #. (itstool) path: page/title
-#: C/unity-introduction.page:25
-msgid "Welcome to Ubuntu"
+#: C/unity-introduction.page:30
+msgid "欢迎使用 Ubuntu Kylin"
 msgstr ""
 
 #. (itstool) path: page/p
-#: C/unity-introduction.page:27
-msgid "Ubuntu features <em>Unity</em>, a reimagined way to use your computer. Unity is designed to minimize distractions, give you more room to work, and help you get things done."
+#: C/unity-introduction.page:32
+msgid "Ubuntu Kylin 是由中国 CCN 联合实验室支持和主导的开源项目，其宗旨是采用平台国际化与应用本地化融合的设计理念，通过定制本地化的桌面用户环境以及开发满足广大中文用户特定需求的应用软件来提供细腻的中文用户体验，做更有中国特色的操作系统。"
 msgstr ""
 
 #. (itstool) path: page/p
-#: C/unity-introduction.page:31
+#: C/unity-introduction.page:33
+msgid "Ubuntu Kylin 以 Ubuntu 为参考，得到来自 Debian、Ubuntu、LUPA 及各地 Linux 用户组等国内外众多社区爱好者的广泛参与和热情支持，其开发贡献者可参见 <link href=\"http://launchpad.net/~ubuntukylin-members/+members#active\">Ubuntu Kylin 开发者团队列表</link>。"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/unity-introduction.page:35
+msgid "Ubuntu/Ubuntu Kylin 使用 <em>Unity</em>，一种使用电脑的全新方式。Unity 的设计原则是消除多余的界面元素，最大化操作区域，帮助您高效完成工作。"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/unity-introduction.page:37
 msgid "This guide is designed to answer your questions about using Unity and your Ubuntu desktop. First we will take a moment to look at some of Unity's key features, and how you can use them."
 msgstr ""
 
 #. (itstool) path: section/title
-#: C/unity-introduction.page:35
+#: C/unity-introduction.page:41
 msgid "Getting started with Unity"
 msgstr ""
 
@@ -15162,20 +16486,20 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/unity-introduction.page:37
+#: C/unity-introduction.page:43
 msgctxt "_"
 msgid "external ref='figures/unity-overview.png' md5='e6639b68b89c315005e0fc6099f56ace'"
 msgstr ""
 
 #. (itstool) path: media/p
-#: C/unity-introduction.page:38
+#: C/unity-introduction.page:44
 msgid "The Unity desktop"
 msgstr ""
 
 #. (itstool) path: section/title
 #. (itstool) path: media/p
-#: C/unity-introduction.page:42
-#: C/unity-introduction.page:46
+#: C/unity-introduction.page:48
+#: C/unity-introduction.page:52
 msgid "The Launcher"
 msgstr ""
 
@@ -15184,28 +16508,28 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/unity-introduction.page:45
+#: C/unity-introduction.page:51
 msgctxt "_"
 msgid "external ref='figures/unity-launcher.png' md5='698a6f3411b2531101072d21bd765b87'"
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/unity-introduction.page:49
+#: C/unity-introduction.page:55
 msgid "The <gui>Launcher</gui> appears automatically when you log in to your desktop, and gives you quick access to the applications you use most often."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/unity-introduction.page:56
+#: C/unity-introduction.page:62
 msgid "<link xref=\"unity-launcher-intro\">Learn more about the Launcher.</link>"
 msgstr ""
 
 #. (itstool) path: section/title
-#: C/unity-introduction.page:62
+#: C/unity-introduction.page:68
 msgid "The Dash"
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/unity-introduction.page:64
+#: C/unity-introduction.page:70
 msgid "The <gui>Ubuntu Button</gui> sits near the top left corner of the screen and is always the top item in the Launcher. If you click the <gui>Ubuntu Button</gui>, Unity will present you with an additional feature of the desktop, the <gui>Dash</gui>."
 msgstr ""
 
@@ -15214,23 +16538,23 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/unity-introduction.page:69
+#: C/unity-introduction.page:75
 msgctxt "_"
 msgid "external ref='figures/unity-dash.png' md5='662f7cff94c799b528db7a9b8e0e8512'"
 msgstr ""
 
 #. (itstool) path: media/p
-#: C/unity-introduction.page:70
+#: C/unity-introduction.page:76
 msgid "The Unity Dash"
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/unity-introduction.page:73
+#: C/unity-introduction.page:79
 msgid "The <em>Dash</em> is designed to make it easier to find, open, and use applications, files, music, and more. For example, if you type the word \"document\" into the <em>Search Bar</em>, the Dash will show you applications that help you write and edit documents. It will also show you relevant folders and documents that you have been working on recently."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/unity-introduction.page:80
+#: C/unity-introduction.page:86
 msgid "<link xref=\"unity-dash-intro\">Learn more about the Dash.</link>"
 msgstr ""
 
@@ -16804,5 +18128,100 @@ msgstr ""
 #. (itstool) path: page/p
 #: C/windows-key.page:36
 msgid "The Super key can help you do even more than that, though. To learn about more uses for the <em>Super</em> key, see the <link xref=\"shell-keyboard-shortcuts\">keyboard shortcuts</link> page."
+msgstr ""
+
+#. (itstool) path: info/desc
+#: C/whats-new.page:9
+msgid "Ubuntu Kylin 版本的新特性。"
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/whats-new.page:24
+msgid "Ubuntu Kylin 16.04 有哪些新特性？"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/whats-new.page:26
+msgid "Ubuntu Kylin 是基于 Ubuntu 的中文开源操作系统，目标是创建更适合中文用户的 Linux 发行版，并将成果反馈到全球用户。Ubuntu Kylin 底层基于 Linux 内核，上层共享 Ubuntu 众多特性，并针对中文用户需求，在 SDK、UI 以及生态应用软件等各方面进行增强。以下是 Ubuntu Kylin 16.04 的一些新特性："
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/whats-new.page:30
+msgid "新特性"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/whats-new.page:34
+msgid "提供了一套更美观、舒适与友好的 UKUI 风格的登录与锁屏界面。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/whats-new.page:38
+msgid "采用了新的扁平化风格的系统图标。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/whats-new.page:42
+msgid "默认将 <gui>Unity 启动器</gui> 移动到屏幕底部。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/whats-new.page:46
+msgid "<app>优麒麟软件中心</app> 在 16.04 中替代 <app>Ubuntu 软件中心</app> 成为默认的软件包管理工具，优化了各类软件安装方式的流程和体验。同时还具备查询用户安装软件的历史，一键安装以前安装的软件等功能。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/whats-new.page:50
+msgid "<app>优客助手</app> 对各功能进行优化，增强了流畅性和稳定性。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/whats-new.page:52
+msgid "<app>WPS</app> 版本升级，新增图表、主题及样式、文本对象的 2D 及 3D 效果等功能。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/whats-new.page:54
+msgid "<app>搜狗输入法</app> 更新了最新的 2015 年词库，完善支持繁简切换功能，修复若干细节问题。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/whats-new.page:56
+msgid "默认使用思源字体作为中文字体。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/whats-new.page:58
+msgid "对 <gui>Dash</gui> 的功能进行了增强:"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/whats-new.page:60
+msgid "在 <gui>Dash</gui> 中增加了会话快捷方式（重启，关机等）。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/whats-new.page:62
+msgid "提供了新的滚动条样式。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/whats-new.page:64
+msgid "指示打开的外部存储器或垃圾箱窗口数量。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/whats-new.page:66
+msgid "为<gui>工作区切换器</gui> 新增了快捷菜单。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/whats-new.page:68
+msgid "在可移动设备的快捷菜单中加入了格式化的选项。"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/whats-new.page:70
+msgid "可以用 <keyseq><key>Alt</key><key>{num}</key></keyseq> 打开 <gui>启动器</gui> 上的外部存储器。"
 msgstr ""
 

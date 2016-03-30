@@ -38,7 +38,7 @@ done
 
 echo "Updating Makefile.am..."
 cp ../ubuntu-kylin-help/Makefile.am ../ubuntu-kylin-help/Makefile.am.old
-sed "s/HELP_LINGUAS = .*$/HELP_LINGUAS =$POLANGS/" ../ubuntu-kylin-help/Makefile.am.old > ../ubuntu-help/Makefile.am
+sed "s/HELP_LINGUAS = .*$/HELP_LINGUAS =$POLANGS/" ../ubuntu-kylin-help/Makefile.am.old > ../ubuntu-kylin-help/Makefile.am
 rm -fr ../ubuntu-kylin-help/Makefile.am.old
 
 echo "Done!"

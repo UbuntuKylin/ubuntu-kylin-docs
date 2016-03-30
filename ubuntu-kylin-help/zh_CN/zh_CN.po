@@ -902,7 +902,7 @@ msgstr "GNOME 文档项目"
 #: C/unity-launcher-intro.page:13 C/unity-menubar-intro.page:15
 #: C/unity-shopping.page:18 C/windows-key.page:14
 msgid "Ubuntu Documentation Team"
-msgstr "Ubuntu 文档团队 & Ubuntu Kylin 文档团队"
+msgstr "Ubuntu/Ubuntu Kylin 文档团队"
 
 #. (itstool) path: info/desc
 #: C/about-this-guide.page:14
@@ -973,7 +973,7 @@ msgstr "感谢您阅读 <em>Ubuntu/Ubuntu Kylin 桌面指南</em>。"
 #. (itstool) path: page/p
 #: C/about-this-guide.page:68
 msgid "-- The Ubuntu Documentation team"
-msgstr "-- Ubuntu 文档团队 & Ubuntu Kylin 文档团队"
+msgstr "-- Ubuntu/Ubuntu Kylin 文档团队"
 
 #. (itstool) path: credit/name
 #: C/accounts.page:10 C/accounts-add.page:15
@@ -12956,7 +12956,7 @@ msgstr ""
 #: C/net-general.page:19 C/net-problem.page:17 C/net-security.page:17
 #: C/net-wired.page:17 C/net-wireless.page:21 C/net-wireless-connect.page:19
 msgid "The Ubuntu Documentation Team"
-msgstr "Ubuntu 文档团队 & Ubuntu Kylin 文档团队"
+msgstr "Ubuntu/Ubuntu Kylin 文档团队"
 
 #. (itstool) path: page/title
 #: C/net-browser.page:24
@@ -14485,7 +14485,7 @@ msgid ""
 "network</link>…"
 msgstr ""
 "<link xref=\"net-wireless-troubleshooting\">解决无线连接问题</link> 和 <link "
-"xref=\"net-wireless-find\">查看 WIFI  网络network</link>…"
+"xref=\"net-wireless-find\">查看 WIFI 网络</link>…"
 
 #. (itstool) path: page/title
 #: C/net-problem.page:22
