@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: gnome-user-docs\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2016-03-18 23:26+0100\n"
-"PO-Revision-Date: 2016-03-30 11:11+0800\n"
+"PO-Revision-Date: 2016-03-31 14:59+0800\n"
 "Last-Translator: Luo Lei <luolei@ubuntukylin.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
@@ -1042,7 +1042,9 @@ msgid ""
 "Adding an account will help link your online accounts with your Ubuntu "
 "desktop. Thus, your email, chat, and other related applications will be set "
 "up for you."
-msgstr "添加账户可以设置将您的电子邮件、聊天工具等在线账户连接到 Ubuntu/Ubuntu Kylin 桌面。"
+msgstr ""
+"添加账户可以设置将您的电子邮件、聊天工具等在线账户连接到 Ubuntu/Ubuntu Kylin "
+"桌面。"
 
 #. (itstool) path: item/p
 #: C/accounts-add.page:47 C/accounts-disable-service.page:50
@@ -1466,7 +1468,7 @@ msgid ""
 "Synaptic is a powerful but complicated software management alternative to "
 "<app>Software</app>."
 msgstr ""
-"新立得是一款可以替代<app>Ubuntu 软件中心</app>的功能强大但非常复杂的软件管理"
+"新立得是一款可以替代 <app>优麒麟软件中心</app> 的功能强大但非常复杂的软件管理"
 "工具。"
 
 #. (itstool) path: page/title
@@ -1483,9 +1485,10 @@ msgid ""
 "features like ratings and reviews and therefore isn't recommended for use by "
 "those new to Ubuntu."
 msgstr ""
-"<app>新立得软件包管理器</app> 功能更为强大，可以执行 <app>Ubuntu 软件中心</"
-"app>无法完成的一些软件包管理任务。新立得的界面更为复杂，不支持较新的"
-"<app>Ubuntu 软件中心</app>功能，如评级和审核，因此不建议 Ubuntu 新手使用。"
+"<app>新立得软件包管理器</app> 功能更为强大，可以执行 <app>优麒麟软件中心</"
+"app> 无法完成的一些软件包管理任务。新立得的界面更为复杂，不支持较新的<app>优"
+"麒麟软件中心</app>功能，如评级和审核，因此不建议 Ubuntu/Ubuntu Kylin 新手使"
+"用。"
 
 #. (itstool) path: page/p
 #: C/addremove-install-synaptic.page:44
@@ -1493,8 +1496,8 @@ msgid ""
 "Synaptic isn't installed by default, but you can <link href=\"apt:synaptic"
 "\">install</link> it with <app>Software</app>."
 msgstr ""
-"默认情况下，Ubuntu 上没有安装新立得，但您可以使用 <app>Ubuntu 软件中心</app> "
-"<link href=\"apt:synaptic\">安装</link>它。"
+"默认情况下，Ubuntu/Ubuntu Kylin 上没有安装新立得，但您可以使用 <app>优麒麟软"
+"件中心</app> <link href=\"apt:synaptic\">安装</link>它。"
 
 #. (itstool) path: section/title
 #: C/addremove-install-synaptic.page:50
@@ -1557,7 +1560,8 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/addremove-install.page:9
 msgid "Use <app>Software</app> to add programs and make Ubuntu more useful."
-msgstr "使用<app>Ubuntu 软件中心</app>添加程序，使 Ubuntu 功能更加实用。"
+msgstr ""
+"使用<app>优麒麟软件中心</app>添加程序，使 Ubuntu/Ubuntu Kylin 功能更加实用。"
 
 #. (itstool) path: page/title
 #: C/addremove-install.page:21
@@ -1571,8 +1575,9 @@ msgid ""
 "think makes Ubuntu very useful for most day-to-day tasks. However, you will "
 "certainly want to install more software to make Ubuntu more useful to you."
 msgstr ""
-"Ubuntu 开发团队选择了一组我们认为会使 Ubuntu 对大多数日常任务都非常有用的默认"
-"应用程序。不过，您肯定想要安装更多软件以使 Ubuntu 对您更有用。"
+"Ubuntu/Ubuntu Kylin 开发团队选择了一组我们认为会使 Ubuntu/Ubuntu Kylin 对大多"
+"数日常任务都非常有用的默认应用程序。不过，您肯定想要安装更多软件以使 Ubuntu/"
+"Ubuntu Kylin 对您更有用。"
 
 #. (itstool) path: page/p
 #: C/addremove-install.page:31
@@ -1595,8 +1600,8 @@ msgid ""
 "Click the <app>Software</app> icon in the <gui>Launcher</gui>, or search for "
 "<input>Software</input> in the <gui>Dash</gui>."
 msgstr ""
-"单击 <gui>启动器</gui>上的 <app>Ubuntu 软件中心</app>，或在 <gui>Dash</gui> "
-"搜索<input>软件中心</input> 。"
+"单击 <gui>启动器</gui>上的 <app>优麒麟软件中心</app>，或在 <gui>Dash</gui> 搜"
+"索<input>软件中心</input> 。"
 
 #. (itstool) path: item/p
 #: C/addremove-install.page:51
@@ -1654,8 +1659,8 @@ msgid ""
 "for Ubuntu users and are easier to install than other third-party "
 "repositories."
 msgstr ""
-"<em>个人软件包仓库(PPA)</em> 是专为 Ubuntu 用户设计的软件仓库，比其他第三方软"
-"件库更易于使用。"
+"<em>个人软件包仓库(PPA)</em> 是专为 Ubuntu/Ubuntu Kylin 用户设计的软件仓库，"
+"比其他第三方软件库更易于使用。"
 
 #. (itstool) path: note/p
 #: C/addremove-ppa.page:29 C/addremove-sources.page:31
@@ -1669,8 +1674,8 @@ msgid ""
 "reliability by Ubuntu members, and may contain software which is harmful to "
 "your computer."
 msgstr ""
-"第三方软件库未经过 Ubuntu 开发者检查安全性和可靠性，可能包含对您的计算机有害"
-"的软件。"
+"第三方软件库未经过 Ubuntu/Ubuntu Kylin 开发者检查安全性和可靠性，可能包含对您"
+"的计算机有害的软件。"
 
 #. (itstool) path: steps/title
 #: C/addremove-ppa.page:40
@@ -1715,8 +1720,8 @@ msgid ""
 "Close the <app>Software &amp; Updates</app> window. <app>Software</app> will "
 "then check your software sources for new software."
 msgstr ""
-"关闭 <app>软件和更新</app> 窗口。<app>Ubuntu 软件中心</app> 将会检查您的软件"
-"源是否有新的更新。"
+"关闭 <app>软件和更新</app> 窗口。<app>优麒麟软件中心</app> 将会检查您的软件源"
+"是否有新的更新。"
 
 #. (itstool) path: info/desc
 #: C/addremove-remove.page:9
@@ -1732,7 +1737,7 @@ msgstr "删除应用程序"
 #: C/addremove-remove.page:21
 msgid ""
 "<app>Software</app> helps you to remove software that you no longer use."
-msgstr "<app>Ubuntu 软件中心</app> 可协助您删除不再使用的软件。"
+msgstr "<app>优麒麟软件中心</app> 可协助您删除不再使用的软件。"
 
 #. (itstool) path: item/p
 #: C/addremove-remove.page:28
@@ -1740,8 +1745,8 @@ msgid ""
 "Click the <app>Software</app> icon in the <gui>Launcher</gui> or search for "
 "<input>Software</input> in the <gui>Dash</gui>."
 msgstr ""
-"单击 <gui>启动器</gui>上的 <app>Ubuntu 软件中心</app>，或在<gui>Dash</gui>搜"
-"索<input>软件中心</input> 。"
+"单击 <gui>启动器</gui>上的 <app>优麒麟软件中心</app>，或在<gui>Dash</gui>搜索"
+"<input>软件中心</input> 。"
 
 #. (itstool) path: item/p
 #: C/addremove-remove.page:35
@@ -1785,7 +1790,7 @@ msgstr ""
 msgid ""
 "Add other repositories to extend the software sources Ubuntu uses for "
 "installation and upgrades."
-msgstr "添加其他软件仓库来扩展 Ubuntu 用于安装和升级的软件来源。"
+msgstr "添加其他软件仓库来扩展 Ubuntu/Ubuntu Kylin 用于安装和升级的软件来源。"
 
 #. (itstool) path: page/title
 #: C/addremove-sources.page:19
@@ -1800,8 +1805,8 @@ msgid ""
 "party software repository, you must add it to Ubuntu's list of available "
 "repositories."
 msgstr ""
-"软件可从第三方来源以及默认 Ubuntu 软件库获得。如果您想要安装来自第三方软件库"
-"的软件，您必须将其添加到 Ubuntu 的可用软件仓库列表。"
+"软件可从第三方来源以及默认 Ubuntu 和 Ubuntu Kylin 软件库获得。如果您想要安装"
+"来自第三方软件库的软件，您必须将其添加到系统的可用软件仓库列表。"
 
 #. (itstool) path: steps/title
 #: C/addremove-sources.page:42
@@ -1814,8 +1819,8 @@ msgid ""
 "Click on the <app>Software</app> icon in the Launcher, or search for "
 "<input>Software</input> in the search bar of the <app>Dash</app>."
 msgstr ""
-"单击 <gui>启动器</gui>上的 <app>Ubuntu 软件中心</app>，或在<gui>Dash</gui>搜"
-"索<input>软件中心</input> 。"
+"单击 <gui>启动器</gui>上的 <app>优麒麟软件中心</app>，或在<gui>Dash</gui>搜索"
+"<input>软件中心</input> 。"
 
 #. (itstool) path: item/p
 #: C/addremove-sources.page:58
@@ -1840,8 +1845,8 @@ msgid ""
 "window. <app>Software</app> will then check your software sources for new "
 "updates."
 msgstr ""
-"单击<gui>添加源</gui>，然后关闭<app>软件和更新</app>窗口。<app>Ubuntu 软件中"
-"心</app>之后会检查您的软件来源是否有新的更新。"
+"单击<gui>添加源</gui>，然后关闭<app>软件和更新</app>窗口。<app>优麒麟软件中心"
+"</app>之后会检查您的软件来源是否有新的更新。"
 
 #. (itstool) path: section/title
 #: C/addremove-sources.page:83
@@ -1859,7 +1864,7 @@ msgid ""
 msgstr ""
 "Canonical 合作伙伴仓库提供一些免费的专有应用程序，但这些应用程序是闭源的。其"
 "中包括 <app>Skype</app>、<app>Adobe Reader</app> 和 <app>Adobe Flash Plugin</"
-"app> 等软件。此库中的软件将出现在<app>Ubuntu 软件中心</app>搜索结果中，但在该"
+"app> 等软件。此库中的软件将出现在<app>优麒麟软件中心</app>搜索结果中，但在该"
 "库启用后才能安装。"
 
 #. (itstool) path: section/p
@@ -1883,7 +1888,7 @@ msgid ""
 "window. Wait a moment for <app>Software</app> to download the repository "
 "information."
 msgstr ""
-"单击<gui>添加源</gui>，然后关闭 <app>软件和更新</app>窗口。等待<app>Ubuntu 软"
+"单击<gui>添加源</gui>，然后关闭 <app>软件和更新</app>窗口。等待<app>优麒麟软"
 "件中心</app>下载软件仓库信息。"
 
 #. (itstool) path: info/title
@@ -4892,7 +4897,7 @@ msgstr "开启日历程序"
 msgid ""
 "Appointments and events may be managed through the built in <app>Calendar</"
 "app> application."
-msgstr "日程事件可通过 Ubuntu 自带的 <app>日历</app> 应用程序进行管理。"
+msgstr "日程事件可通过系统自带的 <app>日历</app> 应用程序进行管理。"
 
 #. (itstool) path: item/p
 #: C/clock-calendar.page:38
@@ -4936,7 +4941,7 @@ msgstr "选择显示其他信息，如日期或星期几。"
 #: C/shell-apps-favorites.page:25 C/shell-windows-switching.page:19
 #: C/video-dvd-restricted.page:13
 msgid "Ubuntu Documentation Project"
-msgstr "Ubuntu 文档项目"
+msgstr "Ubuntu/Ubuntu Kylin文档项目"
 
 #. (itstool) path: page/title
 #: C/clock-more-info.page:18
@@ -4949,8 +4954,8 @@ msgid ""
 "By default, Ubuntu only shows the time in the clock. You can set the clock "
 "to show additional information if you choose."
 msgstr ""
-"默认情况下，Ubuntu 仅在时钟中显示时间。您可以选择对时钟进行设置，以显示更多信"
-"息。"
+"默认情况下，Ubuntu/Ubuntu Kylin 仅在时钟中显示时间。您可以选择对时钟进行设"
+"置，以显示更多信息。"
 
 #. (itstool) path: page/p
 #: C/clock-more-info.page:23
@@ -5073,7 +5078,8 @@ msgid ""
 "By default, Ubuntu periodically synchronizes the clock with a very accurate "
 "clock on the Internet so you don't have to set your clock manually."
 msgstr ""
-"默认情况下，Ubuntu 将定期与网络时间服务器同步，因此您不必手动设置您的时钟。"
+"默认情况下，Ubuntu/Ubuntu Kylin 将定期与网络时间服务器同步，因此您不必手动设"
+"置您的时钟。"
 
 #. (itstool) path: item/p
 #: C/clock-set.page:58
@@ -8744,7 +8750,7 @@ msgid ""
 "bug collection process."
 msgstr ""
 "要提交错误，请按 <keyseq><key>Alt</key><key>F2</key></keyseq>，然后输入 "
-"<input>ubuntu-bug ubuntu-docs</input>，按 <gui>回车</gui> 即可开始收集错误。"
+"<input>ubuntu-bug ubuntu-kylin-docs</input>，按 <gui>回车</gui> 即可开始收集错误。"
 
 #. (itstool) path: page/p
 #: C/get-involved.page:28
@@ -8758,7 +8764,7 @@ msgstr ""
 #. (itstool) path: page/p
 #: C/get-involved.page:31
 msgid "Thanks for helping make the Ubuntu Help better!"
-msgstr "感谢您为改善 Ubuntu 帮助而提供帮助！"
+msgstr "感谢您为改善 Ubuntu/Ubuntu Kylin 帮助而提供帮助！"
 
 #. (itstool) path: info/desc
 #: C/hardware-driver.page:8
@@ -8843,9 +8849,9 @@ msgid ""
 "which means that the drivers can be modified by the Ubuntu developers and "
 "problems with them can be fixed."
 msgstr ""
-"与计算机相连的大多设备(硬件)都应该能在 Ubuntu 中正常运行。这些设备很可能都有"
-"开源驱动程序，这意味着 Ubuntu 开发人员能修改这些驱动程序，其问题也能得到解"
-"决。"
+"与计算机相连的大多设备(硬件)都应该能在 Ubuntu/Ubuntu Kylin 中正常运行。这些设"
+"备很可能都有开源驱动程序，这意味着 Ubuntu/Ubuntu Kylin 开发人员能修改这些驱动"
+"程序，其问题也能得到解决。"
 
 #. (itstool) path: page/p
 #: C/hardware-driver-proprietary.page:27
@@ -8881,7 +8887,7 @@ msgstr ""
 #: C/hardware-driver-proprietary.page:41
 msgid ""
 "Most problems with proprietary drivers cannot be fixed by Ubuntu developers."
-msgstr "大多专有驱动的问题都不能由 Ubuntu 开发人员解决。"
+msgstr "大多专有驱动的问题都不能由 Ubuntu/Ubuntu Kylin 开发人员解决。"
 
 #. (itstool) path: info/title
 #: C/hardware.page:15
@@ -9067,7 +9073,7 @@ msgid ""
 "<media type=\"image\" src=\"figures/ubuntu-logo.png\">Ubuntu Logo</media> "
 "Ubuntu Desktop Guide"
 msgstr ""
-"<media type=\"image\" src=\"figures/ubuntu-logo.png\">Ubuntu 徽标</media> "
+"<media type=\"image\" src=\"figures/ubuntu-logo.png\">系统徽标</media> "
 "Ubuntu/Ubuntu Kylin 桌面指南"
 
 #. (itstool) path: info/desc
@@ -9078,7 +9084,7 @@ msgid ""
 "link>, <link xref=\"a11y#mobility\">keyboard accessibility</link>…"
 msgstr ""
 "<link xref=\"keyboard-layouts\">输入源</link>，<link xref=\"keyboard-cursor-"
-"blink\">光标闪烁</link>，<link xref=\"windows-key\">徽标键</link>，link xref="
+"blink\">光标闪烁</link>，<link xref=\"windows-key\">徽标键</link>，<link xref="
 "\"a11y#mobility\">键盘辅助功能</link>…"
 
 #. (itstool) path: page/title
@@ -9343,8 +9349,8 @@ msgid ""
 "em>. The latter is the default framework in Ubuntu for Chinese, Japanese, "
 "Korean and Vietnamese."
 msgstr ""
-"推荐输入法框架为<em>IBus</em> 以及 <em>Fcitx</em>。后者是 Ubuntu 中文、日语、"
-"韩语以及越南语的默认输入法框架。"
+"推荐输入法框架为<em>IBus</em> 以及 <em>Fcitx</em>。后者是系统的中文、日语、韩"
+"语以及越南语的默认输入法框架。"
 
 #. (itstool) path: section/p
 #: C/keyboard-layouts.page:143
@@ -9968,8 +9974,9 @@ msgid ""
 "all of the default wallpaper choices were created by winners of a Community "
 "Wallpaper Contest."
 msgstr ""
-"选择<gui>壁纸</gui>可选用随 Ubuntu 附带的许多高品质背景图像中的一个图像。除"
-"了 Ubuntu 默认壁纸外，所有系统自带壁纸均由社区壁纸设计大赛优胜者制作。"
+"选择<gui>壁纸</gui>可选用随 Ubuntu Kylin 附带的许多高品质背景图像中的一个图"
+"像。除了 Ubuntu Kylin 默认壁纸外，所有系统自带壁纸均由社区壁纸设计大赛优胜者"
+"制作。"
 
 #. (itstool) path: item/p
 #: C/look-background.page:56
@@ -12935,7 +12942,7 @@ msgid ""
 "where a number of applications are available."
 msgstr ""
 "如果要添加一重安全措施，或者要检查在自己和使用 Windows 和 Mac OS 的人之间传送"
-"的文件中的病毒，则还是可以安装防病毒软件。请查看 <app>Ubuntu 软件中心</app>，"
+"的文件中的病毒，则还是可以安装防病毒软件。请查看 <app>优麒麟软件中心</app>，"
 "其中有一些应用程序可用。"
 
 #. (itstool) path: info/desc
@@ -12992,7 +12999,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/net-chat-empathy.page:20
 msgid "Instant messaging on Ubuntu"
-msgstr "在 Ubuntu 上使用即时通讯工具"
+msgstr "在 Ubuntu/Ubuntu Kylin 上使用即时通讯工具"
 
 #. (itstool) path: page/p
 #: C/net-chat-empathy.page:22
@@ -13014,7 +13021,7 @@ msgid ""
 "<link xref=\"unity-launcher-intro\">Launcher</link> or choose <gui>Chat</"
 "gui> from the <link xref=\"unity-menubar-intro\">Messaging menu</link>."
 msgstr ""
-"Ubuntu 默认预装了 Empathy 。从 <link xref=\"unity-dash-intro\">Dash</link>、"
+"系统默认预装了 Empathy 。从 <link xref=\"unity-dash-intro\">Dash</link>、"
 "<link xref=\"unity-launcher-intro\">启动器</link> 或者从 <link xref=\"unity-"
 "menubar-intro\">消息菜单</link> 选择 <gui>聊天</gui> ，开启 <app>Empathy 即时"
 "通讯</app> 程序。"
@@ -13047,7 +13054,7 @@ msgstr "<app>Skype</app> 是专有软件，您必须自行手动将其安装在 
 #. (itstool) path: page/title
 #: C/net-chat-skype.page:19
 msgid "How can I use Skype on Ubuntu?"
-msgstr "如何在 Ubuntu 上使用 Skype？"
+msgstr "如何在 Ubuntu/Ubuntu Kylin 上使用 Skype？"
 
 #. (itstool) path: page/p
 #: C/net-chat-skype.page:21
@@ -13078,8 +13085,8 @@ msgid ""
 "Skype is not installed by default on Ubuntu. <link href=\"apt:skype"
 "\">Install the <em>skype</em> package</link> to use it."
 msgstr ""
-"默认情况下 Ubuntu 没有安装 Skype。<link href=\"apt:skype\">安装 <em>skype</"
-"em></link>以开始使用。"
+"默认情况下 Ubuntu/Ubuntu Kylin 没有安装 Skype。<link href=\"apt:skype\">安装 "
+"<em>skype</em></link>以开始使用。"
 
 #. (itstool) path: note/p
 #: C/net-chat-skype.page:41
@@ -13143,9 +13150,9 @@ msgid ""
 "your social networking sites in one place, and to post updates from the "
 "<gui>Me Menu</gui> without opening any website."
 msgstr ""
-"在 Ubuntu 系统中，您可以通过桌面连接到您最喜欢的社交网站。Ubuntu 通过 "
-"<app>Friends</app> 允许您在一个地方整理您的社交网站，并且不需要打开任何网站仅"
-"通过 <gui>我的菜单</gui> 就能提交更新。"
+"在 Ubuntu/Ubuntu Kylin 系统中，您可以通过桌面连接到您最喜欢的社交网站。"
+"Ubuntu/Ubuntu Kylin 通过 <app>Friends</app> 允许您在一个地方整理您的社交网"
+"站，并且不需要打开任何网站仅通过 <gui>我的菜单</gui> 就能提交更新。"
 
 #. (itstool) path: page/p
 #: C/net-chat-social.page:27
@@ -13212,10 +13219,11 @@ msgid ""
 "empathy/audio-video\">the Empathy manual</link> for help on making video "
 "calls with <app>Empathy</app>."
 msgstr ""
-"使用 <app>Empathy</app>，您不需要安装其他任何软件即可从 Ubuntu 中进行视频通"
-"话，当然，还是通过 <em>Google Talk</em>、<em>MSN</em>、<em>Jabber </em> 和 "
-"<em>SIP</em> 等网络。有关使用 <app>Empathy</app> 进行视频通话的帮助，请参见 "
-"<link href=\"ghelp:empathy?audio-video\">Empathy 用户手册</link>。"
+"使用 <app>Empathy</app>，您不需要安装其他任何软件即可从 Ubuntu/Ubuntu Kylin "
+"中进行视频通话，当然，还是通过 <em>Google Talk</em>、<em>MSN</em>、"
+"<em>Jabber </em> 和 <em>SIP</em> 等网络。有关使用 <app>Empathy</app> 进行视频"
+"通话的帮助，请参见 <link href=\"ghelp:empathy?audio-video\">Empathy 用户手册"
+"</link>。"
 
 #. (itstool) path: list/title
 #: C/net-chat-video.page:28
@@ -13473,9 +13481,10 @@ msgid ""
 "the default installation, a firewall is not needed to block incoming "
 "attempted malicious connections."
 msgstr ""
-"Ubuntu 配有 <app>Uncomplicated Firewall</app>(<app>ufw</app>)，但默认情况下不"
-"会启动此防火墙。由于 Ubuntu 没有任何开放式网络服务(基本网络架构除外)，在默认"
-"安装状态下，您并不需要通过防火墙来阻止有恶意企图的连接。"
+"Ubuntu/Ubuntu Kylin 配有 <app>Uncomplicated Firewall</app>(<app>ufw</app>)，"
+"但默认情况下不会启动此防火墙。由于 Ubuntu/Ubuntu Kylin 没有任何开放式网络服务"
+"(基本网络架构除外)，在默认安装状态下，您并不需要通过防火墙来阻止有恶意企图的"
+"连接。"
 
 #. (itstool) path: page/p
 #: C/net-firewall-on-off.page:28
@@ -14179,8 +14188,8 @@ msgid ""
 "connect them to your computer. Ubuntu will prompt you to configure the "
 "device."
 msgstr ""
-"多数移动宽带设备在连接到计算机时都应该可以自动识别。Ubuntu 将会提示您配置此设"
-"备。"
+"多数移动宽带设备在连接到计算机时都应该可以自动识别。Ubuntu/Ubuntu Kylin 将会"
+"提示您配置此设备。"
 
 #. (itstool) path: item/p
 #: C/net-mobile.page:33
@@ -14228,8 +14237,8 @@ msgid ""
 "still be recognized by Ubuntu. In such cases you can add the connection "
 "manually."
 msgstr ""
-"如果插入时没有提示您配置设备，仍有可能以及被 Ubuntu 识别。此时您可以手动添加"
-"连接。"
+"如果插入时没有提示您配置设备，仍有可能以及被 Ubuntu/Ubuntu Kylin 识别。此时您"
+"可以手动添加连接。"
 
 #. (itstool) path: item/p
 #: C/net-mobile.page:71
@@ -14621,10 +14630,10 @@ msgid ""
 "their open source nature, which allows experts to modify and enhance the "
 "security features included with each distribution."
 msgstr ""
-"使用 Ubuntu 的一个原因可能是众所周知的 Linux 系统的稳定和安全。Linux 上恶意软"
-"件和病毒少因而安装的一个原因是其用户相对较少。病毒一般针对更流行的操作系统，"
-"比如 Windows，其有极大的用户数量。基于 Linux 的系统更安全的另外一个原因是其开"
-"源本性，其允许专家修改并增强其包含在每个发行版中的安全功能。"
+"使用 Ubuntu/Ubuntu Kylin 的一个原因可能是众所周知的 Linux 系统的稳定和安全。"
+"Linux 上恶意软件和病毒少因而安装的一个原因是其用户相对较少。病毒一般针对更流"
+"行的操作系统，比如 Windows，其有极大的用户数量。基于 Linux 的系统更安全的另外"
+"一个原因是其开源本性，其允许专家修改并增强其包含在每个发行版中的安全功能。"
 
 #. (itstool) path: page/p
 #: C/net-security-tips.page:31
@@ -14633,8 +14642,8 @@ msgid ""
 "secure, there are always vulnerabilities. As an average user on the internet "
 "you can still be susceptible to:"
 msgstr ""
-"虽然采取了很多方法来保障 Ubuntu 系统的安全，仍然可能有很多风险。一般的互联网"
-"用可能遭受到的风险有："
+"虽然采取了很多方法来保障 Ubuntu/Ubuntu Kylin 系统的安全，仍然可能有很多风险。"
+"一般的互联网用可能遭受到的风险有："
 
 #. (itstool) path: item/p
 #: C/net-security-tips.page:35
@@ -14886,9 +14895,9 @@ msgid ""
 "(if there is one) and install it."
 msgstr ""
 "VPN 有多种不同的类型。根据您所连接的 VPN 类型，您可能需要额外安装一些软件。查"
-"明 VPN 主管方以及需要使用的<em>VPN 客户端</em>等连接详情。然后打开"
-"<app>Ubuntu 软件中心</app>并搜索与您的 VPN 配合工作的<app>network-manager</"
-"app>软件包(如果有)并进行安装。"
+"明 VPN 主管方以及需要使用的<em>VPN 客户端</em>等连接详情。然后打开<app>优麒麟"
+"软件中心</app>并搜索与您的 VPN 配合工作的<app>network-manager</app>软件包(如"
+"果有)并进行安装。"
 
 #. (itstool) path: note/p
 #: C/net-vpn-connect.page:34
@@ -16231,9 +16240,9 @@ msgid ""
 "to check for these extra open or <link xref=\"hardware-driver-proprietary"
 "\">proprietary</link> drivers."
 msgstr ""
-"尽管 Ubuntu 默认支持大量设备，仍有部分驱动需要单独安装。使用 <gui>附加驱动</"
-"gui> 工具检查是否有合适的 <link xref=\"hardware-driver-proprietary\">专有</"
-"link> 驱动。"
+"尽管 Ubuntu/Ubuntu Kylin 默认支持大量设备，仍有部分驱动需要单独安装。使用 "
+"<gui>附加驱动</gui> 工具检查是否有合适的 <link xref=\"hardware-driver-"
+"proprietary\">专有</link> 驱动。"
 
 #. (itstool) path: item/p
 #: C/net-wireless-troubleshooting-device-drivers.page:51
@@ -16372,7 +16381,7 @@ msgid ""
 "xref=\"#pci\">internal PCI</link>, <link xref=\"#usb\">USB</link>, or <link "
 "xref=\"#pcmcia\">PCMCIA</link>)."
 msgstr ""
-"如果无线设备<em>没有<em>列出，下一步操作取决于使用的设备类型。请参阅与计算机"
+"如果无线设备<em>没有</em>列出，下一步操作取决于使用的设备类型。请参阅与计算机"
 "上所用无线适配器类型相关的部分：<link xref=\"#pci\">内置 PCI</link>、<link "
 "xref=\"#usb\">USB</link> 或 <link xref=\"#pcmcia\">PCMCIA</link>。"
 
@@ -17423,7 +17432,7 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/power-hibernate.page:11
 msgid "Hibernate is disabled by default since it's not well supported."
-msgstr "由于休眠功能尚不完善，Ubuntu 默认将其禁用。"
+msgstr "由于休眠功能尚不完善，系统默认将其禁用。"
 
 #. (itstool) path: page/title
 #: C/power-hibernate.page:31
@@ -18218,7 +18227,8 @@ msgstr "安装语言"
 msgid ""
 "When you install Ubuntu, the language you select at installation gets "
 "installed together with English, but you can add further languages."
-msgstr "安装 Ubuntu 时，会同时安装选择的语言和英语，但是可以添加其他语言。"
+msgstr ""
+"安装 Ubuntu Kylin 时，会同时安装选择的语言和英语，但是可以添加其他语言。"
 
 #. (itstool) path: item/p
 #: C/prefs-language-install.page:32
@@ -19129,17 +19139,18 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/report-ubuntu-bug.page:7
 msgid "How and where to report problems with Ubuntu."
-msgstr "如何报告 Ubuntu 问题。"
+msgstr "如何报告 Ubuntu/Ubuntu Kylin 问题。"
 
 #. (itstool) path: page/title
 #: C/report-ubuntu-bug.page:18
 msgid "Report a problem in Ubuntu"
-msgstr "如何报告 Ubuntu 问题"
+msgstr "如何报告 Ubuntu/Ubuntu Kylin 问题"
 
 #. (itstool) path: page/p
 #: C/report-ubuntu-bug.page:20
 msgid "If you notice a problem in Ubuntu, you can file a <em>bug report</em>."
-msgstr "如果您发现 Ubuntu 系统中存在问题，则可以进行<em>错误报告</em>。"
+msgstr ""
+"如果您发现 Ubuntu/Ubuntu Kylin 系统中存在问题，则可以进行<em>错误报告</em>。"
 
 #. (itstool) path: item/p
 #: C/report-ubuntu-bug.page:24
@@ -19166,8 +19177,8 @@ msgid ""
 "about the bug. This may take a few minutes. Review the collected information "
 "if you wish. Click <gui>Send</gui> to continue."
 msgstr ""
-"运行以上命令之后，Ubuntu 将会收集与 Bug 有关的信息。这可能需要几分钟。如果需"
-"要可以查看收集到的信息。点击 <gui>发送</gui> 以继续。"
+"运行以上命令之后，系统将会收集与 Bug 有关的信息。这可能需要几分钟。如果需要可"
+"以查看收集到的信息。点击 <gui>发送</gui> 以继续。"
 
 #. (itstool) path: item/p
 #: C/report-ubuntu-bug.page:35
@@ -19178,10 +19189,10 @@ msgid ""
 "bug and receive email updates about its status. You can do this by clicking "
 "<gui>Create a new account</gui>."
 msgstr ""
-"新的 Web 浏览器将打开，以继续处理错误数据。Ubuntu 使用网站 <app>Launchpad</"
-"app> 管理其错误报告。如果您没有 Launchpad 帐户，则需要注册一个账户，以完成错"
-"误报告流程并接收有关此问题解决进度的电子邮件更新。您可通过单击<gui>创建新帐户"
-"</gui>执行此操作。"
+"新的 Web 浏览器将打开，以继续处理错误数据。Ubuntu/Ubuntu Kylin 使用网站 "
+"<app>Launchpad</app> 管理其错误报告。如果您没有 Launchpad 帐户，则需要注册一"
+"个账户，以完成错误报告流程并接收有关此问题解决进度的电子邮件更新。您可通过单"
+"击<gui>创建新帐户</gui>执行此操作。"
 
 #. (itstool) path: item/p
 #: C/report-ubuntu-bug.page:42
@@ -19235,8 +19246,8 @@ msgid ""
 "Your report will be given an ID number, and its status will be updated as it "
 "is being dealt with. Thanks for helping make Ubuntu better!"
 msgstr ""
-"将为您的报告提供一个 ID 号码，其状态在处理期间将更新。谢谢您为 Ubuntu 更好发"
-"展做出的努力！"
+"将为您的报告提供一个 ID 号码，其状态在处理期间将更新。谢谢您为 Ubuntu/Ubuntu "
+"Kylin 更好发展做出的努力！"
 
 #. (itstool) path: note/p
 #: C/report-ubuntu-bug.page:63
@@ -19247,7 +19258,7 @@ msgid ""
 "reporting tool."
 msgstr ""
 "如果您收到“此非正版 Ubuntu 软件包”的错误，这意味着您正尝试报告错误的软件不是"
-"来自官方 Ubuntu 软件库。在此情况下，您无法使用 Ubuntu 内置错误报告工具。"
+"来自官方软件库。在此情况下，您无法使用系统内置错误报告工具。"
 
 #. (itstool) path: page/p
 #: C/report-ubuntu-bug.page:67
@@ -19256,8 +19267,8 @@ msgid ""
 "extensive <link href=\"https://help.ubuntu.com/community/ReportingBugs"
 "\">online documentation</link>."
 msgstr ""
-"有关报告 Ubuntu 中错误的更多信息，请阅读我们提供的大量<link href=\"https://"
-"help.ubuntu.com/community/ReportingBugs\">联机文档</link>。"
+"有关报告 Ubuntu/Ubuntu Kylin 中错误的更多信息，请阅读我们提供的大量<link "
+"href=\"https://help.ubuntu.com/community/ReportingBugs\">联机文档</link>。"
 
 #. (itstool) path: info/desc
 #: C/screen-shot-record.page:10
@@ -19908,9 +19919,9 @@ msgid ""
 "computer's functions. A very small amount of power is still used during "
 "suspend."
 msgstr ""
-"要节能，请在不使用时挂起计算机。如果是笔记本，合上盖子的时候 Ubuntu将会自动挂"
-"起。这可以将您的状态保存到计算机内存中并关闭大部分功能。暂停期间，仍有极少量"
-"的耗电量。"
+"要节能，请在不使用时挂起计算机。如果是笔记本，合上盖子的时候 Ubuntu/Ubuntu "
+"Kylin 将会自动挂起。这可以将您的状态保存到计算机内存中并关闭大部分功能。暂停"
+"期间，仍有极少量的耗电量。"
 
 #. (itstool) path: section/p
 #: C/shell-exit.page:88
@@ -19972,10 +19983,10 @@ msgid ""
 "Session</gui>. This will lock the screen for your own session and start the "
 "guest session."
 msgstr ""
-"有时，亲戚朋友或者同事可能需要借用您的计算机。Ubuntu 的 <app>来宾回话</app> "
-"功能提供了一种方便且高度安全的将计算机借给他人的方式。来宾回话可以从登录界面"
-"或在普通回话中启动。如果已经登录了，点击 <gui>菜单栏</gui>最右端的图标然后选"
-"择 <gui>来宾会话</gui>，将锁定自己现在会话的的屏幕并启动来宾会话。"
+"有时，亲戚朋友或者同事可能需要借用您的计算机。系统 的 <app>来宾回话</app> 功"
+"能提供了一种方便且高度安全的将计算机借给他人的方式。来宾回话可以从登录界面或"
+"在普通回话中启动。如果已经登录了，点击 <gui>菜单栏</gui>最右端的图标然后选择 "
+"<gui>来宾会话</gui>，将锁定自己现在会话的的屏幕并启动来宾会话。"
 
 #. (itstool) path: section/p
 #: C/shell-guest-session.page:31
@@ -20923,8 +20934,8 @@ msgid ""
 "the number of workspaces:"
 msgstr ""
 "打开 <link xref=\"unity-launcher-intro\">启动器</link>并单击靠近底部的<gui>工"
-"作区切换器</gui>图标。默认情况下，Ubuntu 会显示 4 个工作区，成 2 排 2 列排"
-"列。您可以更改工作区数量："
+"作区切换器</gui>图标。默认情况下，Ubuntu/Ubuntu Kylin 会显示 4 个工作区，成 "
+"2 排 2 列排列。您可以更改工作区数量："
 
 #. (itstool) path: steps/title
 #: C/shell-workspaces.page:54
@@ -21167,8 +21178,8 @@ msgid ""
 "\"Ubuntu\", to see if other people are having the same problem."
 msgstr ""
 "因为没有合适的驱动程序，Linux 系统上的一些声卡无法良好地运行。该问题更难识"
-"别。尝试在互联网上搜索您声卡的制造商和型号，再加上关键字“Ubuntu”，以查看其他"
-"人是否有相同的问题。"
+"别。尝试在互联网上搜索您声卡的制造商和型号，再加上关键字“Ubuntu”或“Ubuntu "
+"Kylin”，以查看其他人是否有相同的问题。"
 
 #. (itstool) path: item/p
 #: C/sound-crackle.page:47
@@ -22402,7 +22413,7 @@ msgstr "Unity 桌面的图文介绍。"
 #. (itstool) path: page/title
 #: C/unity-introduction.page:25
 msgid "Welcome to Ubuntu"
-msgstr "欢迎来到 Ubuntu"
+msgstr "欢迎来到 Ubuntu Kylin"
 
 #. (itstool) path: page/p
 #: C/unity-introduction.page:27
@@ -22411,8 +22422,8 @@ msgid ""
 "is designed to minimize distractions, give you more room to work, and help "
 "you get things done."
 msgstr ""
-"Ubuntu 使用 <em>Unity</em>，一种使用电脑的全新方式。Unity 的设计原则是消除多"
-"余的界面元素，最大化操作区域，帮助您高效完成工作。"
+"Ubuntu/Ubuntu Kylin 使用 <em>Unity</em>，一种使用电脑的全新方式。Unity 的设计"
+"原则是消除多余的界面元素，最大化操作区域，帮助您高效完成工作。"
 
 #. (itstool) path: page/p
 #: C/unity-introduction.page:31
@@ -22421,8 +22432,8 @@ msgid ""
 "Ubuntu desktop. First we will take a moment to look at some of Unity's key "
 "features, and how you can use them."
 msgstr ""
-"本文档用以回答使用 Unity 和 Ubuntu/Ubuntu Kylin 桌面的问题。首先让我们来看一下 Unity 的关"
-"键功能，以及如何使用它们。"
+"本文档用以回答使用 Unity 和 Ubuntu/Ubuntu Kylin 桌面的问题。首先让我们来看一"
+"下 Unity 的关键功能，以及如何使用它们。"
 
 #. (itstool) path: section/title
 #: C/unity-introduction.page:35
@@ -22788,8 +22799,8 @@ msgid ""
 "is starting your application. This is useful because while some applications "
 "start immediately, others may take a minute to load."
 msgstr ""
-"当您启动应用程序时，启动器图标会跳动，告诉您 Ubuntu 正在打开这一程序。虽然一"
-"些应用可以很快启动，但还有其它程序需要一点时间进行加载。"
+"当您启动应用程序时，启动器图标会跳动，告诉您系统正在打开这一程序。虽然一些应"
+"用可以很快启动，但还有其它程序需要一点时间进行加载。"
 
 #. (itstool) path: page/p
 #: C/unity-launcher-shapes.page:24
@@ -23218,9 +23229,9 @@ msgid ""
 "inspired by mobile devices where traditional scrollbars aren't needed, "
 "Ubuntu's overlay scrollbars are designed to work just as well with a mouse."
 msgstr ""
-"Ubuntu 包括 <em>即现式滚动条</em>，其比传统的滚动条少占用空间，给内容留下更多"
-"的空间。虽然是受到不用滚动条的移动设备启发，Ubuntu的即现式滚动条设计为可以使"
-"用鼠标非常好地操作。"
+"系统使用 <em>即现式滚动条</em>，其比传统的滚动条少占用空间，给内容留下更多的"
+"空间。虽然是受到不用滚动条的移动设备启发，Ubuntu/Ubuntu Kylin 的即现式滚动条"
+"设计为可以使用鼠标非常好地操作。"
 
 #. (itstool) path: page/p
 #: C/unity-scrollbars-intro.page:32
@@ -23273,7 +23284,9 @@ msgstr "单击滚动条，使页面到达您想要的位置。"
 #: C/unity-shopping.page:9
 msgid ""
 "Online results make the Dash more useful and help fund Ubuntu development."
-msgstr "在线资源的集成使 Dash 拥有更多功能，也有力地促进了 Ubuntu 的开发工作。"
+msgstr ""
+"在线资源的集成使 Dash 拥有更多功能，也有力地促进了 Ubuntu/Ubuntu Kylin 的开发"
+"工作。"
 
 #. (itstool) path: page/title
 #: C/unity-shopping.page:25
@@ -24507,8 +24520,8 @@ msgid ""
 "technical restrictions. Most commercial DVDs are encrypted and so require "
 "the use of decryption software in order to play them."
 msgstr ""
-"由于法律和技术限制，默认情况下 Ubuntu 无法提供 DVD 支持。大多数商业 DVD 都已"
-"加密，因此为了播放它们需要使用解密软件。"
+"由于法律和技术限制，默认情况下 Ubuntu/Ubuntu Kylin 无法提供 DVD 支持。大多数"
+"商业 DVD 都已加密，因此为了播放它们需要使用解密软件。"
 
 #. (itstool) path: section/title
 #: C/video-dvd-restricted.page:25
@@ -24653,8 +24666,8 @@ msgstr ""
 "如果您未找到正确的编码解码器，则尝试 <link href=\"http://www.videolan.org/"
 "vlc/\">VLC 媒体播放器r</link>。它可在 Windows、Mac OS 及 Linux 上运行，并支持"
 "各种视频格式。或者，尝试将您的视频转换成另外一种格式。大多数视频编辑器可执行"
-"此操作，并且还可使用特定的视频转换应用程序。可以在<app>Ubuntu 软件中心</app>"
-"查找这类可用软件。"
+"此操作，并且还可使用特定的视频转换应用程序。可以在<app>优麒麟软件中心</app>查"
+"找这类可用软件。"
 
 #. (itstool) path: note/p
 #: C/video-sending.page:50
