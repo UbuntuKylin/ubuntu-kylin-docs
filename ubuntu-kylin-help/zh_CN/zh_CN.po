@@ -4693,38 +4693,38 @@ msgstr "按<gui style=\"button\">链接</gui>按钮连接选中的联系人。"
 #. (itstool) path: section/title
 #: C/contacts-link-unlink.page:57
 msgid "Unlink contacts"
-msgstr "解除绑定联系人"
+msgstr "取消链接联系人"
 
 #. (itstool) path: section/p
 #: C/contacts-link-unlink.page:59
 msgid ""
 "You may want to unlink contacts if you accidentally linked contacts which "
 "should not be linked."
-msgstr "如果不小心绑定了不应该绑定的联系人，您可能需要解除绑定的联系人。"
+msgstr "如果不小心链接了不应该链接的联系人，您可能需要取消链接的联系人。"
 
 #. (itstool) path: item/p
 #: C/contacts-link-unlink.page:64
 msgid "Select the contact you wish to unlink from your list of contact."
-msgstr "选择希望从您的联系人列表中解除绑定的联系人。"
+msgstr "选择希望从您的联系人列表中取消链接的联系人。"
 
 #. (itstool) path: item/p
 #: C/contacts-link-unlink.page:71
 msgid "Press <gui style=\"button\">Linked Contacts</gui>."
-msgstr "点击 <gui style=\"button\">已绑定联系人</gui>。"
+msgstr "点击 <gui style=\"button\">已链接联系人</gui>。"
 
 #. (itstool) path: item/p
 #: C/contacts-link-unlink.page:74
 msgid ""
 "Press <gui style=\"button\">Remove</gui> to unlink the entry from the "
 "contact."
-msgstr "按<gui style=\"button\">移除</gui>按钮，从联系人中解除绑定条目。"
+msgstr "按<gui style=\"button\">移除</gui>按钮，从联系人中取消链接条目。"
 
 #. (itstool) path: item/p
 #: C/contacts-link-unlink.page:78
 msgid ""
 "Press <gui style=\"button\">Close</gui> once you have finished unlinking the "
 "entries."
-msgstr "当完成解除绑定条目后，点击<gui style=\"button\">关闭</gui>按钮。"
+msgstr "当完成取消链接条目后，点击<gui style=\"button\">关闭</gui>按钮。"
 
 #. (itstool) path: info/desc
 #: C/contacts.page:18
@@ -13021,7 +13021,7 @@ msgid ""
 "<link xref=\"unity-launcher-intro\">Launcher</link> or choose <gui>Chat</"
 "gui> from the <link xref=\"unity-menubar-intro\">Messaging menu</link>."
 msgstr ""
-"系统默认预装了 Empathy 。从 <link xref=\"unity-dash-intro\">Dash</link>、"
+"系统没有预装 Empathy，请通过软件中心安装。从 <link xref=\"unity-dash-intro\">Dash</link>、"
 "<link xref=\"unity-launcher-intro\">启动器</link> 或者从 <link xref=\"unity-"
 "menubar-intro\">消息菜单</link> 选择 <gui>聊天</gui> ，开启 <app>Empathy 即时"
 "通讯</app> 程序。"
@@ -13041,7 +13041,7 @@ msgid ""
 "For help with using Empathy, read the <link href=\"help:empathy\">Empathy "
 "manual</link>."
 msgstr ""
-"有关使用 Brasero 的帮助，请阅读 <link href=\"ghelp:brasero\">用户指南</"
+"有关使用 Empathy 的帮助，请阅读 <link href=\"help:empathy\">用户指南</"
 "link>。"
 
 #. (itstool) path: info/desc
@@ -13049,7 +13049,7 @@ msgstr ""
 msgid ""
 "<app>Skype</app> is proprietary software and must be installed manually on "
 "Ubuntu"
-msgstr "<app>Skype</app> 是专有软件，您必须自行手动将其安装在 Ubuntu 上。"
+msgstr "<app>Skype</app> 是专有软件，您必须自行手动安装。"
 
 #. (itstool) path: page/title
 #: C/net-chat-skype.page:19
@@ -17088,9 +17088,9 @@ msgid ""
 msgstr ""
 "在 <app>系统设置</app> 中的 <gui>电源</gui> 设置中有多个节能选项：您可以在一"
 "段时间后<link xref=\"display-dimscreen\">自动将显示器变暗或使其进入睡眠模式</"
-"link>；<link xref=\"power-brighter\">降低笔记本电脑显示器的亮度</link>；如果"
-"在一段时间内不使用，则将计算机<link xref=\"power-suspendhibernate\">自动转到"
-"睡眠模式</link>。"
+"link>；降低笔记本电脑显示器的亮度；如果"
+"在一段时间内不使用，则将计算机自动转到"
+"睡眠模式。"
 
 #. (itstool) path: item/p
 #: C/power-batterylife.page:66
@@ -17111,7 +17111,7 @@ msgid ""
 "powering the screen accounts for a significant fraction of a laptop's power "
 "consumption."
 msgstr ""
-"<link xref=\"power-brighter\">降低屏幕的亮度</link>；为屏幕供电占笔记本电脑功"
+"降低屏幕的亮度；为屏幕供电占笔记本电脑功"
 "耗的很大一部分。"
 
 #. (itstool) path: item/p
@@ -24664,7 +24664,7 @@ msgid ""
 "<app>Software</app> to see what's available."
 msgstr ""
 "如果您未找到正确的编码解码器，则尝试 <link href=\"http://www.videolan.org/"
-"vlc/\">VLC 媒体播放器r</link>。它可在 Windows、Mac OS 及 Linux 上运行，并支持"
+"vlc/\">VLC 媒体播放器</link>。它可在 Windows、Mac OS 及 Linux 上运行，并支持"
 "各种视频格式。或者，尝试将您的视频转换成另外一种格式。大多数视频编辑器可执行"
 "此操作，并且还可使用特定的视频转换应用程序。可以在<app>优麒麟软件中心</app>查"
 "找这类可用软件。"
