@@ -8,7 +8,7 @@
 
     <desc>Ubuntu Kylin 版本的新特性。</desc>
 
-    <revision version="16.04" date="2016-03-30" status="review"/>
+    <revision version="16.10" date="2016-09-28" status="review"/>
     <credit type="author">
       <name>Jeremy Bicha</name>
       <email>jbicha@ubuntu.com</email>
@@ -21,9 +21,9 @@
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
   </info>
 
-  <title>Ubuntu Kylin 16.04 有哪些新特性？</title>
+  <title>Ubuntu Kylin 16.10 有哪些新特性？</title>
 
-<p>Ubuntu Kylin 是基于 Ubuntu 的中文开源操作系统，目标是创建更适合中文用户的 Linux 发行版，并将成果反馈到全球用户。Ubuntu Kylin 底层基于 Linux 内核，上层共享 Ubuntu 众多特性，并针对中文用户需求，在 SDK、UI 以及生态应用软件等各方面进行增强。以下是 Ubuntu Kylin 16.04 的一些新特性：
+<p>Ubuntu Kylin 是基于 Ubuntu 的中文开源操作系统，目标是创建更适合中文用户的 Linux 发行版，并将成果反馈到全球用户。Ubuntu Kylin 底层基于 Linux 内核，上层共享 Ubuntu 众多特性，并针对中文用户需求，在 SDK、UI 以及生态应用软件等各方面进行增强。以下是 Ubuntu Kylin 16.10 的一些新特性：
 </p>
 
 <section id="new-features">
@@ -32,26 +32,35 @@
 <list>
 
   <item><p>
-    提供了一套更美观、舒适与友好的 UKUI 风格的登录与锁屏界面。
+    新增系统第一次启动时的欢迎引导程序。
   </p></item>
 
   <item><p>
-    采用了新的扁平化风格的系统图标。
+    更新UI，完善系统图标主题，使其风格更加统一。
   </p></item>
 
   <item><p>
-    默认将 <gui>Unity 启动器</gui> 移动到屏幕底部。
+    系统登录界面采用最新的GTK3.20，完善了对多用户的支持。
   </p></item>
 
   <item><p>
-    <app>优麒麟软件中心</app> 在 16.04 中替代 <app>Ubuntu 软件中心</app> 成为默认的软件包管理工具，优化了各类软件安装方式的流程和体验。同时还具备查询用户安装软件的历史，一键安装以前安装的软件等功能。
+    <app>优麒麟软件中心</app> 替代 <app>Ubuntu 软件中心</app> 成为默认的软件包管理工具，优化了各类软件安装方式的流程和体验。同时还具备查询用户安装软件的历史，一键安装以前安装的软件等功能。
   </p></item>
 
   <item><p><app>优客助手</app> 对各功能进行优化，增强了流畅性和稳定性。</p></item>
 
   <item><p><app>WPS</app> 版本升级，新增图表、主题及样式、文本对象的 2D 及 3D 效果等功能。</p></item>
 
-  <item><p><app>搜狗输入法</app> 更新了最新的 2015 年词库，完善支持繁简切换功能，修复若干细节问题。</p></item>
+  <item><p><app>搜狗输入法</app> 全面升级。</p>
+    <list>
+      <item><p>采用与 Windows, MacOS 同步的最新内核及基础词库，统一多平台输入体验。  </p></item>
+
+      <item><p>优化第一次启动输入法卡顿的问题，提高稳定性。</p></item>
+
+      <item><p>更新默认推荐皮肤。</p></item>
+
+    </list>
+  </item>
 
   <item><p>默认使用思源字体作为中文字体。</p></item>
 

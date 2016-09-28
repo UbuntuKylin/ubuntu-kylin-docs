@@ -1,3 +1,9 @@
+ubuntu-kylin-docs (16.10.1) yakkety; urgency=low
+
+  * Update to Ubuntu Kylin 16.10
+
+ -- Luo Lei <luolei@ubuntukylin.com>  Wed, 28 Sep 2016 9:34:17 +0800
+
 ubuntu-kylin-docs (16.04.1) xenial; urgency=low
 
   * Merge ubuntu-docs 16.04.2
