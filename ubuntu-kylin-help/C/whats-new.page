@@ -6,12 +6,12 @@
     <link type="guide" xref="index" group="whats-new"/>
     <link type="guide" xref="shell-overview" group="#first"/>
 
-    <desc>Ubuntu Kylin 版本的新特性。</desc>
+    <desc>UKUI 桌面环境。</desc>
 
-    <revision version="16.10" date="2016-09-28" status="review"/>
+    <revision version="17.04" date="2017-03-22" status="review"/>
     <credit type="author">
-      <name>Jeremy Bicha</name>
-      <email>jbicha@ubuntu.com</email>
+      <name>Lei Luo</name>
+      <email>luolei@ubuntukylin.com</email>
     </credit>
     <credit type="editor">
        <name>Ubuntu Kylin 文档团队</name>
@@ -21,66 +21,33 @@
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
   </info>
 
-  <title>Ubuntu Kylin 16.10 有哪些新特性？</title>
+  <title>UKUI 桌面环境</title>
 
-<p>Ubuntu Kylin 是基于 Ubuntu 的中文开源操作系统，目标是创建更适合中文用户的 Linux 发行版，并将成果反馈到全球用户。Ubuntu Kylin 底层基于 Linux 内核，上层共享 Ubuntu 众多特性，并针对中文用户需求，在 SDK、UI 以及生态应用软件等各方面进行增强。以下是 Ubuntu Kylin 16.10 的一些新特性：
+<p>Ubuntu Kylin 是基于 Ubuntu 的中文开源操作系统，秉承着“做最有中国味的操作系统”的理念，为进一步提升普通用户的使用体验，我们在基于Unity7进行桌面风格定制调整的同时，最大程度考虑中国用户原有的使用习惯，打造了一款更适合中国用户使用的桌面系统环境——UKUI。
 </p>
-
-<section id="new-features">
-  <title>新特性</title>
-
+<p>
+UKUI是基于 Mate 的定制桌面，从开始菜单、控制面板、桌面任务栏以及桌面主题图标等不同层面进行了重新设计和实现，让用户能够更方便快速的适应系统使用。其主要特色包括：
+</p>
 <list>
 
-  <item><p>
-    新增系统第一次启动时的欢迎引导程序。
-  </p></item>
+<item>
+<p>全新的主题风格和图标</p>
+<media type="image" src="figures/ukui/1-ukui.png">UKUI 桌面</media>
+</item>
 
-  <item><p>
-    更新UI，完善系统图标主题，使其风格更加统一。
-  </p></item>
+<item>
+<p>更便捷的开始菜单</p>
+<media type="image" src="figures/ukui/2-ukui-menu.png">UKUI 开始菜单</media>
+</item>
 
-  <item><p>
-    系统登录界面采用最新的GTK3.20，完善了对多用户的支持。
-  </p></item>
+<item>
+<p>更直观和易用的控制面板</p>
+<media type="image" src="figures/ukui/3-ukui-contro-center.png">UKUI 控制面板</media>
+</item>
 
-  <item><p>
-    <app>优麒麟软件中心</app> 替代 <app>Ubuntu 软件中心</app> 成为默认的软件包管理工具，优化了各类软件安装方式的流程和体验。同时还具备查询用户安装软件的历史，一键安装以前安装的软件等功能。
-  </p></item>
-
-  <item><p><app>优客助手</app> 对各功能进行优化，增强了流畅性和稳定性。</p></item>
-
-  <item><p><app>WPS</app> 版本升级，新增图表、主题及样式、文本对象的 2D 及 3D 效果等功能。</p></item>
-
-  <item><p><app>搜狗输入法</app> 全面升级。</p>
-    <list>
-      <item><p>采用与 Windows, MacOS 同步的最新内核及基础词库，统一多平台输入体验。  </p></item>
-
-      <item><p>优化第一次启动输入法卡顿的问题，提高稳定性。</p></item>
-
-      <item><p>更新默认推荐皮肤。</p></item>
-
-    </list>
-  </item>
-
-  <item><p>默认使用思源字体作为中文字体。</p></item>
-
-  <item><p>对 <gui>Dash</gui> 的功能进行了增强:</p>
-    <list>
-      <item><p>在 <gui>Dash</gui> 中增加了会话快捷方式（重启，关机等）。</p></item>
-
-      <item><p>提供了新的滚动条样式。</p></item>
-
-      <item><p>指示打开的外部存储器或垃圾箱窗口数量。</p></item>
-
-      <item><p>为<gui>工作区切换器</gui> 新增了快捷菜单。</p></item>
- 
-      <item><p>在可移动设备的快捷菜单中加入了格式化的选项。</p></item>
-
-      <item><p>可以用 <keyseq><key>Alt</key><key>{num}</key></keyseq> 打开 <gui>启动器</gui> 上的外部存储器。</p></item>
-    </list>
-  </item>
-
-
+<item>
+<p>扩展增强的文件管理器</p> 
+<media type="image" src="figures/ukui/4-peony.png">UKUI 文件管理器</media>
+</item>
 </list>
-</section>
 </page>

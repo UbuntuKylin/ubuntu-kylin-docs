@@ -37,7 +37,11 @@ HELP_MEDIA = \
 	figures/unity-launcher.png \
 	figures/unity-overview.png \
 	figures/unity-windows.png \
-	figures/unity-workspace-intro.png
+	figures/unity-workspace-intro.png \
+	figures/ukui/1-ukui.png \
+	figures/ukui/2-ukui-menu.png \
+	figures/ukui/3-ukui-contro-center.png \
+	figures/ukui/4-peony.png 
 
 HELP_FILES = \
 	legal.xml \

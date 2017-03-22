@@ -1,3 +1,10 @@
+ubuntu-kylin-docs (17.04.1) zesty; urgency=low
+
+  * Update to Ubuntu Kylin 17.04
+  * Add UKUI features
+
+ -- Luo Lei <luolei@ubuntukylin.com>  Wed, 22 Mar 2017 13:06:42 +0800
+
 ubuntu-kylin-docs (16.10.1) yakkety; urgency=low
 
   * Update to Ubuntu Kylin 16.10
