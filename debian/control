@@ -7,7 +7,7 @@ Build-Depends-Indep: gnome-common,
                      pkg-config,
                      yelp-tools
 Vcs-Bzr: http://bazaar.launchpad.net/~luolei/ubuntu-kylin-docs/xenial
-Standards-Version: 3.9.6
+Standards-Version: 3.9.8
 Homepage: https://launchpad.net/ubuntu-kylin-docs
 
 Package: ubuntu-kylin-docs
