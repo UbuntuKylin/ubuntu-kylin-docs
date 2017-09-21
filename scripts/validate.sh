@@ -24,7 +24,7 @@
 # usage: ./validate.sh [ARGUMENT]
 #
 #    When called without an argument, the script checks the original untranslated
-#    .page files in ubuntu-help/C.
+#    .page files in ubuntu-kylin-help/C.
 #    Calling it with an argument is useful only after you have built the
 #    translated .page files. Pass the language code as argument to check a
 #    specific translation, or 'all' to check all the built .page files.
@@ -67,7 +67,7 @@
 #################################################################################
 
 validate() {
-    DIR="../ubuntu-help/$1"
+    DIR="../ubuntu-kylin-help/$1"
 
     echo " --Validation pass 1: The .page files actual validation pass (syntax):"
 #
@@ -96,23 +96,23 @@ if [ "${PWD##*/}" != 'scripts' ]; then
 fi
 
 if [ -z "$1" ]; then
-    echo 'Validation of original untranslated pages in ubuntu-help/C:'
+    echo 'Validation of original untranslated pages in ubuntu-kylin-help/C:'
     validate C
     echo
 elif [ "$1" = 'all' ]; then
-    for lang in $( ls ../ubuntu-help ); do
-        test -d "../ubuntu-help/$lang" || continue
-        test -f "../ubuntu-help/$lang/index.page" || continue
+    for lang in $( ls ../ubuntu-kylin-help ); do
+        test -d "../ubuntu-kylin-help/$lang" || continue
+        test -f "../ubuntu-kylin-help/$lang/index.page" || continue
         echo "Language '$lang':"
         validate $lang
         echo
     done
 else
-    test -d "../ubuntu-help/$1" || {
+    test -d "../ubuntu-kylin-help/$1" || {
         echo "ERROR: Language code '$1' does not exist."
         exit 1
     }
-    test -f "../ubuntu-help/$1/index.page" || {
+    test -f "../ubuntu-kylin-help/$1/index.page" || {
         echo "ERROR: '$1/index.page' not found."
         exit 1
     }

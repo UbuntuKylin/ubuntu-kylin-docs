@@ -1,6 +1,6 @@
 #!/bin/sh -e
 
-if [ "${PWD##*/}" != 'scripts' -o ! -d ../ubuntu-help ]; then
+if [ "${PWD##*/}" != 'scripts' -o ! -d ../ubuntu-kylin-help ]; then
     echo "ERROR: You should run this script from the 'scripts' directory."
     exit 1
 fi
@@ -8,12 +8,12 @@ if [ -z "$1" ]; then
     echo "ERROR: You need to state the language code for the translation to be tested."
     exit 1
 fi
-if [ ! -d "../ubuntu-help/$1" ]; then
+if [ ! -d "../ubuntu-kylin-help/$1" ]; then
     echo "ERROR: Didn't find language code '$1'."
     exit 1
 fi
 
-sed -i -r -e "s/^(HELP_LINGUAS = ).*/\1$1/" ../ubuntu-help/Makefile.am
+sed -i -r -e "s/^(HELP_LINGUAS = ).*/\1$1/" ../ubuntu-kylin-help/Makefile.am
 
 echo " --Test build of language '$1'..."
 cd ..
@@ -31,7 +31,7 @@ Due to syntax errors, the untranslated strings below are currently used on
 respective translated page instead of the translated strings. Search for the
 strings in Launchpad, try to figure out what the problem is, and correct the
 translations. Then export a new PO file and try a new test build with a
-fresh branch copy and the new ubuntu-help/$1/$1.po file.
+fresh branch copy and the new ubuntu-kylin-help/$1/$1.po file.
 +++
 EOC
     cat "$ERR"

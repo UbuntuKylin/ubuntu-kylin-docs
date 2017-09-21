@@ -1,6 +1,6 @@
 @YELP_HELP_RULES@
 
-HELP_ID = ubuntu-help
+HELP_ID = ubuntu-kylin-help
 
 HELP_LINGUAS = zh_CN
 

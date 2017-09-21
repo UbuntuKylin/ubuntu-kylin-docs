@@ -3,16 +3,16 @@
 # Prerequisites
 # sudo apt-get install gstreamer0.10-fluendo-mp3 imagemagick xdotool
 #
-# Save this script in ~/.ubuntu-help (this is also where the screenshots will be kept)
+# Save this script in ~/.ubuntu-kylin-help (this is also where the screenshots will be kept)
 # The hidden directory is so that they don't clutter the File Browser screenshot
 #
 # Open System Settings>Privacy. Delete all history
-# Switch to the Files tab and add the .ubuntu-help directory to the don't record list.
+# Switch to the Files tab and add the .ubuntu-kylin-help directory to the don't record list.
 #
 # Make sure that /etc/default/apport has enabled=0 . This
 # will turn off the automatic bug report window that will just get in the way of screenshots.
 #
-# Finally press Alt+F2 and run .ubuntu-help/collect-screenshots-without-mouse.sh
+# Finally press Alt+F2 and run .ubuntu-kylin-help/collect-screenshots-without-mouse.sh
 
 function error {
   echo -e $1
@@ -26,7 +26,7 @@ function error {
 
 lang=$(basename $LANG .UTF-8)
 echo "lang: $lang"
-dir=$HOME/.ubuntu-help/$lang/figures
+dir=$HOME/.ubuntu-kylin-help/$lang/figures
 downdir=$HOME/.downloads
 echo "dir: $dir"
 mkdir -p $dir
@@ -111,7 +111,7 @@ gnome-screenshot -f $dir/unity.png
 $long_pause
 convert $dir/unity.png -resize 250x188 $dir/unity2.png
 $long_pause
-if [ $dir == ".ubuntu-help/en-US/figures" ] # English only
+if [ $dir == ".ubuntu-kylin-help/en-US/figures" ] # English only
   then
     convert $dir/unity.png -crop 65x180+0+25 +repage $dir/unity-launcher.png
     $mid_pause

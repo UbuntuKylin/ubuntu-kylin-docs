@@ -27,10 +27,10 @@ tar -zxf "$TMPDOCS" --exclude='*.pot' --directory ..
 
 echo "Renaming translation files..."
 POLANGS=""
-for i in ../ubuntu-help/*/ubuntu-help-*.po; do
+for i in ../ubuntu-kylin-help/*/ubuntu-kylin-help-*.po; do
     OLDFILENAME=$i
-    NEWFILENAME=$(basename $i | sed -e 's/^ubuntu-help-//')
-    POLANG=$(basename $i .po | sed -e 's/^ubuntu-help-//')
+    NEWFILENAME=$(basename $i | sed -e 's/^ubuntu-kylin-help-//')
+    POLANG=$(basename $i .po | sed -e 's/^ubuntu-kylin-help-//')
     POLANGS="$POLANGS $POLANG"
     mkdir -p ../ubuntu-kylin-help/$POLANG
     mv $OLDFILENAME ../ubuntu-kylin-help/$POLANG/$NEWFILENAME

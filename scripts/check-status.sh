@@ -16,14 +16,14 @@
 #
 # DO NOT TRANSLATE
 
-if [ "${PWD##*/}" != 'scripts' -o ! -d ../ubuntu-help ]; then
+if [ "${PWD##*/}" != 'scripts' -o ! -d ../ubuntu-kylin-help ]; then
     echo "ERROR: You should run this script from the 'scripts' directory."
     exit 1
 fi
-cd ../ubuntu-help/C
+cd ../ubuntu-kylin-help/C
 
-PREVIOUS_UBUNTU_VERSIONS=( "4.10" "5.04" "5.10" "6.06" "6.10" "7.04" "7.10" "8.04" "8.10" "9.04" "9.10" "10.04" "10.10" "11.04" "11.10" "12.04" "12.10" "13.04" );
-CURRENT_UBUNTU_VERSION="13.10"
+PREVIOUS_UBUNTU_VERSIONS=( "13.04" "13.10" "14.04" "14.10" "15.04" "15.10" "16.04" "16.10" "17.04");
+CURRENT_UBUNTU_VERSION="17.10"
 
 if [ "x$1" = "x" -o "x$1" = "x--none" ]; then
     echo " "

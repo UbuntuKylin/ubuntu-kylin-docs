@@ -14,8 +14,6 @@ Package: ubuntu-kylin-docs
 Architecture: all
 Depends: ${misc:Depends},
          yelp
-Conflicts: ubuntu-docs
-Replaces: ubuntu-docs
 Description: Ubuntu Kylin Desktop Guide
  This package holds the official Ubuntu Kylin documentation, maintained by
  the Ubuntu Kylin Documentation Team. The documentation is based on the Ubuntu

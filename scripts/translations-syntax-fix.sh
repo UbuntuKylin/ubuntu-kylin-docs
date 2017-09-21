@@ -10,4 +10,4 @@
 sed -i \
 	-e 's,< /,</,g' \
 	-e 's,</ ,</,g' \
-	../ubuntu-help/*/*.po
+	../ubuntu-kylin-help/*/*.po
