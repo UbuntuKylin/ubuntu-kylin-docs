@@ -38,8 +38,7 @@ can try following <link href="https://wiki.ubuntu.com/X/Quirks#A2-button_Mice">
 these instructions</link>.</p>
 
 <p>On touchpads that support multi-finger taps, you can tap with three
-fingers at once to middle-click. You have to
-<link xref="mouse-touchpad-click">enable tap clicking</link> in the
+fingers at once to middle-click. You have to enable tap clicking in the
 touchpad settings for this to work.</p>
 
 <p>Many applications use middle-click for advanced click shortcuts.</p>
@@ -58,13 +57,6 @@ touchpad settings for this to work.</p>
   by a set amount (such as one page) in the direction you clicked. You can also
   middle-click in the empty space to move to exactly the location you
   clicked.</p></item>
-
-  <item><p>You can quickly open a new
-  window for an application with
- middle-click. Simply
-  middle-click on the application's icon, either in
- the <gui>Launcher</gui> on the left, or in
-  the <gui>Dash</gui>.</p></item>
 
   <item><p>Most web browsers allow you to open links in tabs quickly with the
   middle mouse button. Just click any link with your middle mouse button, and

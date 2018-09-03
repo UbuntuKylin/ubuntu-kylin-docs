@@ -7,7 +7,7 @@
     <link type="guide" xref="index" group="unity-menubar-intro"/>
     <link type="guide" xref="shell-overview#desktop"/>
 
-    <desc>The menu bar is the dark strip on the top of your screen.</desc>
+    <desc>对系统文件进行浏览管理及其他常用操作</desc>
 
     <revision version="14.04" date="2014-03-05" status="review"/>
 
@@ -16,120 +16,28 @@
     </credit>
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
   </info>
-  <title>Manage apps &amp; settings with the menu bar</title>
 
-  <comment>
-    <p><link href="http://askubuntu.com/questions/30334/list-of-application-indicators">additional indicators</link></p>
-  </comment>
-
-  <p>The <gui>menu bar</gui> is the dark strip on the top of your screen.
-    It contains the window management buttons, the app menus, and the status menus.</p>
+  <title>文件管理器</title>
+<p>通过文件管理器，可以浏览和管理本机文件或者本地存储设备（如外置硬盘）、文件服务器和网络共享上的文件；也可以对文件和文件夹进行各种常用操作，比如复制、粘贴等。</p>
 
 <section id="window-management">
-  <title>Window management buttons</title>
-  <p>The <gui>window management buttons</gui> are on the top left corner of windows. When
-    maximized, the buttons are in the top left of the screen. Click the buttons to
-    close, minimize, maximize or restore windows.</p>
+  <title>基础知识</title>
+<p>(1)命名：系统文件名长度最大可以为255个字符，通常是由字母、数字、“.”（点号）、“_”（下划线）和“-”（减号）组成的，“-”不能为文件名首字母</p>
+<p>(2)路径：从根目录开始的路径称为绝对路径；从当前所在目录开始的路径称为相对路径。路径中的分隔符是“/”</p>
+<p>(3)文件类型：系统支持的文件类型包括普通文件、目录文件、设备文件以及符号链接文件</p>
 </section>
 
 <section id="app-menus">
-  <title>App menus</title>
-  <p>The <gui>app menus</gui> are by default located to the right of the window management buttons.
-    Unity hides the app menus and the window management buttons unless you move your
-    mouse pointer to the top left of the screen or press <keyseq><key>Alt</key><key>F10</key></keyseq>.
-    This feature enables you to see more of your content at once, which is
-    especially valuable on small screens like netbooks.
-  </p>
-
-  <p>If you want, you can change the default behavior to having your menus attached
-    to the window title bar of respective application instead of the menu bar, and setting the visibility to always displayed instead of only displayed on mouse hovering. </p>
-
-  <steps>
-    <item>
-      <p>Click the <gui>system menu</gui> at the very right of the <gui>menu bar</gui> and select
-        <gui>System Settings</gui>.</p>
-    </item>
-    <item>
-      <p>In the Personal section, click <gui>Appearance</gui> and choose the
-        <gui>Behavior</gui> tab.</p>
-    </item>
-    <item>
-      <p>Under <gui>Show the menus for a window</gui>, select <gui>In the window's title bar</gui>.</p>
-    </item>
-    <item>
-      <p>Under <gui>Menus visibility</gui>, select <gui>Always displayed</gui>.</p>
-    </item>
-  </steps>
-
+  <title>组成要素</title>
+<p>(1)菜单栏：位于标题栏下方，可完成对文件管理器外观、操作的设置和文件的管理工作</p>
+<media type="image" src="figures/ukui/10-files1.png">
+</media>
+<p>(2)工具栏和地址栏：包括一些最常用的命令，例如回到上一个访问过的位置、转到下一个访问过的位置、搜索文件等</p>
+<media type="image" src="figures/ukui/11-files2.png">
+</media>
+<p>(3)窗口区：左边窗口列出树状的目录层次结构；右边窗口列出当前目录节点下的文件、目录列表。</p>
+<media type="image" src="figures/ukui/12-files3.png">
+</media>
 </section>
 
-
-<section id="status-menus">
-  <title>Status menus</title>
-  <p>Ubuntu has several different <gui>status menus</gui> (sometimes referred to as
-    <gui>indicators</gui>) on the right side of the menu bar.
-    The status menus are a convenient place where you can check and modify the
-    state of your computer and applications.</p>
-
-
-  <list ui:expanded="false">
-  <title>List of status menus and what they do</title>
-
-    <item>
-      <p><em>Network menu</em> <media type="image" mime="image/svg" src="figures/network-offline.svg">Offline network icon</media></p>
-      <p>Connect to <link xref="net-wired-connect">wired</link>, <link xref="net-wireless-connect">wireless</link>,
-        <link xref="net-mobile">mobile</link>, and <link xref="net-vpn-connect">VPN</link> networks.</p>
-    </item>
-
-    <item>
-      <p><em>Input source menu</em> <media type="image" mime="image/svg" src="figures/indicator-keyboard-En.svg">Input source icon</media></p>
-      <p>Select keyboard layout/input source, <link xref="keyboard-layouts">configure input sources</link>.</p>
-    </item>
-
-    <item>
-      <p><em>Bluetooth menu</em> <media type="image" mime="image/svg" src="figures/bluetooth-active.svg">Bluetooth icon</media></p>
-      <p>Send or receive files by <link xref="bluetooth">Bluetooth</link>. This menu
-        is hidden if a supported Bluetooth device isn't detected.</p>
-    </item>
-
-    <item>
-      <p><em>Messaging menu</em> <media type="image" mime="image/svg" src="figures/indicator-messages.svg">Message icon</media></p>
-      <p>Easily launch and receive incoming notifications from messaging applications
-         including email, social networking, and Internet chat.</p>
-    </item>
-
-    <item>
-      <p><em>Battery menu</em> <media type="image" mime="image/svg" src="figures/battery-100.svg">Battery icon</media></p>
-      <p>Check your laptop battery's charging status. This menu is
-       hidden if a battery isn't detected.</p>
-    </item>
-
-    <item>
-      <p><em>Sound menu</em> <media type="image" mime="image/svg" src="figures/audio-volume-high-panel.svg">Volume icon</media></p>
-      <p>Set the <link xref="sound-volume">volume</link>, configure sound <link xref="media">settings</link>,
-        and control media players like <app>Rhythmbox</app>.</p>
-    </item>
-
-    <item>
-      <p><em>Clock</em></p>
-      <p>Access the current time and date. Appointments from the built in
-        <link xref="clock-calendar">Calendar application</link> can also display here.</p>
-    </item>
-
-    <item>
-      <p><em>System menu</em> <media type="image" mime="image/svg" src="figures/system-devices-panel.svg">Power cog icon</media></p>
-      <p>Access details about your computer, this help guide, and <link xref="prefs">system settings</link>.
-        Switch users, lock screen, log out, suspend, restart or shutdown your computer.</p>
-      <note><p>Some of the icons used by the indicator menus change according to the status of the application.</p></note>
-      <p>Other programs such as <app>Tomboy</app> or <app>Transmission</app> can also add indicator menus to the panel.</p>
-    </item>
-
-  </list>
-
-  <comment>
-    <cite date="2011-02-22" href="https://ubuntuaccessibility.wordpress.com/2011/02/22/indicators-and-accessibility/">Penelope Stowe</cite>
-    <p>Indicators and Accessibility</p>
-  </comment>
-
-</section>
 </page>

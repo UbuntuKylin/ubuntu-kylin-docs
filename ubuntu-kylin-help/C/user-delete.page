@@ -29,12 +29,8 @@
   your computer, you can delete that user's account.</p>
 
 <steps>
-  <item><p>Click the icon at the far right of the <gui>menu bar</gui> and select <gui>System Settings</gui>.</p></item>
-  <item><p>Open <gui>User Accounts</gui>.</p></item>
-  <item><p>Click <gui>Unlock</gui> in the top right corner and type your
-  password to make changes. You must be an administrative user to delete user
-  accounts.</p></item>
-  <item><p>Select the user you want to delete and click the <gui>-</gui> button.</p></item>
+  <item><p>打开 开始菜单 中 控制面板 的 用户账户。</p></item>
+  <item><p>找到要删除的用户，并点击 <gui>删除用户</gui> 按钮。</p></item>
   <item><p>Each user has their own home folder for their files and settings.
   You can choose to keep or delete the user's home folder. Click <gui>Delete
   Files</gui> if you're sure they won't be used anymore and you need to free up

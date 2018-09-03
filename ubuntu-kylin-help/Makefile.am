@@ -40,8 +40,23 @@ HELP_MEDIA = \
 	figures/unity-workspace-intro.png \
 	figures/ukui/1-ukui.png \
 	figures/ukui/2-ukui-menu.png \
-	figures/ukui/3-ukui-contro-center.png \
-	figures/ukui/4-peony.png 
+	figures/ukui/3-ukui-control-center.png \
+	figures/ukui/4-peony.png \
+	figures/ukui/5-bottom.png \
+	figures/ukui/6-start1.png \
+	figures/ukui/7-start2.png \
+	figures/ukui/8-control1.png \
+	figures/ukui/9-control2.png \
+	figures/ukui/10-files1.png \
+	figures/ukui/11-files2.png \
+	figures/ukui/12-files3.png \
+	figures/ukui/13-power1.png \
+	figures/ukui/14-power2.png \
+	figures/ukui/15-pb.png \
+	figures/ukui/16-firefox.png \
+	figures/ukui/17-remmina.png \
+	figures/ukui/18-shotwell.png \
+	figures/ukui/19-pv.png
 
 HELP_FILES = \
 	legal.xml \

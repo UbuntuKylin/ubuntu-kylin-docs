@@ -9,10 +9,7 @@
     <revision version="14.04" date="2014-03-07" status="review"/>
 
     <desc>
-      <link xref="keyboard-layouts">Input sources</link>,
-      <link xref="keyboard-cursor-blink">cursor blinking</link>,
-      <link xref="windows-key">super key</link>,
-      <link xref="a11y#mobility">keyboard accessibility</link>…
+      通用设置、布局、快捷键…
     </desc>
 
     <credit type="author">
@@ -27,17 +24,11 @@
   </info>
 
 <title>Keyboard</title>
-
-<links type="topic" groups="i18n" style="linklist">
-  <title>Region &amp; Language</title>
-</links>
-
-<links type="topic" groups="a11y" style="linklist">
-  <title>Universal access</title>
-</links>
-
-<links type="topic" groups="first default last" style="linklist">
-  <title>Other topics</title>
-</links>
+<p>若想对键盘操作进行设置，可通过 开始菜单 中 控制面板 的 键盘 打开配置窗口。</p>
+<list>
+<item><p>通用设置：拖动滚动条，设置按住某一键时重复该键的延长时间以及速度，下方有一个文本框可供预览；还能对光标是否闪烁以及闪烁速度进行设置。</p></item>
+<item><p>布局：可按照国家/地区或语言来添加键盘布局，也能删除多余无用的布局。</p></item>
+<item><p>快捷键：快捷键的增删与修改。</p></item>
+</list>
 
 </page>

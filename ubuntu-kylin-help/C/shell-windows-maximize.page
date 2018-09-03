@@ -22,23 +22,9 @@
 
   <title>Maximize and unmaximize a window</title>
 
-  <p>You can maximize a window to take up all of the space on your desktop
-  and unmaximize a window to restore it to its normal size. You can also
-  maximize windows vertically along the left and right sides of the 
-  screen, so you can look at two windows at once. See
-  <link xref="shell-windows-tiled"/> for details.</p>
+  <p>窗口顶部的右上方有最大化和最小化按钮，可以通过点击按钮来操作；当窗口已经处于最大化状态时，原本的最大化按钮会变为恢复按钮，即恢复窗口最大化前的大小。</p>
 
-  <p>To maximize a window, grab the titlebar and drag it to the top of the
-  screen, or double-click the titlebar. To maximize a window using the 
-  keyboard, hold down <key>Ctrl</key> and <key><link 
-  xref="windows-key">Super</link></key> and press 
-  <key>&#8593;</key>.</p>
-
-  <p>To restore a window to its unmaximized size, drag it away from the 
-  edges of the screen. If the window is fully maximized, you can 
-  double-click the titlebar to restore it. You can also use the keyboard 
-  shortcut <keyseq><key>Ctrl</key> <key><link 
-  xref="windows-key">Super</link></key> <key>&#8595;</key></keyseq>.</p>
+  <p>另外，双击窗口标题栏，也是一种最大化或者恢复窗口的方式。</p>
 
   <note style="tip">
     <p>Hold down the <key>Alt</key> key and drag anywhere in a window to 

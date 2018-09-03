@@ -33,9 +33,9 @@ are always vulnerabilities. As an average user on the internet you can still be 
 
  <list>
   <item><p>Phishing Scams (websites and emails that try to obtain sensitive information through deception)</p></item>
-  <item><p><link xref="net-email-virus">Forwarding malicious emails</link></p></item>
-  <item><p><link xref="net-antivirus">Applications with malicious intent (viruses)</link></p></item>
-  <item><p><link xref="net-wireless-wepwpa">Unauthorized remote/local network access</link></p></item>
+  <item><p>Forwarding malicious emails</p></item>
+  <item><p>Applications with malicious intent (viruses)</p></item>
+  <item><p>Unauthorized remote/local network access</p></item>
  </list>
 
 <p>To stay safe online, keep in mind the following tips:</p>
@@ -45,12 +45,12 @@ are always vulnerabilities. As an average user on the internet you can still be 
   <item><p>If a website's offer is too good to be true, or asks for sensitive information
 that seems unnecessary, then think twice about what information you are submitting and the potential
 consequences if that information is compromised by identity thieves or other criminals.</p></item>
-  <item><p>Be careful in providing any application <link xref="user-admin-explain">root level permissions</link>, especially ones that
+  <item><p>Be careful in providing any application root level permissions, especially ones that
 you have not used before or apps that are not well-known. Providing anyone/anything with root level
 permissions puts your computer at high risk to exploitation.</p></item>
   <item><p>Make sure you are only running necessary remote-access services. Having
 SSH or VNC running can be useful, but also leaves your computer open to intrusion if not
-secured properly. Consider using a <link xref="net-firewall-on-off">firewall</link> to help
+secured properly. Consider using a firewall to help
 protect your computer from intrusion.</p></item>
  </list>
 

@@ -45,14 +45,7 @@
 
   <steps>
     <item>
-      <if:choose>
-        <if:when test="platform:unity">
-          <p>Click the Bluetooth icon in the menu bar and select <gui>Set Up New 
-          Device</gui>.</p>
-        </if:when>
-        <p>Click the Bluetooth icon on the top bar and select <gui>Set up a New 
-        Device</gui>.</p>
-      </if:choose>
+        <p>点击屏幕右下角的蓝牙图标，并选择 <gui>设置新设备</gui>。</p>
     </item>
     <item>
       <p>Make the other Bluetooth device <link 
@@ -97,11 +90,5 @@
 
   <p>You can <link xref="bluetooth-remove-connection">remove a Bluetooth 
   connection</link> later if desired.</p>
-
-      <note style="tip">
-        <p>To control access to your shared files, refer to the
-        <gui>Bluetooth Sharing</gui> settings. See
-        <link xref="sharing-bluetooth"/>.</p>
-      </note>
 
 </page>

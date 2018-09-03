@@ -16,12 +16,9 @@
 
 
     <desc>
-      <link xref="net-wireless">Wireless</link>,
-      <link xref="net-wired">wired</link>,
-      <link xref="net-problem">connection problems</link>,
-      <link xref="net-browser">web browsing</link>,
-      <link xref="net-email">email accounts</link>,
-      <link xref="net-chat">instant messaging</link>…
+      <link xref="net-wired">网络连接</link>,
+      <link xref="net-browser">浏览器</link>,
+      <link xref="net-email">邮件客户端</link>…
     </desc>
 <!--
     chat…
@@ -41,7 +38,7 @@
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
   </info>
 
-<title>Networking, web, email &amp; chat</title>
+<title>网络应用</title>
 <links type="topic" style="toronto"/>
 
 </page>

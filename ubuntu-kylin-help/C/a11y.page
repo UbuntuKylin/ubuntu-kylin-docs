@@ -19,7 +19,6 @@
       <!-- <link xref="a11y-mag">screen magnifier</link>... -->
     </desc>
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
-    <link type="guide" xref="index" group="a11y"/>
     <revision version="13.10" date="2013-10-25" status="review"/>
   </info>
 

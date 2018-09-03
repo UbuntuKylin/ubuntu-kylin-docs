@@ -36,10 +36,7 @@
 </comment>
 
 <steps>
-  <item><p>Click the icon on the very right of the menu bar and select <gui>System Settings</gui>.</p></item>
-  <item><p>Open <gui>Displays</gui>.</p></item>
-  <item><p>If you have multiple displays and they are not mirrored, you can have
-  different settings on each display. Select a display in the preview area.</p></item>
+  <item><p>通过开始菜单打开控制面板中的 <gui>显示器</gui>。</p></item>
   <item><p>Select your desired resolution and rotation.</p></item>
   <item><p>Click <gui>Apply</gui>. The new settings will be applied for 30 seconds
   before reverting back. That way, if you cannot see anything with the new settings,
@@ -59,15 +56,12 @@ height. Wide-screen displays use a 16:9 aspect ratio, while traditional
 displays use 4:3. If you choose a resolution that does not match the aspect
 ratio of your display, the screen will be letterboxed to avoid distortion.</p>
 <p>You can choose the resolution you prefer from the <gui>Resolution</gui> drop-down
-list. If you choose one that is not right for your screen it may
-<link xref="look-display-fuzzy">look fuzzy or pixelated</link>.</p>
+list. If you choose one that is not right for your screen it may look fuzzy or pixelated.</p>
 </section>
 
 <section id="rotation">
 <title>Rotation</title>
-<p>On some laptops, you can physically rotate the screen in many directions.
-It is useful to be able to change the display rotation. You can choose the rotation
-you want for your display from the <gui>Rotation</gui> drop-down list.</p>
+<p>某些情况下，改变显示方向是很有用的，您可以在 <gui>方向</gui> 的下拉菜单中选择。</p>
 </section>
 
 </page>

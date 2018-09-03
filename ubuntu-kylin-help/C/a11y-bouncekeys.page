@@ -21,7 +21,6 @@
     </desc>
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
     <link type="guide" xref="a11y#mobility" group="keyboard"/>
-    <link type="guide" xref="keyboard" group="a11y"/>
     <revision pkgversion="3.8.0" version="0.3" date="2013-03-13" 
     status="candidate"/>
     <revision version="13.10" date="2013-10-25" status="review"/>

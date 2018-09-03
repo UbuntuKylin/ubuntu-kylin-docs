@@ -3,7 +3,6 @@
       id="nautilus-bookmarks-edit">
 
   <info>
-    <link type="guide" xref="files#faq"/>
 
     <revision pkgversion="3.6.0" version="0.2" date="2012-09-30" status="review"/>
     <revision version="14.10" date="2014-09-14" status="review"/>

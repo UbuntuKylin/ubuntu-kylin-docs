@@ -2,7 +2,6 @@
   type="topic" style="task"
   id="mouse-sensitivity">
 <info>
-    <link type="guide" xref="mouse"/>
     <link type="guide" xref="a11y#mobility" group="pointing"/>
 
     <revision pkgversion="3.8.0" version="0.3" date="2013-03-13" status="candidate"/>

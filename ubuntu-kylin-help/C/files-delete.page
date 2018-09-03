@@ -65,13 +65,6 @@
     you want to delete the file or folder.</p></item>
   </steps>
 
-  <note style="tip"><p>If you frequently need to delete files without using the
-  trash (for example, if you often work with sensitive data), you can add a
-  <gui>Delete</gui> entry to the right-click menu for files and folders.
-  Click <gui>Files</gui> in the menu bar, pick <gui>Preferences</gui> and select
-  the <gui>Behavior</gui> tab. Select <gui>Include a Delete command that
-  bypasses Trash</gui>.</p></note>
-
   <note><p>Deleted files on a <link xref="files#removable">removable device
   </link> may not be visible on other operating systems, such Windows or Mac
   OS. The files are still there, and will be available when you plug the device

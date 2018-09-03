@@ -30,7 +30,7 @@
 <terms>
 <item>
  <title>Using the mouse:</title>
- <p>Open the <link xref="unity-launcher-intro">Launcher</link> and click the <gui>workspace switcher</gui> button near the bottom. Double-click on any window or workspace to switch to it, or press the workspace switcher button again to return to your previous workspace.</p>
+ <p>直接在任务栏的工作区上，单击想要切换到的位置</p>
 </item>
 
 <item>
@@ -56,8 +56,5 @@ Press <keyseq><key>Ctrl</key><key>Alt</key><key>&#8593;</key></keyseq> to move t
 
 </item>
 </terms>
-
-<media type="image" src="figures/unity-windows.png">
-</media>
 
 </page>

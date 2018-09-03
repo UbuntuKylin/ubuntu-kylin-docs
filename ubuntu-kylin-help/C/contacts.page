@@ -4,7 +4,6 @@
 
 <info>
 
-  <link type="guide" xref="net"/>
 
     <revision pkgversion="3.5.5" date="2012-08-13" status="review"/>
     <revision version="13.10" date="2013-09-07" status="review"/>

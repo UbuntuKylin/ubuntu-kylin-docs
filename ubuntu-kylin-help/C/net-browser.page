@@ -6,14 +6,8 @@
     <revision pkgversion="3.4.0" date="2012-02-20" status="final"/>
     <revision version="13.10" date="2013-09-15" status="review"/>
 
+    <desc>便捷好用的网络浏览器</desc>
     <link type="guide" xref="net"/>
-
-    <desc>
-      <link xref="net-default-browser">Change the default browser</link>,
-      <link xref="net-install-flash">install Flash</link>,
-      <link xref="net-install-java-plugin">install the java plugin</link>,
-      <link xref="net-install-moonlight">Silverlight support</link>…
-    </desc>
 
     <credit type="author">
       <name>The Ubuntu Documentation Team</name>
@@ -21,6 +15,9 @@
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
   </info>
 
-<title>Web Browsers</title>
+<title>Firefox 浏览器</title>
 
+<p>系统默认继承了Firefox浏览器，单击系统面板上的“Firefox 网络浏览器”图标，就能启动。它提供了便捷快速的网页浏览方式。</p>
+<p>在联网情况下，在地址栏中输入想要访问的Internet地址或URL，然后按下“Enter”键，即可跳转到该网址或者URL对应的页面。</p>
+<media type="image" src="figures/ukui/16-firefox.png"></media>
 </page>

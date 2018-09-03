@@ -35,16 +35,7 @@
   <steps>
     <item>
       <p>
-        Connect to the Internet using a <link 
-        xref="net-wireless-connect">wireless</link> or <link 
-        xref="net-wired-connect">wired connection</link>.
-      </p>
-    </item>
-    <item>
-      <p>
-        Click the <app>Software</app> icon in the 
-        <gui>Launcher</gui>, or search for <input>Software</input> in the 
-        <gui>Dash</gui>.
+        打开软件中心。
       </p>
     </item>
     <item>
@@ -67,15 +58,7 @@
     </item>
     <item>
       <p>
-        The installation usually finishes quickly, but could take a while if you 
-        have a slow Internet connection.
-      </p>
-    </item>
-    <item>
-      <p>
-        A shortcut to your new app will be added to the Launcher. To disable 
-        this feature, uncheck <guiseq><gui>View</gui><gui>New Applications in 
-        Launcher</gui></guiseq>.
+      如果您知道需求软件的软件包名，也可以在终端中执行 sudo apt-get install [软件包名] 来进行安装
       </p>
     </item>
   </steps>

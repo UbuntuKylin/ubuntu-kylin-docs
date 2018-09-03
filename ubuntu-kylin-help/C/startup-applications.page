@@ -24,8 +24,7 @@
 
   <steps>
     <item>
-      <p>Use <link xref="unity-dash-intro">the Dash</link> to find and open
-      <gui>Startup Applications</gui>. Alternatively you can press
+      <p>You can press
       <keyseq><key>Alt</key><key>F2</key></keyseq> and run the
       <cmd>gnome-session-properties</cmd> command.</p>
     </item>

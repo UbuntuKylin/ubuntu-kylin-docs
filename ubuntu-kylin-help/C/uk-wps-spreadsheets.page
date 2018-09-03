@@ -18,7 +18,7 @@
 
   <title>WPS 表格</title>
   <p><app>WPS 表格</app> 可以进行各种数据的处理、统计分析和辅助决策操作。</p>
-  <p><app>WPS 表格</app> 分为 8 大模块，分别为：<gui>开始</gui>、<gui>插入</gui>、<gui>页面布局</gui>、<gui>公式</gui>、<gui>数据</gui>、<gui>表格样式</gui>、<gui>审阅</gui>、<gui>视图</gui>。  </p>
+  <p><app>WPS 表格</app> 分为 7 大模块，分别为：<gui>开始</gui>、<gui>插入</gui>、<gui>页面布局</gui>、<gui>公式</gui>、<gui>数据</gui>、<gui>审阅</gui>、<gui>视图</gui>。  </p>
 
 <section id="func" style="1column">
     <title>功能</title>
@@ -41,10 +41,6 @@
     
     <item><p>
     <gui>数据</gui> 菜单中提供了对数据进行分类、模拟、组织、筛选等功能。  
-    </p></item>
-    
-    <item><p>
-    <gui>表格样式</gui> 菜单中提供了多种样式，轻松的做到一键美化。
     </p></item>
     
     <item><p>

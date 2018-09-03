@@ -41,14 +41,7 @@ toolbar.</p>
 
 <section id="icon-view">
  <title>Icon view</title>
- <p>To sort files in a different order, click the
- <media type="image" src="figures/go-down.png">down</media> button in the
- toolbar and choose <gui>By Name</gui>, <gui>By Size</gui>, <gui>By Type</gui>
- or <gui>By Modification Date</gui>.</p>
- <p>As an example, if you select <gui>By Name</gui>, the files will be sorted by
- their names, in alphabetical order. See <link xref="#ways"/> for other options.</p>
- <p>You can sort in the reverse order by selecting <gui>Reversed Order</gui>
- from the pull-down menu.</p>
+<p>您可以在文件管理器的空白处右键单击，在<gui>排列项目</gui>中选择排序的方式，还可以勾选<gui>逆序</gui>，让文件按相反顺序排列。 </p>
 </section>
 
 <section id="list-view">
@@ -57,8 +50,7 @@ toolbar.</p>
  file manager. For example, click <gui>Type</gui> to sort by file type. Click
  the column heading again to sort in the reverse order.</p>
  <p>In list view, you can show columns with more attributes and sort on those
- columns. Click the
- <media type="image" src="figures/go-down.png">down</media> button in the
+ columns. Click the button in the
  toolbar, pick <gui>Visible Columns</gui> and select the columns that you want
  to be visible. You will then be able to sort by those columns. See
  <link xref="nautilus-list"/> for descriptions of available columns.</p>

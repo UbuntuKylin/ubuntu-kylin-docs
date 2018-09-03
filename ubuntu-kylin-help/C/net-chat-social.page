@@ -2,7 +2,6 @@
       type="topic" style="task"
       id="net-chat-social">
   <info>
-    <link type="guide" xref="net-chat"/>
 
     <revision version="13.10" date="2013-09-18" status="review"/>
 

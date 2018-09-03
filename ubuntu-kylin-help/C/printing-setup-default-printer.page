@@ -6,7 +6,7 @@
   <info>
     <link type="guide" xref="printing#setup" />
 
-    <desc>Pick the printer that you use most often.</desc>
+    <desc>打印机的属性、重命名、共享及默认打印机</desc>
 
     <revision pkgversion="3.7.1" version="0.2" date="2012-11-16" status="outdated"/>
     <revision version="13.10" date="2013-09-19" status="review"/>
@@ -27,28 +27,23 @@
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
   </info>
 
-  <title>Set the default printer</title>
-  <p>If you have more than one printer available, you can select which will be your default printer. You may want to pick the printer you use most often.</p>
+  <title>打印机属性设置</title>
+  <p>如果没有设置显示过滤，系统已经添加的打印机都会显示在打印机列表中，打印机配置工具能够方便地对系统中的多个打印机进行管理。</p>
+  <p>选择某一打印机，利用右键可对打印机相关属性进行设置与管理。</p>
 
-  <steps>
+  <list>
     <item>
-      <p>Click the icon at the far right of the <gui>menu bar</gui> and select <gui>System Settings</gui>.</p>
+      <p>配置打印机属性：在“属性”里，可以对打印机的基本属性进行设置</p>
     </item>
     <item>
-      <p>Open <gui>Printers</gui>.</p>
+      <p>打印机的复制、删除和重命名：进行打印机的复制删除及重命名操作</p>
     </item>
     <item>
-      <p>Right click your desired default printer from the list of available printers, and click <gui>Set as Default</gui>.</p>
+      <p>打印机的启用和设置共享：在“启用”栏前面的小方框内打勾即启用该打印机；在“共享”栏前面的小方框内打勾即开启共享，不打勾即为关闭</p>
     </item>
-  </steps>
+    <item>
+      <p>设置用户默认打印机：当有多个打印机的时候，选择列表中的某一打印机，右键选择“设为默认”菜单项，则将当前的打印机设为用户默认的打印机</p>
+    </item>
+  </list>
 
-  <note>
-  <p>When choosing from the list of available printers, you can
-  filter the printer search results by specifying a name or location of the
-  printer (for example, <input>1st floor</input> or <input>entrance</input>).</p>
-  <p>The search results filtering is available only in the dialog for addition of new printers.</p>
-  </note>
-
-  <p>When you print in an application, the default printer is automatically
- used, unless you choose a different printer for that specific print job.</p>
 </page>

@@ -14,12 +14,7 @@
     <revision version="13.10" date="2013-09-19" status="review"/>
 
     <desc>
-      <link xref="printing-setup">Local setup</link>,
-      <!--
-      <link xref="printing-setup-networked">networked setup</link>,
-      -->
-      <link xref="printing-order">order and collate</link>,
-      <link xref="printing-2sided">two-sided and multi-page</link>…
+    设置打印机、打印机问题
     </desc>
 
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
@@ -39,17 +34,9 @@
  <title>Set up a printer</title>
 </section>
 
-<section id="paper" style="2column">
-  <info>
-    <title type="link" role="trail">Sizes and layouts</title>
-  </info>
- <title>Different paper sizes and layouts</title>
-</section>
-
 <section id="problems" style="2column">
  <info>
   <link type="guide" xref="hardware#problems"/>
-  <desc>Undetected printers, paper jams, print-outs that look wrong…</desc>
  </info>
  <title>Printer problems</title>
 </section>

@@ -33,14 +33,9 @@
   lock automatically.</p>
 
   <steps>
-    <item><p>Click the icon at the very right of the <gui>menu bar</gui> and select <gui>System Settings</gui>.</p></item>
-    <item><p>Select <gui>Brightness &amp; Lock</gui>.</p></item>
-    <item><p>Make sure <gui>Lock</gui> is switched on, then select a timeout
-    from the drop-down list below. The screen will automatically lock after
-    you have been inactive for this long. You can also select <gui>Screen
-    turns off</gui> to lock the screen after the screen is automatically
-    turned off, controlled with the <gui>Turn screen off when inactive for</gui> drop-down
-    list above.</p></item>
+    <item><p>点击<gui>开始菜单</gui>，打开控制面板</p></item>
+    <item><p>选择电源管理</p></item>
+    <item><p>在转入睡眠的下拉框中，选择超时时间；屏幕会在停止操作该时间后，自动锁定</p></item>
   </steps>
 
 </page>

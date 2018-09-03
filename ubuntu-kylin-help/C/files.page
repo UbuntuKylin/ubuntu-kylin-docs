@@ -19,11 +19,9 @@
 
     <revision version="13.10" date="2013-10-23" status="review"/>
     <desc>
-      <link xref="files-search">Searching</link>,
-      <link xref="files-delete">delete files</link>,
-      <link xref="files#backup">backups</link>,
-      <link xref="files#removable">removable drives</link>,
-      <link xref="files#documents">documents</link>…
+      <link xref="files-search">搜索</link>,
+      <link xref="files-delete">删除文件</link>,
+      <link xref="files#removable">可移动驱动器</link>…
     </desc>
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
   </info>
@@ -45,16 +43,6 @@
 
 <section id="removable">
   <title>Removable drives and external disks</title>
-  <links type="topic" style="2column"/>
-</section>
-
-<section id="backup">
-  <title>Backing up</title>
-  <links type="topic" style="2column"/>
-</section>
-
-<section id="documents">
-  <title>Documents</title>
   <links type="topic" style="2column"/>
 </section>
 

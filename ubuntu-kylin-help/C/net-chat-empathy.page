@@ -33,16 +33,4 @@
     <gui>Chat</gui> from the <link xref="unity-menubar-intro">Messaging menu</link>.
   </p>
 
-  <note style="tip">
-    <p>
-      You can change your instant messaging status (Available, Away, Busy, etc.)
-      from the <link xref="unity-menubar-intro">Messaging menu</link>.
-    </p>
-  </note>
-
-  <p>
-    For help with using Empathy, read the <link href="help:empathy">Empathy
-    manual</link>.
-  </p>
-
 </page>

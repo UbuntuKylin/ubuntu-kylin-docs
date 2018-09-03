@@ -56,18 +56,6 @@ from the file manager.</p>
   <title>Destinations</title>
   <item><p>To email the file, select <gui>Email</gui> and enter
   the recipient's email address.</p></item>
-  <item><p>To send the file to an instant messaging contact, select
-  <gui>Instant Message</gui>, then select contact from the drop-down list.
-  Your instant messaging application may need to be started for this
-  to work.</p></item>
-  <item><p>To write the file to a CD or DVD, select <gui>CD/DVD 
-  Creator</gui>.
-  See <link xref="files-disc-write"/> to learn more.</p></item>
-  <item><p>To transfer the file to a Bluetooth device, select
-  <gui>Bluetooth (OBEX Push)</gui> and select the device to send the file 
-  to.
-  You will only see devices you have already paired with.
-  See <link xref="bluetooth"/> for more information.</p></item>
   <item><p>To copy a file to an external device like a USB flash drive,
   or to upload it to a server you've connected to, select <gui>Removable
   disks and shares</gui>, then select the device or server you want to

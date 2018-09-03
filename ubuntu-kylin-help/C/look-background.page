@@ -47,23 +47,6 @@ it to a simple color or gradient.</p>
   <item><p>Select an image or color. The settings are applied immediately.</p></item>
 </steps>
 
-<p>There are three choices in the drop-down list on the top right.</p>
-<list>
-  <item><p>Select <gui>Wallpapers</gui> to use one of the many professional
-  background images that ship with Ubuntu. With the exception of the Ubuntu wallpaper,
-  all of the default wallpaper choices were created by winners of a Community 
-  Wallpaper Contest.</p>
-  <p>Some wallpapers are partially
-  transparent and allow a background color to show through. For these
-  wallpapers, there will be a color selector button in the bottom-right
-  corner.</p></item>
-  <item><p>Select <gui>Pictures Folder</gui> to use one of your own photos
-  from your Pictures folder. Most photo management applications
-  store photos there.</p></item>
-  <item><p>Select <gui>Colors &amp; Gradients</gui> to just
-  use a flat color or a linear gradient. Color selector buttons will appear
-  in the bottom right corner.</p></item>
-</list>
 
 <p>You can also browse for any picture on your computer by clicking
 the <gui>+</gui> button. Any picture you add this way will show up

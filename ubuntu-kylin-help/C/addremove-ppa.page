@@ -10,8 +10,6 @@
       Add PPAs to help test pre-release or specialty software.
     </desc>
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
-    <link type="guide" xref="addremove"/>
-    <link type="seealso" xref="addremove-sources"/>
     <revision version="16.04" date="2016-03-13" status="review"/>
   </info>
 

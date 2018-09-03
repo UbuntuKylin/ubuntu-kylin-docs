@@ -2,7 +2,6 @@
       type="topic" style="task"
       id="files-templates">
   <info>
-    <link type="guide" xref="files#faq"/>
 
     <desc>Quickly create new documents from custom file templates.</desc>
 

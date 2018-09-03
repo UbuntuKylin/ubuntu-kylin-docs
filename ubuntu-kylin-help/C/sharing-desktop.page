@@ -16,84 +16,33 @@
       <email>ubuntu-doc@lists.ubuntu.com</email>
     </credit>
 
-    <desc>Let other people view and interact with your desktop using VNC.</desc>
+    <desc>让他人连接到您的系统上并进行交互</desc>
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
   </info>
 
-  <title>Share your desktop</title>
+  <title>远程桌面客户端</title>
 
-  <p>You can let other people view and control your desktop from another computer
- with a desktop viewing application. Configure <app>Desktop Sharing</app> to
- allow others to access your desktop and set the security preferences.</p>
+<p>远程桌面客户端提供了RDP、SFTP、VNC和SSH四种远程协议。</p>
+<media type="image" src="figures/ukui/17-remmina.png"></media>
+<p>此处以SSH协议举例说明：</p>
 
   <steps>
     <item>
-      <p>In the <gui>Dash</gui>, open <app>Desktop Sharing</app>.</p>
+      <p>在开始菜单的所有软件中，打开 <app>Remmina</app>。</p>
     </item>
     <item>
-      <p>To let others view your desktop, select
- <gui>Allow other users to view your desktop</gui>. This means that other
- people will be able to attempt to connect to your computer and view what's
- on your screen.</p>
+      <p>点击窗口左上侧的<gui>+</gui>号，对连接进行配置。</p>
     </item>
     <item>
-      <p>To let others interact with your desktop, select
- <gui>Allow other users to control your desktop</gui>. This may allow the
- other person to move your mouse, run applications, and browse files
- on your computer, depending on the security settings which you are currently
- using.</p>
+      <p><gui>协议</gui>选择“SSH-安全shell连接”；<gui>服务器</gui>写入目标IP地址，<gui>用户名</gui>即目标机器的用户名，<gui>User password</gui>对应目标机器的用户密码。您还可以在“高级”标签页中去做别的相关配置。</p>
+    </item>
+    <item>
+    <p>设置完成后，选择连接。需要注意的是，目标机器需要打开了SSH才能成功连接上。</p>
     </item>
   </steps>
 
-  <section id="security">
-  <title>Security</title>
-
-  <p>It is important that you consider the full extent of what each security
- option means before changing it.</p>
-  <terms>
-    <item>
-      <title>Confirm access to your machine</title>
-      <p>If you want to be able to choose whether to allow someone to access
- your desktop, select <gui>You must confirm each access to this machine</gui>.
- If you disable this option, you will not be asked whether you want to allow
- someone to connect to your computer.</p>
       <note style="tip">
-        <p>This option is enabled by default.</p>
+        <p>关闭窗口时，程序会最小化到桌面任务栏右侧的托盘上。您可以通过左键单击，选择“退出”来关闭程序。</p>
       </note>
-    </item>
-    <item>
-      <title>Enable password</title>
-      <p>To require other people to use a password when connecting to your
- desktop, select <gui>Require the user to enter this password</gui>. If you do
- not use this option, anyone can attempt to view your desktop.</p>
-      <note style="tip">
-        <p>This option is disabled by default, but you should enable it and set
- a secure password.</p>
-      </note>
-    </item>
-    <item>
-      <title>Allow access to your desktop over the Internet</title>
-      <p>If your router supports UPnP Internet Gateway Device Protocol and it is
- enabled, you can allow other people who are not on your local network to view
- your desktop. To allow this, select <gui>Automatically configure UPnP router to
- open and forward ports</gui>. Alternatively, you can configure your router
- manually.</p>
-      <note style="tip">
-        <p>This option is disabled by default.</p>
-      </note>
-    </item>
-  </terms>
-  </section>
-
-  <section id="notification-icon">
-  <title>Show notification area icon</title>
-  <p>To be able to disconnect someone who is viewing your desktop, you need to
- enable this option. If you select <gui>Always</gui>, this icon will be visible
- regardless of whether someone is viewing your desktop or not.</p>
-    <note style="warning">
-      <p>If this option is disabled, it is possible for someone to connect to
- your desktop without your knowledge, depending on the security settings.</p>
-    </note>
-  </section>
 
 </page>

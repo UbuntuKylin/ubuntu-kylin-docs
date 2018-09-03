@@ -31,15 +31,9 @@
 
 <title>Change which applications show in the Launcher</title>
 
-<p>To add an application to the <link 
-xref="unity-launcher-intro">Launcher</link> for quick access:</p>
+<p>To add an application to the Launcher for quick access:</p>
  <list>
-  <item><p>Drag the application's icon from the <link 
-  xref="unity-dash-intro">Dash</link> onto the Launcher.</p></item>
-  <item>
-   <p>Alternatively, when an application is running, right click on the 
-   application icon and select <gui>Lock to Launcher</gui>.</p>
-  </item>
+  <item><p>Drag the application's icon from the start-menu onto the Launcher.</p></item>
   </list>
 
 <p>The Launcher icon order can be changed by dragging an icon off of the 

@@ -200,7 +200,7 @@ msgstr ""
 msgid ""
 "Click the icon at the very right of the <gui>menu bar</gui> and select "
 "<gui>System Settings</gui>."
-msgstr "单击顶部<gui>菜单栏</gui>最右侧的图标，选择<gui>系统设置</gui>。"
+msgstr "打开<gui>开始菜单</gui>，选择<gui>控制面板</gui>。"
 
 #. (itstool) path: item/p
 #: C/a11y-bouncekeys.page:47 C/a11y-slowkeys.page:50 C/a11y-stickykeys.page:55
@@ -2858,7 +2858,7 @@ msgstr "单击顶栏上的蓝牙图标，选择<gui>蓝牙设置</gui>。"
 msgid ""
 "Select the device you want to disconnect in the left pane, then click the "
 "<gui>-</gui> icon underneath the list."
-msgstr "从列表中选择您想要向断开的设备，然后单击列表下边的<gui>-</gui>图标。"
+msgstr "从列表中选择您想要向断开的设备，然后单击窗口上的<gui>-</gui>图标。"
 
 #. (itstool) path: item/p
 #: C/bluetooth-remove-connection.page:49
@@ -3054,8 +3054,7 @@ msgid ""
 "files, but turn it off to conserve power. To turn Bluetooth on, click the "
 "Bluetooth icon on the top bar and switch <gui>Bluetooth</gui> on."
 msgstr ""
-"您可以打开蓝牙传输或接收文件，也可以关闭蓝牙节省能量。要打开蓝牙，请单击顶栏"
-"上的蓝牙图标，打开<gui>蓝牙</gui>。"
+"您可以打开蓝牙传输或接收文件，也可以关闭蓝牙节省能量。单击桌面任务栏右侧的蓝牙图标，可以选择打开或关闭 <gui>蓝牙</gui>。"
 
 #. (itstool) path: when/p
 #: C/bluetooth-turn-on-off.page:42
@@ -5901,7 +5900,7 @@ msgstr "如果您想要调整显示器的相对位置，单击对应显示器并
 msgid ""
 "If you would like both monitors to display the same content, check the "
 "<gui>Mirror displays</gui> box."
-msgstr "如果您想让两个显示器显示同样的内容，勾上<gui>镜像显示</gui>选项即可。"
+msgstr "如果您想让两个显示器显示同样的内容，勾上<gui>所有显示器显示主屏幕图像</gui>选项即可。"
 
 #. (itstool) path: item/p
 #: C/display-dual-monitors-desktop.page:53 C/display-dual-monitors.page:78
@@ -5909,7 +5908,7 @@ msgid ""
 "When you are happy with your settings, click <gui>Apply</gui> and then click "
 "<gui>Keep This Configuration</gui>."
 msgstr ""
-"当您对设置满意时，点击 <gui>应用</gui>，然后再点击 <gui>保留此设置</gui>。"
+"点击 <gui>保存更改</gui>，若对设置满意，再点击 <gui>保留此设置</gui>。"
 
 #. (itstool) path: item/p
 #: C/display-dual-monitors-desktop.page:57 C/display-dual-monitors.page:85
@@ -6876,7 +6875,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/files-browse.page:59
 msgid "Exploring the contents of folders"
-msgstr "查看文件夹内容。"
+msgstr "查看文件夹内容"
 
 #. (itstool) path: section/p
 #: C/files-browse.page:61
@@ -6898,9 +6897,7 @@ msgid ""
 "or access its properties."
 msgstr ""
 "文件和文件夹列表上方的路径栏显示您正在查看的文件夹，其中包括最高可至主目录、"
-"可移动设备根目录或文件系统根目录的父文件夹。单击路径栏中的父文件夹可转到该文"
-"件夹。右击路径栏中的任一文件夹可在新标签或窗口中将其打开，对其进行复制或移"
-"动，或查看其属性信息。"
+"可移动设备根目录或文件系统根目录的父文件夹。"
 
 #. (itstool) path: section/p
 #: C/files-browse.page:72
@@ -6912,8 +6909,7 @@ msgid ""
 "your search."
 msgstr ""
 "如果您想快速跳到您正在浏览的文件夹中的文件，键入文件名称。一个搜索框将出现在"
-"窗口的顶部，符合您搜索的第一个文件将被高亮显示。按向下箭头键，或滚动鼠标，可"
-"跳到符合您的搜索下一个文件。"
+"窗口的顶部，符合您搜索的文件将被显示。"
 
 #. (itstool) path: section/p
 #: C/files-browse.page:78
@@ -7064,7 +7060,7 @@ msgid ""
 "In the new window, navigate to the folder where you want to move or copy the "
 "file."
 msgstr ""
-"点击顶部栏的<gui>文件</gui>，选择<gui>新窗口</gui> (或者按<keyseq><key> Ctrl "
+"点击顶部栏的<gui>文件</gui>，选择<gui>新建窗口</gui> (或者按<keyseq><key> Ctrl "
 "</key><key> N </key></keyseq>键)打开新窗口。在新窗口中，导航到您要移动或复制"
 "的文件的文件夹。"
 
@@ -7146,7 +7142,7 @@ msgid ""
 "Press <key>Delete</key> on your keyboard. Alternatively, drag the item to "
 "the <gui>Trash</gui> in the sidebar."
 msgstr ""
-"按键盘上的 <key>Delete</key> 键。或者，将项目拖入侧边栏中的<gui>回收站</"
+"按键盘上的 <key>Delete</key> 键；或者选择右键菜单中的<gui>删除到回收站</gui>；或者将项目拖入侧边栏中的<gui>回收站</"
 "gui>。"
 
 #. (itstool) path: page/p
@@ -7422,8 +7418,7 @@ msgid ""
 "<keyseq><key>Ctrl</key><key>H</key></keyseq>. You will see all hidden files, "
 "along with regular files that are not hidden."
 msgstr ""
-"如果您想在文件夹中查看所有的隐藏文件，进入该文件夹，或者点击工具栏上的<media "
-"type=\"image\" src=\"figures/go-down.png\">向下</media>按钮，勾选<gui>显示隐"
+"如果您想在文件夹中查看所有的隐藏文件，进入该文件夹，在“查看”中勾选<gui>显示隐"
 "藏文件夹</gui>，或者按<keyseq><key> Ctrl </key><key> H </key></keyseq>键。您"
 "将看到所有的隐藏文件和未隐藏的普通文件。"
 
@@ -7435,8 +7430,7 @@ msgid ""
 "<gui>Show Hidden Files</gui>, or press <keyseq><key>Ctrl</key><key>H</key></"
 "keyseq> again."
 msgstr ""
-"如果想再次将这些文件隐藏，或者点击工具栏上的<media type=\"image\" src="
-"\"figures/go-down.png\">向下</media>按钮，勾选<gui>显示隐藏文件</gui>，或者再"
+"如果想再次将这些文件隐藏，则不勾选<gui>显示隐藏文件</gui>，或者再"
 "次按<keyseq><key> Ctrl </key><key> H </key></keyseq>键。"
 
 #. (itstool) path: section/title
@@ -7454,8 +7448,7 @@ msgid ""
 "For example, to unhide a file called <file>.example.txt</file>, you should "
 "rename it to <file>example.txt</file>."
 msgstr ""
-"要取消隐藏文件，进入包含隐藏文件的文件夹，点击工具栏上的<media type=\"image"
-"\" src=\"figures/go-down.png\">向下</media>按钮，勾选<gui>显示隐藏文件</"
+"要取消隐藏文件，进入包含隐藏文件的文件夹，勾选<gui>显示隐藏文件</"
 "gui>。找到该隐藏文件将其重命名，去掉名字前的 <key> . </key>。例如，要取消一个"
 "名为<file>.example.txt</file>的隐藏文件，将它重命名为<file> example.txt </"
 "file>。"
@@ -7468,8 +7461,7 @@ msgid ""
 "<gui>Show Hidden Files</gui>, or press <keyseq><key>Ctrl</key><key>H</key></"
 "keyseq> to hide any other hidden files again."
 msgstr ""
-"重命名文件之后，您可以点击工具栏上的 <media type=\"image\" src=\"figures/go-"
-"down.png\">向下</media> 按钮选择 <gui>显示隐藏文件</gui>，或使用键盘快捷键 "
+"重命名文件之后，使用键盘快捷键 "
 "<keyseq><key>Ctrl</key><key>H</key></keyseq> 来再次隐藏其它隐藏文件。"
 
 #. (itstool) path: note/p
@@ -7546,13 +7538,11 @@ msgstr ""
 msgid ""
 "You might have renamed the file in a way that made the file hidden. Files "
 "that start with a <file>.</file> or end with a <file>~</file> are hidden in "
-"the file manager. Click the <media type=\"image\" src=\"figures/go-down.png"
-"\">down</media> button in the file manager toolbar and pick <gui>Show Hidden "
+"the file manager. Click the button in the file manager toolbar and pick <gui>Show Hidden "
 "Files</gui> to display them. See <link xref=\"files-hidden\"/> to learn more."
 msgstr ""
 "以重命名文件的方式隐藏文件。在文件管理器中以<file> . </file>开头或以<file> ~ "
-"</file>结尾的文件是隐藏文件。点击文件管理器工具栏上的<media type=\"image\" "
-"src=\"figures/go-down.png\"> 向下</media>按钮，选择<gui>显示隐藏文件</gui>来"
+"</file>结尾的文件是隐藏文件。点击文件管理器窗口上的<gui>查看</gui>，选择<gui>显示隐藏文件</gui>来"
 "显示他们。请参阅<link xref=\"files-hidden\"/>了解更多。"
 
 #. (itstool) path: info/desc
@@ -7684,12 +7674,12 @@ msgstr "文件"
 #: C/files.page:21
 msgid ""
 "<link xref=\"files-search\">Searching</link>, <link xref=\"files-delete"
-"\">delete files</link>, <link xref=\"files#backup\">backups</link>, <link "
+"\">delete files</link>, <link "
 "xref=\"files#removable\">removable drives</link>, <link xref="
 "\"files#documents\">documents</link>…"
 msgstr ""
 "<link xref=\"files-search\">搜索</link>，<link xref=\"files-delete\">删除文件"
-"</link>，<link xref=\"files#backup\">备份</link>，<link xref="
+"</link>，<link xref="
 "\"files#removable\">可移动驱动器</link>，<link xref=\"files#documents\">文档"
 "</link>…"
 
@@ -7809,7 +7799,7 @@ msgid ""
 "Open the <gui>Launcher</gui> and then click the <app>Trash</app> shortcut "
 "which is located at the bottom of the Launcher."
 msgstr ""
-"打开 <gui>启动器</gui> ，然后单击位于启动器下方的 <app>回收站</app> 快捷键。"
+"打开 <app>回收站</app> 。"
 
 #. (itstool) path: item/p
 #: C/files-recover.page:30
@@ -7817,7 +7807,7 @@ msgid ""
 "If your deleted file is there, right-click on it and select <gui> Restore</"
 "gui>. It will be restored to the folder it was deleted from."
 msgstr ""
-"如果您删除的文件在此处，右击该文件，选择<gui>还原</gui>。它随即被还原到删除前"
+"如果您删除的文件在此处，右击该文件，选择<gui>恢复</gui>。它随即被还原到删除前"
 "所在的文件夹。"
 
 #. (itstool) path: page/p
@@ -7962,7 +7952,7 @@ msgid ""
 "Right-click on the item and select <gui>Rename</gui>, or select the file and "
 "press <key>F2</key>."
 msgstr ""
-"右击文件或文件夹，然后选择<gui>重命名</gui>，或选择文件，然后按 <key>F2</"
+"右击文件或文件夹，然后选择<gui>重命名</gui>；或选择文件，然后按 <key>F2</"
 "key> 键。"
 
 #. (itstool) path: item/p
@@ -8000,8 +7990,7 @@ msgid ""
 "the rename. To revert the action and restore the former name, immediately "
 "click <gui>Edit</gui> in the menu bar and select <gui>Undo Rename</gui>."
 msgstr ""
-"如果您重命名了错误的文件或者命名您的文件不当，您可以撤销重命名。立即点击工具"
-"栏上的<gui>编辑</gui>，选择<gui>撤销</gui>即可恢复原来的文件名。"
+"如果您重命名了错误的文件或者命名您的文件不当，您可以撤销重命名。"
 
 #. (itstool) path: section/title
 #: C/files-rename.page:58
@@ -8103,18 +8092,16 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/files-search.page:12
 msgid ""
-"Locate files based on file name and type. Save your searches for later use."
-msgstr "根据文件名称和类型定位文件。保存搜索供以后使用。"
+"Locate files based on file name and type."
+msgstr "根据文件名称和类型定位文件。"
 
 #. (itstool) path: page/p
 #: C/files-search.page:31
 msgid ""
 "You can search for files based on their name or file type directly within "
-"the file manager. You can even save common searches, and they will appear as "
-"special folders in your home folder."
+"the file manager."
 msgstr ""
-"您可以根据文件的名称或类型直接在文件管理器中搜索文件。您甚至可以保存常用搜"
-"索，它们将作为特殊文件夹出现在您的主文件夹中。"
+"您可以根据文件的名称或类型直接在文件管理器中搜索文件。"
 
 #. (itstool) path: links/title
 #: C/files-search.page:36
@@ -8144,7 +8131,7 @@ msgid ""
 "Click the magnifying glass in the toolbar, or press <keyseq><key>Ctrl</"
 "key><key>F</key></keyseq>."
 msgstr ""
-"点击工具栏上的放大镜按钮，或者按下组合键 <keyseq><key>Ctrl</key><key>F</"
+"点击工具栏上放大镜按钮所在的文本框，或者按下组合键 <keyseq><key>Ctrl</key><key>F</"
 "key></keyseq> 。"
 
 #. (itstool) path: item/p
@@ -8442,7 +8429,7 @@ msgid ""
 "gui>, then select the device or server you want to copy the file to."
 msgstr ""
 "要将文件复制到 USB 闪存驱动器之类的外部设备中，或将文件上载到相连的服务器中，"
-"请选择<gui>可移动的光盘和共享</gui>，然后选择要向其中复制文件的设备或服务器。"
+"请选择<gui>可移动磁盘和共享</gui>，然后选择要向其中复制文件的设备或服务器。"
 
 #. (itstool) path: info/desc
 #: C/files-sort.page:7
@@ -8473,8 +8460,8 @@ msgid ""
 "are using. You can change the current view using the list or icon buttons in "
 "the toolbar."
 msgstr ""
-"您可以排列文件的方式取决于您当前使用的 <em>文件夹视图</em> 。您可以点击工具栏"
-"上的列表或图标按钮来更改当前视图。"
+"系统默认采用图标试图。您可以点击工具栏最右侧的"
+"列表或图标按钮来更改当前视图。"
 
 #. (itstool) path: section/title
 #: C/files-sort.page:43
@@ -8529,15 +8516,13 @@ msgstr ""
 #: C/files-sort.page:59
 msgid ""
 "In list view, you can show columns with more attributes and sort on those "
-"columns. Click the <media type=\"image\" src=\"figures/go-down.png\">down</"
-"media> button in the toolbar, pick <gui>Visible Columns</gui> and select the "
+"columns. Click the button in the toolbar, pick <gui>Visible Columns</gui> and select the "
 "columns that you want to be visible. You will then be able to sort by those "
 "columns. See <link xref=\"nautilus-list\"/> for descriptions of available "
 "columns."
 msgstr ""
-"在列表视图中，您可以使用更多的属性显示列并排序，点击工具栏上的 <media type="
-"\"image\" src=\"figures/go-down.png\">下拉</media> 按钮，选择 <gui>可见列</"
-"gui> 并选择您想要显示的属性列。然后您就可以按照这些属性列来排列文件了，参阅 "
+"在列表视图中，您可以使用更多的属性显示列并排序，点击窗口上的<gui>查看</gui>按钮，选择 <gui>可见列</"
+"gui> 并选择您想要显示的属性列，然后您就可以按照这些属性列来排列文件了。参阅 "
 "<link xref=\"nautilus-list\"/> 了解可见列的详细信息。"
 
 #. (itstool) path: section/title
@@ -8707,8 +8692,7 @@ msgid ""
 "hide them again by repeating either of these steps."
 msgstr ""
 "这些文件是默认隐藏的。如果您能看到它们，是因为您选中了 <gui>显示隐藏文件</"
-"gui>(在 <app>文件</app> 管理器工具栏的 <media type=\"image\" src=\"figures/"
-"go-down.png\">下拉</media> 菜单中)，或者按下了组合键 <keyseq><key>Ctrl</"
+"gui>，或者按下了组合键 <keyseq><key>Ctrl</"
 "key><key>H</key></keyseq> 。您可以通过操作这些步骤中的任意一种再次隐藏它们。"
 
 #. (itstool) path: page/p
@@ -10109,12 +10093,12 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/look-resolution.page:13
 msgid "Change the resolution of the screen and its orientation (rotation)."
-msgstr "更改屏幕分辨率和屏幕方向(旋转角度)。"
+msgstr "更改屏幕分辨率和屏幕方向。"
 
 #. (itstool) path: page/title
 #: C/look-resolution.page:29
 msgid "Change the size or rotation of the screen"
-msgstr "更改屏幕大小/旋转角度"
+msgstr "更改屏幕大小/方向"
 
 #. (itstool) path: page/p
 #: C/look-resolution.page:31
@@ -10194,16 +10178,14 @@ msgstr ""
 #: C/look-resolution.page:61
 msgid ""
 "You can choose the resolution you prefer from the <gui>Resolution</gui> drop-"
-"down list. If you choose one that is not right for your screen it may <link "
-"xref=\"look-display-fuzzy\">look fuzzy or pixelated</link>."
+"down list. If you choose one that is not right for your screen it may look fuzzy or pixelated."
 msgstr ""
-"可从下拉菜单中选择最合适的分辨率。请注意，如果所选分辨率不适用于屏幕，则屏幕"
-"<link xref=\"look-display-fuzzy\">看起来可能会很模糊或像素化</link>。"
+"可从下拉菜单中选择最合适的分辨率。请注意，如果所选分辨率不适用于屏幕，则屏幕看起来可能会很模糊或像素化。"
 
 #. (itstool) path: section/title
 #: C/look-resolution.page:67
 msgid "Rotation"
-msgstr "旋转角度"
+msgstr "方向"
 
 #. (itstool) path: section/p
 #: C/look-resolution.page:68
@@ -10513,11 +10495,10 @@ msgstr ""
 #: C/mouse-middleclick.page:40
 msgid ""
 "On touchpads that support multi-finger taps, you can tap with three fingers "
-"at once to middle-click. You have to <link xref=\"mouse-touchpad-click"
-"\">enable tap clicking</link> in the touchpad settings for this to work."
+"at once to middle-click. You have to enable tap clicking in the touchpad settings for this to work."
 msgstr ""
 "在支持多指点击的触摸板上，可用三个手指同时点击，以执行中键单击操作。必须在触"
-"摸板设置中<link xref=\"mouse-touchpad-click\">启用触摸板的鼠标点击</link>，才"
+"摸板设置中启用触摸板的鼠标点击，才"
 "能使上述操作奏效。"
 
 #. (itstool) path: page/p
@@ -11754,7 +11735,7 @@ msgid ""
 "computer. The server will also be added to the sidebar so you can access it "
 "quickly in the future"
 msgstr ""
-"点击 <gui>连接</gui> 按钮，将会打开一个在服务器上显示文件的新窗口。您可以像浏"
+"点击 <gui>连接</gui> 按钮。您可以像浏"
 "览自己电脑上的文件一样浏览它们，服务器还将被添加到侧边栏，方便您以后快速访问"
 "它。"
 
@@ -12712,7 +12693,7 @@ msgstr "对文件管理器指定默认视图、排列顺序和缩放级别。"
 #. (itstool) path: page/title
 #: C/nautilus-views.page:36
 msgid "Views preferences in <app>Files</app>"
-msgstr "<app>文件</app> 中的视图参数"
+msgstr "<app>文件管理器</app> 中的视图参数"
 
 #. (itstool) path: page/p
 #: C/nautilus-views.page:38
@@ -12725,8 +12706,8 @@ msgid ""
 "\">Views</gui> tab."
 msgstr ""
 "您可以改变新建文件夹的默认视图、文件和文件夹的默认排序、图标和简洁视图的缩放"
-"程度，还有文件在树边栏的显示。当 <app>文件</app> 打开时，在顶部菜单栏选择 "
-"<guiseq><gui style=\"menu\">Files</gui> <gui style=\"menuitem\">参数设置</"
+"程度，还有文件在树边栏的显示。当 <app>文件管理器</app> 打开时，在顶部菜单栏选择 "
+"<guiseq><gui style=\"menu\">编辑</gui> <gui style=\"menuitem\">首选项</"
 "gui></guiseq> ，然后选择 <gui style=\"tab\">视图</gui> 标签。"
 
 #. (itstool) path: section/title
@@ -12749,8 +12730,8 @@ msgid ""
 "a grid of icons</gui> button in the toolbar."
 msgstr ""
 "默认情况下，新建文件夹显示为图标视图。如果您喜欢列表视图，您可以将其设置为默"
-"认视图。或者，您可以通过在工具栏选择 <gui style=\"button\">列表视图</gui> 或"
-"者 <gui style=\"button\">图标视图</gui> 为浏览每个文件夹选择不同的视图方式。"
+"认视图。或者，您可以通过在窗口顶部的查看选择 <gui style=\"button\">列表视图</gui> 或"
+"者 <gui style=\"button\">图标视图</gui>，为浏览每个文件夹选择不同的视图方式。"
 
 #. (itstool) path: title/gui
 #: C/nautilus-views.page:57
@@ -12782,9 +12763,8 @@ msgid ""
 "Date</gui>, or by clicking the list column headers in list view. This menu "
 "only affects the current folder."
 msgstr ""
-"您可以通过在工具栏点击 <media type=\"image\" src=\"figures/go-down.png\">视图"
-"选项</media> 按钮并选择 <gui>按名称</gui>、<gui>按大小</gui>、<gui>按类型</"
-"gui> 或者 <gui>按修改时间</gui> ，或者在列表视图中点击列标题列表，改变个人文"
+"您可以通过在文件管理器窗口的空白处右键单击，选择“排列项目”，并选择 <gui>按名称</gui>、<gui>按大小</gui>、<gui>按类型</"
+"gui>、<gui>按修改时间</gui>等，或者在列表视图中点击列标题列表，改变个人文"
 "件夹中的 <link xref=\"files-sort\">文件排序</link> 。该菜单仅作用于当前文件"
 "夹。"
 
@@ -12975,12 +12955,11 @@ msgstr "Web 浏览器"
 msgid ""
 "<link xref=\"net-chat-empathy\">Chat on any network using <app>Empathy</"
 "app></link>, <link xref=\"net-chat-video\">make video calls</link>, <link "
-"xref=\"net-chat-skype\">install skype</link>, <link xref=\"net-chat-social"
-"\">social networking apps</link>"
+"xref=\"net-chat-skype\">install skype</link>"
 msgstr ""
 "<link xref=\"net-chat-empathy\">使用 <app>Empathy</app></link> 聊天、<link "
 "xref=\"net-chat-video\">进行视频通话</link>、<link xref=\"net-chat-skype\">安"
-"装 Skype</link>、<link xref=\"net-chat-social\">社交网络应用</link>"
+"装 Skype</link>"
 
 #. (itstool) path: page/title
 #: C/net-chat.page:24
@@ -13021,10 +13000,7 @@ msgid ""
 "<link xref=\"unity-launcher-intro\">Launcher</link> or choose <gui>Chat</"
 "gui> from the <link xref=\"unity-menubar-intro\">Messaging menu</link>."
 msgstr ""
-"系统没有预装 Empathy，请通过软件中心安装。从 <link xref=\"unity-dash-intro\">Dash</link>、"
-"<link xref=\"unity-launcher-intro\">启动器</link> 或者从 <link xref=\"unity-"
-"menubar-intro\">消息菜单</link> 选择 <gui>聊天</gui> ，开启 <app>Empathy 即时"
-"通讯</app> 程序。"
+"系统没有预装 Empathy，请通过软件中心安装。"
 
 #. (itstool) path: note/p
 #: C/net-chat-empathy.page:37
@@ -13215,15 +13191,11 @@ msgstr "视频呼叫"
 msgid ""
 "You can make video calls from Ubuntu without installing any additional "
 "software using <app>Empathy</app> - via the <em>Google Talk</em>, <em>MSN </"
-"em>, <em>Jabber </em>, and <em>SIP</em> networks. See <link href=\"help:"
-"empathy/audio-video\">the Empathy manual</link> for help on making video "
-"calls with <app>Empathy</app>."
+"em>, <em>Jabber </em>, and <em>SIP</em> networks."
 msgstr ""
 "使用 <app>Empathy</app>，您不需要安装其他任何软件即可从 Ubuntu/Ubuntu Kylin "
 "中进行视频通话，当然，还是通过 <em>Google Talk</em>、<em>MSN</em>、"
-"<em>Jabber </em> 和 <em>SIP</em> 等网络。有关使用 <app>Empathy</app> 进行视频"
-"通话的帮助，请参见 <link href=\"ghelp:empathy?audio-video\">Empathy 用户手册"
-"</link>。"
+"<em>Jabber </em> 和 <em>SIP</em> 等网络。"
 
 #. (itstool) path: list/title
 #: C/net-chat-video.page:28
@@ -13270,7 +13242,7 @@ msgid ""
 "Open <gui>Details</gui> and choose <gui>Default Applications</gui> from the "
 "list on the left side of the window."
 msgstr ""
-"打开<gui>系统信息</gui>并从窗口左边的列表中选择<gui>默认应用程序</gui>。"
+"打开<gui>默认应用</gui>。"
 
 #. (itstool) path: item/p
 #: C/net-default-browser.page:37
@@ -13296,7 +13268,7 @@ msgstr ""
 msgid ""
 "Change the default email client by going to <gui>Details</gui> in the "
 "<gui>System Settings</gui>."
-msgstr "单击<gui>面板</gui>最右侧的图标，选择<gui>系统设置</gui>。"
+msgstr "在<gui>控制面板</gui>中修改打开邮件的默认应用。"
 
 #. (itstool) path: page/title
 #: C/net-default-email.page:23
@@ -13322,7 +13294,7 @@ msgid ""
 "Choose which email client you would like to be used by default by changing "
 "the <gui>Mail</gui> option."
 msgstr ""
-"通过更改<gui>电子邮件</gui>选项，选择您要在默认情况下使用的电子邮件客户端。"
+"通过更改<gui>邮件阅读器</gui>选项，选择您要在默认情况下使用的电子邮件客户端。"
 
 #. (itstool) path: info/desc
 #: C/net-email.page:11
@@ -13426,13 +13398,12 @@ msgid ""
 "from the list on the left, depending on which network connection you want to "
 "find the IP address for."
 msgstr ""
-"打开 <gui>网络</gui> ，根据您想要查看的 IP 地址，在列表左边选择 <gui>有线</"
-"gui> 或者 <gui>无线</gui> 。"
+"单击任务栏上的 <gui>网络</gui> 图标，选择连接信息"
 
 #. (itstool) path: item/p
 #: C/net-findip.page:36
 msgid "Your internal IP address will be displayed in the list of information."
-msgstr "您的内部 IP 地址将会显示在信息列表中。"
+msgstr "或者在终端中输入 ifconfig 查看"
 
 #. (itstool) path: steps/title
 #: C/net-findip.page:40
@@ -13804,11 +13775,11 @@ msgstr "按下<gui>保存</gui>按钮，网络连接的 IP 地址应该可以得
 msgid ""
 "<link xref=\"net-findip\">Find your IP address</link>, <link xref=\"net-"
 "wireless-wepwpa\">WEP &amp; WPA security</link>, <link xref=\"net-macaddress"
-"\">MAC addresses</link>, <link xref=\"net-proxy\">proxies</link>…"
+"\">MAC addresses</link>…"
 msgstr ""
 "<link xref=\"net-findip\">查看 IP 地址</link>、<link xref=\"net-wireless-"
 "wepwpa\">WEP &amp; WPA 安全</link>、<link xref=\"net-macaddress\">MAC 地址</"
-"link> 和 <link xref=\"net-proxy\">代理</link>…"
+"link>…"
 
 #. (itstool) path: page/title
 #: C/net-general.page:29
@@ -14032,7 +14003,7 @@ msgstr "识别网络硬件的 MAC 地址："
 #. (itstool) path: item/p
 #: C/net-macaddress.page:35
 msgid "Click the <gui>network menu</gui> on the menu bar."
-msgstr "单击菜单栏上的<gui>网络菜单</gui>。"
+msgstr "单击任务栏上的<gui>网络</gui>图标。"
 
 #. (itstool) path: item/p
 #: C/net-macaddress.page:36
@@ -14243,21 +14214,21 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/net-mobile.page:71
 msgid ""
-"Click the <link xref=\"unity-menubar-intro\">network menu</link> in the menu "
+"Click the in the menu "
 "bar and select <gui>Edit Connections...</gui>"
 msgstr ""
-"单击顶部面板中的<link xref=\"unity-menubar-intro\">网络菜单</link>并选择<gui>"
+"单击任务栏右边的<gui>网络连接</gui>并选择<gui>"
 "编辑连接...</gui>"
 
 #. (itstool) path: item/p
 #: C/net-mobile.page:77
 msgid "Switch to the <gui>Mobile Broadband</gui> tab."
-msgstr "切换到<gui>移动宽带</gui>标签页。"
+msgstr "在下拉菜单中选择<gui>移动宽带</gui>。"
 
 #. (itstool) path: item/p
 #: C/net-mobile.page:82
 msgid "Click <gui>Add</gui>."
-msgstr "单击<gui>添加</gui>。"
+msgstr "单击弹出窗口左下方的<gui>+</gui>。"
 
 #. (itstool) path: item/p
 #: C/net-mobile.page:87
@@ -14654,22 +14625,20 @@ msgstr "网络钓鱼(尝试通过欺骗获取敏感信息的站点)"
 
 #. (itstool) path: item/p
 #: C/net-security-tips.page:36
-msgid "<link xref=\"net-email-virus\">Forwarding malicious emails</link>"
-msgstr "<link xref=\"net-email-virus\">转发恶意电子邮件</link>"
+msgid "Forwarding malicious emails"
+msgstr "转发恶意电子邮件"
 
 #. (itstool) path: item/p
 #: C/net-security-tips.page:37
 msgid ""
-"<link xref=\"net-antivirus\">Applications with malicious intent (viruses)</"
-"link>"
-msgstr "<link xref=\"net-antivirus\">带有恶意企图的应用程序(病毒)</link>"
+"Applications with malicious intent (viruses)"
+msgstr "带有恶意企图的应用程序(病毒)"
 
 #. (itstool) path: item/p
 #: C/net-security-tips.page:38
 msgid ""
-"<link xref=\"net-wireless-wepwpa\">Unauthorized remote/local network access</"
-"link>"
-msgstr "<link xref=\"net-wireless-wepwpa\">未授权的远程或本地网络访问</link>"
+"Unauthorized remote/local network access"
+msgstr "未授权的远程或本地网络访问"
 
 #. (itstool) path: page/p
 #: C/net-security-tips.page:41
@@ -14697,12 +14666,11 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/net-security-tips.page:48
 msgid ""
-"Be careful in providing any application <link xref=\"user-admin-explain"
-"\">root level permissions</link>, especially ones that you have not used "
+"Be careful in providing any application root level permissions, especially ones that you have not used "
 "before or apps that are not well-known. Providing anyone/anything with root "
 "level permissions puts your computer at high risk to exploitation."
 msgstr ""
-"向任何应用程序提供<link xref=\"user-admin-explain\">最高级别权限</link>(特别"
+"向任何应用程序提供最高级别权限(特别"
 "是之前从未用过或不太了解的应用程序)时，请格外小心。为任何人/事提供最高级别权"
 "限将为您的计算机带来高暴露风险。"
 
@@ -14711,13 +14679,11 @@ msgstr ""
 msgid ""
 "Make sure you are only running necessary remote-access services. Having SSH "
 "or VNC running can be useful, but also leaves your computer open to "
-"intrusion if not secured properly. Consider using a <link xref=\"net-"
-"firewall-on-off\">firewall</link> to help protect your computer from "
+"intrusion if not secured properly. Consider using a firewall to help protect your computer from "
 "intrusion."
 msgstr ""
 "请确保您只运行必要的远程访问服务。<app>SSH</app> 或 <app>VNC</app> 有时会很有"
-"用，但如果保障不力，也会让您的计算机对入侵敞开大门。考虑使用<link xref=\"net-"
-"firewall-on-off\">防火墙</link>来帮助计算机防御入侵。"
+"用，但如果保障不力，也会让您的计算机对入侵敞开大门。考虑使用防火墙来帮助计算机防御入侵。"
 
 #. (itstool) path: info/desc
 #: C/net-slow.page:15
@@ -17086,7 +17052,7 @@ msgid ""
 "\"power-suspend\">automatically suspend</link> if you have not used it for a "
 "certain period of time."
 msgstr ""
-"在 <app>系统设置</app> 中的 <gui>电源</gui> 设置中有多个节能选项：您可以在一"
+"您可以在一"
 "段时间后<link xref=\"display-dimscreen\">自动将显示器变暗或使其进入睡眠模式</"
 "link>；降低笔记本电脑显示器的亮度；如果"
 "在一段时间内不使用，则将计算机自动转到"
@@ -18310,7 +18276,7 @@ msgid ""
 "\">brightness</link>…"
 msgstr ""
 "<link xref=\"look-background\">背景</link>，<link xref=\"look-resolution\">尺"
-"寸和旋转</link>，<link xref=\"display-dimscreen\">亮度</link>…"
+"寸和方向</link>，<link xref=\"display-dimscreen\">亮度</link>…"
 
 #. (itstool) path: page/title
 #: C/prefs-display.page:23
@@ -19309,7 +19275,7 @@ msgstr "要进行屏幕截图："
 #. (itstool) path: item/p
 #: C/screen-shot-record.page:36
 msgid "Go to the <gui>Dash</gui> and open the <app>Screenshot</app> tool."
-msgstr "前往 <gui>Dash</gui> 然后打开 <app>截图</app>工具。"
+msgstr "前往开始菜单，然后打开 <app>截图</app>工具。"
 
 #. (itstool) path: item/p
 #: C/screen-shot-record.page:39
@@ -19325,7 +19291,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/screen-shot-record.page:46
 msgid "Click <gui>Take Screenshot</gui>."
-msgstr "单击<gui>抓图</gui>。"
+msgstr "单击<gui>截图</gui>。"
 
 #. (itstool) path: item/p
 #: C/screen-shot-record.page:47
@@ -19523,7 +19489,7 @@ msgstr "在 <gui>亮度和锁定</gui> 设置中更改锁屏前等待的时间�
 #. (itstool) path: page/title
 #: C/session-screenlocks.page:25
 msgid "The screen locks itself too quickly"
-msgstr "屏幕锁定地太快"
+msgstr "屏幕锁定得太快"
 
 #. (itstool) path: page/p
 #: C/session-screenlocks.page:27
@@ -19536,7 +19502,7 @@ msgid ""
 msgstr ""
 "如果您离开计算机几分钟，则屏幕将自动锁定，因此您需要输入密码才可再次使用。这"
 "是出于安全考虑(即使您将计算机处于无人看管的状态，也没有人能够将您的工作弄"
-"乱)，但是如果屏幕锁定地太快，也会恼人。"
+"乱)，但是如果屏幕锁定得太快，也会恼人。"
 
 #. (itstool) path: page/p
 #: C/session-screenlocks.page:33
@@ -19770,29 +19736,27 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/shell-apps-favorites.page:13
 msgid "Add, move, or remove frequently-used program icons on the Launcher."
-msgstr "在启动器上添加、移动或移除常用的程序图标。"
+msgstr "在任务栏上添加、移动或移除常用的程序图标。"
 
 #. (itstool) path: page/title
 #: C/shell-apps-favorites.page:32
 msgid "Change which applications show in the Launcher"
-msgstr "更改哪些程序显示在启动器上"
+msgstr "更改哪些程序显示在任务栏上"
 
 #. (itstool) path: page/p
 #: C/shell-apps-favorites.page:34
 msgid ""
-"To add an application to the <link xref=\"unity-launcher-intro\">Launcher</"
-"link> for quick access:"
+"To add an application to the Launcher for quick access:"
 msgstr ""
-"要将一个程序添加到 <link xref=\"unity-launcher-intro\">启动器</link> 以快速访"
+"要将一个程序添加到任务栏以快速访"
 "问："
 
 #. (itstool) path: item/p
 #: C/shell-apps-favorites.page:37
 msgid ""
-"Drag the application's icon from the <link xref=\"unity-dash-intro\">Dash</"
-"link> onto the Launcher."
+"Drag the application's icon from the start-menu onto the Launcher."
 msgstr ""
-"将应用程序的图标从 <link xref=\"unity-dash-intro\">Dash</link> 拖动到启动器"
+"将应用程序的图标从开始菜单拖动到任务栏"
 "上。"
 
 #. (itstool) path: item/p
@@ -19808,7 +19772,7 @@ msgid ""
 "The Launcher icon order can be changed by dragging an icon off of the "
 "Launcher, and then back onto it in the desired location."
 msgstr ""
-"可以通过将一个图标拖出启动器然后拖回需要的位置来更改启动器上图标的顺序。"
+"可以通过将一个图标拖出任务栏，然后拖回到需要的位置来更改图标顺序。"
 
 #. (itstool) path: page/p
 #: C/shell-apps-favorites.page:48
@@ -19816,8 +19780,8 @@ msgid ""
 "To remove an application icon from the Launcher, right click on the "
 "application icon and select <gui>Unlock from Launcher</gui>."
 msgstr ""
-"要在启动器上移除应用程序图标，在图标上点击右键，然后选择 <gui>在启动器上解除"
-"锁定</gui>。"
+"要在任务栏上移除应用程序图标，在图标上点击右键，然后选择 <gui>从面板上"
+"删除</gui>。"
 
 #. (itstool) path: info/desc
 #: C/shell-exit.page:13
@@ -19862,12 +19826,9 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/shell-exit.page:53
 msgid ""
-"To log out or switch users, click the <link xref=\"unity-menubar-intro"
-"\">system menu</link> at the very right of the menu bar and select the "
-"appropriate option."
+"To log out or switch users, click the start-menu at the left of the screen-bottom and select the appropriate option."
 msgstr ""
-"要注销或切换用户，点击菜单栏的右上角处的 <link xref=\"unity-menubar-intro\">"
-"系统菜单</link> 并选择相应的操作。"
+"要注销或切换用户，点击屏幕左下角的开始菜单按钮，并选择相应的操作。"
 
 #. (itstool) path: section/title
 #: C/shell-exit.page:61
@@ -19893,7 +19854,7 @@ msgid ""
 "To lock your screen, click the <gui>system menu</gui> in the menu bar and "
 "select <gui>Lock Screen</gui>."
 msgstr ""
-"要锁定屏幕，请单击顶部面板上的<gui>会话菜单</gui>并选择<gui>锁定屏幕</gui>。"
+"要锁定屏幕，请单击底部的<gui>开始菜单</gui>，并选择<gui>关机</gui>右侧箭头菜单中的<gui>锁屏</gui>。"
 
 #. (itstool) path: section/p
 #: C/shell-exit.page:71
@@ -19943,7 +19904,7 @@ msgid ""
 "If you want to power off your computer entirely, or do a full restart, click "
 "the <gui>system menu</gui> and select <gui>Shut Down</gui>."
 msgstr ""
-"如果您要彻底地关闭电源，或进行一次重启，点击 <gui>系统菜单</gui> 并选择 <gui>"
+"如果您要彻底地关闭电源，或进行一次重启，点击 <gui>开始菜单</gui> 并选择 <gui>"
 "关机</gui>。"
 
 #. (itstool) path: section/p
@@ -20402,8 +20363,7 @@ msgid ""
 "applications. Using both the <gui>Dash</gui> and the <gui>Launcher</gui>, "
 "you can launch new applications and control which window is active."
 msgstr ""
-"如其他桌面环境一样，Unity 也使用窗口来显示正在运行的程序。通过同时使用 "
-"<gui>Dash</gui> 和 <gui>启动器</gui>，可以启动新程序并控制那个窗口活动。"
+"如其他桌面环境一样，UKUI也使用窗口来显示正在运行的程序。"
 
 #. (itstool) path: page/p
 #: C/shell-windows.page:25
@@ -20492,11 +20452,11 @@ msgstr "要恢复该窗口："
 #. (itstool) path: item/p
 #: C/shell-windows-states.page:48
 msgid ""
-"Click on it in the <link xref=\"unity-launcher-intro\">Launcher</link> or "
+"Click on it on the bottom or "
 "retrieve it from the window switcher by pressing <keyseq><key>Alt</"
 "key><key>Tab</key></keyseq>."
 msgstr ""
-"在 <link xref=\"unity-launcher-intro\">启动器</link> 上点击或者通过按 "
+"在屏幕底部的任务栏上点选或者通过按 "
 "<keyseq><key>Alt</key><key>Tab</key></keyseq> 在窗口切换器中获取。"
 
 #. (itstool) path: section/p
@@ -20506,13 +20466,13 @@ msgstr "要关闭该窗口："
 
 #. (itstool) path: item/p
 #: C/shell-windows-states.page:57
-msgid "Click the <gui>x</gui> in the top left hand corner of the window, or"
-msgstr "单击位于窗口左上角的<gui>x</gui>，或者"
+msgid "Click the <gui>x</gui> in the top right hand corner of the window, or"
+msgstr "单击位于窗口右上角的<gui>x</gui>，或者"
 
 #. (itstool) path: item/p
 #: C/shell-windows-states.page:60
-msgid "Press <keyseq><key>Alt</key><key>F4</key></keyseq>, or"
-msgstr "按 <keyseq><key>Alt</key><key>F4</key></keyseq>，或者"
+msgid "Press <keyseq><key>Alt</key><key>F4</key></keyseq>."
+msgstr "按 <keyseq><key>Alt</key><key>F4</key></keyseq>。"
 
 #. (itstool) path: item/p
 #: C/shell-windows-states.page:63
@@ -20628,7 +20588,7 @@ msgstr "在窗口间进行切换"
 #. (itstool) path: section/title
 #: C/shell-windows-switching.page:34
 msgid "From the Launcher"
-msgstr "从启动器"
+msgstr "从任务栏"
 
 #. (itstool) path: item/p
 #: C/shell-windows-switching.page:36
@@ -20720,8 +20680,8 @@ msgid ""
 "<key>Ctrl</key> and <key>Alt</key> keys and press <key>Tab</key> or "
 "<keyseq><key>Shift</key><key>Tab</key></keyseq>."
 msgstr ""
-"将只显示当前<link xref=\"shell-workspaces\">工作区</link>的窗口。要显示其他工"
-"作区的窗口，按住 <key>Ctrl</key> 和 <key>Alt</key> 键并再按<key>Tab</key> 或 "
+"要显示其他<link xref=\"shell-workspaces\">工作区</link>的窗口，"
+"按住 <key>Ctrl</key> 和 <key>Alt</key> 键并再按<key>Tab</key> 或 "
 "<keyseq><key>Shift</key><key>Tab</key></keyseq>。"
 
 #. (itstool) path: item/p
@@ -20804,7 +20764,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/shell-workspaces-movewindow.page:39
 msgid "Drag the window to the workspace you choose."
-msgstr "将窗口拖动到您选择的工作区。"
+msgstr "将窗口直接拖动到您想选择的工作区。"
 
 #. (itstool) path: page/p
 #. (itstool) path: item/title
@@ -20928,14 +20888,11 @@ msgstr "勾选<gui>开启工作区</gui> 复选框。"
 #. (itstool) path: page/p
 #: C/shell-workspaces.page:51
 msgid ""
-"Now you can open the <link xref=\"unity-launcher-intro\">Launcher</link> and "
-"click the <gui>workspace switcher</gui> icon near the bottom. By default, "
-"Ubuntu shows 4 workspaces, arranged in 2 rows and 2 columns. You can change "
-"the number of workspaces:"
+"By default, "
+"Ubuntu shows 4 workspaces, arranged in 2 rows and 2 columns."
 msgstr ""
-"打开 <link xref=\"unity-launcher-intro\">启动器</link>并单击靠近底部的<gui>工"
-"作区切换器</gui>图标。默认情况下，Ubuntu/Ubuntu Kylin 会显示 4 个工作区，成 "
-"2 排 2 列排列。您可以更改工作区数量："
+"默认情况下，Ubuntu/Ubuntu Kylin 会显示 4 个工作区，成 "
+"2 排 2 列排列。"
 
 #. (itstool) path: steps/title
 #: C/shell-workspaces.page:54
@@ -21644,7 +21601,7 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/startup-applications.page:9
 msgid "Choose what applications to start when you log in."
-msgstr "选择登录时要启动的应用程序。"
+msgstr "选择登录时要启动的应用程序"
 
 #. (itstool) path: page/title
 #: C/startup-applications.page:20
@@ -21661,13 +21618,11 @@ msgstr "您可以设置登录系统时，额外启动的以及系统默认自动
 #. (itstool) path: item/p
 #: C/startup-applications.page:27
 msgid ""
-"Use <link xref=\"unity-dash-intro\">the Dash</link> to find and open "
-"<gui>Startup Applications</gui>. Alternatively you can press "
+"You can press "
 "<keyseq><key>Alt</key><key>F2</key></keyseq> and run the <cmd>gnome-session-"
 "properties</cmd> command."
 msgstr ""
-"使用 <link xref=\"unity-dash-intro\">Dash</link> 搜索并打开 <gui>启动应用程序"
-"首选项</gui>。或者您可以输入<keyseq><key>Alt</key><key>F2</key></keyseq>，并"
+"您可以输入<keyseq><key>Alt</key><key>F2</key></keyseq>，并"
 "执行<cmd>gnome-session-properties</cmd>命令。"
 
 #. (itstool) path: item/p
@@ -22407,8 +22362,8 @@ msgstr "HUD 跟踪您输入的内容，并且会自动调整搜索结果以让�
 
 #. (itstool) path: info/desc
 #: C/unity-introduction.page:9
-msgid "A visual introduction to the Unity desktop."
-msgstr "Unity 桌面的图文介绍。"
+msgid "A visual introduction to the UKUI desktop."
+msgstr "UKUI 桌面的图文介绍"
 
 #. (itstool) path: page/title
 #: C/unity-introduction.page:25
@@ -22428,17 +22383,17 @@ msgstr ""
 #. (itstool) path: page/p
 #: C/unity-introduction.page:31
 msgid ""
-"This guide is designed to answer your questions about using Unity and your "
-"Ubuntu desktop. First we will take a moment to look at some of Unity's key "
-"features, and how you can use them."
+"This guide is designed to answer your questions about using your "
+"Ubuntu desktop. First we will take a moment to look at the UKUI  "
+"desktop."
 msgstr ""
-"本文档用以回答使用 Unity 和 Ubuntu/Ubuntu Kylin 桌面的问题。首先让我们来看一"
-"下 Unity 的关键功能，以及如何使用它们。"
+"本文档用以回答使用 Ubuntu/Ubuntu Kylin 桌面的问题。首先让我们来看一"
+"下 UKUI 的桌面。"
 
 #. (itstool) path: section/title
 #: C/unity-introduction.page:35
-msgid "Getting started with Unity"
-msgstr "开始使用 Unity"
+msgid "Getting started with UKUI"
+msgstr "开始使用 UKUI"
 
 #. (itstool) path: section/media
 #. This is a reference to an external file such as an image or video. When
@@ -22456,8 +22411,8 @@ msgstr ""
 
 #. (itstool) path: media/p
 #: C/unity-introduction.page:38
-msgid "The Unity desktop"
-msgstr "Unity 桌面"
+msgid "The UKUI desktop"
+msgstr "UKUI 桌面"
 
 #. (itstool) path: section/title
 #. (itstool) path: media/p
@@ -22488,11 +22443,11 @@ msgstr ""
 "<gui>启动器</gui>在登录到桌面时自动显示，让您更容易启动最常用的应用程序。"
 
 #. (itstool) path: item/p
-#: C/unity-introduction.page:56
+#: C/unity-introduction.page:45
 msgid ""
-"<link xref=\"unity-launcher-intro\">Learn more about the Launcher.</link>"
+"<link xref=\"whats-new.page\">Learn more about the UKUI.</link>"
 msgstr ""
-"<link xref=\"unity-launcher-intro\">了解与启动器相关的更多信息。</link>"
+"<link xref=\"whats-new.page\">了解与UKUI相关的更多信息。</link>"
 
 #. (itstool) path: section/title
 #: C/unity-introduction.page:62
@@ -22893,11 +22848,11 @@ msgstr "窗口管理按钮"
 #. (itstool) path: section/p
 #: C/unity-menubar-intro.page:30
 msgid ""
-"The <gui>window management buttons</gui> are on the top left corner of "
-"windows. When maximized, the buttons are in the top left of the screen. "
+"The <gui>window management buttons</gui> are on the top right corner of "
+"windows. When maximized, the buttons are in the top right of the screen. "
 "Click the buttons to close, minimize, maximize or restore windows."
 msgstr ""
-"<gui>窗口管理按钮</gui> 是位于窗口左上方的按钮。在最大化时，按钮位于屏幕左上"
+"<gui>窗口管理按钮</gui> 是位于窗口右上方的按钮。在最大化时，按钮位于屏幕右上"
 "方。您可以通过这些按钮来关闭、最小化、最大化或恢复窗口尺寸。"
 
 #. (itstool) path: section/title
@@ -23213,8 +23168,8 @@ msgstr ""
 
 #. (itstool) path: info/desc
 #: C/unity-scrollbars-intro.page:9
-msgid "Overlay scrollbars are the thin orange strips on long documents."
-msgstr "即现式滚动条是在长文档上的橙色的薄条。"
+msgid "Overlay scrollbars are the thin gray strips on long documents."
+msgstr "即现式滚动条是在长文档上的灰色的薄条。"
 
 #. (itstool) path: page/title
 #: C/unity-scrollbars-intro.page:19
@@ -23247,12 +23202,12 @@ msgstr "使用滚动条"
 #. (itstool) path: section/p
 #: C/unity-scrollbars-intro.page:37
 msgid ""
-"The overlay scrollbar appears as a thin orange strip at the edge of a "
+"The overlay scrollbar appears as a thin gray strip at the edge of a "
 "scrollable area. The position of the scrollbar corresponds with your "
 "screen's position in the scrollable content. The strip length corresponds "
 "with the content length; the shorter the strip, the longer the content."
 msgstr ""
-"即现式滚动条以橙色西条出现在可滚动区域的边缘。滚动条的位置表示屏幕在可滚动内"
+"即现式滚动条以灰色细条出现在可滚动区域的边缘。滚动条的位置表示屏幕在可滚动内"
 "容中的位置。细条的长途与内容长度有关：内容越长，细条越短。"
 
 #. (itstool) path: section/p
@@ -23423,7 +23378,7 @@ msgstr "添加新用户以便其他人可登录该计算机。"
 #. (itstool) path: page/title
 #: C/user-add.page:30
 msgid "Add a new user account"
-msgstr "添加新用户帐户"
+msgstr "添加新用户账户"
 
 #. (itstool) path: page/p
 #: C/user-add.page:59
@@ -23525,7 +23480,7 @@ msgid ""
 "shown in the login window. GNOME provides some stock photos you can use, or "
 "you can select your own or take a picture with your webcam."
 msgstr ""
-"您可以在 <gui>用户帐户</gui> 窗口中点击用户名右侧的图像来为帐户设置头像。该头"
+"您可以在 <gui>用户账户</gui> 窗口中点击用户名右侧的图像来为帐户设置头像。该头"
 "像将显示在登录窗口中。GNOME 提供了一些默认头像图片，您也可以选择自己喜爱的照"
 "片，或直接用摄像头自拍一张照片。"
 
@@ -23735,7 +23690,7 @@ msgstr ""
 msgid ""
 "You can only do some things, like installing applications, if you have admin "
 "privileges."
-msgstr "如果您拥有管理员特权，您仅能执行类似安装应用程序这样的操作。"
+msgstr "如果您没有管理员特权，某些操作将会被限制。"
 
 #. (itstool) path: page/title
 #: C/user-admin-problems.page:20

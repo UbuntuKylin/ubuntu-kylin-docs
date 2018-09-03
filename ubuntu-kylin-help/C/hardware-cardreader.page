@@ -5,9 +5,8 @@
 
   <info>
     <link type="guide" xref="media#photos"/>
-    <link type="guide" xref="hardware#problems"/>
 
-    <desc>Troubleshoot media card readers</desc>
+    <desc>图片管理器和图像查看器</desc>
 
     <revision version="13.10" date="2013-09-12" status="review"/>
 
@@ -19,45 +18,21 @@
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
   </info>
 
-<title>Media card reader problems</title>
+<title>图像查看</title>
 
-<p>Many computers contain readers for SD (Secure Digital), MMC (MultiMediaCard), SmartMedia, Memory Stick, CompactFlash, and other storage media
-cards. These should be automatically detected and <link xref="disk-partitions">mounted</link>. Here are some
-troubleshooting steps if they are not:</p>
-
-<steps>
-<item>
-<p> Make sure that the card is put in correctly. Many cards look as though they are
-upside down when correctly inserted. Also make sure that the card is firmly seated
-in the slot; some cards, especially CompactFlash, require a small amount of force to insert
-correctly. (Be careful not to push too hard! If you come up against something solid,
-do not force it.)</p>
-</item>
-
-<item>
-<p> Open <app>Files</app> by using the <gui>Dash</gui>. Does the inserted
- card appear in the <gui>Devices</gui> list in the left sidebar? Sometimes the card appears in this list but is not mounted; click it once to mount. (If the sidebar is not visible, press <key>F9</key> or click
- <guiseq><gui>View</gui><gui> Sidebar</gui><gui> Show Sidebar</gui></guiseq>.)
+<section>
+<title>图片管理器</title>
+<p>
+图片管理器支持从数码相机中导入图像，提供分类、编辑、分享等功能。还可以进行旋转、剪裁等操作。
 </p>
-</item>
+<media tpye="image" src="figures/ukui/18-shotwell.png"></media>
+</section>
 
-<item>
-<p>If your card does not show up in the sidebar, click <guiseq><gui>Go</gui><gui>Computer</gui></guiseq>.
-If your card reader is correctly configured, the reader should come up as a drive
-when no card is present, and the card itself when the card has been mounted (see the picture below).</p>
-</item>
-
-<item>
-<p>If you see the card reader but not the card, the problem may be with the card itself.
-Try a different card or check the card on a different reader if possible.</p>
-</item>
-</steps>
-
-<p>If no cards or drives are available in the <gui>Computer</gui> folder,
-it is possible that your card reader does not work with Linux due to driver issues.
-If your card reader is internal (inside the computer instead of sitting outside)
-this is more likely. The best solution is to directly connect your device
-(camera, cell phone, etc.) to a USB port on the computer. USB external card
-readers are also available, and are far better supported by Linux.</p>
-
+<section>
+<title>图像查看器</title>
+<p>
+双击图片默认使用图像查看器打开,支持jpg、png、bmp、gif等图片格式,也支持放大、幻灯显示图片、全屏等功能。
+</p>
+<media tpye="image" src="figures/ukui/19-pv.png"></media>
+</section>
 </page>

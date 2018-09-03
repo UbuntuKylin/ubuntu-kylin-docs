@@ -3,8 +3,6 @@
       id="keyboard-layouts">
   <info>
     <link type="guide" xref="prefs-language#textentry"/>
-    <link type="guide" xref="keyboard" group="i18n"/>
-    <link type="seealso" xref="keyboard-shortcuts-set"/>
 
     <revision pkgversion="3.8" version="0.3" date="2013-04-30" status="review"/>
     <revision version="16.04" date="2016-03-17" status="review"/>

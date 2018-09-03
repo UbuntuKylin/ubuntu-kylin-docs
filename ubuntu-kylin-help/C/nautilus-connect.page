@@ -31,19 +31,9 @@ own computer. This is a convenient way to download or upload
 files on the internet, or to share files with other people on
 your local network.</p>
 
-<p>To browse files over the network, open the <app>Files</app>
-application from the <gui>Dash</gui>, and click
-<gui>Browse Network</gui> in the sidebar. The file manager
-will find any computers on your local area network that advertise
-their ability to serve files. If you want to connect to a server
-on the internet, or if you do not see the computer you're looking
-for, you can manually connect to a server by typing in its
-internet/network address.</p>
-
 <steps>
   <title>Connect to a file server</title>
-  <item><p>In the file manager, click <gui>Files</gui> in the menu bar and pick
-  <gui>Connect to Server</gui> from the app menu.</p></item>
+  <item><p>点击<gui>文件</gui>，选择连接到服务器。</p></item>
   <item><p>Enter the address of the server, in the form of a
    <link xref="#urls">URL</link>. Details on supported URLs are
    <link xref="#types">listed below</link>.</p>
@@ -52,6 +42,7 @@ internet/network address.</p>
     <gui>Recent Servers</gui> list.</p>
   </note>
   </item>
+  <item><p>或者直接在文件管理器的路径中输入服务器地址。</p></item>
   <item><p>Click <gui>Connect</gui>. A new window will open showing you the
   files on the server. You can browse the files just as you would for those on
   your own computer. The server will also be added to the sidebar so you can

@@ -5,9 +5,7 @@
     <link type="guide" xref="prefs"/>
     <link type="guide" xref="hardware"/>
     <desc>
-      <link xref="mouse-lefthanded">Left-handed</link>,
-      <link xref="mouse-sensitivity">speed and sensitivity</link>,
-      <link xref="mouse-touchpad-click">touchpad clicking and scrolling</link>…
+      通用设置、触摸板、提示…
     </desc>
     <revision pkgversion="3.4.0" date="2012-02-19" status="review"/>
     <revision version="13.10" date="2013-10-22" status="review"/>
@@ -19,22 +17,20 @@
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
 </info>
 
-<title>Mouse</title>
-<links type="topic" style="2column"/>
+<title>鼠标</title>
+<p>通过 开始菜单 中 控制面板 打开 鼠标，可对鼠标操作进行设置。</p>
+
+<list>
+<item><p>通用设置：可设置惯用手、定位指针、指针速度和双击速度。</p></item>
+
+<item><p>触摸板：可设置是否启用触摸板、打字时是否禁用触摸板、触摸板是否支持鼠标点击、使用触摸板滚动的操作方式。</p></item>
+</list>
 
 <comment>
   <cite date="2012-02-19">shaunm</cite>
   <p>Maybe some topic grouping work.
   </p>
 </comment>
-
-<section id="problems" style="2column">
-  <info>
-    <title type="link">Common mouse problems</title>
-    <title type="link" role="trail">Common problems</title>
-  </info>
-  <title>Common problems</title>
-</section>
 
 <section id="tips" style="2column">
  <info>

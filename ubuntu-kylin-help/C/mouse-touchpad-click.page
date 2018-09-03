@@ -3,7 +3,6 @@
       style="task"
       id="mouse-touchpad-click">
 <info>
-    <link type="guide" xref="mouse"/>
     <desc>Click, drag, or scroll using taps and gestures on your touchpad.</desc>
 
     <revision pkgversion="3.7.1" version="0.3" date="2012-11-16" status="outdated"/>

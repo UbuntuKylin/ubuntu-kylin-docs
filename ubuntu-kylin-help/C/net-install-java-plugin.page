@@ -2,7 +2,6 @@
       type="topic" style="task"
       id="net-install-java-plugin">
   <info>
-    <link type="guide" xref="net-browser"/>
 
     <revision version="13.10" date="2013-10-23" status="outdated"/>
     

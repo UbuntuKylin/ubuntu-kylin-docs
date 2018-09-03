@@ -44,37 +44,27 @@
     </title>
     <item>
       <p>
-        Click on the <app>Software</app> icon in the Launcher, or 
-        search for <input>Software</input> in the search bar of the 
-        <app>Dash</app>.
+        从开始菜单中启动软件中心。
       </p>
     </item>
     <item>
       <p>
-        When <app>Software</app> launches, click <gui>Software &amp; Updates</gui>
+        点击软件中心左上角的设置按钮，进入软件源的配置界面。
       </p>
     </item>
     <item>
       <p>
-        You will be asked to enter your password. Once you have done that, 
-        switch to the <gui>Other Software</gui> tab.
+        配置完成后，点击右侧的<gui>+添加软件源</gui>，并选择<gui>更新软件源。</gui>
       </p>
     </item>
     <item>
       <p>
-        Click <gui>Add</gui> and enter the APT line for the repository. This 
-        should be available from the website of the repository, and should look 
-        similar to:
-      </p>
-      <p>
-        <code its:translate="no">deb http://archive.ubuntu.com/ubuntu/ xenial main</code>
+        更新完成后即可使用。
       </p>
     </item>
     <item>
       <p>
-        Click <gui>Add Source</gui> then close the <app>Software &amp; Updates</app> window. 
-        <app>Software</app> will then check your software sources for new 
-        updates.
+        同理，若是要添加个人PPA作为软件源，也是一样的操作。
       </p>
     </item>
   </steps>

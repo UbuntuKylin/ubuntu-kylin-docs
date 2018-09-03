@@ -15,31 +15,17 @@
     <title type="link" role="trail">Hardware</title>
 
     <desc>
-      <link xref="hardware#problems">Hardware problems</link>,
-      <link xref="printing">printers</link>,
-      <link xref="power">power settings</link>,
-      <link xref="color">color management</link>,
-      <link xref="bluetooth">Bluetooth</link>,
-      <link xref="disk">disks</link>…
+    打印机、蓝牙、磁盘
     </desc>
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
   </info>
 
-<title>Hardware &amp; drivers</title>
+<title>硬件与驱动</title>
 
 <links type="topic" style="toronto"/>
 
 <links type="topic" style="linklist" groups="more">
   <title>More topics</title>
 </links>
-
-<section id="problems" style="2column">
-  <info>
-    <title type="link" role="trail">Problems</title>
-    <title type="link">Hardware problems</title>
-  </info>
- <title>Common problems</title>
- <links type="topic" style="linklist"/>
-</section>
 
 </page>

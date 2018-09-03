@@ -29,31 +29,15 @@
 
 <steps>
  <item>
-    <p>Click the icon at the far right of the <gui>menu bar</gui> and select <gui>System Settings</gui>.</p>
- </item>
- <item>
-    <p>Open <gui>User Accounts</gui>.</p>
- </item>
-
- <item>
-  <p>Click <gui>Unlock</gui> and enter your password to unlock the account
- settings. (To give a user admin privileges, you must have admin privileges
- yourself.)</p>
+    <p>打开 开始菜单 中 控制面板 的 用户账户。</p>
  </item>
 
  <item>
   <p>Select the user whose privileges you want to change.</p>
   </item>
 
- <item><p>Click the label <gui>Standard</gui> next to <gui>Account type</gui>
- and select <gui>Administrator</gui>.</p>
+ <item><p>点击 <gui>更改用户类型</gui> 按钮，选择 标准用户 或者 管理员 。</p>
  </item>
-
-
- <item>
-  <p>Close the User Accounts window. The user's privileges will be changed when
- they next log in.</p>
-  </item>
 </steps>
 
 <note>

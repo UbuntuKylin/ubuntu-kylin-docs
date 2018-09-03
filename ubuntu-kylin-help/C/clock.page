@@ -3,7 +3,6 @@
       id="clock">
   <info>
 
-    <link type="guide" xref="prefs"/>
 
     <desc>
       <link xref="clock-set">Set time and date</link>,

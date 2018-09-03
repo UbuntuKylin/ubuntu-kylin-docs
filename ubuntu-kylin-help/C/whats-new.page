@@ -6,7 +6,7 @@
     <link type="guide" xref="index" group="whats-new"/>
     <link type="guide" xref="shell-overview" group="#first"/>
 
-    <desc>UKUI 桌面环境。</desc>
+    <desc>主界面简要介绍</desc>
 
     <revision version="17.10" date="2017-09-21" status="review"/>
     <credit type="author">
@@ -21,33 +21,32 @@
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
   </info>
 
-  <title>UKUI 桌面环境</title>
+  <title>用户界面和系统面板</title>
 
-<p>Ubuntu Kylin 是基于 Ubuntu 的中文开源操作系统，秉承着“做最有中国味的操作系统”的理念，为进一步提升普通用户的使用体验，我们在基于Unity7进行桌面风格定制调整的同时，最大程度考虑中国用户原有的使用习惯，打造了一款更适合中国用户使用的桌面系统环境——UKUI。
-</p>
 <p>
-UKUI是基于 Mate 的定制桌面，从开始菜单、控制面板、桌面任务栏以及桌面主题图标等不同层面进行了重新设计和实现，让用户能够更方便快速的适应系统使用。其主要特色包括：
+桌面是用户进行图形界面操作的基础，用户可以在桌面上放置常用文件和应用程序的快捷方式图标。
 </p>
-<list>
+<p>在桌面上，可以新建、删除、移动文件，同时可以添加或删除应用程序快捷方式图标。
+</p>
+<p>系统桌面默认放置了计算机、个人主文件夹、回收>站三个图标。
+</p>
 
-<item>
-<p>全新的主题风格和图标</p>
-<media type="image" src="figures/ukui/1-ukui.png">UKUI 桌面</media>
-</item>
+<p>屏幕底部为系统面板，包括开始菜单、文件管理器、Web浏览器图标以及任务栏和状态菜单。将鼠标停留在图标上，将会显示该应用的功能描述信息。
+</p>
 
-<item>
-<p>更便捷的开始菜单</p>
-<media type="image" src="figures/ukui/2-ukui-menu.png">UKUI 开始菜单</media>
-</item>
 
-<item>
-<p>更直观和易用的控制面板</p>
-<media type="image" src="figures/ukui/3-ukui-contro-center.png">UKUI 控制面板</media>
-</item>
+<section id="unity-overview">
+  <title>系统面板简介</title>
+<media type="image" src="figures/ukui/5-bottom.png">
+</media>
 
-<item>
-<p>扩展增强的文件管理器</p> 
-<media type="image" src="figures/ukui/4-peony.png">UKUI 文件管理器</media>
-</item>
-</list>
+<p>(1)开始菜单：弹出系统菜单，便于查找应用和文件</p>
+<p>(2)文件管理器：浏览和管理系统上的文件</p>
+<p>(3)浏览器：为用户提供最快、最安全的上网体验</p>
+<p>(4)任务栏：显示正在运行的程序或打开的文档，可进行关闭窗口、窗口置顶操作</p>
+<p>(5)系统小工具：包括对声音、输入法、网络连接、时间和日期等的设置</p>
+<p>(6)显示桌面按钮：用于最小化桌面的所有窗口，返回桌面；单击此按钮显示桌面后，文档或者应用将最小化隐藏，再次单击将恢复窗口</p>
+</section>
+
+
 </page>

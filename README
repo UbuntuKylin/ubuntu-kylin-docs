@@ -1,14 +1,14 @@
 ubuntu-kylin-docs
 =================
 
-This package is a fork of ubuntu-docs, which contains documents which 
-will be packaged together and shipped as ubuntu-kylin-docs in the 
+This package is a fork of ubuntu-docs, which contains documents which
+will be packaged together and shipped as ubuntu-kylin-docs in the
 Ubuntu Kylin distribution.  They contain documents targetted for
  end-users of Ubuntu Kylin as a desktop.
 
-The Ubuntu Kylin Documentation Project (UKDP) is responsible for this 
-documentation. Packages are maintained in bzr in the ubuntu-kylin-docs 
-Launchpad project and are uploaded periodically by the UKDP. Please do 
+The Ubuntu Kylin Documentation Project (UKDP) is responsible for this
+documentation. Packages are maintained in bzr in the ubuntu-kylin-docs
+Launchpad project and are uploaded periodically by the UKDP. Please do
 not sponsor or upload new packages without consulting with the UKDP.
 
 Homepage: http://www.ubuntukylin.com
@@ -24,7 +24,7 @@ documents targetted for end-users of Ubuntu as a desktop.
 
 The Ubuntu Documentation Project (UDP) is responsible for this documentation.
 Packages are maintained in bzr in the ubuntu-docs Launchpad project and are
-uploaded periodically by the UDP. Please do not sponsor or upload 
+uploaded periodically by the UDP. Please do not sponsor or upload
 new packages without consulting with the UDP.
 
 UDP homepage: https://wiki.ubuntu.com/DocumentationTeam

@@ -4,7 +4,7 @@
 
   <info>
     <link type="guide" xref="keyboard"/>
-    <desc>The Super key provides access to the Dash and the Launcher.</desc>
+    <desc>用徽标来打开开始菜单</desc>
     <revision version="14.04" date="2014-03-07" status="review"/>
     <credit type="author">
       <name>GNOME Documentation Project</name>
@@ -29,11 +29,7 @@
  keyboard. The <key>⌘</key> (Command) key can be used instead.</p>
 </note>
 
-  <p>The Super key serves a special function in <em>Unity</em>. If you press the Super key,
-  the Dash is displayed. If you press <em>and hold</em> the Super key, an overlay showing
-  many of Unity's keyboard shortcuts appears until you release the Super key.</p>
-
-<p>The Super key can help you do even more than that, though. To learn about more uses for the <em>Super</em> key, see the <link xref="shell-keyboard-shortcuts">keyboard shortcuts</link> page.</p>
+<p>在 UKUI 桌面上，可以通过Super键来打开开始菜单。</p>
 
 <comment>
   <p>Need to add info on changing the keybinding using the new preferences

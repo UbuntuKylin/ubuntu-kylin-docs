@@ -12,44 +12,34 @@
 
 
     <desc>
-      根据个人习惯对翻页快捷键进行全局配置。
+      输入法快捷设置。
     </desc>
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
 
     <revision version="14.04" date="2014-03-26" status="review"/>
   </info>
 
-  <title>
-    翻页快捷键
-  </title>
+  <title>快捷设置</title>
 
-    <p>根据个人习惯设置输入法快捷键。 </p>
+    <p>在搜狗拼音输入法面板中，您可以进行输入法的基本设置。</p>
 
   <steps>
 
      <item>
-      <p>点击桌面右上角的输入法系统图标，弹出下拉菜单。 </p>
+      <p>点击桌面右下角的输入法图标，弹出菜单。 </p>
     </item>
 
      <item>
-      <p>如果 <gui>搜狗拼音</gui> 选项未被选中，先选择启用 <gui>搜狗拼音</gui>。  </p>
+      <p>选择 <gui>搜狗拼音</gui>。  </p>
     </item>
 
      <item>
-      <p>在 <gui>搜狗拼音</gui> 处于启用状态时，下拉菜单将出现 <gui>设置</gui> 菜单项。  </p>
+      <p>在 <gui>搜狗拼音</gui> 处于启用状态时，菜单中将出现有关于搜狗输入法的设置项。  </p>
     </item>
 
      <item>
-      <p>选择 <gui>设置</gui>，弹出 <gui>搜狗拼音输入法设置</gui> 窗口。  </p>
+      <p>您可以根据个人需求完成快捷设置，包括中英标点切换、全半角切换、简繁体转换、设置皮肤。</p>
     </item>
-
-     <item>
-      <p>选择 <guiseq><gui>搜狗拼音输入法设置</gui><gui>按键</gui></guiseq>。 </p>
-    </item>
-     <item>
-      <p>在 <gui>翻页按键</gui> 栏更改翻页快捷键方案，如：<key>+</key>/<key>-</key>，<key>,</key>/<key>.</key> 等。</p>
-    </item>
-
 
   </steps>
 

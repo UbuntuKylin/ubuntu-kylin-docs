@@ -32,10 +32,6 @@
 
 <steps>
  <item>
-  <p>Open the <link xref="unity-launcher-intro">Launcher</link> and click the
-<gui>workspace switcher</gui> button near the bottom.</p>
- </item>
- <item>
   <p>Drag the window to the workspace you choose.</p>
  </item>
 </steps>

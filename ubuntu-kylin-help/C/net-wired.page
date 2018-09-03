@@ -8,10 +8,7 @@
 
     <link type="guide" xref="net"/>
 
-    <desc>
-      <link xref="net-wired-connect">Wired internet connections</link>,
-      <link xref="net-fixed-ip-address">Fixed IP addresses</link>…
-    </desc>
+    <desc>图形化的有线网络设置</desc>
 
     <credit type="author">
       <name>The Ubuntu Documentation Team</name>
@@ -19,6 +16,15 @@
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
   </info>
 
-<title>Wired Networking</title>
+<title>有线连接</title>
+<p>要设置有线网络连接，通常您只需插入网线，等待几秒后，网络图标变为“插座”状态。如果网线插好，网络无故障的情况下，没有连接，您的网络可能不支持自动设置 (DHCP)。在此情况下，您必须进行手动配置。</p>
 
+<p>打开网络配置有两种方式，一是通过控制面板中的网络，二是选择任务栏上的网络图标左键菜单中的编辑连接。</p>
+<p>对网络配置的步骤如下：</p>
+<steps>
+<item><p>若要增加新连接则点击编辑窗口左下角的<gui>+</gui>号，根据需要选择网络类型，一般为以太网；若是对已有连接的修改则在列表上双击该连接</p></item>
+<item><p>在“以太网”标签页的<gui>设备</gui>中，选择对应的MAC地址。然后切换到<gui>IPV4设置</gui></p></item>
+<item><p>在“方法”一栏中选择“手动”</p></item>
+<item><p>添加网络地址信息</p></item>
+</steps>
 </page>

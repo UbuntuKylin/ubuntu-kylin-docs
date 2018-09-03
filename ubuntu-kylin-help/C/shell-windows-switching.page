@@ -32,69 +32,16 @@
 
 <section id="launcher">
   <title>From the Launcher</title>
-  <steps>
     <item><p>
-Show the <gui>Launcher</gui> by moving your mouse to the top left corner of your screen.
+在任务栏上直接点击需要的窗口
     </p></item>
-    <item><p>
-Applications that are running have a small white triangle arrow on the left. Click on a 
-running application icon to switch to it.
-    </p></item>
-    <item><p>
-If a running application has multiple windows open, there will be multiple white arrows on
-the left. Click the application icon a second time to show all open windows zoomed out.
-Click the window you want to switch to.
-    </p></item>
-  </steps>
 </section>
 
 <section id="keyboard">
-  <title>From the keyboard</title>
-<list>
-  <item><p>Press <keyseq><key>Alt</key><key>Tab</key></keyseq> to bring up the
-  <gui>window switcher</gui>.</p>
-<list>
-  <item><p>Release <key>Alt</key> to select the next (highlighted) window in
-  the switcher.</p></item>
-  <item><p>Otherwise, still holding down the <key>Alt</key> key, press
-  <key>Tab</key> to cycle through the list of open windows, or
-  <keyseq><key>Shift</key><key>Tab</key></keyseq> to cycle backwards.</p>
-
-<note style="tip">
-  <p>Windows in the window switcher are grouped by application. Previews of
-  applications with multiple windows pop up as you click through.</p>
-</note></item>
-
-  <item><p>You can also move between the application icons in the window switcher
-  with the <key>&#8594;</key> or <key>&#8592;</key> keys, or select one by
- clicking it with the mouse.</p></item>
-  <item><p>Previews of applications with a single window can be displayed with
-  the <key>&#8595;</key> key.</p>
-
-<note>
-  <p>Only windows from the current <link xref="shell-workspaces">workspace</link> will be shown. To show windows from all workspaces, hold
-down the <key>Ctrl</key> and <key>Alt</key> keys and press <key>Tab</key> or
-<keyseq><key>Shift</key><key>Tab</key></keyseq>.
-      </p>
-</note></item>
-</list></item>
-</list>
-
-<list>
-<item>
-  <p>
-Press <keyseq><key><link xref="windows-key">Super</link></key><key>W</key></keyseq> to show all open windows zoomed out.
-  </p>
-    <list>
-      <item><p>
-Click the window you want to switch to.
-      </p></item>
-    </list>
-</item>
-
-</list>
-
-
+  <title>从键盘</title>
+<list><item><p>按住 <keyseq><key>Alt</key><key>Tab</key></keyseq> 可打开 <gui>窗口切换器</gui></p></item></list>
+<list><item><p>释放 <key>Alt</key> 会选择在切换器中下一个高亮的窗口</p></item></list>
+<list><item><p>或者仍然按住 <key>Alt</key> ：按 <key>Tab</key> ，可在打开的窗口列表中循环；按 <keyseq><key>Shift</key><key>Tab</key></keyseq> 则会反向循环</p></item></list>
 </section>
 
 </page>

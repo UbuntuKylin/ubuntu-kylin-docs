@@ -61,39 +61,15 @@ clear to me what it should do):
   home folder, documents, and settings.</p>
 
 <steps>
-  <item><p>Click the icon at the far right of the <gui>menu bar</gui> and select <gui>System Settings</gui>.</p></item>
-  <item><p>Open <gui>User Accounts</gui>.</p></item>
+  <item><p>打开 开始菜单 中 控制面板 的 用户账户。</p></item>
 
-  <item><p>You need <link xref="user-admin-explain">administrator privileges</link>
-  to add user accounts. Click <gui>Unlock</gui> in the top right corner and type
-  your password.</p></item>
+  <item><p>点击左下角的 <key>+ 创建一个新账户</key> 按钮。</p></item>
 
-  <item><p>In the list of accounts on the left, click the <key>+</key> button
-  to add a new user account.</p></item>
+  <item><p>您可以对新用户的用户名、密码、头像、权限、是否自动登录进行设置。</p></item>
 
-  <item><p>If you want the new user to have
-  <link xref="user-admin-explain">administrative access</link> to the computer,
-  select <gui>Administrator</gui> for the account type. Administrators can do things
-  like add and delete users, install software and drivers, and change the date and
-  time.</p></item>
+  <item><p>点击 <gui>创建账户</gui> 后，需要输入您的密码。</p></item>
 
-  <item><p>Enter the new user's full name. The username will be filled in
-  automatically based on the full name. The default is probably OK, but you can
-  change it if you  like.</p></item>
-
-  <item><p>Click <gui>Create</gui>.</p></item>
-
-  <item><p>The account is initially disabled until you choose what to do about
-  the user's password. Under <gui>Login Options</gui> click <gui>Account
-  disabled</gui> next to <gui>Password</gui>. Select <gui>Set a password now</gui>
-  from the <gui>Action</gui> drop-down list, and have the user type their
-  password in the <gui>New password</gui> and <gui>Confirm password</gui> fields.
-  See <link xref="user-goodpassword"/>.</p>
-  <p>You can also click the button next to the
-  <gui>New password</gui> field to select a randomly generated secure password.
-  These passwords are hard for others to guess, but they can be hard to remember,
-  so be careful.</p></item>
-  <item><p>Click <gui>Change</gui>.</p></item>
+  <item><p>完成创建。</p></item>
 </steps>
 
 <note><p>In the <gui>User Accounts</gui> window you can click the image next

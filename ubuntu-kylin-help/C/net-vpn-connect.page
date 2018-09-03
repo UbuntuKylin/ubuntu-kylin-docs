@@ -3,7 +3,6 @@
       id="net-vpn-connect">
   <info>
     <link type="guide" xref="net-wireless"/>
-    <link type="guide" xref="net-wired"/>
 
     <revision pkgversion="3.4.0" date="2012-02-19" status="review"/>
     <revision version="16.04" date="2016-03-14" status="review"/>

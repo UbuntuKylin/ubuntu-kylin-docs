@@ -16,7 +16,6 @@
       Organize the documents stored locally on your computer or created 
       online.
     </desc>
-    <link type="guide" xref="files#documents"/>
     <revision pkgversion="3.5.90" date="2012-08-31" status="review"/>
     <revision version="14.04" date="2014-03-06" status="review"/>
   </info>

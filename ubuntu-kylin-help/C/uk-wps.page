@@ -30,7 +30,7 @@
   </p>
 
   <p>
-    <app>WPS 办公套件</app> 可免费使用，但默认情况下没有包含在 Ubuntu Kylin 发行版中，请 <link href="apt:wps-office">安装</link> 以开始使用。
+    <app>WPS 办公套件</app> 已默认集成在系统中，可通过<gui>开始菜单</gui>——<gui>所有程序</gui>——<gui>办公</gui>打开使用。
   </p>
 
 <links type="topic" style="2column" groups="

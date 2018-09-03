@@ -4,7 +4,6 @@
 
   <info>
     <link type="guide" xref="prefs-language#langsupport" group="#first"/>
-    <link type="guide" xref="addremove" group="#last"/>
 
     <desc>Install more translations and related language support packages.</desc>
     <revision version="14.04" date="2014-01-12" status="review"/>

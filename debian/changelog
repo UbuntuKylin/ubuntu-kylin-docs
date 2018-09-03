@@ -1,3 +1,9 @@
+ubuntu-kylin-docs (18.10.0) cosmic; urgency=medium
+
+  * Update to ubuntu kylin 18.10
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Mon, 03 Sep 2018 09:35:11 +0800
+
 ubuntu-kylin-docs (17.10.0) artful; urgency=medium
 
   * Replace all ubuntu-help to ubuntu-kylin-help. 

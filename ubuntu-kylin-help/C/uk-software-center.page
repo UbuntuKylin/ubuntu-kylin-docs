@@ -10,7 +10,7 @@
 
     <desc>
       <!--这里规定引用本文件的位置显示在主标题之下的小标题-->	
-      为提高本土化体验开发的软件管理工具，数据来自 Ubuntu 和 Ubuntu Kylin 软件源。
+      为提高本土化体验开发的软件管理工具，数据来自 Ubuntu 和 Ubuntu Kylin 软件源
     </desc>
 
     <revision pkgversion="3.4.0" date="2012-02-19" status="review"/>

@@ -4,11 +4,9 @@
       id="display-dimscreen">
 
   <info>
-    <link type="guide" xref="prefs-display"/>
     <link type="guide" xref="power#problems"/>
     <link type="guide" xref="hardware-problems-graphics"/>
     <link type="seealso" xref="power-whydim"/>
-    <link type="seealso" xref="display-lock"/>
     <revision pkgversion="3.7.1" version="0.3" date="2012-11-16" status="outdated"/>
     <revision version="13.10" date="2013-09-07" status="review"/>
     <desc>Dim the screen to save power or increase the brightness to make it

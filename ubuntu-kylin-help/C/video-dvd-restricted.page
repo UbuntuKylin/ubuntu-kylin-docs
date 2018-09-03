@@ -3,8 +3,6 @@
       id="video-dvd-restricted">
 
   <info>
-    <link type="guide" xref="media#videos" group="#last"/>
-    <link type="seealso" xref="video-dvd"/>
     
     <desc>Most commercial DVDs are encrypted and will not play without decryption software.</desc>
     

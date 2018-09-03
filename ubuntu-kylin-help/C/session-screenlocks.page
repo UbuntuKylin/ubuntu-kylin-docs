@@ -30,17 +30,15 @@
  computer unattended), but it can be annoying if the screen locks itself too
  quickly.</p>
 
-  <p>To wait a longer period before the screen is automatically locked:</p>
+  <p>点击<gui>开始菜单</gui>，选择<gui>控制面板</gui>中的<gui>电源管理</gui>，您可以在<gui>电源设置</gui>标签页中，根据个人需要进行设置：</p>
 
-  <steps>
-    <item><p>Click the icon at the very right of the <gui>menu bar</gui> and select <gui>System Settings</gui>.</p></item>
-    <item><p>Click <gui>Brightness &amp; Lock</gui>.</p></item>
-    <item><p>Change the value in the <gui>Lock screen after</gui> drop-down list.</p></item>
-  </steps>
-
-<note style="tip">
- <p>If you don't ever want the screen to lock itself automatically, switch
- <gui>Lock</gui> off.</p>
-</note>
+  <section>
+    <list><item><p>设置计算机的状态</p></item></list>
+    <media type="image" src="figures/ukui/13-power1.png"></media>
+    <list><item><p>系统对按下电源按钮操作的响应设置</p></item></list>
+    <media type="image" src="figures/ukui/14-power2.png"></media>
+    <list><item><p>在<gui>屏幕保护</gui>标签页中，您可以根据个人喜好来设置屏幕保护程序</p></item></list>
+    <media type="image" src="figures/ukui/15-pb.png"></media>
+  </section>
 
 </page>

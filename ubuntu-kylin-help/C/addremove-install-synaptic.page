@@ -12,7 +12,6 @@
       <email>ki7mt@yahoo.com</email>
     </credit>
 
-    <link type="guide" xref="addremove"/>
     <revision pkgversion="0.80.4" version="0" date="2014-01-11" status="review"/>
 		<revision version="16.04" date="2016-03-13" status="review"/>
 

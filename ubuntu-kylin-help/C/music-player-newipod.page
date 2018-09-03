@@ -2,7 +2,6 @@
       type="topic" style="problem"
       id="music-player-newipod">
   <info>
-    <link type="guide" xref="media#music" />
 
     <revision version="13.10" date="2013-09-15" status="review"/>
 

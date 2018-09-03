@@ -29,19 +29,14 @@
   </p>
 
   <steps>
-  <item><p>Click your name on the menu bar and select <gui>System Settings</gui>.
-  </p></item>
-
-  <item><p>Open <gui>Displays</gui>.
+  <item><p>打开控制面板中的 <gui>显示器</gui>。
   </p></item>
 
   <item><p>Click on the image of the monitor you would like to activate or deactivate,
            then switch it <gui>ON/OFF</gui>.
   </p></item>
 
-  <item><p>The monitor with the <link xref="unity-menubar-intro">menu bar</link> is the main monitor. To change which monitor is
-           "main", click on the top bar and drag it over to the monitor you want to set as
-           the "main" monitor.
+  <item><p>带有底部开始菜单的是主屏幕，您可以根据需要，切换主屏。
   </p></item>
 
   <item><p>To change the "position" of a monitor, click on it and drag it to the desired
@@ -52,10 +47,6 @@
 
   <item><p>When you are happy with your settings, click <gui>Apply</gui> and then click
            <gui>Keep This Configuration</gui>.
-  </p></item>
-
-  <item><p>To close the <gui>Displays</gui> click on the <gui>x</gui> in the top
-           corner.
   </p></item>
   </steps>
 

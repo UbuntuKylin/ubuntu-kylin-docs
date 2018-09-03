@@ -5,7 +5,6 @@
 
   <info>
     <link type="guide" xref="bluetooth"/>
-    <link type="guide" xref="sharing"/>
     <link type="seealso" xref="files-share"/>
 
     <revision pkgversion="3.8.2" version="0.2" date="2013-05-16" 
@@ -65,19 +64,11 @@
   </note>
 
   <steps>
-    <title>Send files using the Bluetooth icon</title>
     <item>
-      <if:choose>
-        <if:when test="platform:unity">
-      <p>Click the Bluetooth icon in the menu bar and select <gui>Send Files to 
-      Device</gui>.</p>
-        </if:when>
-      <p>Click the Bluetooth icon on the top bar and select <gui>Send Files to 
-      Device</gui>.</p>
-      </if:choose>
+      <p>单击桌面右下角的蓝牙图标，选择 <gui>向设备发送文件</gui> 。</p>
     </item>
     <item>
-      <p>Choose the file you want to send and click <gui>Select</gui>.</p>
+      <p>选择您想要发送的文件。</p>
       <p>To send more than one file in a folder, hold down <key>Ctrl</key> as 
       you select each file.</p>
     </item>
@@ -101,32 +92,4 @@
     </item>
   </steps>
 
-  <steps>
-    <title>Send files from the Bluetooth settings</title>
-    <item>
-      <if:choose>
-        <if:when test="platform:unity">
-          <p>Click the Bluetooth icon in the menu bar and select 
-          <gui>Bluetooth Settings</gui>.</p>
-        </if:when>
-        <p>Click the Bluetooth icon on the top bar and select <gui>Bluetooth 
-        Settings</gui>.</p>
-      </if:choose>
-    </item>
-    <item><p>Select the device to send files to from the list on the left. The 
-    list only shows devices you've already connected to. See <link 
-    xref="bluetooth-connect-device"/>.</p></item>
-    <item><p>In the device information on the right, click <gui>Send 
-    Files</gui>.</p></item>
-    <item>
-      <p>Choose the file you want to send and click <gui>Select</gui>.</p>
-      <p>To send more than one file in a folder, hold down <key>Ctrl</key> as 
-      you select each file.</p>
-    </item>
-    <item>
-      <p>The owner of the receiving device usually has to press a button to 
-      accept the file. Once the owner accepts or declines, the result of the 
-      file transfer will be shown on your screen.</p>
-    </item>
-  </steps>
 </page>

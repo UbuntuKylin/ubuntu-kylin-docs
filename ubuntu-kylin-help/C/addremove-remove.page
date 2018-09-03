@@ -26,9 +26,7 @@
   <steps>
     <item>
       <p>
-        Click the <app>Software</app> icon in the 
-        <gui>Launcher</gui> or search for <input>Software</input> in the 
-        <gui>Dash</gui>.
+        通过开始菜单打开软件中心。
       </p>
     </item>
     <item>
@@ -52,6 +50,11 @@
       <p>
         You may be asked to enter your password. After you have done that, the 
         application will be removed.
+      </p>
+    </item>
+    <item>
+      <p>
+	如果您知道该软件对应的软件包名，也可以在终端中使用 sudo apt-get remove [软件包名] 来卸载。
       </p>
     </item>
   </steps>

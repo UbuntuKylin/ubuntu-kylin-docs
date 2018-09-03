@@ -2,7 +2,6 @@
       type="guide" style="task"
       id="prefs-language">
   <info>
-    <link type="guide" xref="prefs"/>
     <revision pkgversion="3.8.0" date="2013-03-10" status="candidate"/>
     <revision version="14.04" date="2014-01-12" status="review"/>
 

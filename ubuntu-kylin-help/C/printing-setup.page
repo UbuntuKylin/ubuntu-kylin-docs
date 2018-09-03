@@ -65,24 +65,19 @@
     </item>
   </steps>
 
-  <p>If your printer was not set up automatically, you can add it in
-  the printer settings.</p>
+  <p>如果您是要添加网络打印机，步骤如下：</p>
 
   <steps>
-    <item><p>Click the icon at the far right of the <gui>menu bar</gui> and select
-    <gui>System Settings</gui>.</p></item>
-    <item><p>Open <gui>Printers</gui>.</p></item>
-    <item><p>Click <gui>Add</gui> and select the printer from the Devices window.</p></item>
-    <item><p>Click <gui>Forward</gui> and wait while it searches for drivers.</p></item>
-    <item><p>You can customize the printer's name, description, and location if you like.
-    When finished, click <gui>Apply</gui>.</p></item>
-    <item><p>You can now print a test page or click <gui>Cancel</gui> to skip that step.</p></item>
+    <item><p>在 开始菜单 中的 控制面板 打开 <gui>打印机</gui>。</p></item>
+    <item><p>点击窗口左侧的 “+添加” 按钮，进入添加新打印机界面。</p></item>
+    <item><p>选择 <gui>网络打印机</gui> ，可自动搜索当前网络中的打印机，也可以手动输入网络打印机的IP地址进行查找。</p></item>
+    <item><p>选择好打印机后，进行下一步，安装好对应型号的驱动、附加硬件。</p></item>
+    <item><p>在下一步的窗口中可以对改打印机的名称等信息进行编辑。</p></item>
+    <item><p>以上步骤完成后，可以打印一张测试页来验证是否正确添加打印机。</p></item>
   </steps>
 
   <note>
-    <p>If there are multiple drivers available for your computer, you may be
-    asked to select a driver. To use the recommended driver, just click Forward
-    on the make and model screens.</p>
+    <p>单击 <gui>打印机</gui> 并选择 <gui>查看打印机队列</gui> ，可管理打印任务：如暂停、取消、重新打印等。</p>
   </note>
 
 <comment>

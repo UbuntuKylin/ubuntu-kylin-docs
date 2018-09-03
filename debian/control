@@ -1,14 +1,15 @@
 Source: ubuntu-kylin-docs
 Section: doc
 Priority: optional
-Maintainer: Ubuntu Kylin Documentation Team <luolei@ubuntukylin.com>
-Build-Depends: debhelper (>= 8), cdbs
+Maintainer: Ubuntu Kylin Documentation Team <jianfengli@ubuntukylin.com>
+Build-Depends: debhelper (>= 11), cdbs
 Build-Depends-Indep: gnome-common,
                      pkg-config,
                      yelp-tools
-Vcs-Bzr: http://bazaar.launchpad.net/~luolei/ubuntu-kylin-docs/xenial
-Standards-Version: 3.9.8
+Standards-Version: 4.2.0
 Homepage: https://launchpad.net/ubuntu-kylin-docs
+Vcs-Bzr: https://code.launchpad.net/~feng-kylin/ubuntu-kylin-docs/ubuntu-kylin-docs
+Vcs-Browser: https://code.launchpad.net/~feng-kylin/ubuntu-kylin-docs/ubuntu-kylin-docs
 
 Package: ubuntu-kylin-docs
 Architecture: all

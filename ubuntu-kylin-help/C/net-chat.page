@@ -6,13 +6,11 @@
 
     <revision version="13.10" date="2013-09-15" status="review"/>
 
-    <link type="guide" xref="net"/>
 
     <desc>
       <link xref="net-chat-empathy">Chat on any network using <app>Empathy</app></link>,
       <link xref="net-chat-video">make video calls</link>,
-      <link xref="net-chat-skype">install skype</link>,
-      <link xref="net-chat-social">social networking apps</link>
+      <link xref="net-chat-skype">install skype</link>
     </desc>
  
     <credit type="author">

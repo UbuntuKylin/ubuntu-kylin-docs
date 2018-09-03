@@ -14,15 +14,22 @@
   <revision version="13.10" date="2013-09-07" status="review"/>
 
   <desc>
-    <link xref="disk-capacity">Disk space</link>,
-    <link xref="disk-benchmark">performance</link>,
-    <link xref="disk-check">problems</link>,
-    <link xref="disk-partitions">volumes and partitions</link>…
+   磁盘型号、大小、序列号等信息
   </desc>
 
   <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
 </info>
 
-<title>Disks &amp; storage</title>
+<title>磁盘</title>
+<p>
+   通过该软件可以了解到当前系统上存在的硬盘的信息，包括插上的U盘。
+</p>
 
+<p>
+   在 <gui>开始菜单</gui> 的 <gui>附件</gui> 中可以打开 磁盘 应用。
+</p>
+
+<p>
+   展示的硬盘信息包括型号、大小、硬盘温度、分区的具体情况等。
+</p>
 </page>

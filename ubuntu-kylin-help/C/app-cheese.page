@@ -11,7 +11,7 @@
       It is like your own personal photo booth.
     </desc>
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
-    <link type="guide" xref="media#videos" />
+    <link type="guide" xref="media#photos" />
     <revision version="16.04" date="2016-03-16" status="review"/>
   </info>
 

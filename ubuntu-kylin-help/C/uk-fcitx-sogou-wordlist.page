@@ -12,7 +12,7 @@
 
 
     <desc>
-      根据个人习惯设置候选词个数。
+      根据个人习惯进行高级配置。
     </desc>
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
 
@@ -20,36 +20,24 @@
   </info>
 
   <title>
-    候选词显示个数
+    高级设置
   </title>
 
-    <p>根据个人习惯对输入法候选词个数进行配置。 </p>
+    <p>根据个人习惯进行高级配置。 </p>
 
   <steps>
 
      <item>
-      <p>点击桌面右上角的输入法系统图标，弹出下拉菜单。 </p>
+      <p>当<gui>搜狗拼音</gui>处于启用状态时，在输入法弹出的菜单中选择<gui>设置</gui>。 </p>
     </item>
 
      <item>
-      <p>如果菜单项 <gui>搜狗拼音</gui> 未处于活动状态，请选择激活 <gui>搜狗拼音</gui>。  </p>
-    </item>
+    <p>在弹出的窗口中，可以对搜狗输入法的各种快捷按键、词库、外观等进行个性化配置。</p>
+     </item>
 
      <item>
-      <p>在 <gui>搜狗拼音</gui> 处于活动状态时，下拉菜单将出现 <gui>设置</gui> 菜单项。   </p>
-    </item>
-
-     <item>
-      <p>选择 <gui>设置</gui>，将弹出 <gui>搜狗拼音输入法设置</gui> 窗口。  </p>
-    </item>
-
-     <item>
-      <p>选择 <guiseq><gui>搜狗拼音输入法设置</gui><gui>外观</gui></guiseq>。  </p>
-    </item>
-
-     <item>
-      <p>在 <gui>候选词个数</gui> 栏选择每页候选词显示个数。  </p>
-    </item>
+    <p>登录搜狗个人账户，可同步账户词库。</p>
+     </item>
 
   </steps>
 

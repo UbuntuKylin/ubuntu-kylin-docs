@@ -1,4 +1,4 @@
-AC_INIT([ubuntu-kylin-docs], [16.04],
+AC_INIT([ubuntu-kylin-docs], [18.10],
         [https://bugs.launchpad.net/ubuntu-kylin-docs])
 AM_INIT_AUTOMAKE
 

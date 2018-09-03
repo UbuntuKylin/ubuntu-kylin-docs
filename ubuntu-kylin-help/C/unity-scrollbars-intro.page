@@ -6,7 +6,7 @@
     <link type="guide" xref="shell-overview#desktop" />
     <link type="seealso" xref="mouse-touchpad-click" />
 
-    <desc>Overlay scrollbars are the thin orange strips on long documents.</desc>
+    <desc>Overlay scrollbars are the thin gray strips on long documents.</desc>
     <revision version="13.10" date="2013-10-23" status="outdated"/>
 
     <credit type="author">
@@ -34,7 +34,7 @@ just as well with a mouse.</p>
 <section id="using">
   <title>Use the scrollbars</title>
 
-  <p>The overlay scrollbar appears as a thin orange strip at the edge of a scrollable area.
+  <p>The overlay scrollbar appears as a thin gray strip at the edge of a scrollable area.
   The position of the scrollbar corresponds with your screen's position in the scrollable content.
   The strip length corresponds with the content length; the shorter the strip, the longer the content.</p>
 

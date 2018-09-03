@@ -69,18 +69,18 @@
     <steps>
     	<item>
     	  <p>
-    	  Click the <link xref="unity-menubar-intro">network menu</link> in the menu bar 
+    	  Click the in the menu bar 
     	  and select <gui>Edit Connections...</gui>
     	  </p>
     	</item>
     	<item>
     	  <p>
-    	  Switch to the <gui>Mobile Broadband</gui> tab.
-    	  </p>
+    	  Click <gui>Add</gui>.
+	  </p>
     	</item>
     	<item>
     	  <p>
-    	  Click <gui>Add</gui>.
+	 Switch to the <gui>Mobile Broadband</gui> tab.
     	  </p>
     	</item>
     	<item>

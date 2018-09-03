@@ -19,9 +19,7 @@
   <p>
     You can make video calls from Ubuntu without installing any additional
     software using <app>Empathy</app> - via the <em>Google Talk</em>, <em>MSN
-    </em>, <em>Jabber </em>, and <em>SIP</em> networks.
-    See <link href="help:empathy/audio-video">the Empathy manual</link>
-    for help on making video calls with <app>Empathy</app>. 
+    </em>, <em>Jabber </em>, and <em>SIP</em> networks. 
   </p>
 
   <list>

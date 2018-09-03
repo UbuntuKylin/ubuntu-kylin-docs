@@ -75,53 +75,16 @@ files are displayed in the tree sidebar. Select
   </item>
   <item>
     <title><gui>Show hidden and backup files</gui></title>
-    <p>The file manager does not display <link xref="files-hidden">hidden
-    files</link> and folders by default. You can always show hidden files by
-    selecting this option.</p>
-    <p its:locNote="TRANSLATORS: use the translation of the tooltip for the
-    downwards pointing arrow button that opens the preferences menu in the main
-    window for 'View options'">You can also show hidden files in an individual
-    window by selecting <gui>Show Hidden Files</gui>, from the
-    <media type="image" src="figures/go-down.png">View options</media> menu in
-    the toolbar.</p>
+    <p>文件管理器默认未显示隐藏文件和文件夹，您可以在窗口顶部选择“查看”，勾选“显示隐藏文件”。</p>
   </item>
 </terms>
 </section>
 
-<section id="icon-view-defaults">
-<title>Icon view defaults</title>
-<terms>
-  <item>
-    <title><gui>Default zoom level</gui></title>
-    <p its:locNote="TRANSLATORS: use the translation of the tooltip for the
-    downwards pointing arrow button that opens the preferences menu in the main
-    window for 'View options'">You can make the icons and text larger or
-    smaller by default in icon view using this option. You can also change this
-    setting in an individual folder by clicking the
-    <media type="image" src="figures/go-down.png">View options</media> button
-    in the toolbar and selecting <gui>Zoom In</gui>, <gui>Zoom Out</gui> or
-    <gui>Normal Size</gui>. If you frequently use a larger or smaller zoom
-    level, you can set the default with this option.</p>
-    <p>In icon view, more or fewer
-    <link xref="nautilus-display#icon-captions">captions</link> are shown based
-    on your zoom level.</p>
-   </item>
-  </terms>
-</section>
-
 <section id="list-view-defaults">
-<title>List view defaults</title>
+<title>图标缩放</title>
 <terms>
   <item>
-    <title><gui>Default zoom level</gui></title>
-    <p its:locNote="TRANSLATORS: use the translation of the tooltip for the
-    downwards pointing arrow button that opens the preferences menu in the main
-    window for 'View options'">You can make the icons and text larger or
-    smaller in list view using this option. You can also do this in an
-    individual folder by clicking the
-    <media type="image" src="figures/go-down.png">View options</media> button
-    in the toolbar and selecting <gui>Zoom In</gui>, <gui>Zoom Out</gui> or
-    <gui>Normal Size</gui>.</p>
+    <p>您可以使用该选项让图标和文本文件更大或者更小。通过窗口顶部的“查看”，选择“放大”、“缩小”即可；“普通大小”表示恢复默认大小。</p>
   </item>
 </terms>
 </section>

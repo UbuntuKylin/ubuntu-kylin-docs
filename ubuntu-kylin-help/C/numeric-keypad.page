@@ -5,7 +5,6 @@
       id="numeric-keypad">
 
   <info>
-    <link type="guide" xref="keyboard"/>
     <desc>Enable the numeric keypad by default.</desc>
 
     <revision version="15.04" date="2014-11-10" status="review"/>

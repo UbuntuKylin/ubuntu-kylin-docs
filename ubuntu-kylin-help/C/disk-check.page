@@ -3,8 +3,6 @@
       type="topic" style="task" version="1.0 if/1.0"
       id="disk-check">
   <info>
-    <link type="guide" xref="disk"/>
-
 
     <credit type="author">
       <name>GNOME Documentation Project</name>

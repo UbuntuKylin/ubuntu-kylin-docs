@@ -2,7 +2,6 @@
       type="topic" style="task"
       id="sharing-bluetooth">
   <info>
-    <link type="guide" xref="bluetooth"/>
 
     <desc>Bluetooth file sharing and receiving options.</desc>
 
