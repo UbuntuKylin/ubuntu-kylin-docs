@@ -2,11 +2,11 @@ Source: ubuntu-kylin-docs
 Section: doc
 Priority: optional
 Maintainer: Ubuntu Kylin Documentation Team <jianfengli@ubuntukylin.com>
-Build-Depends: debhelper (>= 11), cdbs
+Build-Depends: debhelper (>= 10), cdbs
 Build-Depends-Indep: gnome-common,
                      pkg-config,
                      yelp-tools
-Standards-Version: 4.2.0
+Standards-Version: 4.2.1
 Homepage: https://launchpad.net/ubuntu-kylin-docs
 Vcs-Bzr: https://code.launchpad.net/~feng-kylin/ubuntu-kylin-docs/ubuntu-kylin-docs
 Vcs-Browser: https://code.launchpad.net/~feng-kylin/ubuntu-kylin-docs/ubuntu-kylin-docs
@@ -19,4 +19,3 @@ Description: Ubuntu Kylin Desktop Guide
  This package holds the official Ubuntu Kylin documentation, maintained by
  the Ubuntu Kylin Documentation Team. The documentation is based on the Ubuntu
  documentation, and can be viewed using Yelp, the GNOME help browser.
-

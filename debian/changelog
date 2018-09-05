@@ -6,7 +6,7 @@ ubuntu-kylin-docs (18.10.0) cosmic; urgency=medium
 
 ubuntu-kylin-docs (17.10.0) artful; urgency=medium
 
-  * Replace all ubuntu-help to ubuntu-kylin-help. 
+  * Replace all ubuntu-help to ubuntu-kylin-help.
   * Remove the conflicts with ubuntu-docs.
 
  -- handsome_feng <jianfengli@ubuntukylin.com>  Thu, 21 Sep 2017 20:12:41 +0800
@@ -49,7 +49,7 @@ ubuntu-kylin-docs (14.10.1) utopic; urgency=low
  -- Luo Lei <luolei@ubuntukylin.com>  Thu, 18 Sep 2014 16:06:18 +0800
 
 ubuntu-kylin-docs (14.04.3) trusty; urgency=low
-  
+
   * Add "Replaces" field in debian control file to automatically remove
     ubuntu-docs before installation.
   * Merge ubuntu-docs changes.
@@ -61,7 +61,7 @@ ubuntu-kylin-docs (14.04.2) trusty; urgency=low
 
   * Initial release containing Ubuntu Kylin features.
   * Collect Ubuntu Kylin screenshots to "ubuntu-kylin-help/zh_CN/figures".
-  * Replace "html/img/favicon.ico, footer_logo.png, logo.png, 
+  * Replace "html/img/favicon.ico, footer_logo.png, logo.png,
     logo-ubuntu-header.png" by Ubuntu Kylin ones.
 
  -- Luo Lei <luolei@ubuntukylin.com>  Wed, 9 Apr 2014 09:41:03 +0800

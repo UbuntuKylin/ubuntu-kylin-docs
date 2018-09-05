@@ -1,24 +1,29 @@
-Format: http://dep.debian.net/deps/dep5/
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: ubuntu-kylin-docs
 Upstream-Contact: Ubuntu Kylin Documentation Team <jianfengli@ubuntukylin.com>
 Source: https://launchpad.net/ubuntu-kylin-docs
 Copyright: (C) 2014-2017 The Ubuntu Kylin Documentation Team
 
-Files: debian/* ubuntu-kylin-help/C/check*.sh
-Copyright: (C) 2004-2013 The Ubuntu Documentation Team, 2014-2017 The Ubuntu Documentation Team & The Ubuntu Kylin Documentation Team
+Files: *
+Copyright: (C) 2017 The Ubuntu Kylin Documentation Team
 License: GPL-3+
 
-Files: ubuntu-kylin-help/*/*.page ubuntu-kylin-help/*/figures/*
-Copyright: (C) 2004-2013 The Ubuntu Documentation Team, 2014-2017 The Ubuntu Documentation Team & The Ubuntu Kylin Documentation Team
+Files: debian/*
+       ubuntu-kylin-help/C/check*.sh
+Copyright: (C) 2004-2017 The Ubuntu Documentation Team
+           (C) 2018 The Ubuntu Kylin Documentation Team
+License: GPL-3+
+
+Files: ubuntu-kylin-help/*/*.page
+       ubuntu-kylin-help/*/figures/*
+Copyright: (C) 2004-2017 The Ubuntu Documentation Team
+           (C) 2018 The Ubuntu Kylin Documentation Team
 License: CC-BY-SA-3.0
 
 Files: ubuntu-kylin-help/*/figures/ukui/*
 Copyright: (C) 2017 The Ubuntu Kylin Documentation Team
 License: CC-BY-SA-3.0
 
-Files: *
-Copyright: (C) 2017 The Ubuntu Kylin Documentation Team
-License: GPL-3+
 
 License: GPL-3+
  This program is free software: you can redistribute it and/or modify
@@ -38,10 +43,22 @@ License: GPL-3+
  /usr/share/common-licenses/GPL-3.
 
 License: CC-BY-SA-3.0
+ Creative Commons Attribution-ShareAlike 3.0 Unported
+ .
+ CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE
+ LEGAL SERVICES. DISTRIBUTION OF THIS LICENSE DOES NOT CREATE AN
+ ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS INFORMATION
+ ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES REGARDING THE
+ INFORMATION PROVIDED, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM
+ ITS USE.
+ .
+ License
+ .
  THE WORK (AS DEFINED BELOW) IS PROVIDED UNDER THE TERMS OF THIS CREATIVE
  COMMONS PUBLIC LICENSE ("CCPL" OR "LICENSE"). THE WORK IS PROTECTED BY
  COPYRIGHT AND/OR OTHER APPLICABLE LAW. ANY USE OF THE WORK OTHER THAN AS
  AUTHORIZED UNDER THIS LICENSE OR COPYRIGHT LAW IS PROHIBITED.
+ .
  BY EXERCISING ANY RIGHTS TO THE WORK PROVIDED HERE, YOU ACCEPT AND AGREE TO BE
  BOUND BY THE TERMS OF THIS LICENSE. TO THE EXTENT THIS LICENSE MAY BE
  CONSIDERED TO BE A CONTRACT, THE LICENSOR GRANTS YOU THE RIGHTS CONTAINED HERE
@@ -329,3 +346,24 @@ License: CC-BY-SA-3.0
        under this License, such additional rights are deemed to be included in
        the License; this License is not intended to restrict the license of any
        rights under applicable law.
+ Creative Commons Notice
+ Creative Commons is not a party to this License, and makes no warranty
+ whatsoever in connection with the Work. Creative Commons will not be
+ liable to You or any party on any legal theory for any damages
+ whatsoever, including without limitation any general, special,
+ incidental or consequential damages arising in connection to this
+ license. Notwithstanding the foregoing two (2) sentences, if Creative
+ Commons has expressly identified itself as the Licensor hereunder, it
+ shall have all rights and obligations of Licensor.
+ .
+ Except for the limited purpose of indicating to the public that the
+ Work is licensed under the CCPL, Creative Commons does not authorize
+ the use by either party of the trademark "Creative Commons" or any
+ related trademark or logo of Creative Commons without the prior
+ written consent of Creative Commons. Any permitted use will be in
+ compliance with Creative Commons' then-current trademark usage
+ guidelines, as may be published on its website or otherwise made
+ available upon request from time to time. For the avoidance of doubt,
+ this trademark restriction does not form part of the License.
+ .
+ Creative Commons may be contacted at https://creativecommons.org/.
