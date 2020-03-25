@@ -38,15 +38,10 @@
   <steps>
     <title>Enable workspaces</title>
     <item>
-      <p>在桌面任务栏的空白处单击右键</p>
-    </item>
-    <item>
-      <p>选择<gui>任务栏设置</gui></p>
-    </item>
-    <item>
-      <p>取消掉“隐藏工作区”前面的勾选</p>
+      <p>点击<gui>开始菜单</gui>旁边的图标，即可打开工作区</p>
+     <media type="image" src="figures/ukui/workspace-button.png">
+     </media>
     </item>
   </steps>
 
- <p>By default, Ubuntu shows 4 workspaces, arranged in 2 rows and 2 columns.</p>
 </page>

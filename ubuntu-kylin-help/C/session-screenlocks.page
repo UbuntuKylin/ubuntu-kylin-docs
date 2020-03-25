@@ -30,15 +30,13 @@
  computer unattended), but it can be annoying if the screen locks itself too
  quickly.</p>
 
-  <p>点击<gui>开始菜单</gui>，选择<gui>控制面板</gui>中的<gui>电源管理</gui>，您可以在<gui>电源设置</gui>标签页中，根据个人需要进行设置：</p>
+  <p>点击<gui>开始菜单</gui>，选择<gui>控制面板</gui>，点击<gui>系统</gui>，您可以在<gui>电源</gui>标签页中，根据个人需要进行设置：</p>
 
   <section>
-    <list><item><p>设置计算机的状态</p></item></list>
+    <list><item><p>设置电源性能</p></item></list>
     <media type="image" src="figures/ukui/13-power1.png"></media>
-    <list><item><p>系统对按下电源按钮操作的响应设置</p></item></list>
+    <list><item><p>设置进入睡眠状态和关闭显示器的时间</p></item></list>
     <media type="image" src="figures/ukui/14-power2.png"></media>
-    <list><item><p>在<gui>屏幕保护</gui>标签页中，您可以根据个人喜好来设置屏幕保护程序</p></item></list>
-    <media type="image" src="figures/ukui/15-pb.png"></media>
   </section>
 
 </page>

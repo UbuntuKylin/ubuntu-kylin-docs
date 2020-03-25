@@ -18,18 +18,20 @@
 
   <title>开始菜单</title>
 
-<p>单击开始菜单弹出系统菜单，左侧显示四个分类常用软件、所有软件、我的电脑、控制面板。</p>
-
-<list style="compact">
-<item><p>在常用软件中，列出最近使用过的软件</p></item>
-</list>
+<p>单击开始菜单弹出系统菜单，默认以字母排序的方式显示系统中的应用。</p>
 <media type="image" src="figures/ukui/6-start1.png">
 </media>
 
 <list style="compact">
-<item><p>所有软件中将会列出系统所有软件；为了便于用户快速定位应用程序，系统进行了应用分类</p></item>
+<item><p>通过右上侧按钮，可选择全屏显示开始菜单、显示常用软件和按功能分类软件。如下图所示，为全屏开始菜单。</p></item>
 </list>
 <media type="image" src="figures/ukui/7-start2.png">
+</media>
+
+<list style="compact">
+<item><p>通过右下侧按钮，可进入用户信息查看与设置、我的电脑、控制面板和关机对话框。</p></item>
+</list>
+<media type="image" src="figures/ukui/a-start1.png">
 </media>
 
 </page>
