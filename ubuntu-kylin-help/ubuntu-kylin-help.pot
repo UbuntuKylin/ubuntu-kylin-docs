@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-03 09:11+0800\n"
+"POT-Creation-Date: 2020-03-25 19:12+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -6295,7 +6295,7 @@ msgstr ""
 #. whatever you like once you have updated your copy of the file.
 #: C/hardware-cardreader.page:28
 msgctxt "_"
-msgid "external ref='figures/ukui/18-shotwell.png' md5='436fb39d11b7371d083f51cba8cff33d'"
+msgid "external ref='figures/ukui/18-shotwell.png' md5='2c57d403017cc98e9978b484a609c68c'"
 msgstr ""
 
 #. (itstool) path: section/title
@@ -6315,7 +6315,7 @@ msgstr ""
 #. whatever you like once you have updated your copy of the file.
 #: C/hardware-cardreader.page:36
 msgctxt "_"
-msgid "external ref='figures/ukui/19-pv.png' md5='f0f30ab4c4b08ce6c18622853ffa2059'"
+msgid "external ref='figures/ukui/19-pv.png' md5='6d2440d4418133b06c01d5375919b4a3'"
 msgstr ""
 
 #. (itstool) path: info/desc
@@ -8890,7 +8890,7 @@ msgstr ""
 #. whatever you like once you have updated your copy of the file.
 #: C/net-browser.page:22
 msgctxt "_"
-msgid "external ref='figures/ukui/16-firefox.png' md5='e119315f69bced9c0e586bbb7973e695'"
+msgid "external ref='figures/ukui/16-firefox.png' md5='8866bcdab1e6c2a18144be07117faaa5'"
 msgstr ""
 
 #. (itstool) path: info/desc
@@ -13008,12 +13008,12 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/session-screenlocks.page:33
-msgid "点击<gui>开始菜单</gui>，选择<gui>控制面板</gui>中的<gui>电源管理</gui>，您可以在<gui>电源设置</gui>标签页中，根据个人需要进行设置："
+msgid "点击<gui>开始菜单</gui>，选择<gui>控制面板</gui>，点击<gui>系统</gui>，您可以在<gui>电源</gui>标签页中，根据个人需要进行设置："
 msgstr ""
 
 #. (itstool) path: item/p
 #: C/session-screenlocks.page:36
-msgid "设置计算机的状态"
+msgid "设置电源性能"
 msgstr ""
 
 #. (itstool) path: section/media
@@ -13023,12 +13023,12 @@ msgstr ""
 #. whatever you like once you have updated your copy of the file.
 #: C/session-screenlocks.page:37
 msgctxt "_"
-msgid "external ref='figures/ukui/13-power1.png' md5='5a9dacbf4951bf36396a6a807cbb8f5e'"
+msgid "external ref='figures/ukui/13-power1.png' md5='48c94e27e4dde02fa046b2db44519913'"
 msgstr ""
 
 #. (itstool) path: item/p
 #: C/session-screenlocks.page:38
-msgid "系统对按下电源按钮操作的响应设置"
+msgid "设置进入睡眠状态和关闭显示器的时间"
 msgstr ""
 
 #. (itstool) path: section/media
@@ -13038,22 +13038,7 @@ msgstr ""
 #. whatever you like once you have updated your copy of the file.
 #: C/session-screenlocks.page:39
 msgctxt "_"
-msgid "external ref='figures/ukui/14-power2.png' md5='2ec4cc9db75cf629d1d78b26d19e361c'"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/session-screenlocks.page:40
-msgid "在<gui>屏幕保护</gui>标签页中，您可以根据个人喜好来设置屏幕保护程序"
-msgstr ""
-
-#. (itstool) path: section/media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/session-screenlocks.page:41
-msgctxt "_"
-msgid "external ref='figures/ukui/15-pb.png' md5='c04be48a2d1e39674e89d6b17eedb356'"
+msgid "external ref='figures/ukui/14-power2.png' md5='70a83cb5caeb2b82afc07de9018d527d'"
 msgstr ""
 
 #. (itstool) path: info/desc
@@ -13123,7 +13108,7 @@ msgstr ""
 #. whatever you like once you have updated your copy of the file.
 #: C/sharing-desktop.page:26
 msgctxt "_"
-msgid "external ref='figures/ukui/17-remmina.png' md5='be2cc37f654eb051565bab75ec63be14'"
+msgid "external ref='figures/ukui/17-remmina.png' md5='8d73adf5469cd87aa15949ef6ab187e6'"
 msgstr ""
 
 #. (itstool) path: page/p
@@ -13882,22 +13867,17 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/shell-workspaces.page:41
-msgid "在桌面任务栏的空白处单击右键"
+msgid "点击<gui>开始菜单</gui>旁边的图标，即可打开工作区"
 msgstr ""
 
-#. (itstool) path: item/p
-#: C/shell-workspaces.page:44
-msgid "选择<gui>任务栏设置</gui>"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/shell-workspaces.page:47
-msgid "取消掉“隐藏工作区”前面的勾选"
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/shell-workspaces.page:51
-msgid "By default, Ubuntu shows 4 workspaces, arranged in 2 rows and 2 columns."
+#. (itstool) path: item/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/shell-workspaces.page:42
+msgctxt "_"
+msgid "external ref='figures/ukui/workspace-button.png' md5='1edb6354cbb820ce4c8c40b8c02339bb'"
 msgstr ""
 
 #. (itstool) path: info/desc
@@ -15016,6 +14996,7 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/uk-weather.page:51
+#: C/unity-dash-intro.page:25
 msgid "配置"
 msgstr ""
 
@@ -15731,11 +15712,6 @@ msgstr ""
 msgid "在控制面板中默认提供了系统常用配置项，可进行系统配置和硬件配置等相关操作。"
 msgstr ""
 
-#. (itstool) path: section/title
-#: C/unity-dash-intro.page:25
-msgid "系统配置"
-msgstr ""
-
 #. (itstool) path: section/media
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
@@ -15743,87 +15719,47 @@ msgstr ""
 #. whatever you like once you have updated your copy of the file.
 #: C/unity-dash-intro.page:26
 msgctxt "_"
-msgid "external ref='figures/ukui/8-control1.png' md5='9d2babbe636dd9a9d2c726a530e2c67b'"
+msgid "external ref='figures/ukui/8-control1.png' md5='2b2c6c3a568236c8f8f61339000252ff'"
 msgstr ""
 
 #. (itstool) path: section/p
 #: C/unity-dash-intro.page:28
-msgid "—— 个性化 - 更改桌面背景、字体"
+msgid "—— 系统 - 对显示器、默认应用、电源管理、开机启动应用进行设置"
 msgstr ""
 
 #. (itstool) path: section/p
 #: C/unity-dash-intro.page:29
-msgid "—— 开机启动 - 显示开机自启动软件"
+msgid "—— 设备 - 对打印机、鼠标、键盘的操作与配置进行设置"
 msgstr ""
 
 #. (itstool) path: section/p
 #: C/unity-dash-intro.page:30
-msgid "—— 默认应用 - 选择系统各类不同文件默认打开的软件应用"
+msgid "—— 个性化 - 自定义系统背景、主题、锁屏、字体屏保"
 msgstr ""
 
 #. (itstool) path: section/p
 #: C/unity-dash-intro.page:31
-msgid "—— 时间与日期 - 对系统的时间与日期、时区进行设置"
+msgid "—— 网络 - 查看网络状态，配置系统网络连接、VPN、网络代理"
 msgstr ""
 
 #. (itstool) path: section/p
 #: C/unity-dash-intro.page:32
-msgid "—— 用户账户 - 显示当前用户状态，可以创建、删除用户，以及对用户的属性进行设置"
-msgstr ""
-
-#. (itstool) path: section/title
-#: C/unity-dash-intro.page:37
-msgid "硬件配置"
-msgstr ""
-
-#. (itstool) path: section/media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/unity-dash-intro.page:38
-msgctxt "_"
-msgid "external ref='figures/ukui/9-control2.png' md5='b08ae914e99dba6f093e24d774a2b3f8'"
+msgid "—— 账户 - 显示当前用户状态，可以创建、删除用户，以及对用户的属性进行设置"
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/unity-dash-intro.page:40
-msgid "—— 打印机 - 配置打印机设备"
+#: C/unity-dash-intro.page:33
+msgid "—— 时间和语言 - 对系统的时间、日期、时区、语言进行设置"
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/unity-dash-intro.page:41
-msgid "—— 电源管理 - 对电源选项、屏幕保护进行设置"
+#: C/unity-dash-intro.page:34
+msgid "—— 更新和安全 - 设置系统的更新，对系统进行备份或恢复"
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/unity-dash-intro.page:42
-msgid "—— 键盘 - 对键盘通用设置、布局和快捷键进行设置"
-msgstr ""
-
-#. (itstool) path: section/p
-#: C/unity-dash-intro.page:43
-msgid "—— 声音 - 对系统声音效果、输入输出设备进行设置"
-msgstr ""
-
-#. (itstool) path: section/p
-#: C/unity-dash-intro.page:44
-msgid "—— 鼠标 - 对鼠标操作和响应进行设置"
-msgstr ""
-
-#. (itstool) path: section/p
-#: C/unity-dash-intro.page:45
-msgid "—— 显示器 - 设置显示器分辨率、显示方向等"
-msgstr ""
-
-#. (itstool) path: section/p
-#: C/unity-dash-intro.page:46
-msgid "—— 网络连接 - 配置系统网络"
-msgstr ""
-
-#. (itstool) path: section/p
-#: C/unity-dash-intro.page:47
-msgid "—— 网络代理 - 配置网络代理服务器进行配置"
+#: C/unity-dash-intro.page:35
+msgid "—— 信息和任务 - 查看系统通知，了解关于系统的信息等"
 msgstr ""
 
 #. (itstool) path: info/desc
@@ -16018,12 +15954,12 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/unity-introduction.page:40
-msgid "秉承着“做最有中国味的操作系统”的理念，为进一步提升普通用户的使用体验，我们在基于Unity7进行桌面风格定制调整的同时，最大程度考虑中国用户原有的使用习惯，打造了一款更适合中国用户使用的桌面系统环境——UKUI。"
+msgid "秉承着“简洁、卓越、全面、众智”的理念，为进一步提升普通用户的使用体验，我们在基于Unity7进行桌面风格定制调整的同时，最大程度考虑中国用户原有的使用习惯，打造了一款更适合中国用户使用的桌面系统环境——UKUI。"
 msgstr ""
 
 #. (itstool) path: page/p
 #: C/unity-introduction.page:43
-msgid "UKUI是基于 Mate 的定制桌面，从开始菜单、控制面板、桌面任务栏以及桌面主题图标等不同层面进行了重新设计和实现，让用户能够更方便快速的适应系统使用。其主要特色包括："
+msgid "UKUI是基于QT开发全新桌面环境，从开始菜单、控制面板、桌面任务栏以及桌面主题图标等不同层面进行了重新设计和实现，让用户能够更方便快速的适应系统使用。其主要特色包括："
 msgstr ""
 
 #. (itstool) path: section/title
@@ -16038,7 +15974,7 @@ msgstr ""
 #. whatever you like once you have updated your copy of the file.
 #: C/unity-introduction.page:48
 msgctxt "_"
-msgid "external ref='figures/ukui/1-ukui.png' md5='f673a3c390cf69f59f95d5f739583430'"
+msgid "external ref='figures/ukui/1-ukui.png' md5='70fd3235680e6b883728a1d9d5f5de1b'"
 msgstr ""
 
 #. (itstool) path: media/p
@@ -16058,7 +15994,7 @@ msgstr ""
 #. whatever you like once you have updated your copy of the file.
 #: C/unity-introduction.page:55
 msgctxt "_"
-msgid "external ref='figures/ukui/2-ukui-menu.png' md5='413d1308c7d099064d41e4bdf9161775'"
+msgid "external ref='figures/ukui/2-ukui-menu.png' md5='0ea4a3c1233eb887dca76025dba19917'"
 msgstr ""
 
 #. (itstool) path: media/p
@@ -16078,7 +16014,7 @@ msgstr ""
 #. whatever you like once you have updated your copy of the file.
 #: C/unity-introduction.page:62
 msgctxt "_"
-msgid "external ref='figures/ukui/3-ukui-control-center.png' md5='82ba9af42ee38c856c5d54d035d83a54'"
+msgid "external ref='figures/ukui/3-ukui-control-center.png' md5='c5b465509369e0f6335b9367c052fcb0'"
 msgstr ""
 
 #. (itstool) path: media/p
@@ -16098,7 +16034,7 @@ msgstr ""
 #. whatever you like once you have updated your copy of the file.
 #: C/unity-introduction.page:69
 msgctxt "_"
-msgid "external ref='figures/ukui/4-peony.png' md5='b36672369fef5cedf4cdce921abfbd3e'"
+msgid "external ref='figures/ukui/4-peony.png' md5='7a87bd904f21341dfab11bbf3f4150dd'"
 msgstr ""
 
 #. (itstool) path: media/p
@@ -16193,12 +16129,7 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/unity-launcher-intro.page:21
-msgid "单击开始菜单弹出系统菜单，左侧显示四个分类常用软件、所有软件、我的电脑、控制面板。"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/unity-launcher-intro.page:24
-msgid "在常用软件中，列出最近使用过的软件"
+msgid "单击开始菜单弹出系统菜单，默认以字母排序的方式显示系统中的应用。"
 msgstr ""
 
 #. (itstool) path: page/media
@@ -16206,14 +16137,14 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
+#: C/unity-launcher-intro.page:22
+msgctxt "_"
+msgid "external ref='figures/ukui/6-start1.png' md5='60cf06057e0bbb0013529b22f2fdfe89'"
+msgstr ""
+
+#. (itstool) path: item/p
 #: C/unity-launcher-intro.page:26
-msgctxt "_"
-msgid "external ref='figures/ukui/6-start1.png' md5='6511ec22c555a2e0ae785f8fab627203'"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/unity-launcher-intro.page:30
-msgid "所有软件中将会列出系统所有软件；为了便于用户快速定位应用程序，系统进行了应用分类"
+msgid "通过右上侧按钮，可选择全屏显示开始菜单、显示常用软件和按功能分类软件。如下图所示，为全屏开始菜单。"
 msgstr ""
 
 #. (itstool) path: page/media
@@ -16221,9 +16152,24 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/unity-launcher-intro.page:32
+#: C/unity-launcher-intro.page:28
 msgctxt "_"
-msgid "external ref='figures/ukui/7-start2.png' md5='fa1736a8638fbdf08b624db23782f856'"
+msgid "external ref='figures/ukui/7-start2.png' md5='4ee257fc9b8d2268fb3bf2491ae65755'"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/unity-launcher-intro.page:32
+msgid "通过右下侧按钮，可进入用户信息查看与设置、我的电脑、控制面板和关机对话框。"
+msgstr ""
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/unity-launcher-intro.page:34
+msgctxt "_"
+msgid "external ref='figures/ukui/a-start1.png' md5='b79ec9f3a762d17f239eebd47940dfb9'"
 msgstr ""
 
 #. (itstool) path: credit/name
@@ -16343,7 +16289,7 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/unity-menubar-intro.page:25
-msgid "(1)命名：系统文件名长度最大可以为255个字符，通常是由字母、数字、“.”（点号）、“_”（下划线）和“-”（减号）组成的，“-”不能为文件名首字母"
+msgid "(1)命名：系统文件名长度最大可以为255个字符，通常是由字母、数字、“.”（点号）、“_”（下划线）和“-”（减号）组成的"
 msgstr ""
 
 #. (itstool) path: section/p
@@ -16363,7 +16309,7 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/unity-menubar-intro.page:32
-msgid "(1)菜单栏：位于标题栏下方，可完成对文件管理器外观、操作的设置和文件的管理工作"
+msgid "(1)快捷操作图标：位于窗口首行的两侧，可新建文件夹、打开终端，选择文件的排序方式以及提供了一些其他配置选项"
 msgstr ""
 
 #. (itstool) path: section/media
@@ -16373,7 +16319,7 @@ msgstr ""
 #. whatever you like once you have updated your copy of the file.
 #: C/unity-menubar-intro.page:33
 msgctxt "_"
-msgid "external ref='figures/ukui/10-files1.png' md5='09be7b016988f62f4714913aca749abe'"
+msgid "external ref='figures/ukui/10-files1.png' md5='4b5db9d04844384d5bd157cad70d27a1'"
 msgstr ""
 
 #. (itstool) path: section/p
@@ -16388,7 +16334,7 @@ msgstr ""
 #. whatever you like once you have updated your copy of the file.
 #: C/unity-menubar-intro.page:36
 msgctxt "_"
-msgid "external ref='figures/ukui/11-files2.png' md5='26e3d89b54a67905216c86ed5ca2a2cc'"
+msgid "external ref='figures/ukui/11-files2.png' md5='152cd0a502f6988b057145e486bb9895'"
 msgstr ""
 
 #. (itstool) path: section/p
@@ -16403,7 +16349,7 @@ msgstr ""
 #. whatever you like once you have updated your copy of the file.
 #: C/unity-menubar-intro.page:39
 msgctxt "_"
-msgid "external ref='figures/ukui/12-files3.png' md5='60e0f1f6bf6dcfc5961af92ad7e23c0d'"
+msgid "external ref='figures/ukui/12-files3.png' md5='82ba831b4367c81a0dfe5a89f74f40d0'"
 msgstr ""
 
 #. (itstool) path: info/desc
@@ -17531,7 +17477,7 @@ msgstr ""
 #. whatever you like once you have updated your copy of the file.
 #: C/whats-new.page:40
 msgctxt "_"
-msgid "external ref='figures/ukui/5-bottom.png' md5='61a1462ee27e554f02f9b7b15db95c66'"
+msgid "external ref='figures/ukui/5-bottom.png' md5='960295eb036a01cd9f52dce5bbcd0713'"
 msgstr ""
 
 #. (itstool) path: section/p
