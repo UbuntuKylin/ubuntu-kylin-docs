@@ -1,3 +1,14 @@
+ubuntu-kylin-docs (20.04.0) focal; urgency=medium
+
+  * Update the screenshots and some strings.
+  * debian:
+    - Use debhelper-compat instead of debhelper.
+    - Set Rules-Requires-Root to no.
+    - Update the vcs info.
+    - Update the rules.
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Wed, 25 Mar 2020 20:08:56 +0800
+
 ubuntu-kylin-docs (18.10.0) cosmic; urgency=medium
 
   * Update to ubuntu kylin 18.10

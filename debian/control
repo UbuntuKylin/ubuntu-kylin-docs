@@ -1,15 +1,17 @@
 Source: ubuntu-kylin-docs
 Section: doc
 Priority: optional
-Maintainer: Ubuntu Kylin Documentation Team <jianfengli@ubuntukylin.com>
-Build-Depends: debhelper (>= 10), cdbs
+Maintainer: Ubuntu Kylin Documentation Team <ubuntukylin-members@lists.launchpad.net>
+Uploaders: handsome_feng <jianfengli@ubuntukylin.com>
+Build-Depends: debhelper-compat (= 12),
 Build-Depends-Indep: gnome-common,
                      pkg-config,
                      yelp-tools
-Standards-Version: 4.2.1
-Homepage: https://launchpad.net/ubuntu-kylin-docs
-Vcs-Bzr: https://code.launchpad.net/~feng-kylin/ubuntu-kylin-docs/ubuntu-kylin-docs
-Vcs-Browser: https://code.launchpad.net/~feng-kylin/ubuntu-kylin-docs/ubuntu-kylin-docs
+Standards-Version: 4.5.0
+Rules-Requires-Root: no
+Homepage: https://github.com/ubuntukylin/ubuntu-kylin-docs
+Vcs-Git: https://github.com/ubuntukylin/ubuntu-kylin-docs.git
+Vcs-Browser: https://github.com/ubuntukylin/ubuntu-kylin-docs
 
 Package: ubuntu-kylin-docs
 Architecture: all

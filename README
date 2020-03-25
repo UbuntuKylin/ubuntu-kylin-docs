@@ -12,8 +12,8 @@ Launchpad project and are uploaded periodically by the UKDP. Please do
 not sponsor or upload new packages without consulting with the UKDP.
 
 Homepage: http://www.ubuntukylin.com
-Launchpad project: https://launchpad.net/ubuntu-kylin-docs
-Bzr: https://code.launchpad.net/ubuntu-kylin-docs
+Github project: https://github.com/ukui/ubuntu-kylin-docs.git
+Git: https://github.com/ukui/ubuntu-kylin-docs
 
 ubuntu-docs
 ===============
